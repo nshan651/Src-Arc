@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/nick/dl/neovim/.deps/build/src/unibilium/unibilium.c" "CMakeFiles/unibilium.dir/unibilium.c.o" "gcc" "CMakeFiles/unibilium.dir/unibilium.c.o.d"
-  "/home/nick/dl/neovim/.deps/build/src/unibilium/uninames.c" "CMakeFiles/unibilium.dir/uninames.c.o" "gcc" "CMakeFiles/unibilium.dir/uninames.c.o.d"
-  "/home/nick/dl/neovim/.deps/build/src/unibilium/uniutil.c" "CMakeFiles/unibilium.dir/uniutil.c.o" "gcc" "CMakeFiles/unibilium.dir/uniutil.c.o.d"
+  "/home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/unibilium.c" "CMakeFiles/unibilium.dir/unibilium.c.o" "gcc" "CMakeFiles/unibilium.dir/unibilium.c.o.d"
+  "/home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/uninames.c" "CMakeFiles/unibilium.dir/uninames.c.o" "gcc" "CMakeFiles/unibilium.dir/uninames.c.o.d"
+  "/home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/uniutil.c" "CMakeFiles/unibilium.dir/uniutil.c.o" "gcc" "CMakeFiles/unibilium.dir/uniutil.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /home/nick/dl/neovim/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /home/nick/dl/neovim/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/nick/dl/neovim/build/CPackSourceConfig.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/nick/git/Src-Arc/neovim/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/build/CMakeFiles /home/nick/dl/neovim/build/src/nvim/po//CMakeFiles/progress.marks
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/build/CMakeFiles 0
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/build/CMakeFiles /home/nick/git/Src-Arc/neovim/build/src/nvim/po//CMakeFiles/progress.marks
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/clean
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,23 +168,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/preinstall
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/preinstall
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -P /home/nick/dl/neovim/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -P /home/nick/git/Src-Arc/neovim/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-ja.euc-jp.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-ja.euc-jp.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-ja.euc-jp.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-ja.euc-jp.dir/rule
 
 # Convenience name for target.
@@ -193,12 +193,12 @@ update-po-ja.euc-jp: src/nvim/po/CMakeFiles/update-po-ja.euc-jp.dir/rule
 
 # fast build rule for target.
 update-po-ja.euc-jp/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-ja.euc-jp.dir/build.make src/nvim/po/CMakeFiles/update-po-ja.euc-jp.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-ja.euc-jp.dir/build.make src/nvim/po/CMakeFiles/update-po-ja.euc-jp.dir/build
 .PHONY : update-po-ja.euc-jp/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-ja.euc-jp.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-ja.euc-jp.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-ja.euc-jp.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-ja.euc-jp.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ check-po-ja.euc-jp: src/nvim/po/CMakeFiles/check-po-ja.euc-jp.dir/rule
 
 # fast build rule for target.
 check-po-ja.euc-jp/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-ja.euc-jp.dir/build.make src/nvim/po/CMakeFiles/check-po-ja.euc-jp.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-ja.euc-jp.dir/build.make src/nvim/po/CMakeFiles/check-po-ja.euc-jp.dir/build
 .PHONY : check-po-ja.euc-jp/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-cs.cp1250.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-cs.cp1250.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-cs.cp1250.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-cs.cp1250.dir/rule
 
 # Convenience name for target.
@@ -221,12 +221,12 @@ update-po-cs.cp1250: src/nvim/po/CMakeFiles/update-po-cs.cp1250.dir/rule
 
 # fast build rule for target.
 update-po-cs.cp1250/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-cs.cp1250.dir/build.make src/nvim/po/CMakeFiles/update-po-cs.cp1250.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-cs.cp1250.dir/build.make src/nvim/po/CMakeFiles/update-po-cs.cp1250.dir/build
 .PHONY : update-po-cs.cp1250/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-cs.cp1250.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-cs.cp1250.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-cs.cp1250.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-cs.cp1250.dir/rule
 
 # Convenience name for target.
@@ -235,12 +235,12 @@ check-po-cs.cp1250: src/nvim/po/CMakeFiles/check-po-cs.cp1250.dir/rule
 
 # fast build rule for target.
 check-po-cs.cp1250/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-cs.cp1250.dir/build.make src/nvim/po/CMakeFiles/check-po-cs.cp1250.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-cs.cp1250.dir/build.make src/nvim/po/CMakeFiles/check-po-cs.cp1250.dir/build
 .PHONY : check-po-cs.cp1250/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-sk.cp1250.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-sk.cp1250.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-sk.cp1250.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-sk.cp1250.dir/rule
 
 # Convenience name for target.
@@ -249,12 +249,12 @@ update-po-sk.cp1250: src/nvim/po/CMakeFiles/update-po-sk.cp1250.dir/rule
 
 # fast build rule for target.
 update-po-sk.cp1250/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-sk.cp1250.dir/build.make src/nvim/po/CMakeFiles/update-po-sk.cp1250.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-sk.cp1250.dir/build.make src/nvim/po/CMakeFiles/update-po-sk.cp1250.dir/build
 .PHONY : update-po-sk.cp1250/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-sk.cp1250.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-sk.cp1250.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-sk.cp1250.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-sk.cp1250.dir/rule
 
 # Convenience name for target.
@@ -263,12 +263,12 @@ check-po-sk.cp1250: src/nvim/po/CMakeFiles/check-po-sk.cp1250.dir/rule
 
 # fast build rule for target.
 check-po-sk.cp1250/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-sk.cp1250.dir/build.make src/nvim/po/CMakeFiles/check-po-sk.cp1250.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-sk.cp1250.dir/build.make src/nvim/po/CMakeFiles/check-po-sk.cp1250.dir/build
 .PHONY : check-po-sk.cp1250/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-nb.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-nb.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-nb.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-nb.dir/rule
 
 # Convenience name for target.
@@ -277,12 +277,12 @@ update-po-nb: src/nvim/po/CMakeFiles/update-po-nb.dir/rule
 
 # fast build rule for target.
 update-po-nb/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-nb.dir/build.make src/nvim/po/CMakeFiles/update-po-nb.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-nb.dir/build.make src/nvim/po/CMakeFiles/update-po-nb.dir/build
 .PHONY : update-po-nb/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-nb.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-nb.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-nb.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-nb.dir/rule
 
 # Convenience name for target.
@@ -291,12 +291,12 @@ check-po-nb: src/nvim/po/CMakeFiles/check-po-nb.dir/rule
 
 # fast build rule for target.
 check-po-nb/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-nb.dir/build.make src/nvim/po/CMakeFiles/check-po-nb.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-nb.dir/build.make src/nvim/po/CMakeFiles/check-po-nb.dir/build
 .PHONY : check-po-nb/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-af.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-af.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-af.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-af.dir/rule
 
 # Convenience name for target.
@@ -305,12 +305,12 @@ update-po-af: src/nvim/po/CMakeFiles/update-po-af.dir/rule
 
 # fast build rule for target.
 update-po-af/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-af.dir/build.make src/nvim/po/CMakeFiles/update-po-af.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-af.dir/build.make src/nvim/po/CMakeFiles/update-po-af.dir/build
 .PHONY : update-po-af/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-af.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-af.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-af.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-af.dir/rule
 
 # Convenience name for target.
@@ -319,12 +319,12 @@ check-po-af: src/nvim/po/CMakeFiles/check-po-af.dir/rule
 
 # fast build rule for target.
 check-po-af/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-af.dir/build.make src/nvim/po/CMakeFiles/check-po-af.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-af.dir/build.make src/nvim/po/CMakeFiles/check-po-af.dir/build
 .PHONY : check-po-af/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-ca.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-ca.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-ca.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-ca.dir/rule
 
 # Convenience name for target.
@@ -333,12 +333,12 @@ update-po-ca: src/nvim/po/CMakeFiles/update-po-ca.dir/rule
 
 # fast build rule for target.
 update-po-ca/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-ca.dir/build.make src/nvim/po/CMakeFiles/update-po-ca.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-ca.dir/build.make src/nvim/po/CMakeFiles/update-po-ca.dir/build
 .PHONY : update-po-ca/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-ca.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-ca.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-ca.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-ca.dir/rule
 
 # Convenience name for target.
@@ -347,12 +347,12 @@ check-po-ca: src/nvim/po/CMakeFiles/check-po-ca.dir/rule
 
 # fast build rule for target.
 check-po-ca/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-ca.dir/build.make src/nvim/po/CMakeFiles/check-po-ca.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-ca.dir/build.make src/nvim/po/CMakeFiles/check-po-ca.dir/build
 .PHONY : check-po-ca/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-cs.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-cs.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-cs.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-cs.dir/rule
 
 # Convenience name for target.
@@ -361,12 +361,12 @@ update-po-cs: src/nvim/po/CMakeFiles/update-po-cs.dir/rule
 
 # fast build rule for target.
 update-po-cs/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-cs.dir/build.make src/nvim/po/CMakeFiles/update-po-cs.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-cs.dir/build.make src/nvim/po/CMakeFiles/update-po-cs.dir/build
 .PHONY : update-po-cs/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-cs.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-cs.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-cs.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-cs.dir/rule
 
 # Convenience name for target.
@@ -375,12 +375,12 @@ check-po-cs: src/nvim/po/CMakeFiles/check-po-cs.dir/rule
 
 # fast build rule for target.
 check-po-cs/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-cs.dir/build.make src/nvim/po/CMakeFiles/check-po-cs.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-cs.dir/build.make src/nvim/po/CMakeFiles/check-po-cs.dir/build
 .PHONY : check-po-cs/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-da.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-da.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-da.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-da.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ update-po-da: src/nvim/po/CMakeFiles/update-po-da.dir/rule
 
 # fast build rule for target.
 update-po-da/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-da.dir/build.make src/nvim/po/CMakeFiles/update-po-da.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-da.dir/build.make src/nvim/po/CMakeFiles/update-po-da.dir/build
 .PHONY : update-po-da/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-da.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-da.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-da.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-da.dir/rule
 
 # Convenience name for target.
@@ -403,12 +403,12 @@ check-po-da: src/nvim/po/CMakeFiles/check-po-da.dir/rule
 
 # fast build rule for target.
 check-po-da/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-da.dir/build.make src/nvim/po/CMakeFiles/check-po-da.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-da.dir/build.make src/nvim/po/CMakeFiles/check-po-da.dir/build
 .PHONY : check-po-da/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-de.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-de.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-de.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-de.dir/rule
 
 # Convenience name for target.
@@ -417,12 +417,12 @@ update-po-de: src/nvim/po/CMakeFiles/update-po-de.dir/rule
 
 # fast build rule for target.
 update-po-de/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-de.dir/build.make src/nvim/po/CMakeFiles/update-po-de.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-de.dir/build.make src/nvim/po/CMakeFiles/update-po-de.dir/build
 .PHONY : update-po-de/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-de.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-de.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-de.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-de.dir/rule
 
 # Convenience name for target.
@@ -431,12 +431,12 @@ check-po-de: src/nvim/po/CMakeFiles/check-po-de.dir/rule
 
 # fast build rule for target.
 check-po-de/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-de.dir/build.make src/nvim/po/CMakeFiles/check-po-de.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-de.dir/build.make src/nvim/po/CMakeFiles/check-po-de.dir/build
 .PHONY : check-po-de/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-en_GB.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-en_GB.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-en_GB.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-en_GB.dir/rule
 
 # Convenience name for target.
@@ -445,12 +445,12 @@ update-po-en_GB: src/nvim/po/CMakeFiles/update-po-en_GB.dir/rule
 
 # fast build rule for target.
 update-po-en_GB/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-en_GB.dir/build.make src/nvim/po/CMakeFiles/update-po-en_GB.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-en_GB.dir/build.make src/nvim/po/CMakeFiles/update-po-en_GB.dir/build
 .PHONY : update-po-en_GB/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-en_GB.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-en_GB.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-en_GB.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-en_GB.dir/rule
 
 # Convenience name for target.
@@ -459,12 +459,12 @@ check-po-en_GB: src/nvim/po/CMakeFiles/check-po-en_GB.dir/rule
 
 # fast build rule for target.
 check-po-en_GB/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-en_GB.dir/build.make src/nvim/po/CMakeFiles/check-po-en_GB.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-en_GB.dir/build.make src/nvim/po/CMakeFiles/check-po-en_GB.dir/build
 .PHONY : check-po-en_GB/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-eo.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-eo.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-eo.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-eo.dir/rule
 
 # Convenience name for target.
@@ -473,12 +473,12 @@ update-po-eo: src/nvim/po/CMakeFiles/update-po-eo.dir/rule
 
 # fast build rule for target.
 update-po-eo/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-eo.dir/build.make src/nvim/po/CMakeFiles/update-po-eo.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-eo.dir/build.make src/nvim/po/CMakeFiles/update-po-eo.dir/build
 .PHONY : update-po-eo/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-eo.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-eo.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-eo.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-eo.dir/rule
 
 # Convenience name for target.
@@ -487,12 +487,12 @@ check-po-eo: src/nvim/po/CMakeFiles/check-po-eo.dir/rule
 
 # fast build rule for target.
 check-po-eo/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-eo.dir/build.make src/nvim/po/CMakeFiles/check-po-eo.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-eo.dir/build.make src/nvim/po/CMakeFiles/check-po-eo.dir/build
 .PHONY : check-po-eo/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-es.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-es.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-es.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-es.dir/rule
 
 # Convenience name for target.
@@ -501,12 +501,12 @@ update-po-es: src/nvim/po/CMakeFiles/update-po-es.dir/rule
 
 # fast build rule for target.
 update-po-es/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-es.dir/build.make src/nvim/po/CMakeFiles/update-po-es.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-es.dir/build.make src/nvim/po/CMakeFiles/update-po-es.dir/build
 .PHONY : update-po-es/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-es.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-es.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-es.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-es.dir/rule
 
 # Convenience name for target.
@@ -515,12 +515,12 @@ check-po-es: src/nvim/po/CMakeFiles/check-po-es.dir/rule
 
 # fast build rule for target.
 check-po-es/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-es.dir/build.make src/nvim/po/CMakeFiles/check-po-es.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-es.dir/build.make src/nvim/po/CMakeFiles/check-po-es.dir/build
 .PHONY : check-po-es/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-fi.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-fi.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-fi.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-fi.dir/rule
 
 # Convenience name for target.
@@ -529,12 +529,12 @@ update-po-fi: src/nvim/po/CMakeFiles/update-po-fi.dir/rule
 
 # fast build rule for target.
 update-po-fi/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-fi.dir/build.make src/nvim/po/CMakeFiles/update-po-fi.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-fi.dir/build.make src/nvim/po/CMakeFiles/update-po-fi.dir/build
 .PHONY : update-po-fi/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-fi.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-fi.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-fi.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-fi.dir/rule
 
 # Convenience name for target.
@@ -543,12 +543,12 @@ check-po-fi: src/nvim/po/CMakeFiles/check-po-fi.dir/rule
 
 # fast build rule for target.
 check-po-fi/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-fi.dir/build.make src/nvim/po/CMakeFiles/check-po-fi.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-fi.dir/build.make src/nvim/po/CMakeFiles/check-po-fi.dir/build
 .PHONY : check-po-fi/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-fr.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-fr.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-fr.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-fr.dir/rule
 
 # Convenience name for target.
@@ -557,12 +557,12 @@ update-po-fr: src/nvim/po/CMakeFiles/update-po-fr.dir/rule
 
 # fast build rule for target.
 update-po-fr/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-fr.dir/build.make src/nvim/po/CMakeFiles/update-po-fr.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-fr.dir/build.make src/nvim/po/CMakeFiles/update-po-fr.dir/build
 .PHONY : update-po-fr/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-fr.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-fr.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-fr.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-fr.dir/rule
 
 # Convenience name for target.
@@ -571,12 +571,12 @@ check-po-fr: src/nvim/po/CMakeFiles/check-po-fr.dir/rule
 
 # fast build rule for target.
 check-po-fr/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-fr.dir/build.make src/nvim/po/CMakeFiles/check-po-fr.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-fr.dir/build.make src/nvim/po/CMakeFiles/check-po-fr.dir/build
 .PHONY : check-po-fr/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-ga.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-ga.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-ga.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-ga.dir/rule
 
 # Convenience name for target.
@@ -585,12 +585,12 @@ update-po-ga: src/nvim/po/CMakeFiles/update-po-ga.dir/rule
 
 # fast build rule for target.
 update-po-ga/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-ga.dir/build.make src/nvim/po/CMakeFiles/update-po-ga.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-ga.dir/build.make src/nvim/po/CMakeFiles/update-po-ga.dir/build
 .PHONY : update-po-ga/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-ga.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-ga.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-ga.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-ga.dir/rule
 
 # Convenience name for target.
@@ -599,12 +599,12 @@ check-po-ga: src/nvim/po/CMakeFiles/check-po-ga.dir/rule
 
 # fast build rule for target.
 check-po-ga/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-ga.dir/build.make src/nvim/po/CMakeFiles/check-po-ga.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-ga.dir/build.make src/nvim/po/CMakeFiles/check-po-ga.dir/build
 .PHONY : check-po-ga/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-it.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-it.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-it.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-it.dir/rule
 
 # Convenience name for target.
@@ -613,12 +613,12 @@ update-po-it: src/nvim/po/CMakeFiles/update-po-it.dir/rule
 
 # fast build rule for target.
 update-po-it/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-it.dir/build.make src/nvim/po/CMakeFiles/update-po-it.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-it.dir/build.make src/nvim/po/CMakeFiles/update-po-it.dir/build
 .PHONY : update-po-it/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-it.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-it.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-it.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-it.dir/rule
 
 # Convenience name for target.
@@ -627,12 +627,12 @@ check-po-it: src/nvim/po/CMakeFiles/check-po-it.dir/rule
 
 # fast build rule for target.
 check-po-it/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-it.dir/build.make src/nvim/po/CMakeFiles/check-po-it.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-it.dir/build.make src/nvim/po/CMakeFiles/check-po-it.dir/build
 .PHONY : check-po-it/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-ja.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-ja.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-ja.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-ja.dir/rule
 
 # Convenience name for target.
@@ -641,12 +641,12 @@ update-po-ja: src/nvim/po/CMakeFiles/update-po-ja.dir/rule
 
 # fast build rule for target.
 update-po-ja/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-ja.dir/build.make src/nvim/po/CMakeFiles/update-po-ja.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-ja.dir/build.make src/nvim/po/CMakeFiles/update-po-ja.dir/build
 .PHONY : update-po-ja/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-ja.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-ja.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-ja.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-ja.dir/rule
 
 # Convenience name for target.
@@ -655,12 +655,12 @@ check-po-ja: src/nvim/po/CMakeFiles/check-po-ja.dir/rule
 
 # fast build rule for target.
 check-po-ja/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-ja.dir/build.make src/nvim/po/CMakeFiles/check-po-ja.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-ja.dir/build.make src/nvim/po/CMakeFiles/check-po-ja.dir/build
 .PHONY : check-po-ja/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-ko.UTF-8.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-ko.UTF-8.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-ko.UTF-8.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-ko.UTF-8.dir/rule
 
 # Convenience name for target.
@@ -669,12 +669,12 @@ update-po-ko.UTF-8: src/nvim/po/CMakeFiles/update-po-ko.UTF-8.dir/rule
 
 # fast build rule for target.
 update-po-ko.UTF-8/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-ko.UTF-8.dir/build.make src/nvim/po/CMakeFiles/update-po-ko.UTF-8.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-ko.UTF-8.dir/build.make src/nvim/po/CMakeFiles/update-po-ko.UTF-8.dir/build
 .PHONY : update-po-ko.UTF-8/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-ko.UTF-8.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-ko.UTF-8.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-ko.UTF-8.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-ko.UTF-8.dir/rule
 
 # Convenience name for target.
@@ -683,12 +683,12 @@ check-po-ko.UTF-8: src/nvim/po/CMakeFiles/check-po-ko.UTF-8.dir/rule
 
 # fast build rule for target.
 check-po-ko.UTF-8/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-ko.UTF-8.dir/build.make src/nvim/po/CMakeFiles/check-po-ko.UTF-8.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-ko.UTF-8.dir/build.make src/nvim/po/CMakeFiles/check-po-ko.UTF-8.dir/build
 .PHONY : check-po-ko.UTF-8/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-nl.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-nl.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-nl.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-nl.dir/rule
 
 # Convenience name for target.
@@ -697,12 +697,12 @@ update-po-nl: src/nvim/po/CMakeFiles/update-po-nl.dir/rule
 
 # fast build rule for target.
 update-po-nl/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-nl.dir/build.make src/nvim/po/CMakeFiles/update-po-nl.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-nl.dir/build.make src/nvim/po/CMakeFiles/update-po-nl.dir/build
 .PHONY : update-po-nl/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-nl.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-nl.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-nl.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-nl.dir/rule
 
 # Convenience name for target.
@@ -711,12 +711,12 @@ check-po-nl: src/nvim/po/CMakeFiles/check-po-nl.dir/rule
 
 # fast build rule for target.
 check-po-nl/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-nl.dir/build.make src/nvim/po/CMakeFiles/check-po-nl.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-nl.dir/build.make src/nvim/po/CMakeFiles/check-po-nl.dir/build
 .PHONY : check-po-nl/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-no.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-no.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-no.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-no.dir/rule
 
 # Convenience name for target.
@@ -725,12 +725,12 @@ update-po-no: src/nvim/po/CMakeFiles/update-po-no.dir/rule
 
 # fast build rule for target.
 update-po-no/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-no.dir/build.make src/nvim/po/CMakeFiles/update-po-no.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-no.dir/build.make src/nvim/po/CMakeFiles/update-po-no.dir/build
 .PHONY : update-po-no/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-no.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-no.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-no.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-no.dir/rule
 
 # Convenience name for target.
@@ -739,12 +739,12 @@ check-po-no: src/nvim/po/CMakeFiles/check-po-no.dir/rule
 
 # fast build rule for target.
 check-po-no/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-no.dir/build.make src/nvim/po/CMakeFiles/check-po-no.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-no.dir/build.make src/nvim/po/CMakeFiles/check-po-no.dir/build
 .PHONY : check-po-no/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-pl.UTF-8.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-pl.UTF-8.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-pl.UTF-8.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-pl.UTF-8.dir/rule
 
 # Convenience name for target.
@@ -753,12 +753,12 @@ update-po-pl.UTF-8: src/nvim/po/CMakeFiles/update-po-pl.UTF-8.dir/rule
 
 # fast build rule for target.
 update-po-pl.UTF-8/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-pl.UTF-8.dir/build.make src/nvim/po/CMakeFiles/update-po-pl.UTF-8.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-pl.UTF-8.dir/build.make src/nvim/po/CMakeFiles/update-po-pl.UTF-8.dir/build
 .PHONY : update-po-pl.UTF-8/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-pl.UTF-8.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-pl.UTF-8.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-pl.UTF-8.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-pl.UTF-8.dir/rule
 
 # Convenience name for target.
@@ -767,12 +767,12 @@ check-po-pl.UTF-8: src/nvim/po/CMakeFiles/check-po-pl.UTF-8.dir/rule
 
 # fast build rule for target.
 check-po-pl.UTF-8/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-pl.UTF-8.dir/build.make src/nvim/po/CMakeFiles/check-po-pl.UTF-8.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-pl.UTF-8.dir/build.make src/nvim/po/CMakeFiles/check-po-pl.UTF-8.dir/build
 .PHONY : check-po-pl.UTF-8/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-pt_BR.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-pt_BR.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-pt_BR.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-pt_BR.dir/rule
 
 # Convenience name for target.
@@ -781,12 +781,12 @@ update-po-pt_BR: src/nvim/po/CMakeFiles/update-po-pt_BR.dir/rule
 
 # fast build rule for target.
 update-po-pt_BR/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-pt_BR.dir/build.make src/nvim/po/CMakeFiles/update-po-pt_BR.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-pt_BR.dir/build.make src/nvim/po/CMakeFiles/update-po-pt_BR.dir/build
 .PHONY : update-po-pt_BR/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-pt_BR.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-pt_BR.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-pt_BR.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-pt_BR.dir/rule
 
 # Convenience name for target.
@@ -795,12 +795,12 @@ check-po-pt_BR: src/nvim/po/CMakeFiles/check-po-pt_BR.dir/rule
 
 # fast build rule for target.
 check-po-pt_BR/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-pt_BR.dir/build.make src/nvim/po/CMakeFiles/check-po-pt_BR.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-pt_BR.dir/build.make src/nvim/po/CMakeFiles/check-po-pt_BR.dir/build
 .PHONY : check-po-pt_BR/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-ru.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-ru.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-ru.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-ru.dir/rule
 
 # Convenience name for target.
@@ -809,12 +809,12 @@ update-po-ru: src/nvim/po/CMakeFiles/update-po-ru.dir/rule
 
 # fast build rule for target.
 update-po-ru/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-ru.dir/build.make src/nvim/po/CMakeFiles/update-po-ru.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-ru.dir/build.make src/nvim/po/CMakeFiles/update-po-ru.dir/build
 .PHONY : update-po-ru/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-ru.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-ru.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-ru.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-ru.dir/rule
 
 # Convenience name for target.
@@ -823,12 +823,12 @@ check-po-ru: src/nvim/po/CMakeFiles/check-po-ru.dir/rule
 
 # fast build rule for target.
 check-po-ru/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-ru.dir/build.make src/nvim/po/CMakeFiles/check-po-ru.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-ru.dir/build.make src/nvim/po/CMakeFiles/check-po-ru.dir/build
 .PHONY : check-po-ru/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-sk.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-sk.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-sk.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-sk.dir/rule
 
 # Convenience name for target.
@@ -837,12 +837,12 @@ update-po-sk: src/nvim/po/CMakeFiles/update-po-sk.dir/rule
 
 # fast build rule for target.
 update-po-sk/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-sk.dir/build.make src/nvim/po/CMakeFiles/update-po-sk.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-sk.dir/build.make src/nvim/po/CMakeFiles/update-po-sk.dir/build
 .PHONY : update-po-sk/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-sk.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-sk.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-sk.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-sk.dir/rule
 
 # Convenience name for target.
@@ -851,12 +851,12 @@ check-po-sk: src/nvim/po/CMakeFiles/check-po-sk.dir/rule
 
 # fast build rule for target.
 check-po-sk/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-sk.dir/build.make src/nvim/po/CMakeFiles/check-po-sk.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-sk.dir/build.make src/nvim/po/CMakeFiles/check-po-sk.dir/build
 .PHONY : check-po-sk/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-sv.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-sv.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-sv.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-sv.dir/rule
 
 # Convenience name for target.
@@ -865,12 +865,12 @@ update-po-sv: src/nvim/po/CMakeFiles/update-po-sv.dir/rule
 
 # fast build rule for target.
 update-po-sv/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-sv.dir/build.make src/nvim/po/CMakeFiles/update-po-sv.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-sv.dir/build.make src/nvim/po/CMakeFiles/update-po-sv.dir/build
 .PHONY : update-po-sv/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-sv.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-sv.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-sv.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-sv.dir/rule
 
 # Convenience name for target.
@@ -879,12 +879,12 @@ check-po-sv: src/nvim/po/CMakeFiles/check-po-sv.dir/rule
 
 # fast build rule for target.
 check-po-sv/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-sv.dir/build.make src/nvim/po/CMakeFiles/check-po-sv.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-sv.dir/build.make src/nvim/po/CMakeFiles/check-po-sv.dir/build
 .PHONY : check-po-sv/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-tr.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-tr.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-tr.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-tr.dir/rule
 
 # Convenience name for target.
@@ -893,12 +893,12 @@ update-po-tr: src/nvim/po/CMakeFiles/update-po-tr.dir/rule
 
 # fast build rule for target.
 update-po-tr/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-tr.dir/build.make src/nvim/po/CMakeFiles/update-po-tr.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-tr.dir/build.make src/nvim/po/CMakeFiles/update-po-tr.dir/build
 .PHONY : update-po-tr/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-tr.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-tr.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-tr.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-tr.dir/rule
 
 # Convenience name for target.
@@ -907,12 +907,12 @@ check-po-tr: src/nvim/po/CMakeFiles/check-po-tr.dir/rule
 
 # fast build rule for target.
 check-po-tr/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-tr.dir/build.make src/nvim/po/CMakeFiles/check-po-tr.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-tr.dir/build.make src/nvim/po/CMakeFiles/check-po-tr.dir/build
 .PHONY : check-po-tr/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-uk.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-uk.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-uk.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-uk.dir/rule
 
 # Convenience name for target.
@@ -921,12 +921,12 @@ update-po-uk: src/nvim/po/CMakeFiles/update-po-uk.dir/rule
 
 # fast build rule for target.
 update-po-uk/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-uk.dir/build.make src/nvim/po/CMakeFiles/update-po-uk.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-uk.dir/build.make src/nvim/po/CMakeFiles/update-po-uk.dir/build
 .PHONY : update-po-uk/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-uk.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-uk.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-uk.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-uk.dir/rule
 
 # Convenience name for target.
@@ -935,12 +935,12 @@ check-po-uk: src/nvim/po/CMakeFiles/check-po-uk.dir/rule
 
 # fast build rule for target.
 check-po-uk/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-uk.dir/build.make src/nvim/po/CMakeFiles/check-po-uk.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-uk.dir/build.make src/nvim/po/CMakeFiles/check-po-uk.dir/build
 .PHONY : check-po-uk/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-vi.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-vi.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-vi.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-vi.dir/rule
 
 # Convenience name for target.
@@ -949,12 +949,12 @@ update-po-vi: src/nvim/po/CMakeFiles/update-po-vi.dir/rule
 
 # fast build rule for target.
 update-po-vi/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-vi.dir/build.make src/nvim/po/CMakeFiles/update-po-vi.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-vi.dir/build.make src/nvim/po/CMakeFiles/update-po-vi.dir/build
 .PHONY : update-po-vi/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-vi.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-vi.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-vi.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-vi.dir/rule
 
 # Convenience name for target.
@@ -963,12 +963,12 @@ check-po-vi: src/nvim/po/CMakeFiles/check-po-vi.dir/rule
 
 # fast build rule for target.
 check-po-vi/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-vi.dir/build.make src/nvim/po/CMakeFiles/check-po-vi.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-vi.dir/build.make src/nvim/po/CMakeFiles/check-po-vi.dir/build
 .PHONY : check-po-vi/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-zh_CN.UTF-8.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-zh_CN.UTF-8.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-zh_CN.UTF-8.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-zh_CN.UTF-8.dir/rule
 
 # Convenience name for target.
@@ -977,12 +977,12 @@ update-po-zh_CN.UTF-8: src/nvim/po/CMakeFiles/update-po-zh_CN.UTF-8.dir/rule
 
 # fast build rule for target.
 update-po-zh_CN.UTF-8/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-zh_CN.UTF-8.dir/build.make src/nvim/po/CMakeFiles/update-po-zh_CN.UTF-8.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-zh_CN.UTF-8.dir/build.make src/nvim/po/CMakeFiles/update-po-zh_CN.UTF-8.dir/build
 .PHONY : update-po-zh_CN.UTF-8/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-zh_CN.UTF-8.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-zh_CN.UTF-8.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-zh_CN.UTF-8.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-zh_CN.UTF-8.dir/rule
 
 # Convenience name for target.
@@ -991,12 +991,12 @@ check-po-zh_CN.UTF-8: src/nvim/po/CMakeFiles/check-po-zh_CN.UTF-8.dir/rule
 
 # fast build rule for target.
 check-po-zh_CN.UTF-8/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-zh_CN.UTF-8.dir/build.make src/nvim/po/CMakeFiles/check-po-zh_CN.UTF-8.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-zh_CN.UTF-8.dir/build.make src/nvim/po/CMakeFiles/check-po-zh_CN.UTF-8.dir/build
 .PHONY : check-po-zh_CN.UTF-8/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po-zh_TW.UTF-8.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-zh_TW.UTF-8.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po-zh_TW.UTF-8.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po-zh_TW.UTF-8.dir/rule
 
 # Convenience name for target.
@@ -1005,12 +1005,12 @@ update-po-zh_TW.UTF-8: src/nvim/po/CMakeFiles/update-po-zh_TW.UTF-8.dir/rule
 
 # fast build rule for target.
 update-po-zh_TW.UTF-8/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-zh_TW.UTF-8.dir/build.make src/nvim/po/CMakeFiles/update-po-zh_TW.UTF-8.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po-zh_TW.UTF-8.dir/build.make src/nvim/po/CMakeFiles/update-po-zh_TW.UTF-8.dir/build
 .PHONY : update-po-zh_TW.UTF-8/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/check-po-zh_TW.UTF-8.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-zh_TW.UTF-8.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/check-po-zh_TW.UTF-8.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/check-po-zh_TW.UTF-8.dir/rule
 
 # Convenience name for target.
@@ -1019,12 +1019,12 @@ check-po-zh_TW.UTF-8: src/nvim/po/CMakeFiles/check-po-zh_TW.UTF-8.dir/rule
 
 # fast build rule for target.
 check-po-zh_TW.UTF-8/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-zh_TW.UTF-8.dir/build.make src/nvim/po/CMakeFiles/check-po-zh_TW.UTF-8.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/check-po-zh_TW.UTF-8.dir/build.make src/nvim/po/CMakeFiles/check-po-zh_TW.UTF-8.dir/build
 .PHONY : check-po-zh_TW.UTF-8/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/translations.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/translations.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/translations.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/translations.dir/rule
 
 # Convenience name for target.
@@ -1033,12 +1033,12 @@ translations: src/nvim/po/CMakeFiles/translations.dir/rule
 
 # fast build rule for target.
 translations/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/translations.dir/build.make src/nvim/po/CMakeFiles/translations.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/translations.dir/build.make src/nvim/po/CMakeFiles/translations.dir/build
 .PHONY : translations/fast
 
 # Convenience name for target.
 src/nvim/po/CMakeFiles/update-po.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/po/CMakeFiles/update-po.dir/rule
 .PHONY : src/nvim/po/CMakeFiles/update-po.dir/rule
 
 # Convenience name for target.
@@ -1047,7 +1047,7 @@ update-po: src/nvim/po/CMakeFiles/update-po.dir/rule
 
 # fast build rule for target.
 update-po/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po.dir/build.make src/nvim/po/CMakeFiles/update-po.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/po/CMakeFiles/update-po.dir/build.make src/nvim/po/CMakeFiles/update-po.dir/build
 .PHONY : update-po/fast
 
 # Help Target
@@ -1137,7 +1137,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -P /home/nick/dl/neovim/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -P /home/nick/git/Src-Arc/neovim/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

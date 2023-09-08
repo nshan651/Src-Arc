@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "/home/nick/dl/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/nick/dl/neovim/.deps/build/src/luv" ABSOLUTE)
+get_filename_component(filename "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz" ABSOLUTE)
+get_filename_component(directory "/home/nick/git/Src-Arc/neovim/.deps/build/src/luv" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 # Utility rule file for lintlua-stylua.
 
@@ -79,6 +79,6 @@ CMakeFiles/lintlua-stylua.dir/clean:
 .PHONY : CMakeFiles/lintlua-stylua.dir/clean
 
 CMakeFiles/lintlua-stylua.dir/depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim /home/nick/dl/neovim /home/nick/dl/neovim/build /home/nick/dl/neovim/build /home/nick/dl/neovim/build/CMakeFiles/lintlua-stylua.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build/CMakeFiles/lintlua-stylua.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/lintlua-stylua.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/.deps/build/src/luv
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/.deps/build/src/luv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps/build/src/luv-static-build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/libluv_a.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/libluv_a.dir/progress.make
 include CMakeFiles/libluv_a.dir/flags.make
 
 CMakeFiles/libluv_a.dir/src/luv.c.o: CMakeFiles/libluv_a.dir/flags.make
-CMakeFiles/libluv_a.dir/src/luv.c.o: /home/nick/dl/neovim/.deps/build/src/luv/src/luv.c
+CMakeFiles/libluv_a.dir/src/luv.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/luv/src/luv.c
 CMakeFiles/libluv_a.dir/src/luv.c.o: CMakeFiles/libluv_a.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/luv-static-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/libluv_a.dir/src/luv.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libluv_a.dir/src/luv.c.o -MF CMakeFiles/libluv_a.dir/src/luv.c.o.d -o CMakeFiles/libluv_a.dir/src/luv.c.o -c /home/nick/dl/neovim/.deps/build/src/luv/src/luv.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/libluv_a.dir/src/luv.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libluv_a.dir/src/luv.c.o -MF CMakeFiles/libluv_a.dir/src/luv.c.o.d -o CMakeFiles/libluv_a.dir/src/luv.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/luv/src/luv.c
 
 CMakeFiles/libluv_a.dir/src/luv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/libluv_a.dir/src/luv.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/luv/src/luv.c > CMakeFiles/libluv_a.dir/src/luv.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/luv/src/luv.c > CMakeFiles/libluv_a.dir/src/luv.c.i
 
 CMakeFiles/libluv_a.dir/src/luv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/libluv_a.dir/src/luv.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/luv/src/luv.c -o CMakeFiles/libluv_a.dir/src/luv.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/luv/src/luv.c -o CMakeFiles/libluv_a.dir/src/luv.c.s
 
 # Object files for target libluv_a
 libluv_a_OBJECTS = \
@@ -93,7 +93,7 @@ libluv_a_EXTERNAL_OBJECTS =
 libluv.a: CMakeFiles/libluv_a.dir/src/luv.c.o
 libluv.a: CMakeFiles/libluv_a.dir/build.make
 libluv.a: CMakeFiles/libluv_a.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/dl/neovim/.deps/build/src/luv-static-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libluv.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libluv.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/libluv_a.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libluv_a.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/libluv_a.dir/clean:
 .PHONY : CMakeFiles/libluv_a.dir/clean
 
 CMakeFiles/libluv_a.dir/depend:
-	cd /home/nick/dl/neovim/.deps/build/src/luv-static-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/.deps/build/src/luv /home/nick/dl/neovim/.deps/build/src/luv /home/nick/dl/neovim/.deps/build/src/luv-static-build /home/nick/dl/neovim/.deps/build/src/luv-static-build /home/nick/dl/neovim/.deps/build/src/luv-static-build/CMakeFiles/libluv_a.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/.deps/build/src/luv /home/nick/git/Src-Arc/neovim/.deps/build/src/luv /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build/CMakeFiles/libluv_a.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/libluv_a.dir/depend
 

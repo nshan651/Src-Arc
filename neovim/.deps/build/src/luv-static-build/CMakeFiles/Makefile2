@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/.deps/build/src/luv
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/.deps/build/src/luv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps/build/src/luv-static-build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/libluv_a.dir/clean
 CMakeFiles/libluv_a.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libluv_a.dir/build.make CMakeFiles/libluv_a.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libluv_a.dir/build.make CMakeFiles/libluv_a.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/build/src/luv-static-build/CMakeFiles --progress-num=1,2 "Built target libluv_a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build/CMakeFiles --progress-num=1,2 "Built target libluv_a"
 .PHONY : CMakeFiles/libluv_a.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/libluv_a.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/build/src/luv-static-build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/libluv_a.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/build/src/luv-static-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build/CMakeFiles 0
 .PHONY : CMakeFiles/libluv_a.dir/rule
 
 # Convenience name for target.

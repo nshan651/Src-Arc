@@ -1,8 +1,8 @@
-# Install script for directory: /home/nick/dl/neovim/.deps/build/src/treesitter
+# Install script for directory: /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nick/dl/neovim/.deps/usr")
+  set(CMAKE_INSTALL_PREFIX "/home/nick/git/Src-Arc/neovim/.deps/usr")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,13 +44,13 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/tree_sitter" TYPE FILE FILES
-    "/home/nick/dl/neovim/.deps/build/src/treesitter/lib/include/tree_sitter/api.h"
-    "/home/nick/dl/neovim/.deps/build/src/treesitter/lib/include/tree_sitter/parser.h"
+    "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter/lib/include/tree_sitter/api.h"
+    "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter/lib/include/tree_sitter/parser.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/nick/dl/neovim/.deps/build/src/treesitter-build/libtree-sitter.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build/libtree-sitter.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,5 +61,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nick/dl/neovim/.deps/build/src/treesitter-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

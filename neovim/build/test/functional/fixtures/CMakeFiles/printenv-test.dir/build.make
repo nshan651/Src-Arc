@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 # Include any dependencies generated for this target.
 include test/functional/fixtures/CMakeFiles/printenv-test.dir/depend.make
@@ -70,18 +70,18 @@ include test/functional/fixtures/CMakeFiles/printenv-test.dir/progress.make
 include test/functional/fixtures/CMakeFiles/printenv-test.dir/flags.make
 
 test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.o: test/functional/fixtures/CMakeFiles/printenv-test.dir/flags.make
-test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.o: /home/nick/dl/neovim/test/functional/fixtures/printenv-test.c
+test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.o: /home/nick/git/Src-Arc/neovim/test/functional/fixtures/printenv-test.c
 test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.o: test/functional/fixtures/CMakeFiles/printenv-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.o"
-	cd /home/nick/dl/neovim/build/test/functional/fixtures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.o -MF CMakeFiles/printenv-test.dir/printenv-test.c.o.d -o CMakeFiles/printenv-test.dir/printenv-test.c.o -c /home/nick/dl/neovim/test/functional/fixtures/printenv-test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.o"
+	cd /home/nick/git/Src-Arc/neovim/build/test/functional/fixtures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.o -MF CMakeFiles/printenv-test.dir/printenv-test.c.o.d -o CMakeFiles/printenv-test.dir/printenv-test.c.o -c /home/nick/git/Src-Arc/neovim/test/functional/fixtures/printenv-test.c
 
 test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/printenv-test.dir/printenv-test.c.i"
-	cd /home/nick/dl/neovim/build/test/functional/fixtures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/test/functional/fixtures/printenv-test.c > CMakeFiles/printenv-test.dir/printenv-test.c.i
+	cd /home/nick/git/Src-Arc/neovim/build/test/functional/fixtures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/test/functional/fixtures/printenv-test.c > CMakeFiles/printenv-test.dir/printenv-test.c.i
 
 test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/printenv-test.dir/printenv-test.c.s"
-	cd /home/nick/dl/neovim/build/test/functional/fixtures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/test/functional/fixtures/printenv-test.c -o CMakeFiles/printenv-test.dir/printenv-test.c.s
+	cd /home/nick/git/Src-Arc/neovim/build/test/functional/fixtures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/test/functional/fixtures/printenv-test.c -o CMakeFiles/printenv-test.dir/printenv-test.c.s
 
 # Object files for target printenv-test
 printenv__test_OBJECTS = \
@@ -92,20 +92,20 @@ printenv__test_EXTERNAL_OBJECTS =
 
 bin/printenv-test: test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.o
 bin/printenv-test: test/functional/fixtures/CMakeFiles/printenv-test.dir/build.make
-bin/printenv-test: /home/nick/dl/neovim/.deps/usr/lib/libuv.a
+bin/printenv-test: /home/nick/git/Src-Arc/neovim/.deps/usr/lib/libuv.a
 bin/printenv-test: test/functional/fixtures/CMakeFiles/printenv-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../../../bin/printenv-test"
-	cd /home/nick/dl/neovim/build/test/functional/fixtures && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/printenv-test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../../../bin/printenv-test"
+	cd /home/nick/git/Src-Arc/neovim/build/test/functional/fixtures && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/printenv-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/functional/fixtures/CMakeFiles/printenv-test.dir/build: bin/printenv-test
 .PHONY : test/functional/fixtures/CMakeFiles/printenv-test.dir/build
 
 test/functional/fixtures/CMakeFiles/printenv-test.dir/clean:
-	cd /home/nick/dl/neovim/build/test/functional/fixtures && $(CMAKE_COMMAND) -P CMakeFiles/printenv-test.dir/cmake_clean.cmake
+	cd /home/nick/git/Src-Arc/neovim/build/test/functional/fixtures && $(CMAKE_COMMAND) -P CMakeFiles/printenv-test.dir/cmake_clean.cmake
 .PHONY : test/functional/fixtures/CMakeFiles/printenv-test.dir/clean
 
 test/functional/fixtures/CMakeFiles/printenv-test.dir/depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim /home/nick/dl/neovim/test/functional/fixtures /home/nick/dl/neovim/build /home/nick/dl/neovim/build/test/functional/fixtures /home/nick/dl/neovim/build/test/functional/fixtures/CMakeFiles/printenv-test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim/test/functional/fixtures /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build/test/functional/fixtures /home/nick/git/Src-Arc/neovim/build/test/functional/fixtures/CMakeFiles/printenv-test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/functional/fixtures/CMakeFiles/printenv-test.dir/depend
 

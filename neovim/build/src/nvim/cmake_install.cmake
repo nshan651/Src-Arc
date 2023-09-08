@@ -1,8 +1,8 @@
-# Install script for directory: /home/nick/dl/neovim/src/nvim
+# Install script for directory: /home/nick/git/Src-Arc/neovim/src/nvim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/nick/git/Src-Arc/bin")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -85,7 +85,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/nvim"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE MESSAGE_NEVER FILES "/home/nick/dl/neovim/build/bin/nvim")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE MESSAGE_NEVER FILES "/home/nick/git/Src-Arc/neovim/build/bin/nvim")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/nvim" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/nvim")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -95,16 +95,16 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/nvim/" TYPE DIRECTORY MESSAGE_NEVER FILES "/home/nick/dl/neovim/build/lib/nvim/" USE_SOURCE_PERMISSIONS)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/nvim/" TYPE DIRECTORY MESSAGE_NEVER FILES "/home/nick/git/Src-Arc/neovim/build/lib/nvim/" USE_SOURCE_PERMISSIONS)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nvim/runtime/lua" TYPE DIRECTORY MESSAGE_NEVER FILES "/home/nick/dl/neovim/.deps/usr/share/luajit-2.1/jit" USE_SOURCE_PERMISSIONS)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nvim/runtime/lua" TYPE DIRECTORY MESSAGE_NEVER FILES "/home/nick/git/Src-Arc/neovim/.deps/usr/share/luajit-2.1/jit" USE_SOURCE_PERMISSIONS)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nick/dl/neovim/build/src/nvim/po/cmake_install.cmake")
+  include("/home/nick/git/Src-Arc/neovim/build/src/nvim/po/cmake_install.cmake")
 
 endif()
 

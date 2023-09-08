@@ -1,13 +1,13 @@
 # Target labels
  lua-compat-5.3
 # Source files and their labels
-/home/nick/dl/neovim/.deps/CMakeFiles/lua-compat-5.3
-/home/nick/dl/neovim/.deps/CMakeFiles/lua-compat-5.3.rule
-/home/nick/dl/neovim/.deps/CMakeFiles/lua-compat-5.3-complete.rule
-/home/nick/dl/neovim/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-build.rule
-/home/nick/dl/neovim/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-configure.rule
-/home/nick/dl/neovim/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-download.rule
-/home/nick/dl/neovim/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-install.rule
-/home/nick/dl/neovim/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-mkdir.rule
-/home/nick/dl/neovim/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-patch.rule
-/home/nick/dl/neovim/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-update.rule
+/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/lua-compat-5.3
+/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/lua-compat-5.3.rule
+/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/lua-compat-5.3-complete.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-build.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-configure.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-download.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-install.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-mkdir.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-patch.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/lua-compat-5.3-stamp/lua-compat-5.3-update.rule

@@ -4,9 +4,9 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DINCLUDE_GENERATED_DECLARATIONS -DMAKE_LIB -D_GNU_SOURCE
 
-C_INCLUDES = -I/home/nick/dl/neovim/build/src/nvim/auto -I/home/nick/dl/neovim/build/include -I/home/nick/dl/neovim/build/cmake.config -I/home/nick/dl/neovim/src -isystem /home/nick/dl/neovim/.deps/usr/include/luajit-2.1 -isystem /home/nick/dl/neovim/.deps/usr/include
+C_INCLUDES = -I/home/nick/git/Src-Arc/neovim/build/src/nvim/auto -I/home/nick/git/Src-Arc/neovim/build/include -I/home/nick/git/Src-Arc/neovim/build/cmake.config -I/home/nick/git/Src-Arc/neovim/src -isystem /home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1 -isystem /home/nick/git/Src-Arc/neovim/.deps/usr/include
 
-C_FLAGS = -O2 -g -Og -g -Wall -Wextra -pedantic -Wno-unused-parameter -Wstrict-prototypes -std=gnu99 -Wshadow -Wconversion -Wvla -Wdouble-promotion -Wmissing-noreturn -Wmissing-format-attribute -Wmissing-prototypes -fno-common -Wno-unused-result -Wimplicit-fallthrough -fdiagnostics-color=auto -fstack-protector-strong
+C_FLAGS = -g -Wall -Wextra -pedantic -Wno-unused-parameter -Wstrict-prototypes -std=gnu99 -Wshadow -Wconversion -Wvla -Wdouble-promotion -Wmissing-noreturn -Wmissing-format-attribute -Wmissing-prototypes -fno-common -Wimplicit-fallthrough -fdiagnostics-color=auto -fstack-protector-strong
 
 # Custom flags: src/nvim/CMakeFiles/libnvim.dir/__/cjson/fpconv.c.o_FLAGS =  -Wno-conversion -Wno-missing-noreturn -Wno-missing-format-attribute -Wno-double-promotion -Wno-strict-prototypes -Wno-misleading-indentation
 

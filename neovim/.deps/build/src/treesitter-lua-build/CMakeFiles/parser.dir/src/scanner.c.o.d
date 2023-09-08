@@ -1,5 +1,5 @@
 CMakeFiles/parser.dir/src/scanner.c.o: \
- /home/nick/dl/neovim/.deps/build/src/treesitter-lua/src/scanner.c \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua/src/scanner.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
@@ -16,7 +16,7 @@ CMakeFiles/parser.dir/src/scanner.c.o: \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
  /usr/include/bits/floatn-common.h /usr/include/bits/stdio.h \
- /home/nick/dl/neovim/.deps/build/src/treesitter-lua/src/tree_sitter/parser.h \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua/src/tree_sitter/parser.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdbool.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \

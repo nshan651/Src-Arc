@@ -1,9 +1,9 @@
-# 0 "/home/nick/dl/neovim/src/nvim/event/time.c"
+# 0 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/nick/dl/neovim/src/nvim/event/time.c"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.c"
 
 
 
@@ -240,11 +240,11 @@ typedef unsigned long int uintptr_t;
 typedef __intmax_t intmax_t;
 typedef __uintmax_t uintmax_t;
 # 10 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 2 3 4
-# 5 "/home/nick/dl/neovim/src/nvim/event/time.c" 2
-# 1 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 1
-# 56 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
-# 1 "/home/nick/dl/neovim/.deps/usr/include/uv/errno.h" 1
-# 25 "/home/nick/dl/neovim/.deps/usr/include/uv/errno.h"
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 1
+# 56 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/errno.h" 1
+# 25 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/errno.h"
 # 1 "/usr/include/errno.h" 1 3 4
 # 28 "/usr/include/errno.h" 3 4
 # 1 "/usr/include/bits/errno.h" 1 3 4
@@ -289,10 +289,10 @@ typedef int error_t;
 
 
 
-# 26 "/home/nick/dl/neovim/.deps/usr/include/uv/errno.h" 2
-# 57 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 2
-# 1 "/home/nick/dl/neovim/.deps/usr/include/uv/version.h" 1
-# 58 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 2
+# 26 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/errno.h" 2
+# 57 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/version.h" 1
+# 58 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
 # 145 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 3 4
 typedef long int ptrdiff_t;
@@ -306,7 +306,7 @@ typedef struct {
   long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
 # 436 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 3 4
 } max_align_t;
-# 59 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 2
+# 59 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 2
 # 1 "/usr/include/stdio.h" 1 3 4
 # 27 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
@@ -1141,12 +1141,12 @@ __attribute__ ((__nothrow__ , __leaf__)) ferror_unlocked (FILE *__stream)
 
 
 
-# 60 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 2
+# 60 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 2
 
 
 
 
-# 63 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 63 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 struct uv__queue {
   struct uv__queue* next;
   struct uv__queue* prev;
@@ -1155,8 +1155,8 @@ struct uv__queue {
 
 
 
-# 1 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 1
-# 25 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 1
+# 25 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h"
 # 1 "/usr/include/sys/types.h" 1 3 4
 # 27 "/usr/include/sys/types.h" 3 4
 
@@ -1710,7 +1710,7 @@ typedef union
 
 
 
-# 26 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 26 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 # 1 "/usr/include/sys/stat.h" 1 3 4
 # 99 "/usr/include/sys/stat.h" 3 4
 
@@ -2169,7 +2169,7 @@ int statx (int __dirfd, const char *__restrict __path, int __flags,
 
 
 
-# 27 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 27 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 # 1 "/usr/include/fcntl.h" 1 3 4
 # 28 "/usr/include/fcntl.h" 3 4
 
@@ -2365,7 +2365,7 @@ extern int posix_fallocate (int __fd, off_t __offset, off_t __len);
 extern int posix_fallocate64 (int __fd, off64_t __offset, off64_t __len);
 # 345 "/usr/include/fcntl.h" 3 4
 
-# 28 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 28 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 # 1 "/usr/include/dirent.h" 1 3 4
 # 27 "/usr/include/dirent.h" 3 4
 
@@ -2580,7 +2580,7 @@ extern __ssize_t getdents64 (int __fd, void *__buffer, size_t __length)
 
 
 # 407 "/usr/include/dirent.h" 2 3 4
-# 29 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 29 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 
 # 1 "/usr/include/sys/socket.h" 1 3 4
 # 24 "/usr/include/sys/socket.h" 3 4
@@ -2998,7 +2998,7 @@ extern int sockatmark (int __fd) __attribute__ ((__nothrow__ , __leaf__));
 extern int isfdtype (int __fd, int __fdtype) __attribute__ ((__nothrow__ , __leaf__));
 # 346 "/usr/include/sys/socket.h" 3 4
 
-# 31 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 31 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 # 1 "/usr/include/netinet/in.h" 1 3 4
 # 27 "/usr/include/netinet/in.h" 3 4
 
@@ -3433,7 +3433,7 @@ extern int setsourcefilter (int __s, uint32_t __interface_addr,
 
 
 
-# 32 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 32 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 # 1 "/usr/include/netinet/tcp.h" 1 3 4
 # 93 "/usr/include/netinet/tcp.h" 3 4
 typedef uint32_t tcp_seq;
@@ -3614,7 +3614,7 @@ struct tcp_zerocopy_receive
   uint32_t length;
   uint32_t recv_skip_hint;
 };
-# 33 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 33 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 # 1 "/usr/include/arpa/inet.h" 1 3 4
 # 30 "/usr/include/arpa/inet.h" 3 4
 
@@ -3692,7 +3692,7 @@ extern char *inet_nsap_ntoa (int __len, const unsigned char *__cp,
 
 
 
-# 34 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 34 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 # 1 "/usr/include/netdb.h" 1 3 4
 # 32 "/usr/include/netdb.h" 3 4
 # 1 "/usr/include/rpc/netdb.h" 1 3 4
@@ -4169,7 +4169,7 @@ extern int gai_cancel (struct gaicb *__gaicbp) __attribute__ ((__nothrow__ , __l
 
 
 
-# 35 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 35 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 
 # 1 "/usr/include/termios.h" 1 3 4
 # 35 "/usr/include/termios.h" 3 4
@@ -4282,7 +4282,7 @@ extern __pid_t tcgetsid (int __fd) __attribute__ ((__nothrow__ , __leaf__));
 
 
 
-# 37 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 37 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 # 1 "/usr/include/pwd.h" 1 3 4
 # 27 "/usr/include/pwd.h" 3 4
 
@@ -4375,7 +4375,7 @@ extern int getpw (__uid_t __uid, char *__buffer);
 
 
 
-# 38 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 38 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 
 
 # 1 "/usr/include/semaphore.h" 1 3 4
@@ -4445,7 +4445,7 @@ extern int sem_getvalue (sem_t *__restrict __sem, int *__restrict __sval)
 
 
 
-# 41 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 41 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 # 1 "/usr/include/sys/param.h" 1 3 4
 # 23 "/usr/include/sys/param.h" 3 4
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
@@ -6757,7 +6757,7 @@ extern int tgkill (__pid_t __tgid, __pid_t __tid, int __signal);
 # 6 "/usr/include/linux/param.h" 2 3 4
 # 29 "/usr/include/bits/param.h" 2 3 4
 # 32 "/usr/include/sys/param.h" 2 3 4
-# 42 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 42 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 
 # 1 "/usr/include/pthread.h" 1 3 4
 # 22 "/usr/include/pthread.h" 3 4
@@ -8032,25 +8032,25 @@ __attribute__ ((__nothrow__ , __leaf__)) pthread_equal (pthread_t __thread1, pth
 
 
 
-# 44 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 44 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 
 
-# 1 "/home/nick/dl/neovim/.deps/usr/include/uv/threadpool.h" 1
-# 30 "/home/nick/dl/neovim/.deps/usr/include/uv/threadpool.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/threadpool.h" 1
+# 30 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/threadpool.h"
 
-# 30 "/home/nick/dl/neovim/.deps/usr/include/uv/threadpool.h"
+# 30 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/threadpool.h"
 struct uv__work {
   void (*work)(struct uv__work *w);
   void (*done)(struct uv__work *w, int status);
   struct uv_loop_s* loop;
   struct uv__queue wq;
 };
-# 47 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 47 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 
 
-# 1 "/home/nick/dl/neovim/.deps/usr/include/uv/linux.h" 1
-# 50 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
-# 85 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/linux.h" 1
+# 50 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
+# 85 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h"
 struct uv__io_s;
 struct uv_loop_s;
 
@@ -8068,7 +8068,7 @@ struct uv__io_s {
   int fd;
  
 };
-# 120 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h"
+# 120 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h"
 typedef struct uv_buf_t {
   char* base;
   size_t len;
@@ -8088,7 +8088,7 @@ typedef pthread_rwlock_t uv_rwlock_t;
 typedef sem_t uv_sem_t;
 typedef pthread_cond_t uv_cond_t;
 typedef pthread_key_t uv_key_t;
-# 161 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h"
+# 161 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h"
 typedef pthread_barrier_t uv_barrier_t;
 
 
@@ -8097,279 +8097,279 @@ typedef gid_t uv_gid_t;
 typedef uid_t uv_uid_t;
 
 typedef struct dirent uv__dirent_t;
-# 215 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h"
+# 215 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h"
 typedef struct {
   void* handle;
   char* errmsg;
 } uv_lib_t;
-# 72 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 2
-# 191 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 72 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 2
+# 191 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 typedef enum {
 
   UV_E2BIG = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  7
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EACCES = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  13
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EADDRINUSE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  98
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EADDRNOTAVAIL = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  99
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EAFNOSUPPORT = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  97
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EAGAIN = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  11
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EAI_ADDRFAMILY = (-3000), UV_EAI_AGAIN = (-3001), UV_EAI_BADFLAGS = (-3002), UV_EAI_BADHINTS = (-3013), UV_EAI_CANCELED = (-3003), UV_EAI_FAIL = (-3004), UV_EAI_FAMILY = (-3005), UV_EAI_MEMORY = (-3006), UV_EAI_NODATA = (-3007), UV_EAI_NONAME = (-3008), UV_EAI_OVERFLOW = (-3009), UV_EAI_PROTOCOL = (-3014), UV_EAI_SERVICE = (-3010), UV_EAI_SOCKTYPE = (-3011), UV_EALREADY = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  114
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EBADF = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  9
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EBUSY = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  16
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ECANCELED = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  125
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ECHARSET = (-4080), UV_ECONNABORTED = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  103
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ECONNREFUSED = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  111
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ECONNRESET = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  104
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EDESTADDRREQ = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  89
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EEXIST = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  17
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EFAULT = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  14
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EFBIG = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  27
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EHOSTUNREACH = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  113
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EINTR = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  4
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EINVAL = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  22
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EIO = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  5
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EISCONN = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  106
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EISDIR = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  21
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ELOOP = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  40
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EMFILE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  24
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EMSGSIZE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  90
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENAMETOOLONG = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  36
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENETDOWN = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  100
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENETUNREACH = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  101
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENFILE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  23
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOBUFS = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  105
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENODEV = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  19
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOENT = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  2
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOMEM = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  12
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENONET = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  64
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOPROTOOPT = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  92
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOSPC = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  28
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOSYS = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  38
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOTCONN = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  107
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOTDIR = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  20
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOTEMPTY = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  39
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOTSOCK = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  88
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOTSUP = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  95
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EOVERFLOW = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  75
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EPERM = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  1
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EPIPE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  32
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EPROTO = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  71
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EPROTONOSUPPORT = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  93
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EPROTOTYPE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  91
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ERANGE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  34
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EROFS = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  30
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ESHUTDOWN = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  108
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ESPIPE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  29
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ESRCH = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  3
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ETIMEDOUT = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  110
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ETXTBSY = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  26
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EXDEV = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  18
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_UNKNOWN = (-4094), UV_EOF = (-4095), UV_ENXIO = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  6
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EMLINK = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  31
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EHOSTDOWN = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  112
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EREMOTEIO = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  121
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOTTY = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  25
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EFTYPE = (-4028), UV_EILSEQ = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  84
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ESOCKTNOSUPPORT = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  94
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENODATA = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  61
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EUNATCH = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  49
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )),
 
   UV_ERRNO_MAX = (-4095) - 1
@@ -8605,7 +8605,7 @@ __attribute__((visibility("default"))) char* uv_strerror_r(int err, char* buf, s
 
 __attribute__((visibility("default"))) const char* uv_err_name(int err);
 __attribute__((visibility("default"))) char* uv_err_name_r(int err, char* buf, size_t buflen);
-# 440 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 440 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 struct uv_req_s {
   void* data; uv_req_type type; void* reserved[6];
 };
@@ -8625,7 +8625,7 @@ struct uv_shutdown_s {
   uv_shutdown_cb cb;
  
 };
-# 477 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 477 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 struct uv_handle_s {
   void* data; uv_loop_t* loop; uv_handle_type type; uv_close_cb close_cb; struct uv__queue handle_queue; union { int fd; void* reserved[4]; } u; uv_handle_t* next_closing; unsigned int flags;
 };
@@ -8666,7 +8666,7 @@ __attribute__((visibility("default"))) int uv_socketpair(int type,
                             uv_os_sock_t socket_vector[2],
                             int flags0,
                             int flags1);
-# 533 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 533 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 struct uv_stream_s {
   void* data; uv_loop_t* loop; uv_handle_type type; uv_close_cb close_cb; struct uv__queue handle_queue; union { int fd; void* reserved[4]; } u; uv_handle_t* next_closing; unsigned int flags;
   size_t write_queue_size; uv_alloc_cb alloc_cb; uv_read_cb read_cb; uv_connect_t *connect_req; uv_shutdown_t *shutdown_req; uv__io_t io_watcher; struct uv__queue write_queue; struct uv__queue write_completed_queue; uv_connection_cb connection_cb; int delayed_error; int accepted_fd; void* queued_fds;
@@ -8780,7 +8780,7 @@ enum uv_udp_flags {
 
 
   UV_UDP_PARTIAL = 2,
-# 654 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 654 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
   UV_UDP_REUSEADDR = 4,
 
 
@@ -8925,7 +8925,7 @@ __attribute__((visibility("default"))) int uv_tty_reset_mode(void);
 __attribute__((visibility("default"))) int uv_tty_get_winsize(uv_tty_t*, int* width, int* height);
 __attribute__((visibility("default"))) void uv_tty_set_vterm_state(uv_tty_vtermstate_t state);
 __attribute__((visibility("default"))) int uv_tty_get_vterm_state(uv_tty_vtermstate_t* state);
-# 809 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 809 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 __attribute__((visibility("default"))) uv_handle_type uv_guess_handle(uv_file file);
 
 enum {
@@ -9092,13 +9092,13 @@ struct uv_getnameinfo_s {
   uv_loop_t* loop;
 
   struct uv__work work_req; uv_getnameinfo_cb getnameinfo_cb; struct sockaddr_storage storage; int flags; char host[
-# 974 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 974 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  1025
-# 974 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 974 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  ]; char service[
-# 974 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 974 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  32
-# 974 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 974 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  ]; int retcode;
 };
 
@@ -9168,7 +9168,7 @@ typedef struct uv_process_options_s {
 
 
   unsigned int flags;
-# 1052 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 1052 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
   int stdio_count;
   uv_stdio_container_t* stdio;
 
@@ -9383,7 +9383,7 @@ __attribute__((visibility("default"))) int uv_os_get_group(uv_group_t* grp, uv_u
 __attribute__((visibility("default"))) void uv_os_free_group(uv_group_t* grp);
 __attribute__((visibility("default"))) uv_pid_t uv_os_getpid(void);
 __attribute__((visibility("default"))) uv_pid_t uv_os_getppid(void);
-# 1284 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 1284 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 __attribute__((visibility("default"))) int uv_os_getpriority(uv_pid_t pid, int* priority);
 __attribute__((visibility("default"))) int uv_os_setpriority(uv_pid_t pid, int priority);
 
@@ -9407,7 +9407,7 @@ __attribute__((visibility("default"))) void uv_os_free_environ(uv_env_item_t* en
 __attribute__((visibility("default"))) int uv_os_getenv(const char* name, char* buffer, size_t* size);
 __attribute__((visibility("default"))) int uv_os_setenv(const char* name, const char* value);
 __attribute__((visibility("default"))) int uv_os_unsetenv(const char* name);
-# 1319 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 1319 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 __attribute__((visibility("default"))) int uv_os_gethostname(char* buffer, size_t* size);
 
 __attribute__((visibility("default"))) int uv_os_uname(uv_utsname_t* buffer);
@@ -9520,7 +9520,7 @@ __attribute__((visibility("default"))) int uv_fs_write(uv_loop_t* loop,
                           unsigned int nbufs,
                           int64_t offset,
                           uv_fs_cb cb);
-# 1449 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 1449 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 __attribute__((visibility("default"))) int uv_fs_copyfile(uv_loop_t* loop,
                              uv_fs_t* req,
                              const char* path,
@@ -9633,7 +9633,7 @@ __attribute__((visibility("default"))) int uv_fs_link(uv_loop_t* loop,
                          const char* path,
                          const char* new_path,
                          uv_fs_cb cb);
-# 1574 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 1574 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 __attribute__((visibility("default"))) int uv_fs_symlink(uv_loop_t* loop,
                             uv_fs_t* req,
                             const char* path,
@@ -9742,7 +9742,7 @@ enum uv_fs_event_flags {
 
 
   UV_FS_EVENT_WATCH_ENTRY = 1,
-# 1690 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 1690 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
   UV_FS_EVENT_STAT = 2,
 
 
@@ -9793,7 +9793,7 @@ __attribute__((visibility("default"))) int uv_random(uv_loop_t* loop,
                         size_t buflen,
                         unsigned flags,
                         uv_random_cb cb);
-# 1749 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 1749 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 __attribute__((visibility("default"))) int uv_if_indextoname(unsigned int ifindex,
                                 char* buffer,
                                 size_t* size);
@@ -9932,17 +9932,17 @@ struct uv_loop_s {
 
 __attribute__((visibility("default"))) void* uv_loop_get_data(const uv_loop_t*);
 __attribute__((visibility("default"))) void uv_loop_set_data(uv_loop_t*, void* data);
-# 6 "/home/nick/dl/neovim/src/nvim/event/time.c" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.c" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/event/loop.h" 1
-
-
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 1
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/klib/klist.h" 1
-# 29 "/home/nick/dl/neovim/src/klib/klist.h"
+
+
+# 1 "/home/nick/git/Src-Arc/neovim/src/klib/klist.h" 1
+# 29 "/home/nick/git/Src-Arc/neovim/src/klib/klist.h"
 # 1 "/usr/include/assert.h" 1 3 4
 # 64 "/usr/include/assert.h" 3 4
 
@@ -9967,7 +9967,7 @@ extern void __assert (const char *__assertion, const char *__file, int __line)
 
 
 
-# 30 "/home/nick/dl/neovim/src/klib/klist.h" 2
+# 30 "/home/nick/git/Src-Arc/neovim/src/klib/klist.h" 2
 # 1 "/usr/include/stdlib.h" 1 3 4
 # 26 "/usr/include/stdlib.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
@@ -10879,26 +10879,26 @@ __attribute__ ((__nothrow__ , __leaf__)) atof (const char *__nptr)
 # 1156 "/usr/include/stdlib.h" 2 3 4
 # 1167 "/usr/include/stdlib.h" 3 4
 
-# 31 "/home/nick/dl/neovim/src/klib/klist.h" 2
+# 31 "/home/nick/git/Src-Arc/neovim/src/klib/klist.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 44 "/home/nick/dl/neovim/src/nvim/func_attr.h"
-# 1 "/home/nick/dl/neovim/src/nvim/macros.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/macros.h" 1
 
 
 
-# 1 "/home/nick/dl/neovim/build/cmake.config/auto/config.h" 1
-# 5 "/home/nick/dl/neovim/src/nvim/macros.h" 2
-# 45 "/home/nick/dl/neovim/src/nvim/func_attr.h" 2
-# 33 "/home/nick/dl/neovim/src/klib/klist.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/memory.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/build/cmake.config/auto/config.h" 1
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/macros.h" 2
+# 45 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 2
+# 33 "/home/nick/git/Src-Arc/neovim/src/klib/klist.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 1
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdbool.h" 1 3 4
-# 5 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 
 
 
@@ -10906,7 +10906,7 @@ __attribute__ ((__nothrow__ , __leaf__)) atof (const char *__nptr)
 
 
 
-# 12 "/home/nick/dl/neovim/src/nvim/memory.h"
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h"
 typedef void *(*MemMalloc)(size_t);
 
 
@@ -10917,7 +10917,7 @@ typedef void *(*MemCalloc)(size_t, size_t);
 
 
 typedef void *(*MemRealloc)(void *, size_t);
-# 42 "/home/nick/dl/neovim/src/nvim/memory.h"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h"
 extern size_t arena_alloc_count ;
 
 typedef struct consumed_blk {
@@ -10930,15 +10930,15 @@ typedef struct {
   char *cur_blk;
   size_t pos, size;
 } Arena;
-# 34 "/home/nick/dl/neovim/src/klib/klist.h" 2
-# 8 "/home/nick/dl/neovim/src/nvim/event/loop.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/event/multiqueue.h" 1
+# 34 "/home/nick/git/Src-Arc/neovim/src/klib/klist.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/event/multiqueue.h" 1
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/event/defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 1
 
 
 
@@ -10966,106 +10966,106 @@ extern void __assert (const char *__assertion, const char *__file, int __line)
 
 
 
-# 5 "/home/nick/dl/neovim/src/nvim/event/defs.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/event/defs.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 2
 
 
 
 
-# 9 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
 typedef void (*argv_callback)(void **argv);
 typedef struct message {
   argv_callback handler;
   void *argv[10];
 } Event;
 typedef void (*event_scheduler)(Event event, void *data);
-# 30 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 30 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
 static inline Event event_create(argv_callback cb, int argc, ...)
 {
   
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ((void) sizeof ((
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  argc <= 10
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  argc <= 10
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ) ; else __assert_fail (
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  "argc <= EVENT_HANDLER_MAX_ARGC"
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
- , "/home/nick/dl/neovim/src/nvim/event/defs.h", 32, __extension__ __PRETTY_FUNCTION__); }))
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h", 32, __extension__ __PRETTY_FUNCTION__); }))
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
                                        ;
   Event event;
   do { 
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ((void) sizeof ((
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  argc <= 10
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  argc <= 10
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ) ; else __assert_fail (
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  "argc <= EVENT_HANDLER_MAX_ARGC"
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
- , "/home/nick/dl/neovim/src/nvim/event/defs.h", 34, __extension__ __PRETTY_FUNCTION__); }))
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h", 34, __extension__ __PRETTY_FUNCTION__); }))
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  ; (&event)->handler = cb; if (argc) { va_list args; 
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  __builtin_va_start(
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  args
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ,
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  argc
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  )
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  ; for (int i = 0; i < argc; i++) { (&event)->argv[i] = 
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  __builtin_va_arg(
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  args
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ,
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  void *
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  )
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  ; } 
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  __builtin_va_end(
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  args
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  )
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  ; } } while (0);
   return event;
 }
-# 7 "/home/nick/dl/neovim/src/nvim/event/multiqueue.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/lib/queue.h" 1
-# 23 "/home/nick/dl/neovim/src/nvim/lib/queue.h"
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/event/multiqueue.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/lib/queue.h" 1
+# 23 "/home/nick/git/Src-Arc/neovim/src/nvim/lib/queue.h"
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 24 "/home/nick/dl/neovim/src/nvim/lib/queue.h" 2
+# 24 "/home/nick/git/Src-Arc/neovim/src/nvim/lib/queue.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 26 "/home/nick/dl/neovim/src/nvim/lib/queue.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 26 "/home/nick/git/Src-Arc/neovim/src/nvim/lib/queue.h" 2
 
 typedef struct _queue {
   struct _queue *next;
   struct _queue *prev;
 } QUEUE;
-# 48 "/home/nick/dl/neovim/src/nvim/lib/queue.h"
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/lib/queue.h"
 static inline int QUEUE_EMPTY(const QUEUE *const q)
   FUNC_ATTR_ALWAYS_INLINE FUNC_ATTR_PURE FUNC_ATTR_WARN_UNUSED_RESULT
 {
@@ -11112,12 +11112,12 @@ static inline void QUEUE_REMOVE(QUEUE *const q) FUNC_ATTR_ALWAYS_INLINE
   q->prev->next = q->next;
   q->next->prev = q->prev;
 }
-# 8 "/home/nick/dl/neovim/src/nvim/event/multiqueue.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/event/multiqueue.h" 2
 
 typedef struct multiqueue MultiQueue;
 typedef void (*PutCallback)(MultiQueue *multiq, void *data);
-# 9 "/home/nick/dl/neovim/src/nvim/event/loop.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/os/time.h" 1
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/os/time.h" 1
 
 
 
@@ -11126,50 +11126,50 @@ typedef void (*PutCallback)(MultiQueue *multiq, void *data);
 
 
 typedef uint64_t Timestamp;
-# 10 "/home/nick/dl/neovim/src/nvim/event/loop.h" 2
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 2
 
 typedef void *WatcherPtr;
 
 
 struct __kl1_WatcherPtr { WatcherPtr data; struct __kl1_WatcherPtr *next; }; typedef struct __kl1_WatcherPtr kl1_WatcherPtr; typedef struct { size_t cnt, n, max; kl1_WatcherPtr **buf; } kmp_WatcherPtr_t; static inline kmp_WatcherPtr_t *kmp_init_WatcherPtr(void) { return (kmp_WatcherPtr_t *)xcalloc(1, sizeof(kmp_WatcherPtr_t)); } static inline void kmp_destroy_WatcherPtr(kmp_WatcherPtr_t *mp) __attribute__((unused)); static inline void kmp_destroy_WatcherPtr(kmp_WatcherPtr_t *mp) { size_t k; for (k = 0; k < mp->n; k++) { ; do { void **ptr_ = (void **)&(mp->buf[k]); xfree(*ptr_); *ptr_ = 
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
 ((void *)0)
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 ; (void)(*ptr_); } while (0); } do { void **ptr_ = (void **)&(mp->buf); xfree(*ptr_); *ptr_ = 
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
 ((void *)0)
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(mp); xfree(*ptr_); *ptr_ = 
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
 ((void *)0)
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 ; (void)(*ptr_); } while (0); } static inline kl1_WatcherPtr *kmp_alloc_WatcherPtr(kmp_WatcherPtr_t *mp) { mp->cnt++; if (mp->n == 0) { return (kl1_WatcherPtr *)xcalloc(1, sizeof(kl1_WatcherPtr)); } return mp->buf[--mp->n]; } static inline void kmp_free_WatcherPtr(kmp_WatcherPtr_t *mp, kl1_WatcherPtr *p) { mp->cnt--; if (mp->n == mp->max) { mp->max = mp->max ? (mp->max << 1) : 16; mp->buf = (kl1_WatcherPtr **)xrealloc(mp->buf, sizeof(kl1_WatcherPtr *) * mp->max); } mp->buf[mp->n++] = p; } typedef struct { kl1_WatcherPtr *head, *tail; kmp_WatcherPtr_t *mp; size_t size; } kl_WatcherPtr_t; static inline kl_WatcherPtr_t *kl_init_WatcherPtr(void) { kl_WatcherPtr_t *kl = (kl_WatcherPtr_t *)xcalloc(1, sizeof(kl_WatcherPtr_t)); kl->mp = kmp_init_WatcherPtr(); kl->head = kl->tail = kmp_alloc_WatcherPtr(kl->mp); kl->head->next = 0; return kl; } static inline void kl_destroy_WatcherPtr(kl_WatcherPtr_t *kl) __attribute__((unused)); static inline void kl_destroy_WatcherPtr(kl_WatcherPtr_t *kl) { kl1_WatcherPtr *p; for (p = kl->head; p != kl->tail; p = p->next) { kmp_free_WatcherPtr(kl->mp, p); } kmp_free_WatcherPtr(kl->mp, p); kmp_destroy_WatcherPtr(kl->mp); do { void **ptr_ = (void **)&(kl); xfree(*ptr_); *ptr_ = 
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
 ((void *)0)
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 ; (void)(*ptr_); } while (0); } static inline void kl_push_WatcherPtr(kl_WatcherPtr_t *kl, WatcherPtr d) { kl1_WatcherPtr *q, *p = kmp_alloc_WatcherPtr(kl->mp); q = kl->tail; p->next = 0; kl->tail->next = p; kl->tail = p; kl->size++; q->data = d; } static inline WatcherPtr kl_shift_at_WatcherPtr(kl_WatcherPtr_t *kl, kl1_WatcherPtr **n) { 
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
 ((void) sizeof ((
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 (*n)->next
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
 ) ? 1 : 0), __extension__ ({ if (
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 (*n)->next
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
 ) ; else __assert_fail (
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 "(*n)->next"
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
-, "/home/nick/dl/neovim/src/nvim/event/loop.h", 14, __extension__ __PRETTY_FUNCTION__); }))
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
+, "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h", 14, __extension__ __PRETTY_FUNCTION__); }))
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 ; kl1_WatcherPtr *p; kl->size--; p = *n; *n = (*n)->next; if (p == kl->head) { kl->head = *n; } WatcherPtr d = p->data; kmp_free_WatcherPtr(kl->mp, p); return d; }
 
 typedef struct loop {
   uv_loop_t uv;
   MultiQueue *events;
   MultiQueue *thread_events;
-# 29 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 29 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
   MultiQueue *fast_events;
 
 
@@ -11186,9 +11186,9 @@ typedef struct loop {
   uv_mutex_t mutex;
   int recursive;
 } Loop;
-# 8 "/home/nick/dl/neovim/src/nvim/event/time.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/event/time.h" 1
-# 10 "/home/nick/dl/neovim/src/nvim/event/time.h"
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.h"
 struct time_watcher;
 
 typedef struct time_watcher TimeWatcher;
@@ -11200,12 +11200,12 @@ struct time_watcher {
   time_cb cb, close_cb;
   MultiQueue *events;
   
-# 20 "/home/nick/dl/neovim/src/nvim/event/time.h" 3 4
+# 20 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.h" 3 4
  _Bool 
-# 20 "/home/nick/dl/neovim/src/nvim/event/time.h"
+# 20 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.h"
       blockable;
 };
-# 9 "/home/nick/dl/neovim/src/nvim/event/time.c" 2
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.c" 2
 
 
 
@@ -11219,9 +11219,9 @@ void time_watcher_init(Loop *loop, TimeWatcher *watcher, void *data)
   watcher->data = data;
   watcher->events = loop->fast_events;
   watcher->blockable = 
-# 21 "/home/nick/dl/neovim/src/nvim/event/time.c" 3 4
+# 21 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.c" 3 4
                       0
-# 21 "/home/nick/dl/neovim/src/nvim/event/time.c"
+# 21 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.c"
                            ;
 }
 

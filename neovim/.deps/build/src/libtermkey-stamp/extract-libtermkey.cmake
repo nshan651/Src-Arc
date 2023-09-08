@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "/home/nick/dl/neovim/.deps/build/downloads/libtermkey/libtermkey-0.22.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/nick/dl/neovim/.deps/build/src/libtermkey" ABSOLUTE)
+get_filename_component(filename "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/libtermkey/libtermkey-0.22.tar.gz" ABSOLUTE)
+get_filename_component(directory "/home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

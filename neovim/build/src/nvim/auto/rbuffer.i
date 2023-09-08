@@ -1,9 +1,9 @@
-# 0 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 0 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
 
 
 
@@ -59,9 +59,9 @@ extern void __assert (const char *__assertion, const char *__file, int __line)
 
 
 
-# 5 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdbool.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
 # 145 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 3 4
 typedef long int ptrdiff_t;
@@ -75,7 +75,7 @@ typedef struct {
   long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
 # 436 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 3 4
 } max_align_t;
-# 7 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 2
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 2
 # 1 "/usr/include/string.h" 1 3 4
 # 26 "/usr/include/string.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
@@ -451,22 +451,22 @@ extern void *memfrob (void *__s, size_t __n) __attribute__ ((__nothrow__ , __lea
 extern char *basename (const char *__filename) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
 # 552 "/usr/include/string.h" 3 4
 
-# 8 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/macros.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/macros.h" 1
 
 
 
-# 1 "/home/nick/dl/neovim/build/cmake.config/auto/config.h" 1
-# 5 "/home/nick/dl/neovim/src/nvim/macros.h" 2
-# 10 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/memory.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/build/cmake.config/auto/config.h" 1
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/macros.h" 2
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 1 3 4
 # 9 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 3 4
 # 1 "/usr/include/stdint.h" 1 3 4
@@ -670,7 +670,7 @@ typedef unsigned long int uintptr_t;
 typedef __intmax_t intmax_t;
 typedef __uintmax_t uintmax_t;
 # 10 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 2 3 4
-# 7 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 # 1 "/usr/include/time.h" 1 3 4
 # 29 "/usr/include/time.h" 3 4
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
@@ -1031,13 +1031,13 @@ extern int getdate_r (const char *__restrict __string,
 
 
 
-# 8 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 
 
 
 
 
-# 12 "/home/nick/dl/neovim/src/nvim/memory.h"
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h"
 typedef void *(*MemMalloc)(size_t);
 
 
@@ -1048,7 +1048,7 @@ typedef void *(*MemCalloc)(size_t, size_t);
 
 
 typedef void *(*MemRealloc)(void *, size_t);
-# 42 "/home/nick/dl/neovim/src/nvim/memory.h"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h"
 extern size_t arena_alloc_count ;
 
 typedef struct consumed_blk {
@@ -1061,15 +1061,15 @@ typedef struct {
   char *cur_blk;
   size_t pos, size;
 } Arena;
-# 11 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/rbuffer.h" 1
-# 17 "/home/nick/dl/neovim/src/nvim/rbuffer.h"
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.h" 1
+# 17 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.h"
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 18 "/home/nick/dl/neovim/src/nvim/rbuffer.h" 2
+# 18 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.h" 2
 
 
 struct rbuffer;
-# 72 "/home/nick/dl/neovim/src/nvim/rbuffer.h"
+# 72 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.h"
 typedef struct rbuffer RBuffer;
 
 
@@ -1085,7 +1085,7 @@ struct rbuffer {
   char *end_ptr, *read_ptr, *write_ptr;
   char start_ptr[];
 };
-# 12 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 2
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 2
 
 
 
@@ -1101,22 +1101,22 @@ RBuffer *rbuffer_new(size_t capacity)
 
   RBuffer *rv = xcalloc(1, sizeof(RBuffer) + capacity);
   rv->full_cb = rv->nonfull_cb = 
-# 26 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 26 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
                                 ((void *)0)
-# 26 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 26 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
                                     ;
   rv->data = 
-# 27 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 27 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
             ((void *)0)
-# 27 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 27 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
                 ;
   rv->size = 0;
   rv->write_ptr = rv->read_ptr = rv->start_ptr;
   rv->end_ptr = rv->start_ptr + capacity;
   rv->temp = 
-# 31 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 31 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
             ((void *)0)
-# 31 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 31 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
                 ;
   return rv;
 }
@@ -1153,9 +1153,9 @@ char *rbuffer_write_ptr(RBuffer *buf, size_t *write_count) FUNC_ATTR_NONNULL_ALL
   if (buf->size == rbuffer_capacity(buf)) {
     *write_count = 0;
     return 
-# 66 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 66 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
           ((void *)0)
-# 66 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 66 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
               ;
   }
 
@@ -1175,9 +1175,9 @@ void rbuffer_reset(RBuffer *buf) FUNC_ATTR_NONNULL_ALL
   size_t temp_size;
   if ((temp_size = rbuffer_size(buf))) {
     if (buf->temp == 
-# 84 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 84 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
                     ((void *)0)
-# 84 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 84 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
                         ) {
       buf->temp = xcalloc(1, rbuffer_capacity(buf));
     }
@@ -1196,21 +1196,21 @@ void rbuffer_reset(RBuffer *buf) FUNC_ATTR_NONNULL_ALL
 void rbuffer_produced(RBuffer *buf, size_t count) FUNC_ATTR_NONNULL_ALL
 {
   
-# 101 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 101 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  ((void) sizeof ((
-# 101 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 101 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
  count && count <= rbuffer_space(buf)
-# 101 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 101 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 101 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 101 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
  count && count <= rbuffer_space(buf)
-# 101 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 101 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  ) ; else __assert_fail (
-# 101 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 101 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
  "count && count <= rbuffer_space(buf)"
-# 101 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/rbuffer.c", 101, __extension__ __PRETTY_FUNCTION__); }))
-# 101 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 101 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c", 101, __extension__ __PRETTY_FUNCTION__); }))
+# 101 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
                                              ;
 
   buf->write_ptr += count;
@@ -1255,21 +1255,21 @@ void rbuffer_consumed(RBuffer *buf, size_t count)
   FUNC_ATTR_NONNULL_ALL
 {
   
-# 144 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 144 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  ((void) sizeof ((
-# 144 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 144 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
  count && count <= buf->size
-# 144 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 144 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 144 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 144 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
  count && count <= buf->size
-# 144 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 144 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  ) ; else __assert_fail (
-# 144 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 144 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
  "count && count <= buf->size"
-# 144 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/rbuffer.c", 144, __extension__ __PRETTY_FUNCTION__); }))
-# 144 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 144 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c", 144, __extension__ __PRETTY_FUNCTION__); }))
+# 144 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
                                     ;
 
   buf->read_ptr += count;
@@ -1278,9 +1278,9 @@ void rbuffer_consumed(RBuffer *buf, size_t count)
   }
 
   
-# 151 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 151 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  _Bool 
-# 151 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 151 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
       was_full = buf->size == rbuffer_capacity(buf);
   buf->size -= count;
   if (buf->nonfull_cb && was_full) {
@@ -1296,41 +1296,41 @@ void rbuffer_consumed_compact(RBuffer *buf, size_t count)
   FUNC_ATTR_NONNULL_ALL
 {
   
-# 165 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  ((void) sizeof ((
-# 165 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
  buf->read_ptr <= buf->write_ptr
-# 165 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 165 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
  buf->read_ptr <= buf->write_ptr
-# 165 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  ) ; else __assert_fail (
-# 165 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
  "buf->read_ptr <= buf->write_ptr"
-# 165 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/rbuffer.c", 165, __extension__ __PRETTY_FUNCTION__); }))
-# 165 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c", 165, __extension__ __PRETTY_FUNCTION__); }))
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
                                         ;
   rbuffer_consumed(buf, count);
   if (buf->read_ptr > buf->start_ptr) {
     
-# 168 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
    ((void) sizeof ((
-# 168 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
    (size_t)(buf->write_ptr - buf->read_ptr) == buf->size || buf->write_ptr == buf->start_ptr
-# 168 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 168 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
    (size_t)(buf->write_ptr - buf->read_ptr) == buf->size || buf->write_ptr == buf->start_ptr
-# 168 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
    ) ; else __assert_fail (
-# 168 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
    "(size_t)(buf->write_ptr - buf->read_ptr) == buf->size || buf->write_ptr == buf->start_ptr"
-# 168 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/rbuffer.c", 168, __extension__ __PRETTY_FUNCTION__); }))
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c", 168, __extension__ __PRETTY_FUNCTION__); }))
                                                
-# 169 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
                                               ;
     memmove(buf->start_ptr, buf->read_ptr, buf->size);
     buf->read_ptr = buf->start_ptr;
@@ -1384,21 +1384,21 @@ char *rbuffer_get(RBuffer *buf, size_t index)
     FUNC_ATTR_NONNULL_ALL FUNC_ATTR_NONNULL_RET
 {
   
-# 221 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 221 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  ((void) sizeof ((
-# 221 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 221 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
  index < buf->size
-# 221 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 221 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 221 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 221 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
  index < buf->size
-# 221 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 221 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  ) ; else __assert_fail (
-# 221 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 221 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
  "index < buf->size"
-# 221 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/rbuffer.c", 221, __extension__ __PRETTY_FUNCTION__); }))
-# 221 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 221 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c", 221, __extension__ __PRETTY_FUNCTION__); }))
+# 221 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
                           ;
   char *rptr = buf->read_ptr + index;
   if (rptr >= buf->end_ptr) {
@@ -1411,21 +1411,21 @@ int rbuffer_cmp(RBuffer *buf, const char *str, size_t count)
   FUNC_ATTR_NONNULL_ALL
 {
   
-# 232 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 232 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  ((void) sizeof ((
-# 232 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 232 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
  count <= buf->size
-# 232 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 232 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 232 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 232 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
  count <= buf->size
-# 232 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
+# 232 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
  ) ; else __assert_fail (
-# 232 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 232 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
  "count <= buf->size"
-# 232 "/home/nick/dl/neovim/src/nvim/rbuffer.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/rbuffer.c", 232, __extension__ __PRETTY_FUNCTION__); }))
-# 232 "/home/nick/dl/neovim/src/nvim/rbuffer.c"
+# 232 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c", 232, __extension__ __PRETTY_FUNCTION__); }))
+# 232 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
                            ;
   size_t rcnt;
   (void)rbuffer_read_ptr(buf, &rcnt);

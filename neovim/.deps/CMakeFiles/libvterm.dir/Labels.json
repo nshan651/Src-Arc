@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/libvterm"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/libvterm"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/libvterm.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/libvterm.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/libvterm-complete.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/libvterm-complete.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/libvterm-stamp/libvterm-build.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/libvterm-build.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/libvterm-stamp/libvterm-configure.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/libvterm-configure.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/libvterm-stamp/libvterm-download.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/libvterm-download.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/libvterm-stamp/libvterm-install.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/libvterm-install.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/libvterm-stamp/libvterm-mkdir.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/libvterm-mkdir.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/libvterm-stamp/libvterm-patch.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/libvterm-patch.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/libvterm-stamp/libvterm-update.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/libvterm-update.rule"
 		}
 	],
 	"target" : 

@@ -1,13 +1,13 @@
 # Target labels
  treesitter-query
 # Source files and their labels
-/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-query
-/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-query.rule
-/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-query-complete.rule
-/home/nick/dl/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-build.rule
-/home/nick/dl/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-configure.rule
-/home/nick/dl/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-download.rule
-/home/nick/dl/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-install.rule
-/home/nick/dl/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-mkdir.rule
-/home/nick/dl/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-patch.rule
-/home/nick/dl/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-update.rule
+/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/treesitter-query
+/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/treesitter-query.rule
+/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/treesitter-query-complete.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-build.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-configure.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-download.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-install.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-mkdir.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-patch.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-update.rule

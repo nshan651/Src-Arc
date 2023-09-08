@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/nick/dl/neovim/build/CMakeFiles/3.27.4/CompilerIdC/a.out
+        /home/nick/git/Src-Arc/neovim/build/CMakeFiles/3.27.4/CompilerIdC/a.out
       
   -
     kind: "try_compile-v1"
@@ -39,8 +39,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-ZDk5jK"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-ZDk5jK"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-lqy68K"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-lqy68K"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -49,14 +49,14 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-ZDk5jK'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-lqy68K'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f2413/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-ZDk5jK'
-        /usr/bin/make  -f CMakeFiles/cmTC_f2413.dir/build.make CMakeFiles/cmTC_f2413.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-ZDk5jK'
-        Building C object CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eb48a/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-lqy68K'
+        /usr/bin/make  -f CMakeFiles/cmTC_eb48a.dir/build.make CMakeFiles/cmTC_eb48a.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-lqy68K'
+        Building C object CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: x86_64-pc-linux-gnu
@@ -64,8 +64,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2413.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f2413.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccWKILqu.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_eb48a.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_eb48a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccMlB3Fc.s
         GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.0-p12, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -80,15 +80,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 865c2688a4f1e3f13d6bf2cc8fd98762
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2413.dir/'
-         as -v --64 -o CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o /tmp/ccWKILqu.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_eb48a.dir/'
+         as -v --64 -o CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o /tmp/ccMlB3Fc.s
         GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_f2413
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2413.dir/link.txt --verbose=1
-        /usr/bin/cc  -v CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o -o cmTC_f2413 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_eb48a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb48a.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o -o cmTC_eb48a 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -99,11 +99,11 @@ events:
         gcc version 13.2.1 20230801 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f2413' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f2413.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc32Mv3Q.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f2413 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f2413' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f2413.'
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-ZDk5jK'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-ZDk5jK'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb48a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_eb48a.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnaIxW7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_eb48a /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb48a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_eb48a.'
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-lqy68K'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-lqy68K'
         
       exitCode: 0
   -
@@ -137,14 +137,14 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-ZDk5jK']
+        ignore line: [Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-lqy68K']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f2413/fast]
-        ignore line: [make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-ZDk5jK']
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_f2413.dir/build.make CMakeFiles/cmTC_f2413.dir/build]
-        ignore line: [make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-ZDk5jK']
-        ignore line: [Building C object CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_eb48a/fast]
+        ignore line: [make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-lqy68K']
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_eb48a.dir/build.make CMakeFiles/cmTC_eb48a.dir/build]
+        ignore line: [make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-lqy68K']
+        ignore line: [Building C object CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -152,8 +152,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2413.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f2413.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccWKILqu.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_eb48a.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_eb48a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccMlB3Fc.s]
         ignore line: [GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.0-p12  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -168,15 +168,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 865c2688a4f1e3f13d6bf2cc8fd98762]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2413.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o /tmp/ccWKILqu.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_eb48a.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o /tmp/ccMlB3Fc.s]
         ignore line: [GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_f2413]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2413.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o -o cmTC_f2413 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_eb48a]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb48a.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o -o cmTC_eb48a ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -187,13 +187,13 @@ events:
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f2413' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f2413.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc32Mv3Q.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f2413 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eb48a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_eb48a.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnaIxW7.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_eb48a /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc32Mv3Q.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccnaIxW7.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -208,7 +208,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_f2413] ==> ignore
+          arg [cmTC_eb48a] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
@@ -217,7 +217,7 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-          arg [CMakeFiles/cmTC_f2413.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_eb48a.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -255,30 +255,30 @@ events:
     checks:
       - "Performing Test HAVE_WORKING_LIBINTL"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-DOYySr"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-DOYySr"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-iOJJJu"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-iOJJJu"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_WORKING_LIBINTL"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-DOYySr'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-iOJJJu'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a10d1/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-DOYySr'
-        /usr/bin/make  -f CMakeFiles/cmTC_a10d1.dir/build.make CMakeFiles/cmTC_a10d1.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-DOYySr'
-        Building C object CMakeFiles/cmTC_a10d1.dir/src.c.o
-        /usr/bin/cc -DHAVE_WORKING_LIBINTL   -o CMakeFiles/cmTC_a10d1.dir/src.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-DOYySr/src.c
-        Linking C executable cmTC_a10d1
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a10d1.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_a10d1.dir/src.c.o -o cmTC_a10d1 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-DOYySr'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-DOYySr'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6cda7/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-iOJJJu'
+        /usr/bin/make  -f CMakeFiles/cmTC_6cda7.dir/build.make CMakeFiles/cmTC_6cda7.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-iOJJJu'
+        Building C object CMakeFiles/cmTC_6cda7.dir/src.c.o
+        /usr/bin/cc -DHAVE_WORKING_LIBINTL   -o CMakeFiles/cmTC_6cda7.dir/src.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-iOJJJu/src.c
+        Linking C executable cmTC_6cda7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6cda7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_6cda7.dir/src.c.o -o cmTC_6cda7 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-iOJJJu'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-iOJJJu'
         
       exitCode: 0
   -
@@ -290,30 +290,30 @@ events:
     checks:
       - "Looking for _nl_msg_cat_cntr"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IfyaOG"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IfyaOG"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-4uKORP"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-4uKORP"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_NL_MSG_CAT_CNTR"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IfyaOG'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-4uKORP'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c386e/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IfyaOG'
-        /usr/bin/make  -f CMakeFiles/cmTC_c386e.dir/build.make CMakeFiles/cmTC_c386e.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IfyaOG'
-        Building C object CMakeFiles/cmTC_c386e.dir/CheckVariableExists.c.o
-        /usr/bin/cc   -DCHECK_VARIABLE_EXISTS=_nl_msg_cat_cntr -o CMakeFiles/cmTC_c386e.dir/CheckVariableExists.c.o -c /usr/share/cmake/Modules/CheckVariableExists.c
-        Linking C executable cmTC_c386e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c386e.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_VARIABLE_EXISTS=_nl_msg_cat_cntr CMakeFiles/cmTC_c386e.dir/CheckVariableExists.c.o -o cmTC_c386e 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IfyaOG'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IfyaOG'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bf5d9/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-4uKORP'
+        /usr/bin/make  -f CMakeFiles/cmTC_bf5d9.dir/build.make CMakeFiles/cmTC_bf5d9.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-4uKORP'
+        Building C object CMakeFiles/cmTC_bf5d9.dir/CheckVariableExists.c.o
+        /usr/bin/cc   -DCHECK_VARIABLE_EXISTS=_nl_msg_cat_cntr -o CMakeFiles/cmTC_bf5d9.dir/CheckVariableExists.c.o -c /usr/share/cmake/Modules/CheckVariableExists.c
+        Linking C executable cmTC_bf5d9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf5d9.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_VARIABLE_EXISTS=_nl_msg_cat_cntr CMakeFiles/cmTC_bf5d9.dir/CheckVariableExists.c.o -o cmTC_bf5d9 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-4uKORP'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-4uKORP'
         
       exitCode: 0
   -
@@ -326,30 +326,30 @@ events:
     checks:
       - "Performing Test HAVE_WIMPLICIT_FALLTHROUGH_FLAG"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5poYp9"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5poYp9"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NxMFlb"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NxMFlb"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_WIMPLICIT_FALLTHROUGH_FLAG"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5poYp9'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NxMFlb'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_43ca5/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5poYp9'
-        /usr/bin/make  -f CMakeFiles/cmTC_43ca5.dir/build.make CMakeFiles/cmTC_43ca5.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5poYp9'
-        Building C object CMakeFiles/cmTC_43ca5.dir/src.c.o
-        /usr/bin/cc -DHAVE_WIMPLICIT_FALLTHROUGH_FLAG  -Wimplicit-fallthrough -o CMakeFiles/cmTC_43ca5.dir/src.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5poYp9/src.c
-        Linking C executable cmTC_43ca5
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43ca5.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_43ca5.dir/src.c.o -o cmTC_43ca5 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5poYp9'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5poYp9'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_190c0/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NxMFlb'
+        /usr/bin/make  -f CMakeFiles/cmTC_190c0.dir/build.make CMakeFiles/cmTC_190c0.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NxMFlb'
+        Building C object CMakeFiles/cmTC_190c0.dir/src.c.o
+        /usr/bin/cc -DHAVE_WIMPLICIT_FALLTHROUGH_FLAG  -Wimplicit-fallthrough -o CMakeFiles/cmTC_190c0.dir/src.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NxMFlb/src.c
+        Linking C executable cmTC_190c0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_190c0.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_190c0.dir/src.c.o -o cmTC_190c0 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NxMFlb'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NxMFlb'
         
       exitCode: 0
   -
@@ -362,30 +362,30 @@ events:
     checks:
       - "Performing Test HAS_DIAG_COLOR_FLAG"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-J5CN5P"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-J5CN5P"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Yl1LJX"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Yl1LJX"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAS_DIAG_COLOR_FLAG"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-J5CN5P'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Yl1LJX'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_540e1/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-J5CN5P'
-        /usr/bin/make  -f CMakeFiles/cmTC_540e1.dir/build.make CMakeFiles/cmTC_540e1.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-J5CN5P'
-        Building C object CMakeFiles/cmTC_540e1.dir/src.c.o
-        /usr/bin/cc -DHAS_DIAG_COLOR_FLAG  -fdiagnostics-color=auto -o CMakeFiles/cmTC_540e1.dir/src.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-J5CN5P/src.c
-        Linking C executable cmTC_540e1
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_540e1.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_540e1.dir/src.c.o -o cmTC_540e1 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-J5CN5P'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-J5CN5P'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b5905/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Yl1LJX'
+        /usr/bin/make  -f CMakeFiles/cmTC_b5905.dir/build.make CMakeFiles/cmTC_b5905.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Yl1LJX'
+        Building C object CMakeFiles/cmTC_b5905.dir/src.c.o
+        /usr/bin/cc -DHAS_DIAG_COLOR_FLAG  -fdiagnostics-color=auto -o CMakeFiles/cmTC_b5905.dir/src.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Yl1LJX/src.c
+        Linking C executable cmTC_b5905
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5905.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_b5905.dir/src.c.o -o cmTC_b5905 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Yl1LJX'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Yl1LJX'
         
       exitCode: 0
   -
@@ -398,30 +398,30 @@ events:
     checks:
       - "Performing Test HAS_FSTACK_PROTECTOR_STRONG_FLAG"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-sHspG8"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-sHspG8"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-kN9Vib"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-kN9Vib"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAS_FSTACK_PROTECTOR_STRONG_FLAG"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-sHspG8'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-kN9Vib'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6e149/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-sHspG8'
-        /usr/bin/make  -f CMakeFiles/cmTC_6e149.dir/build.make CMakeFiles/cmTC_6e149.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-sHspG8'
-        Building C object CMakeFiles/cmTC_6e149.dir/src.c.o
-        /usr/bin/cc -DHAS_FSTACK_PROTECTOR_STRONG_FLAG  -fstack-protector-strong -o CMakeFiles/cmTC_6e149.dir/src.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-sHspG8/src.c
-        Linking C executable cmTC_6e149
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e149.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_6e149.dir/src.c.o -o cmTC_6e149 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-sHspG8'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-sHspG8'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9b80e/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-kN9Vib'
+        /usr/bin/make  -f CMakeFiles/cmTC_9b80e.dir/build.make CMakeFiles/cmTC_9b80e.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-kN9Vib'
+        Building C object CMakeFiles/cmTC_9b80e.dir/src.c.o
+        /usr/bin/cc -DHAS_FSTACK_PROTECTOR_STRONG_FLAG  -fstack-protector-strong -o CMakeFiles/cmTC_9b80e.dir/src.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-kN9Vib/src.c
+        Linking C executable cmTC_9b80e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b80e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_9b80e.dir/src.c.o -o cmTC_9b80e 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-kN9Vib'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-kN9Vib'
         
       exitCode: 0
   -
@@ -431,57 +431,57 @@ events:
       - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
       - "src/nvim/CMakeLists.txt:662 (check_ipo_supported)"
     directories:
-      source: "/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src"
-      binary: "/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin"
+      source: "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin"
     buildResult:
       variable: "_IPO_LANGUAGE_CHECK_RESULT"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
         
         Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile
-        make[1]: Entering directory '/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
-        /usr/bin/cmake -S/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src -B/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin --check-build-system CMakeFiles/Makefile.cmake 0
-        /usr/bin/cmake -E cmake_progress_start /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin//CMakeFiles/progress.marks
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/cmake -S/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src -B/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /usr/bin/cmake -E cmake_progress_start /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin//CMakeFiles/progress.marks
         /usr/bin/make  -f CMakeFiles/Makefile2 all
-        make[2]: Entering directory '/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
         /usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
-        make[3]: Entering directory '/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
-        cd /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake
-        Dependee "/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
-        Dependee "/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        make[3]: Entering directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
         Scanning dependencies of target foo
-        make[3]: Leaving directory '/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        make[3]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
         /usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
-        make[3]: Entering directory '/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        make[3]: Entering directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
         [ 25%] Building C object CMakeFiles/foo.dir/foo.c.o
-        /usr/bin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.c.o -c /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        /usr/bin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.c.o -c /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src/foo.c
         [ 50%] Linking C static library libfoo.a
         /usr/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
         /usr/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
         "/usr/bin/gcc-ar" cr libfoo.a CMakeFiles/foo.dir/foo.c.o
         "/usr/bin/gcc-ranlib" libfoo.a
-        make[3]: Leaving directory '/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        make[3]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
         [ 50%] Built target foo
         /usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
-        make[3]: Entering directory '/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
-        cd /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake
-        Dependee "/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
-        Dependee "/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        make[3]: Entering directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
         Scanning dependencies of target boo
-        make[3]: Leaving directory '/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        make[3]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
         /usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
-        make[3]: Entering directory '/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        make[3]: Entering directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
         [ 75%] Building C object CMakeFiles/boo.dir/main.c.o
-        /usr/bin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.c.o -c /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        /usr/bin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.c.o -c /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src/main.c
         [100%] Linking C executable boo
         /usr/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
         /usr/bin/cc -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a 
-        make[3]: Leaving directory '/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        make[3]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
         [100%] Built target boo
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
-        /usr/bin/cmake -E cmake_progress_start /home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles 0
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/cmake -E cmake_progress_start /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles 0
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
         
       exitCode: 0
   -
@@ -493,30 +493,30 @@ events:
     checks:
       - "Performing Test HAVE_EXECINFO_BACKTRACE"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-oEsRdf"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-oEsRdf"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-4R1icD"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-4R1icD"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_EXECINFO_BACKTRACE"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-oEsRdf'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-4R1icD'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5f8c3/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-oEsRdf'
-        /usr/bin/make  -f CMakeFiles/cmTC_5f8c3.dir/build.make CMakeFiles/cmTC_5f8c3.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-oEsRdf'
-        Building C object CMakeFiles/cmTC_5f8c3.dir/src.c.o
-        /usr/bin/cc -DHAVE_EXECINFO_BACKTRACE   -o CMakeFiles/cmTC_5f8c3.dir/src.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-oEsRdf/src.c
-        Linking C executable cmTC_5f8c3
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f8c3.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_5f8c3.dir/src.c.o -o cmTC_5f8c3 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-oEsRdf'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-oEsRdf'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_40734/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-4R1icD'
+        /usr/bin/make  -f CMakeFiles/cmTC_40734.dir/build.make CMakeFiles/cmTC_40734.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-4R1icD'
+        Building C object CMakeFiles/cmTC_40734.dir/src.c.o
+        /usr/bin/cc -DHAVE_EXECINFO_BACKTRACE   -o CMakeFiles/cmTC_40734.dir/src.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-4R1icD/src.c
+        Linking C executable cmTC_40734
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40734.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_40734.dir/src.c.o -o cmTC_40734 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-4R1icD'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-4R1icD'
         
       exitCode: 0
   -
@@ -528,30 +528,30 @@ events:
     checks:
       - "Performing Test HAVE_BUILTIN_ADD_OVERFLOW"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tqvvIS"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tqvvIS"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IiNF98"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IiNF98"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_BUILTIN_ADD_OVERFLOW"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tqvvIS'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IiNF98'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1c92e/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tqvvIS'
-        /usr/bin/make  -f CMakeFiles/cmTC_1c92e.dir/build.make CMakeFiles/cmTC_1c92e.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tqvvIS'
-        Building C object CMakeFiles/cmTC_1c92e.dir/src.c.o
-        /usr/bin/cc -DHAVE_BUILTIN_ADD_OVERFLOW   -o CMakeFiles/cmTC_1c92e.dir/src.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tqvvIS/src.c
-        Linking C executable cmTC_1c92e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c92e.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_1c92e.dir/src.c.o -o cmTC_1c92e 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tqvvIS'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tqvvIS'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7b738/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IiNF98'
+        /usr/bin/make  -f CMakeFiles/cmTC_7b738.dir/build.make CMakeFiles/cmTC_7b738.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IiNF98'
+        Building C object CMakeFiles/cmTC_7b738.dir/src.c.o
+        /usr/bin/cc -DHAVE_BUILTIN_ADD_OVERFLOW   -o CMakeFiles/cmTC_7b738.dir/src.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IiNF98/src.c
+        Linking C executable cmTC_7b738
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b738.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_7b738.dir/src.c.o -o cmTC_7b738 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IiNF98'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IiNF98'
         
       exitCode: 0
   -
@@ -563,30 +563,30 @@ events:
     checks:
       - "Looking for sys/types.h"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-gXd51h"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-gXd51h"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-SlST75"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-SlST75"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_SYS_TYPES_H"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-gXd51h'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-SlST75'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_07cfb/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-gXd51h'
-        /usr/bin/make  -f CMakeFiles/cmTC_07cfb.dir/build.make CMakeFiles/cmTC_07cfb.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-gXd51h'
-        Building C object CMakeFiles/cmTC_07cfb.dir/CheckIncludeFile.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_07cfb.dir/CheckIncludeFile.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-gXd51h/CheckIncludeFile.c
-        Linking C executable cmTC_07cfb
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07cfb.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_07cfb.dir/CheckIncludeFile.c.o -o cmTC_07cfb 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-gXd51h'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-gXd51h'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_646ce/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-SlST75'
+        /usr/bin/make  -f CMakeFiles/cmTC_646ce.dir/build.make CMakeFiles/cmTC_646ce.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-SlST75'
+        Building C object CMakeFiles/cmTC_646ce.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_646ce.dir/CheckIncludeFile.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-SlST75/CheckIncludeFile.c
+        Linking C executable cmTC_646ce
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_646ce.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_646ce.dir/CheckIncludeFile.c.o -o cmTC_646ce 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-SlST75'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-SlST75'
         
       exitCode: 0
   -
@@ -598,30 +598,30 @@ events:
     checks:
       - "Looking for stdint.h"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RS30dw"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RS30dw"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EH0k8y"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EH0k8y"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_STDINT_H"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RS30dw'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EH0k8y'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_aa406/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RS30dw'
-        /usr/bin/make  -f CMakeFiles/cmTC_aa406.dir/build.make CMakeFiles/cmTC_aa406.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RS30dw'
-        Building C object CMakeFiles/cmTC_aa406.dir/CheckIncludeFile.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_aa406.dir/CheckIncludeFile.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RS30dw/CheckIncludeFile.c
-        Linking C executable cmTC_aa406
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa406.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_aa406.dir/CheckIncludeFile.c.o -o cmTC_aa406 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RS30dw'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RS30dw'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fad35/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EH0k8y'
+        /usr/bin/make  -f CMakeFiles/cmTC_fad35.dir/build.make CMakeFiles/cmTC_fad35.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EH0k8y'
+        Building C object CMakeFiles/cmTC_fad35.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_fad35.dir/CheckIncludeFile.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EH0k8y/CheckIncludeFile.c
+        Linking C executable cmTC_fad35
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fad35.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_fad35.dir/CheckIncludeFile.c.o -o cmTC_fad35 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EH0k8y'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EH0k8y'
         
       exitCode: 0
   -
@@ -633,30 +633,30 @@ events:
     checks:
       - "Looking for stddef.h"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxQmRO"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxQmRO"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-geU52P"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-geU52P"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_STDDEF_H"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxQmRO'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-geU52P'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_561e2/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxQmRO'
-        /usr/bin/make  -f CMakeFiles/cmTC_561e2.dir/build.make CMakeFiles/cmTC_561e2.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxQmRO'
-        Building C object CMakeFiles/cmTC_561e2.dir/CheckIncludeFile.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_561e2.dir/CheckIncludeFile.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxQmRO/CheckIncludeFile.c
-        Linking C executable cmTC_561e2
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_561e2.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_561e2.dir/CheckIncludeFile.c.o -o cmTC_561e2 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxQmRO'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxQmRO'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fb22e/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-geU52P'
+        /usr/bin/make  -f CMakeFiles/cmTC_fb22e.dir/build.make CMakeFiles/cmTC_fb22e.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-geU52P'
+        Building C object CMakeFiles/cmTC_fb22e.dir/CheckIncludeFile.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_fb22e.dir/CheckIncludeFile.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-geU52P/CheckIncludeFile.c
+        Linking C executable cmTC_fb22e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb22e.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_fb22e.dir/CheckIncludeFile.c.o -o cmTC_fb22e 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-geU52P'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-geU52P'
         
       exitCode: 0
   -
@@ -668,30 +668,30 @@ events:
     checks:
       - "Check size of int"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-WS7pks"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-WS7pks"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-mKbfhF"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-mKbfhF"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_SIZEOF_INT"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-WS7pks'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-mKbfhF'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8fa41/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-WS7pks'
-        /usr/bin/make  -f CMakeFiles/cmTC_8fa41.dir/build.make CMakeFiles/cmTC_8fa41.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-WS7pks'
-        Building C object CMakeFiles/cmTC_8fa41.dir/SIZEOF_INT.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_8fa41.dir/SIZEOF_INT.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-WS7pks/SIZEOF_INT.c
-        Linking C executable cmTC_8fa41
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fa41.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_8fa41.dir/SIZEOF_INT.c.o -o cmTC_8fa41 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-WS7pks'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-WS7pks'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d51b8/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-mKbfhF'
+        /usr/bin/make  -f CMakeFiles/cmTC_d51b8.dir/build.make CMakeFiles/cmTC_d51b8.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-mKbfhF'
+        Building C object CMakeFiles/cmTC_d51b8.dir/SIZEOF_INT.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_d51b8.dir/SIZEOF_INT.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-mKbfhF/SIZEOF_INT.c
+        Linking C executable cmTC_d51b8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d51b8.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d51b8.dir/SIZEOF_INT.c.o -o cmTC_d51b8 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-mKbfhF'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-mKbfhF'
         
       exitCode: 0
   -
@@ -703,30 +703,30 @@ events:
     checks:
       - "Check size of long"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Isk8ST"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Isk8ST"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-9xiw1J"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-9xiw1J"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_SIZEOF_LONG"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Isk8ST'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-9xiw1J'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_7468d/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Isk8ST'
-        /usr/bin/make  -f CMakeFiles/cmTC_7468d.dir/build.make CMakeFiles/cmTC_7468d.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Isk8ST'
-        Building C object CMakeFiles/cmTC_7468d.dir/SIZEOF_LONG.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_7468d.dir/SIZEOF_LONG.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Isk8ST/SIZEOF_LONG.c
-        Linking C executable cmTC_7468d
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7468d.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_7468d.dir/SIZEOF_LONG.c.o -o cmTC_7468d 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Isk8ST'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Isk8ST'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4adb2/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-9xiw1J'
+        /usr/bin/make  -f CMakeFiles/cmTC_4adb2.dir/build.make CMakeFiles/cmTC_4adb2.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-9xiw1J'
+        Building C object CMakeFiles/cmTC_4adb2.dir/SIZEOF_LONG.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_4adb2.dir/SIZEOF_LONG.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-9xiw1J/SIZEOF_LONG.c
+        Linking C executable cmTC_4adb2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4adb2.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4adb2.dir/SIZEOF_LONG.c.o -o cmTC_4adb2 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-9xiw1J'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-9xiw1J'
         
       exitCode: 0
   -
@@ -738,30 +738,30 @@ events:
     checks:
       - "Check size of intmax_t"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EqYQY1"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EqYQY1"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vogCLW"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vogCLW"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_SIZEOF_INTMAX_T"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EqYQY1'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vogCLW'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_39f05/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EqYQY1'
-        /usr/bin/make  -f CMakeFiles/cmTC_39f05.dir/build.make CMakeFiles/cmTC_39f05.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EqYQY1'
-        Building C object CMakeFiles/cmTC_39f05.dir/SIZEOF_INTMAX_T.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_39f05.dir/SIZEOF_INTMAX_T.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EqYQY1/SIZEOF_INTMAX_T.c
-        Linking C executable cmTC_39f05
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39f05.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_39f05.dir/SIZEOF_INTMAX_T.c.o -o cmTC_39f05 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EqYQY1'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-EqYQY1'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4c90c/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vogCLW'
+        /usr/bin/make  -f CMakeFiles/cmTC_4c90c.dir/build.make CMakeFiles/cmTC_4c90c.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vogCLW'
+        Building C object CMakeFiles/cmTC_4c90c.dir/SIZEOF_INTMAX_T.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_4c90c.dir/SIZEOF_INTMAX_T.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vogCLW/SIZEOF_INTMAX_T.c
+        Linking C executable cmTC_4c90c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c90c.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_4c90c.dir/SIZEOF_INTMAX_T.c.o -o cmTC_4c90c 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vogCLW'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vogCLW'
         
       exitCode: 0
   -
@@ -773,30 +773,30 @@ events:
     checks:
       - "Check size of size_t"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-dCjHZj"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-dCjHZj"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-jJPAhO"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-jJPAhO"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_SIZEOF_SIZE_T"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-dCjHZj'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-jJPAhO'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dd01f/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-dCjHZj'
-        /usr/bin/make  -f CMakeFiles/cmTC_dd01f.dir/build.make CMakeFiles/cmTC_dd01f.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-dCjHZj'
-        Building C object CMakeFiles/cmTC_dd01f.dir/SIZEOF_SIZE_T.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_dd01f.dir/SIZEOF_SIZE_T.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-dCjHZj/SIZEOF_SIZE_T.c
-        Linking C executable cmTC_dd01f
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd01f.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_dd01f.dir/SIZEOF_SIZE_T.c.o -o cmTC_dd01f 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-dCjHZj'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-dCjHZj'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fb389/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-jJPAhO'
+        /usr/bin/make  -f CMakeFiles/cmTC_fb389.dir/build.make CMakeFiles/cmTC_fb389.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-jJPAhO'
+        Building C object CMakeFiles/cmTC_fb389.dir/SIZEOF_SIZE_T.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_fb389.dir/SIZEOF_SIZE_T.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-jJPAhO/SIZEOF_SIZE_T.c
+        Linking C executable cmTC_fb389
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb389.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_fb389.dir/SIZEOF_SIZE_T.c.o -o cmTC_fb389 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-jJPAhO'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-jJPAhO'
         
       exitCode: 0
   -
@@ -808,30 +808,30 @@ events:
     checks:
       - "Check size of void *"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-hz3hXK"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-hz3hXK"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-cPcI4d"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-cPcI4d"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_SIZEOF_VOID_PTR"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-hz3hXK'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-cPcI4d'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ba851/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-hz3hXK'
-        /usr/bin/make  -f CMakeFiles/cmTC_ba851.dir/build.make CMakeFiles/cmTC_ba851.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-hz3hXK'
-        Building C object CMakeFiles/cmTC_ba851.dir/SIZEOF_VOID_PTR.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_ba851.dir/SIZEOF_VOID_PTR.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-hz3hXK/SIZEOF_VOID_PTR.c
-        Linking C executable cmTC_ba851
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba851.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_ba851.dir/SIZEOF_VOID_PTR.c.o -o cmTC_ba851 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-hz3hXK'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-hz3hXK'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3e55a/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-cPcI4d'
+        /usr/bin/make  -f CMakeFiles/cmTC_3e55a.dir/build.make CMakeFiles/cmTC_3e55a.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-cPcI4d'
+        Building C object CMakeFiles/cmTC_3e55a.dir/SIZEOF_VOID_PTR.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_3e55a.dir/SIZEOF_VOID_PTR.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-cPcI4d/SIZEOF_VOID_PTR.c
+        Linking C executable cmTC_3e55a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e55a.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_3e55a.dir/SIZEOF_VOID_PTR.c.o -o cmTC_3e55a 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-cPcI4d'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-cPcI4d'
         
       exitCode: 0
   -
@@ -843,33 +843,33 @@ events:
     checks:
       - "Looking for _NSGetEnviron"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nq9ewl"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nq9ewl"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fnoJwS"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fnoJwS"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE__NSGETENVIRON"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nq9ewl'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fnoJwS'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2f6a1/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nq9ewl'
-        /usr/bin/make  -f CMakeFiles/cmTC_2f6a1.dir/build.make CMakeFiles/cmTC_2f6a1.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nq9ewl'
-        Building C object CMakeFiles/cmTC_2f6a1.dir/CheckSymbolExists.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_2f6a1.dir/CheckSymbolExists.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nq9ewl/CheckSymbolExists.c
-        /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nq9ewl/CheckSymbolExists.c:2:10: fatal error: crt_externs.h: No such file or directory
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_29367/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fnoJwS'
+        /usr/bin/make  -f CMakeFiles/cmTC_29367.dir/build.make CMakeFiles/cmTC_29367.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fnoJwS'
+        Building C object CMakeFiles/cmTC_29367.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_29367.dir/CheckSymbolExists.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fnoJwS/CheckSymbolExists.c
+        /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fnoJwS/CheckSymbolExists.c:2:10: fatal error: crt_externs.h: No such file or directory
             2 | #include <crt_externs.h>
               |          ^~~~~~~~~~~~~~~
         compilation terminated.
-        make[2]: *** [CMakeFiles/cmTC_2f6a1.dir/build.make:78: CMakeFiles/cmTC_2f6a1.dir/CheckSymbolExists.c.o] Error 1
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nq9ewl'
-        make[1]: *** [Makefile:127: cmTC_2f6a1/fast] Error 2
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nq9ewl'
+        make[2]: *** [CMakeFiles/cmTC_29367.dir/build.make:78: CMakeFiles/cmTC_29367.dir/CheckSymbolExists.c.o] Error 1
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fnoJwS'
+        make[1]: *** [Makefile:127: cmTC_29367/fast] Error 2
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fnoJwS'
         
       exitCode: 2
   -
@@ -880,30 +880,30 @@ events:
     checks:
       - "Looking for include file langinfo.h"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-wZyiXt"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-wZyiXt"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-swKkAo"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-swKkAo"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_LANGINFO_H"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-wZyiXt'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-swKkAo'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_80733/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-wZyiXt'
-        /usr/bin/make  -f CMakeFiles/cmTC_80733.dir/build.make CMakeFiles/cmTC_80733.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-wZyiXt'
-        Building C object CMakeFiles/cmTC_80733.dir/HAVE_LANGINFO_H.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_80733.dir/HAVE_LANGINFO_H.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-wZyiXt/HAVE_LANGINFO_H.c
-        Linking C executable cmTC_80733
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80733.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_80733.dir/HAVE_LANGINFO_H.c.o -o cmTC_80733 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-wZyiXt'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-wZyiXt'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_73994/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-swKkAo'
+        /usr/bin/make  -f CMakeFiles/cmTC_73994.dir/build.make CMakeFiles/cmTC_73994.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-swKkAo'
+        Building C object CMakeFiles/cmTC_73994.dir/HAVE_LANGINFO_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_73994.dir/HAVE_LANGINFO_H.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-swKkAo/HAVE_LANGINFO_H.c
+        Linking C executable cmTC_73994
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73994.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_73994.dir/HAVE_LANGINFO_H.c.o -o cmTC_73994 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-swKkAo'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-swKkAo'
         
       exitCode: 0
   -
@@ -914,30 +914,30 @@ events:
     checks:
       - "Looking for include file strings.h"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-zJwf3q"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-zJwf3q"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-h7IEO9"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-h7IEO9"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_STRINGS_H"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-zJwf3q'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-h7IEO9'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6327b/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-zJwf3q'
-        /usr/bin/make  -f CMakeFiles/cmTC_6327b.dir/build.make CMakeFiles/cmTC_6327b.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-zJwf3q'
-        Building C object CMakeFiles/cmTC_6327b.dir/HAVE_STRINGS_H.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_6327b.dir/HAVE_STRINGS_H.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-zJwf3q/HAVE_STRINGS_H.c
-        Linking C executable cmTC_6327b
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6327b.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_6327b.dir/HAVE_STRINGS_H.c.o -o cmTC_6327b 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-zJwf3q'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-zJwf3q'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5e4e0/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-h7IEO9'
+        /usr/bin/make  -f CMakeFiles/cmTC_5e4e0.dir/build.make CMakeFiles/cmTC_5e4e0.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-h7IEO9'
+        Building C object CMakeFiles/cmTC_5e4e0.dir/HAVE_STRINGS_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_5e4e0.dir/HAVE_STRINGS_H.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-h7IEO9/HAVE_STRINGS_H.c
+        Linking C executable cmTC_5e4e0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e4e0.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_5e4e0.dir/HAVE_STRINGS_H.c.o -o cmTC_5e4e0 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-h7IEO9'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-h7IEO9'
         
       exitCode: 0
   -
@@ -948,30 +948,30 @@ events:
     checks:
       - "Looking for include file sys/utsname.h"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-pf6GQp"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-pf6GQp"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IDkUD0"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IDkUD0"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_SYS_UTSNAME_H"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-pf6GQp'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IDkUD0'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_afff6/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-pf6GQp'
-        /usr/bin/make  -f CMakeFiles/cmTC_afff6.dir/build.make CMakeFiles/cmTC_afff6.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-pf6GQp'
-        Building C object CMakeFiles/cmTC_afff6.dir/HAVE_SYS_UTSNAME_H.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_afff6.dir/HAVE_SYS_UTSNAME_H.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-pf6GQp/HAVE_SYS_UTSNAME_H.c
-        Linking C executable cmTC_afff6
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afff6.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_afff6.dir/HAVE_SYS_UTSNAME_H.c.o -o cmTC_afff6 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-pf6GQp'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-pf6GQp'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6b2d9/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IDkUD0'
+        /usr/bin/make  -f CMakeFiles/cmTC_6b2d9.dir/build.make CMakeFiles/cmTC_6b2d9.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IDkUD0'
+        Building C object CMakeFiles/cmTC_6b2d9.dir/HAVE_SYS_UTSNAME_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_6b2d9.dir/HAVE_SYS_UTSNAME_H.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IDkUD0/HAVE_SYS_UTSNAME_H.c
+        Linking C executable cmTC_6b2d9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b2d9.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_6b2d9.dir/HAVE_SYS_UTSNAME_H.c.o -o cmTC_6b2d9 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IDkUD0'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-IDkUD0'
         
       exitCode: 0
   -
@@ -982,30 +982,30 @@ events:
     checks:
       - "Looking for include file termios.h"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c4SQNW"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c4SQNW"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QffH5U"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QffH5U"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_TERMIOS_H"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c4SQNW'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QffH5U'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6b1c3/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c4SQNW'
-        /usr/bin/make  -f CMakeFiles/cmTC_6b1c3.dir/build.make CMakeFiles/cmTC_6b1c3.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c4SQNW'
-        Building C object CMakeFiles/cmTC_6b1c3.dir/HAVE_TERMIOS_H.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_6b1c3.dir/HAVE_TERMIOS_H.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c4SQNW/HAVE_TERMIOS_H.c
-        Linking C executable cmTC_6b1c3
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b1c3.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_6b1c3.dir/HAVE_TERMIOS_H.c.o -o cmTC_6b1c3 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c4SQNW'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c4SQNW'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_667d0/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QffH5U'
+        /usr/bin/make  -f CMakeFiles/cmTC_667d0.dir/build.make CMakeFiles/cmTC_667d0.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QffH5U'
+        Building C object CMakeFiles/cmTC_667d0.dir/HAVE_TERMIOS_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_667d0.dir/HAVE_TERMIOS_H.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QffH5U/HAVE_TERMIOS_H.c
+        Linking C executable cmTC_667d0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_667d0.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_667d0.dir/HAVE_TERMIOS_H.c.o -o cmTC_667d0 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QffH5U'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QffH5U'
         
       exitCode: 0
   -
@@ -1016,30 +1016,30 @@ events:
     checks:
       - "Looking for include file sys/uio.h"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c9t6CM"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c9t6CM"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxD1ca"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxD1ca"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_SYS_UIO_H"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c9t6CM'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxD1ca'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9e0dc/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c9t6CM'
-        /usr/bin/make  -f CMakeFiles/cmTC_9e0dc.dir/build.make CMakeFiles/cmTC_9e0dc.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c9t6CM'
-        Building C object CMakeFiles/cmTC_9e0dc.dir/HAVE_SYS_UIO_H.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_9e0dc.dir/HAVE_SYS_UIO_H.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c9t6CM/HAVE_SYS_UIO_H.c
-        Linking C executable cmTC_9e0dc
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e0dc.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_9e0dc.dir/HAVE_SYS_UIO_H.c.o -o cmTC_9e0dc 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c9t6CM'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-c9t6CM'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_14fa1/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxD1ca'
+        /usr/bin/make  -f CMakeFiles/cmTC_14fa1.dir/build.make CMakeFiles/cmTC_14fa1.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxD1ca'
+        Building C object CMakeFiles/cmTC_14fa1.dir/HAVE_SYS_UIO_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_14fa1.dir/HAVE_SYS_UIO_H.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxD1ca/HAVE_SYS_UIO_H.c
+        Linking C executable cmTC_14fa1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14fa1.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_14fa1.dir/HAVE_SYS_UIO_H.c.o -o cmTC_14fa1 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxD1ca'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YxD1ca'
         
       exitCode: 0
   -
@@ -1050,30 +1050,30 @@ events:
     checks:
       - "Looking for include file sys/sdt.h"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JhL1zd"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JhL1zd"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QS9JVh"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QS9JVh"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_SYS_SDT_H"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JhL1zd'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QS9JVh'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_69b1b/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JhL1zd'
-        /usr/bin/make  -f CMakeFiles/cmTC_69b1b.dir/build.make CMakeFiles/cmTC_69b1b.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JhL1zd'
-        Building C object CMakeFiles/cmTC_69b1b.dir/HAVE_SYS_SDT_H.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_69b1b.dir/HAVE_SYS_SDT_H.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JhL1zd/HAVE_SYS_SDT_H.c
-        Linking C executable cmTC_69b1b
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69b1b.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_69b1b.dir/HAVE_SYS_SDT_H.c.o -o cmTC_69b1b 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JhL1zd'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JhL1zd'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_499c2/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QS9JVh'
+        /usr/bin/make  -f CMakeFiles/cmTC_499c2.dir/build.make CMakeFiles/cmTC_499c2.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QS9JVh'
+        Building C object CMakeFiles/cmTC_499c2.dir/HAVE_SYS_SDT_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_499c2.dir/HAVE_SYS_SDT_H.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QS9JVh/HAVE_SYS_SDT_H.c
+        Linking C executable cmTC_499c2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_499c2.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_499c2.dir/HAVE_SYS_SDT_H.c.o -o cmTC_499c2 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QS9JVh'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-QS9JVh'
         
       exitCode: 0
   -
@@ -1084,30 +1084,30 @@ events:
     checks:
       - "Looking for fseeko"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-BwxowV"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-BwxowV"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Rvi4uX"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Rvi4uX"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_FSEEKO"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-BwxowV'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Rvi4uX'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c71f1/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-BwxowV'
-        /usr/bin/make  -f CMakeFiles/cmTC_c71f1.dir/build.make CMakeFiles/cmTC_c71f1.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-BwxowV'
-        Building C object CMakeFiles/cmTC_c71f1.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko -o CMakeFiles/cmTC_c71f1.dir/CheckFunctionExists.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-BwxowV/CheckFunctionExists.c
-        Linking C executable cmTC_c71f1
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c71f1.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko CMakeFiles/cmTC_c71f1.dir/CheckFunctionExists.c.o -o cmTC_c71f1 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-BwxowV'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-BwxowV'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_435d2/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Rvi4uX'
+        /usr/bin/make  -f CMakeFiles/cmTC_435d2.dir/build.make CMakeFiles/cmTC_435d2.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Rvi4uX'
+        Building C object CMakeFiles/cmTC_435d2.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fseeko -o CMakeFiles/cmTC_435d2.dir/CheckFunctionExists.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Rvi4uX/CheckFunctionExists.c
+        Linking C executable cmTC_435d2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_435d2.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=fseeko CMakeFiles/cmTC_435d2.dir/CheckFunctionExists.c.o -o cmTC_435d2 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Rvi4uX'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Rvi4uX'
         
       exitCode: 0
   -
@@ -1118,30 +1118,30 @@ events:
     checks:
       - "Looking for readv"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-3LblKA"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-3LblKA"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-0Xhd3h"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-0Xhd3h"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_READV"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-3LblKA'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-0Xhd3h'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9ebbf/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-3LblKA'
-        /usr/bin/make  -f CMakeFiles/cmTC_9ebbf.dir/build.make CMakeFiles/cmTC_9ebbf.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-3LblKA'
-        Building C object CMakeFiles/cmTC_9ebbf.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=readv -o CMakeFiles/cmTC_9ebbf.dir/CheckFunctionExists.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-3LblKA/CheckFunctionExists.c
-        Linking C executable cmTC_9ebbf
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ebbf.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=readv CMakeFiles/cmTC_9ebbf.dir/CheckFunctionExists.c.o -o cmTC_9ebbf 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-3LblKA'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-3LblKA'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ac7cc/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-0Xhd3h'
+        /usr/bin/make  -f CMakeFiles/cmTC_ac7cc.dir/build.make CMakeFiles/cmTC_ac7cc.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-0Xhd3h'
+        Building C object CMakeFiles/cmTC_ac7cc.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=readv -o CMakeFiles/cmTC_ac7cc.dir/CheckFunctionExists.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-0Xhd3h/CheckFunctionExists.c
+        Linking C executable cmTC_ac7cc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac7cc.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=readv CMakeFiles/cmTC_ac7cc.dir/CheckFunctionExists.c.o -o cmTC_ac7cc 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-0Xhd3h'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-0Xhd3h'
         
       exitCode: 0
   -
@@ -1152,30 +1152,30 @@ events:
     checks:
       - "Looking for readlink"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-xHT6R7"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-xHT6R7"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vJGKcP"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vJGKcP"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_READLINK"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-xHT6R7'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vJGKcP'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b45e7/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-xHT6R7'
-        /usr/bin/make  -f CMakeFiles/cmTC_b45e7.dir/build.make CMakeFiles/cmTC_b45e7.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-xHT6R7'
-        Building C object CMakeFiles/cmTC_b45e7.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=readlink -o CMakeFiles/cmTC_b45e7.dir/CheckFunctionExists.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-xHT6R7/CheckFunctionExists.c
-        Linking C executable cmTC_b45e7
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b45e7.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=readlink CMakeFiles/cmTC_b45e7.dir/CheckFunctionExists.c.o -o cmTC_b45e7 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-xHT6R7'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-xHT6R7'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_428ce/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vJGKcP'
+        /usr/bin/make  -f CMakeFiles/cmTC_428ce.dir/build.make CMakeFiles/cmTC_428ce.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vJGKcP'
+        Building C object CMakeFiles/cmTC_428ce.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=readlink -o CMakeFiles/cmTC_428ce.dir/CheckFunctionExists.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vJGKcP/CheckFunctionExists.c
+        Linking C executable cmTC_428ce
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_428ce.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=readlink CMakeFiles/cmTC_428ce.dir/CheckFunctionExists.c.o -o cmTC_428ce 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vJGKcP'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-vJGKcP'
         
       exitCode: 0
   -
@@ -1186,34 +1186,34 @@ events:
     checks:
       - "Looking for strnlen"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JpW9Ha"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JpW9Ha"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Q7x3C3"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Q7x3C3"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_STRNLEN"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JpW9Ha'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Q7x3C3'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e4296/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JpW9Ha'
-        /usr/bin/make  -f CMakeFiles/cmTC_e4296.dir/build.make CMakeFiles/cmTC_e4296.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JpW9Ha'
-        Building C object CMakeFiles/cmTC_e4296.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strnlen -o CMakeFiles/cmTC_e4296.dir/CheckFunctionExists.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JpW9Ha/CheckFunctionExists.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fa91c/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Q7x3C3'
+        /usr/bin/make  -f CMakeFiles/cmTC_fa91c.dir/build.make CMakeFiles/cmTC_fa91c.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Q7x3C3'
+        Building C object CMakeFiles/cmTC_fa91c.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strnlen -o CMakeFiles/cmTC_fa91c.dir/CheckFunctionExists.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Q7x3C3/CheckFunctionExists.c
         <command-line>: warning: conflicting types for built-in function ‘strnlen’; expected ‘long unsigned int(const char *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
-        /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JpW9Ha/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+        /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Q7x3C3/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
             7 |   CHECK_FUNCTION_EXISTS(void);
               |   ^~~~~~~~~~~~~~~~~~~~~
-        Linking C executable cmTC_e4296
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4296.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strnlen CMakeFiles/cmTC_e4296.dir/CheckFunctionExists.c.o -o cmTC_e4296 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JpW9Ha'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-JpW9Ha'
+        Linking C executable cmTC_fa91c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa91c.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strnlen CMakeFiles/cmTC_fa91c.dir/CheckFunctionExists.c.o -o cmTC_fa91c 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Q7x3C3'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Q7x3C3'
         
       exitCode: 0
   -
@@ -1224,34 +1224,34 @@ events:
     checks:
       - "Looking for strcasecmp"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NLxjH9"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NLxjH9"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-PSPIEk"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-PSPIEk"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_STRCASECMP"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NLxjH9'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-PSPIEk'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_abc9e/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NLxjH9'
-        /usr/bin/make  -f CMakeFiles/cmTC_abc9e.dir/build.make CMakeFiles/cmTC_abc9e.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NLxjH9'
-        Building C object CMakeFiles/cmTC_abc9e.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp -o CMakeFiles/cmTC_abc9e.dir/CheckFunctionExists.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NLxjH9/CheckFunctionExists.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_08882/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-PSPIEk'
+        /usr/bin/make  -f CMakeFiles/cmTC_08882.dir/build.make CMakeFiles/cmTC_08882.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-PSPIEk'
+        Building C object CMakeFiles/cmTC_08882.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcasecmp -o CMakeFiles/cmTC_08882.dir/CheckFunctionExists.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-PSPIEk/CheckFunctionExists.c
         <command-line>: warning: conflicting types for built-in function ‘strcasecmp’; expected ‘int(const char *, const char *)’ [-Wbuiltin-declaration-mismatch]
-        /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NLxjH9/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+        /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-PSPIEk/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
             7 |   CHECK_FUNCTION_EXISTS(void);
               |   ^~~~~~~~~~~~~~~~~~~~~
-        Linking C executable cmTC_abc9e
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abc9e.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcasecmp CMakeFiles/cmTC_abc9e.dir/CheckFunctionExists.c.o -o cmTC_abc9e 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NLxjH9'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-NLxjH9'
+        Linking C executable cmTC_08882
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08882.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcasecmp CMakeFiles/cmTC_08882.dir/CheckFunctionExists.c.o -o cmTC_08882 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-PSPIEk'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-PSPIEk'
         
       exitCode: 0
   -
@@ -1262,34 +1262,34 @@ events:
     checks:
       - "Looking for strncasecmp"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P46hQy"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P46hQy"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tteT3Q"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tteT3Q"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_STRNCASECMP"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P46hQy'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tteT3Q'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6b476/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P46hQy'
-        /usr/bin/make  -f CMakeFiles/cmTC_6b476.dir/build.make CMakeFiles/cmTC_6b476.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P46hQy'
-        Building C object CMakeFiles/cmTC_6b476.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strncasecmp -o CMakeFiles/cmTC_6b476.dir/CheckFunctionExists.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P46hQy/CheckFunctionExists.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_99eef/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tteT3Q'
+        /usr/bin/make  -f CMakeFiles/cmTC_99eef.dir/build.make CMakeFiles/cmTC_99eef.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tteT3Q'
+        Building C object CMakeFiles/cmTC_99eef.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strncasecmp -o CMakeFiles/cmTC_99eef.dir/CheckFunctionExists.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tteT3Q/CheckFunctionExists.c
         <command-line>: warning: conflicting types for built-in function ‘strncasecmp’; expected ‘int(const char *, const char *, long unsigned int)’ [-Wbuiltin-declaration-mismatch]
-        /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P46hQy/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+        /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tteT3Q/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
             7 |   CHECK_FUNCTION_EXISTS(void);
               |   ^~~~~~~~~~~~~~~~~~~~~
-        Linking C executable cmTC_6b476
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b476.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strncasecmp CMakeFiles/cmTC_6b476.dir/CheckFunctionExists.c.o -o cmTC_6b476 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P46hQy'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P46hQy'
+        Linking C executable cmTC_99eef
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99eef.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strncasecmp CMakeFiles/cmTC_99eef.dir/CheckFunctionExists.c.o -o cmTC_99eef 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tteT3Q'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-tteT3Q'
         
       exitCode: 0
   -
@@ -1300,30 +1300,30 @@ events:
     checks:
       - "Looking for strptime"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-doobpB"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-doobpB"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-U7FwgW"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-U7FwgW"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_STRPTIME"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-doobpB'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-U7FwgW'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_48c11/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-doobpB'
-        /usr/bin/make  -f CMakeFiles/cmTC_48c11.dir/build.make CMakeFiles/cmTC_48c11.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-doobpB'
-        Building C object CMakeFiles/cmTC_48c11.dir/CheckFunctionExists.c.o
-        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strptime -o CMakeFiles/cmTC_48c11.dir/CheckFunctionExists.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-doobpB/CheckFunctionExists.c
-        Linking C executable cmTC_48c11
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48c11.dir/link.txt --verbose=1
-        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strptime CMakeFiles/cmTC_48c11.dir/CheckFunctionExists.c.o -o cmTC_48c11 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-doobpB'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-doobpB'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2c5f2/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-U7FwgW'
+        /usr/bin/make  -f CMakeFiles/cmTC_2c5f2.dir/build.make CMakeFiles/cmTC_2c5f2.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-U7FwgW'
+        Building C object CMakeFiles/cmTC_2c5f2.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strptime -o CMakeFiles/cmTC_2c5f2.dir/CheckFunctionExists.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-U7FwgW/CheckFunctionExists.c
+        Linking C executable cmTC_2c5f2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c5f2.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strptime CMakeFiles/cmTC_2c5f2.dir/CheckFunctionExists.c.o -o cmTC_2c5f2 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-U7FwgW'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-U7FwgW'
         
       exitCode: 0
   -
@@ -1335,30 +1335,30 @@ events:
     checks:
       - "Performing Test HAVE_DIRFD_AND_FLOCK"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P0WP2N"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P0WP2N"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-veofCS"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-veofCS"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_DIRFD_AND_FLOCK"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P0WP2N'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-veofCS'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b7af6/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P0WP2N'
-        /usr/bin/make  -f CMakeFiles/cmTC_b7af6.dir/build.make CMakeFiles/cmTC_b7af6.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P0WP2N'
-        Building C object CMakeFiles/cmTC_b7af6.dir/src.c.o
-        /usr/bin/cc -DHAVE_DIRFD_AND_FLOCK   -o CMakeFiles/cmTC_b7af6.dir/src.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P0WP2N/src.c
-        Linking C executable cmTC_b7af6
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7af6.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_b7af6.dir/src.c.o -o cmTC_b7af6 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P0WP2N'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-P0WP2N'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_355f7/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-veofCS'
+        /usr/bin/make  -f CMakeFiles/cmTC_355f7.dir/build.make CMakeFiles/cmTC_355f7.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-veofCS'
+        Building C object CMakeFiles/cmTC_355f7.dir/src.c.o
+        /usr/bin/cc -DHAVE_DIRFD_AND_FLOCK   -o CMakeFiles/cmTC_355f7.dir/src.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-veofCS/src.c
+        Linking C executable cmTC_355f7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_355f7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_355f7.dir/src.c.o -o cmTC_355f7 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-veofCS'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-veofCS'
         
       exitCode: 0
   -
@@ -1370,30 +1370,30 @@ events:
     checks:
       - "Performing Test HAVE_PWD_FUNCS"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-g8qqxP"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-g8qqxP"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-shhxkT"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-shhxkT"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_PWD_FUNCS"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-g8qqxP'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-shhxkT'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_adb1a/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-g8qqxP'
-        /usr/bin/make  -f CMakeFiles/cmTC_adb1a.dir/build.make CMakeFiles/cmTC_adb1a.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-g8qqxP'
-        Building C object CMakeFiles/cmTC_adb1a.dir/src.c.o
-        /usr/bin/cc -DHAVE_PWD_FUNCS   -o CMakeFiles/cmTC_adb1a.dir/src.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-g8qqxP/src.c
-        Linking C executable cmTC_adb1a
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adb1a.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_adb1a.dir/src.c.o -o cmTC_adb1a 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-g8qqxP'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-g8qqxP'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_cbaa8/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-shhxkT'
+        /usr/bin/make  -f CMakeFiles/cmTC_cbaa8.dir/build.make CMakeFiles/cmTC_cbaa8.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-shhxkT'
+        Building C object CMakeFiles/cmTC_cbaa8.dir/src.c.o
+        /usr/bin/cc -DHAVE_PWD_FUNCS   -o CMakeFiles/cmTC_cbaa8.dir/src.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-shhxkT/src.c
+        Linking C executable cmTC_cbaa8
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbaa8.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_cbaa8.dir/src.c.o -o cmTC_cbaa8 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-shhxkT'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-shhxkT'
         
       exitCode: 0
   -
@@ -1405,30 +1405,30 @@ events:
     checks:
       - "Looking for FD_CLOEXEC"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Uq1M6o"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Uq1M6o"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fLi27Q"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fLi27Q"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_FD_CLOEXEC"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Uq1M6o'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fLi27Q'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5a870/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Uq1M6o'
-        /usr/bin/make  -f CMakeFiles/cmTC_5a870.dir/build.make CMakeFiles/cmTC_5a870.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Uq1M6o'
-        Building C object CMakeFiles/cmTC_5a870.dir/CheckSymbolExists.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_5a870.dir/CheckSymbolExists.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Uq1M6o/CheckSymbolExists.c
-        Linking C executable cmTC_5a870
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a870.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_5a870.dir/CheckSymbolExists.c.o -o cmTC_5a870 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Uq1M6o'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Uq1M6o'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_41252/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fLi27Q'
+        /usr/bin/make  -f CMakeFiles/cmTC_41252.dir/build.make CMakeFiles/cmTC_41252.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fLi27Q'
+        Building C object CMakeFiles/cmTC_41252.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_41252.dir/CheckSymbolExists.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fLi27Q/CheckSymbolExists.c
+        Linking C executable cmTC_41252
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41252.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_41252.dir/CheckSymbolExists.c.o -o cmTC_41252 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fLi27Q'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-fLi27Q'
         
       exitCode: 0
   -
@@ -1440,30 +1440,30 @@ events:
     checks:
       - "Looking for CODESET"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YsnoUO"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YsnoUO"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RRy4Yy"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RRy4Yy"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_NL_LANGINFO_CODESET"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YsnoUO'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RRy4Yy'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_82010/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YsnoUO'
-        /usr/bin/make  -f CMakeFiles/cmTC_82010.dir/build.make CMakeFiles/cmTC_82010.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YsnoUO'
-        Building C object CMakeFiles/cmTC_82010.dir/CheckSymbolExists.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_82010.dir/CheckSymbolExists.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YsnoUO/CheckSymbolExists.c
-        Linking C executable cmTC_82010
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82010.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_82010.dir/CheckSymbolExists.c.o -o cmTC_82010 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YsnoUO'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-YsnoUO'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c6020/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RRy4Yy'
+        /usr/bin/make  -f CMakeFiles/cmTC_c6020.dir/build.make CMakeFiles/cmTC_c6020.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RRy4Yy'
+        Building C object CMakeFiles/cmTC_c6020.dir/CheckSymbolExists.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_c6020.dir/CheckSymbolExists.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RRy4Yy/CheckSymbolExists.c
+        Linking C executable cmTC_c6020
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6020.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c6020.dir/CheckSymbolExists.c.o -o cmTC_c6020 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RRy4Yy'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-RRy4Yy'
         
       exitCode: 0
   -
@@ -1474,30 +1474,30 @@ events:
     checks:
       - "Looking for include file endian.h"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nf21XX"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nf21XX"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5yBSYW"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5yBSYW"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_ENDIAN_H"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nf21XX'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5yBSYW'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5f1cf/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nf21XX'
-        /usr/bin/make  -f CMakeFiles/cmTC_5f1cf.dir/build.make CMakeFiles/cmTC_5f1cf.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nf21XX'
-        Building C object CMakeFiles/cmTC_5f1cf.dir/HAVE_ENDIAN_H.c.o
-        /usr/bin/cc    -o CMakeFiles/cmTC_5f1cf.dir/HAVE_ENDIAN_H.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nf21XX/HAVE_ENDIAN_H.c
-        Linking C executable cmTC_5f1cf
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f1cf.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_5f1cf.dir/HAVE_ENDIAN_H.c.o -o cmTC_5f1cf 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nf21XX'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Nf21XX'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_35c6f/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5yBSYW'
+        /usr/bin/make  -f CMakeFiles/cmTC_35c6f.dir/build.make CMakeFiles/cmTC_35c6f.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5yBSYW'
+        Building C object CMakeFiles/cmTC_35c6f.dir/HAVE_ENDIAN_H.c.o
+        /usr/bin/cc    -o CMakeFiles/cmTC_35c6f.dir/HAVE_ENDIAN_H.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5yBSYW/HAVE_ENDIAN_H.c
+        Linking C executable cmTC_35c6f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35c6f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_35c6f.dir/HAVE_ENDIAN_H.c.o -o cmTC_35c6f 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5yBSYW'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-5yBSYW'
         
       exitCode: 0
   -
@@ -1509,30 +1509,94 @@ events:
     checks:
       - "Performing Test HAVE_BE64TOH_MACROS"
     directories:
-      source: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Fxdsa0"
-      binary: "/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Fxdsa0"
+      source: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-uqe8Zv"
+      binary: "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-uqe8Zv"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake"
     buildResult:
       variable: "HAVE_BE64TOH_MACROS"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Fxdsa0'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-uqe8Zv'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_003ec/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Fxdsa0'
-        /usr/bin/make  -f CMakeFiles/cmTC_003ec.dir/build.make CMakeFiles/cmTC_003ec.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Fxdsa0'
-        Building C object CMakeFiles/cmTC_003ec.dir/src.c.o
-        /usr/bin/cc -DHAVE_BE64TOH_MACROS   -o CMakeFiles/cmTC_003ec.dir/src.c.o -c /home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Fxdsa0/src.c
-        Linking C executable cmTC_003ec
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_003ec.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_003ec.dir/src.c.o -o cmTC_003ec 
-        make[2]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Fxdsa0'
-        make[1]: Leaving directory '/home/nick/dl/neovim/build/CMakeFiles/CMakeScratch/TryCompile-Fxdsa0'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_814e1/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-uqe8Zv'
+        /usr/bin/make  -f CMakeFiles/cmTC_814e1.dir/build.make CMakeFiles/cmTC_814e1.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-uqe8Zv'
+        Building C object CMakeFiles/cmTC_814e1.dir/src.c.o
+        /usr/bin/cc -DHAVE_BE64TOH_MACROS   -o CMakeFiles/cmTC_814e1.dir/src.c.o -c /home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-uqe8Zv/src.c
+        Linking C executable cmTC_814e1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_814e1.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_814e1.dir/src.c.o -o cmTC_814e1 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-uqe8Zv'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/CMakeFiles/CMakeScratch/TryCompile-uqe8Zv'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckIPOSupported.cmake:266 (_ipo_run_language_check)"
+      - "src/nvim/CMakeLists.txt:662 (check_ipo_supported)"
+    directories:
+      source: "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/cmake -S/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src -B/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin --check-build-system CMakeFiles/Makefile.cmake 0
+        /usr/bin/cmake -E cmake_progress_start /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin//CMakeFiles/progress.marks
+        /usr/bin/make  -f CMakeFiles/Makefile2 all
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/depend
+        make[3]: Entering directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake
+        Dependee "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/DependInfo.cmake" is newer than depender "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Dependee "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir/depend.internal".
+        Scanning dependencies of target foo
+        make[3]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/make  -f CMakeFiles/foo.dir/build.make CMakeFiles/foo.dir/build
+        make[3]: Entering directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 25%] Building C object CMakeFiles/foo.dir/foo.c.o
+        /usr/bin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/foo.dir/foo.c.o -c /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src/foo.c
+        [ 50%] Linking C static library libfoo.a
+        /usr/bin/cmake -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=1
+        "/usr/bin/gcc-ar" cr libfoo.a CMakeFiles/foo.dir/foo.c.o
+        "/usr/bin/gcc-ranlib" libfoo.a
+        make[3]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 50%] Built target foo
+        /usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/depend
+        make[3]: Entering directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        cd /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake
+        Dependee "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/DependInfo.cmake" is newer than depender "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Dependee "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/CMakeDirectoryInformation.cmake" is newer than depender "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/depend.internal".
+        Scanning dependencies of target boo
+        make[3]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/make  -f CMakeFiles/boo.dir/build.make CMakeFiles/boo.dir/build
+        make[3]: Entering directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        [ 75%] Building C object CMakeFiles/boo.dir/main.c.o
+        /usr/bin/cc   -flto=auto -fno-fat-lto-objects -o CMakeFiles/boo.dir/main.c.o -c /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src/main.c
+        [100%] Linking C executable boo
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/boo.dir/link.txt --verbose=1
+        /usr/bin/cc -flto=auto -fno-fat-lto-objects CMakeFiles/boo.dir/main.c.o -o boo  libfoo.a 
+        make[3]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        [100%] Built target boo
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
+        /usr/bin/cmake -E cmake_progress_start /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles 0
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin'
         
       exitCode: 0
 ...

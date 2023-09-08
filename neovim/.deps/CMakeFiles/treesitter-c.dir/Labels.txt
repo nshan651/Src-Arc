@@ -1,13 +1,13 @@
 # Target labels
  treesitter-c
 # Source files and their labels
-/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-c
-/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-c.rule
-/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-c-complete.rule
-/home/nick/dl/neovim/.deps/build/src/treesitter-c-stamp/treesitter-c-build.rule
-/home/nick/dl/neovim/.deps/build/src/treesitter-c-stamp/treesitter-c-configure.rule
-/home/nick/dl/neovim/.deps/build/src/treesitter-c-stamp/treesitter-c-download.rule
-/home/nick/dl/neovim/.deps/build/src/treesitter-c-stamp/treesitter-c-install.rule
-/home/nick/dl/neovim/.deps/build/src/treesitter-c-stamp/treesitter-c-mkdir.rule
-/home/nick/dl/neovim/.deps/build/src/treesitter-c-stamp/treesitter-c-patch.rule
-/home/nick/dl/neovim/.deps/build/src/treesitter-c-stamp/treesitter-c-update.rule
+/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/treesitter-c
+/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/treesitter-c.rule
+/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/treesitter-c-complete.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-c-stamp/treesitter-c-build.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-c-stamp/treesitter-c-configure.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-c-stamp/treesitter-c-download.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-c-stamp/treesitter-c-install.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-c-stamp/treesitter-c-mkdir.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-c-stamp/treesitter-c-patch.rule
+/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-c-stamp/treesitter-c-update.rule

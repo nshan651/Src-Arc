@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 # Utility rule file for check-po-en_GB.
 
@@ -66,9 +66,9 @@ include src/nvim/po/CMakeFiles/check-po-en_GB.dir/compiler_depend.make
 # Include the progress variables for this target.
 include src/nvim/po/CMakeFiles/check-po-en_GB.dir/progress.make
 
-src/nvim/po/CMakeFiles/check-po-en_GB: /home/nick/dl/neovim/src/nvim/po/en_GB.po
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Checking en_GB.po"
-	cd /home/nick/dl/neovim/build/src/nvim/po && ../../../bin/nvim -u NONE -n -e -S /home/nick/dl/neovim/src/nvim/po/check.vim -c "if error == 0 | q | endif" -c cq /home/nick/dl/neovim/src/nvim/po/en_GB.po || /usr/bin/cmake -E echo "en_GB.po failed the check."
+src/nvim/po/CMakeFiles/check-po-en_GB: /home/nick/git/Src-Arc/neovim/src/nvim/po/en_GB.po
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Checking en_GB.po"
+	cd /home/nick/git/Src-Arc/neovim/build/src/nvim/po && ../../../bin/nvim -u NONE -n -e -S /home/nick/git/Src-Arc/neovim/src/nvim/po/check.vim -c "if error == 0 | q | endif" -c cq /home/nick/git/Src-Arc/neovim/src/nvim/po/en_GB.po || /usr/bin/cmake -E echo "en_GB.po failed the check."
 
 check-po-en_GB: src/nvim/po/CMakeFiles/check-po-en_GB
 check-po-en_GB: src/nvim/po/CMakeFiles/check-po-en_GB.dir/build.make
@@ -79,10 +79,10 @@ src/nvim/po/CMakeFiles/check-po-en_GB.dir/build: check-po-en_GB
 .PHONY : src/nvim/po/CMakeFiles/check-po-en_GB.dir/build
 
 src/nvim/po/CMakeFiles/check-po-en_GB.dir/clean:
-	cd /home/nick/dl/neovim/build/src/nvim/po && $(CMAKE_COMMAND) -P CMakeFiles/check-po-en_GB.dir/cmake_clean.cmake
+	cd /home/nick/git/Src-Arc/neovim/build/src/nvim/po && $(CMAKE_COMMAND) -P CMakeFiles/check-po-en_GB.dir/cmake_clean.cmake
 .PHONY : src/nvim/po/CMakeFiles/check-po-en_GB.dir/clean
 
 src/nvim/po/CMakeFiles/check-po-en_GB.dir/depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim /home/nick/dl/neovim/src/nvim/po /home/nick/dl/neovim/build /home/nick/dl/neovim/build/src/nvim/po /home/nick/dl/neovim/build/src/nvim/po/CMakeFiles/check-po-en_GB.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim/src/nvim/po /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build/src/nvim/po /home/nick/git/Src-Arc/neovim/build/src/nvim/po/CMakeFiles/check-po-en_GB.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/nvim/po/CMakeFiles/check-po-en_GB.dir/depend
 

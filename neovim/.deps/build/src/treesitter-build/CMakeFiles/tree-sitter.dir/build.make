@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/.deps/build/src/treesitter
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps/build/src/treesitter-build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tree-sitter.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/tree-sitter.dir/progress.make
 include CMakeFiles/tree-sitter.dir/flags.make
 
 CMakeFiles/tree-sitter.dir/lib/src/lib.c.o: CMakeFiles/tree-sitter.dir/flags.make
-CMakeFiles/tree-sitter.dir/lib/src/lib.c.o: /home/nick/dl/neovim/.deps/build/src/treesitter/lib/src/lib.c
+CMakeFiles/tree-sitter.dir/lib/src/lib.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter/lib/src/lib.c
 CMakeFiles/tree-sitter.dir/lib/src/lib.c.o: CMakeFiles/tree-sitter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/treesitter-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tree-sitter.dir/lib/src/lib.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tree-sitter.dir/lib/src/lib.c.o -MF CMakeFiles/tree-sitter.dir/lib/src/lib.c.o.d -o CMakeFiles/tree-sitter.dir/lib/src/lib.c.o -c /home/nick/dl/neovim/.deps/build/src/treesitter/lib/src/lib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tree-sitter.dir/lib/src/lib.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/tree-sitter.dir/lib/src/lib.c.o -MF CMakeFiles/tree-sitter.dir/lib/src/lib.c.o.d -o CMakeFiles/tree-sitter.dir/lib/src/lib.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter/lib/src/lib.c
 
 CMakeFiles/tree-sitter.dir/lib/src/lib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/tree-sitter.dir/lib/src/lib.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/treesitter/lib/src/lib.c > CMakeFiles/tree-sitter.dir/lib/src/lib.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter/lib/src/lib.c > CMakeFiles/tree-sitter.dir/lib/src/lib.c.i
 
 CMakeFiles/tree-sitter.dir/lib/src/lib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/tree-sitter.dir/lib/src/lib.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/treesitter/lib/src/lib.c -o CMakeFiles/tree-sitter.dir/lib/src/lib.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter/lib/src/lib.c -o CMakeFiles/tree-sitter.dir/lib/src/lib.c.s
 
 # Object files for target tree-sitter
 tree__sitter_OBJECTS = \
@@ -93,7 +93,7 @@ tree__sitter_EXTERNAL_OBJECTS =
 libtree-sitter.a: CMakeFiles/tree-sitter.dir/lib/src/lib.c.o
 libtree-sitter.a: CMakeFiles/tree-sitter.dir/build.make
 libtree-sitter.a: CMakeFiles/tree-sitter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/dl/neovim/.deps/build/src/treesitter-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libtree-sitter.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libtree-sitter.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/tree-sitter.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tree-sitter.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/tree-sitter.dir/clean:
 .PHONY : CMakeFiles/tree-sitter.dir/clean
 
 CMakeFiles/tree-sitter.dir/depend:
-	cd /home/nick/dl/neovim/.deps/build/src/treesitter-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/.deps/build/src/treesitter /home/nick/dl/neovim/.deps/build/src/treesitter /home/nick/dl/neovim/.deps/build/src/treesitter-build /home/nick/dl/neovim/.deps/build/src/treesitter-build /home/nick/dl/neovim/.deps/build/src/treesitter-build/CMakeFiles/tree-sitter.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build/CMakeFiles/tree-sitter.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/tree-sitter.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/nick/dl/neovim
+# Install script for directory: /home/nick/git/Src-Arc/neovim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/nick/git/Src-Arc/bin")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "RelWithDebInfo")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -79,16 +79,16 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man1" TYPE FILE MESSAGE_NEVER PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES "/home/nick/dl/neovim/src/man/nvim.1")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man1" TYPE FILE MESSAGE_NEVER PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ FILES "/home/nick/git/Src-Arc/neovim/src/man/nvim.1")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/nick/dl/neovim/build/src/nvim/cmake_install.cmake")
-  include("/home/nick/dl/neovim/build/cmake.config/cmake_install.cmake")
-  include("/home/nick/dl/neovim/build/runtime/cmake_install.cmake")
-  include("/home/nick/dl/neovim/build/test/cmake_install.cmake")
-  include("/home/nick/dl/neovim/build/cmake.packaging/cmake_install.cmake")
+  include("/home/nick/git/Src-Arc/neovim/build/src/nvim/cmake_install.cmake")
+  include("/home/nick/git/Src-Arc/neovim/build/cmake.config/cmake_install.cmake")
+  include("/home/nick/git/Src-Arc/neovim/build/runtime/cmake_install.cmake")
+  include("/home/nick/git/Src-Arc/neovim/build/test/cmake_install.cmake")
+  include("/home/nick/git/Src-Arc/neovim/build/cmake.packaging/cmake_install.cmake")
 
 endif()
 
@@ -100,5 +100,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nick/dl/neovim/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nick/git/Src-Arc/neovim/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

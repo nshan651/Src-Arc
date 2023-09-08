@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/libtermkey"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/libtermkey"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/libtermkey.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/libtermkey.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/libtermkey-complete.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/libtermkey-complete.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-build.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/libtermkey-build.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-configure.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/libtermkey-configure.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-download.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/libtermkey-download.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-install.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/libtermkey-install.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-mkdir.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/libtermkey-mkdir.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-patch.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/libtermkey-patch.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-update.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/libtermkey-update.rule"
 		}
 	],
 	"target" : 

@@ -50,20 +50,20 @@ unset(_cmake_expected_targets)
 add_library(msgpack-c SHARED IMPORTED)
 
 set_target_properties(msgpack-c PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/nick/dl/neovim/.deps/build/src/msgpack/include;/home/nick/dl/neovim/.deps/build/src/msgpack-build/include;/home/nick/dl/neovim/.deps/build/src/msgpack-build/include/msgpack"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/nick/git/Src-Arc/neovim/.deps/build/src/msgpack/include;/home/nick/git/Src-Arc/neovim/.deps/build/src/msgpack-build/include;/home/nick/git/Src-Arc/neovim/.deps/build/src/msgpack-build/include/msgpack"
 )
 
 # Create imported target msgpack-c-static
 add_library(msgpack-c-static STATIC IMPORTED)
 
 set_target_properties(msgpack-c-static PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/nick/dl/neovim/.deps/build/src/msgpack/include;/home/nick/dl/neovim/.deps/build/src/msgpack-build/include;/home/nick/dl/neovim/.deps/build/src/msgpack-build/include/msgpack"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/nick/git/Src-Arc/neovim/.deps/build/src/msgpack/include;/home/nick/git/Src-Arc/neovim/.deps/build/src/msgpack-build/include;/home/nick/git/Src-Arc/neovim/.deps/build/src/msgpack-build/include/msgpack"
 )
 
 # Import target "msgpack-c" for configuration "RelWithDebInfo"
 set_property(TARGET msgpack-c APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(msgpack-c PROPERTIES
-  IMPORTED_LOCATION_RELWITHDEBINFO "/home/nick/dl/neovim/.deps/build/src/msgpack-build/libmsgpack-c.so.2.0.0"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/home/nick/git/Src-Arc/neovim/.deps/build/src/msgpack-build/libmsgpack-c.so.2.0.0"
   IMPORTED_SONAME_RELWITHDEBINFO "libmsgpack-c.so.2"
   )
 
@@ -71,7 +71,7 @@ set_target_properties(msgpack-c PROPERTIES
 set_property(TARGET msgpack-c-static APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(msgpack-c-static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELWITHDEBINFO "C"
-  IMPORTED_LOCATION_RELWITHDEBINFO "/home/nick/dl/neovim/.deps/build/src/msgpack-build/libmsgpack-c.a"
+  IMPORTED_LOCATION_RELWITHDEBINFO "/home/nick/git/Src-Arc/neovim/.deps/build/src/msgpack-build/libmsgpack-c.a"
   )
 
 # This file does not depend on other imported targets which have

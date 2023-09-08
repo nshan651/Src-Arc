@@ -1,9 +1,9 @@
-# 0 "/home/nick/dl/neovim/build/src/nvim/auto/keysets.generated.h"
+# 0 "/home/nick/git/Src-Arc/neovim/build/src/nvim/auto/keysets.generated.h"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/nick/dl/neovim/build/src/nvim/auto/keysets.generated.h"
+# 1 "/home/nick/git/Src-Arc/neovim/build/src/nvim/auto/keysets.generated.h"
 KeySetLink context_table[] = {
   {"types", offsetof(KeyDict_context, types)},
   {NULL, 0},

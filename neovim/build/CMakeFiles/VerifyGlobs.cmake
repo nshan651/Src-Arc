@@ -3,1021 +3,1021 @@
 cmake_policy(SET CMP0009 NEW)
 
 # TREESITTER_PARSERS at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/.deps/usr/lib/nvim/parser/*")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/.deps/usr/lib/nvim/parser/*")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/.deps/usr/lib/nvim/parser/c.so"
-  "/home/nick/dl/neovim/.deps/usr/lib/nvim/parser/lua.so"
-  "/home/nick/dl/neovim/.deps/usr/lib/nvim/parser/query.so"
-  "/home/nick/dl/neovim/.deps/usr/lib/nvim/parser/vim.so"
-  "/home/nick/dl/neovim/.deps/usr/lib/nvim/parser/vimdoc.so"
+  "/home/nick/git/Src-Arc/neovim/.deps/usr/lib/nvim/parser/c.so"
+  "/home/nick/git/Src-Arc/neovim/.deps/usr/lib/nvim/parser/lua.so"
+  "/home/nick/git/Src-Arc/neovim/.deps/usr/lib/nvim/parser/query.so"
+  "/home/nick/git/Src-Arc/neovim/.deps/usr/lib/nvim/parser/vim.so"
+  "/home/nick/git/Src-Arc/neovim/.deps/usr/lib/nvim/parser/vimdoc.so"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # RUNTIME_ROOT_FILES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/runtime/*.ico")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/runtime/*.ico")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/runtime/neovim.ico"
+  "/home/nick/git/Src-Arc/neovim/runtime/neovim.ico"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # RUNTIME_ROOT_FILES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/runtime/*.lua")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/runtime/*.lua")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/runtime/filetype.lua"
+  "/home/nick/git/Src-Arc/neovim/runtime/filetype.lua"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # RUNTIME_ROOT_FILES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/runtime/*.vim")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/runtime/*.vim")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/runtime/bugreport.vim"
-  "/home/nick/dl/neovim/runtime/delmenu.vim"
-  "/home/nick/dl/neovim/runtime/ftoff.vim"
-  "/home/nick/dl/neovim/runtime/ftplugin.vim"
-  "/home/nick/dl/neovim/runtime/ftplugof.vim"
-  "/home/nick/dl/neovim/runtime/indent.vim"
-  "/home/nick/dl/neovim/runtime/indoff.vim"
-  "/home/nick/dl/neovim/runtime/macmap.vim"
-  "/home/nick/dl/neovim/runtime/makemenu.vim"
-  "/home/nick/dl/neovim/runtime/menu.vim"
-  "/home/nick/dl/neovim/runtime/mswin.vim"
-  "/home/nick/dl/neovim/runtime/optwin.vim"
-  "/home/nick/dl/neovim/runtime/synmenu.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/bugreport.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/delmenu.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/ftoff.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/ftplugin.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/ftplugof.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/indent.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/indoff.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/macmap.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/makemenu.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/menu.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/mswin.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/optwin.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/synmenu.vim"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # RUNTIME_DIRS at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/runtime/*/")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/runtime/*/")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/runtime/CMakeLists.txt"
-  "/home/nick/dl/neovim/runtime/autoload"
-  "/home/nick/dl/neovim/runtime/bugreport.vim"
-  "/home/nick/dl/neovim/runtime/colors"
-  "/home/nick/dl/neovim/runtime/compiler"
-  "/home/nick/dl/neovim/runtime/delmenu.vim"
-  "/home/nick/dl/neovim/runtime/doc"
-  "/home/nick/dl/neovim/runtime/filetype.lua"
-  "/home/nick/dl/neovim/runtime/ftoff.vim"
-  "/home/nick/dl/neovim/runtime/ftplugin"
-  "/home/nick/dl/neovim/runtime/ftplugin.vim"
-  "/home/nick/dl/neovim/runtime/ftplugof.vim"
-  "/home/nick/dl/neovim/runtime/indent"
-  "/home/nick/dl/neovim/runtime/indent.vim"
-  "/home/nick/dl/neovim/runtime/indoff.vim"
-  "/home/nick/dl/neovim/runtime/keymap"
-  "/home/nick/dl/neovim/runtime/lua"
-  "/home/nick/dl/neovim/runtime/macmap.vim"
-  "/home/nick/dl/neovim/runtime/macros"
-  "/home/nick/dl/neovim/runtime/makemenu.vim"
-  "/home/nick/dl/neovim/runtime/menu.vim"
-  "/home/nick/dl/neovim/runtime/mswin.vim"
-  "/home/nick/dl/neovim/runtime/neovim.ico"
-  "/home/nick/dl/neovim/runtime/nvim.appdata.xml"
-  "/home/nick/dl/neovim/runtime/nvim.desktop"
-  "/home/nick/dl/neovim/runtime/nvim.png"
-  "/home/nick/dl/neovim/runtime/optwin.vim"
-  "/home/nick/dl/neovim/runtime/pack"
-  "/home/nick/dl/neovim/runtime/plugin"
-  "/home/nick/dl/neovim/runtime/queries"
-  "/home/nick/dl/neovim/runtime/spell"
-  "/home/nick/dl/neovim/runtime/synmenu.vim"
-  "/home/nick/dl/neovim/runtime/syntax"
-  "/home/nick/dl/neovim/runtime/tools"
-  "/home/nick/dl/neovim/runtime/tutor"
+  "/home/nick/git/Src-Arc/neovim/runtime/CMakeLists.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/autoload"
+  "/home/nick/git/Src-Arc/neovim/runtime/bugreport.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/colors"
+  "/home/nick/git/Src-Arc/neovim/runtime/compiler"
+  "/home/nick/git/Src-Arc/neovim/runtime/delmenu.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc"
+  "/home/nick/git/Src-Arc/neovim/runtime/filetype.lua"
+  "/home/nick/git/Src-Arc/neovim/runtime/ftoff.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/ftplugin"
+  "/home/nick/git/Src-Arc/neovim/runtime/ftplugin.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/ftplugof.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/indent"
+  "/home/nick/git/Src-Arc/neovim/runtime/indent.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/indoff.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/keymap"
+  "/home/nick/git/Src-Arc/neovim/runtime/lua"
+  "/home/nick/git/Src-Arc/neovim/runtime/macmap.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/macros"
+  "/home/nick/git/Src-Arc/neovim/runtime/makemenu.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/menu.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/mswin.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/neovim.ico"
+  "/home/nick/git/Src-Arc/neovim/runtime/nvim.appdata.xml"
+  "/home/nick/git/Src-Arc/neovim/runtime/nvim.desktop"
+  "/home/nick/git/Src-Arc/neovim/runtime/nvim.png"
+  "/home/nick/git/Src-Arc/neovim/runtime/optwin.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/pack"
+  "/home/nick/git/Src-Arc/neovim/runtime/plugin"
+  "/home/nick/git/Src-Arc/neovim/runtime/queries"
+  "/home/nick/git/Src-Arc/neovim/runtime/spell"
+  "/home/nick/git/Src-Arc/neovim/runtime/synmenu.vim"
+  "/home/nick/git/Src-Arc/neovim/runtime/syntax"
+  "/home/nick/git/Src-Arc/neovim/runtime/tools"
+  "/home/nick/git/Src-Arc/neovim/runtime/tutor"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # DOCFILES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/runtime/doc/*.txt")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/runtime/doc/*.txt")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/runtime/doc/api.txt"
-  "/home/nick/dl/neovim/runtime/doc/arabic.txt"
-  "/home/nick/dl/neovim/runtime/doc/autocmd.txt"
-  "/home/nick/dl/neovim/runtime/doc/builtin.txt"
-  "/home/nick/dl/neovim/runtime/doc/change.txt"
-  "/home/nick/dl/neovim/runtime/doc/channel.txt"
-  "/home/nick/dl/neovim/runtime/doc/cmdline.txt"
-  "/home/nick/dl/neovim/runtime/doc/debug.txt"
-  "/home/nick/dl/neovim/runtime/doc/deprecated.txt"
-  "/home/nick/dl/neovim/runtime/doc/dev_style.txt"
-  "/home/nick/dl/neovim/runtime/doc/develop.txt"
-  "/home/nick/dl/neovim/runtime/doc/diagnostic.txt"
-  "/home/nick/dl/neovim/runtime/doc/diff.txt"
-  "/home/nick/dl/neovim/runtime/doc/digraph.txt"
-  "/home/nick/dl/neovim/runtime/doc/editing.txt"
-  "/home/nick/dl/neovim/runtime/doc/editorconfig.txt"
-  "/home/nick/dl/neovim/runtime/doc/eval.txt"
-  "/home/nick/dl/neovim/runtime/doc/filetype.txt"
-  "/home/nick/dl/neovim/runtime/doc/fold.txt"
-  "/home/nick/dl/neovim/runtime/doc/ft_ada.txt"
-  "/home/nick/dl/neovim/runtime/doc/ft_ps1.txt"
-  "/home/nick/dl/neovim/runtime/doc/ft_raku.txt"
-  "/home/nick/dl/neovim/runtime/doc/ft_rust.txt"
-  "/home/nick/dl/neovim/runtime/doc/ft_sql.txt"
-  "/home/nick/dl/neovim/runtime/doc/gui.txt"
-  "/home/nick/dl/neovim/runtime/doc/hebrew.txt"
-  "/home/nick/dl/neovim/runtime/doc/help.txt"
-  "/home/nick/dl/neovim/runtime/doc/helphelp.txt"
-  "/home/nick/dl/neovim/runtime/doc/if_perl.txt"
-  "/home/nick/dl/neovim/runtime/doc/if_pyth.txt"
-  "/home/nick/dl/neovim/runtime/doc/if_ruby.txt"
-  "/home/nick/dl/neovim/runtime/doc/indent.txt"
-  "/home/nick/dl/neovim/runtime/doc/index.txt"
-  "/home/nick/dl/neovim/runtime/doc/insert.txt"
-  "/home/nick/dl/neovim/runtime/doc/intro.txt"
-  "/home/nick/dl/neovim/runtime/doc/job_control.txt"
-  "/home/nick/dl/neovim/runtime/doc/lsp-extension.txt"
-  "/home/nick/dl/neovim/runtime/doc/lsp.txt"
-  "/home/nick/dl/neovim/runtime/doc/lua-guide.txt"
-  "/home/nick/dl/neovim/runtime/doc/lua.txt"
-  "/home/nick/dl/neovim/runtime/doc/luaref.txt"
-  "/home/nick/dl/neovim/runtime/doc/luvref.txt"
-  "/home/nick/dl/neovim/runtime/doc/map.txt"
-  "/home/nick/dl/neovim/runtime/doc/mbyte.txt"
-  "/home/nick/dl/neovim/runtime/doc/message.txt"
-  "/home/nick/dl/neovim/runtime/doc/mlang.txt"
-  "/home/nick/dl/neovim/runtime/doc/motion.txt"
-  "/home/nick/dl/neovim/runtime/doc/news.txt"
-  "/home/nick/dl/neovim/runtime/doc/nvim.txt"
-  "/home/nick/dl/neovim/runtime/doc/nvim_terminal_emulator.txt"
-  "/home/nick/dl/neovim/runtime/doc/options.txt"
-  "/home/nick/dl/neovim/runtime/doc/pattern.txt"
-  "/home/nick/dl/neovim/runtime/doc/pi_gzip.txt"
-  "/home/nick/dl/neovim/runtime/doc/pi_health.txt"
-  "/home/nick/dl/neovim/runtime/doc/pi_msgpack.txt"
-  "/home/nick/dl/neovim/runtime/doc/pi_netrw.txt"
-  "/home/nick/dl/neovim/runtime/doc/pi_paren.txt"
-  "/home/nick/dl/neovim/runtime/doc/pi_spec.txt"
-  "/home/nick/dl/neovim/runtime/doc/pi_tar.txt"
-  "/home/nick/dl/neovim/runtime/doc/pi_tutor.txt"
-  "/home/nick/dl/neovim/runtime/doc/pi_zip.txt"
-  "/home/nick/dl/neovim/runtime/doc/provider.txt"
-  "/home/nick/dl/neovim/runtime/doc/quickfix.txt"
-  "/home/nick/dl/neovim/runtime/doc/quickref.txt"
-  "/home/nick/dl/neovim/runtime/doc/recover.txt"
-  "/home/nick/dl/neovim/runtime/doc/remote.txt"
-  "/home/nick/dl/neovim/runtime/doc/remote_plugin.txt"
-  "/home/nick/dl/neovim/runtime/doc/repeat.txt"
-  "/home/nick/dl/neovim/runtime/doc/rileft.txt"
-  "/home/nick/dl/neovim/runtime/doc/russian.txt"
-  "/home/nick/dl/neovim/runtime/doc/scroll.txt"
-  "/home/nick/dl/neovim/runtime/doc/sign.txt"
-  "/home/nick/dl/neovim/runtime/doc/spell.txt"
-  "/home/nick/dl/neovim/runtime/doc/starting.txt"
-  "/home/nick/dl/neovim/runtime/doc/support.txt"
-  "/home/nick/dl/neovim/runtime/doc/syntax.txt"
-  "/home/nick/dl/neovim/runtime/doc/tabpage.txt"
-  "/home/nick/dl/neovim/runtime/doc/tagsrch.txt"
-  "/home/nick/dl/neovim/runtime/doc/term.txt"
-  "/home/nick/dl/neovim/runtime/doc/testing.txt"
-  "/home/nick/dl/neovim/runtime/doc/tips.txt"
-  "/home/nick/dl/neovim/runtime/doc/treesitter.txt"
-  "/home/nick/dl/neovim/runtime/doc/uganda.txt"
-  "/home/nick/dl/neovim/runtime/doc/ui.txt"
-  "/home/nick/dl/neovim/runtime/doc/undo.txt"
-  "/home/nick/dl/neovim/runtime/doc/userfunc.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_01.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_02.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_03.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_04.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_05.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_06.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_07.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_08.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_09.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_10.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_11.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_12.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_20.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_21.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_22.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_23.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_24.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_25.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_26.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_27.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_28.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_29.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_30.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_31.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_32.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_40.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_41.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_42.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_43.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_44.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_45.txt"
-  "/home/nick/dl/neovim/runtime/doc/usr_toc.txt"
-  "/home/nick/dl/neovim/runtime/doc/various.txt"
-  "/home/nick/dl/neovim/runtime/doc/vi_diff.txt"
-  "/home/nick/dl/neovim/runtime/doc/vim_diff.txt"
-  "/home/nick/dl/neovim/runtime/doc/visual.txt"
-  "/home/nick/dl/neovim/runtime/doc/windows.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/api.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/arabic.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/autocmd.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/builtin.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/change.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/channel.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/cmdline.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/debug.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/deprecated.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/dev_style.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/develop.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/diagnostic.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/diff.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/digraph.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/editing.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/editorconfig.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/eval.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/filetype.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/fold.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/ft_ada.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/ft_ps1.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/ft_raku.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/ft_rust.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/ft_sql.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/gui.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/hebrew.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/help.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/helphelp.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/if_perl.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/if_pyth.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/if_ruby.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/indent.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/index.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/insert.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/intro.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/job_control.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/lsp-extension.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/lsp.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/lua-guide.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/lua.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/luaref.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/luvref.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/map.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/mbyte.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/message.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/mlang.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/motion.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/news.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/nvim.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/nvim_terminal_emulator.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/options.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/pattern.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/pi_gzip.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/pi_health.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/pi_msgpack.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/pi_netrw.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/pi_paren.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/pi_spec.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/pi_tar.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/pi_tutor.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/pi_zip.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/provider.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/quickfix.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/quickref.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/recover.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/remote.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/remote_plugin.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/repeat.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/rileft.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/russian.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/scroll.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/sign.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/spell.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/starting.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/support.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/syntax.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/tabpage.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/tagsrch.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/term.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/testing.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/tips.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/treesitter.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/uganda.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/ui.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/undo.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/userfunc.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_01.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_02.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_03.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_04.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_05.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_06.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_07.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_08.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_09.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_10.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_11.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_12.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_20.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_21.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_22.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_23.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_24.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_25.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_26.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_27.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_28.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_29.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_30.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_31.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_32.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_40.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_41.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_42.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_43.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_44.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_45.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/usr_toc.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/various.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/vi_diff.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/vim_diff.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/visual.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/doc/windows.txt"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # PACKAGES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/runtime/pack/dist/opt/*")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/*")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/runtime/pack/dist/opt/cfilter"
-  "/home/nick/dl/neovim/runtime/pack/dist/opt/justify"
-  "/home/nick/dl/neovim/runtime/pack/dist/opt/matchit"
-  "/home/nick/dl/neovim/runtime/pack/dist/opt/shellmenu"
-  "/home/nick/dl/neovim/runtime/pack/dist/opt/swapmouse"
-  "/home/nick/dl/neovim/runtime/pack/dist/opt/termdebug"
-  "/home/nick/dl/neovim/runtime/pack/dist/opt/vimball"
+  "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/cfilter"
+  "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/justify"
+  "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/matchit"
+  "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/shellmenu"
+  "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/swapmouse"
+  "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/termdebug"
+  "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/vimball"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # cfilter_DOC_FILES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/runtime/pack/dist/opt/cfilter/doc/*.txt")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/cfilter/doc/*.txt")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # justify_DOC_FILES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/runtime/pack/dist/opt/justify/doc/*.txt")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/justify/doc/*.txt")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # matchit_DOC_FILES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/runtime/pack/dist/opt/matchit/doc/*.txt")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/matchit/doc/*.txt")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/runtime/pack/dist/opt/matchit/doc/matchit.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/matchit/doc/matchit.txt"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # shellmenu_DOC_FILES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/runtime/pack/dist/opt/shellmenu/doc/*.txt")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/shellmenu/doc/*.txt")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # swapmouse_DOC_FILES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/runtime/pack/dist/opt/swapmouse/doc/*.txt")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/swapmouse/doc/*.txt")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # termdebug_DOC_FILES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/runtime/pack/dist/opt/termdebug/doc/*.txt")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/termdebug/doc/*.txt")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # vimball_DOC_FILES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/runtime/pack/dist/opt/vimball/doc/*.txt")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/vimball/doc/*.txt")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/runtime/pack/dist/opt/vimball/doc/vimball.txt"
+  "/home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/vimball/doc/vimball.txt"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # NVIM_SOURCES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/*.c")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/arabic.c"
-  "/home/nick/dl/neovim/src/nvim/arglist.c"
-  "/home/nick/dl/neovim/src/nvim/autocmd.c"
-  "/home/nick/dl/neovim/src/nvim/buffer.c"
-  "/home/nick/dl/neovim/src/nvim/buffer_updates.c"
-  "/home/nick/dl/neovim/src/nvim/change.c"
-  "/home/nick/dl/neovim/src/nvim/channel.c"
-  "/home/nick/dl/neovim/src/nvim/charset.c"
-  "/home/nick/dl/neovim/src/nvim/cmdexpand.c"
-  "/home/nick/dl/neovim/src/nvim/cmdhist.c"
-  "/home/nick/dl/neovim/src/nvim/context.c"
-  "/home/nick/dl/neovim/src/nvim/cursor.c"
-  "/home/nick/dl/neovim/src/nvim/cursor_shape.c"
-  "/home/nick/dl/neovim/src/nvim/debugger.c"
-  "/home/nick/dl/neovim/src/nvim/decoration.c"
-  "/home/nick/dl/neovim/src/nvim/decoration_provider.c"
-  "/home/nick/dl/neovim/src/nvim/diff.c"
-  "/home/nick/dl/neovim/src/nvim/digraph.c"
-  "/home/nick/dl/neovim/src/nvim/drawline.c"
-  "/home/nick/dl/neovim/src/nvim/drawscreen.c"
-  "/home/nick/dl/neovim/src/nvim/edit.c"
-  "/home/nick/dl/neovim/src/nvim/eval.c"
-  "/home/nick/dl/neovim/src/nvim/ex_cmds.c"
-  "/home/nick/dl/neovim/src/nvim/ex_cmds2.c"
-  "/home/nick/dl/neovim/src/nvim/ex_docmd.c"
-  "/home/nick/dl/neovim/src/nvim/ex_eval.c"
-  "/home/nick/dl/neovim/src/nvim/ex_getln.c"
-  "/home/nick/dl/neovim/src/nvim/ex_session.c"
-  "/home/nick/dl/neovim/src/nvim/extmark.c"
-  "/home/nick/dl/neovim/src/nvim/file_search.c"
-  "/home/nick/dl/neovim/src/nvim/fileio.c"
-  "/home/nick/dl/neovim/src/nvim/fold.c"
-  "/home/nick/dl/neovim/src/nvim/garray.c"
-  "/home/nick/dl/neovim/src/nvim/getchar.c"
-  "/home/nick/dl/neovim/src/nvim/grid.c"
-  "/home/nick/dl/neovim/src/nvim/hashtab.c"
-  "/home/nick/dl/neovim/src/nvim/help.c"
-  "/home/nick/dl/neovim/src/nvim/highlight.c"
-  "/home/nick/dl/neovim/src/nvim/highlight_group.c"
-  "/home/nick/dl/neovim/src/nvim/indent.c"
-  "/home/nick/dl/neovim/src/nvim/indent_c.c"
-  "/home/nick/dl/neovim/src/nvim/input.c"
-  "/home/nick/dl/neovim/src/nvim/insexpand.c"
-  "/home/nick/dl/neovim/src/nvim/keycodes.c"
-  "/home/nick/dl/neovim/src/nvim/linematch.c"
-  "/home/nick/dl/neovim/src/nvim/log.c"
-  "/home/nick/dl/neovim/src/nvim/main.c"
-  "/home/nick/dl/neovim/src/nvim/map.c"
-  "/home/nick/dl/neovim/src/nvim/mapping.c"
-  "/home/nick/dl/neovim/src/nvim/mark.c"
-  "/home/nick/dl/neovim/src/nvim/marktree.c"
-  "/home/nick/dl/neovim/src/nvim/match.c"
-  "/home/nick/dl/neovim/src/nvim/math.c"
-  "/home/nick/dl/neovim/src/nvim/mbyte.c"
-  "/home/nick/dl/neovim/src/nvim/memfile.c"
-  "/home/nick/dl/neovim/src/nvim/memline.c"
-  "/home/nick/dl/neovim/src/nvim/memory.c"
-  "/home/nick/dl/neovim/src/nvim/menu.c"
-  "/home/nick/dl/neovim/src/nvim/message.c"
-  "/home/nick/dl/neovim/src/nvim/mouse.c"
-  "/home/nick/dl/neovim/src/nvim/move.c"
-  "/home/nick/dl/neovim/src/nvim/normal.c"
-  "/home/nick/dl/neovim/src/nvim/ops.c"
-  "/home/nick/dl/neovim/src/nvim/option.c"
-  "/home/nick/dl/neovim/src/nvim/optionstr.c"
-  "/home/nick/dl/neovim/src/nvim/path.c"
-  "/home/nick/dl/neovim/src/nvim/plines.c"
-  "/home/nick/dl/neovim/src/nvim/popupmenu.c"
-  "/home/nick/dl/neovim/src/nvim/profile.c"
-  "/home/nick/dl/neovim/src/nvim/quickfix.c"
-  "/home/nick/dl/neovim/src/nvim/rbuffer.c"
-  "/home/nick/dl/neovim/src/nvim/regexp.c"
-  "/home/nick/dl/neovim/src/nvim/regexp_bt.c"
-  "/home/nick/dl/neovim/src/nvim/regexp_nfa.c"
-  "/home/nick/dl/neovim/src/nvim/runtime.c"
-  "/home/nick/dl/neovim/src/nvim/search.c"
-  "/home/nick/dl/neovim/src/nvim/sha256.c"
-  "/home/nick/dl/neovim/src/nvim/shada.c"
-  "/home/nick/dl/neovim/src/nvim/sign.c"
-  "/home/nick/dl/neovim/src/nvim/spell.c"
-  "/home/nick/dl/neovim/src/nvim/spellfile.c"
-  "/home/nick/dl/neovim/src/nvim/spellsuggest.c"
-  "/home/nick/dl/neovim/src/nvim/state.c"
-  "/home/nick/dl/neovim/src/nvim/statusline.c"
-  "/home/nick/dl/neovim/src/nvim/strings.c"
-  "/home/nick/dl/neovim/src/nvim/syntax.c"
-  "/home/nick/dl/neovim/src/nvim/tag.c"
-  "/home/nick/dl/neovim/src/nvim/terminal.c"
-  "/home/nick/dl/neovim/src/nvim/testing.c"
-  "/home/nick/dl/neovim/src/nvim/textformat.c"
-  "/home/nick/dl/neovim/src/nvim/textobject.c"
-  "/home/nick/dl/neovim/src/nvim/ugrid.c"
-  "/home/nick/dl/neovim/src/nvim/ui.c"
-  "/home/nick/dl/neovim/src/nvim/ui_client.c"
-  "/home/nick/dl/neovim/src/nvim/ui_compositor.c"
-  "/home/nick/dl/neovim/src/nvim/undo.c"
-  "/home/nick/dl/neovim/src/nvim/usercmd.c"
-  "/home/nick/dl/neovim/src/nvim/version.c"
-  "/home/nick/dl/neovim/src/nvim/window.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/arabic.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/arglist.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_updates.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/change.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/channel.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/charset.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/cmdexpand.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/cmdhist.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/context.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/cursor.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/cursor_shape.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/debugger.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/decoration_provider.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/diff.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/digraph.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/drawline.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/drawscreen.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/edit.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds2.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ex_docmd.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ex_eval.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ex_getln.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ex_session.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/extmark.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/file_search.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/fileio.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/fold.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/garray.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/getchar.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/grid.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/hashtab.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/help.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/highlight.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_group.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/indent.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/indent_c.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/input.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/insexpand.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/keycodes.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/log.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/main.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/mapping.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/mark.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/match.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/math.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/memfile.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/memline.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/memory.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/menu.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/message.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/mouse.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/move.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/normal.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/option.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/optionstr.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/path.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/plines.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/popupmenu.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/profile.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/quickfix.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/regexp.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_bt.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_nfa.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/runtime.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/search.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/sha256.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/shada.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/sign.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/spell.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/spellfile.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/spellsuggest.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/state.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/statusline.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/strings.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/syntax.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/tag.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/terminal.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/testing.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/textformat.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/textobject.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ugrid.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ui.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ui_compositor.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/undo.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/usercmd.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/version.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/window.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # NVIM_HEADERS at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/*.h")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/arabic.h"
-  "/home/nick/dl/neovim/src/nvim/arglist.h"
-  "/home/nick/dl/neovim/src/nvim/ascii.h"
-  "/home/nick/dl/neovim/src/nvim/assert.h"
-  "/home/nick/dl/neovim/src/nvim/autocmd.h"
-  "/home/nick/dl/neovim/src/nvim/buffer.h"
-  "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
-  "/home/nick/dl/neovim/src/nvim/buffer_updates.h"
-  "/home/nick/dl/neovim/src/nvim/change.h"
-  "/home/nick/dl/neovim/src/nvim/channel.h"
-  "/home/nick/dl/neovim/src/nvim/charset.h"
-  "/home/nick/dl/neovim/src/nvim/cmdexpand.h"
-  "/home/nick/dl/neovim/src/nvim/cmdhist.h"
-  "/home/nick/dl/neovim/src/nvim/context.h"
-  "/home/nick/dl/neovim/src/nvim/cursor.h"
-  "/home/nick/dl/neovim/src/nvim/cursor_shape.h"
-  "/home/nick/dl/neovim/src/nvim/debugger.h"
-  "/home/nick/dl/neovim/src/nvim/decoration.h"
-  "/home/nick/dl/neovim/src/nvim/decoration_provider.h"
-  "/home/nick/dl/neovim/src/nvim/diff.h"
-  "/home/nick/dl/neovim/src/nvim/digraph.h"
-  "/home/nick/dl/neovim/src/nvim/drawline.h"
-  "/home/nick/dl/neovim/src/nvim/drawscreen.h"
-  "/home/nick/dl/neovim/src/nvim/edit.h"
-  "/home/nick/dl/neovim/src/nvim/eval.h"
-  "/home/nick/dl/neovim/src/nvim/ex_cmds.h"
-  "/home/nick/dl/neovim/src/nvim/ex_cmds2.h"
-  "/home/nick/dl/neovim/src/nvim/ex_cmds_defs.h"
-  "/home/nick/dl/neovim/src/nvim/ex_docmd.h"
-  "/home/nick/dl/neovim/src/nvim/ex_eval.h"
-  "/home/nick/dl/neovim/src/nvim/ex_eval_defs.h"
-  "/home/nick/dl/neovim/src/nvim/ex_getln.h"
-  "/home/nick/dl/neovim/src/nvim/ex_session.h"
-  "/home/nick/dl/neovim/src/nvim/extmark.h"
-  "/home/nick/dl/neovim/src/nvim/extmark_defs.h"
-  "/home/nick/dl/neovim/src/nvim/file_search.h"
-  "/home/nick/dl/neovim/src/nvim/fileio.h"
-  "/home/nick/dl/neovim/src/nvim/fold.h"
-  "/home/nick/dl/neovim/src/nvim/fold_defs.h"
-  "/home/nick/dl/neovim/src/nvim/func_attr.h"
-  "/home/nick/dl/neovim/src/nvim/garray.h"
-  "/home/nick/dl/neovim/src/nvim/getchar.h"
-  "/home/nick/dl/neovim/src/nvim/gettext.h"
-  "/home/nick/dl/neovim/src/nvim/globals.h"
-  "/home/nick/dl/neovim/src/nvim/grid.h"
-  "/home/nick/dl/neovim/src/nvim/grid_defs.h"
-  "/home/nick/dl/neovim/src/nvim/hashtab.h"
-  "/home/nick/dl/neovim/src/nvim/help.h"
-  "/home/nick/dl/neovim/src/nvim/highlight.h"
-  "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
-  "/home/nick/dl/neovim/src/nvim/highlight_group.h"
-  "/home/nick/dl/neovim/src/nvim/iconv.h"
-  "/home/nick/dl/neovim/src/nvim/indent.h"
-  "/home/nick/dl/neovim/src/nvim/indent_c.h"
-  "/home/nick/dl/neovim/src/nvim/input.h"
-  "/home/nick/dl/neovim/src/nvim/insexpand.h"
-  "/home/nick/dl/neovim/src/nvim/keycodes.h"
-  "/home/nick/dl/neovim/src/nvim/linematch.h"
-  "/home/nick/dl/neovim/src/nvim/log.h"
-  "/home/nick/dl/neovim/src/nvim/macros.h"
-  "/home/nick/dl/neovim/src/nvim/main.h"
-  "/home/nick/dl/neovim/src/nvim/map.h"
-  "/home/nick/dl/neovim/src/nvim/map_defs.h"
-  "/home/nick/dl/neovim/src/nvim/mapping.h"
-  "/home/nick/dl/neovim/src/nvim/mark.h"
-  "/home/nick/dl/neovim/src/nvim/mark_defs.h"
-  "/home/nick/dl/neovim/src/nvim/marktree.h"
-  "/home/nick/dl/neovim/src/nvim/match.h"
-  "/home/nick/dl/neovim/src/nvim/math.h"
-  "/home/nick/dl/neovim/src/nvim/mbyte.h"
-  "/home/nick/dl/neovim/src/nvim/mbyte_defs.h"
-  "/home/nick/dl/neovim/src/nvim/memfile.h"
-  "/home/nick/dl/neovim/src/nvim/memfile_defs.h"
-  "/home/nick/dl/neovim/src/nvim/memline.h"
-  "/home/nick/dl/neovim/src/nvim/memline_defs.h"
-  "/home/nick/dl/neovim/src/nvim/memory.h"
-  "/home/nick/dl/neovim/src/nvim/menu.h"
-  "/home/nick/dl/neovim/src/nvim/menu_defs.h"
-  "/home/nick/dl/neovim/src/nvim/message.h"
-  "/home/nick/dl/neovim/src/nvim/mouse.h"
-  "/home/nick/dl/neovim/src/nvim/move.h"
-  "/home/nick/dl/neovim/src/nvim/normal.h"
-  "/home/nick/dl/neovim/src/nvim/ops.h"
-  "/home/nick/dl/neovim/src/nvim/option.h"
-  "/home/nick/dl/neovim/src/nvim/option_defs.h"
-  "/home/nick/dl/neovim/src/nvim/optionstr.h"
-  "/home/nick/dl/neovim/src/nvim/path.h"
-  "/home/nick/dl/neovim/src/nvim/plines.h"
-  "/home/nick/dl/neovim/src/nvim/popupmenu.h"
-  "/home/nick/dl/neovim/src/nvim/pos.h"
-  "/home/nick/dl/neovim/src/nvim/profile.h"
-  "/home/nick/dl/neovim/src/nvim/quickfix.h"
-  "/home/nick/dl/neovim/src/nvim/rbuffer.h"
-  "/home/nick/dl/neovim/src/nvim/regexp.h"
-  "/home/nick/dl/neovim/src/nvim/regexp_defs.h"
-  "/home/nick/dl/neovim/src/nvim/runtime.h"
-  "/home/nick/dl/neovim/src/nvim/search.h"
-  "/home/nick/dl/neovim/src/nvim/sha256.h"
-  "/home/nick/dl/neovim/src/nvim/shada.h"
-  "/home/nick/dl/neovim/src/nvim/sign.h"
-  "/home/nick/dl/neovim/src/nvim/sign_defs.h"
-  "/home/nick/dl/neovim/src/nvim/spell.h"
-  "/home/nick/dl/neovim/src/nvim/spell_defs.h"
-  "/home/nick/dl/neovim/src/nvim/spellfile.h"
-  "/home/nick/dl/neovim/src/nvim/spellsuggest.h"
-  "/home/nick/dl/neovim/src/nvim/state.h"
-  "/home/nick/dl/neovim/src/nvim/statusline.h"
-  "/home/nick/dl/neovim/src/nvim/statusline_defs.h"
-  "/home/nick/dl/neovim/src/nvim/strings.h"
-  "/home/nick/dl/neovim/src/nvim/syntax.h"
-  "/home/nick/dl/neovim/src/nvim/syntax_defs.h"
-  "/home/nick/dl/neovim/src/nvim/tag.h"
-  "/home/nick/dl/neovim/src/nvim/terminal.h"
-  "/home/nick/dl/neovim/src/nvim/testing.h"
-  "/home/nick/dl/neovim/src/nvim/textformat.h"
-  "/home/nick/dl/neovim/src/nvim/textobject.h"
-  "/home/nick/dl/neovim/src/nvim/types.h"
-  "/home/nick/dl/neovim/src/nvim/ugrid.h"
-  "/home/nick/dl/neovim/src/nvim/ui.h"
-  "/home/nick/dl/neovim/src/nvim/ui_client.h"
-  "/home/nick/dl/neovim/src/nvim/ui_compositor.h"
-  "/home/nick/dl/neovim/src/nvim/undo.h"
-  "/home/nick/dl/neovim/src/nvim/undo_defs.h"
-  "/home/nick/dl/neovim/src/nvim/usercmd.h"
-  "/home/nick/dl/neovim/src/nvim/version.h"
-  "/home/nick/dl/neovim/src/nvim/vim.h"
-  "/home/nick/dl/neovim/src/nvim/window.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/arabic.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/arglist.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/assert.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_updates.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/change.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/charset.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/cmdexpand.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/cmdhist.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/context.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/cursor.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/cursor_shape.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/debugger.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/decoration_provider.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/diff.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/digraph.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/drawline.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/drawscreen.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/edit.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds2.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ex_docmd.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ex_eval.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ex_eval_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ex_getln.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ex_session.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/extmark.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/extmark_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/file_search.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/fileio.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/fold.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/fold_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/getchar.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/gettext.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/grid.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/hashtab.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/help.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/highlight.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_group.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/iconv.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/indent.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/indent_c.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/input.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/insexpand.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/keycodes.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/log.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/macros.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/main.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/map_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/mapping.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/mark_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/match.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/math.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/memfile.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/memfile_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/memline.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/memline_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/menu.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/menu_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/message.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/mouse.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/move.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ops.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/option.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/option_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/optionstr.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/path.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/plines.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/popupmenu.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/pos.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/profile.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/quickfix.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/regexp.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/runtime.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/search.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/sha256.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/shada.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/sign.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/sign_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/spell.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/spell_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/spellfile.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/spellsuggest.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/state.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/statusline.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/statusline_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/strings.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/syntax.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/syntax_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/tag.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/terminal.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/testing.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/textformat.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/textobject.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/types.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ugrid.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/ui_compositor.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/undo.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/undo_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/usercmd.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/version.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/vim.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/window.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # EXTERNAL_SOURCES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/../cjson/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/../cjson/*.c")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/../cjson/fpconv.c"
-  "/home/nick/dl/neovim/src/nvim/../cjson/lua_cjson.c"
-  "/home/nick/dl/neovim/src/nvim/../cjson/strbuf.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../cjson/fpconv.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../cjson/lua_cjson.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../cjson/strbuf.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # EXTERNAL_HEADERS at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/../cjson/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/../cjson/*.h")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/../cjson/fpconv.h"
-  "/home/nick/dl/neovim/src/nvim/../cjson/lua_cjson.h"
-  "/home/nick/dl/neovim/src/nvim/../cjson/strbuf.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../cjson/fpconv.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../cjson/lua_cjson.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../cjson/strbuf.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # EXTERNAL_SOURCES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/../klib/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/../klib/*.c")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # EXTERNAL_HEADERS at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/../klib/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/../klib/*.h")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/../klib/kbtree.h"
-  "/home/nick/dl/neovim/src/nvim/../klib/khash.h"
-  "/home/nick/dl/neovim/src/nvim/../klib/klist.h"
-  "/home/nick/dl/neovim/src/nvim/../klib/kvec.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../klib/kbtree.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../klib/khash.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../klib/klist.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../klib/kvec.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # EXTERNAL_SOURCES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/../mpack/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/../mpack/*.c")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/../mpack/conv.c"
-  "/home/nick/dl/neovim/src/nvim/../mpack/lmpack.c"
-  "/home/nick/dl/neovim/src/nvim/../mpack/mpack_core.c"
-  "/home/nick/dl/neovim/src/nvim/../mpack/object.c"
-  "/home/nick/dl/neovim/src/nvim/../mpack/rpc.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../mpack/conv.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../mpack/lmpack.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../mpack/mpack_core.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../mpack/object.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../mpack/rpc.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # EXTERNAL_HEADERS at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/../mpack/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/../mpack/*.h")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/../mpack/conv.h"
-  "/home/nick/dl/neovim/src/nvim/../mpack/lmpack.h"
-  "/home/nick/dl/neovim/src/nvim/../mpack/mpack_core.h"
-  "/home/nick/dl/neovim/src/nvim/../mpack/object.h"
-  "/home/nick/dl/neovim/src/nvim/../mpack/rpc.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../mpack/conv.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../mpack/lmpack.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../mpack/mpack_core.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../mpack/object.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../mpack/rpc.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # EXTERNAL_SOURCES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/../xdiff/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/*.c")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/../xdiff/xdiffi.c"
-  "/home/nick/dl/neovim/src/nvim/../xdiff/xemit.c"
-  "/home/nick/dl/neovim/src/nvim/../xdiff/xhistogram.c"
-  "/home/nick/dl/neovim/src/nvim/../xdiff/xpatience.c"
-  "/home/nick/dl/neovim/src/nvim/../xdiff/xprepare.c"
-  "/home/nick/dl/neovim/src/nvim/../xdiff/xutils.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/xdiffi.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/xemit.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/xhistogram.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/xpatience.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/xprepare.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/xutils.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # EXTERNAL_HEADERS at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/../xdiff/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/*.h")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/../xdiff/xdiff.h"
-  "/home/nick/dl/neovim/src/nvim/../xdiff/xdiffi.h"
-  "/home/nick/dl/neovim/src/nvim/../xdiff/xemit.h"
-  "/home/nick/dl/neovim/src/nvim/../xdiff/xinclude.h"
-  "/home/nick/dl/neovim/src/nvim/../xdiff/xmacros.h"
-  "/home/nick/dl/neovim/src/nvim/../xdiff/xprepare.h"
-  "/home/nick/dl/neovim/src/nvim/../xdiff/xtypes.h"
-  "/home/nick/dl/neovim/src/nvim/../xdiff/xutils.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/xdiff.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/xdiffi.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/xemit.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/xinclude.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/xmacros.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/xprepare.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/xtypes.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/../xdiff/xutils.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # sources at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/api/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/api/*.c")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/api/autocmd.c"
-  "/home/nick/dl/neovim/src/nvim/api/buffer.c"
-  "/home/nick/dl/neovim/src/nvim/api/command.c"
-  "/home/nick/dl/neovim/src/nvim/api/deprecated.c"
-  "/home/nick/dl/neovim/src/nvim/api/extmark.c"
-  "/home/nick/dl/neovim/src/nvim/api/options.c"
-  "/home/nick/dl/neovim/src/nvim/api/tabpage.c"
-  "/home/nick/dl/neovim/src/nvim/api/ui.c"
-  "/home/nick/dl/neovim/src/nvim/api/vim.c"
-  "/home/nick/dl/neovim/src/nvim/api/vimscript.c"
-  "/home/nick/dl/neovim/src/nvim/api/win_config.c"
-  "/home/nick/dl/neovim/src/nvim/api/window.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/autocmd.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/buffer.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/command.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/deprecated.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/extmark.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/options.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/tabpage.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/ui.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/vim.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/vimscript.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/win_config.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/window.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # API_HEADERS at cmake/InstallHelpers.cmake:166 (file)
 # headers at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/api/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/api/*.h")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/api/autocmd.h"
-  "/home/nick/dl/neovim/src/nvim/api/buffer.h"
-  "/home/nick/dl/neovim/src/nvim/api/command.h"
-  "/home/nick/dl/neovim/src/nvim/api/deprecated.h"
-  "/home/nick/dl/neovim/src/nvim/api/extmark.h"
-  "/home/nick/dl/neovim/src/nvim/api/options.h"
-  "/home/nick/dl/neovim/src/nvim/api/tabpage.h"
-  "/home/nick/dl/neovim/src/nvim/api/ui.h"
-  "/home/nick/dl/neovim/src/nvim/api/ui_events.in.h"
-  "/home/nick/dl/neovim/src/nvim/api/vim.h"
-  "/home/nick/dl/neovim/src/nvim/api/vimscript.h"
-  "/home/nick/dl/neovim/src/nvim/api/win_config.h"
-  "/home/nick/dl/neovim/src/nvim/api/window.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/autocmd.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/buffer.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/command.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/deprecated.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/extmark.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/options.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/tabpage.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/ui.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/ui_events.in.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/vim.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/vimscript.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/win_config.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/window.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # sources at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/api/private/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/*.c")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/api/private/converter.c"
-  "/home/nick/dl/neovim/src/nvim/api/private/dispatch.c"
-  "/home/nick/dl/neovim/src/nvim/api/private/helpers.c"
-  "/home/nick/dl/neovim/src/nvim/api/private/validate.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/converter.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/dispatch.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/helpers.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/validate.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # headers at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/api/private/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/*.h")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/api/private/converter.h"
-  "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
-  "/home/nick/dl/neovim/src/nvim/api/private/dispatch.h"
-  "/home/nick/dl/neovim/src/nvim/api/private/helpers.h"
-  "/home/nick/dl/neovim/src/nvim/api/private/validate.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/converter.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/dispatch.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/helpers.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/validate.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # sources at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/eval/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/eval/*.c")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/eval/buffer.c"
-  "/home/nick/dl/neovim/src/nvim/eval/decode.c"
-  "/home/nick/dl/neovim/src/nvim/eval/encode.c"
-  "/home/nick/dl/neovim/src/nvim/eval/executor.c"
-  "/home/nick/dl/neovim/src/nvim/eval/funcs.c"
-  "/home/nick/dl/neovim/src/nvim/eval/gc.c"
-  "/home/nick/dl/neovim/src/nvim/eval/typval.c"
-  "/home/nick/dl/neovim/src/nvim/eval/userfunc.c"
-  "/home/nick/dl/neovim/src/nvim/eval/vars.c"
-  "/home/nick/dl/neovim/src/nvim/eval/window.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/buffer.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/decode.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/encode.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/executor.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/funcs.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/gc.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/userfunc.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/vars.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/window.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # headers at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/eval/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/eval/*.h")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/eval/buffer.h"
-  "/home/nick/dl/neovim/src/nvim/eval/decode.h"
-  "/home/nick/dl/neovim/src/nvim/eval/encode.h"
-  "/home/nick/dl/neovim/src/nvim/eval/executor.h"
-  "/home/nick/dl/neovim/src/nvim/eval/funcs.h"
-  "/home/nick/dl/neovim/src/nvim/eval/gc.h"
-  "/home/nick/dl/neovim/src/nvim/eval/typval.h"
-  "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h"
-  "/home/nick/dl/neovim/src/nvim/eval/typval_encode.c.h"
-  "/home/nick/dl/neovim/src/nvim/eval/typval_encode.h"
-  "/home/nick/dl/neovim/src/nvim/eval/userfunc.h"
-  "/home/nick/dl/neovim/src/nvim/eval/vars.h"
-  "/home/nick/dl/neovim/src/nvim/eval/window.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/buffer.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/decode.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/encode.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/executor.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/funcs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/gc.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_encode.c.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_encode.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/userfunc.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/vars.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/eval/window.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # sources at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/event/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/event/*.c")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/event/libuv_process.c"
-  "/home/nick/dl/neovim/src/nvim/event/loop.c"
-  "/home/nick/dl/neovim/src/nvim/event/multiqueue.c"
-  "/home/nick/dl/neovim/src/nvim/event/process.c"
-  "/home/nick/dl/neovim/src/nvim/event/rstream.c"
-  "/home/nick/dl/neovim/src/nvim/event/signal.c"
-  "/home/nick/dl/neovim/src/nvim/event/socket.c"
-  "/home/nick/dl/neovim/src/nvim/event/stream.c"
-  "/home/nick/dl/neovim/src/nvim/event/time.c"
-  "/home/nick/dl/neovim/src/nvim/event/wstream.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/libuv_process.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/multiqueue.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/rstream.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/signal.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/socket.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/stream.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/wstream.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # headers at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/event/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/event/*.h")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/event/defs.h"
-  "/home/nick/dl/neovim/src/nvim/event/libuv_process.h"
-  "/home/nick/dl/neovim/src/nvim/event/loop.h"
-  "/home/nick/dl/neovim/src/nvim/event/multiqueue.h"
-  "/home/nick/dl/neovim/src/nvim/event/process.h"
-  "/home/nick/dl/neovim/src/nvim/event/rstream.h"
-  "/home/nick/dl/neovim/src/nvim/event/signal.h"
-  "/home/nick/dl/neovim/src/nvim/event/socket.h"
-  "/home/nick/dl/neovim/src/nvim/event/stream.h"
-  "/home/nick/dl/neovim/src/nvim/event/time.h"
-  "/home/nick/dl/neovim/src/nvim/event/wstream.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/libuv_process.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/multiqueue.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/rstream.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/signal.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/socket.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/stream.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/event/wstream.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # sources at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/lua/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/lua/*.c")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/lua/converter.c"
-  "/home/nick/dl/neovim/src/nvim/lua/executor.c"
-  "/home/nick/dl/neovim/src/nvim/lua/spell.c"
-  "/home/nick/dl/neovim/src/nvim/lua/stdlib.c"
-  "/home/nick/dl/neovim/src/nvim/lua/treesitter.c"
-  "/home/nick/dl/neovim/src/nvim/lua/xdiff.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/lua/converter.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/lua/executor.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/lua/spell.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/lua/stdlib.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/lua/treesitter.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/lua/xdiff.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # headers at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/lua/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/lua/*.h")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/lua/converter.h"
-  "/home/nick/dl/neovim/src/nvim/lua/executor.h"
-  "/home/nick/dl/neovim/src/nvim/lua/spell.h"
-  "/home/nick/dl/neovim/src/nvim/lua/stdlib.h"
-  "/home/nick/dl/neovim/src/nvim/lua/treesitter.h"
-  "/home/nick/dl/neovim/src/nvim/lua/xdiff.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/lua/converter.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/lua/executor.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/lua/spell.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/lua/stdlib.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/lua/treesitter.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/lua/xdiff.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # sources at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/msgpack_rpc/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/*.c")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/msgpack_rpc/channel.c"
-  "/home/nick/dl/neovim/src/nvim/msgpack_rpc/helpers.c"
-  "/home/nick/dl/neovim/src/nvim/msgpack_rpc/server.c"
-  "/home/nick/dl/neovim/src/nvim/msgpack_rpc/unpacker.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/helpers.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/server.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/unpacker.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # MSGPACK_RPC_HEADERS at cmake/InstallHelpers.cmake:166 (file)
 # headers at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/msgpack_rpc/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/*.h")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/msgpack_rpc/channel.h"
-  "/home/nick/dl/neovim/src/nvim/msgpack_rpc/channel_defs.h"
-  "/home/nick/dl/neovim/src/nvim/msgpack_rpc/helpers.h"
-  "/home/nick/dl/neovim/src/nvim/msgpack_rpc/server.h"
-  "/home/nick/dl/neovim/src/nvim/msgpack_rpc/unpacker.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/helpers.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/server.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/unpacker.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # sources at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/os/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/os/*.c")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/os/dl.c"
-  "/home/nick/dl/neovim/src/nvim/os/env.c"
-  "/home/nick/dl/neovim/src/nvim/os/fileio.c"
-  "/home/nick/dl/neovim/src/nvim/os/fs.c"
-  "/home/nick/dl/neovim/src/nvim/os/input.c"
-  "/home/nick/dl/neovim/src/nvim/os/lang.c"
-  "/home/nick/dl/neovim/src/nvim/os/mem.c"
-  "/home/nick/dl/neovim/src/nvim/os/os_win_console.c"
-  "/home/nick/dl/neovim/src/nvim/os/process.c"
-  "/home/nick/dl/neovim/src/nvim/os/pty_conpty_win.c"
-  "/home/nick/dl/neovim/src/nvim/os/pty_process_unix.c"
-  "/home/nick/dl/neovim/src/nvim/os/pty_process_win.c"
-  "/home/nick/dl/neovim/src/nvim/os/shell.c"
-  "/home/nick/dl/neovim/src/nvim/os/signal.c"
-  "/home/nick/dl/neovim/src/nvim/os/stdpaths.c"
-  "/home/nick/dl/neovim/src/nvim/os/time.c"
-  "/home/nick/dl/neovim/src/nvim/os/tty.c"
-  "/home/nick/dl/neovim/src/nvim/os/users.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/dl.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/env.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/fs.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/input.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/lang.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/mem.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/os_win_console.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/process.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/pty_conpty_win.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process_unix.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process_win.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/shell.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/signal.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/stdpaths.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/time.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/tty.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/users.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # headers at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/os/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/os/*.h")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/os/dl.h"
-  "/home/nick/dl/neovim/src/nvim/os/fileio.h"
-  "/home/nick/dl/neovim/src/nvim/os/fs.h"
-  "/home/nick/dl/neovim/src/nvim/os/fs_defs.h"
-  "/home/nick/dl/neovim/src/nvim/os/input.h"
-  "/home/nick/dl/neovim/src/nvim/os/lang.h"
-  "/home/nick/dl/neovim/src/nvim/os/os.h"
-  "/home/nick/dl/neovim/src/nvim/os/os_defs.h"
-  "/home/nick/dl/neovim/src/nvim/os/os_win_console.h"
-  "/home/nick/dl/neovim/src/nvim/os/process.h"
-  "/home/nick/dl/neovim/src/nvim/os/pty_conpty_win.h"
-  "/home/nick/dl/neovim/src/nvim/os/pty_process.h"
-  "/home/nick/dl/neovim/src/nvim/os/pty_process_unix.h"
-  "/home/nick/dl/neovim/src/nvim/os/pty_process_win.h"
-  "/home/nick/dl/neovim/src/nvim/os/shell.h"
-  "/home/nick/dl/neovim/src/nvim/os/signal.h"
-  "/home/nick/dl/neovim/src/nvim/os/stdpaths_defs.h"
-  "/home/nick/dl/neovim/src/nvim/os/time.h"
-  "/home/nick/dl/neovim/src/nvim/os/tty.h"
-  "/home/nick/dl/neovim/src/nvim/os/unix_defs.h"
-  "/home/nick/dl/neovim/src/nvim/os/win_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/dl.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/fs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/fs_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/input.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/lang.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/os.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/os_win_console.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/process.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/pty_conpty_win.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process_unix.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process_win.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/shell.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/signal.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/stdpaths_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/time.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/tty.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/os/win_defs.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # sources at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/tui/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/tui/*.c")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/tui/input.c"
-  "/home/nick/dl/neovim/src/nvim/tui/terminfo.c"
-  "/home/nick/dl/neovim/src/nvim/tui/tui.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/tui/input.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/tui/terminfo.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/tui/tui.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # headers at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/tui/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/tui/*.h")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/tui/input.h"
-  "/home/nick/dl/neovim/src/nvim/tui/input_defs.h"
-  "/home/nick/dl/neovim/src/nvim/tui/terminfo.h"
-  "/home/nick/dl/neovim/src/nvim/tui/terminfo_defs.h"
-  "/home/nick/dl/neovim/src/nvim/tui/tui.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/tui/input.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/tui/input_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/tui/terminfo.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/tui/terminfo_defs.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/tui/tui.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # sources at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/viml/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/viml/*.c")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # headers at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/viml/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/viml/*.h")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # sources at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/viml/parser/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/viml/parser/*.c")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/viml/parser/expressions.c"
-  "/home/nick/dl/neovim/src/nvim/viml/parser/parser.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/viml/parser/expressions.c"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/viml/parser/parser.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # headers at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/nvim/viml/parser/*.h")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/nvim/viml/parser/*.h")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/nvim/viml/parser/expressions.h"
-  "/home/nick/dl/neovim/src/nvim/viml/parser/parser.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/viml/parser/expressions.h"
+  "/home/nick/git/Src-Arc/neovim/src/nvim/viml/parser/parser.h"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # UNICODE_FILES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/src/unicode/*.txt")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/src/unicode/*.txt")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/src/unicode/CaseFolding.txt"
-  "/home/nick/dl/neovim/src/unicode/Copyright.txt"
-  "/home/nick/dl/neovim/src/unicode/EastAsianWidth.txt"
-  "/home/nick/dl/neovim/src/unicode/UnicodeData.txt"
-  "/home/nick/dl/neovim/src/unicode/emoji-data.txt"
+  "/home/nick/git/Src-Arc/neovim/src/unicode/CaseFolding.txt"
+  "/home/nick/git/Src-Arc/neovim/src/unicode/Copyright.txt"
+  "/home/nick/git/Src-Arc/neovim/src/unicode/EastAsianWidth.txt"
+  "/home/nick/git/Src-Arc/neovim/src/unicode/UnicodeData.txt"
+  "/home/nick/git/Src-Arc/neovim/src/unicode/emoji-data.txt"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()
 
 # UNIT_TEST_FIXTURES at cmake/InstallHelpers.cmake:166 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/dl/neovim/test/unit/fixtures/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/nick/git/Src-Arc/neovim/test/unit/fixtures/*.c")
 set(OLD_GLOB
-  "/home/nick/dl/neovim/test/unit/fixtures/multiqueue.c"
-  "/home/nick/dl/neovim/test/unit/fixtures/rbuffer.c"
+  "/home/nick/git/Src-Arc/neovim/test/unit/fixtures/multiqueue.c"
+  "/home/nick/git/Src-Arc/neovim/test/unit/fixtures/rbuffer.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/home/nick/dl/neovim/build/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/cmake.verify_globs")
 endif()

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 # Utility rule file for unittest.
 
@@ -67,7 +67,7 @@ include test/CMakeFiles/unittest.dir/compiler_depend.make
 include test/CMakeFiles/unittest.dir/progress.make
 
 test/CMakeFiles/unittest: bin/nvim
-	cd /home/nick/dl/neovim/build/test && /usr/bin/cmake -D BUSTED_PRG=/home/nick/dl/neovim/.deps/usr/bin/busted -D NVIM_PRG=/home/nick/dl/neovim/build/bin/nvim -D WORKING_DIR=/home/nick/dl/neovim -D BUSTED_OUTPUT_TYPE=nvim -D TEST_DIR=/home/nick/dl/neovim/test -D BUILD_DIR=/home/nick/dl/neovim/build -D TEST_TYPE=unit -D CIRRUS_CI= -D CI_BUILD=OFF -P /home/nick/dl/neovim/cmake/RunTests.cmake
+	cd /home/nick/git/Src-Arc/neovim/build/test && /usr/bin/cmake -D BUSTED_PRG=/home/nick/git/Src-Arc/neovim/.deps/usr/bin/busted -D NVIM_PRG=/home/nick/git/Src-Arc/neovim/build/bin/nvim -D WORKING_DIR=/home/nick/git/Src-Arc/neovim -D BUSTED_OUTPUT_TYPE=nvim -D TEST_DIR=/home/nick/git/Src-Arc/neovim/test -D BUILD_DIR=/home/nick/git/Src-Arc/neovim/build -D TEST_TYPE=unit -D CIRRUS_CI= -D CI_BUILD=OFF -P /home/nick/git/Src-Arc/neovim/cmake/RunTests.cmake
 
 unittest: test/CMakeFiles/unittest
 unittest: test/CMakeFiles/unittest.dir/build.make
@@ -78,10 +78,10 @@ test/CMakeFiles/unittest.dir/build: unittest
 .PHONY : test/CMakeFiles/unittest.dir/build
 
 test/CMakeFiles/unittest.dir/clean:
-	cd /home/nick/dl/neovim/build/test && $(CMAKE_COMMAND) -P CMakeFiles/unittest.dir/cmake_clean.cmake
+	cd /home/nick/git/Src-Arc/neovim/build/test && $(CMAKE_COMMAND) -P CMakeFiles/unittest.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/unittest.dir/clean
 
 test/CMakeFiles/unittest.dir/depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim /home/nick/dl/neovim/test /home/nick/dl/neovim/build /home/nick/dl/neovim/build/test /home/nick/dl/neovim/build/test/CMakeFiles/unittest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim/test /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build/test /home/nick/git/Src-Arc/neovim/build/test/CMakeFiles/unittest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/CMakeFiles/unittest.dir/depend
 

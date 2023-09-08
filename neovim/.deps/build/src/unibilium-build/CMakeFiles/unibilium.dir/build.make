@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/.deps/build/src/unibilium
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps/build/src/unibilium-build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/unibilium.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/unibilium.dir/progress.make
 include CMakeFiles/unibilium.dir/flags.make
 
 CMakeFiles/unibilium.dir/unibilium.c.o: CMakeFiles/unibilium.dir/flags.make
-CMakeFiles/unibilium.dir/unibilium.c.o: /home/nick/dl/neovim/.deps/build/src/unibilium/unibilium.c
+CMakeFiles/unibilium.dir/unibilium.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/unibilium.c
 CMakeFiles/unibilium.dir/unibilium.c.o: CMakeFiles/unibilium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/unibilium-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/unibilium.dir/unibilium.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/unibilium.dir/unibilium.c.o -MF CMakeFiles/unibilium.dir/unibilium.c.o.d -o CMakeFiles/unibilium.dir/unibilium.c.o -c /home/nick/dl/neovim/.deps/build/src/unibilium/unibilium.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/unibilium.dir/unibilium.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/unibilium.dir/unibilium.c.o -MF CMakeFiles/unibilium.dir/unibilium.c.o.d -o CMakeFiles/unibilium.dir/unibilium.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/unibilium.c
 
 CMakeFiles/unibilium.dir/unibilium.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/unibilium.dir/unibilium.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/unibilium/unibilium.c > CMakeFiles/unibilium.dir/unibilium.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/unibilium.c > CMakeFiles/unibilium.dir/unibilium.c.i
 
 CMakeFiles/unibilium.dir/unibilium.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/unibilium.dir/unibilium.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/unibilium/unibilium.c -o CMakeFiles/unibilium.dir/unibilium.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/unibilium.c -o CMakeFiles/unibilium.dir/unibilium.c.s
 
 CMakeFiles/unibilium.dir/uninames.c.o: CMakeFiles/unibilium.dir/flags.make
-CMakeFiles/unibilium.dir/uninames.c.o: /home/nick/dl/neovim/.deps/build/src/unibilium/uninames.c
+CMakeFiles/unibilium.dir/uninames.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/uninames.c
 CMakeFiles/unibilium.dir/uninames.c.o: CMakeFiles/unibilium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/unibilium-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/unibilium.dir/uninames.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/unibilium.dir/uninames.c.o -MF CMakeFiles/unibilium.dir/uninames.c.o.d -o CMakeFiles/unibilium.dir/uninames.c.o -c /home/nick/dl/neovim/.deps/build/src/unibilium/uninames.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/unibilium.dir/uninames.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/unibilium.dir/uninames.c.o -MF CMakeFiles/unibilium.dir/uninames.c.o.d -o CMakeFiles/unibilium.dir/uninames.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/uninames.c
 
 CMakeFiles/unibilium.dir/uninames.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/unibilium.dir/uninames.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/unibilium/uninames.c > CMakeFiles/unibilium.dir/uninames.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/uninames.c > CMakeFiles/unibilium.dir/uninames.c.i
 
 CMakeFiles/unibilium.dir/uninames.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/unibilium.dir/uninames.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/unibilium/uninames.c -o CMakeFiles/unibilium.dir/uninames.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/uninames.c -o CMakeFiles/unibilium.dir/uninames.c.s
 
 CMakeFiles/unibilium.dir/uniutil.c.o: CMakeFiles/unibilium.dir/flags.make
-CMakeFiles/unibilium.dir/uniutil.c.o: /home/nick/dl/neovim/.deps/build/src/unibilium/uniutil.c
+CMakeFiles/unibilium.dir/uniutil.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/uniutil.c
 CMakeFiles/unibilium.dir/uniutil.c.o: CMakeFiles/unibilium.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/unibilium-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/unibilium.dir/uniutil.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/unibilium.dir/uniutil.c.o -MF CMakeFiles/unibilium.dir/uniutil.c.o.d -o CMakeFiles/unibilium.dir/uniutil.c.o -c /home/nick/dl/neovim/.deps/build/src/unibilium/uniutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/unibilium.dir/uniutil.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/unibilium.dir/uniutil.c.o -MF CMakeFiles/unibilium.dir/uniutil.c.o.d -o CMakeFiles/unibilium.dir/uniutil.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/uniutil.c
 
 CMakeFiles/unibilium.dir/uniutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/unibilium.dir/uniutil.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/unibilium/uniutil.c > CMakeFiles/unibilium.dir/uniutil.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/uniutil.c > CMakeFiles/unibilium.dir/uniutil.c.i
 
 CMakeFiles/unibilium.dir/uniutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/unibilium.dir/uniutil.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/unibilium/uniutil.c -o CMakeFiles/unibilium.dir/uniutil.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/uniutil.c -o CMakeFiles/unibilium.dir/uniutil.c.s
 
 # Object files for target unibilium
 unibilium_OBJECTS = \
@@ -125,7 +125,7 @@ libunibilium.a: CMakeFiles/unibilium.dir/uninames.c.o
 libunibilium.a: CMakeFiles/unibilium.dir/uniutil.c.o
 libunibilium.a: CMakeFiles/unibilium.dir/build.make
 libunibilium.a: CMakeFiles/unibilium.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/dl/neovim/.deps/build/src/unibilium-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libunibilium.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libunibilium.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/unibilium.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unibilium.dir/link.txt --verbose=$(VERBOSE)
 
@@ -138,6 +138,6 @@ CMakeFiles/unibilium.dir/clean:
 .PHONY : CMakeFiles/unibilium.dir/clean
 
 CMakeFiles/unibilium.dir/depend:
-	cd /home/nick/dl/neovim/.deps/build/src/unibilium-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/.deps/build/src/unibilium /home/nick/dl/neovim/.deps/build/src/unibilium /home/nick/dl/neovim/.deps/build/src/unibilium-build /home/nick/dl/neovim/.deps/build/src/unibilium-build /home/nick/dl/neovim/.deps/build/src/unibilium-build/CMakeFiles/unibilium.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium-build /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium-build /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium-build/CMakeFiles/unibilium.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/unibilium.dir/depend
 

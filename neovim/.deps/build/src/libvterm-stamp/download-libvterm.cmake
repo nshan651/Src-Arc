@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='/home/nick/dl/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz'")
+       file='/home/nick/git/Src-Arc/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz'")
 
-  file("SHA256" "/home/nick/dl/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz" actual_value)
+  file("SHA256" "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "09156f43dd2128bd347cbeebe50d9a571d32c64e0cf18d211197946aff7226e0")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS "SHA256 hash of
-    /home/nick/dl/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz
+    /home/nick/git/Src-Arc/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz
   does not match expected value
     expected: '09156f43dd2128bd347cbeebe50d9a571d32c64e0cf18d211197946aff7226e0'
       actual: '${actual_value}'")
@@ -71,7 +71,7 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if("/home/nick/dl/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz" STREQUAL "")
+if("/home/nick/git/Src-Arc/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz" STREQUAL "")
   message(FATAL_ERROR "LOCAL can't be empty")
 endif()
 
@@ -79,32 +79,32 @@ if("https://github.com/neovim/deps/raw/12c9dcf1d823ac4acbccf494c93c4774a87db11d/
   message(FATAL_ERROR "REMOTE can't be empty")
 endif()
 
-if(EXISTS "/home/nick/dl/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz")
+if(EXISTS "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='/home/nick/dl/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz'
+  file='/home/nick/git/Src-Arc/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz'
   SHA256='09156f43dd2128bd347cbeebe50d9a571d32c64e0cf18d211197946aff7226e0'"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "/home/nick/dl/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz")
+      file(REMOVE "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='/home/nick/dl/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz'
+  file='/home/nick/git/Src-Arc/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "/home/nick/dl/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz")
+    file(REMOVE "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='/home/nick/dl/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz'
+   dst='/home/nick/git/Src-Arc/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz'
    timeout='none'
    inactivity timeout='none'"
 )
@@ -126,7 +126,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "/home/nick/dl/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz"
+        "${url}" "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz"
         
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -143,7 +143,7 @@ foreach(i RANGE ${retry_number})
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
           message(STATUS "Hash mismatch, removing...")
-          file(REMOVE "/home/nick/dl/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz")
+          file(REMOVE "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/libvterm/libvterm-0.3.3.tar.gz")
         else()
           message(STATUS "Downloading... done")
           return()

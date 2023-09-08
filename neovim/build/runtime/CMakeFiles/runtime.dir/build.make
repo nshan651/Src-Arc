@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 # Utility rule file for runtime.
 
@@ -72,29 +72,29 @@ runtime/CMakeFiles/runtime: runtime/pack/dist/opt/matchit/doc/tags
 runtime/CMakeFiles/runtime: runtime/pack/dist/opt/vimball/doc/tags
 
 runtime/doc/tags: bin/nvim
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating doc/tags"
-	cd /home/nick/dl/neovim/build/runtime && /usr/bin/cmake -E remove_directory doc
-	cd /home/nick/dl/neovim/build/runtime && /usr/bin/cmake -E copy_directory /home/nick/dl/neovim/runtime/doc doc
-	cd /home/nick/dl/neovim/build/runtime && /home/nick/dl/neovim/build/bin/nvim -u NONE -i NONE -e --headless -c helptags\ ++t\ doc -c quit
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating doc/tags"
+	cd /home/nick/git/Src-Arc/neovim/build/runtime && /usr/bin/cmake -E remove_directory doc
+	cd /home/nick/git/Src-Arc/neovim/build/runtime && /usr/bin/cmake -E copy_directory /home/nick/git/Src-Arc/neovim/runtime/doc doc
+	cd /home/nick/git/Src-Arc/neovim/build/runtime && /home/nick/git/Src-Arc/neovim/build/bin/nvim -u NONE -i NONE -e --headless -c helptags\ ++t\ doc -c quit
 
 runtime/pack/dist/opt/matchit/doc/tags: bin/nvim
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating pack/dist/opt/matchit/doc/tags"
-	cd /home/nick/dl/neovim/build/runtime/pack/dist/opt/matchit && /usr/bin/cmake -E copy_directory /home/nick/dl/neovim/runtime/pack/dist/opt/matchit /home/nick/dl/neovim/build/runtime/pack/dist/opt/matchit
-	cd /home/nick/dl/neovim/build/runtime/pack/dist/opt/matchit && /home/nick/dl/neovim/build/bin/nvim -u NONE -i NONE -e --headless -c helptags\ doc -c quit
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating pack/dist/opt/matchit/doc/tags"
+	cd /home/nick/git/Src-Arc/neovim/build/runtime/pack/dist/opt/matchit && /usr/bin/cmake -E copy_directory /home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/matchit /home/nick/git/Src-Arc/neovim/build/runtime/pack/dist/opt/matchit
+	cd /home/nick/git/Src-Arc/neovim/build/runtime/pack/dist/opt/matchit && /home/nick/git/Src-Arc/neovim/build/bin/nvim -u NONE -i NONE -e --headless -c helptags\ doc -c quit
 
 runtime/pack/dist/opt/vimball/doc/tags: bin/nvim
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating pack/dist/opt/vimball/doc/tags"
-	cd /home/nick/dl/neovim/build/runtime/pack/dist/opt/vimball && /usr/bin/cmake -E copy_directory /home/nick/dl/neovim/runtime/pack/dist/opt/vimball /home/nick/dl/neovim/build/runtime/pack/dist/opt/vimball
-	cd /home/nick/dl/neovim/build/runtime/pack/dist/opt/vimball && /home/nick/dl/neovim/build/bin/nvim -u NONE -i NONE -e --headless -c helptags\ doc -c quit
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating pack/dist/opt/vimball/doc/tags"
+	cd /home/nick/git/Src-Arc/neovim/build/runtime/pack/dist/opt/vimball && /usr/bin/cmake -E copy_directory /home/nick/git/Src-Arc/neovim/runtime/pack/dist/opt/vimball /home/nick/git/Src-Arc/neovim/build/runtime/pack/dist/opt/vimball
+	cd /home/nick/git/Src-Arc/neovim/build/runtime/pack/dist/opt/vimball && /home/nick/git/Src-Arc/neovim/build/bin/nvim -u NONE -i NONE -e --headless -c helptags\ doc -c quit
 
-runtime/syntax/vim/generated.vim: /home/nick/dl/neovim/scripts/genvimvim.lua
-runtime/syntax/vim/generated.vim: /home/nick/dl/neovim/src/nvim/ex_cmds.lua
-runtime/syntax/vim/generated.vim: /home/nick/dl/neovim/src/nvim/auevents.lua
-runtime/syntax/vim/generated.vim: /home/nick/dl/neovim/src/nvim/options.lua
-runtime/syntax/vim/generated.vim: /home/nick/dl/neovim/src/nvim/eval.c
+runtime/syntax/vim/generated.vim: /home/nick/git/Src-Arc/neovim/scripts/genvimvim.lua
+runtime/syntax/vim/generated.vim: /home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds.lua
+runtime/syntax/vim/generated.vim: /home/nick/git/Src-Arc/neovim/src/nvim/auevents.lua
+runtime/syntax/vim/generated.vim: /home/nick/git/Src-Arc/neovim/src/nvim/options.lua
+runtime/syntax/vim/generated.vim: /home/nick/git/Src-Arc/neovim/src/nvim/eval.c
 runtime/syntax/vim/generated.vim: funcs_data.mpack
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating syntax/vim/generated.vim"
-	cd /home/nick/dl/neovim/build/runtime && /home/nick/dl/neovim/.deps/usr/bin/luajit /home/nick/dl/neovim/scripts/genvimvim.lua /home/nick/dl/neovim/src/nvim /home/nick/dl/neovim/build/runtime/syntax/vim/generated.vim /home/nick/dl/neovim/build/funcs_data.mpack
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating syntax/vim/generated.vim"
+	cd /home/nick/git/Src-Arc/neovim/build/runtime && /home/nick/git/Src-Arc/neovim/.deps/usr/bin/luajit /home/nick/git/Src-Arc/neovim/scripts/genvimvim.lua /home/nick/git/Src-Arc/neovim/src/nvim /home/nick/git/Src-Arc/neovim/build/runtime/syntax/vim/generated.vim /home/nick/git/Src-Arc/neovim/build/funcs_data.mpack
 
 runtime: runtime/CMakeFiles/runtime
 runtime: runtime/doc/tags
@@ -109,10 +109,10 @@ runtime/CMakeFiles/runtime.dir/build: runtime
 .PHONY : runtime/CMakeFiles/runtime.dir/build
 
 runtime/CMakeFiles/runtime.dir/clean:
-	cd /home/nick/dl/neovim/build/runtime && $(CMAKE_COMMAND) -P CMakeFiles/runtime.dir/cmake_clean.cmake
+	cd /home/nick/git/Src-Arc/neovim/build/runtime && $(CMAKE_COMMAND) -P CMakeFiles/runtime.dir/cmake_clean.cmake
 .PHONY : runtime/CMakeFiles/runtime.dir/clean
 
 runtime/CMakeFiles/runtime.dir/depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim /home/nick/dl/neovim/runtime /home/nick/dl/neovim/build /home/nick/dl/neovim/build/runtime /home/nick/dl/neovim/build/runtime/CMakeFiles/runtime.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim/runtime /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build/runtime /home/nick/git/Src-Arc/neovim/build/runtime/CMakeFiles/runtime.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : runtime/CMakeFiles/runtime.dir/depend
 

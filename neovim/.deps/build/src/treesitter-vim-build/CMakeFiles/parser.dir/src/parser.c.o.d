@@ -1,7 +1,7 @@
 CMakeFiles/parser.dir/src/parser.c.o: \
- /home/nick/dl/neovim/.deps/build/src/treesitter-vim/src/parser.c \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-vim/src/parser.c \
  /usr/include/stdc-predef.h \
- /home/nick/dl/neovim/.deps/build/src/treesitter-vim/src/tree_sitter/parser.h \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-vim/src/tree_sitter/parser.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdbool.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \

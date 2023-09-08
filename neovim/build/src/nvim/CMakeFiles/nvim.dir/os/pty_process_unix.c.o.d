@@ -1,5 +1,5 @@
 src/nvim/CMakeFiles/nvim.dir/os/pty_process_unix.c.o: \
- /home/nick/dl/neovim/src/nvim/os/pty_process_unix.c \
+ /home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process_unix.c \
  /usr/include/stdc-predef.h /usr/include/assert.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -47,9 +47,8 @@ src/nvim/CMakeFiles/nvim.dir/os/pty_process_unix.c.o: \
  /usr/include/endian.h /usr/include/bits/byteswap.h \
  /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
  /usr/include/bits/select.h /usr/include/bits/types/struct_timeval.h \
- /usr/include/alloca.h /usr/include/bits/stdlib-bsearch.h \
- /usr/include/bits/stdlib-float.h /usr/include/string.h \
- /usr/include/strings.h /usr/include/sys/ioctl.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /usr/include/string.h /usr/include/strings.h /usr/include/sys/ioctl.h \
  /usr/include/bits/ioctls.h /usr/include/asm/ioctls.h \
  /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
  /usr/include/asm/ioctl.h /usr/include/asm-generic/ioctl.h \
@@ -61,26 +60,28 @@ src/nvim/CMakeFiles/nvim.dir/os/pty_process_unix.c.o: \
  /usr/include/bits/termios-baud.h /usr/include/bits/termios-c_cflag.h \
  /usr/include/bits/termios-c_lflag.h /usr/include/bits/termios-tcflow.h \
  /usr/include/bits/termios-misc.h \
- /home/nick/dl/neovim/.deps/usr/include/uv.h \
- /home/nick/dl/neovim/.deps/usr/include/uv/errno.h \
- /home/nick/dl/neovim/.deps/usr/include/uv/version.h /usr/include/stdio.h \
+ /home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h \
+ /home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/errno.h \
+ /home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/version.h \
+ /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
+ /usr/include/bits/stdio_lim.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h \
- /home/nick/dl/neovim/.deps/usr/include/uv/unix.h /usr/include/sys/stat.h \
- /usr/include/bits/statx.h /usr/include/linux/stat.h \
- /usr/include/linux/types.h /usr/include/asm/types.h \
- /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
- /usr/include/asm/bitsperlong.h /usr/include/asm-generic/bitsperlong.h \
- /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
- /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
- /usr/include/asm-generic/posix_types.h /usr/include/bits/statx-generic.h \
+ /home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h \
+ /usr/include/sys/stat.h /usr/include/bits/statx.h \
+ /usr/include/linux/stat.h /usr/include/linux/types.h \
+ /usr/include/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
+ /usr/include/asm/posix_types_64.h /usr/include/asm-generic/posix_types.h \
+ /usr/include/bits/statx-generic.h \
  /usr/include/bits/types/struct_statx_timestamp.h \
  /usr/include/bits/types/struct_statx.h /usr/include/dirent.h \
  /usr/include/bits/dirent.h /usr/include/bits/posix1_lim.h \
@@ -108,115 +109,114 @@ src/nvim/CMakeFiles/nvim.dir/os/pty_process_unix.c.o: \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
  /usr/include/bits/types/struct___jmp_buf_tag.h \
- /home/nick/dl/neovim/.deps/usr/include/uv/threadpool.h \
- /home/nick/dl/neovim/.deps/usr/include/uv/linux.h \
- /home/nick/dl/neovim/build/cmake.config/auto/config.h \
- /home/nick/dl/neovim/src/klib/klist.h \
- /home/nick/dl/neovim/src/nvim/func_attr.h \
- /home/nick/dl/neovim/src/nvim/macros.h \
- /home/nick/dl/neovim/src/nvim/memory.h \
+ /home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/threadpool.h \
+ /home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/linux.h \
+ /home/nick/git/Src-Arc/neovim/build/cmake.config/auto/config.h \
+ /home/nick/git/Src-Arc/neovim/src/klib/klist.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/macros.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/memory.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdbool.h \
- /home/nick/dl/neovim/build/include/memory.h.generated.h \
- /home/nick/dl/neovim/src/nvim/eval/typval.h \
- /home/nick/dl/neovim/src/nvim/eval/typval_defs.h /usr/include/inttypes.h \
- /home/nick/dl/neovim/src/nvim/garray.h \
- /home/nick/dl/neovim/src/nvim/log.h /usr/include/sys/sdt.h \
+ /home/nick/git/Src-Arc/neovim/build/include/memory.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h \
+ /usr/include/inttypes.h /home/nick/git/Src-Arc/neovim/src/nvim/garray.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/log.h /usr/include/sys/sdt.h \
  /usr/include/sys/sdt-config.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/sanitizer/asan_interface.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/sanitizer/common_interface_defs.h \
- /home/nick/dl/neovim/build/include/log.h.generated.h \
- /home/nick/dl/neovim/src/nvim/types.h \
- /home/nick/dl/neovim/build/include/garray.h.generated.h \
- /home/nick/dl/neovim/src/nvim/hashtab.h \
- /home/nick/dl/neovim/build/include/hashtab.h.generated.h \
- /home/nick/dl/neovim/src/nvim/lib/queue.h \
- /home/nick/dl/neovim/src/nvim/pos.h \
- /home/nick/dl/neovim/src/nvim/gettext.h /usr/include/libintl.h \
- /usr/include/locale.h /usr/include/bits/locale.h \
- /home/nick/dl/neovim/src/nvim/mbyte_defs.h \
- /home/nick/dl/neovim/src/nvim/iconv.h /usr/include/iconv.h \
- /home/nick/dl/neovim/src/nvim/message.h \
- /home/nick/dl/neovim/src/klib/kvec.h \
- /home/nick/dl/neovim/src/nvim/os/os_defs.h /usr/include/ctype.h \
- /home/nick/dl/neovim/src/nvim/os/unix_defs.h \
- /home/nick/dl/neovim/src/nvim/api/private/defs.h \
- /home/nick/dl/neovim/build/src/nvim/auto/keysets_defs.generated.h \
- /home/nick/dl/neovim/src/nvim/grid_defs.h \
- /home/nick/dl/neovim/build/include/message.h.generated.h \
- /home/nick/dl/neovim/build/include/eval/typval.h.generated.h \
- /home/nick/dl/neovim/src/nvim/event/loop.h \
- /home/nick/dl/neovim/src/nvim/event/multiqueue.h \
- /home/nick/dl/neovim/src/nvim/event/defs.h \
- /home/nick/dl/neovim/build/include/event/multiqueue.h.generated.h \
- /home/nick/dl/neovim/src/nvim/os/time.h \
- /home/nick/dl/neovim/build/include/os/time.h.generated.h \
- /home/nick/dl/neovim/build/include/event/loop.h.generated.h \
- /home/nick/dl/neovim/src/nvim/event/process.h \
- /home/nick/dl/neovim/src/nvim/event/rstream.h \
- /home/nick/dl/neovim/src/nvim/event/stream.h \
- /home/nick/dl/neovim/src/nvim/rbuffer.h \
- /home/nick/dl/neovim/build/include/rbuffer.h.generated.h \
- /home/nick/dl/neovim/build/include/event/stream.h.generated.h \
- /home/nick/dl/neovim/build/include/event/rstream.h.generated.h \
- /home/nick/dl/neovim/src/nvim/event/wstream.h \
- /home/nick/dl/neovim/build/include/event/wstream.h.generated.h \
- /home/nick/dl/neovim/build/include/event/process.h.generated.h \
- /home/nick/dl/neovim/src/nvim/os/os.h \
- /home/nick/dl/neovim/src/nvim/os/fs_defs.h \
- /home/nick/dl/neovim/src/nvim/os/stdpaths_defs.h \
- /home/nick/dl/neovim/src/nvim/vim.h \
- /home/nick/dl/neovim/src/nvim/keycodes.h \
- /home/nick/dl/neovim/src/nvim/ascii.h \
- /home/nick/dl/neovim/src/nvim/option_defs.h \
- /home/nick/dl/neovim/src/nvim/strings.h \
- /home/nick/dl/neovim/build/include/strings.h.generated.h \
- /home/nick/dl/neovim/build/include/keycodes.h.generated.h \
- /home/nick/dl/neovim/src/nvim/path.h \
- /home/nick/dl/neovim/build/include/path.h.generated.h \
- /home/nick/dl/neovim/src/nvim/buffer_defs.h \
- /home/nick/dl/neovim/src/nvim/highlight_defs.h \
- /home/nick/dl/neovim/src/nvim/map.h \
- /home/nick/dl/neovim/src/klib/khash.h \
- /home/nick/dl/neovim/src/nvim/extmark_defs.h \
- /home/nick/dl/neovim/src/nvim/map_defs.h \
- /home/nick/dl/neovim/src/nvim/tui/input_defs.h \
- /home/nick/dl/neovim/src/nvim/ui_client.h \
- /home/nick/dl/neovim/build/include/ui_client.h.generated.h \
- /home/nick/dl/neovim/build/include/ui_events_client.h.generated.h \
- /home/nick/dl/neovim/src/nvim/mark_defs.h \
- /home/nick/dl/neovim/src/nvim/marktree.h \
- /home/nick/dl/neovim/src/nvim/assert.h \
- /home/nick/dl/neovim/build/include/marktree.h.generated.h \
- /home/nick/dl/neovim/src/nvim/statusline_defs.h \
- /home/nick/dl/neovim/src/nvim/fold_defs.h \
- /home/nick/dl/neovim/src/nvim/sign_defs.h \
- /home/nick/dl/neovim/src/nvim/undo_defs.h \
- /home/nick/dl/neovim/src/nvim/memline_defs.h \
- /home/nick/dl/neovim/src/nvim/memfile_defs.h \
- /home/nick/dl/neovim/src/nvim/regexp_defs.h \
- /home/nick/dl/neovim/src/nvim/syntax_defs.h \
- /home/nick/dl/neovim/src/nvim/terminal.h \
- /home/nick/dl/neovim/build/include/terminal.h.generated.h \
- /home/nick/dl/neovim/src/nvim/ex_cmds_defs.h \
- /home/nick/dl/neovim/src/nvim/normal.h \
- /home/nick/dl/neovim/build/include/normal.h.generated.h \
- /home/nick/dl/neovim/build/include/ex_cmds_enum.generated.h \
- /home/nick/dl/neovim/src/nvim/globals.h \
- /home/nick/dl/neovim/src/nvim/ex_eval_defs.h \
- /home/nick/dl/neovim/src/nvim/mbyte.h \
- /home/nick/dl/neovim/build/include/mbyte.h.generated.h \
- /home/nick/dl/neovim/src/nvim/menu_defs.h \
- /home/nick/dl/neovim/src/nvim/runtime.h \
- /home/nick/dl/neovim/src/nvim/autocmd.h \
- /home/nick/dl/neovim/build/include/auevents_enum.generated.h \
- /home/nick/dl/neovim/build/include/autocmd.h.generated.h \
- /home/nick/dl/neovim/build/include/runtime.h.generated.h \
- /home/nick/dl/neovim/build/include/os/env.h.generated.h \
- /home/nick/dl/neovim/build/include/os/fs.h.generated.h \
- /home/nick/dl/neovim/build/include/os/mem.h.generated.h \
- /home/nick/dl/neovim/build/include/os/stdpaths.h.generated.h \
- /home/nick/dl/neovim/build/include/os/users.h.generated.h \
- /home/nick/dl/neovim/src/nvim/os/pty_process.h \
- /home/nick/dl/neovim/src/nvim/os/pty_process_unix.h \
- /home/nick/dl/neovim/build/include/os/pty_process_unix.h.generated.h \
- /home/nick/dl/neovim/build/src/nvim/auto/os/pty_process_unix.c.generated.h
+ /home/nick/git/Src-Arc/neovim/build/include/log.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/types.h \
+ /home/nick/git/Src-Arc/neovim/build/include/garray.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/hashtab.h \
+ /home/nick/git/Src-Arc/neovim/build/include/hashtab.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/lib/queue.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/pos.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/gettext.h /usr/include/libintl.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/mbyte_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/iconv.h /usr/include/iconv.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/message.h \
+ /home/nick/git/Src-Arc/neovim/src/klib/kvec.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h /usr/include/ctype.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h \
+ /home/nick/git/Src-Arc/neovim/build/src/nvim/auto/keysets_defs.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h \
+ /home/nick/git/Src-Arc/neovim/build/include/message.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/eval/typval.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/event/multiqueue.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h \
+ /home/nick/git/Src-Arc/neovim/build/include/event/multiqueue.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/os/time.h \
+ /home/nick/git/Src-Arc/neovim/build/include/os/time.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/event/loop.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/event/process.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/event/rstream.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/event/stream.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.h \
+ /home/nick/git/Src-Arc/neovim/build/include/rbuffer.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/event/stream.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/event/rstream.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/event/wstream.h \
+ /home/nick/git/Src-Arc/neovim/build/include/event/wstream.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/event/process.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/os/os.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/os/fs_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/os/stdpaths_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/vim.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/keycodes.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/ascii.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/option_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/strings.h \
+ /home/nick/git/Src-Arc/neovim/build/include/strings.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/keycodes.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/path.h \
+ /home/nick/git/Src-Arc/neovim/build/include/path.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/map.h \
+ /home/nick/git/Src-Arc/neovim/src/klib/khash.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/extmark_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/map_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/tui/input_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h \
+ /home/nick/git/Src-Arc/neovim/build/include/ui_client.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/ui_events_client.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/mark_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/marktree.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/assert.h \
+ /home/nick/git/Src-Arc/neovim/build/include/marktree.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/statusline_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/fold_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/sign_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/undo_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/memline_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/memfile_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/syntax_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/terminal.h \
+ /home/nick/git/Src-Arc/neovim/build/include/terminal.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/normal.h \
+ /home/nick/git/Src-Arc/neovim/build/include/normal.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/ex_cmds_enum.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/globals.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/ex_eval_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/mbyte.h \
+ /home/nick/git/Src-Arc/neovim/build/include/mbyte.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/menu_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/runtime.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h \
+ /home/nick/git/Src-Arc/neovim/build/include/auevents_enum.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/autocmd.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/runtime.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/os/env.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/os/fs.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/os/mem.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/os/stdpaths.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/os/users.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process_unix.h \
+ /home/nick/git/Src-Arc/neovim/build/include/os/pty_process_unix.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/src/nvim/auto/os/pty_process_unix.c.generated.h

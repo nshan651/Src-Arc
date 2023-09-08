@@ -9,7 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "CMakeFiles/3.27.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.4/CMakeSystem.cmake"
-  "/home/nick/dl/neovim/.deps/build/src/libtermkey/CMakeLists.txt"
+  "/home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/CMakeLists.txt"
   "/usr/share/cmake/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"

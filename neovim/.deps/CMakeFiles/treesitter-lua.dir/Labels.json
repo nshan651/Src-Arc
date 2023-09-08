@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-lua"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/treesitter-lua"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-lua.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/treesitter-lua.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-lua-complete.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/treesitter-lua-complete.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-lua-stamp/treesitter-lua-build.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua-stamp/treesitter-lua-build.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-lua-stamp/treesitter-lua-configure.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua-stamp/treesitter-lua-configure.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-lua-stamp/treesitter-lua-download.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua-stamp/treesitter-lua-download.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-lua-stamp/treesitter-lua-install.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua-stamp/treesitter-lua-install.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-lua-stamp/treesitter-lua-mkdir.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua-stamp/treesitter-lua-mkdir.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-lua-stamp/treesitter-lua-patch.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua-stamp/treesitter-lua-patch.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-lua-stamp/treesitter-lua-update.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua-stamp/treesitter-lua-update.rule"
 		}
 	],
 	"target" : 

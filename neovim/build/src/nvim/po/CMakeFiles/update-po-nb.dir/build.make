@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 # Utility rule file for update-po-nb.
 
@@ -66,8 +66,8 @@ include src/nvim/po/CMakeFiles/update-po-nb.dir/compiler_depend.make
 # Include the progress variables for this target.
 include src/nvim/po/CMakeFiles/update-po-nb.dir/progress.make
 
-src/nvim/po/CMakeFiles/update-po-nb: /home/nick/dl/neovim/src/nvim/po/no.po
-	cd /home/nick/dl/neovim/build/src/nvim/po && /usr/bin/cmake -E copy /home/nick/dl/neovim/src/nvim/po/no.po /home/nick/dl/neovim/src/nvim/po/nb.po
+src/nvim/po/CMakeFiles/update-po-nb: /home/nick/git/Src-Arc/neovim/src/nvim/po/no.po
+	cd /home/nick/git/Src-Arc/neovim/build/src/nvim/po && /usr/bin/cmake -E copy /home/nick/git/Src-Arc/neovim/src/nvim/po/no.po /home/nick/git/Src-Arc/neovim/src/nvim/po/nb.po
 
 update-po-nb: src/nvim/po/CMakeFiles/update-po-nb
 update-po-nb: src/nvim/po/CMakeFiles/update-po-nb.dir/build.make
@@ -78,10 +78,10 @@ src/nvim/po/CMakeFiles/update-po-nb.dir/build: update-po-nb
 .PHONY : src/nvim/po/CMakeFiles/update-po-nb.dir/build
 
 src/nvim/po/CMakeFiles/update-po-nb.dir/clean:
-	cd /home/nick/dl/neovim/build/src/nvim/po && $(CMAKE_COMMAND) -P CMakeFiles/update-po-nb.dir/cmake_clean.cmake
+	cd /home/nick/git/Src-Arc/neovim/build/src/nvim/po && $(CMAKE_COMMAND) -P CMakeFiles/update-po-nb.dir/cmake_clean.cmake
 .PHONY : src/nvim/po/CMakeFiles/update-po-nb.dir/clean
 
 src/nvim/po/CMakeFiles/update-po-nb.dir/depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim /home/nick/dl/neovim/src/nvim/po /home/nick/dl/neovim/build /home/nick/dl/neovim/build/src/nvim/po /home/nick/dl/neovim/build/src/nvim/po/CMakeFiles/update-po-nb.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim/src/nvim/po /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build/src/nvim/po /home/nick/git/Src-Arc/neovim/build/src/nvim/po/CMakeFiles/update-po-nb.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/nvim/po/CMakeFiles/update-po-nb.dir/depend
 

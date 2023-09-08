@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/cmake.deps
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/cmake.deps
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps
 
 # Utility rule file for clean_shared_libraries_msgpack.
 
@@ -67,7 +67,7 @@ include CMakeFiles/clean_shared_libraries_msgpack.dir/compiler_depend.make
 include CMakeFiles/clean_shared_libraries_msgpack.dir/progress.make
 
 CMakeFiles/clean_shared_libraries_msgpack:
-	/usr/bin/cmake -D REMOVE_FILE_GLOB=/home/nick/dl/neovim/.deps/usr/lib/lib*.so* -P /home/nick/dl/neovim/cmake.deps/cmake/RemoveFiles.cmake
+	/usr/bin/cmake -D REMOVE_FILE_GLOB=/home/nick/git/Src-Arc/neovim/.deps/usr/lib/lib*.so* -P /home/nick/git/Src-Arc/neovim/cmake.deps/cmake/RemoveFiles.cmake
 
 clean_shared_libraries_msgpack: CMakeFiles/clean_shared_libraries_msgpack
 clean_shared_libraries_msgpack: CMakeFiles/clean_shared_libraries_msgpack.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/clean_shared_libraries_msgpack.dir/clean:
 .PHONY : CMakeFiles/clean_shared_libraries_msgpack.dir/clean
 
 CMakeFiles/clean_shared_libraries_msgpack.dir/depend:
-	cd /home/nick/dl/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps/CMakeFiles/clean_shared_libraries_msgpack.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/clean_shared_libraries_msgpack.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/clean_shared_libraries_msgpack.dir/depend
 

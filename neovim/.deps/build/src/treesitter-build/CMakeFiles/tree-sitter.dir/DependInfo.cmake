@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/nick/dl/neovim/.deps/build/src/treesitter/lib/src/lib.c" "CMakeFiles/tree-sitter.dir/lib/src/lib.c.o" "gcc" "CMakeFiles/tree-sitter.dir/lib/src/lib.c.o.d"
+  "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter/lib/src/lib.c" "CMakeFiles/tree-sitter.dir/lib/src/lib.c.o" "gcc" "CMakeFiles/tree-sitter.dir/lib/src/lib.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

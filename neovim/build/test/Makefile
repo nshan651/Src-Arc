@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /home/nick/dl/neovim/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /home/nick/dl/neovim/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/nick/dl/neovim/build/CPackSourceConfig.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/nick/git/Src-Arc/neovim/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/build/CMakeFiles /home/nick/dl/neovim/build/test//CMakeFiles/progress.marks
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/build/CMakeFiles 0
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/build/CMakeFiles /home/nick/git/Src-Arc/neovim/build/test//CMakeFiles/progress.marks
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,23 +168,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -P /home/nick/dl/neovim/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -P /home/nick/git/Src-Arc/neovim/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/unittest.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/unittest.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/unittest.dir/rule
 .PHONY : test/CMakeFiles/unittest.dir/rule
 
 # Convenience name for target.
@@ -193,12 +193,12 @@ unittest: test/CMakeFiles/unittest.dir/rule
 
 # fast build rule for target.
 unittest/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/unittest.dir/build.make test/CMakeFiles/unittest.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/unittest.dir/build.make test/CMakeFiles/unittest.dir/build
 .PHONY : unittest/fast
 
 # Convenience name for target.
 test/CMakeFiles/functionaltest.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/functionaltest.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/functionaltest.dir/rule
 .PHONY : test/CMakeFiles/functionaltest.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ functionaltest: test/CMakeFiles/functionaltest.dir/rule
 
 # fast build rule for target.
 functionaltest/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/functionaltest.dir/build.make test/CMakeFiles/functionaltest.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/functionaltest.dir/build.make test/CMakeFiles/functionaltest.dir/build
 .PHONY : functionaltest/fast
 
 # Convenience name for target.
 test/CMakeFiles/benchmark.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/benchmark.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/benchmark.dir/rule
 .PHONY : test/CMakeFiles/benchmark.dir/rule
 
 # Convenience name for target.
@@ -221,7 +221,7 @@ benchmark: test/CMakeFiles/benchmark.dir/rule
 
 # fast build rule for target.
 benchmark/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/benchmark.dir/build.make test/CMakeFiles/benchmark.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/benchmark.dir/build.make test/CMakeFiles/benchmark.dir/build
 .PHONY : benchmark/fast
 
 # Help Target
@@ -252,7 +252,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -P /home/nick/dl/neovim/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -P /home/nick/git/Src-Arc/neovim/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/nick/dl/neovim/.deps/CMakeFiles/3.27.4/CompilerIdC/a.out
+        /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/3.27.4/CompilerIdC/a.out
       
   -
     kind: "try_compile-v1"
@@ -39,8 +39,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-DOiE0Q"
-      binary: "/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-DOiE0Q"
+      source: "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-6BF8cn"
+      binary: "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-6BF8cn"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -49,14 +49,14 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-DOiE0Q'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-6BF8cn'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9774c/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-DOiE0Q'
-        /usr/bin/make  -f CMakeFiles/cmTC_9774c.dir/build.make CMakeFiles/cmTC_9774c.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-DOiE0Q'
-        Building C object CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8ca17/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-6BF8cn'
+        /usr/bin/make  -f CMakeFiles/cmTC_8ca17.dir/build.make CMakeFiles/cmTC_8ca17.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-6BF8cn'
+        Building C object CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: x86_64-pc-linux-gnu
@@ -64,8 +64,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 13.2.1 20230801 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9774c.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9774c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccYBbaZe.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8ca17.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8ca17.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccZGKG36.s
         GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.0-p12, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -80,15 +80,15 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: 865c2688a4f1e3f13d6bf2cc8fd98762
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9774c.dir/'
-         as -v --64 -o CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o /tmp/ccYBbaZe.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8ca17.dir/'
+         as -v --64 -o CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o /tmp/ccZGKG36.s
         GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_9774c
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9774c.dir/link.txt --verbose=1
-        /usr/bin/cc  -v CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o -o cmTC_9774c 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_8ca17
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ca17.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o -o cmTC_8ca17 
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
@@ -99,11 +99,11 @@ events:
         gcc version 13.2.1 20230801 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9774c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9774c.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEyfMfg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9774c /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9774c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9774c.'
-        make[2]: Leaving directory '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-DOiE0Q'
-        make[1]: Leaving directory '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-DOiE0Q'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8ca17' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8ca17.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3WF4tN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8ca17 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8ca17' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8ca17.'
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-6BF8cn'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-6BF8cn'
         
       exitCode: 0
   -
@@ -137,14 +137,14 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-DOiE0Q']
+        ignore line: [Change Dir: '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-6BF8cn']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9774c/fast]
-        ignore line: [make[1]: Entering directory '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-DOiE0Q']
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_9774c.dir/build.make CMakeFiles/cmTC_9774c.dir/build]
-        ignore line: [make[2]: Entering directory '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-DOiE0Q']
-        ignore line: [Building C object CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8ca17/fast]
+        ignore line: [make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-6BF8cn']
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_8ca17.dir/build.make CMakeFiles/cmTC_8ca17.dir/build]
+        ignore line: [make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-6BF8cn']
+        ignore line: [Building C object CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -152,8 +152,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9774c.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9774c.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccYBbaZe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8ca17.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_8ca17.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccZGKG36.s]
         ignore line: [GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.0-p12  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -168,15 +168,15 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 865c2688a4f1e3f13d6bf2cc8fd98762]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9774c.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o /tmp/ccYBbaZe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8ca17.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o /tmp/ccZGKG36.s]
         ignore line: [GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_9774c]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9774c.dir/link.txt --verbose=1]
-        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o -o cmTC_9774c ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_8ca17]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ca17.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o -o cmTC_8ca17 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
@@ -187,13 +187,13 @@ events:
         ignore line: [gcc version 13.2.1 20230801 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9774c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9774c.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEyfMfg.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9774c /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_8ca17' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8ca17.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3WF4tN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_8ca17 /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccEyfMfg.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc3WF4tN.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -208,7 +208,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_9774c] ==> ignore
+          arg [cmTC_8ca17] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
@@ -217,7 +217,7 @@ events:
           arg [-L/lib/../lib] ==> dir [/lib/../lib]
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
-          arg [CMakeFiles/cmTC_9774c.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_8ca17.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--push-state] ==> ignore
           arg [--as-needed] ==> ignore
@@ -255,30 +255,30 @@ events:
     checks:
       - "Performing Test HAS_OG_FLAG"
     directories:
-      source: "/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-i9a9ly"
-      binary: "/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-i9a9ly"
+      source: "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-PF3gga"
+      binary: "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-PF3gga"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake.deps/cmake;/home/nick/dl/neovim/cmake.deps/../cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake.deps/cmake;/home/nick/git/Src-Arc/neovim/cmake.deps/../cmake"
     buildResult:
       variable: "HAS_OG_FLAG"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-i9a9ly'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-PF3gga'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_45683/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-i9a9ly'
-        /usr/bin/make  -f CMakeFiles/cmTC_45683.dir/build.make CMakeFiles/cmTC_45683.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-i9a9ly'
-        Building C object CMakeFiles/cmTC_45683.dir/src.c.o
-        /usr/bin/cc -DHAS_OG_FLAG  -Og -o CMakeFiles/cmTC_45683.dir/src.c.o -c /home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-i9a9ly/src.c
-        Linking C executable cmTC_45683
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45683.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_45683.dir/src.c.o -o cmTC_45683 
-        make[2]: Leaving directory '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-i9a9ly'
-        make[1]: Leaving directory '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-i9a9ly'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9e25d/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-PF3gga'
+        /usr/bin/make  -f CMakeFiles/cmTC_9e25d.dir/build.make CMakeFiles/cmTC_9e25d.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-PF3gga'
+        Building C object CMakeFiles/cmTC_9e25d.dir/src.c.o
+        /usr/bin/cc -DHAS_OG_FLAG  -Og -o CMakeFiles/cmTC_9e25d.dir/src.c.o -c /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-PF3gga/src.c
+        Linking C executable cmTC_9e25d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e25d.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_9e25d.dir/src.c.o -o cmTC_9e25d 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-PF3gga'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-PF3gga'
         
       exitCode: 0
   -
@@ -292,30 +292,30 @@ events:
     checks:
       - "Performing Test HAS_NO_STACK_CHECK"
     directories:
-      source: "/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-o8E90i"
-      binary: "/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-o8E90i"
+      source: "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-tUnLHJ"
+      binary: "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-tUnLHJ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
       CMAKE_EXE_LINKER_FLAGS: ""
-      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/cmake.deps/cmake;/home/nick/dl/neovim/cmake.deps/../cmake"
+      CMAKE_MODULE_PATH: "/home/nick/git/Src-Arc/neovim/cmake.deps/cmake;/home/nick/git/Src-Arc/neovim/cmake.deps/../cmake"
     buildResult:
       variable: "HAS_NO_STACK_CHECK"
       cached: true
       stdout: |
-        Change Dir: '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-o8E90i'
+        Change Dir: '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-tUnLHJ'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e83c1/fast
-        make[1]: Entering directory '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-o8E90i'
-        /usr/bin/make  -f CMakeFiles/cmTC_e83c1.dir/build.make CMakeFiles/cmTC_e83c1.dir/build
-        make[2]: Entering directory '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-o8E90i'
-        Building C object CMakeFiles/cmTC_e83c1.dir/src.c.o
-        /usr/bin/cc -DHAS_NO_STACK_CHECK  -fno-stack-check -o CMakeFiles/cmTC_e83c1.dir/src.c.o -c /home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-o8E90i/src.c
-        Linking C executable cmTC_e83c1
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e83c1.dir/link.txt --verbose=1
-        /usr/bin/cc CMakeFiles/cmTC_e83c1.dir/src.c.o -o cmTC_e83c1 
-        make[2]: Leaving directory '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-o8E90i'
-        make[1]: Leaving directory '/home/nick/dl/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-o8E90i'
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_8fc80/fast
+        make[1]: Entering directory '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-tUnLHJ'
+        /usr/bin/make  -f CMakeFiles/cmTC_8fc80.dir/build.make CMakeFiles/cmTC_8fc80.dir/build
+        make[2]: Entering directory '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-tUnLHJ'
+        Building C object CMakeFiles/cmTC_8fc80.dir/src.c.o
+        /usr/bin/cc -DHAS_NO_STACK_CHECK  -fno-stack-check -o CMakeFiles/cmTC_8fc80.dir/src.c.o -c /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-tUnLHJ/src.c
+        Linking C executable cmTC_8fc80
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fc80.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_8fc80.dir/src.c.o -o cmTC_8fc80 
+        make[2]: Leaving directory '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-tUnLHJ'
+        make[1]: Leaving directory '/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/CMakeScratch/TryCompile-tUnLHJ'
         
       exitCode: 0
 ...

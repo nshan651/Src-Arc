@@ -1,10 +1,10 @@
-# 0 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 0 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/nick/dl/neovim/src/nvim/marktree.c"
-# 50 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
 # 1 "/usr/include/assert.h" 1 3 4
 # 35 "/usr/include/assert.h" 3 4
 # 1 "/usr/include/features.h" 1 3 4
@@ -57,7 +57,7 @@ extern void __assert (const char *__assertion, const char *__file, int __line)
 
 
 
-# 51 "/home/nick/dl/neovim/src/nvim/marktree.c" 2
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 2
 # 1 "/usr/include/stdio.h" 1 3 4
 # 27 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
@@ -1026,7 +1026,7 @@ __attribute__ ((__nothrow__ , __leaf__)) ferror_unlocked (FILE *__stream)
 
 
 
-# 52 "/home/nick/dl/neovim/src/nvim/marktree.c" 2
+# 52 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 2
 # 1 "/usr/include/stdlib.h" 1 3 4
 # 26 "/usr/include/stdlib.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
@@ -2531,7 +2531,7 @@ __attribute__ ((__nothrow__ , __leaf__)) atof (const char *__nptr)
 # 1156 "/usr/include/stdlib.h" 2 3 4
 # 1167 "/usr/include/stdlib.h" 3 4
 
-# 53 "/home/nick/dl/neovim/src/nvim/marktree.c" 2
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 2
 # 1 "/usr/include/string.h" 1 3 4
 # 26 "/usr/include/string.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
@@ -2885,16 +2885,16 @@ extern void *memfrob (void *__s, size_t __n) __attribute__ ((__nothrow__ , __lea
 extern char *basename (const char *__filename) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
 # 552 "/usr/include/string.h" 3 4
 
-# 54 "/home/nick/dl/neovim/src/nvim/marktree.c" 2
+# 54 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 2
 
-# 1 "/home/nick/dl/neovim/src/klib/kvec.h" 1
-# 43 "/home/nick/dl/neovim/src/klib/kvec.h"
-# 1 "/home/nick/dl/neovim/src/nvim/memory.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h" 1
+# 43 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 1
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdbool.h" 1 3 4
-# 5 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
 # 145 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 3 4
 typedef long int ptrdiff_t;
@@ -2904,7 +2904,7 @@ typedef struct {
   long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
 # 436 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 3 4
 } max_align_t;
-# 6 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 1 3 4
 # 9 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 3 4
 # 1 "/usr/include/stdint.h" 1 3 4
@@ -2970,7 +2970,7 @@ typedef unsigned long int uintptr_t;
 typedef __intmax_t intmax_t;
 typedef __uintmax_t uintmax_t;
 # 10 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 2 3 4
-# 7 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 # 1 "/usr/include/time.h" 1 3 4
 # 29 "/usr/include/time.h" 3 4
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
@@ -3242,19 +3242,19 @@ extern int getdate_r (const char *__restrict __string,
 
 
 
-# 8 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/macros.h" 1
-
-
-
-# 1 "/home/nick/dl/neovim/build/cmake.config/auto/config.h" 1
-# 5 "/home/nick/dl/neovim/src/nvim/macros.h" 2
-# 10 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/macros.h" 1
 
 
 
-# 12 "/home/nick/dl/neovim/src/nvim/memory.h"
+# 1 "/home/nick/git/Src-Arc/neovim/build/cmake.config/auto/config.h" 1
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/macros.h" 2
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
+
+
+
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h"
 typedef void *(*MemMalloc)(size_t);
 
 
@@ -3265,7 +3265,7 @@ typedef void *(*MemCalloc)(size_t, size_t);
 
 
 typedef void *(*MemRealloc)(void *, size_t);
-# 42 "/home/nick/dl/neovim/src/nvim/memory.h"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h"
 extern size_t arena_alloc_count ;
 
 typedef struct consumed_blk {
@@ -3278,8 +3278,8 @@ typedef struct {
   char *cur_blk;
   size_t pos, size;
 } Arena;
-# 44 "/home/nick/dl/neovim/src/klib/kvec.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/os/os_defs.h" 1
+# 44 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h" 1
 
 
 
@@ -3393,7 +3393,7 @@ extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __l
 extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
 # 327 "/usr/include/ctype.h" 3 4
 
-# 5 "/home/nick/dl/neovim/src/nvim/os/os_defs.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h" 2
 
 
 # 1 "/usr/include/sys/stat.h" 1 3 4
@@ -3854,13 +3854,13 @@ int statx (int __dirfd, const char *__restrict __path, int __flags,
 
 
 
-# 8 "/home/nick/dl/neovim/src/nvim/os/os_defs.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h" 2
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/os/unix_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h" 1
 
 
 
@@ -6241,7 +6241,7 @@ extern int tgkill (__pid_t __tgid, __pid_t __tid, int __signal);
 # 6 "/usr/include/linux/param.h" 2 3 4
 # 29 "/usr/include/bits/param.h" 2 3 4
 # 32 "/usr/include/sys/param.h" 2 3 4
-# 5 "/home/nick/dl/neovim/src/nvim/os/unix_defs.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h" 2
 
 
 # 1 "/usr/include/termios.h" 1 3 4
@@ -6355,40 +6355,40 @@ extern __pid_t tcgetsid (int __fd) __attribute__ ((__nothrow__ , __leaf__));
 
 
 
-# 8 "/home/nick/dl/neovim/src/nvim/os/unix_defs.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h" 2
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 1 3 4
-# 12 "/home/nick/dl/neovim/src/nvim/os/unix_defs.h" 2
-# 14 "/home/nick/dl/neovim/src/nvim/os/os_defs.h" 2
-# 45 "/home/nick/dl/neovim/src/klib/kvec.h" 2
-# 164 "/home/nick/dl/neovim/src/klib/kvec.h"
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h" 2
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h" 2
+# 45 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h" 2
+# 164 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h"
 
-# 164 "/home/nick/dl/neovim/src/klib/kvec.h"
+# 164 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h"
 static inline void *_memcpy_free(void *const restrict dest, void *const restrict src,
                                  const size_t size)
   FUNC_ATTR_NONNULL_ALL FUNC_ATTR_NONNULL_RET FUNC_ATTR_ALWAYS_INLINE
 {
   memcpy(dest, src, size);
   do { void **ptr_ = (void **)&(src); xfree(*ptr_); *ptr_ = 
-# 169 "/home/nick/dl/neovim/src/klib/kvec.h" 3 4
+# 169 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h" 3 4
  ((void *)0)
-# 169 "/home/nick/dl/neovim/src/klib/kvec.h"
+# 169 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h"
  ; (void)(*ptr_); } while (0);
   return dest;
 }
-# 56 "/home/nick/dl/neovim/src/nvim/marktree.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/garray.h" 1
+# 56 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/garray.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/log.h" 1
-# 13 "/home/nick/dl/neovim/src/nvim/log.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/log.h" 1
+# 13 "/home/nick/git/Src-Arc/neovim/src/nvim/log.h"
 # 1 "/usr/include/sys/sdt.h" 1 3 4
 # 164 "/usr/include/sys/sdt.h" 3 4
 
@@ -6397,8 +6397,8 @@ __extension__ extern unsigned long long __sdt_unsp;
 # 208 "/usr/include/sys/sdt.h" 3 4
 # 1 "/usr/include/sys/sdt-config.h" 1 3 4
 # 209 "/usr/include/sys/sdt.h" 2 3 4
-# 14 "/home/nick/dl/neovim/src/nvim/log.h" 2
-# 50 "/home/nick/dl/neovim/src/nvim/log.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/log.h" 2
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/log.h"
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/sanitizer/asan_interface.h" 1 3 4
 # 16 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/sanitizer/asan_interface.h" 3 4
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/sanitizer/common_interface_defs.h" 1 3 4
@@ -6673,19 +6673,19 @@ void __asan_handle_no_return(void);
 
 
 int __asan_update_allocation_context(void* addr);
-# 51 "/home/nick/dl/neovim/src/nvim/log.h" 2
-# 8 "/home/nick/dl/neovim/src/nvim/garray.h" 2
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/log.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/types.h" 1
-
-
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/types.h" 1
 
 
 
 
 
 
-# 8 "/home/nick/dl/neovim/src/nvim/types.h"
+
+
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/types.h"
 typedef void *vim_acl_T;
 
 
@@ -6726,7 +6726,7 @@ typedef enum {
 
 
 typedef struct Decoration Decoration;
-# 10 "/home/nick/dl/neovim/src/nvim/garray.h" 2
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h" 2
 
 
 
@@ -6738,25 +6738,25 @@ typedef struct growarray {
   int ga_growsize;
   void *ga_data;
 } garray_T;
-# 41 "/home/nick/dl/neovim/src/nvim/garray.h"
+# 41 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h"
 static inline void *ga_append_via_ptr(garray_T *gap, size_t item_size)
 {
   if ((int)item_size != gap->ga_itemsize) {
     logmsg(3, 
-# 44 "/home/nick/dl/neovim/src/nvim/garray.h" 3 4
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h" 3 4
    ((void *)0)
-# 44 "/home/nick/dl/neovim/src/nvim/garray.h"
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h"
    , __func__, 44, 
-# 44 "/home/nick/dl/neovim/src/nvim/garray.h" 3 4
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h" 3 4
    1
-# 44 "/home/nick/dl/neovim/src/nvim/garray.h"
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h"
    , "wrong item size (%zu), should be %d", item_size, gap->ga_itemsize);
   }
   ga_grow(gap, 1);
   return ((char *)gap->ga_data) + (item_size * (size_t)gap->ga_len++);
 }
-# 57 "/home/nick/dl/neovim/src/nvim/marktree.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/marktree.h" 1
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 1
 
 
 
@@ -6784,40 +6784,40 @@ extern void __assert (const char *__assertion, const char *__file, int __line)
 
 
 
-# 5 "/home/nick/dl/neovim/src/nvim/marktree.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 2
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 7 "/home/nick/dl/neovim/src/nvim/marktree.h" 2
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 2
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/assert.h" 1
-# 10 "/home/nick/dl/neovim/src/nvim/marktree.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/assert.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/map.h" 1
-
-
-
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 1
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/klib/khash.h" 1
-# 127 "/home/nick/dl/neovim/src/klib/khash.h"
+
+
+
+# 1 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h" 1
+# 127 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 1 3 4
-# 128 "/home/nick/dl/neovim/src/klib/khash.h" 2
+# 128 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h" 2
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 133 "/home/nick/dl/neovim/src/klib/khash.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 133 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h" 2
 
 
 
 
 
 
-# 138 "/home/nick/dl/neovim/src/klib/khash.h"
+# 138 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 typedef unsigned int khint32_t;
 
 
@@ -6825,10 +6825,10 @@ typedef unsigned int khint32_t;
 
 
 typedef unsigned long khint64_t;
-# 155 "/home/nick/dl/neovim/src/klib/khash.h"
+# 155 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 typedef khint32_t khint_t;
 typedef khint_t khiter_t;
-# 457 "/home/nick/dl/neovim/src/klib/khash.h"
+# 457 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 static inline khint_t __ac_X31_hash_string(const char *s)
 {
   khint_t h = (khint_t)*s;
@@ -6837,7 +6837,7 @@ static inline khint_t __ac_X31_hash_string(const char *s)
   }
   return h;
 }
-# 476 "/home/nick/dl/neovim/src/klib/khash.h"
+# 476 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 static inline khint_t __ac_Wang_hash(khint_t key)
 {
   key += ~(key << 15);
@@ -6848,14 +6848,14 @@ static inline khint_t __ac_Wang_hash(khint_t key)
   key ^= (key >> 16);
   return key;
 }
-# 700 "/home/nick/dl/neovim/src/klib/khash.h"
+# 700 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 typedef const char *kh_cstr_t;
-# 9 "/home/nick/dl/neovim/src/nvim/map.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 1
-# 9 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 10 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 2
-# 27 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 1
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 2
+# 27 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
 typedef enum {
   kErrorTypeNone = -1,
   kErrorTypeException,
@@ -6870,11 +6870,11 @@ typedef enum {
   kMessageTypeNotification = 2,
   kMessageTypeRedrawEvent = 3,
 } MessageType;
-# 51 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
 static inline 
-# 51 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 3 4
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 3 4
              _Bool 
-# 51 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
                   is_internal_call(uint64_t channel_id)
   __attribute__((always_inline)) __attribute__((const));
 
@@ -6884,9 +6884,9 @@ static inline
 
 
 static inline 
-# 59 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 3 4
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 3 4
              _Bool 
-# 59 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
                   is_internal_call(const uint64_t channel_id)
 {
   return !!(channel_id & (((uint64_t)1) << (sizeof(uint64_t) * 8 - 1)));
@@ -6898,9 +6898,9 @@ typedef struct {
 } Error;
 
 typedef 
-# 69 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 3 4
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 3 4
        _Bool 
-# 69 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
             Boolean;
 typedef int64_t Integer;
 typedef double Float;
@@ -6964,8 +6964,8 @@ typedef struct {
   char *str;
   size_t ptr_off;
 } KeySetLink;
-# 10 "/home/nick/dl/neovim/src/nvim/map.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/extmark_defs.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/extmark_defs.h" 1
 
 
 
@@ -6996,8 +6996,8 @@ typedef enum {
   kDecorLevelVisible = 1,
   kDecorLevelVirtLine = 2,
 } DecorLevel;
-# 11 "/home/nick/dl/neovim/src/nvim/map.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/gettext.h" 1
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/gettext.h" 1
 
 
 
@@ -7180,9 +7180,9 @@ extern locale_t uselocale (locale_t __dataset) __attribute__ ((__nothrow__ , __l
 # 104 "/usr/include/libintl.h" 2 3 4
 # 121 "/usr/include/libintl.h" 3 4
 
-# 6 "/home/nick/dl/neovim/src/nvim/gettext.h" 2
-# 12 "/home/nick/dl/neovim/src/nvim/map.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/highlight_defs.h" 1
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/gettext.h" 2
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h" 1
 
 
 
@@ -7245,13 +7245,13 @@ extern uintmax_t wcstoumax (const __gwchar_t *__restrict __nptr, __gwchar_t **__
                         ;
 # 415 "/usr/include/inttypes.h" 3 4
 
-# 5 "/home/nick/dl/neovim/src/nvim/highlight_defs.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h" 2
 
 
 
 
 
-# 9 "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
 typedef int32_t RgbValue;
 
 
@@ -7288,7 +7288,7 @@ typedef struct attr_entry {
   int cterm_fg_color, cterm_bg_color;
   int hl_blend;
 } HlAttrs;
-# 59 "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
 typedef enum {
   HLF_8 = 0,
 
@@ -7360,7 +7360,7 @@ typedef enum {
 } hlf_T;
 
 extern const char *hlf_names[]
-# 195 "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
+# 195 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
   ;
 
 extern int highlight_attr[HLF_COUNT + 1];
@@ -7409,14 +7409,14 @@ typedef struct {
   int link_id;
   int version;
   
-# 242 "/home/nick/dl/neovim/src/nvim/highlight_defs.h" 3 4
+# 242 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h" 3 4
  _Bool 
-# 242 "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
+# 242 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
       is_default;
   
-# 243 "/home/nick/dl/neovim/src/nvim/highlight_defs.h" 3 4
+# 243 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h" 3 4
  _Bool 
-# 243 "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
+# 243 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
       link_global;
 } ColorItem;
 
@@ -7427,8 +7427,8 @@ typedef struct {
   int hl_id;
   int priority;
 } HlPriId;
-# 13 "/home/nick/dl/neovim/src/nvim/map.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/map_defs.h" 1
+# 13 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/map_defs.h" 1
 
 
 
@@ -7436,8 +7436,8 @@ typedef struct {
 
 typedef const char *cstr_t;
 typedef void *ptr_t;
-# 14 "/home/nick/dl/neovim/src/nvim/map.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/tui/input_defs.h" 1
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/tui/input_defs.h" 1
 
 
 
@@ -7554,25 +7554,25 @@ typedef enum {
   KITTY_KEY_ISO_LEVEL3_SHIFT = 57453,
   KITTY_KEY_ISO_LEVEL5_SHIFT = 57454,
 } KittyKey;
-# 15 "/home/nick/dl/neovim/src/nvim/map.h" 2
+# 15 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/ui_client.h" 1
-
-
-
-
-# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/ui_client.h" 2
-
-
-
-# 1 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h" 2
+
+
+
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 1
+
+
+
+
+# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 2
 
 
 
@@ -7590,7 +7590,7 @@ enum {
   kZIndexMessages = 200,
   kZIndexCmdlinePopupMenu = 250,
 };
-# 46 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
 typedef struct ScreenGrid ScreenGrid;
 struct ScreenGrid {
   handle_T handle;
@@ -7610,17 +7610,17 @@ struct ScreenGrid {
 
 
   
-# 64 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 64 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 64 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 64 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       valid;
 
 
 
   
-# 68 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 68 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       throttled;
 
 
@@ -7633,16 +7633,16 @@ struct ScreenGrid {
 
 
   
-# 79 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 79 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 79 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 79 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       blending;
 
 
   
-# 82 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 82 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 82 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 82 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       focusable;
 
 
@@ -7668,9 +7668,9 @@ struct ScreenGrid {
 
 
   
-# 106 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 106 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 106 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 106 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       comp_disabled;
 };
 
@@ -7686,12 +7686,12 @@ typedef struct {
   int cur_attr;
   int clear_width;
   
-# 120 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 120 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 120 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 120 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       wrap;
 } GridLineEvent;
-# 10 "/home/nick/dl/neovim/src/nvim/ui_client.h" 2
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h" 2
 
 
 
@@ -7713,9 +7713,9 @@ extern uint64_t ui_client_channel_id ;
 
 
 extern 
-# 30 "/home/nick/dl/neovim/src/nvim/ui_client.h" 3 4
+# 30 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h" 3 4
       _Bool 
-# 30 "/home/nick/dl/neovim/src/nvim/ui_client.h"
+# 30 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h"
            ui_client_attached ;
 
 
@@ -7725,173 +7725,173 @@ extern TriState ui_client_bg_response ;
 
 
 extern 
-# 38 "/home/nick/dl/neovim/src/nvim/ui_client.h" 3 4
+# 38 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h" 3 4
       _Bool 
-# 38 "/home/nick/dl/neovim/src/nvim/ui_client.h"
+# 38 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h"
            ui_client_forward_stdin ;
-# 17 "/home/nick/dl/neovim/src/nvim/map.h" 2
-# 42 "/home/nick/dl/neovim/src/nvim/map.h"
+# 17 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; int *keys; int *vals; } kh_int_int_map_t; extern kh_int_int_map_t *kh_init_int_int_map(void); extern void kh_dealloc_int_int_map(kh_int_int_map_t *h); extern void kh_destroy_int_int_map(kh_int_int_map_t *h); extern void kh_clear_int_int_map(kh_int_int_map_t *h); extern khint_t kh_get_int_int_map(const kh_int_int_map_t *h, int key); extern void kh_resize_int_int_map(kh_int_int_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_int_int_map(kh_int_int_map_t *h, int key, int *ret); extern void kh_del_int_int_map(kh_int_int_map_t *h, khint_t x); typedef struct { kh_int_int_map_t table; } Map_int_int; Map_int_int *map_int_int_new(void); void map_int_int_free(Map_int_int *map); void map_int_int_destroy(Map_int_int *map); int map_int_int_get(Map_int_int *map, int key); 
-# 42 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 42 "/home/nick/dl/neovim/src/nvim/map.h"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_int_int_has(Map_int_int *map, int key); int map_int_int_key(Map_int_int *map, int key); int map_int_int_put(Map_int_int *map, int key, int value); int *map_int_int_ref(Map_int_int *map, int key, 
-# 42 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 42 "/home/nick/dl/neovim/src/nvim/map.h"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); int map_int_int_del(Map_int_int *map, int key); void map_int_int_clear(Map_int_int *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; int *keys; cstr_t *vals; } kh_int_cstr_t_map_t; extern kh_int_cstr_t_map_t *kh_init_int_cstr_t_map(void); extern void kh_dealloc_int_cstr_t_map(kh_int_cstr_t_map_t *h); extern void kh_destroy_int_cstr_t_map(kh_int_cstr_t_map_t *h); extern void kh_clear_int_cstr_t_map(kh_int_cstr_t_map_t *h); extern khint_t kh_get_int_cstr_t_map(const kh_int_cstr_t_map_t *h, int key); extern void kh_resize_int_cstr_t_map(kh_int_cstr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_int_cstr_t_map(kh_int_cstr_t_map_t *h, int key, int *ret); extern void kh_del_int_cstr_t_map(kh_int_cstr_t_map_t *h, khint_t x); typedef struct { kh_int_cstr_t_map_t table; } Map_int_cstr_t; Map_int_cstr_t *map_int_cstr_t_new(void); void map_int_cstr_t_free(Map_int_cstr_t *map); void map_int_cstr_t_destroy(Map_int_cstr_t *map); cstr_t map_int_cstr_t_get(Map_int_cstr_t *map, int key); 
-# 43 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 43 "/home/nick/dl/neovim/src/nvim/map.h"
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_int_cstr_t_has(Map_int_cstr_t *map, int key); int map_int_cstr_t_key(Map_int_cstr_t *map, int key); cstr_t map_int_cstr_t_put(Map_int_cstr_t *map, int key, cstr_t value); cstr_t *map_int_cstr_t_ref(Map_int_cstr_t *map, int key, 
-# 43 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 43 "/home/nick/dl/neovim/src/nvim/map.h"
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); cstr_t map_int_cstr_t_del(Map_int_cstr_t *map, int key); void map_int_cstr_t_clear(Map_int_cstr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; cstr_t *keys; ptr_t *vals; } kh_cstr_t_ptr_t_map_t; extern kh_cstr_t_ptr_t_map_t *kh_init_cstr_t_ptr_t_map(void); extern void kh_dealloc_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h); extern void kh_destroy_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h); extern void kh_clear_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h); extern khint_t kh_get_cstr_t_ptr_t_map(const kh_cstr_t_ptr_t_map_t *h, cstr_t key); extern void kh_resize_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h, cstr_t key, int *ret); extern void kh_del_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h, khint_t x); typedef struct { kh_cstr_t_ptr_t_map_t table; } Map_cstr_t_ptr_t; Map_cstr_t_ptr_t *map_cstr_t_ptr_t_new(void); void map_cstr_t_ptr_t_free(Map_cstr_t_ptr_t *map); void map_cstr_t_ptr_t_destroy(Map_cstr_t_ptr_t *map); ptr_t map_cstr_t_ptr_t_get(Map_cstr_t_ptr_t *map, cstr_t key); 
-# 44 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 44 "/home/nick/dl/neovim/src/nvim/map.h"
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_cstr_t_ptr_t_has(Map_cstr_t_ptr_t *map, cstr_t key); cstr_t map_cstr_t_ptr_t_key(Map_cstr_t_ptr_t *map, cstr_t key); ptr_t map_cstr_t_ptr_t_put(Map_cstr_t_ptr_t *map, cstr_t key, ptr_t value); ptr_t *map_cstr_t_ptr_t_ref(Map_cstr_t_ptr_t *map, cstr_t key, 
-# 44 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 44 "/home/nick/dl/neovim/src/nvim/map.h"
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ptr_t map_cstr_t_ptr_t_del(Map_cstr_t_ptr_t *map, cstr_t key); void map_cstr_t_ptr_t_clear(Map_cstr_t_ptr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; cstr_t *keys; int *vals; } kh_cstr_t_int_map_t; extern kh_cstr_t_int_map_t *kh_init_cstr_t_int_map(void); extern void kh_dealloc_cstr_t_int_map(kh_cstr_t_int_map_t *h); extern void kh_destroy_cstr_t_int_map(kh_cstr_t_int_map_t *h); extern void kh_clear_cstr_t_int_map(kh_cstr_t_int_map_t *h); extern khint_t kh_get_cstr_t_int_map(const kh_cstr_t_int_map_t *h, cstr_t key); extern void kh_resize_cstr_t_int_map(kh_cstr_t_int_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_cstr_t_int_map(kh_cstr_t_int_map_t *h, cstr_t key, int *ret); extern void kh_del_cstr_t_int_map(kh_cstr_t_int_map_t *h, khint_t x); typedef struct { kh_cstr_t_int_map_t table; } Map_cstr_t_int; Map_cstr_t_int *map_cstr_t_int_new(void); void map_cstr_t_int_free(Map_cstr_t_int *map); void map_cstr_t_int_destroy(Map_cstr_t_int *map); int map_cstr_t_int_get(Map_cstr_t_int *map, cstr_t key); 
-# 45 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 45 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 45 "/home/nick/dl/neovim/src/nvim/map.h"
+# 45 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_cstr_t_int_has(Map_cstr_t_int *map, cstr_t key); cstr_t map_cstr_t_int_key(Map_cstr_t_int *map, cstr_t key); int map_cstr_t_int_put(Map_cstr_t_int *map, cstr_t key, int value); int *map_cstr_t_int_ref(Map_cstr_t_int *map, cstr_t key, 
-# 45 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 45 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 45 "/home/nick/dl/neovim/src/nvim/map.h"
+# 45 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); int map_cstr_t_int_del(Map_cstr_t_int *map, cstr_t key); void map_cstr_t_int_clear(Map_cstr_t_int *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; ptr_t *keys; ptr_t *vals; } kh_ptr_t_ptr_t_map_t; extern kh_ptr_t_ptr_t_map_t *kh_init_ptr_t_ptr_t_map(void); extern void kh_dealloc_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h); extern void kh_destroy_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h); extern void kh_clear_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h); extern khint_t kh_get_ptr_t_ptr_t_map(const kh_ptr_t_ptr_t_map_t *h, ptr_t key); extern void kh_resize_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h, ptr_t key, int *ret); extern void kh_del_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h, khint_t x); typedef struct { kh_ptr_t_ptr_t_map_t table; } Map_ptr_t_ptr_t; Map_ptr_t_ptr_t *map_ptr_t_ptr_t_new(void); void map_ptr_t_ptr_t_free(Map_ptr_t_ptr_t *map); void map_ptr_t_ptr_t_destroy(Map_ptr_t_ptr_t *map); ptr_t map_ptr_t_ptr_t_get(Map_ptr_t_ptr_t *map, ptr_t key); 
-# 46 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 46 "/home/nick/dl/neovim/src/nvim/map.h"
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_ptr_t_ptr_t_has(Map_ptr_t_ptr_t *map, ptr_t key); ptr_t map_ptr_t_ptr_t_key(Map_ptr_t_ptr_t *map, ptr_t key); ptr_t map_ptr_t_ptr_t_put(Map_ptr_t_ptr_t *map, ptr_t key, ptr_t value); ptr_t *map_ptr_t_ptr_t_ref(Map_ptr_t_ptr_t *map, ptr_t key, 
-# 46 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 46 "/home/nick/dl/neovim/src/nvim/map.h"
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ptr_t map_ptr_t_ptr_t_del(Map_ptr_t_ptr_t *map, ptr_t key); void map_ptr_t_ptr_t_clear(Map_ptr_t_ptr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; uint32_t *keys; ptr_t *vals; } kh_uint32_t_ptr_t_map_t; extern kh_uint32_t_ptr_t_map_t *kh_init_uint32_t_ptr_t_map(void); extern void kh_dealloc_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h); extern void kh_destroy_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h); extern void kh_clear_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h); extern khint_t kh_get_uint32_t_ptr_t_map(const kh_uint32_t_ptr_t_map_t *h, uint32_t key); extern void kh_resize_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h, uint32_t key, int *ret); extern void kh_del_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h, khint_t x); typedef struct { kh_uint32_t_ptr_t_map_t table; } Map_uint32_t_ptr_t; Map_uint32_t_ptr_t *map_uint32_t_ptr_t_new(void); void map_uint32_t_ptr_t_free(Map_uint32_t_ptr_t *map); void map_uint32_t_ptr_t_destroy(Map_uint32_t_ptr_t *map); ptr_t map_uint32_t_ptr_t_get(Map_uint32_t_ptr_t *map, uint32_t key); 
-# 47 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 47 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 47 "/home/nick/dl/neovim/src/nvim/map.h"
+# 47 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_uint32_t_ptr_t_has(Map_uint32_t_ptr_t *map, uint32_t key); uint32_t map_uint32_t_ptr_t_key(Map_uint32_t_ptr_t *map, uint32_t key); ptr_t map_uint32_t_ptr_t_put(Map_uint32_t_ptr_t *map, uint32_t key, ptr_t value); ptr_t *map_uint32_t_ptr_t_ref(Map_uint32_t_ptr_t *map, uint32_t key, 
-# 47 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 47 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 47 "/home/nick/dl/neovim/src/nvim/map.h"
+# 47 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ptr_t map_uint32_t_ptr_t_del(Map_uint32_t_ptr_t *map, uint32_t key); void map_uint32_t_ptr_t_clear(Map_uint32_t_ptr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; uint64_t *keys; ptr_t *vals; } kh_uint64_t_ptr_t_map_t; extern kh_uint64_t_ptr_t_map_t *kh_init_uint64_t_ptr_t_map(void); extern void kh_dealloc_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h); extern void kh_destroy_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h); extern void kh_clear_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h); extern khint_t kh_get_uint64_t_ptr_t_map(const kh_uint64_t_ptr_t_map_t *h, uint64_t key); extern void kh_resize_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h, uint64_t key, int *ret); extern void kh_del_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h, khint_t x); typedef struct { kh_uint64_t_ptr_t_map_t table; } Map_uint64_t_ptr_t; Map_uint64_t_ptr_t *map_uint64_t_ptr_t_new(void); void map_uint64_t_ptr_t_free(Map_uint64_t_ptr_t *map); void map_uint64_t_ptr_t_destroy(Map_uint64_t_ptr_t *map); ptr_t map_uint64_t_ptr_t_get(Map_uint64_t_ptr_t *map, uint64_t key); 
-# 48 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 48 "/home/nick/dl/neovim/src/nvim/map.h"
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_uint64_t_ptr_t_has(Map_uint64_t_ptr_t *map, uint64_t key); uint64_t map_uint64_t_ptr_t_key(Map_uint64_t_ptr_t *map, uint64_t key); ptr_t map_uint64_t_ptr_t_put(Map_uint64_t_ptr_t *map, uint64_t key, ptr_t value); ptr_t *map_uint64_t_ptr_t_ref(Map_uint64_t_ptr_t *map, uint64_t key, 
-# 48 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 48 "/home/nick/dl/neovim/src/nvim/map.h"
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ptr_t map_uint64_t_ptr_t_del(Map_uint64_t_ptr_t *map, uint64_t key); void map_uint64_t_ptr_t_clear(Map_uint64_t_ptr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; uint64_t *keys; ssize_t *vals; } kh_uint64_t_ssize_t_map_t; extern kh_uint64_t_ssize_t_map_t *kh_init_uint64_t_ssize_t_map(void); extern void kh_dealloc_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h); extern void kh_destroy_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h); extern void kh_clear_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h); extern khint_t kh_get_uint64_t_ssize_t_map(const kh_uint64_t_ssize_t_map_t *h, uint64_t key); extern void kh_resize_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h, uint64_t key, int *ret); extern void kh_del_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h, khint_t x); typedef struct { kh_uint64_t_ssize_t_map_t table; } Map_uint64_t_ssize_t; Map_uint64_t_ssize_t *map_uint64_t_ssize_t_new(void); void map_uint64_t_ssize_t_free(Map_uint64_t_ssize_t *map); void map_uint64_t_ssize_t_destroy(Map_uint64_t_ssize_t *map); ssize_t map_uint64_t_ssize_t_get(Map_uint64_t_ssize_t *map, uint64_t key); 
-# 49 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 49 "/home/nick/dl/neovim/src/nvim/map.h"
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_uint64_t_ssize_t_has(Map_uint64_t_ssize_t *map, uint64_t key); uint64_t map_uint64_t_ssize_t_key(Map_uint64_t_ssize_t *map, uint64_t key); ssize_t map_uint64_t_ssize_t_put(Map_uint64_t_ssize_t *map, uint64_t key, ssize_t value); ssize_t *map_uint64_t_ssize_t_ref(Map_uint64_t_ssize_t *map, uint64_t key, 
-# 49 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 49 "/home/nick/dl/neovim/src/nvim/map.h"
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ssize_t map_uint64_t_ssize_t_del(Map_uint64_t_ssize_t *map, uint64_t key); void map_uint64_t_ssize_t_clear(Map_uint64_t_ssize_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; uint64_t *keys; uint64_t *vals; } kh_uint64_t_uint64_t_map_t; extern kh_uint64_t_uint64_t_map_t *kh_init_uint64_t_uint64_t_map(void); extern void kh_dealloc_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h); extern void kh_destroy_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h); extern void kh_clear_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h); extern khint_t kh_get_uint64_t_uint64_t_map(const kh_uint64_t_uint64_t_map_t *h, uint64_t key); extern void kh_resize_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h, uint64_t key, int *ret); extern void kh_del_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h, khint_t x); typedef struct { kh_uint64_t_uint64_t_map_t table; } Map_uint64_t_uint64_t; Map_uint64_t_uint64_t *map_uint64_t_uint64_t_new(void); void map_uint64_t_uint64_t_free(Map_uint64_t_uint64_t *map); void map_uint64_t_uint64_t_destroy(Map_uint64_t_uint64_t *map); uint64_t map_uint64_t_uint64_t_get(Map_uint64_t_uint64_t *map, uint64_t key); 
-# 50 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 50 "/home/nick/dl/neovim/src/nvim/map.h"
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_uint64_t_uint64_t_has(Map_uint64_t_uint64_t *map, uint64_t key); uint64_t map_uint64_t_uint64_t_key(Map_uint64_t_uint64_t *map, uint64_t key); uint64_t map_uint64_t_uint64_t_put(Map_uint64_t_uint64_t *map, uint64_t key, uint64_t value); uint64_t *map_uint64_t_uint64_t_ref(Map_uint64_t_uint64_t *map, uint64_t key, 
-# 50 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 50 "/home/nick/dl/neovim/src/nvim/map.h"
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); uint64_t map_uint64_t_uint64_t_del(Map_uint64_t_uint64_t *map, uint64_t key); void map_uint64_t_uint64_t_clear(Map_uint64_t_uint64_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; uint32_t *keys; uint32_t *vals; } kh_uint32_t_uint32_t_map_t; extern kh_uint32_t_uint32_t_map_t *kh_init_uint32_t_uint32_t_map(void); extern void kh_dealloc_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h); extern void kh_destroy_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h); extern void kh_clear_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h); extern khint_t kh_get_uint32_t_uint32_t_map(const kh_uint32_t_uint32_t_map_t *h, uint32_t key); extern void kh_resize_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h, uint32_t key, int *ret); extern void kh_del_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h, khint_t x); typedef struct { kh_uint32_t_uint32_t_map_t table; } Map_uint32_t_uint32_t; Map_uint32_t_uint32_t *map_uint32_t_uint32_t_new(void); void map_uint32_t_uint32_t_free(Map_uint32_t_uint32_t *map); void map_uint32_t_uint32_t_destroy(Map_uint32_t_uint32_t *map); uint32_t map_uint32_t_uint32_t_get(Map_uint32_t_uint32_t *map, uint32_t key); 
-# 51 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 51 "/home/nick/dl/neovim/src/nvim/map.h"
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_uint32_t_uint32_t_has(Map_uint32_t_uint32_t *map, uint32_t key); uint32_t map_uint32_t_uint32_t_key(Map_uint32_t_uint32_t *map, uint32_t key); uint32_t map_uint32_t_uint32_t_put(Map_uint32_t_uint32_t *map, uint32_t key, uint32_t value); uint32_t *map_uint32_t_uint32_t_ref(Map_uint32_t_uint32_t *map, uint32_t key, 
-# 51 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 51 "/home/nick/dl/neovim/src/nvim/map.h"
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); uint32_t map_uint32_t_uint32_t_del(Map_uint32_t_uint32_t *map, uint32_t key); void map_uint32_t_uint32_t_clear(Map_uint32_t_uint32_t *map);
 
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; handle_T *keys; ptr_t *vals; } kh_handle_T_ptr_t_map_t; extern kh_handle_T_ptr_t_map_t *kh_init_handle_T_ptr_t_map(void); extern void kh_dealloc_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h); extern void kh_destroy_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h); extern void kh_clear_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h); extern khint_t kh_get_handle_T_ptr_t_map(const kh_handle_T_ptr_t_map_t *h, handle_T key); extern void kh_resize_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h, handle_T key, int *ret); extern void kh_del_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h, khint_t x); typedef struct { kh_handle_T_ptr_t_map_t table; } Map_handle_T_ptr_t; Map_handle_T_ptr_t *map_handle_T_ptr_t_new(void); void map_handle_T_ptr_t_free(Map_handle_T_ptr_t *map); void map_handle_T_ptr_t_destroy(Map_handle_T_ptr_t *map); ptr_t map_handle_T_ptr_t_get(Map_handle_T_ptr_t *map, handle_T key); 
-# 53 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 53 "/home/nick/dl/neovim/src/nvim/map.h"
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_handle_T_ptr_t_has(Map_handle_T_ptr_t *map, handle_T key); handle_T map_handle_T_ptr_t_key(Map_handle_T_ptr_t *map, handle_T key); ptr_t map_handle_T_ptr_t_put(Map_handle_T_ptr_t *map, handle_T key, ptr_t value); ptr_t *map_handle_T_ptr_t_ref(Map_handle_T_ptr_t *map, handle_T key, 
-# 53 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 53 "/home/nick/dl/neovim/src/nvim/map.h"
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ptr_t map_handle_T_ptr_t_del(Map_handle_T_ptr_t *map, handle_T key); void map_handle_T_ptr_t_clear(Map_handle_T_ptr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; HlEntry *keys; int *vals; } kh_HlEntry_int_map_t; extern kh_HlEntry_int_map_t *kh_init_HlEntry_int_map(void); extern void kh_dealloc_HlEntry_int_map(kh_HlEntry_int_map_t *h); extern void kh_destroy_HlEntry_int_map(kh_HlEntry_int_map_t *h); extern void kh_clear_HlEntry_int_map(kh_HlEntry_int_map_t *h); extern khint_t kh_get_HlEntry_int_map(const kh_HlEntry_int_map_t *h, HlEntry key); extern void kh_resize_HlEntry_int_map(kh_HlEntry_int_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_HlEntry_int_map(kh_HlEntry_int_map_t *h, HlEntry key, int *ret); extern void kh_del_HlEntry_int_map(kh_HlEntry_int_map_t *h, khint_t x); typedef struct { kh_HlEntry_int_map_t table; } Map_HlEntry_int; Map_HlEntry_int *map_HlEntry_int_new(void); void map_HlEntry_int_free(Map_HlEntry_int *map); void map_HlEntry_int_destroy(Map_HlEntry_int *map); int map_HlEntry_int_get(Map_HlEntry_int *map, HlEntry key); 
-# 54 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 54 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 54 "/home/nick/dl/neovim/src/nvim/map.h"
+# 54 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_HlEntry_int_has(Map_HlEntry_int *map, HlEntry key); HlEntry map_HlEntry_int_key(Map_HlEntry_int *map, HlEntry key); int map_HlEntry_int_put(Map_HlEntry_int *map, HlEntry key, int value); int *map_HlEntry_int_ref(Map_HlEntry_int *map, HlEntry key, 
-# 54 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 54 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 54 "/home/nick/dl/neovim/src/nvim/map.h"
+# 54 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); int map_HlEntry_int_del(Map_HlEntry_int *map, HlEntry key); void map_HlEntry_int_clear(Map_HlEntry_int *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; String *keys; handle_T *vals; } kh_String_handle_T_map_t; extern kh_String_handle_T_map_t *kh_init_String_handle_T_map(void); extern void kh_dealloc_String_handle_T_map(kh_String_handle_T_map_t *h); extern void kh_destroy_String_handle_T_map(kh_String_handle_T_map_t *h); extern void kh_clear_String_handle_T_map(kh_String_handle_T_map_t *h); extern khint_t kh_get_String_handle_T_map(const kh_String_handle_T_map_t *h, String key); extern void kh_resize_String_handle_T_map(kh_String_handle_T_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_String_handle_T_map(kh_String_handle_T_map_t *h, String key, int *ret); extern void kh_del_String_handle_T_map(kh_String_handle_T_map_t *h, khint_t x); typedef struct { kh_String_handle_T_map_t table; } Map_String_handle_T; Map_String_handle_T *map_String_handle_T_new(void); void map_String_handle_T_free(Map_String_handle_T *map); void map_String_handle_T_destroy(Map_String_handle_T *map); handle_T map_String_handle_T_get(Map_String_handle_T *map, String key); 
-# 55 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 55 "/home/nick/dl/neovim/src/nvim/map.h"
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_String_handle_T_has(Map_String_handle_T *map, String key); String map_String_handle_T_key(Map_String_handle_T *map, String key); handle_T map_String_handle_T_put(Map_String_handle_T *map, String key, handle_T value); handle_T *map_String_handle_T_ref(Map_String_handle_T *map, String key, 
-# 55 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 55 "/home/nick/dl/neovim/src/nvim/map.h"
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); handle_T map_String_handle_T_del(Map_String_handle_T *map, String key); void map_String_handle_T_clear(Map_String_handle_T *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; String *keys; int *vals; } kh_String_int_map_t; extern kh_String_int_map_t *kh_init_String_int_map(void); extern void kh_dealloc_String_int_map(kh_String_int_map_t *h); extern void kh_destroy_String_int_map(kh_String_int_map_t *h); extern void kh_clear_String_int_map(kh_String_int_map_t *h); extern khint_t kh_get_String_int_map(const kh_String_int_map_t *h, String key); extern void kh_resize_String_int_map(kh_String_int_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_String_int_map(kh_String_int_map_t *h, String key, int *ret); extern void kh_del_String_int_map(kh_String_int_map_t *h, khint_t x); typedef struct { kh_String_int_map_t table; } Map_String_int; Map_String_int *map_String_int_new(void); void map_String_int_free(Map_String_int *map); void map_String_int_destroy(Map_String_int *map); int map_String_int_get(Map_String_int *map, String key); 
-# 56 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 56 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 56 "/home/nick/dl/neovim/src/nvim/map.h"
+# 56 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_String_int_has(Map_String_int *map, String key); String map_String_int_key(Map_String_int *map, String key); int map_String_int_put(Map_String_int *map, String key, int value); int *map_String_int_ref(Map_String_int *map, String key, 
-# 56 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 56 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 56 "/home/nick/dl/neovim/src/nvim/map.h"
+# 56 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); int map_String_int_del(Map_String_int *map, String key); void map_String_int_clear(Map_String_int *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; int *keys; String *vals; } kh_int_String_map_t; extern kh_int_String_map_t *kh_init_int_String_map(void); extern void kh_dealloc_int_String_map(kh_int_String_map_t *h); extern void kh_destroy_int_String_map(kh_int_String_map_t *h); extern void kh_clear_int_String_map(kh_int_String_map_t *h); extern khint_t kh_get_int_String_map(const kh_int_String_map_t *h, int key); extern void kh_resize_int_String_map(kh_int_String_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_int_String_map(kh_int_String_map_t *h, int key, int *ret); extern void kh_del_int_String_map(kh_int_String_map_t *h, khint_t x); typedef struct { kh_int_String_map_t table; } Map_int_String; Map_int_String *map_int_String_new(void); void map_int_String_free(Map_int_String *map); void map_int_String_destroy(Map_int_String *map); String map_int_String_get(Map_int_String *map, int key); 
-# 57 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 57 "/home/nick/dl/neovim/src/nvim/map.h"
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_int_String_has(Map_int_String *map, int key); int map_int_String_key(Map_int_String *map, int key); String map_int_String_put(Map_int_String *map, int key, String value); String *map_int_String_ref(Map_int_String *map, int key, 
-# 57 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 57 "/home/nick/dl/neovim/src/nvim/map.h"
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); String map_int_String_del(Map_int_String *map, int key); void map_int_String_clear(Map_int_String *map);
 
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; ColorKey *keys; ColorItem *vals; } kh_ColorKey_ColorItem_map_t; extern kh_ColorKey_ColorItem_map_t *kh_init_ColorKey_ColorItem_map(void); extern void kh_dealloc_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h); extern void kh_destroy_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h); extern void kh_clear_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h); extern khint_t kh_get_ColorKey_ColorItem_map(const kh_ColorKey_ColorItem_map_t *h, ColorKey key); extern void kh_resize_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h, ColorKey key, int *ret); extern void kh_del_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h, khint_t x); typedef struct { kh_ColorKey_ColorItem_map_t table; } Map_ColorKey_ColorItem; Map_ColorKey_ColorItem *map_ColorKey_ColorItem_new(void); void map_ColorKey_ColorItem_free(Map_ColorKey_ColorItem *map); void map_ColorKey_ColorItem_destroy(Map_ColorKey_ColorItem *map); ColorItem map_ColorKey_ColorItem_get(Map_ColorKey_ColorItem *map, ColorKey key); 
-# 59 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 59 "/home/nick/dl/neovim/src/nvim/map.h"
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_ColorKey_ColorItem_has(Map_ColorKey_ColorItem *map, ColorKey key); ColorKey map_ColorKey_ColorItem_key(Map_ColorKey_ColorItem *map, ColorKey key); ColorItem map_ColorKey_ColorItem_put(Map_ColorKey_ColorItem *map, ColorKey key, ColorItem value); ColorItem *map_ColorKey_ColorItem_ref(Map_ColorKey_ColorItem *map, ColorKey key, 
-# 59 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 59 "/home/nick/dl/neovim/src/nvim/map.h"
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ColorItem map_ColorKey_ColorItem_del(Map_ColorKey_ColorItem *map, ColorKey key); void map_ColorKey_ColorItem_clear(Map_ColorKey_ColorItem *map);
 
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; KittyKey *keys; cstr_t *vals; } kh_KittyKey_cstr_t_map_t; extern kh_KittyKey_cstr_t_map_t *kh_init_KittyKey_cstr_t_map(void); extern void kh_dealloc_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h); extern void kh_destroy_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h); extern void kh_clear_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h); extern khint_t kh_get_KittyKey_cstr_t_map(const kh_KittyKey_cstr_t_map_t *h, KittyKey key); extern void kh_resize_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h, KittyKey key, int *ret); extern void kh_del_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h, khint_t x); typedef struct { kh_KittyKey_cstr_t_map_t table; } Map_KittyKey_cstr_t; Map_KittyKey_cstr_t *map_KittyKey_cstr_t_new(void); void map_KittyKey_cstr_t_free(Map_KittyKey_cstr_t *map); void map_KittyKey_cstr_t_destroy(Map_KittyKey_cstr_t *map); cstr_t map_KittyKey_cstr_t_get(Map_KittyKey_cstr_t *map, KittyKey key); 
-# 61 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 61 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 61 "/home/nick/dl/neovim/src/nvim/map.h"
+# 61 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_KittyKey_cstr_t_has(Map_KittyKey_cstr_t *map, KittyKey key); KittyKey map_KittyKey_cstr_t_key(Map_KittyKey_cstr_t *map, KittyKey key); cstr_t map_KittyKey_cstr_t_put(Map_KittyKey_cstr_t *map, KittyKey key, cstr_t value); cstr_t *map_KittyKey_cstr_t_ref(Map_KittyKey_cstr_t *map, KittyKey key, 
-# 61 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 61 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 61 "/home/nick/dl/neovim/src/nvim/map.h"
+# 61 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); cstr_t map_KittyKey_cstr_t_del(Map_KittyKey_cstr_t *map, KittyKey key); void map_KittyKey_cstr_t_clear(Map_KittyKey_cstr_t *map);
-# 94 "/home/nick/dl/neovim/src/nvim/map.h"
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 void pmap_del2(Map_cstr_t_ptr_t *map, const char *key);
-# 12 "/home/nick/dl/neovim/src/nvim/marktree.h" 2
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/pos.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/pos.h" 1
 
 
 
@@ -7933,7 +7933,7 @@ typedef struct {
   linenr_T lnum;
   colnr_T col;
 } lpos_T;
-# 14 "/home/nick/dl/neovim/src/nvim/marktree.h" 2
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 2
 
 
 struct mtnode_s;
@@ -7978,11 +7978,11 @@ typedef struct {
   uint16_t priority;
   Decoration *decor_full;
 } mtkey_t;
-# 78 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 78 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
 static inline uint64_t mt_lookup_id(uint32_t ns, uint32_t id, 
-# 78 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 78 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
                                                              _Bool 
-# 78 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 78 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
                                                                   enda)
 {
   return (uint64_t)ns << 32 | id | (enda?(((uint64_t)1) << 63):0);
@@ -7995,36 +7995,36 @@ static inline uint64_t mt_lookup_key(mtkey_t key)
 }
 
 static inline 
-# 89 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 89 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
              _Bool 
-# 89 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 89 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
                   mt_paired(mtkey_t key)
 {
   return key.flags & (((uint16_t)1) << 2);
 }
 
 static inline 
-# 94 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
              _Bool 
-# 94 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
                   mt_end(mtkey_t key)
 {
   return key.flags & (((uint16_t)1) << 1);
 }
 
 static inline 
-# 99 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 99 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
              _Bool 
-# 99 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 99 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
                   mt_start(mtkey_t key)
 {
   return mt_paired(key) && !mt_end(key);
 }
 
 static inline 
-# 104 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 104 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
              _Bool 
-# 104 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 104 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
                   mt_right(mtkey_t key)
 {
   return key.flags & (((uint16_t)1) << 14);
@@ -8036,27 +8036,27 @@ static inline uint8_t marktree_decor_level(mtkey_t key)
 }
 
 static inline uint16_t mt_flags(
-# 114 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 114 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
                                _Bool 
-# 114 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 114 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
                                     right_gravity, uint8_t decor_level)
 {
   
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
  ((void) sizeof ((
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
  decor_level < 4
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
  decor_level < 4
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
  ) ; else __assert_fail (
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
  "decor_level < DECOR_LEVELS"
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
- , "/home/nick/dl/neovim/src/nvim/marktree.h", 116, __extension__ __PRETTY_FUNCTION__); }))
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h", 116, __extension__ __PRETTY_FUNCTION__); }))
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
                                    ;
   return (uint16_t)((right_gravity ? (((uint16_t)1) << 14) : 0)
                     | (decor_level << 4));
@@ -8079,12 +8079,12 @@ typedef struct {
 
   Map_uint64_t_ptr_t id2node[1];
 } MarkTree;
-# 58 "/home/nick/dl/neovim/src/nvim/marktree.c" 2
-# 68 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 58 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 2
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
 static 
-# 68 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
       _Bool 
-# 68 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
            pos_leq(mtpos_t a, mtpos_t b)
 {
   return a.row < b.row || (a.row == b.row && a.col <= b.col);
@@ -8093,21 +8093,21 @@ static
 static void relative(mtpos_t base, mtpos_t *val)
 {
   
-# 75 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 75 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ((void) sizeof ((
-# 75 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 75 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  pos_leq(base, *val)
-# 75 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 75 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 75 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 75 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  pos_leq(base, *val)
-# 75 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 75 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ; else __assert_fail (
-# 75 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 75 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  "pos_leq(base, *val)"
-# 75 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/marktree.c", 75, __extension__ __PRETTY_FUNCTION__); }))
-# 75 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 75 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 75, __extension__ __PRETTY_FUNCTION__); }))
+# 75 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                             ;
   if (val->row == base.row) {
     val->row = 0;
@@ -8257,27 +8257,27 @@ static inline void marktree_putp_aux(MarkTree *b, mtnode_t *x, mtkey_t k)
 }
 
 void marktree_put(MarkTree *b, mtkey_t key, int end_row, int end_col, 
-# 223 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 223 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                                                      _Bool 
-# 223 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 223 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                                           end_right)
 {
   
-# 225 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 225 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ((void) sizeof ((
-# 225 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 225 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  !(key.flags & ~((((uint16_t)(4 - 1)) << 4) | (((uint16_t)1) << 14) | (((uint16_t)1) << 3)))
-# 225 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 225 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 225 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 225 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  !(key.flags & ~((((uint16_t)(4 - 1)) << 4) | (((uint16_t)1) << 14) | (((uint16_t)1) << 3)))
-# 225 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 225 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ; else __assert_fail (
-# 225 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 225 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  "!(key.flags & ~MT_FLAG_EXTERNAL_MASK)"
-# 225 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/marktree.c", 225, __extension__ __PRETTY_FUNCTION__); }))
-# 225 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 225 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 225, __extension__ __PRETTY_FUNCTION__); }))
+# 225 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                               ;
   if (end_row >= 0) {
     key.flags |= (((uint16_t)1) << 2);
@@ -8316,11 +8316,11 @@ void marktree_put_key(MarkTree *b, mtkey_t k)
   }
   marktree_putp_aux(b, r, k);
 }
-# 288 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 288 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
 uint64_t marktree_del_itr(MarkTree *b, MarkTreeIter *itr, 
-# 288 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 288 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                                          _Bool 
-# 288 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 288 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                               rev)
 {
   int adjustment = 0;
@@ -8350,21 +8350,21 @@ uint64_t marktree_del_itr(MarkTree *b, MarkTreeIter *itr,
 
   mtnode_t *x = itr->node;
   
-# 316 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 316 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ((void) sizeof ((
-# 316 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 316 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  x->level == 0
-# 316 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 316 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 316 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 316 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  x->level == 0
-# 316 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 316 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ; else __assert_fail (
-# 316 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 316 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  "x->level == 0"
-# 316 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/marktree.c", 316, __extension__ __PRETTY_FUNCTION__); }))
-# 316 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 316 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 316, __extension__ __PRETTY_FUNCTION__); }))
+# 316 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                       ;
   mtkey_t intkey = x->key[itr->i];
   if (x->n > itr->i + 1) {
@@ -8387,21 +8387,21 @@ uint64_t marktree_del_itr(MarkTree *b, MarkTreeIter *itr,
       }
       const int i = itr->s[ilvl].i;
       
-# 337 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 337 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ((void) sizeof ((
-# 337 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 337 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      p->ptr[i] == lnode
-# 337 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 337 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ? 1 : 0), __extension__ ({ if (
-# 337 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 337 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      p->ptr[i] == lnode
-# 337 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 337 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ; else __assert_fail (
-# 337 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 337 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      "p->ptr[i] == lnode"
-# 337 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-     , "/home/nick/dl/neovim/src/nvim/marktree.c", 337, __extension__ __PRETTY_FUNCTION__); }))
-# 337 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 337 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+     , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 337, __extension__ __PRETTY_FUNCTION__); }))
+# 337 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                ;
       if (i > 0) {
         unrelative(p->key[i - 1].pos, &intkey.pos);
@@ -8421,9 +8421,9 @@ uint64_t marktree_del_itr(MarkTree *b, MarkTreeIter *itr,
           unrelative(deleted.pos, &y->key[k].pos);
         }
         y = y->level ? y->ptr[0] : 
-# 355 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 355 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                   ((void *)0)
-# 355 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 355 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                       ;
       }
     }
@@ -8435,33 +8435,33 @@ uint64_t marktree_del_itr(MarkTree *b, MarkTreeIter *itr,
 
 
   
-# 365 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 365 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  _Bool 
-# 365 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 365 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
       itr_dirty = 
-# 365 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 365 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                   0
-# 365 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 365 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                        ;
   int rlvl = itr->lvl - 1;
   int *lasti = &itr->i;
   while (x != b->root) {
     
-# 369 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 369 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void) sizeof ((
-# 369 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 369 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    rlvl >= 0
-# 369 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 369 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 369 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 369 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    rlvl >= 0
-# 369 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 369 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ; else __assert_fail (
-# 369 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 369 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    "rlvl >= 0"
-# 369 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/marktree.c", 369, __extension__ __PRETTY_FUNCTION__); }))
-# 369 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 369 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 369, __extension__ __PRETTY_FUNCTION__); }))
+# 369 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                     ;
     mtnode_t *p = x->parent;
     if (x->n >= 10 - 1) {
@@ -8470,28 +8470,28 @@ uint64_t marktree_del_itr(MarkTree *b, MarkTreeIter *itr,
     }
     int pi = itr->s[rlvl].i;
     
-# 376 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 376 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void) sizeof ((
-# 376 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 376 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    p->ptr[pi] == x
-# 376 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 376 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 376 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 376 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    p->ptr[pi] == x
-# 376 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 376 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ; else __assert_fail (
-# 376 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 376 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    "p->ptr[pi] == x"
-# 376 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/marktree.c", 376, __extension__ __PRETTY_FUNCTION__); }))
-# 376 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 376 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 376, __extension__ __PRETTY_FUNCTION__); }))
+# 376 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                           ;
     if (pi > 0 && p->ptr[pi - 1]->n > 10 - 1) {
       *lasti += 1;
       itr_dirty = 
-# 379 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 379 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                  1
-# 379 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 379 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                      ;
 
       pivot_right(b, p, pi - 1);
@@ -8503,21 +8503,21 @@ uint64_t marktree_del_itr(MarkTree *b, MarkTreeIter *itr,
     } else if (pi > 0) {
 
       
-# 389 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 389 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ((void) sizeof ((
-# 389 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 389 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      p->ptr[pi - 1]->n == 10 - 1
-# 389 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 389 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ? 1 : 0), __extension__ ({ if (
-# 389 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 389 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      p->ptr[pi - 1]->n == 10 - 1
-# 389 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 389 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ; else __assert_fail (
-# 389 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 389 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      "p->ptr[pi - 1]->n == T - 1"
-# 389 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-     , "/home/nick/dl/neovim/src/nvim/marktree.c", 389, __extension__ __PRETTY_FUNCTION__); }))
-# 389 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 389 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+     , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 389, __extension__ __PRETTY_FUNCTION__); }))
+# 389 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                        ;
 
       *lasti += 10;
@@ -8528,28 +8528,28 @@ uint64_t marktree_del_itr(MarkTree *b, MarkTreeIter *itr,
       }
       itr->s[rlvl].i--;
       itr_dirty = 
-# 398 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 398 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                  1
-# 398 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 398 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                      ;
     } else {
 
       
-# 401 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 401 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ((void) sizeof ((
-# 401 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 401 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      pi < p->n && p->ptr[pi + 1]->n == 10 - 1
-# 401 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 401 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ? 1 : 0), __extension__ ({ if (
-# 401 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 401 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      pi < p->n && p->ptr[pi + 1]->n == 10 - 1
-# 401 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 401 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ; else __assert_fail (
-# 401 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 401 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      "pi < p->n && p->ptr[pi + 1]->n == T - 1"
-# 401 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-     , "/home/nick/dl/neovim/src/nvim/marktree.c", 401, __extension__ __PRETTY_FUNCTION__); }))
-# 401 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 401 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+     , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 401, __extension__ __PRETTY_FUNCTION__); }))
+# 401 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                     ;
       merge_node(b, p, pi);
 
@@ -8569,18 +8569,18 @@ uint64_t marktree_del_itr(MarkTree *b, MarkTreeIter *itr,
       mtnode_t *oldroot = b->root;
       b->root = b->root->ptr[0];
       b->root->parent = 
-# 419 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 419 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                        ((void *)0)
-# 419 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 419 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                            ;
       xfree(oldroot);
     } else {
 
 
       itr->node = 
-# 424 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 424 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                  ((void *)0)
-# 424 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 424 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                      ;
     }
   }
@@ -8605,21 +8605,21 @@ uint64_t marktree_del_itr(MarkTree *b, MarkTreeIter *itr,
 
 
       
-# 447 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 447 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ((void) sizeof ((
-# 447 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 447 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      itr->node->level == 0
-# 447 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 447 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ? 1 : 0), __extension__ ({ if (
-# 447 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 447 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      itr->node->level == 0
-# 447 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 447 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ; else __assert_fail (
-# 447 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 447 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      "itr->node->level == 0"
-# 447 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-     , "/home/nick/dl/neovim/src/nvim/marktree.c", 447, __extension__ __PRETTY_FUNCTION__); }))
-# 447 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 447 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+     , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 447, __extension__ __PRETTY_FUNCTION__); }))
+# 447 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                   ;
       marktree_itr_next(b, itr);
     }
@@ -8723,29 +8723,29 @@ void marktree_clear(MarkTree *b)
   if (b->root) {
     marktree_free_node(b->root);
     b->root = 
-# 549 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 549 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
              ((void *)0)
-# 549 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 549 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                  ;
   }
   if (b->id2node->table.keys) {
     map_uint64_t_ptr_t_destroy(b->id2node);
     do { *(b->id2node) = (Map_uint64_t_ptr_t) { { 0, 0, 0, 0, 
-# 553 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 553 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void *)0)
-# 553 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 553 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    , 
-# 553 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 553 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void *)0)
-# 553 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 553 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    , 
-# 553 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 553 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void *)0) 
-# 553 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 553 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    } }; } while (
-# 553 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 553 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    0
-# 553 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 553 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    );
   }
   b->n_keys = 0;
@@ -8782,17 +8782,17 @@ void marktree_move(MarkTree *b, MarkTreeIter *itr, int row, int col)
 
 
   marktree_del_itr(b, itr, 
-# 588 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 588 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                           0
-# 588 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 588 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                );
   key.pos = (mtpos_t){ row, col };
 
   marktree_put_key(b, key);
   itr->node = 
-# 592 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 592 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
              ((void *)0)
-# 592 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 592 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                  ;
 }
 
@@ -8800,52 +8800,52 @@ void marktree_move(MarkTree *b, MarkTreeIter *itr, int row, int col)
 
 
 
-# 598 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 598 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
 _Bool 
-# 598 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 598 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
     marktree_itr_get(MarkTree *b, int32_t row, int col, MarkTreeIter *itr)
 {
   return marktree_itr_get_ext(b, (mtpos_t){ row, col },
                               itr, 
-# 601 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 601 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                   0
-# 601 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 601 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                        , 
-# 601 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 601 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                          0
-# 601 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 601 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                               , 
-# 601 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 601 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                                 ((void *)0)
-# 601 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 601 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                     );
 }
 
 
-# 604 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 604 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
 _Bool 
-# 604 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 604 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
     marktree_itr_get_ext(MarkTree *b, mtpos_t p, MarkTreeIter *itr, 
-# 604 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 604 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                                                     _Bool 
-# 604 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 604 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                                          last, 
-# 604 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 604 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                                                                _Bool 
-# 604 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 604 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                                                     gravity,
                           mtpos_t *oldbase)
 {
   if (b->n_keys == 0) {
     itr->node = 
-# 608 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 608 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                ((void *)0)
-# 608 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 608 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                    ;
     return 
-# 609 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 609 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
           0
-# 609 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 609 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                ;
   }
 
@@ -8860,9 +8860,9 @@ _Bool
     oldbase[itr->lvl] = itr->pos;
   }
   while (
-# 622 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 622 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
         1
-# 622 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 622 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
             ) {
     itr->i = marktree_getp_aux(itr->node, k, 0) + 1;
 
@@ -8890,24 +8890,24 @@ _Bool
     return marktree_itr_next(b, itr);
   }
   return 
-# 648 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 648 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
         1
-# 648 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 648 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
             ;
 }
 
 
-# 651 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 651 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
 _Bool 
-# 651 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 651 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
     marktree_itr_first(MarkTree *b, MarkTreeIter *itr)
 {
   itr->node = b->root;
   if (b->n_keys == 0) {
     return 
-# 655 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 655 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
           0
-# 655 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 655 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                ;
   }
 
@@ -8921,9 +8921,9 @@ _Bool
     itr->node = itr->node->ptr[0];
   }
   return 
-# 667 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 667 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
         1
-# 667 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 667 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
             ;
 }
 
@@ -8932,23 +8932,23 @@ int marktree_itr_last(MarkTree *b, MarkTreeIter *itr)
 {
   if (b->n_keys == 0) {
     itr->node = 
-# 674 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 674 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                ((void *)0)
-# 674 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 674 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                    ;
     return 
-# 675 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 675 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
           0
-# 675 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 675 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                ;
   }
   itr->pos = (mtpos_t){ 0, 0 };
   itr->node = b->root;
   itr->lvl = 0;
   while (
-# 680 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 680 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
         1
-# 680 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 680 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
             ) {
     itr->i = itr->node->n;
 
@@ -8960,21 +8960,21 @@ int marktree_itr_last(MarkTree *b, MarkTreeIter *itr)
     itr->s[itr->lvl].oldcol = itr->pos.col;
 
     
-# 690 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 690 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void) sizeof ((
-# 690 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 690 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    itr->i > 0
-# 690 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 690 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 690 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 690 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    itr->i > 0
-# 690 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 690 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ; else __assert_fail (
-# 690 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 690 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    "itr->i > 0"
-# 690 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/marktree.c", 690, __extension__ __PRETTY_FUNCTION__); }))
-# 690 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 690 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 690, __extension__ __PRETTY_FUNCTION__); }))
+# 690 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                      ;
     compose(&itr->pos, itr->node->key[itr->i - 1].pos);
 
@@ -8983,45 +8983,45 @@ int marktree_itr_last(MarkTree *b, MarkTreeIter *itr)
   }
   itr->i--;
   return 
-# 697 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 697 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
         1
-# 697 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 697 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
             ;
 }
 
 
 
-# 701 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 701 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
 _Bool 
-# 701 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 701 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
     marktree_itr_next(MarkTree *b, MarkTreeIter *itr)
 {
   return marktree_itr_next_skip(b, itr, 
-# 703 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 703 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                        0
-# 703 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 703 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                             , 
-# 703 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 703 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                               ((void *)0)
-# 703 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 703 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                   );
 }
 
 static 
-# 706 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 706 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
       _Bool 
-# 706 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 706 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
            marktree_itr_next_skip(MarkTree *b, MarkTreeIter *itr, 
-# 706 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 706 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                                                   _Bool 
-# 706 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 706 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                                        skip, mtpos_t oldbase[])
 {
   if (!itr->node) {
     return 
-# 709 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 709 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
           0
-# 709 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 709 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                ;
   }
   itr->i++;
@@ -9030,23 +9030,23 @@ static
 
 
       return 
-# 716 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 716 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
             1
-# 716 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 716 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                 ;
     }
 
     while (itr->i >= itr->node->n) {
       itr->node = itr->node->parent;
       if (itr->node == 
-# 721 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 721 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                       ((void *)0)
-# 721 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 721 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                           ) {
         return 
-# 722 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 722 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
               0
-# 722 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 722 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                    ;
       }
       itr->lvl--;
@@ -9070,21 +9070,21 @@ static
       }
       itr->s[itr->lvl].i = itr->i;
       
-# 744 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 744 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ((void) sizeof ((
-# 744 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 744 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      itr->node->ptr[itr->i]->parent == itr->node
-# 744 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 744 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ? 1 : 0), __extension__ ({ if (
-# 744 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 744 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      itr->node->ptr[itr->i]->parent == itr->node
-# 744 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 744 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ; else __assert_fail (
-# 744 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 744 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      "itr->node->ptr[itr->i]->parent == itr->node"
-# 744 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-     , "/home/nick/dl/neovim/src/nvim/marktree.c", 744, __extension__ __PRETTY_FUNCTION__); }))
-# 744 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 744 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+     , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 744, __extension__ __PRETTY_FUNCTION__); }))
+# 744 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                         ;
       itr->node = itr->node->ptr[itr->i];
       itr->i = 0;
@@ -9092,23 +9092,23 @@ static
     }
   }
   return 
-# 750 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 750 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
         1
-# 750 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 750 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
             ;
 }
 
 
-# 753 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 753 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
 _Bool 
-# 753 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 753 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
     marktree_itr_prev(MarkTree *b, MarkTreeIter *itr)
 {
   if (!itr->node) {
     return 
-# 756 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 756 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
           0
-# 756 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 756 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                ;
   }
   if (itr->node->level == 0) {
@@ -9117,23 +9117,23 @@ _Bool
 
 
       return 
-# 763 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 763 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
             1
-# 763 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 763 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                 ;
     }
 
     while (itr->i < 0) {
       itr->node = itr->node->parent;
       if (itr->node == 
-# 768 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 768 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                       ((void *)0)
-# 768 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 768 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                           ) {
         return 
-# 769 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 769 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
               0
-# 769 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 769 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                    ;
       }
       itr->lvl--;
@@ -9154,21 +9154,21 @@ _Bool
       }
       itr->s[itr->lvl].i = itr->i;
       
-# 788 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 788 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ((void) sizeof ((
-# 788 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 788 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      itr->node->ptr[itr->i]->parent == itr->node
-# 788 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 788 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ? 1 : 0), __extension__ ({ if (
-# 788 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 788 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      itr->node->ptr[itr->i]->parent == itr->node
-# 788 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 788 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ; else __assert_fail (
-# 788 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 788 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      "itr->node->ptr[itr->i]->parent == itr->node"
-# 788 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-     , "/home/nick/dl/neovim/src/nvim/marktree.c", 788, __extension__ __PRETTY_FUNCTION__); }))
-# 788 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 788 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+     , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 788, __extension__ __PRETTY_FUNCTION__); }))
+# 788 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                         ;
       itr->node = itr->node->ptr[itr->i];
       itr->i = itr->node->n;
@@ -9177,9 +9177,9 @@ _Bool
     itr->i--;
   }
   return 
-# 795 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 795 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
         1
-# 795 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 795 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
             ;
 }
 
@@ -9195,9 +9195,9 @@ void marktree_itr_rewind(MarkTree *b, MarkTreeIter *itr)
 }
 
 
-# 809 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 809 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
 _Bool 
-# 809 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 809 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
     marktree_itr_node_done(MarkTreeIter *itr)
 {
   return !itr->node || itr->i == itr->node->n - 1;
@@ -9218,16 +9218,16 @@ mtkey_t marktree_itr_current(MarkTreeIter *itr)
     return key;
   }
   return (mtkey_t) { { -1, -1 }, 0, 0, 0, 0, 0, 
-# 828 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 828 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
         ((void *)0) 
-# 828 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 828 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
         };
 }
 
 static 
-# 831 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 831 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
       _Bool 
-# 831 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 831 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
            itr_eq(MarkTreeIter *itr1, MarkTreeIter *itr2)
 {
   return (&((itr1)->node->key[(itr1)->i]) == &((itr2)->node->key[(itr2)->i]));
@@ -9244,9 +9244,9 @@ static void itr_swap(MarkTreeIter *itr1, MarkTreeIter *itr2)
 }
 
 
-# 846 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 846 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
 _Bool 
-# 846 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 846 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
     marktree_splice(MarkTree *b, int32_t start_line, int start_col, int old_extent_line,
                      int old_extent_col, int new_extent_line, int new_extent_col)
 {
@@ -9255,14 +9255,14 @@ _Bool
   mtpos_t new_extent = { new_extent_line, new_extent_col };
 
   
-# 853 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 853 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  _Bool 
-# 853 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 853 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
       may_delete = (old_extent.row != 0 || old_extent.col != 0);
   
-# 854 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 854 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  _Bool 
-# 854 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 854 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
       same_line = old_extent.row == 0 && new_extent.row == 0;
   unrelative(start, &old_extent);
   unrelative(start, &new_extent);
@@ -9272,20 +9272,20 @@ _Bool
   mtpos_t oldbase[20] = { 0 };
 
   marktree_itr_get_ext(b, start, itr, 
-# 862 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 862 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                      0
-# 862 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 862 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                           , 
-# 862 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 862 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                             1
-# 862 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 862 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                 , oldbase);
   if (!itr->node) {
 
     return 
-# 865 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 865 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
           0
-# 865 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 865 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                ;
   }
   mtpos_t delta = { new_extent.row - old_extent.row,
@@ -9297,62 +9297,62 @@ _Bool
         || (old_extent.row == ipos.row && old_extent.col == ipos.col
             && !mt_right(((itr)->node->key[(itr)->i])))) {
       marktree_itr_get_ext(b, old_extent, enditr, 
-# 875 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 875 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                                  1
-# 875 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 875 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                      , 
-# 875 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 875 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                                        1
-# 875 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 875 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                            , 
-# 875 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 875 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                                              ((void *)0)
-# 875 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 875 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                                  );
       
-# 876 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 876 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ((void) sizeof ((
-# 876 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 876 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      enditr->node
-# 876 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 876 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ? 1 : 0), __extension__ ({ if (
-# 876 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 876 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      enditr->node
-# 876 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 876 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ; else __assert_fail (
-# 876 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 876 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      "enditr->node"
-# 876 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-     , "/home/nick/dl/neovim/src/nvim/marktree.c", 876, __extension__ __PRETTY_FUNCTION__); }))
-# 876 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 876 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+     , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 876, __extension__ __PRETTY_FUNCTION__); }))
+# 876 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                          ;
 
     } else {
       may_delete = 
-# 879 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 879 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                   0
-# 879 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 879 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                        ;
     }
   }
 
   
-# 883 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 883 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  _Bool 
-# 883 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 883 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
       past_right = 
-# 883 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 883 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                    0
-# 883 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 883 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                         ;
   
-# 884 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 884 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  _Bool 
-# 884 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 884 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
       moved = 
-# 884 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 884 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
               0
-# 884 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 884 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                    ;
 
 
@@ -9384,9 +9384,9 @@ continue_same_node:
           refkey(b, enditr->node, enditr->i);
         } else {
           past_right = 
-# 914 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 914 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                       1
-# 914 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 914 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                           ;
           (void)past_right;
           break;
@@ -9396,25 +9396,25 @@ continue_same_node:
       if (itr_eq(itr, enditr)) {
 
         past_right = 
-# 922 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 922 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                     1
-# 922 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 922 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                         ;
       }
 
       moved = 
-# 925 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 925 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
              1
-# 925 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 925 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                  ;
       if (itr->node->level) {
         oldbase[itr->lvl + 1] = ((itr)->node->key[(itr)->i]).pos;
         unrelative(oldbase[itr->lvl], &oldbase[itr->lvl + 1]);
         ((itr)->node->key[(itr)->i]).pos = loc_start;
         marktree_itr_next_skip(b, itr, 
-# 930 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 930 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                       0
-# 930 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 930 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                            , oldbase);
       } else {
         ((itr)->node->key[(itr)->i]).pos = loc_start;
@@ -9444,18 +9444,18 @@ past_continue_same_node:
       mtpos_t oldpos = ((itr)->node->key[(itr)->i]).pos;
       ((itr)->node->key[(itr)->i]).pos = loc_new;
       moved = 
-# 958 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 958 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
              1
-# 958 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 958 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                  ;
       if (itr->node->level) {
         oldbase[itr->lvl + 1] = oldpos;
         unrelative(oldbase[itr->lvl], &oldbase[itr->lvl + 1]);
 
         marktree_itr_next_skip(b, itr, 
-# 963 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 963 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                       0
-# 963 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 963 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                            , oldbase);
       } else {
         if (itr->i < itr->node->n - 1) {
@@ -9472,56 +9472,56 @@ past_continue_same_node:
     unrelative(oldbase[itr->lvl], &((itr)->node->key[(itr)->i]).pos);
     int realrow = ((itr)->node->key[(itr)->i]).pos.row;
     
-# 978 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 978 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void) sizeof ((
-# 978 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 978 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    realrow >= old_extent.row
-# 978 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 978 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 978 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 978 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    realrow >= old_extent.row
-# 978 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 978 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ; else __assert_fail (
-# 978 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 978 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    "realrow >= old_extent.row"
-# 978 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/marktree.c", 978, __extension__ __PRETTY_FUNCTION__); }))
-# 978 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 978 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 978, __extension__ __PRETTY_FUNCTION__); }))
+# 978 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                     ;
     
-# 979 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 979 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    _Bool 
-# 979 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 979 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
         done = 
-# 979 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 979 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                0
-# 979 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 979 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                     ;
     if (realrow == old_extent.row) {
       if (delta.col) {
         ((itr)->node->key[(itr)->i]).pos.col += delta.col;
         moved = 
-# 983 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 983 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                1
-# 983 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 983 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                    ;
       }
     } else {
       if (same_line) {
 
         done = 
-# 988 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 988 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
               1
-# 988 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 988 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                   ;
       }
     }
     if (delta.row) {
       ((itr)->node->key[(itr)->i]).pos.row += delta.row;
       moved = 
-# 993 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 993 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
              1
-# 993 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 993 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                  ;
     }
     relative(itr->pos, &((itr)->node->key[(itr)->i]).pos);
@@ -9529,13 +9529,13 @@ past_continue_same_node:
       break;
     }
     marktree_itr_next_skip(b, itr, 
-# 999 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 999 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                   1
-# 999 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 999 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                       , 
-# 999 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 999 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                         ((void *)0)
-# 999 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 999 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                             );
   }
   return moved;
@@ -9549,22 +9549,22 @@ void marktree_move_region(MarkTree *b, int start_row, colnr_T start_col, int ext
   unrelative(start, &end);
   MarkTreeIter itr[1] = { 0 };
   marktree_itr_get_ext(b, start, itr, 
-# 1011 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1011 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                      0
-# 1011 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1011 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                           , 
-# 1011 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1011 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                             1
-# 1011 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1011 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                 , 
-# 1011 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1011 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                                   ((void *)0)
-# 1011 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1011 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                       );
   struct { size_t size; size_t capacity; mtkey_t *items; } saved = { .size = 0, .capacity = 0, .items = 
-# 1012 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1012 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                          ((void *)0) 
-# 1012 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1012 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                          };
   while (itr->node) {
     mtkey_t k = marktree_itr_current(itr);
@@ -9575,9 +9575,9 @@ void marktree_move_region(MarkTree *b, int start_row, colnr_T start_col, int ext
     relative(start, &k.pos);
     (*((((saved).size == (saved).capacity) ? (((saved).capacity = ((saved).capacity ? (saved).capacity << 1 : 8), (saved).items = xrealloc((saved).items, sizeof((saved).items[0]) * (saved).capacity)), 0) : 0), ((saved).items + ((saved).size++))) = (k));
     marktree_del_itr(b, itr, 
-# 1021 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1021 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                             0
-# 1021 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1021 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                  );
   }
 
@@ -9596,9 +9596,9 @@ void marktree_move_region(MarkTree *b, int start_row, colnr_T start_col, int ext
 
 
 mtkey_t marktree_lookup_ns(MarkTree *b, uint32_t ns, uint32_t id, 
-# 1038 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1038 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                                                  _Bool 
-# 1038 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1038 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                                       end, MarkTreeIter *itr)
 {
   return marktree_lookup(b, mt_lookup_id(ns, id, end), itr);
@@ -9609,21 +9609,21 @@ mtkey_t marktree_lookup(MarkTree *b, uint64_t id, MarkTreeIter *itr)
 {
   mtnode_t *n = map_uint64_t_ptr_t_get(b->id2node, id);
   if (n == 
-# 1047 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1047 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
           ((void *)0)
-# 1047 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1047 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
               ) {
     if (itr) {
       itr->node = 
-# 1049 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1049 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                  ((void *)0)
-# 1049 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1049 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                      ;
     }
     return (mtkey_t) { { -1, -1 }, 0, 0, 0, 0, 0, 
-# 1051 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1051 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
           ((void *)0) 
-# 1051 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1051 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
           };
   }
   int i = 0;
@@ -9641,9 +9641,9 @@ found: {}
     itr->lvl = b->root->level - n->level;
   }
   while (n->parent != 
-# 1067 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1067 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                      ((void *)0)
-# 1067 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1067 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                          ) {
     mtnode_t *p = n->parent;
     for (i = 0; i < p->n + 1; i++) {
@@ -9675,9 +9675,9 @@ mtpos_t marktree_get_altpos(MarkTree *b, mtkey_t mark, MarkTreeIter *itr)
 mtkey_t marktree_get_alt(MarkTree *b, mtkey_t mark, MarkTreeIter *itr)
 {
   mtkey_t end = (mtkey_t) { { -1, -1 }, 0, 0, 0, 0, 0, 
-# 1097 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1097 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                ((void *)0) 
-# 1097 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1097 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                };
   if (mt_paired(mark)) {
     end = marktree_lookup_ns(b, mark.ns, mark.id, !mt_end(mark), itr);
@@ -9696,72 +9696,72 @@ static void marktree_itr_fix_pos(MarkTree *b, MarkTreeIter *itr)
       compose(&itr->pos, x->key[i - 1].pos);
     }
     
-# 1114 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1114 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void) sizeof ((
-# 1114 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1114 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    x->level
-# 1114 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1114 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 1114 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1114 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    x->level
-# 1114 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1114 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ; else __assert_fail (
-# 1114 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1114 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    "x->level"
-# 1114 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/marktree.c", 1114, __extension__ __PRETTY_FUNCTION__); }))
-# 1114 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1114 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1114, __extension__ __PRETTY_FUNCTION__); }))
+# 1114 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                    ;
     x = x->ptr[i];
   }
   
-# 1117 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1117 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ((void) sizeof ((
-# 1117 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1117 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  x == itr->node
-# 1117 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1117 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 1117 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1117 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  x == itr->node
-# 1117 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1117 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ; else __assert_fail (
-# 1117 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1117 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  "x == itr->node"
-# 1117 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/marktree.c", 1117, __extension__ __PRETTY_FUNCTION__); }))
-# 1117 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1117 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1117, __extension__ __PRETTY_FUNCTION__); }))
+# 1117 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                        ;
 }
 
 
 void marktree_put_test(MarkTree *b, uint32_t id, int row, int col, 
-# 1121 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1121 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                                                   _Bool 
-# 1121 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1121 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                                        right_gravity)
 {
   mtkey_t key = { { row, col }, 
-# 1123 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1123 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                (4294967295U)
-# 1123 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1123 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                          , id, 0,
                   mt_flags(right_gravity, 0), 0, 
-# 1124 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1124 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                                 ((void *)0) 
-# 1124 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1124 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                      };
   marktree_put(b, key, -1, -1, 
-# 1125 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1125 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                               0
-# 1125 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1125 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                    );
 }
 
 
 
-# 1129 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1129 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
 _Bool 
-# 1129 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1129 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
     mt_right_test(mtkey_t key)
 {
   return mt_right(key);
@@ -9771,116 +9771,116 @@ void marktree_check(MarkTree *b)
 {
 
   if (b->root == 
-# 1137 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1137 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                 ((void *)0)
-# 1137 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1137 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                     ) {
     
-# 1138 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1138 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void) sizeof ((
-# 1138 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1138 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    b->n_keys == 0
-# 1138 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1138 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 1138 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1138 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    b->n_keys == 0
-# 1138 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1138 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ; else __assert_fail (
-# 1138 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1138 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    "b->n_keys == 0"
-# 1138 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/marktree.c", 1138, __extension__ __PRETTY_FUNCTION__); }))
-# 1138 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1138 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1138, __extension__ __PRETTY_FUNCTION__); }))
+# 1138 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                          ;
     
-# 1139 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1139 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void) sizeof ((
-# 1139 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1139 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    b->n_nodes == 0
-# 1139 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1139 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 1139 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1139 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    b->n_nodes == 0
-# 1139 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1139 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ; else __assert_fail (
-# 1139 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1139 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    "b->n_nodes == 0"
-# 1139 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/marktree.c", 1139, __extension__ __PRETTY_FUNCTION__); }))
-# 1139 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1139 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1139, __extension__ __PRETTY_FUNCTION__); }))
+# 1139 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                           ;
     
-# 1140 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1140 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void) sizeof ((
-# 1140 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1140 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    b->id2node == 
-# 1140 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1140 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void *)0) 
-# 1140 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1140 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    || ((b->id2node)->table.size) == 0
-# 1140 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1140 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 1140 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1140 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    b->id2node == 
-# 1140 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1140 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void *)0) 
-# 1140 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1140 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    || ((b->id2node)->table.size) == 0
-# 1140 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1140 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ; else __assert_fail (
-# 1140 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1140 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    "b->id2node == NULL || map_size(b->id2node) == 0"
-# 1140 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/marktree.c", 1140, __extension__ __PRETTY_FUNCTION__); }))
-# 1140 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1140 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1140, __extension__ __PRETTY_FUNCTION__); }))
+# 1140 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                           ;
     return;
   }
 
   mtpos_t dummy;
   
-# 1145 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1145 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  _Bool 
-# 1145 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1145 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
       last_right = 
-# 1145 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1145 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                    0
-# 1145 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1145 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                         ;
   size_t nkeys = marktree_check_node(b, b->root, &dummy, &last_right);
   
-# 1147 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1147 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ((void) sizeof ((
-# 1147 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1147 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  b->n_keys == nkeys
-# 1147 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1147 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 1147 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1147 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  b->n_keys == nkeys
-# 1147 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1147 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ; else __assert_fail (
-# 1147 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1147 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  "b->n_keys == nkeys"
-# 1147 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/marktree.c", 1147, __extension__ __PRETTY_FUNCTION__); }))
-# 1147 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1147 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1147, __extension__ __PRETTY_FUNCTION__); }))
+# 1147 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                            ;
   
-# 1148 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1148 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ((void) sizeof ((
-# 1148 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1148 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  b->n_keys == ((b->id2node)->table.size)
-# 1148 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1148 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 1148 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1148 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  b->n_keys == ((b->id2node)->table.size)
-# 1148 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1148 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ; else __assert_fail (
-# 1148 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1148 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  "b->n_keys == map_size(b->id2node)"
-# 1148 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/marktree.c", 1148, __extension__ __PRETTY_FUNCTION__); }))
-# 1148 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1148 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1148, __extension__ __PRETTY_FUNCTION__); }))
+# 1148 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                           ;
 
 
@@ -9890,45 +9890,45 @@ void marktree_check(MarkTree *b)
 
 
 size_t marktree_check_node(MarkTree *b, mtnode_t *x, mtpos_t *last, 
-# 1156 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1156 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
                                                                    _Bool 
-# 1156 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1156 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                                         *last_right)
 {
   
-# 1158 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1158 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ((void) sizeof ((
-# 1158 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1158 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  x->n <= 2 * 10 - 1
-# 1158 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1158 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 1158 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1158 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  x->n <= 2 * 10 - 1
-# 1158 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1158 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ; else __assert_fail (
-# 1158 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1158 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  "x->n <= 2 * T - 1"
-# 1158 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/marktree.c", 1158, __extension__ __PRETTY_FUNCTION__); }))
-# 1158 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1158 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1158, __extension__ __PRETTY_FUNCTION__); }))
+# 1158 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                           ;
 
   
-# 1160 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1160 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ((void) sizeof ((
-# 1160 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1160 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  x->n >= (x != b->root ? 10 - 1 : 0)
-# 1160 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1160 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 1160 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1160 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  x->n >= (x != b->root ? 10 - 1 : 0)
-# 1160 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1160 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
  ) ; else __assert_fail (
-# 1160 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1160 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
  "x->n >= (x != b->root ? T - 1 : 0)"
-# 1160 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/marktree.c", 1160, __extension__ __PRETTY_FUNCTION__); }))
-# 1160 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1160 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1160, __extension__ __PRETTY_FUNCTION__); }))
+# 1160 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                            ;
   size_t n_keys = (size_t)x->n;
 
@@ -9942,75 +9942,75 @@ size_t marktree_check_node(MarkTree *b, mtnode_t *x, mtpos_t *last,
       unrelative(x->key[i - 1].pos, last);
     }
     
-# 1172 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1172 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void) sizeof ((
-# 1172 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1172 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    pos_leq(*last, x->key[i].pos)
-# 1172 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1172 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 1172 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1172 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    pos_leq(*last, x->key[i].pos)
-# 1172 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1172 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ; else __assert_fail (
-# 1172 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1172 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    "pos_leq(*last, x->key[i].pos)"
-# 1172 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/marktree.c", 1172, __extension__ __PRETTY_FUNCTION__); }))
-# 1172 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1172 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1172, __extension__ __PRETTY_FUNCTION__); }))
+# 1172 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                         ;
     if (last->row == x->key[i].pos.row && last->col == x->key[i].pos.col) {
       
-# 1174 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1174 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ((void) sizeof ((
-# 1174 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1174 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      !*last_right || mt_right(x->key[i])
-# 1174 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1174 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ? 1 : 0), __extension__ ({ if (
-# 1174 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1174 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      !*last_right || mt_right(x->key[i])
-# 1174 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1174 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ; else __assert_fail (
-# 1174 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1174 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      "!*last_right || mt_right(x->key[i])"
-# 1174 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-     , "/home/nick/dl/neovim/src/nvim/marktree.c", 1174, __extension__ __PRETTY_FUNCTION__); }))
-# 1174 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1174 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+     , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1174, __extension__ __PRETTY_FUNCTION__); }))
+# 1174 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                 ;
     }
     *last_right = mt_right(x->key[i]);
     
-# 1177 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1177 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void) sizeof ((
-# 1177 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1177 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    x->key[i].pos.col >= 0
-# 1177 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1177 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 1177 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1177 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    x->key[i].pos.col >= 0
-# 1177 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1177 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ; else __assert_fail (
-# 1177 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1177 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    "x->key[i].pos.col >= 0"
-# 1177 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/marktree.c", 1177, __extension__ __PRETTY_FUNCTION__); }))
-# 1177 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1177 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1177, __extension__ __PRETTY_FUNCTION__); }))
+# 1177 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                  ;
     
-# 1178 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1178 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ((void) sizeof ((
-# 1178 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1178 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    map_uint64_t_ptr_t_get(b->id2node, mt_lookup_key(x->key[i])) == x
-# 1178 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1178 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 1178 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1178 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    map_uint64_t_ptr_t_get(b->id2node, mt_lookup_key(x->key[i])) == x
-# 1178 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1178 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
    ) ; else __assert_fail (
-# 1178 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1178 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
    "pmap_get(uint64_t)(b->id2node, mt_lookup_key(x->key[i])) == x"
-# 1178 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/marktree.c", 1178, __extension__ __PRETTY_FUNCTION__); }))
-# 1178 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1178 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1178, __extension__ __PRETTY_FUNCTION__); }))
+# 1178 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                                                         ;
   }
 
@@ -10020,57 +10020,57 @@ size_t marktree_check_node(MarkTree *b, mtnode_t *x, mtpos_t *last,
 
     for (int i = 0; i < x->n + 1; i++) {
       
-# 1186 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1186 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ((void) sizeof ((
-# 1186 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1186 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      x->ptr[i]->parent == x
-# 1186 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1186 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ? 1 : 0), __extension__ ({ if (
-# 1186 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1186 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      x->ptr[i]->parent == x
-# 1186 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1186 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ; else __assert_fail (
-# 1186 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1186 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      "x->ptr[i]->parent == x"
-# 1186 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-     , "/home/nick/dl/neovim/src/nvim/marktree.c", 1186, __extension__ __PRETTY_FUNCTION__); }))
-# 1186 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1186 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+     , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1186, __extension__ __PRETTY_FUNCTION__); }))
+# 1186 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                    ;
       
-# 1187 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1187 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ((void) sizeof ((
-# 1187 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1187 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      x->ptr[i]->level == x->level - 1
-# 1187 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1187 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ? 1 : 0), __extension__ ({ if (
-# 1187 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1187 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      x->ptr[i]->level == x->level - 1
-# 1187 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1187 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
      ) ; else __assert_fail (
-# 1187 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1187 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
      "x->ptr[i]->level == x->level - 1"
-# 1187 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-     , "/home/nick/dl/neovim/src/nvim/marktree.c", 1187, __extension__ __PRETTY_FUNCTION__); }))
-# 1187 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1187 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+     , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1187, __extension__ __PRETTY_FUNCTION__); }))
+# 1187 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                              ;
 
       for (int j = 0; j < i; j++) {
         
-# 1190 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1190 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
        ((void) sizeof ((
-# 1190 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1190 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
        x->ptr[i] != x->ptr[j]
-# 1190 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1190 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
        ) ? 1 : 0), __extension__ ({ if (
-# 1190 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1190 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
        x->ptr[i] != x->ptr[j]
-# 1190 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
+# 1190 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
        ) ; else __assert_fail (
-# 1190 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1190 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
        "x->ptr[i] != x->ptr[j]"
-# 1190 "/home/nick/dl/neovim/src/nvim/marktree.c" 3 4
-       , "/home/nick/dl/neovim/src/nvim/marktree.c", 1190, __extension__ __PRETTY_FUNCTION__); }))
-# 1190 "/home/nick/dl/neovim/src/nvim/marktree.c"
+# 1190 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c" 3 4
+       , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c", 1190, __extension__ __PRETTY_FUNCTION__); }))
+# 1190 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.c"
                                      ;
       }
     }

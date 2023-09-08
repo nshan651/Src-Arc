@@ -1,7 +1,7 @@
 CMakeFiles/unibilium.dir/unibilium.c.o: \
- /home/nick/dl/neovim/.deps/build/src/unibilium/unibilium.c \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/unibilium.c \
  /usr/include/stdc-predef.h \
- /home/nick/dl/neovim/.deps/build/src/unibilium/unibilium.h \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium/unibilium.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \

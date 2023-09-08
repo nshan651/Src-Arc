@@ -1,8 +1,8 @@
-# Install script for directory: /home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc
+# Install script for directory: /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-vimdoc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nick/dl/neovim/.deps/usr")
+  set(CMAKE_INSTALL_PREFIX "/home/nick/git/Src-Arc/neovim/.deps/usr")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nvim/parser/vimdoc.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/nvim/parser" TYPE MODULE FILES "/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-build/vimdoc.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/nvim/parser" TYPE MODULE FILES "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-vimdoc-build/vimdoc.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nvim/parser/vimdoc.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/nvim/parser/vimdoc.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -66,5 +66,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-vimdoc-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

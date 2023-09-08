@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src/main.c" "/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/main.c.o"
+  "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src/main.c" "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

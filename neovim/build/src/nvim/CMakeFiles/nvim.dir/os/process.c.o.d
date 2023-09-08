@@ -1,6 +1,6 @@
 src/nvim/CMakeFiles/nvim.dir/os/process.c.o: \
- /home/nick/dl/neovim/src/nvim/os/process.c /usr/include/stdc-predef.h \
- /usr/include/assert.h /usr/include/features.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/os/process.c \
+ /usr/include/stdc-predef.h /usr/include/assert.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
  /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
@@ -38,17 +38,18 @@ src/nvim/CMakeFiles/nvim.dir/os/process.c.o: \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
- /usr/include/bits/floatn-common.h /usr/include/bits/stdio.h \
- /home/nick/dl/neovim/.deps/usr/include/uv.h \
- /home/nick/dl/neovim/.deps/usr/include/uv/errno.h /usr/include/errno.h \
- /usr/include/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
- /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
- /home/nick/dl/neovim/.deps/usr/include/uv/version.h \
+ /usr/include/bits/floatn-common.h \
+ /home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h \
+ /home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/errno.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/bits/types/error_t.h \
+ /home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/version.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /home/nick/dl/neovim/.deps/usr/include/uv/unix.h \
+ /home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h \
  /usr/include/sys/types.h /usr/include/bits/types/clock_t.h \
  /usr/include/bits/types/clockid_t.h /usr/include/bits/types/timer_t.h \
  /usr/include/endian.h /usr/include/bits/byteswap.h \
@@ -102,27 +103,27 @@ src/nvim/CMakeFiles/nvim.dir/os/process.c.o: \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/bits/setjmp.h \
  /usr/include/bits/types/struct___jmp_buf_tag.h \
- /home/nick/dl/neovim/.deps/usr/include/uv/threadpool.h \
- /home/nick/dl/neovim/.deps/usr/include/uv/linux.h \
- /home/nick/dl/neovim/src/nvim/log.h \
- /home/nick/dl/neovim/build/cmake.config/auto/config.h \
- /home/nick/dl/neovim/src/nvim/macros.h /usr/include/sys/sdt.h \
+ /home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/threadpool.h \
+ /home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/linux.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/log.h \
+ /home/nick/git/Src-Arc/neovim/build/cmake.config/auto/config.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/macros.h /usr/include/sys/sdt.h \
  /usr/include/sys/sdt-config.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/sanitizer/asan_interface.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/sanitizer/common_interface_defs.h \
- /home/nick/dl/neovim/build/include/log.h.generated.h \
- /home/nick/dl/neovim/src/nvim/func_attr.h \
- /home/nick/dl/neovim/src/nvim/memory.h \
- /home/nick/dl/neovim/build/include/memory.h.generated.h \
- /home/nick/dl/neovim/src/nvim/os/process.h \
- /home/nick/dl/neovim/src/nvim/api/private/defs.h /usr/include/string.h \
- /usr/include/strings.h /home/nick/dl/neovim/src/klib/kvec.h \
- /usr/include/stdlib.h /usr/include/bits/waitflags.h \
- /usr/include/bits/waitstatus.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
- /home/nick/dl/neovim/src/nvim/os/os_defs.h /usr/include/ctype.h \
- /home/nick/dl/neovim/src/nvim/os/unix_defs.h \
- /home/nick/dl/neovim/src/nvim/types.h \
- /home/nick/dl/neovim/build/src/nvim/auto/keysets_defs.generated.h \
- /home/nick/dl/neovim/build/include/os/process.h.generated.h \
- /home/nick/dl/neovim/build/src/nvim/auto/os/process.c.generated.h
+ /home/nick/git/Src-Arc/neovim/build/include/log.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/memory.h \
+ /home/nick/git/Src-Arc/neovim/build/include/memory.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/os/process.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /home/nick/git/Src-Arc/neovim/src/klib/kvec.h /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/alloca.h /usr/include/bits/stdlib-float.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h /usr/include/ctype.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/types.h \
+ /home/nick/git/Src-Arc/neovim/build/src/nvim/auto/keysets_defs.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/os/process.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/src/nvim/auto/os/process.c.generated.h

@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='/home/nick/dl/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz'")
+       file='/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz'")
 
-  file("SHA256" "/home/nick/dl/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz" actual_value)
+  file("SHA256" "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "a0b36cd68586cd79966d0106bb2e5a4f5523327867995fd66bee4237062b3e3b")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS "SHA256 hash of
-    /home/nick/dl/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz
+    /home/nick/git/Src-Arc/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz
   does not match expected value
     expected: 'a0b36cd68586cd79966d0106bb2e5a4f5523327867995fd66bee4237062b3e3b'
       actual: '${actual_value}'")
@@ -71,7 +71,7 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if("/home/nick/dl/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz" STREQUAL "")
+if("/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz" STREQUAL "")
   message(FATAL_ERROR "LOCAL can't be empty")
 endif()
 
@@ -79,32 +79,32 @@ if("https://github.com/luarocks/luarocks/archive/v3.9.2.tar.gz" STREQUAL "")
   message(FATAL_ERROR "REMOTE can't be empty")
 endif()
 
-if(EXISTS "/home/nick/dl/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz")
+if(EXISTS "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='/home/nick/dl/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz'
+  file='/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz'
   SHA256='a0b36cd68586cd79966d0106bb2e5a4f5523327867995fd66bee4237062b3e3b'"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "/home/nick/dl/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz")
+      file(REMOVE "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='/home/nick/dl/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz'
+  file='/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "/home/nick/dl/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz")
+    file(REMOVE "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='/home/nick/dl/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz'
+   dst='/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz'
    timeout='none'
    inactivity timeout='none'"
 )
@@ -126,7 +126,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "/home/nick/dl/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz"
+        "${url}" "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz"
         
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -143,7 +143,7 @@ foreach(i RANGE ${retry_number})
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
           message(STATUS "Hash mismatch, removing...")
-          file(REMOVE "/home/nick/dl/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz")
+          file(REMOVE "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luarocks/v3.9.2.tar.gz")
         else()
           message(STATUS "Downloading... done")
           return()

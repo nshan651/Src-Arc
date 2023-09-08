@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/treesitter"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/treesitter"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/treesitter.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/treesitter.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-complete.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/treesitter-complete.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-stamp/treesitter-build.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/treesitter-build.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-stamp/treesitter-configure.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/treesitter-configure.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-stamp/treesitter-download.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/treesitter-download.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-stamp/treesitter-install.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/treesitter-install.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-stamp/treesitter-mkdir.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/treesitter-mkdir.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-stamp/treesitter-patch.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/treesitter-patch.rule"
 		},
 		{
-			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-stamp/treesitter-update.rule"
+			"file" : "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/treesitter-update.rule"
 		}
 	],
 	"target" : 

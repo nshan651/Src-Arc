@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/.deps/build/src/libtermkey
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps/build/src/libtermkey-build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/termkey.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/termkey.dir/progress.make
 include CMakeFiles/termkey.dir/flags.make
 
 CMakeFiles/termkey.dir/termkey.c.o: CMakeFiles/termkey.dir/flags.make
-CMakeFiles/termkey.dir/termkey.c.o: /home/nick/dl/neovim/.deps/build/src/libtermkey/termkey.c
+CMakeFiles/termkey.dir/termkey.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/termkey.c
 CMakeFiles/termkey.dir/termkey.c.o: CMakeFiles/termkey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/libtermkey-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/termkey.dir/termkey.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/termkey.dir/termkey.c.o -MF CMakeFiles/termkey.dir/termkey.c.o.d -o CMakeFiles/termkey.dir/termkey.c.o -c /home/nick/dl/neovim/.deps/build/src/libtermkey/termkey.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/termkey.dir/termkey.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/termkey.dir/termkey.c.o -MF CMakeFiles/termkey.dir/termkey.c.o.d -o CMakeFiles/termkey.dir/termkey.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/termkey.c
 
 CMakeFiles/termkey.dir/termkey.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/termkey.dir/termkey.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/libtermkey/termkey.c > CMakeFiles/termkey.dir/termkey.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/termkey.c > CMakeFiles/termkey.dir/termkey.c.i
 
 CMakeFiles/termkey.dir/termkey.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/termkey.dir/termkey.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/libtermkey/termkey.c -o CMakeFiles/termkey.dir/termkey.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/termkey.c -o CMakeFiles/termkey.dir/termkey.c.s
 
 CMakeFiles/termkey.dir/driver-csi.c.o: CMakeFiles/termkey.dir/flags.make
-CMakeFiles/termkey.dir/driver-csi.c.o: /home/nick/dl/neovim/.deps/build/src/libtermkey/driver-csi.c
+CMakeFiles/termkey.dir/driver-csi.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/driver-csi.c
 CMakeFiles/termkey.dir/driver-csi.c.o: CMakeFiles/termkey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/libtermkey-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/termkey.dir/driver-csi.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/termkey.dir/driver-csi.c.o -MF CMakeFiles/termkey.dir/driver-csi.c.o.d -o CMakeFiles/termkey.dir/driver-csi.c.o -c /home/nick/dl/neovim/.deps/build/src/libtermkey/driver-csi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/termkey.dir/driver-csi.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/termkey.dir/driver-csi.c.o -MF CMakeFiles/termkey.dir/driver-csi.c.o.d -o CMakeFiles/termkey.dir/driver-csi.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/driver-csi.c
 
 CMakeFiles/termkey.dir/driver-csi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/termkey.dir/driver-csi.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/libtermkey/driver-csi.c > CMakeFiles/termkey.dir/driver-csi.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/driver-csi.c > CMakeFiles/termkey.dir/driver-csi.c.i
 
 CMakeFiles/termkey.dir/driver-csi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/termkey.dir/driver-csi.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/libtermkey/driver-csi.c -o CMakeFiles/termkey.dir/driver-csi.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/driver-csi.c -o CMakeFiles/termkey.dir/driver-csi.c.s
 
 CMakeFiles/termkey.dir/driver-ti.c.o: CMakeFiles/termkey.dir/flags.make
-CMakeFiles/termkey.dir/driver-ti.c.o: /home/nick/dl/neovim/.deps/build/src/libtermkey/driver-ti.c
+CMakeFiles/termkey.dir/driver-ti.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/driver-ti.c
 CMakeFiles/termkey.dir/driver-ti.c.o: CMakeFiles/termkey.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/libtermkey-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/termkey.dir/driver-ti.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/termkey.dir/driver-ti.c.o -MF CMakeFiles/termkey.dir/driver-ti.c.o.d -o CMakeFiles/termkey.dir/driver-ti.c.o -c /home/nick/dl/neovim/.deps/build/src/libtermkey/driver-ti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/termkey.dir/driver-ti.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/termkey.dir/driver-ti.c.o -MF CMakeFiles/termkey.dir/driver-ti.c.o.d -o CMakeFiles/termkey.dir/driver-ti.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/driver-ti.c
 
 CMakeFiles/termkey.dir/driver-ti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/termkey.dir/driver-ti.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/libtermkey/driver-ti.c > CMakeFiles/termkey.dir/driver-ti.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/driver-ti.c > CMakeFiles/termkey.dir/driver-ti.c.i
 
 CMakeFiles/termkey.dir/driver-ti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/termkey.dir/driver-ti.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/libtermkey/driver-ti.c -o CMakeFiles/termkey.dir/driver-ti.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/driver-ti.c -o CMakeFiles/termkey.dir/driver-ti.c.s
 
 # Object files for target termkey
 termkey_OBJECTS = \
@@ -125,7 +125,7 @@ libtermkey.a: CMakeFiles/termkey.dir/driver-csi.c.o
 libtermkey.a: CMakeFiles/termkey.dir/driver-ti.c.o
 libtermkey.a: CMakeFiles/termkey.dir/build.make
 libtermkey.a: CMakeFiles/termkey.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/dl/neovim/.deps/build/src/libtermkey-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libtermkey.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library libtermkey.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/termkey.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/termkey.dir/link.txt --verbose=$(VERBOSE)
 
@@ -138,6 +138,6 @@ CMakeFiles/termkey.dir/clean:
 .PHONY : CMakeFiles/termkey.dir/clean
 
 CMakeFiles/termkey.dir/depend:
-	cd /home/nick/dl/neovim/.deps/build/src/libtermkey-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/.deps/build/src/libtermkey /home/nick/dl/neovim/.deps/build/src/libtermkey /home/nick/dl/neovim/.deps/build/src/libtermkey-build /home/nick/dl/neovim/.deps/build/src/libtermkey-build /home/nick/dl/neovim/.deps/build/src/libtermkey-build/CMakeFiles/termkey.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build/CMakeFiles/termkey.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/termkey.dir/depend
 

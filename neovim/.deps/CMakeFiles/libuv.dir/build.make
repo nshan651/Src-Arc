@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/cmake.deps
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/cmake.deps
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps
 
 # Utility rule file for libuv.
 
@@ -76,53 +76,53 @@ CMakeFiles/libuv-complete: build/src/libuv-stamp/libuv-patch
 CMakeFiles/libuv-complete: build/src/libuv-stamp/libuv-configure
 CMakeFiles/libuv-complete: build/src/libuv-stamp/libuv-build
 CMakeFiles/libuv-complete: build/src/libuv-stamp/libuv-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libuv'"
-	/usr/bin/cmake -E make_directory /home/nick/dl/neovim/.deps/CMakeFiles
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/CMakeFiles/libuv-complete
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libuv-stamp/libuv-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libuv'"
+	/usr/bin/cmake -E make_directory /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/libuv-complete
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-stamp/libuv-done
 
 build/src/libuv-stamp/libuv-build: build/src/libuv-stamp/libuv-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'libuv'"
-	cd /home/nick/dl/neovim/.deps/build/src/libuv-build && $(MAKE)
-	cd /home/nick/dl/neovim/.deps/build/src/libuv-build && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libuv-stamp/libuv-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'libuv'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-build && $(MAKE)
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-build && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-stamp/libuv-build
 
 build/src/libuv-stamp/libuv-configure: build/tmp/libuv-cfgcmd.txt
 build/src/libuv-stamp/libuv-configure: build/tmp/libuv-cache-RelWithDebInfo.cmake
 build/src/libuv-stamp/libuv-configure: build/src/libuv-stamp/libuv-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'libuv'"
-	cd /home/nick/dl/neovim/.deps/build/src/libuv-build && /usr/bin/cmake -D CMAKE_C_COMPILER=/usr/bin/cc -D CMAKE_C_STANDARD=99 -D "CMAKE_GENERATOR=Unix Makefiles" -D CMAKE_GENERATOR_PLATFORM= -D CMAKE_POSITION_INDEPENDENT_CODE=ON -D CMAKE_BUILD_TYPE=RelWithDebInfo -D CMAKE_INSTALL_PREFIX=/home/nick/dl/neovim/.deps/usr -D CMAKE_INSTALL_LIBDIR=lib -D BUILD_TESTING=OFF -D LIBUV_BUILD_SHARED=OFF "-GUnix Makefiles" -C/home/nick/dl/neovim/.deps/build/tmp/libuv-cache-RelWithDebInfo.cmake -S /home/nick/dl/neovim/.deps/build/src/libuv -B /home/nick/dl/neovim/.deps/build/src/libuv-build
-	cd /home/nick/dl/neovim/.deps/build/src/libuv-build && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libuv-stamp/libuv-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'libuv'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-build && /usr/bin/cmake -D CMAKE_C_COMPILER=/usr/bin/cc -D CMAKE_C_STANDARD=99 -D "CMAKE_GENERATOR=Unix Makefiles" -D CMAKE_GENERATOR_PLATFORM= -D CMAKE_POSITION_INDEPENDENT_CODE=ON -D CMAKE_BUILD_TYPE=RelWithDebInfo -D CMAKE_INSTALL_PREFIX=/home/nick/git/Src-Arc/neovim/.deps/usr -D CMAKE_INSTALL_LIBDIR=lib -D BUILD_TESTING=OFF -D LIBUV_BUILD_SHARED=OFF "-GUnix Makefiles" -C/home/nick/git/Src-Arc/neovim/.deps/build/tmp/libuv-cache-RelWithDebInfo.cmake -S /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv -B /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-build
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-build && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-stamp/libuv-configure
 
 build/src/libuv-stamp/libuv-download: build/src/libuv-stamp/download-libuv.cmake
 build/src/libuv-stamp/libuv-download: build/src/libuv-stamp/libuv-urlinfo.txt
 build/src/libuv-stamp/libuv-download: build/src/libuv-stamp/libuv-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'libuv'"
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/libuv-stamp/download-libuv.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/libuv-stamp/verify-libuv.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/libuv-stamp/extract-libuv.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libuv-stamp/libuv-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'libuv'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-stamp/download-libuv.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-stamp/verify-libuv.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-stamp/extract-libuv.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-stamp/libuv-download
 
 build/src/libuv-stamp/libuv-install: build/src/libuv-stamp/libuv-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'libuv'"
-	cd /home/nick/dl/neovim/.deps/build/src/libuv-build && $(MAKE) install
-	cd /home/nick/dl/neovim/.deps/build/src/libuv-build && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libuv-stamp/libuv-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'libuv'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-build && $(MAKE) install
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-build && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-stamp/libuv-install
 
 build/src/libuv-stamp/libuv-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'libuv'"
-	/usr/bin/cmake -Dcfgdir= -P /home/nick/dl/neovim/.deps/build/tmp/libuv-mkdirs.cmake
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libuv-stamp/libuv-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'libuv'"
+	/usr/bin/cmake -Dcfgdir= -P /home/nick/git/Src-Arc/neovim/.deps/build/tmp/libuv-mkdirs.cmake
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-stamp/libuv-mkdir
 
 build/src/libuv-stamp/libuv-patch: build/src/libuv-stamp/libuv-patch-info.txt
 build/src/libuv-stamp/libuv-patch: build/src/libuv-stamp/libuv-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'libuv'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'libuv'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libuv-stamp/libuv-patch
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-stamp/libuv-patch
 
 build/src/libuv-stamp/libuv-update: build/src/libuv-stamp/libuv-update-info.txt
 build/src/libuv-stamp/libuv-update: build/src/libuv-stamp/libuv-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'libuv'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'libuv'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libuv-stamp/libuv-update
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-stamp/libuv-update
 
 libuv: CMakeFiles/libuv
 libuv: CMakeFiles/libuv-complete
@@ -145,6 +145,6 @@ CMakeFiles/libuv.dir/clean:
 .PHONY : CMakeFiles/libuv.dir/clean
 
 CMakeFiles/libuv.dir/depend:
-	cd /home/nick/dl/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps/CMakeFiles/libuv.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/libuv.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/libuv.dir/depend
 

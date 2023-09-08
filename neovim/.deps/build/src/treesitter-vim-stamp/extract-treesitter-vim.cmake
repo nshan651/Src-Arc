@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "/home/nick/dl/neovim/.deps/build/downloads/treesitter-vim/v0.3.0.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/nick/dl/neovim/.deps/build/src/treesitter-vim" ABSOLUTE)
+get_filename_component(filename "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/treesitter-vim/v0.3.0.tar.gz" ABSOLUTE)
+get_filename_component(directory "/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-vim" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

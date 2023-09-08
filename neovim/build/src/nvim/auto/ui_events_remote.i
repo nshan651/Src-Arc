@@ -1,9 +1,9 @@
-# 0 "/home/nick/dl/neovim/build/src/nvim/auto/ui_events_remote.generated.h"
+# 0 "/home/nick/git/Src-Arc/neovim/build/src/nvim/auto/ui_events_remote.generated.h"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/nick/dl/neovim/build/src/nvim/auto/ui_events_remote.generated.h"
+# 1 "/home/nick/git/Src-Arc/neovim/build/src/nvim/auto/ui_events_remote.generated.h"
 void remote_ui_mode_info_set(UI *ui, Boolean enabled, Array cursor_styles)
 {
   UIData *data = ui->data;

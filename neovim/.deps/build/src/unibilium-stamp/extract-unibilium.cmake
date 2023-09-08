@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION 3.5)
 
 # Make file names absolute:
 #
-get_filename_component(filename "/home/nick/dl/neovim/.deps/build/downloads/unibilium/d72c3598e7ac5d1ebf86ee268b8b4ed95c0fa628.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/nick/dl/neovim/.deps/build/src/unibilium" ABSOLUTE)
+get_filename_component(filename "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/unibilium/d72c3598e7ac5d1ebf86ee268b8b4ed95c0fa628.tar.gz" ABSOLUTE)
+get_filename_component(directory "/home/nick/git/Src-Arc/neovim/.deps/build/src/unibilium" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

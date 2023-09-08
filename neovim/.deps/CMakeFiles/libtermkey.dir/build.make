@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/cmake.deps
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/cmake.deps
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps
 
 # Utility rule file for libtermkey.
 
@@ -76,53 +76,53 @@ CMakeFiles/libtermkey-complete: build/src/libtermkey-stamp/libtermkey-patch
 CMakeFiles/libtermkey-complete: build/src/libtermkey-stamp/libtermkey-configure
 CMakeFiles/libtermkey-complete: build/src/libtermkey-stamp/libtermkey-build
 CMakeFiles/libtermkey-complete: build/src/libtermkey-stamp/libtermkey-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libtermkey'"
-	/usr/bin/cmake -E make_directory /home/nick/dl/neovim/.deps/CMakeFiles
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/CMakeFiles/libtermkey-complete
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libtermkey'"
+	/usr/bin/cmake -E make_directory /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/libtermkey-complete
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/libtermkey-done
 
 build/src/libtermkey-stamp/libtermkey-build: build/src/libtermkey-stamp/libtermkey-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'libtermkey'"
-	cd /home/nick/dl/neovim/.deps/build/src/libtermkey-build && $(MAKE)
-	cd /home/nick/dl/neovim/.deps/build/src/libtermkey-build && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'libtermkey'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build && $(MAKE)
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/libtermkey-build
 
 build/src/libtermkey-stamp/libtermkey-configure: build/tmp/libtermkey-cfgcmd.txt
 build/src/libtermkey-stamp/libtermkey-configure: build/tmp/libtermkey-cache-RelWithDebInfo.cmake
 build/src/libtermkey-stamp/libtermkey-configure: build/src/libtermkey-stamp/libtermkey-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'libtermkey'"
-	cd /home/nick/dl/neovim/.deps/build/src/libtermkey-build && /usr/bin/cmake -D CMAKE_C_COMPILER=/usr/bin/cc -D CMAKE_C_STANDARD=99 -D "CMAKE_GENERATOR=Unix Makefiles" -D CMAKE_GENERATOR_PLATFORM= -D CMAKE_POSITION_INDEPENDENT_CODE=ON -D CMAKE_BUILD_TYPE=RelWithDebInfo -D CMAKE_INSTALL_PREFIX=/home/nick/dl/neovim/.deps/usr -D CMAKE_SHARED_LIBRARY_LINK_C_FLAGS=\"\" -D UNIBILIUM_INCLUDE_DIRS=/home/nick/dl/neovim/.deps/usr/include -D UNIBILIUM_LIBRARIES=/home/nick/dl/neovim/.deps/usr/lib/libunibilium.a "-GUnix Makefiles" -C/home/nick/dl/neovim/.deps/build/tmp/libtermkey-cache-RelWithDebInfo.cmake -S /home/nick/dl/neovim/.deps/build/src/libtermkey -B /home/nick/dl/neovim/.deps/build/src/libtermkey-build
-	cd /home/nick/dl/neovim/.deps/build/src/libtermkey-build && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'libtermkey'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build && /usr/bin/cmake -D CMAKE_C_COMPILER=/usr/bin/cc -D CMAKE_C_STANDARD=99 -D "CMAKE_GENERATOR=Unix Makefiles" -D CMAKE_GENERATOR_PLATFORM= -D CMAKE_POSITION_INDEPENDENT_CODE=ON -D CMAKE_BUILD_TYPE=RelWithDebInfo -D CMAKE_INSTALL_PREFIX=/home/nick/git/Src-Arc/neovim/.deps/usr -D CMAKE_SHARED_LIBRARY_LINK_C_FLAGS=\"\" -D UNIBILIUM_INCLUDE_DIRS=/home/nick/git/Src-Arc/neovim/.deps/usr/include -D UNIBILIUM_LIBRARIES=/home/nick/git/Src-Arc/neovim/.deps/usr/lib/libunibilium.a "-GUnix Makefiles" -C/home/nick/git/Src-Arc/neovim/.deps/build/tmp/libtermkey-cache-RelWithDebInfo.cmake -S /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey -B /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/libtermkey-configure
 
 build/src/libtermkey-stamp/libtermkey-download: build/src/libtermkey-stamp/download-libtermkey.cmake
 build/src/libtermkey-stamp/libtermkey-download: build/src/libtermkey-stamp/libtermkey-urlinfo.txt
 build/src/libtermkey-stamp/libtermkey-download: build/src/libtermkey-stamp/libtermkey-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'libtermkey'"
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/download-libtermkey.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/verify-libtermkey.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/extract-libtermkey.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'libtermkey'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/download-libtermkey.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/verify-libtermkey.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/extract-libtermkey.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/libtermkey-download
 
 build/src/libtermkey-stamp/libtermkey-install: build/src/libtermkey-stamp/libtermkey-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'libtermkey'"
-	cd /home/nick/dl/neovim/.deps/build/src/libtermkey-build && $(MAKE) install
-	cd /home/nick/dl/neovim/.deps/build/src/libtermkey-build && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'libtermkey'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build && $(MAKE) install
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-build && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/libtermkey-install
 
 build/src/libtermkey-stamp/libtermkey-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'libtermkey'"
-	/usr/bin/cmake -Dcfgdir= -P /home/nick/dl/neovim/.deps/build/tmp/libtermkey-mkdirs.cmake
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'libtermkey'"
+	/usr/bin/cmake -Dcfgdir= -P /home/nick/git/Src-Arc/neovim/.deps/build/tmp/libtermkey-mkdirs.cmake
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/libtermkey-mkdir
 
 build/src/libtermkey-stamp/libtermkey-patch: build/src/libtermkey-stamp/libtermkey-patch-info.txt
 build/src/libtermkey-stamp/libtermkey-patch: build/src/libtermkey-stamp/libtermkey-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing patch step for 'libtermkey'"
-	cd /home/nick/dl/neovim/.deps/build/src/libtermkey && /usr/bin/cmake -E copy /home/nick/dl/neovim/cmake.deps/cmake/LibtermkeyCMakeLists.txt /home/nick/dl/neovim/.deps/build/src/libtermkey/CMakeLists.txt
-	cd /home/nick/dl/neovim/.deps/build/src/libtermkey && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing patch step for 'libtermkey'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey && /usr/bin/cmake -E copy /home/nick/git/Src-Arc/neovim/cmake.deps/cmake/LibtermkeyCMakeLists.txt /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/CMakeLists.txt
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/libtermkey-patch
 
 build/src/libtermkey-stamp/libtermkey-update: build/src/libtermkey-stamp/libtermkey-update-info.txt
 build/src/libtermkey-stamp/libtermkey-update: build/src/libtermkey-stamp/libtermkey-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'libtermkey'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'libtermkey'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-update
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey-stamp/libtermkey-update
 
 libtermkey: CMakeFiles/libtermkey
 libtermkey: CMakeFiles/libtermkey-complete
@@ -145,6 +145,6 @@ CMakeFiles/libtermkey.dir/clean:
 .PHONY : CMakeFiles/libtermkey.dir/clean
 
 CMakeFiles/libtermkey.dir/depend:
-	cd /home/nick/dl/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps/CMakeFiles/libtermkey.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/libtermkey.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/libtermkey.dir/depend
 

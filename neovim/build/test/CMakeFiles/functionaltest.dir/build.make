@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 # Utility rule file for functionaltest.
 
@@ -74,7 +74,7 @@ test/CMakeFiles/functionaltest: bin/pwsh-test
 test/CMakeFiles/functionaltest: bin/streams-test
 test/CMakeFiles/functionaltest: bin/tty-test
 test/CMakeFiles/functionaltest: runtime/doc/tags
-	cd /home/nick/dl/neovim/build/test && /usr/bin/cmake -D BUSTED_PRG=/home/nick/dl/neovim/.deps/usr/bin/busted -D NVIM_PRG=/home/nick/dl/neovim/build/bin/nvim -D WORKING_DIR=/home/nick/dl/neovim -D BUSTED_OUTPUT_TYPE=nvim -D TEST_DIR=/home/nick/dl/neovim/test -D BUILD_DIR=/home/nick/dl/neovim/build -D DEPS_PREFIX=/home/nick/dl/neovim/.deps/usr -D TEST_TYPE=functional -D CIRRUS_CI= -D CI_BUILD=OFF -P /home/nick/dl/neovim/cmake/RunTests.cmake
+	cd /home/nick/git/Src-Arc/neovim/build/test && /usr/bin/cmake -D BUSTED_PRG=/home/nick/git/Src-Arc/neovim/.deps/usr/bin/busted -D NVIM_PRG=/home/nick/git/Src-Arc/neovim/build/bin/nvim -D WORKING_DIR=/home/nick/git/Src-Arc/neovim -D BUSTED_OUTPUT_TYPE=nvim -D TEST_DIR=/home/nick/git/Src-Arc/neovim/test -D BUILD_DIR=/home/nick/git/Src-Arc/neovim/build -D DEPS_PREFIX=/home/nick/git/Src-Arc/neovim/.deps/usr -D TEST_TYPE=functional -D CIRRUS_CI= -D CI_BUILD=OFF -P /home/nick/git/Src-Arc/neovim/cmake/RunTests.cmake
 
 functionaltest: test/CMakeFiles/functionaltest
 functionaltest: test/CMakeFiles/functionaltest.dir/build.make
@@ -85,10 +85,10 @@ test/CMakeFiles/functionaltest.dir/build: functionaltest
 .PHONY : test/CMakeFiles/functionaltest.dir/build
 
 test/CMakeFiles/functionaltest.dir/clean:
-	cd /home/nick/dl/neovim/build/test && $(CMAKE_COMMAND) -P CMakeFiles/functionaltest.dir/cmake_clean.cmake
+	cd /home/nick/git/Src-Arc/neovim/build/test && $(CMAKE_COMMAND) -P CMakeFiles/functionaltest.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/functionaltest.dir/clean
 
 test/CMakeFiles/functionaltest.dir/depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim /home/nick/dl/neovim/test /home/nick/dl/neovim/build /home/nick/dl/neovim/build/test /home/nick/dl/neovim/build/test/CMakeFiles/functionaltest.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim/test /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build/test /home/nick/git/Src-Arc/neovim/build/test/CMakeFiles/functionaltest.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/CMakeFiles/functionaltest.dir/depend
 

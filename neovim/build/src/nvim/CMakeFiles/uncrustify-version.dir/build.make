@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 # Utility rule file for uncrustify-version.
 
@@ -67,7 +67,7 @@ include src/nvim/CMakeFiles/uncrustify-version.dir/compiler_depend.make
 include src/nvim/CMakeFiles/uncrustify-version.dir/progress.make
 
 src/nvim/CMakeFiles/uncrustify-version:
-	cd /home/nick/dl/neovim/build/src/nvim && /usr/bin/cmake -D UNCRUSTIFY_PRG=UNCRUSTIFY_PRG-NOTFOUND -D CONFIG_FILE=/home/nick/dl/neovim/src/uncrustify.cfg -P /home/nick/dl/neovim/cmake/CheckUncrustifyVersion.cmake
+	cd /home/nick/git/Src-Arc/neovim/build/src/nvim && /usr/bin/cmake -D UNCRUSTIFY_PRG=UNCRUSTIFY_PRG-NOTFOUND -D CONFIG_FILE=/home/nick/git/Src-Arc/neovim/src/uncrustify.cfg -P /home/nick/git/Src-Arc/neovim/cmake/CheckUncrustifyVersion.cmake
 
 uncrustify-version: src/nvim/CMakeFiles/uncrustify-version
 uncrustify-version: src/nvim/CMakeFiles/uncrustify-version.dir/build.make
@@ -78,10 +78,10 @@ src/nvim/CMakeFiles/uncrustify-version.dir/build: uncrustify-version
 .PHONY : src/nvim/CMakeFiles/uncrustify-version.dir/build
 
 src/nvim/CMakeFiles/uncrustify-version.dir/clean:
-	cd /home/nick/dl/neovim/build/src/nvim && $(CMAKE_COMMAND) -P CMakeFiles/uncrustify-version.dir/cmake_clean.cmake
+	cd /home/nick/git/Src-Arc/neovim/build/src/nvim && $(CMAKE_COMMAND) -P CMakeFiles/uncrustify-version.dir/cmake_clean.cmake
 .PHONY : src/nvim/CMakeFiles/uncrustify-version.dir/clean
 
 src/nvim/CMakeFiles/uncrustify-version.dir/depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim /home/nick/dl/neovim/src/nvim /home/nick/dl/neovim/build /home/nick/dl/neovim/build/src/nvim /home/nick/dl/neovim/build/src/nvim/CMakeFiles/uncrustify-version.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim/src/nvim /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build/src/nvim /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/uncrustify-version.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/nvim/CMakeFiles/uncrustify-version.dir/depend
 

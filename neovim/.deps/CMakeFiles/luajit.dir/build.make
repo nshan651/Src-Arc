@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/cmake.deps
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/cmake.deps
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps
 
 # Utility rule file for luajit.
 
@@ -76,52 +76,52 @@ CMakeFiles/luajit-complete: build/src/luajit-stamp/luajit-patch
 CMakeFiles/luajit-complete: build/src/luajit-stamp/luajit-configure
 CMakeFiles/luajit-complete: build/src/luajit-stamp/luajit-build
 CMakeFiles/luajit-complete: build/src/luajit-stamp/luajit-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'luajit'"
-	/usr/bin/cmake -E make_directory /home/nick/dl/neovim/.deps/CMakeFiles
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/CMakeFiles/luajit-complete
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luajit-stamp/luajit-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'luajit'"
+	/usr/bin/cmake -E make_directory /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/luajit-complete
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit-stamp/luajit-done
 
 build/src/luajit-stamp/luajit-build: build/src/luajit-stamp/luajit-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'luajit'"
-	cd /home/nick/dl/neovim/.deps/build/src/luajit && /usr/bin/cmake -E echo_append
-	cd /home/nick/dl/neovim/.deps/build/src/luajit && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luajit-stamp/luajit-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'luajit'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit && /usr/bin/cmake -E echo_append
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit-stamp/luajit-build
 
 build/src/luajit-stamp/luajit-configure: build/tmp/luajit-cfgcmd.txt
 build/src/luajit-stamp/luajit-configure: build/src/luajit-stamp/luajit-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'luajit'"
-	cd /home/nick/dl/neovim/.deps/build/src/luajit && /usr/bin/cmake -E echo_append
-	cd /home/nick/dl/neovim/.deps/build/src/luajit && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luajit-stamp/luajit-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'luajit'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit && /usr/bin/cmake -E echo_append
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit-stamp/luajit-configure
 
 build/src/luajit-stamp/luajit-download: build/src/luajit-stamp/download-luajit.cmake
 build/src/luajit-stamp/luajit-download: build/src/luajit-stamp/luajit-urlinfo.txt
 build/src/luajit-stamp/luajit-download: build/src/luajit-stamp/luajit-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'luajit'"
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/luajit-stamp/download-luajit.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/luajit-stamp/verify-luajit.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/luajit-stamp/extract-luajit.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luajit-stamp/luajit-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'luajit'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit-stamp/download-luajit.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit-stamp/verify-luajit.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit-stamp/extract-luajit.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit-stamp/luajit-download
 
 build/src/luajit-stamp/luajit-install: build/src/luajit-stamp/luajit-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'luajit'"
-	cd /home/nick/dl/neovim/.deps/build/src/luajit && $(MAKE) -j CFLAGS=-fPIC CFLAGS+=-DLUA_USE_APICHECK CFLAGS+=-funwind-tables CCDEBUG+=-g Q= CC=/usr/bin/cc PREFIX=/home/nick/dl/neovim/.deps/usr install
-	cd /home/nick/dl/neovim/.deps/build/src/luajit && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luajit-stamp/luajit-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'luajit'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit && $(MAKE) -j CFLAGS=-fPIC CFLAGS+=-DLUA_USE_APICHECK CFLAGS+=-funwind-tables CCDEBUG+=-g Q= CC=/usr/bin/cc PREFIX=/home/nick/git/Src-Arc/neovim/.deps/usr install
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit-stamp/luajit-install
 
 build/src/luajit-stamp/luajit-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'luajit'"
-	/usr/bin/cmake -Dcfgdir= -P /home/nick/dl/neovim/.deps/build/tmp/luajit-mkdirs.cmake
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luajit-stamp/luajit-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'luajit'"
+	/usr/bin/cmake -Dcfgdir= -P /home/nick/git/Src-Arc/neovim/.deps/build/tmp/luajit-mkdirs.cmake
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit-stamp/luajit-mkdir
 
 build/src/luajit-stamp/luajit-patch: build/src/luajit-stamp/luajit-patch-info.txt
 build/src/luajit-stamp/luajit-patch: build/src/luajit-stamp/luajit-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'luajit'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'luajit'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luajit-stamp/luajit-patch
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit-stamp/luajit-patch
 
 build/src/luajit-stamp/luajit-update: build/src/luajit-stamp/luajit-update-info.txt
 build/src/luajit-stamp/luajit-update: build/src/luajit-stamp/luajit-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'luajit'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'luajit'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luajit-stamp/luajit-update
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luajit-stamp/luajit-update
 
 luajit: CMakeFiles/luajit
 luajit: CMakeFiles/luajit-complete
@@ -144,6 +144,6 @@ CMakeFiles/luajit.dir/clean:
 .PHONY : CMakeFiles/luajit.dir/clean
 
 CMakeFiles/luajit.dir/depend:
-	cd /home/nick/dl/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps/CMakeFiles/luajit.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/luajit.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/luajit.dir/depend
 

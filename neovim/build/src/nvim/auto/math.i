@@ -1,9 +1,9 @@
-# 0 "/home/nick/dl/neovim/src/nvim/math.c"
+# 0 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/nick/dl/neovim/src/nvim/math.c"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c"
 
 
 
@@ -3377,7 +3377,7 @@ extern int __iscanonicall (long double __x)
 # 1056 "/usr/include/math.h" 2 3 4
 # 1472 "/usr/include/math.h" 3 4
 
-# 6 "/home/nick/dl/neovim/src/nvim/math.c" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c" 2
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 1 3 4
 # 9 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 3 4
@@ -3450,7 +3450,7 @@ typedef unsigned long int uintptr_t;
 typedef __intmax_t intmax_t;
 typedef __uintmax_t uintmax_t;
 # 10 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 2 3 4
-# 8 "/home/nick/dl/neovim/src/nvim/math.c" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c" 2
 # 1 "/usr/include/string.h" 1 3 4
 # 26 "/usr/include/string.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
@@ -3828,17 +3828,17 @@ extern void *memfrob (void *__s, size_t __n) __attribute__ ((__nothrow__ , __lea
 extern char *basename (const char *__filename) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
 # 552 "/usr/include/string.h" 3 4
 
-# 9 "/home/nick/dl/neovim/src/nvim/math.c" 2
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/math.h" 1
-# 11 "/home/nick/dl/neovim/src/nvim/math.c" 2
-
-
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/math.h" 1
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c" 2
 
 
 
 
-# 16 "/home/nick/dl/neovim/src/nvim/math.c"
+
+
+# 16 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c"
 int xfpclassify(double d)
 {
   uint64_t m;
@@ -3851,29 +3851,29 @@ int xfpclassify(double d)
   switch (e) {
   default:
     return 
-# 27 "/home/nick/dl/neovim/src/nvim/math.c" 3 4
+# 27 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c" 3 4
           4
-# 27 "/home/nick/dl/neovim/src/nvim/math.c"
+# 27 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c"
                    ;
   case 0x000:
     return m ? 
-# 29 "/home/nick/dl/neovim/src/nvim/math.c" 3 4
+# 29 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c" 3 4
               3 
-# 29 "/home/nick/dl/neovim/src/nvim/math.c"
+# 29 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c"
                            : 
-# 29 "/home/nick/dl/neovim/src/nvim/math.c" 3 4
+# 29 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c" 3 4
                              2
-# 29 "/home/nick/dl/neovim/src/nvim/math.c"
+# 29 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c"
                                     ;
   case 0x7ff:
     return m ? 
-# 31 "/home/nick/dl/neovim/src/nvim/math.c" 3 4
+# 31 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c" 3 4
               0 
-# 31 "/home/nick/dl/neovim/src/nvim/math.c"
+# 31 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c"
                      : 
-# 31 "/home/nick/dl/neovim/src/nvim/math.c" 3 4
+# 31 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c" 3 4
                        1
-# 31 "/home/nick/dl/neovim/src/nvim/math.c"
+# 31 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c"
                                   ;
   }
 }
@@ -3881,17 +3881,17 @@ int xfpclassify(double d)
 int xisinf(double d)
 {
   return 
-# 37 "/home/nick/dl/neovim/src/nvim/math.c" 3 4
+# 37 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c" 3 4
         1 
-# 37 "/home/nick/dl/neovim/src/nvim/math.c"
+# 37 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c"
                     == xfpclassify(d);
 }
 
 int xisnan(double d)
 {
   return 
-# 42 "/home/nick/dl/neovim/src/nvim/math.c" 3 4
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c" 3 4
         0 
-# 42 "/home/nick/dl/neovim/src/nvim/math.c"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/math.c"
                == xfpclassify(d);
 }

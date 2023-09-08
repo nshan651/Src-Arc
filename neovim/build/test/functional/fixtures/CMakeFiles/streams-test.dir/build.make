@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 # Include any dependencies generated for this target.
 include test/functional/fixtures/CMakeFiles/streams-test.dir/depend.make
@@ -70,18 +70,18 @@ include test/functional/fixtures/CMakeFiles/streams-test.dir/progress.make
 include test/functional/fixtures/CMakeFiles/streams-test.dir/flags.make
 
 test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.o: test/functional/fixtures/CMakeFiles/streams-test.dir/flags.make
-test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.o: /home/nick/dl/neovim/test/functional/fixtures/streams-test.c
+test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.o: /home/nick/git/Src-Arc/neovim/test/functional/fixtures/streams-test.c
 test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.o: test/functional/fixtures/CMakeFiles/streams-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.o"
-	cd /home/nick/dl/neovim/build/test/functional/fixtures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.o -MF CMakeFiles/streams-test.dir/streams-test.c.o.d -o CMakeFiles/streams-test.dir/streams-test.c.o -c /home/nick/dl/neovim/test/functional/fixtures/streams-test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.o"
+	cd /home/nick/git/Src-Arc/neovim/build/test/functional/fixtures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.o -MF CMakeFiles/streams-test.dir/streams-test.c.o.d -o CMakeFiles/streams-test.dir/streams-test.c.o -c /home/nick/git/Src-Arc/neovim/test/functional/fixtures/streams-test.c
 
 test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/streams-test.dir/streams-test.c.i"
-	cd /home/nick/dl/neovim/build/test/functional/fixtures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/test/functional/fixtures/streams-test.c > CMakeFiles/streams-test.dir/streams-test.c.i
+	cd /home/nick/git/Src-Arc/neovim/build/test/functional/fixtures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/test/functional/fixtures/streams-test.c > CMakeFiles/streams-test.dir/streams-test.c.i
 
 test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/streams-test.dir/streams-test.c.s"
-	cd /home/nick/dl/neovim/build/test/functional/fixtures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/test/functional/fixtures/streams-test.c -o CMakeFiles/streams-test.dir/streams-test.c.s
+	cd /home/nick/git/Src-Arc/neovim/build/test/functional/fixtures && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/test/functional/fixtures/streams-test.c -o CMakeFiles/streams-test.dir/streams-test.c.s
 
 # Object files for target streams-test
 streams__test_OBJECTS = \
@@ -92,20 +92,20 @@ streams__test_EXTERNAL_OBJECTS =
 
 bin/streams-test: test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.o
 bin/streams-test: test/functional/fixtures/CMakeFiles/streams-test.dir/build.make
-bin/streams-test: /home/nick/dl/neovim/.deps/usr/lib/libuv.a
+bin/streams-test: /home/nick/git/Src-Arc/neovim/.deps/usr/lib/libuv.a
 bin/streams-test: test/functional/fixtures/CMakeFiles/streams-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../../../bin/streams-test"
-	cd /home/nick/dl/neovim/build/test/functional/fixtures && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/streams-test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ../../../bin/streams-test"
+	cd /home/nick/git/Src-Arc/neovim/build/test/functional/fixtures && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/streams-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/functional/fixtures/CMakeFiles/streams-test.dir/build: bin/streams-test
 .PHONY : test/functional/fixtures/CMakeFiles/streams-test.dir/build
 
 test/functional/fixtures/CMakeFiles/streams-test.dir/clean:
-	cd /home/nick/dl/neovim/build/test/functional/fixtures && $(CMAKE_COMMAND) -P CMakeFiles/streams-test.dir/cmake_clean.cmake
+	cd /home/nick/git/Src-Arc/neovim/build/test/functional/fixtures && $(CMAKE_COMMAND) -P CMakeFiles/streams-test.dir/cmake_clean.cmake
 .PHONY : test/functional/fixtures/CMakeFiles/streams-test.dir/clean
 
 test/functional/fixtures/CMakeFiles/streams-test.dir/depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim /home/nick/dl/neovim/test/functional/fixtures /home/nick/dl/neovim/build /home/nick/dl/neovim/build/test/functional/fixtures /home/nick/dl/neovim/build/test/functional/fixtures/CMakeFiles/streams-test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim/test/functional/fixtures /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build/test/functional/fixtures /home/nick/git/Src-Arc/neovim/build/test/functional/fixtures/CMakeFiles/streams-test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : test/functional/fixtures/CMakeFiles/streams-test.dir/depend
 

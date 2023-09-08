@@ -5,7 +5,7 @@ relver=1692716794
 version=${majver}.${minver}.${relver}
 abiver=5.1
 
-prefix=/home/nick/dl/neovim/.deps/usr
+prefix=/home/nick/git/Src-Arc/neovim/.deps/usr
 multilib=lib
 exec_prefix=${prefix}
 libdir=${exec_prefix}/${multilib}

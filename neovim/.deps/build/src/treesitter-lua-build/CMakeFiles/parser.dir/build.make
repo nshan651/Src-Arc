@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/.deps/build/src/treesitter-lua
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps/build/src/treesitter-lua-build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/parser.dir/depend.make
@@ -70,32 +70,32 @@ include CMakeFiles/parser.dir/progress.make
 include CMakeFiles/parser.dir/flags.make
 
 CMakeFiles/parser.dir/src/parser.c.o: CMakeFiles/parser.dir/flags.make
-CMakeFiles/parser.dir/src/parser.c.o: /home/nick/dl/neovim/.deps/build/src/treesitter-lua/src/parser.c
+CMakeFiles/parser.dir/src/parser.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua/src/parser.c
 CMakeFiles/parser.dir/src/parser.c.o: CMakeFiles/parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/treesitter-lua-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/parser.dir/src/parser.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/parser.dir/src/parser.c.o -MF CMakeFiles/parser.dir/src/parser.c.o.d -o CMakeFiles/parser.dir/src/parser.c.o -c /home/nick/dl/neovim/.deps/build/src/treesitter-lua/src/parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/parser.dir/src/parser.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/parser.dir/src/parser.c.o -MF CMakeFiles/parser.dir/src/parser.c.o.d -o CMakeFiles/parser.dir/src/parser.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua/src/parser.c
 
 CMakeFiles/parser.dir/src/parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/parser.dir/src/parser.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/treesitter-lua/src/parser.c > CMakeFiles/parser.dir/src/parser.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua/src/parser.c > CMakeFiles/parser.dir/src/parser.c.i
 
 CMakeFiles/parser.dir/src/parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/parser.dir/src/parser.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/treesitter-lua/src/parser.c -o CMakeFiles/parser.dir/src/parser.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua/src/parser.c -o CMakeFiles/parser.dir/src/parser.c.s
 
 CMakeFiles/parser.dir/src/scanner.c.o: CMakeFiles/parser.dir/flags.make
-CMakeFiles/parser.dir/src/scanner.c.o: /home/nick/dl/neovim/.deps/build/src/treesitter-lua/src/scanner.c
+CMakeFiles/parser.dir/src/scanner.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua/src/scanner.c
 CMakeFiles/parser.dir/src/scanner.c.o: CMakeFiles/parser.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/treesitter-lua-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/parser.dir/src/scanner.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/parser.dir/src/scanner.c.o -MF CMakeFiles/parser.dir/src/scanner.c.o.d -o CMakeFiles/parser.dir/src/scanner.c.o -c /home/nick/dl/neovim/.deps/build/src/treesitter-lua/src/scanner.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/parser.dir/src/scanner.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/parser.dir/src/scanner.c.o -MF CMakeFiles/parser.dir/src/scanner.c.o.d -o CMakeFiles/parser.dir/src/scanner.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua/src/scanner.c
 
 CMakeFiles/parser.dir/src/scanner.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/parser.dir/src/scanner.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/treesitter-lua/src/scanner.c > CMakeFiles/parser.dir/src/scanner.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua/src/scanner.c > CMakeFiles/parser.dir/src/scanner.c.i
 
 CMakeFiles/parser.dir/src/scanner.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/parser.dir/src/scanner.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/treesitter-lua/src/scanner.c -o CMakeFiles/parser.dir/src/scanner.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua/src/scanner.c -o CMakeFiles/parser.dir/src/scanner.c.s
 
 # Object files for target parser
 parser_OBJECTS = \
@@ -109,7 +109,7 @@ lua.so: CMakeFiles/parser.dir/src/parser.c.o
 lua.so: CMakeFiles/parser.dir/src/scanner.c.o
 lua.so: CMakeFiles/parser.dir/build.make
 lua.so: CMakeFiles/parser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/dl/neovim/.deps/build/src/treesitter-lua-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared module lua.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared module lua.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/parser.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/parser.dir/clean:
 .PHONY : CMakeFiles/parser.dir/clean
 
 CMakeFiles/parser.dir/depend:
-	cd /home/nick/dl/neovim/.deps/build/src/treesitter-lua-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/.deps/build/src/treesitter-lua /home/nick/dl/neovim/.deps/build/src/treesitter-lua /home/nick/dl/neovim/.deps/build/src/treesitter-lua-build /home/nick/dl/neovim/.deps/build/src/treesitter-lua-build /home/nick/dl/neovim/.deps/build/src/treesitter-lua-build/CMakeFiles/parser.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua-build /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua-build /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-lua-build/CMakeFiles/parser.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/parser.dir/depend
 

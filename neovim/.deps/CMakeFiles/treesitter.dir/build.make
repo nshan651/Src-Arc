@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/cmake.deps
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/cmake.deps
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps
 
 # Utility rule file for treesitter.
 
@@ -76,53 +76,53 @@ CMakeFiles/treesitter-complete: build/src/treesitter-stamp/treesitter-patch
 CMakeFiles/treesitter-complete: build/src/treesitter-stamp/treesitter-configure
 CMakeFiles/treesitter-complete: build/src/treesitter-stamp/treesitter-build
 CMakeFiles/treesitter-complete: build/src/treesitter-stamp/treesitter-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'treesitter'"
-	/usr/bin/cmake -E make_directory /home/nick/dl/neovim/.deps/CMakeFiles
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/CMakeFiles/treesitter-complete
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/treesitter-stamp/treesitter-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'treesitter'"
+	/usr/bin/cmake -E make_directory /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/treesitter-complete
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/treesitter-done
 
 build/src/treesitter-stamp/treesitter-build: build/src/treesitter-stamp/treesitter-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'treesitter'"
-	cd /home/nick/dl/neovim/.deps/build/src/treesitter-build && $(MAKE)
-	cd /home/nick/dl/neovim/.deps/build/src/treesitter-build && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/treesitter-stamp/treesitter-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'treesitter'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build && $(MAKE)
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/treesitter-build
 
 build/src/treesitter-stamp/treesitter-configure: build/tmp/treesitter-cfgcmd.txt
 build/src/treesitter-stamp/treesitter-configure: build/tmp/treesitter-cache-RelWithDebInfo.cmake
 build/src/treesitter-stamp/treesitter-configure: build/src/treesitter-stamp/treesitter-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'treesitter'"
-	cd /home/nick/dl/neovim/.deps/build/src/treesitter-build && /usr/bin/cmake -D CMAKE_C_COMPILER=/usr/bin/cc -D CMAKE_C_STANDARD=99 -D "CMAKE_GENERATOR=Unix Makefiles" -D CMAKE_GENERATOR_PLATFORM= -D CMAKE_POSITION_INDEPENDENT_CODE=ON -D CMAKE_BUILD_TYPE=RelWithDebInfo -D CMAKE_INSTALL_PREFIX=/home/nick/dl/neovim/.deps/usr "-GUnix Makefiles" -C/home/nick/dl/neovim/.deps/build/tmp/treesitter-cache-RelWithDebInfo.cmake -S /home/nick/dl/neovim/.deps/build/src/treesitter -B /home/nick/dl/neovim/.deps/build/src/treesitter-build
-	cd /home/nick/dl/neovim/.deps/build/src/treesitter-build && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/treesitter-stamp/treesitter-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'treesitter'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build && /usr/bin/cmake -D CMAKE_C_COMPILER=/usr/bin/cc -D CMAKE_C_STANDARD=99 -D "CMAKE_GENERATOR=Unix Makefiles" -D CMAKE_GENERATOR_PLATFORM= -D CMAKE_POSITION_INDEPENDENT_CODE=ON -D CMAKE_BUILD_TYPE=RelWithDebInfo -D CMAKE_INSTALL_PREFIX=/home/nick/git/Src-Arc/neovim/.deps/usr "-GUnix Makefiles" -C/home/nick/git/Src-Arc/neovim/.deps/build/tmp/treesitter-cache-RelWithDebInfo.cmake -S /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter -B /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/treesitter-configure
 
 build/src/treesitter-stamp/treesitter-download: build/src/treesitter-stamp/download-treesitter.cmake
 build/src/treesitter-stamp/treesitter-download: build/src/treesitter-stamp/treesitter-urlinfo.txt
 build/src/treesitter-stamp/treesitter-download: build/src/treesitter-stamp/treesitter-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'treesitter'"
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/treesitter-stamp/download-treesitter.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/treesitter-stamp/verify-treesitter.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/treesitter-stamp/extract-treesitter.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/treesitter-stamp/treesitter-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'treesitter'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/download-treesitter.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/verify-treesitter.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/extract-treesitter.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/treesitter-download
 
 build/src/treesitter-stamp/treesitter-install: build/src/treesitter-stamp/treesitter-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'treesitter'"
-	cd /home/nick/dl/neovim/.deps/build/src/treesitter-build && $(MAKE) install
-	cd /home/nick/dl/neovim/.deps/build/src/treesitter-build && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/treesitter-stamp/treesitter-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'treesitter'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build && $(MAKE) install
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-build && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/treesitter-install
 
 build/src/treesitter-stamp/treesitter-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'treesitter'"
-	/usr/bin/cmake -Dcfgdir= -P /home/nick/dl/neovim/.deps/build/tmp/treesitter-mkdirs.cmake
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/treesitter-stamp/treesitter-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'treesitter'"
+	/usr/bin/cmake -Dcfgdir= -P /home/nick/git/Src-Arc/neovim/.deps/build/tmp/treesitter-mkdirs.cmake
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/treesitter-mkdir
 
 build/src/treesitter-stamp/treesitter-patch: build/src/treesitter-stamp/treesitter-patch-info.txt
 build/src/treesitter-stamp/treesitter-patch: build/src/treesitter-stamp/treesitter-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing patch step for 'treesitter'"
-	cd /home/nick/dl/neovim/.deps/build/src/treesitter && /usr/bin/cmake -E copy /home/nick/dl/neovim/cmake.deps/cmake/TreesitterCMakeLists.txt /home/nick/dl/neovim/.deps/build/src/treesitter/CMakeLists.txt
-	cd /home/nick/dl/neovim/.deps/build/src/treesitter && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/treesitter-stamp/treesitter-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing patch step for 'treesitter'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter && /usr/bin/cmake -E copy /home/nick/git/Src-Arc/neovim/cmake.deps/cmake/TreesitterCMakeLists.txt /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter/CMakeLists.txt
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/treesitter-patch
 
 build/src/treesitter-stamp/treesitter-update: build/src/treesitter-stamp/treesitter-update-info.txt
 build/src/treesitter-stamp/treesitter-update: build/src/treesitter-stamp/treesitter-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'treesitter'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'treesitter'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/treesitter-stamp/treesitter-update
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/treesitter-stamp/treesitter-update
 
 treesitter: CMakeFiles/treesitter
 treesitter: CMakeFiles/treesitter-complete
@@ -145,6 +145,6 @@ CMakeFiles/treesitter.dir/clean:
 .PHONY : CMakeFiles/treesitter.dir/clean
 
 CMakeFiles/treesitter.dir/depend:
-	cd /home/nick/dl/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps/CMakeFiles/treesitter.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/treesitter.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/treesitter.dir/depend
 

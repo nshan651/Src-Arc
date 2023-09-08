@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/cmake.deps
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/cmake.deps
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps
 
 # Utility rule file for luv-static.
 
@@ -76,54 +76,54 @@ CMakeFiles/luv-static-complete: build/src/luv-static-stamp/luv-static-patch
 CMakeFiles/luv-static-complete: build/src/luv-static-stamp/luv-static-configure
 CMakeFiles/luv-static-complete: build/src/luv-static-stamp/luv-static-build
 CMakeFiles/luv-static-complete: build/src/luv-static-stamp/luv-static-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'luv-static'"
-	/usr/bin/cmake -E make_directory /home/nick/dl/neovim/.deps/CMakeFiles
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/CMakeFiles/luv-static-complete
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'luv-static'"
+	/usr/bin/cmake -E make_directory /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/luv-static-complete
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-stamp/luv-static-done
 
 build/src/luv-static-stamp/luv-static-build: build/src/luv-static-stamp/luv-static-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'luv-static'"
-	cd /home/nick/dl/neovim/.deps/build/src/luv-static-build && $(MAKE)
-	cd /home/nick/dl/neovim/.deps/build/src/luv-static-build && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'luv-static'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build && $(MAKE)
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-stamp/luv-static-build
 
 build/src/luv-static-stamp/luv-static-configure: build/src/lua-compat-5.3-stamp/lua-compat-5.3-done
 build/src/luv-static-stamp/luv-static-configure: build/tmp/luv-static-cfgcmd.txt
 build/src/luv-static-stamp/luv-static-configure: build/tmp/luv-static-cache-RelWithDebInfo.cmake
 build/src/luv-static-stamp/luv-static-configure: build/src/luv-static-stamp/luv-static-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'luv-static'"
-	cd /home/nick/dl/neovim/.deps/build/src/luv-static-build && /usr/bin/cmake -D CMAKE_C_COMPILER=/usr/bin/cc -D CMAKE_C_STANDARD=99 -D "CMAKE_GENERATOR=Unix Makefiles" -D CMAKE_GENERATOR_PLATFORM= -D CMAKE_POSITION_INDEPENDENT_CODE=ON -D CMAKE_BUILD_TYPE=RelWithDebInfo -D CMAKE_INSTALL_PREFIX=/home/nick/dl/neovim/.deps/usr -D LUA_BUILD_TYPE=System -D LUA_COMPAT53_DIR=/home/nick/dl/neovim/.deps/build/src/lua-compat-5.3 -D WITH_SHARED_LIBUV=ON -D BUILD_SHARED_LIBS=OFF -D BUILD_STATIC_LIBS=ON -D BUILD_MODULE=OFF -D WITH_LUA_ENGINE=LuaJit -D CMAKE_PREFIX_PATH=/home/nick/dl/neovim/.deps/usr "-DCMAKE_C_FLAGS:STRING=-I/home/nick/dl/neovim/.deps/usr/include -I/home/nick/dl/neovim/.deps/usr/include/luajit-2.1" "-GUnix Makefiles" -C/home/nick/dl/neovim/.deps/build/tmp/luv-static-cache-RelWithDebInfo.cmake -S /home/nick/dl/neovim/.deps/build/src/luv -B /home/nick/dl/neovim/.deps/build/src/luv-static-build
-	cd /home/nick/dl/neovim/.deps/build/src/luv-static-build && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'luv-static'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build && /usr/bin/cmake -D CMAKE_C_COMPILER=/usr/bin/cc -D CMAKE_C_STANDARD=99 -D "CMAKE_GENERATOR=Unix Makefiles" -D CMAKE_GENERATOR_PLATFORM= -D CMAKE_POSITION_INDEPENDENT_CODE=ON -D CMAKE_BUILD_TYPE=RelWithDebInfo -D CMAKE_INSTALL_PREFIX=/home/nick/git/Src-Arc/neovim/.deps/usr -D LUA_BUILD_TYPE=System -D LUA_COMPAT53_DIR=/home/nick/git/Src-Arc/neovim/.deps/build/src/lua-compat-5.3 -D WITH_SHARED_LIBUV=ON -D BUILD_SHARED_LIBS=OFF -D BUILD_STATIC_LIBS=ON -D BUILD_MODULE=OFF -D WITH_LUA_ENGINE=LuaJit -D CMAKE_PREFIX_PATH=/home/nick/git/Src-Arc/neovim/.deps/usr "-DCMAKE_C_FLAGS:STRING=-I/home/nick/git/Src-Arc/neovim/.deps/usr/include -I/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1" "-GUnix Makefiles" -C/home/nick/git/Src-Arc/neovim/.deps/build/tmp/luv-static-cache-RelWithDebInfo.cmake -S /home/nick/git/Src-Arc/neovim/.deps/build/src/luv -B /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-stamp/luv-static-configure
 
 build/src/luv-static-stamp/luv-static-download: build/src/luv-static-stamp/download-luv-static.cmake
 build/src/luv-static-stamp/luv-static-download: build/src/luv-static-stamp/luv-static-urlinfo.txt
 build/src/luv-static-stamp/luv-static-download: build/src/luv-static-stamp/luv-static-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'luv-static'"
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/luv-static-stamp/download-luv-static.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/luv-static-stamp/verify-luv-static.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/luv-static-stamp/extract-luv-static.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'luv-static'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-stamp/download-luv-static.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-stamp/verify-luv-static.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-stamp/extract-luv-static.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-stamp/luv-static-download
 
 build/src/luv-static-stamp/luv-static-install: build/src/luv-static-stamp/luv-static-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'luv-static'"
-	cd /home/nick/dl/neovim/.deps/build/src/luv-static-build && $(MAKE) install
-	cd /home/nick/dl/neovim/.deps/build/src/luv-static-build && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'luv-static'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build && $(MAKE) install
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-build && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-stamp/luv-static-install
 
 build/src/luv-static-stamp/luv-static-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'luv-static'"
-	/usr/bin/cmake -Dcfgdir= -P /home/nick/dl/neovim/.deps/build/tmp/luv-static-mkdirs.cmake
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'luv-static'"
+	/usr/bin/cmake -Dcfgdir= -P /home/nick/git/Src-Arc/neovim/.deps/build/tmp/luv-static-mkdirs.cmake
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-stamp/luv-static-mkdir
 
 build/src/luv-static-stamp/luv-static-patch: build/src/luv-static-stamp/luv-static-patch-info.txt
 build/src/luv-static-stamp/luv-static-patch: build/src/luv-static-stamp/luv-static-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'luv-static'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'luv-static'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-patch
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-stamp/luv-static-patch
 
 build/src/luv-static-stamp/luv-static-update: build/src/luv-static-stamp/luv-static-update-info.txt
 build/src/luv-static-stamp/luv-static-update: build/src/luv-static-stamp/luv-static-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'luv-static'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'luv-static'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-update
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/luv-static-stamp/luv-static-update
 
 luv-static: CMakeFiles/luv-static
 luv-static: CMakeFiles/luv-static-complete
@@ -146,6 +146,6 @@ CMakeFiles/luv-static.dir/clean:
 .PHONY : CMakeFiles/luv-static.dir/clean
 
 CMakeFiles/luv-static.dir/depend:
-	cd /home/nick/dl/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps/CMakeFiles/luv-static.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/luv-static.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/luv-static.dir/depend
 

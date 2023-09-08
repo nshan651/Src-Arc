@@ -7,9 +7,9 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/nick/dl/neovim/build/CMakeFiles/3.27.4/CMakeCCompiler.cmake"
-  "/home/nick/dl/neovim/build/CMakeFiles/3.27.4/CMakeSystem.cmake"
-  "/home/nick/dl/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt"
+  "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/3.27.4/CMakeCCompiler.cmake"
+  "/home/nick/git/Src-Arc/neovim/build/CMakeFiles/3.27.4/CMakeSystem.cmake"
+  "/home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/_CMakeLTOTest-C/src/CMakeLists.txt"
   "/usr/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
   "/usr/share/cmake/Modules/CMakeGenericSystem.cmake"

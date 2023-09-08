@@ -1,8 +1,8 @@
-# Install script for directory: /home/nick/dl/neovim/.deps/build/src/libvterm
+# Install script for directory: /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nick/dl/neovim/.deps/usr")
+  set(CMAKE_INSTALL_PREFIX "/home/nick/git/Src-Arc/neovim/.deps/usr")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,13 +43,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/nick/dl/neovim/.deps/build/src/libvterm-build/libvterm.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/libvterm.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/nick/dl/neovim/.deps/build/src/libvterm/include/vterm.h"
-    "/home/nick/dl/neovim/.deps/build/src/libvterm/include/vterm_keycodes.h"
+    "/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/include/vterm.h"
+    "/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/include/vterm_keycodes.h"
     )
 endif()
 
@@ -60,7 +60,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/unterm"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/nick/dl/neovim/.deps/build/src/libvterm-build/unterm")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/unterm")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/unterm" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/unterm")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -76,7 +76,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/vterm-ctrl"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/nick/dl/neovim/.deps/build/src/libvterm-build/vterm-ctrl")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/vterm-ctrl")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/vterm-ctrl" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/vterm-ctrl")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -92,7 +92,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/vterm-dump"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/nick/dl/neovim/.deps/build/src/libvterm-build/vterm-dump")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/vterm-dump")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/vterm-dump" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/vterm-dump")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -109,5 +109,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nick/dl/neovim/.deps/build/src/libvterm-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

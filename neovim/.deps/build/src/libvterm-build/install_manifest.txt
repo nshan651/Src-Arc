@@ -1,6 +1,6 @@
-/home/nick/dl/neovim/.deps/usr/lib/libvterm.a
-/home/nick/dl/neovim/.deps/usr/include/vterm.h
-/home/nick/dl/neovim/.deps/usr/include/vterm_keycodes.h
-/home/nick/dl/neovim/.deps/usr/bin/unterm
-/home/nick/dl/neovim/.deps/usr/bin/vterm-ctrl
-/home/nick/dl/neovim/.deps/usr/bin/vterm-dump
+/home/nick/git/Src-Arc/neovim/.deps/usr/lib/libvterm.a
+/home/nick/git/Src-Arc/neovim/.deps/usr/include/vterm.h
+/home/nick/git/Src-Arc/neovim/.deps/usr/include/vterm_keycodes.h
+/home/nick/git/Src-Arc/neovim/.deps/usr/bin/unterm
+/home/nick/git/Src-Arc/neovim/.deps/usr/bin/vterm-ctrl
+/home/nick/git/Src-Arc/neovim/.deps/usr/bin/vterm-dump

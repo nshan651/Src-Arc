@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/nick/dl/neovim/.deps/build/src/libuv"
-  "/home/nick/dl/neovim/.deps/build/src/libuv-build"
-  "/home/nick/dl/neovim/.deps/build"
-  "/home/nick/dl/neovim/.deps/build/tmp"
-  "/home/nick/dl/neovim/.deps/build/src/libuv-stamp"
-  "/home/nick/dl/neovim/.deps/build/downloads/libuv"
-  "/home/nick/dl/neovim/.deps/build/src/libuv-stamp"
+  "/home/nick/git/Src-Arc/neovim/.deps/build/src/libuv"
+  "/home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-build"
+  "/home/nick/git/Src-Arc/neovim/.deps/build"
+  "/home/nick/git/Src-Arc/neovim/.deps/build/tmp"
+  "/home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-stamp"
+  "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/libuv"
+  "/home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/nick/dl/neovim/.deps/build/src/libuv-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/nick/dl/neovim/.deps/build/src/libuv-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/nick/git/Src-Arc/neovim/.deps/build/src/libuv-stamp${cfgdir}") # cfgdir has leading slash
 endif()

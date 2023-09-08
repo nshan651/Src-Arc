@@ -22,14 +22,14 @@ function(check_file_hash has_hash hash_is_good)
   set("${has_hash}" TRUE PARENT_SCOPE)
 
   message(STATUS "verifying file...
-       file='/home/nick/dl/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz'")
+       file='/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz'")
 
-  file("SHA256" "/home/nick/dl/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz" actual_value)
+  file("SHA256" "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz" actual_value)
 
   if(NOT "${actual_value}" STREQUAL "97e89940f9eeaa8dfb34f1c19f80dd373299c42719d15228ec790f415d4e4965")
     set("${hash_is_good}" FALSE PARENT_SCOPE)
     message(STATUS "SHA256 hash of
-    /home/nick/dl/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz
+    /home/nick/git/Src-Arc/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz
   does not match expected value
     expected: '97e89940f9eeaa8dfb34f1c19f80dd373299c42719d15228ec790f415d4e4965'
       actual: '${actual_value}'")
@@ -71,7 +71,7 @@ function(sleep_before_download attempt)
   execute_process(COMMAND "${CMAKE_COMMAND}" -E sleep "${sleep_seconds}")
 endfunction()
 
-if("/home/nick/dl/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz" STREQUAL "")
+if("/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz" STREQUAL "")
   message(FATAL_ERROR "LOCAL can't be empty")
 endif()
 
@@ -79,32 +79,32 @@ if("https://github.com/luvit/luv/archive/1.45.0-0.tar.gz" STREQUAL "")
   message(FATAL_ERROR "REMOTE can't be empty")
 endif()
 
-if(EXISTS "/home/nick/dl/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz")
+if(EXISTS "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz")
   check_file_hash(has_hash hash_is_good)
   if(has_hash)
     if(hash_is_good)
       message(STATUS "File already exists and hash match (skip download):
-  file='/home/nick/dl/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz'
+  file='/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz'
   SHA256='97e89940f9eeaa8dfb34f1c19f80dd373299c42719d15228ec790f415d4e4965'"
       )
       return()
     else()
       message(STATUS "File already exists but hash mismatch. Removing...")
-      file(REMOVE "/home/nick/dl/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz")
+      file(REMOVE "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz")
     endif()
   else()
     message(STATUS "File already exists but no hash specified (use URL_HASH):
-  file='/home/nick/dl/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz'
+  file='/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz'
 Old file will be removed and new file downloaded from URL."
     )
-    file(REMOVE "/home/nick/dl/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz")
+    file(REMOVE "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz")
   endif()
 endif()
 
 set(retry_number 5)
 
 message(STATUS "Downloading...
-   dst='/home/nick/dl/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz'
+   dst='/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz'
    timeout='none'
    inactivity timeout='none'"
 )
@@ -126,7 +126,7 @@ foreach(i RANGE ${retry_number})
 
       file(
         DOWNLOAD
-        "${url}" "/home/nick/dl/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz"
+        "${url}" "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz"
         
         # no TIMEOUT
         # no INACTIVITY_TIMEOUT
@@ -143,7 +143,7 @@ foreach(i RANGE ${retry_number})
         check_file_hash(has_hash hash_is_good)
         if(has_hash AND NOT hash_is_good)
           message(STATUS "Hash mismatch, removing...")
-          file(REMOVE "/home/nick/dl/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz")
+          file(REMOVE "/home/nick/git/Src-Arc/neovim/.deps/build/downloads/luv/1.45.0-0.tar.gz")
         else()
           message(STATUS "Downloading... done")
           return()

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/cmake.deps
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/cmake.deps
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -121,14 +121,14 @@ clean: CMakeFiles/treesitter.dir/clean
 CMakeFiles/unibilium.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unibilium.dir/build.make CMakeFiles/unibilium.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unibilium.dir/build.make CMakeFiles/unibilium.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=94,95,96,97,98,99,100 "Built target unibilium"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=94,95,96,97,98,99,100 "Built target unibilium"
 .PHONY : CMakeFiles/unibilium.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/unibilium.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/unibilium.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/unibilium.dir/rule
 
 # Convenience name for target.
@@ -147,14 +147,14 @@ CMakeFiles/unibilium.dir/clean:
 CMakeFiles/libtermkey.dir/all: CMakeFiles/unibilium.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libtermkey.dir/build.make CMakeFiles/libtermkey.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libtermkey.dir/build.make CMakeFiles/libtermkey.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target libtermkey"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target libtermkey"
 .PHONY : CMakeFiles/libtermkey.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/libtermkey.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/libtermkey.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/libtermkey.dir/rule
 
 # Convenience name for target.
@@ -173,14 +173,14 @@ CMakeFiles/libtermkey.dir/clean:
 CMakeFiles/libvterm.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libvterm.dir/build.make CMakeFiles/libvterm.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libvterm.dir/build.make CMakeFiles/libvterm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=14,15,16,17,18,19,20 "Built target libvterm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=14,15,16,17,18,19,20 "Built target libvterm"
 .PHONY : CMakeFiles/libvterm.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/libvterm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/libvterm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/libvterm.dir/rule
 
 # Convenience name for target.
@@ -199,14 +199,14 @@ CMakeFiles/libvterm.dir/clean:
 CMakeFiles/libuv.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libuv.dir/build.make CMakeFiles/libuv.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libuv.dir/build.make CMakeFiles/libuv.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=8,9,10,11,12,13 "Built target libuv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=8,9,10,11,12,13 "Built target libuv"
 .PHONY : CMakeFiles/libuv.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/libuv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/libuv.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/libuv.dir/rule
 
 # Convenience name for target.
@@ -225,14 +225,14 @@ CMakeFiles/libuv.dir/clean:
 CMakeFiles/msgpack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/msgpack.dir/build.make CMakeFiles/msgpack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/msgpack.dir/build.make CMakeFiles/msgpack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=49,50,51,52,53,54 "Built target msgpack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=49,50,51,52,53,54 "Built target msgpack"
 .PHONY : CMakeFiles/msgpack.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/msgpack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/msgpack.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/msgpack.dir/rule
 
 # Convenience name for target.
@@ -251,14 +251,14 @@ CMakeFiles/msgpack.dir/clean:
 CMakeFiles/clean_shared_libraries_msgpack.dir/all: CMakeFiles/msgpack.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_shared_libraries_msgpack.dir/build.make CMakeFiles/clean_shared_libraries_msgpack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_shared_libraries_msgpack.dir/build.make CMakeFiles/clean_shared_libraries_msgpack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num= "Built target clean_shared_libraries_msgpack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num= "Built target clean_shared_libraries_msgpack"
 .PHONY : CMakeFiles/clean_shared_libraries_msgpack.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_shared_libraries_msgpack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clean_shared_libraries_msgpack.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/clean_shared_libraries_msgpack.dir/rule
 
 # Convenience name for target.
@@ -277,14 +277,14 @@ CMakeFiles/clean_shared_libraries_msgpack.dir/clean:
 CMakeFiles/luajit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/luajit.dir/build.make CMakeFiles/luajit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/luajit.dir/build.make CMakeFiles/luajit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=29,30,31,32,33,34 "Built target luajit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=29,30,31,32,33,34 "Built target luajit"
 .PHONY : CMakeFiles/luajit.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/luajit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/luajit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/luajit.dir/rule
 
 # Convenience name for target.
@@ -303,14 +303,14 @@ CMakeFiles/luajit.dir/clean:
 CMakeFiles/clean_shared_libraries_luajit.dir/all: CMakeFiles/luajit.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_shared_libraries_luajit.dir/build.make CMakeFiles/clean_shared_libraries_luajit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/clean_shared_libraries_luajit.dir/build.make CMakeFiles/clean_shared_libraries_luajit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num= "Built target clean_shared_libraries_luajit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num= "Built target clean_shared_libraries_luajit"
 .PHONY : CMakeFiles/clean_shared_libraries_luajit.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/clean_shared_libraries_luajit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/clean_shared_libraries_luajit.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/clean_shared_libraries_luajit.dir/rule
 
 # Convenience name for target.
@@ -329,14 +329,14 @@ CMakeFiles/clean_shared_libraries_luajit.dir/clean:
 CMakeFiles/luarocks.dir/all: CMakeFiles/luajit.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/luarocks.dir/build.make CMakeFiles/luarocks.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/luarocks.dir/build.make CMakeFiles/luarocks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=35,36,37,38,39,40,41 "Built target luarocks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=35,36,37,38,39,40,41 "Built target luarocks"
 .PHONY : CMakeFiles/luarocks.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/luarocks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/luarocks.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/luarocks.dir/rule
 
 # Convenience name for target.
@@ -355,14 +355,14 @@ CMakeFiles/luarocks.dir/clean:
 CMakeFiles/mpack.dir/all: CMakeFiles/luarocks.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpack.dir/build.make CMakeFiles/mpack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpack.dir/build.make CMakeFiles/mpack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=48 "Built target mpack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=48 "Built target mpack"
 .PHONY : CMakeFiles/mpack.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mpack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mpack.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/mpack.dir/rule
 
 # Convenience name for target.
@@ -381,14 +381,14 @@ CMakeFiles/mpack.dir/clean:
 CMakeFiles/lpeg.dir/all: CMakeFiles/mpack.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lpeg.dir/build.make CMakeFiles/lpeg.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lpeg.dir/build.make CMakeFiles/lpeg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num= "Built target lpeg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num= "Built target lpeg"
 .PHONY : CMakeFiles/lpeg.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lpeg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lpeg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/lpeg.dir/rule
 
 # Convenience name for target.
@@ -407,14 +407,14 @@ CMakeFiles/lpeg.dir/clean:
 CMakeFiles/busted.dir/all: CMakeFiles/lpeg.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/busted.dir/build.make CMakeFiles/busted.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/busted.dir/build.make CMakeFiles/busted.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num= "Built target busted"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num= "Built target busted"
 .PHONY : CMakeFiles/busted.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/busted.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/busted.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/busted.dir/rule
 
 # Convenience name for target.
@@ -433,14 +433,14 @@ CMakeFiles/busted.dir/clean:
 CMakeFiles/luacheck.dir/all: CMakeFiles/busted.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/luacheck.dir/build.make CMakeFiles/luacheck.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/luacheck.dir/build.make CMakeFiles/luacheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=28 "Built target luacheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=28 "Built target luacheck"
 .PHONY : CMakeFiles/luacheck.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/luacheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/luacheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/luacheck.dir/rule
 
 # Convenience name for target.
@@ -459,14 +459,14 @@ CMakeFiles/luacheck.dir/clean:
 CMakeFiles/lua-compat-5.3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lua-compat-5.3.dir/build.make CMakeFiles/lua-compat-5.3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lua-compat-5.3.dir/build.make CMakeFiles/lua-compat-5.3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=21,22,23,24,25,26,27 "Built target lua-compat-5.3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=21,22,23,24,25,26,27 "Built target lua-compat-5.3"
 .PHONY : CMakeFiles/lua-compat-5.3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lua-compat-5.3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/lua-compat-5.3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/lua-compat-5.3.dir/rule
 
 # Convenience name for target.
@@ -487,14 +487,14 @@ CMakeFiles/luv-static.dir/all: CMakeFiles/luajit.dir/all
 CMakeFiles/luv-static.dir/all: CMakeFiles/lua-compat-5.3.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/luv-static.dir/build.make CMakeFiles/luv-static.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/luv-static.dir/build.make CMakeFiles/luv-static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=42,43,44,45,46,47 "Built target luv-static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=42,43,44,45,46,47 "Built target luv-static"
 .PHONY : CMakeFiles/luv-static.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/luv-static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/luv-static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/luv-static.dir/rule
 
 # Convenience name for target.
@@ -513,14 +513,14 @@ CMakeFiles/luv-static.dir/clean:
 CMakeFiles/treesitter-c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/treesitter-c.dir/build.make CMakeFiles/treesitter-c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/treesitter-c.dir/build.make CMakeFiles/treesitter-c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=62,63,64,65,66,67 "Built target treesitter-c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=62,63,64,65,66,67 "Built target treesitter-c"
 .PHONY : CMakeFiles/treesitter-c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/treesitter-c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/treesitter-c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/treesitter-c.dir/rule
 
 # Convenience name for target.
@@ -539,14 +539,14 @@ CMakeFiles/treesitter-c.dir/clean:
 CMakeFiles/treesitter-lua.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/treesitter-lua.dir/build.make CMakeFiles/treesitter-lua.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/treesitter-lua.dir/build.make CMakeFiles/treesitter-lua.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=68,69,70,71,72,73,74 "Built target treesitter-lua"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=68,69,70,71,72,73,74 "Built target treesitter-lua"
 .PHONY : CMakeFiles/treesitter-lua.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/treesitter-lua.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/treesitter-lua.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/treesitter-lua.dir/rule
 
 # Convenience name for target.
@@ -565,14 +565,14 @@ CMakeFiles/treesitter-lua.dir/clean:
 CMakeFiles/treesitter-vim.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/treesitter-vim.dir/build.make CMakeFiles/treesitter-vim.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/treesitter-vim.dir/build.make CMakeFiles/treesitter-vim.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=81,82,83,84,85,86,87 "Built target treesitter-vim"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=81,82,83,84,85,86,87 "Built target treesitter-vim"
 .PHONY : CMakeFiles/treesitter-vim.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/treesitter-vim.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/treesitter-vim.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/treesitter-vim.dir/rule
 
 # Convenience name for target.
@@ -591,14 +591,14 @@ CMakeFiles/treesitter-vim.dir/clean:
 CMakeFiles/treesitter-vimdoc.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/treesitter-vimdoc.dir/build.make CMakeFiles/treesitter-vimdoc.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/treesitter-vimdoc.dir/build.make CMakeFiles/treesitter-vimdoc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=88,89,90,91,92,93 "Built target treesitter-vimdoc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=88,89,90,91,92,93 "Built target treesitter-vimdoc"
 .PHONY : CMakeFiles/treesitter-vimdoc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/treesitter-vimdoc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/treesitter-vimdoc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/treesitter-vimdoc.dir/rule
 
 # Convenience name for target.
@@ -617,14 +617,14 @@ CMakeFiles/treesitter-vimdoc.dir/clean:
 CMakeFiles/treesitter-query.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/treesitter-query.dir/build.make CMakeFiles/treesitter-query.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/treesitter-query.dir/build.make CMakeFiles/treesitter-query.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=75,76,77,78,79,80 "Built target treesitter-query"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=75,76,77,78,79,80 "Built target treesitter-query"
 .PHONY : CMakeFiles/treesitter-query.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/treesitter-query.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/treesitter-query.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/treesitter-query.dir/rule
 
 # Convenience name for target.
@@ -643,14 +643,14 @@ CMakeFiles/treesitter-query.dir/clean:
 CMakeFiles/treesitter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/treesitter.dir/build.make CMakeFiles/treesitter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/treesitter.dir/build.make CMakeFiles/treesitter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=55,56,57,58,59,60,61 "Built target treesitter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=55,56,57,58,59,60,61 "Built target treesitter"
 .PHONY : CMakeFiles/treesitter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/treesitter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/treesitter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/.deps/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles 0
 .PHONY : CMakeFiles/treesitter.dir/rule
 
 # Convenience name for target.

@@ -1,7 +1,7 @@
 CMakeFiles/termkey.dir/driver-csi.c.o: \
- /home/nick/dl/neovim/.deps/build/src/libtermkey/driver-csi.c \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/driver-csi.c \
  /usr/include/stdc-predef.h \
- /home/nick/dl/neovim/.deps/build/src/libtermkey/termkey.h \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/termkey.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -29,7 +29,7 @@ CMakeFiles/termkey.dir/driver-csi.c.o: \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
- /home/nick/dl/neovim/.deps/build/src/libtermkey/termkey-internal.h \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/libtermkey/termkey-internal.h \
  /usr/include/termios.h /usr/include/bits/termios.h \
  /usr/include/bits/termios-struct.h /usr/include/bits/termios-c_cc.h \
  /usr/include/bits/termios-c_iflag.h /usr/include/bits/termios-c_oflag.h \

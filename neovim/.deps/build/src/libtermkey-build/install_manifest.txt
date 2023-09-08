@@ -1,2 +1,2 @@
-/home/nick/dl/neovim/.deps/usr/lib/libtermkey.a
-/home/nick/dl/neovim/.deps/usr/include/termkey.h
+/home/nick/git/Src-Arc/neovim/.deps/usr/lib/libtermkey.a
+/home/nick/git/Src-Arc/neovim/.deps/usr/include/termkey.h

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/nick/dl/neovim/.deps/build/src/msgpack/include -I/home/nick/dl/neovim/.deps/build/src/msgpack-build/include -I/home/nick/dl/neovim/.deps/build/src/msgpack-build/include/msgpack -I/home/nick/dl/neovim/.deps/build/src/msgpack
+C_INCLUDES = -I/home/nick/git/Src-Arc/neovim/.deps/build/src/msgpack/include -I/home/nick/git/Src-Arc/neovim/.deps/build/src/msgpack-build/include -I/home/nick/git/Src-Arc/neovim/.deps/build/src/msgpack-build/include/msgpack -I/home/nick/git/Src-Arc/neovim/.deps/build/src/msgpack
 
 C_FLAGS = -O2 -g -DNDEBUG -std=gnu99 -fPIC  -Wall -Wextra
 

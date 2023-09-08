@@ -1,5 +1,5 @@
-src/nvim/CMakeFiles/nvim.dir/map.c.o: /home/nick/dl/neovim/src/nvim/map.c \
- /usr/include/stdc-predef.h \
+src/nvim/CMakeFiles/nvim.dir/map.c.o: \
+ /home/nick/git/Src-Arc/neovim/src/nvim/map.c /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdbool.h \
  /usr/include/stdlib.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -25,10 +25,10 @@ src/nvim/CMakeFiles/nvim.dir/map.c.o: /home/nick/dl/neovim/src/nvim/map.c \
  /usr/include/bits/pthreadtypes-arch.h \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
- /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
- /usr/include/string.h /usr/include/strings.h \
- /home/nick/dl/neovim/build/cmake.config/auto/config.h \
- /home/nick/dl/neovim/src/klib/khash.h \
+ /usr/include/bits/stdlib-float.h /usr/include/string.h \
+ /usr/include/strings.h \
+ /home/nick/git/Src-Arc/neovim/build/cmake.config/auto/config.h \
+ /home/nick/git/Src-Arc/neovim/src/klib/khash.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
@@ -39,25 +39,24 @@ src/nvim/CMakeFiles/nvim.dir/map.c.o: /home/nick/dl/neovim/src/nvim/map.c \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h \
- /home/nick/dl/neovim/src/nvim/func_attr.h \
- /home/nick/dl/neovim/src/nvim/macros.h \
- /home/nick/dl/neovim/src/nvim/memory.h /usr/include/time.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/macros.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/memory.h /usr/include/time.h \
  /usr/include/bits/time.h /usr/include/bits/timex.h \
  /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
- /home/nick/dl/neovim/build/include/memory.h.generated.h \
- /home/nick/dl/neovim/src/nvim/gettext.h /usr/include/libintl.h \
- /usr/include/locale.h /usr/include/bits/locale.h \
- /home/nick/dl/neovim/src/nvim/map.h /usr/include/stdio.h \
+ /home/nick/git/Src-Arc/neovim/build/include/memory.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/gettext.h /usr/include/libintl.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/map.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
- /home/nick/dl/neovim/src/nvim/api/private/defs.h \
- /home/nick/dl/neovim/src/klib/kvec.h \
- /home/nick/dl/neovim/src/nvim/os/os_defs.h /usr/include/ctype.h \
+ /usr/include/bits/stdio_lim.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h \
+ /home/nick/git/Src-Arc/neovim/src/klib/kvec.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h /usr/include/ctype.h \
  /usr/include/sys/stat.h /usr/include/bits/stat.h \
  /usr/include/bits/struct_stat.h /usr/include/bits/statx.h \
  /usr/include/linux/stat.h /usr/include/linux/types.h \
@@ -69,9 +68,10 @@ src/nvim/CMakeFiles/nvim.dir/map.c.o: /home/nick/dl/neovim/src/nvim/map.c \
  /usr/include/bits/statx-generic.h \
  /usr/include/bits/types/struct_statx_timestamp.h \
  /usr/include/bits/types/struct_statx.h \
- /home/nick/dl/neovim/src/nvim/os/unix_defs.h /usr/include/sys/param.h \
- /usr/include/signal.h /usr/include/bits/signum-generic.h \
- /usr/include/bits/signum-arch.h /usr/include/bits/types/sig_atomic_t.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h \
+ /usr/include/sys/param.h /usr/include/signal.h \
+ /usr/include/bits/signum-generic.h /usr/include/bits/signum-arch.h \
+ /usr/include/bits/types/sig_atomic_t.h \
  /usr/include/bits/types/siginfo_t.h /usr/include/bits/types/__sigval_t.h \
  /usr/include/bits/siginfo-arch.h /usr/include/bits/siginfo-consts.h \
  /usr/include/bits/siginfo-consts-arch.h \
@@ -93,13 +93,15 @@ src/nvim/CMakeFiles/nvim.dir/map.c.o: /home/nick/dl/neovim/src/nvim/map.c \
  /usr/include/bits/termios-c_oflag.h /usr/include/bits/termios-baud.h \
  /usr/include/bits/termios-c_cflag.h /usr/include/bits/termios-c_lflag.h \
  /usr/include/bits/termios-tcflow.h /usr/include/bits/termios-misc.h \
- /usr/include/sys/ttydefaults.h /home/nick/dl/neovim/src/nvim/types.h \
- /home/nick/dl/neovim/build/src/nvim/auto/keysets_defs.generated.h \
- /home/nick/dl/neovim/src/nvim/extmark_defs.h \
- /home/nick/dl/neovim/src/nvim/highlight_defs.h /usr/include/inttypes.h \
- /home/nick/dl/neovim/src/nvim/map_defs.h \
- /home/nick/dl/neovim/src/nvim/tui/input_defs.h \
- /home/nick/dl/neovim/src/nvim/ui_client.h \
- /home/nick/dl/neovim/src/nvim/grid_defs.h \
- /home/nick/dl/neovim/build/include/ui_client.h.generated.h \
- /home/nick/dl/neovim/build/include/ui_events_client.h.generated.h
+ /usr/include/sys/ttydefaults.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/types.h \
+ /home/nick/git/Src-Arc/neovim/build/src/nvim/auto/keysets_defs.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/extmark_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h \
+ /usr/include/inttypes.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/map_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/tui/input_defs.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h \
+ /home/nick/git/Src-Arc/neovim/build/include/ui_client.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/build/include/ui_events_client.h.generated.h

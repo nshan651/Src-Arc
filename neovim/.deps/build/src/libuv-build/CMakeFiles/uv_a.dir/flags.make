@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -D_LARGEFILE_SOURCE -D_POSIX_C_SOURCE=200112
 
-C_INCLUDES = -I/home/nick/dl/neovim/.deps/build/src/libuv/include -I/home/nick/dl/neovim/.deps/build/src/libuv/src
+C_INCLUDES = -I/home/nick/git/Src-Arc/neovim/.deps/build/src/libuv/include -I/home/nick/git/Src-Arc/neovim/.deps/build/src/libuv/src
 
 C_FLAGS = -O2 -g -DNDEBUG -std=gnu90 -fPIC -fvisibility=hidden -Wstrict-prototypes -Wextra -Wall -Wno-unused-parameter -fno-strict-aliasing
 

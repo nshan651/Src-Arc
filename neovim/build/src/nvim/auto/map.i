@@ -1,12 +1,12 @@
-# 0 "/home/nick/dl/neovim/src/nvim/map.c"
+# 0 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/nick/dl/neovim/src/nvim/map.c"
-# 11 "/home/nick/dl/neovim/src/nvim/map.c"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdbool.h" 1 3 4
-# 12 "/home/nick/dl/neovim/src/nvim/map.c" 2
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 2
 # 1 "/usr/include/stdlib.h" 1 3 4
 # 26 "/usr/include/stdlib.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
@@ -1710,7 +1710,7 @@ __attribute__ ((__nothrow__ , __leaf__)) atof (const char *__nptr)
 # 1156 "/usr/include/stdlib.h" 2 3 4
 # 1167 "/usr/include/stdlib.h" 3 4
 
-# 13 "/home/nick/dl/neovim/src/nvim/map.c" 2
+# 13 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 2
 # 1 "/usr/include/string.h" 1 3 4
 # 26 "/usr/include/string.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
@@ -2064,12 +2064,12 @@ extern void *memfrob (void *__s, size_t __n) __attribute__ ((__nothrow__ , __lea
 extern char *basename (const char *__filename) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
 # 552 "/usr/include/string.h" 3 4
 
-# 14 "/home/nick/dl/neovim/src/nvim/map.c" 2
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 2
 
-# 1 "/home/nick/dl/neovim/build/cmake.config/auto/config.h" 1
-# 16 "/home/nick/dl/neovim/src/nvim/map.c" 2
-# 1 "/home/nick/dl/neovim/src/klib/khash.h" 1
-# 127 "/home/nick/dl/neovim/src/klib/khash.h"
+# 1 "/home/nick/git/Src-Arc/neovim/build/cmake.config/auto/config.h" 1
+# 16 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h" 1
+# 127 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 1 3 4
 # 34 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 3 4
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/syslimits.h" 1 3 4
@@ -2120,7 +2120,7 @@ extern long int __sysconf (int __name) __attribute__ ((__nothrow__ , __leaf__));
 # 206 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 2 3 4
 # 8 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/syslimits.h" 2 3 4
 # 35 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 2 3 4
-# 128 "/home/nick/dl/neovim/src/klib/khash.h" 2
+# 128 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 1 3 4
 # 9 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 3 4
 # 1 "/usr/include/stdint.h" 1 3 4
@@ -2186,16 +2186,16 @@ typedef unsigned long int uintptr_t;
 typedef __intmax_t intmax_t;
 typedef __uintmax_t uintmax_t;
 # 10 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 2 3 4
-# 129 "/home/nick/dl/neovim/src/klib/khash.h" 2
+# 129 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h" 2
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 44 "/home/nick/dl/neovim/src/nvim/func_attr.h"
-# 1 "/home/nick/dl/neovim/src/nvim/macros.h" 1
-# 45 "/home/nick/dl/neovim/src/nvim/func_attr.h" 2
-# 133 "/home/nick/dl/neovim/src/klib/khash.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/memory.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/macros.h" 1
+# 45 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 2
+# 133 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 1
 
 
 
@@ -2209,7 +2209,7 @@ typedef struct {
   long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
 # 436 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 3 4
 } max_align_t;
-# 6 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 
 # 1 "/usr/include/time.h" 1 3 4
 # 29 "/usr/include/time.h" 3 4
@@ -2482,13 +2482,13 @@ extern int getdate_r (const char *__restrict __string,
 
 
 
-# 8 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 
 
 
 
 
-# 12 "/home/nick/dl/neovim/src/nvim/memory.h"
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h"
 typedef void *(*MemMalloc)(size_t);
 
 
@@ -2499,7 +2499,7 @@ typedef void *(*MemCalloc)(size_t, size_t);
 
 
 typedef void *(*MemRealloc)(void *, size_t);
-# 42 "/home/nick/dl/neovim/src/nvim/memory.h"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h"
 extern size_t arena_alloc_count ;
 
 typedef struct consumed_blk {
@@ -2512,7 +2512,7 @@ typedef struct {
   char *cur_blk;
   size_t pos, size;
 } Arena;
-# 134 "/home/nick/dl/neovim/src/klib/khash.h" 2
+# 134 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h" 2
 
 
 
@@ -2524,10 +2524,10 @@ typedef unsigned int khint32_t;
 
 
 typedef unsigned long khint64_t;
-# 155 "/home/nick/dl/neovim/src/klib/khash.h"
+# 155 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 typedef khint32_t khint_t;
 typedef khint_t khiter_t;
-# 457 "/home/nick/dl/neovim/src/klib/khash.h"
+# 457 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 static inline khint_t __ac_X31_hash_string(const char *s)
 {
   khint_t h = (khint_t)*s;
@@ -2536,7 +2536,7 @@ static inline khint_t __ac_X31_hash_string(const char *s)
   }
   return h;
 }
-# 476 "/home/nick/dl/neovim/src/klib/khash.h"
+# 476 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 static inline khint_t __ac_Wang_hash(khint_t key)
 {
   key += ~(key << 15);
@@ -2547,10 +2547,10 @@ static inline khint_t __ac_Wang_hash(khint_t key)
   key ^= (key >> 16);
   return key;
 }
-# 700 "/home/nick/dl/neovim/src/klib/khash.h"
+# 700 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 typedef const char *kh_cstr_t;
-# 17 "/home/nick/dl/neovim/src/nvim/map.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/gettext.h" 1
+# 17 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/gettext.h" 1
 
 
 
@@ -2733,9 +2733,9 @@ extern locale_t uselocale (locale_t __dataset) __attribute__ ((__nothrow__ , __l
 # 104 "/usr/include/libintl.h" 2 3 4
 # 121 "/usr/include/libintl.h" 3 4
 
-# 6 "/home/nick/dl/neovim/src/nvim/gettext.h" 2
-# 18 "/home/nick/dl/neovim/src/nvim/map.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/map.h" 1
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/gettext.h" 2
+# 18 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 1
 
 
 
@@ -3538,20 +3538,20 @@ __attribute__ ((__nothrow__ , __leaf__)) ferror_unlocked (FILE *__stream)
 
 
 
-# 7 "/home/nick/dl/neovim/src/nvim/map.h" 2
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 1
-
-
-
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 1
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/klib/kvec.h" 1
-# 44 "/home/nick/dl/neovim/src/klib/kvec.h"
-# 1 "/home/nick/dl/neovim/src/nvim/os/os_defs.h" 1
+
+
+
+# 1 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h" 1
+# 44 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h" 1
 
 
 
@@ -3663,7 +3663,7 @@ extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __l
 extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
 # 327 "/usr/include/ctype.h" 3 4
 
-# 5 "/home/nick/dl/neovim/src/nvim/os/os_defs.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h" 2
 
 
 # 1 "/usr/include/sys/stat.h" 1 3 4
@@ -4124,13 +4124,13 @@ int statx (int __dirfd, const char *__restrict __path, int __flags,
 
 
 
-# 8 "/home/nick/dl/neovim/src/nvim/os/os_defs.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h" 2
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/os/unix_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h" 1
 
 
 
@@ -6462,7 +6462,7 @@ extern int tgkill (__pid_t __tgid, __pid_t __tid, int __signal);
 # 6 "/usr/include/linux/param.h" 2 3 4
 # 29 "/usr/include/bits/param.h" 2 3 4
 # 32 "/usr/include/sys/param.h" 2 3 4
-# 5 "/home/nick/dl/neovim/src/nvim/os/unix_defs.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h" 2
 
 
 # 1 "/usr/include/termios.h" 1 3 4
@@ -6576,33 +6576,33 @@ extern __pid_t tcgetsid (int __fd) __attribute__ ((__nothrow__ , __leaf__));
 
 
 
-# 8 "/home/nick/dl/neovim/src/nvim/os/unix_defs.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h" 2
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 1 3 4
-# 12 "/home/nick/dl/neovim/src/nvim/os/unix_defs.h" 2
-# 14 "/home/nick/dl/neovim/src/nvim/os/os_defs.h" 2
-# 45 "/home/nick/dl/neovim/src/klib/kvec.h" 2
-# 164 "/home/nick/dl/neovim/src/klib/kvec.h"
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h" 2
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h" 2
+# 45 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h" 2
+# 164 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h"
 
-# 164 "/home/nick/dl/neovim/src/klib/kvec.h"
+# 164 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h"
 static inline void *_memcpy_free(void *const restrict dest, void *const restrict src,
                                  const size_t size)
   FUNC_ATTR_NONNULL_ALL FUNC_ATTR_NONNULL_RET FUNC_ATTR_ALWAYS_INLINE
 {
   memcpy(dest, src, size);
   do { void **ptr_ = (void **)&(src); xfree(*ptr_); *ptr_ = 
-# 169 "/home/nick/dl/neovim/src/klib/kvec.h" 3 4
+# 169 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h" 3 4
  ((void *)0)
-# 169 "/home/nick/dl/neovim/src/klib/kvec.h"
+# 169 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h"
  ; (void)(*ptr_); } while (0);
   return dest;
 }
-# 9 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 10 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/types.h" 1
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/types.h" 1
 
 
 
@@ -6650,8 +6650,8 @@ typedef enum {
 
 
 typedef struct Decoration Decoration;
-# 11 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 2
-# 27 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 2
+# 27 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
 typedef enum {
   kErrorTypeNone = -1,
   kErrorTypeException,
@@ -6666,11 +6666,11 @@ typedef enum {
   kMessageTypeNotification = 2,
   kMessageTypeRedrawEvent = 3,
 } MessageType;
-# 51 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
 static inline 
-# 51 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 3 4
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 3 4
              _Bool 
-# 51 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
                   is_internal_call(uint64_t channel_id)
   __attribute__((always_inline)) __attribute__((const));
 
@@ -6680,9 +6680,9 @@ static inline
 
 
 static inline 
-# 59 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 3 4
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 3 4
              _Bool 
-# 59 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
                   is_internal_call(const uint64_t channel_id)
 {
   return !!(channel_id & (((uint64_t)1) << (sizeof(uint64_t) * 8 - 1)));
@@ -6694,9 +6694,9 @@ typedef struct {
 } Error;
 
 typedef 
-# 69 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 3 4
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 3 4
        _Bool 
-# 69 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
             Boolean;
 typedef int64_t Integer;
 typedef double Float;
@@ -6760,8 +6760,8 @@ typedef struct {
   char *str;
   size_t ptr_off;
 } KeySetLink;
-# 10 "/home/nick/dl/neovim/src/nvim/map.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/extmark_defs.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/extmark_defs.h" 1
 
 
 
@@ -6792,9 +6792,9 @@ typedef enum {
   kDecorLevelVisible = 1,
   kDecorLevelVirtLine = 2,
 } DecorLevel;
-# 11 "/home/nick/dl/neovim/src/nvim/map.h" 2
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/highlight_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h" 1
 
 
 
@@ -6859,13 +6859,13 @@ extern uintmax_t wcstoumax (const __gwchar_t *__restrict __nptr, __gwchar_t **__
                         ;
 # 415 "/usr/include/inttypes.h" 3 4
 
-# 5 "/home/nick/dl/neovim/src/nvim/highlight_defs.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h" 2
 
 
 
 
 
-# 9 "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
 typedef int32_t RgbValue;
 
 
@@ -6902,7 +6902,7 @@ typedef struct attr_entry {
   int cterm_fg_color, cterm_bg_color;
   int hl_blend;
 } HlAttrs;
-# 59 "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
 typedef enum {
   HLF_8 = 0,
 
@@ -6974,7 +6974,7 @@ typedef enum {
 } hlf_T;
 
 extern const char *hlf_names[]
-# 195 "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
+# 195 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
   ;
 
 extern int highlight_attr[HLF_COUNT + 1];
@@ -7023,14 +7023,14 @@ typedef struct {
   int link_id;
   int version;
   
-# 242 "/home/nick/dl/neovim/src/nvim/highlight_defs.h" 3 4
+# 242 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h" 3 4
  _Bool 
-# 242 "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
+# 242 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
       is_default;
   
-# 243 "/home/nick/dl/neovim/src/nvim/highlight_defs.h" 3 4
+# 243 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h" 3 4
  _Bool 
-# 243 "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
+# 243 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
       link_global;
 } ColorItem;
 
@@ -7041,8 +7041,8 @@ typedef struct {
   int hl_id;
   int priority;
 } HlPriId;
-# 13 "/home/nick/dl/neovim/src/nvim/map.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/map_defs.h" 1
+# 13 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/map_defs.h" 1
 
 
 
@@ -7050,8 +7050,8 @@ typedef struct {
 
 typedef const char *cstr_t;
 typedef void *ptr_t;
-# 14 "/home/nick/dl/neovim/src/nvim/map.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/tui/input_defs.h" 1
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/tui/input_defs.h" 1
 
 
 
@@ -7168,25 +7168,25 @@ typedef enum {
   KITTY_KEY_ISO_LEVEL3_SHIFT = 57453,
   KITTY_KEY_ISO_LEVEL5_SHIFT = 57454,
 } KittyKey;
-# 15 "/home/nick/dl/neovim/src/nvim/map.h" 2
+# 15 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/ui_client.h" 1
-
-
-
-
-# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/ui_client.h" 2
-
-
-
-# 1 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h" 2
+
+
+
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 1
+
+
+
+
+# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 2
 
 
 
@@ -7204,7 +7204,7 @@ enum {
   kZIndexMessages = 200,
   kZIndexCmdlinePopupMenu = 250,
 };
-# 46 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
 typedef struct ScreenGrid ScreenGrid;
 struct ScreenGrid {
   handle_T handle;
@@ -7224,17 +7224,17 @@ struct ScreenGrid {
 
 
   
-# 64 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 64 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 64 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 64 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       valid;
 
 
 
   
-# 68 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 68 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       throttled;
 
 
@@ -7247,16 +7247,16 @@ struct ScreenGrid {
 
 
   
-# 79 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 79 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 79 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 79 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       blending;
 
 
   
-# 82 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 82 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 82 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 82 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       focusable;
 
 
@@ -7282,9 +7282,9 @@ struct ScreenGrid {
 
 
   
-# 106 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 106 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 106 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 106 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       comp_disabled;
 };
 
@@ -7300,12 +7300,12 @@ typedef struct {
   int cur_attr;
   int clear_width;
   
-# 120 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 120 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 120 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 120 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       wrap;
 } GridLineEvent;
-# 10 "/home/nick/dl/neovim/src/nvim/ui_client.h" 2
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h" 2
 
 
 
@@ -7327,9 +7327,9 @@ extern uint64_t ui_client_channel_id ;
 
 
 extern 
-# 30 "/home/nick/dl/neovim/src/nvim/ui_client.h" 3 4
+# 30 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h" 3 4
       _Bool 
-# 30 "/home/nick/dl/neovim/src/nvim/ui_client.h"
+# 30 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h"
            ui_client_attached ;
 
 
@@ -7339,172 +7339,172 @@ extern TriState ui_client_bg_response ;
 
 
 extern 
-# 38 "/home/nick/dl/neovim/src/nvim/ui_client.h" 3 4
+# 38 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h" 3 4
       _Bool 
-# 38 "/home/nick/dl/neovim/src/nvim/ui_client.h"
+# 38 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h"
            ui_client_forward_stdin ;
-# 17 "/home/nick/dl/neovim/src/nvim/map.h" 2
-# 42 "/home/nick/dl/neovim/src/nvim/map.h"
+# 17 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; int *keys; int *vals; } kh_int_int_map_t; extern kh_int_int_map_t *kh_init_int_int_map(void); extern void kh_dealloc_int_int_map(kh_int_int_map_t *h); extern void kh_destroy_int_int_map(kh_int_int_map_t *h); extern void kh_clear_int_int_map(kh_int_int_map_t *h); extern khint_t kh_get_int_int_map(const kh_int_int_map_t *h, int key); extern void kh_resize_int_int_map(kh_int_int_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_int_int_map(kh_int_int_map_t *h, int key, int *ret); extern void kh_del_int_int_map(kh_int_int_map_t *h, khint_t x); typedef struct { kh_int_int_map_t table; } Map_int_int; Map_int_int *map_int_int_new(void); void map_int_int_free(Map_int_int *map); void map_int_int_destroy(Map_int_int *map); int map_int_int_get(Map_int_int *map, int key); 
-# 42 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 42 "/home/nick/dl/neovim/src/nvim/map.h"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_int_int_has(Map_int_int *map, int key); int map_int_int_key(Map_int_int *map, int key); int map_int_int_put(Map_int_int *map, int key, int value); int *map_int_int_ref(Map_int_int *map, int key, 
-# 42 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 42 "/home/nick/dl/neovim/src/nvim/map.h"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); int map_int_int_del(Map_int_int *map, int key); void map_int_int_clear(Map_int_int *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; int *keys; cstr_t *vals; } kh_int_cstr_t_map_t; extern kh_int_cstr_t_map_t *kh_init_int_cstr_t_map(void); extern void kh_dealloc_int_cstr_t_map(kh_int_cstr_t_map_t *h); extern void kh_destroy_int_cstr_t_map(kh_int_cstr_t_map_t *h); extern void kh_clear_int_cstr_t_map(kh_int_cstr_t_map_t *h); extern khint_t kh_get_int_cstr_t_map(const kh_int_cstr_t_map_t *h, int key); extern void kh_resize_int_cstr_t_map(kh_int_cstr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_int_cstr_t_map(kh_int_cstr_t_map_t *h, int key, int *ret); extern void kh_del_int_cstr_t_map(kh_int_cstr_t_map_t *h, khint_t x); typedef struct { kh_int_cstr_t_map_t table; } Map_int_cstr_t; Map_int_cstr_t *map_int_cstr_t_new(void); void map_int_cstr_t_free(Map_int_cstr_t *map); void map_int_cstr_t_destroy(Map_int_cstr_t *map); cstr_t map_int_cstr_t_get(Map_int_cstr_t *map, int key); 
-# 43 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 43 "/home/nick/dl/neovim/src/nvim/map.h"
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_int_cstr_t_has(Map_int_cstr_t *map, int key); int map_int_cstr_t_key(Map_int_cstr_t *map, int key); cstr_t map_int_cstr_t_put(Map_int_cstr_t *map, int key, cstr_t value); cstr_t *map_int_cstr_t_ref(Map_int_cstr_t *map, int key, 
-# 43 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 43 "/home/nick/dl/neovim/src/nvim/map.h"
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); cstr_t map_int_cstr_t_del(Map_int_cstr_t *map, int key); void map_int_cstr_t_clear(Map_int_cstr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; cstr_t *keys; ptr_t *vals; } kh_cstr_t_ptr_t_map_t; extern kh_cstr_t_ptr_t_map_t *kh_init_cstr_t_ptr_t_map(void); extern void kh_dealloc_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h); extern void kh_destroy_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h); extern void kh_clear_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h); extern khint_t kh_get_cstr_t_ptr_t_map(const kh_cstr_t_ptr_t_map_t *h, cstr_t key); extern void kh_resize_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h, cstr_t key, int *ret); extern void kh_del_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h, khint_t x); typedef struct { kh_cstr_t_ptr_t_map_t table; } Map_cstr_t_ptr_t; Map_cstr_t_ptr_t *map_cstr_t_ptr_t_new(void); void map_cstr_t_ptr_t_free(Map_cstr_t_ptr_t *map); void map_cstr_t_ptr_t_destroy(Map_cstr_t_ptr_t *map); ptr_t map_cstr_t_ptr_t_get(Map_cstr_t_ptr_t *map, cstr_t key); 
-# 44 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 44 "/home/nick/dl/neovim/src/nvim/map.h"
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_cstr_t_ptr_t_has(Map_cstr_t_ptr_t *map, cstr_t key); cstr_t map_cstr_t_ptr_t_key(Map_cstr_t_ptr_t *map, cstr_t key); ptr_t map_cstr_t_ptr_t_put(Map_cstr_t_ptr_t *map, cstr_t key, ptr_t value); ptr_t *map_cstr_t_ptr_t_ref(Map_cstr_t_ptr_t *map, cstr_t key, 
-# 44 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 44 "/home/nick/dl/neovim/src/nvim/map.h"
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ptr_t map_cstr_t_ptr_t_del(Map_cstr_t_ptr_t *map, cstr_t key); void map_cstr_t_ptr_t_clear(Map_cstr_t_ptr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; cstr_t *keys; int *vals; } kh_cstr_t_int_map_t; extern kh_cstr_t_int_map_t *kh_init_cstr_t_int_map(void); extern void kh_dealloc_cstr_t_int_map(kh_cstr_t_int_map_t *h); extern void kh_destroy_cstr_t_int_map(kh_cstr_t_int_map_t *h); extern void kh_clear_cstr_t_int_map(kh_cstr_t_int_map_t *h); extern khint_t kh_get_cstr_t_int_map(const kh_cstr_t_int_map_t *h, cstr_t key); extern void kh_resize_cstr_t_int_map(kh_cstr_t_int_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_cstr_t_int_map(kh_cstr_t_int_map_t *h, cstr_t key, int *ret); extern void kh_del_cstr_t_int_map(kh_cstr_t_int_map_t *h, khint_t x); typedef struct { kh_cstr_t_int_map_t table; } Map_cstr_t_int; Map_cstr_t_int *map_cstr_t_int_new(void); void map_cstr_t_int_free(Map_cstr_t_int *map); void map_cstr_t_int_destroy(Map_cstr_t_int *map); int map_cstr_t_int_get(Map_cstr_t_int *map, cstr_t key); 
-# 45 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 45 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 45 "/home/nick/dl/neovim/src/nvim/map.h"
+# 45 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_cstr_t_int_has(Map_cstr_t_int *map, cstr_t key); cstr_t map_cstr_t_int_key(Map_cstr_t_int *map, cstr_t key); int map_cstr_t_int_put(Map_cstr_t_int *map, cstr_t key, int value); int *map_cstr_t_int_ref(Map_cstr_t_int *map, cstr_t key, 
-# 45 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 45 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 45 "/home/nick/dl/neovim/src/nvim/map.h"
+# 45 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); int map_cstr_t_int_del(Map_cstr_t_int *map, cstr_t key); void map_cstr_t_int_clear(Map_cstr_t_int *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; ptr_t *keys; ptr_t *vals; } kh_ptr_t_ptr_t_map_t; extern kh_ptr_t_ptr_t_map_t *kh_init_ptr_t_ptr_t_map(void); extern void kh_dealloc_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h); extern void kh_destroy_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h); extern void kh_clear_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h); extern khint_t kh_get_ptr_t_ptr_t_map(const kh_ptr_t_ptr_t_map_t *h, ptr_t key); extern void kh_resize_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h, ptr_t key, int *ret); extern void kh_del_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h, khint_t x); typedef struct { kh_ptr_t_ptr_t_map_t table; } Map_ptr_t_ptr_t; Map_ptr_t_ptr_t *map_ptr_t_ptr_t_new(void); void map_ptr_t_ptr_t_free(Map_ptr_t_ptr_t *map); void map_ptr_t_ptr_t_destroy(Map_ptr_t_ptr_t *map); ptr_t map_ptr_t_ptr_t_get(Map_ptr_t_ptr_t *map, ptr_t key); 
-# 46 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 46 "/home/nick/dl/neovim/src/nvim/map.h"
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_ptr_t_ptr_t_has(Map_ptr_t_ptr_t *map, ptr_t key); ptr_t map_ptr_t_ptr_t_key(Map_ptr_t_ptr_t *map, ptr_t key); ptr_t map_ptr_t_ptr_t_put(Map_ptr_t_ptr_t *map, ptr_t key, ptr_t value); ptr_t *map_ptr_t_ptr_t_ref(Map_ptr_t_ptr_t *map, ptr_t key, 
-# 46 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 46 "/home/nick/dl/neovim/src/nvim/map.h"
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ptr_t map_ptr_t_ptr_t_del(Map_ptr_t_ptr_t *map, ptr_t key); void map_ptr_t_ptr_t_clear(Map_ptr_t_ptr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; uint32_t *keys; ptr_t *vals; } kh_uint32_t_ptr_t_map_t; extern kh_uint32_t_ptr_t_map_t *kh_init_uint32_t_ptr_t_map(void); extern void kh_dealloc_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h); extern void kh_destroy_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h); extern void kh_clear_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h); extern khint_t kh_get_uint32_t_ptr_t_map(const kh_uint32_t_ptr_t_map_t *h, uint32_t key); extern void kh_resize_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h, uint32_t key, int *ret); extern void kh_del_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h, khint_t x); typedef struct { kh_uint32_t_ptr_t_map_t table; } Map_uint32_t_ptr_t; Map_uint32_t_ptr_t *map_uint32_t_ptr_t_new(void); void map_uint32_t_ptr_t_free(Map_uint32_t_ptr_t *map); void map_uint32_t_ptr_t_destroy(Map_uint32_t_ptr_t *map); ptr_t map_uint32_t_ptr_t_get(Map_uint32_t_ptr_t *map, uint32_t key); 
-# 47 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 47 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 47 "/home/nick/dl/neovim/src/nvim/map.h"
+# 47 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_uint32_t_ptr_t_has(Map_uint32_t_ptr_t *map, uint32_t key); uint32_t map_uint32_t_ptr_t_key(Map_uint32_t_ptr_t *map, uint32_t key); ptr_t map_uint32_t_ptr_t_put(Map_uint32_t_ptr_t *map, uint32_t key, ptr_t value); ptr_t *map_uint32_t_ptr_t_ref(Map_uint32_t_ptr_t *map, uint32_t key, 
-# 47 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 47 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 47 "/home/nick/dl/neovim/src/nvim/map.h"
+# 47 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ptr_t map_uint32_t_ptr_t_del(Map_uint32_t_ptr_t *map, uint32_t key); void map_uint32_t_ptr_t_clear(Map_uint32_t_ptr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; uint64_t *keys; ptr_t *vals; } kh_uint64_t_ptr_t_map_t; extern kh_uint64_t_ptr_t_map_t *kh_init_uint64_t_ptr_t_map(void); extern void kh_dealloc_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h); extern void kh_destroy_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h); extern void kh_clear_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h); extern khint_t kh_get_uint64_t_ptr_t_map(const kh_uint64_t_ptr_t_map_t *h, uint64_t key); extern void kh_resize_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h, uint64_t key, int *ret); extern void kh_del_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h, khint_t x); typedef struct { kh_uint64_t_ptr_t_map_t table; } Map_uint64_t_ptr_t; Map_uint64_t_ptr_t *map_uint64_t_ptr_t_new(void); void map_uint64_t_ptr_t_free(Map_uint64_t_ptr_t *map); void map_uint64_t_ptr_t_destroy(Map_uint64_t_ptr_t *map); ptr_t map_uint64_t_ptr_t_get(Map_uint64_t_ptr_t *map, uint64_t key); 
-# 48 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 48 "/home/nick/dl/neovim/src/nvim/map.h"
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_uint64_t_ptr_t_has(Map_uint64_t_ptr_t *map, uint64_t key); uint64_t map_uint64_t_ptr_t_key(Map_uint64_t_ptr_t *map, uint64_t key); ptr_t map_uint64_t_ptr_t_put(Map_uint64_t_ptr_t *map, uint64_t key, ptr_t value); ptr_t *map_uint64_t_ptr_t_ref(Map_uint64_t_ptr_t *map, uint64_t key, 
-# 48 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 48 "/home/nick/dl/neovim/src/nvim/map.h"
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ptr_t map_uint64_t_ptr_t_del(Map_uint64_t_ptr_t *map, uint64_t key); void map_uint64_t_ptr_t_clear(Map_uint64_t_ptr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; uint64_t *keys; ssize_t *vals; } kh_uint64_t_ssize_t_map_t; extern kh_uint64_t_ssize_t_map_t *kh_init_uint64_t_ssize_t_map(void); extern void kh_dealloc_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h); extern void kh_destroy_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h); extern void kh_clear_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h); extern khint_t kh_get_uint64_t_ssize_t_map(const kh_uint64_t_ssize_t_map_t *h, uint64_t key); extern void kh_resize_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h, uint64_t key, int *ret); extern void kh_del_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h, khint_t x); typedef struct { kh_uint64_t_ssize_t_map_t table; } Map_uint64_t_ssize_t; Map_uint64_t_ssize_t *map_uint64_t_ssize_t_new(void); void map_uint64_t_ssize_t_free(Map_uint64_t_ssize_t *map); void map_uint64_t_ssize_t_destroy(Map_uint64_t_ssize_t *map); ssize_t map_uint64_t_ssize_t_get(Map_uint64_t_ssize_t *map, uint64_t key); 
-# 49 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 49 "/home/nick/dl/neovim/src/nvim/map.h"
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_uint64_t_ssize_t_has(Map_uint64_t_ssize_t *map, uint64_t key); uint64_t map_uint64_t_ssize_t_key(Map_uint64_t_ssize_t *map, uint64_t key); ssize_t map_uint64_t_ssize_t_put(Map_uint64_t_ssize_t *map, uint64_t key, ssize_t value); ssize_t *map_uint64_t_ssize_t_ref(Map_uint64_t_ssize_t *map, uint64_t key, 
-# 49 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 49 "/home/nick/dl/neovim/src/nvim/map.h"
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ssize_t map_uint64_t_ssize_t_del(Map_uint64_t_ssize_t *map, uint64_t key); void map_uint64_t_ssize_t_clear(Map_uint64_t_ssize_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; uint64_t *keys; uint64_t *vals; } kh_uint64_t_uint64_t_map_t; extern kh_uint64_t_uint64_t_map_t *kh_init_uint64_t_uint64_t_map(void); extern void kh_dealloc_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h); extern void kh_destroy_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h); extern void kh_clear_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h); extern khint_t kh_get_uint64_t_uint64_t_map(const kh_uint64_t_uint64_t_map_t *h, uint64_t key); extern void kh_resize_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h, uint64_t key, int *ret); extern void kh_del_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h, khint_t x); typedef struct { kh_uint64_t_uint64_t_map_t table; } Map_uint64_t_uint64_t; Map_uint64_t_uint64_t *map_uint64_t_uint64_t_new(void); void map_uint64_t_uint64_t_free(Map_uint64_t_uint64_t *map); void map_uint64_t_uint64_t_destroy(Map_uint64_t_uint64_t *map); uint64_t map_uint64_t_uint64_t_get(Map_uint64_t_uint64_t *map, uint64_t key); 
-# 50 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 50 "/home/nick/dl/neovim/src/nvim/map.h"
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_uint64_t_uint64_t_has(Map_uint64_t_uint64_t *map, uint64_t key); uint64_t map_uint64_t_uint64_t_key(Map_uint64_t_uint64_t *map, uint64_t key); uint64_t map_uint64_t_uint64_t_put(Map_uint64_t_uint64_t *map, uint64_t key, uint64_t value); uint64_t *map_uint64_t_uint64_t_ref(Map_uint64_t_uint64_t *map, uint64_t key, 
-# 50 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 50 "/home/nick/dl/neovim/src/nvim/map.h"
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); uint64_t map_uint64_t_uint64_t_del(Map_uint64_t_uint64_t *map, uint64_t key); void map_uint64_t_uint64_t_clear(Map_uint64_t_uint64_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; uint32_t *keys; uint32_t *vals; } kh_uint32_t_uint32_t_map_t; extern kh_uint32_t_uint32_t_map_t *kh_init_uint32_t_uint32_t_map(void); extern void kh_dealloc_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h); extern void kh_destroy_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h); extern void kh_clear_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h); extern khint_t kh_get_uint32_t_uint32_t_map(const kh_uint32_t_uint32_t_map_t *h, uint32_t key); extern void kh_resize_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h, uint32_t key, int *ret); extern void kh_del_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h, khint_t x); typedef struct { kh_uint32_t_uint32_t_map_t table; } Map_uint32_t_uint32_t; Map_uint32_t_uint32_t *map_uint32_t_uint32_t_new(void); void map_uint32_t_uint32_t_free(Map_uint32_t_uint32_t *map); void map_uint32_t_uint32_t_destroy(Map_uint32_t_uint32_t *map); uint32_t map_uint32_t_uint32_t_get(Map_uint32_t_uint32_t *map, uint32_t key); 
-# 51 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 51 "/home/nick/dl/neovim/src/nvim/map.h"
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_uint32_t_uint32_t_has(Map_uint32_t_uint32_t *map, uint32_t key); uint32_t map_uint32_t_uint32_t_key(Map_uint32_t_uint32_t *map, uint32_t key); uint32_t map_uint32_t_uint32_t_put(Map_uint32_t_uint32_t *map, uint32_t key, uint32_t value); uint32_t *map_uint32_t_uint32_t_ref(Map_uint32_t_uint32_t *map, uint32_t key, 
-# 51 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 51 "/home/nick/dl/neovim/src/nvim/map.h"
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); uint32_t map_uint32_t_uint32_t_del(Map_uint32_t_uint32_t *map, uint32_t key); void map_uint32_t_uint32_t_clear(Map_uint32_t_uint32_t *map);
 
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; handle_T *keys; ptr_t *vals; } kh_handle_T_ptr_t_map_t; extern kh_handle_T_ptr_t_map_t *kh_init_handle_T_ptr_t_map(void); extern void kh_dealloc_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h); extern void kh_destroy_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h); extern void kh_clear_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h); extern khint_t kh_get_handle_T_ptr_t_map(const kh_handle_T_ptr_t_map_t *h, handle_T key); extern void kh_resize_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h, handle_T key, int *ret); extern void kh_del_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h, khint_t x); typedef struct { kh_handle_T_ptr_t_map_t table; } Map_handle_T_ptr_t; Map_handle_T_ptr_t *map_handle_T_ptr_t_new(void); void map_handle_T_ptr_t_free(Map_handle_T_ptr_t *map); void map_handle_T_ptr_t_destroy(Map_handle_T_ptr_t *map); ptr_t map_handle_T_ptr_t_get(Map_handle_T_ptr_t *map, handle_T key); 
-# 53 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 53 "/home/nick/dl/neovim/src/nvim/map.h"
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_handle_T_ptr_t_has(Map_handle_T_ptr_t *map, handle_T key); handle_T map_handle_T_ptr_t_key(Map_handle_T_ptr_t *map, handle_T key); ptr_t map_handle_T_ptr_t_put(Map_handle_T_ptr_t *map, handle_T key, ptr_t value); ptr_t *map_handle_T_ptr_t_ref(Map_handle_T_ptr_t *map, handle_T key, 
-# 53 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 53 "/home/nick/dl/neovim/src/nvim/map.h"
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ptr_t map_handle_T_ptr_t_del(Map_handle_T_ptr_t *map, handle_T key); void map_handle_T_ptr_t_clear(Map_handle_T_ptr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; HlEntry *keys; int *vals; } kh_HlEntry_int_map_t; extern kh_HlEntry_int_map_t *kh_init_HlEntry_int_map(void); extern void kh_dealloc_HlEntry_int_map(kh_HlEntry_int_map_t *h); extern void kh_destroy_HlEntry_int_map(kh_HlEntry_int_map_t *h); extern void kh_clear_HlEntry_int_map(kh_HlEntry_int_map_t *h); extern khint_t kh_get_HlEntry_int_map(const kh_HlEntry_int_map_t *h, HlEntry key); extern void kh_resize_HlEntry_int_map(kh_HlEntry_int_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_HlEntry_int_map(kh_HlEntry_int_map_t *h, HlEntry key, int *ret); extern void kh_del_HlEntry_int_map(kh_HlEntry_int_map_t *h, khint_t x); typedef struct { kh_HlEntry_int_map_t table; } Map_HlEntry_int; Map_HlEntry_int *map_HlEntry_int_new(void); void map_HlEntry_int_free(Map_HlEntry_int *map); void map_HlEntry_int_destroy(Map_HlEntry_int *map); int map_HlEntry_int_get(Map_HlEntry_int *map, HlEntry key); 
-# 54 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 54 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 54 "/home/nick/dl/neovim/src/nvim/map.h"
+# 54 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_HlEntry_int_has(Map_HlEntry_int *map, HlEntry key); HlEntry map_HlEntry_int_key(Map_HlEntry_int *map, HlEntry key); int map_HlEntry_int_put(Map_HlEntry_int *map, HlEntry key, int value); int *map_HlEntry_int_ref(Map_HlEntry_int *map, HlEntry key, 
-# 54 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 54 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 54 "/home/nick/dl/neovim/src/nvim/map.h"
+# 54 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); int map_HlEntry_int_del(Map_HlEntry_int *map, HlEntry key); void map_HlEntry_int_clear(Map_HlEntry_int *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; String *keys; handle_T *vals; } kh_String_handle_T_map_t; extern kh_String_handle_T_map_t *kh_init_String_handle_T_map(void); extern void kh_dealloc_String_handle_T_map(kh_String_handle_T_map_t *h); extern void kh_destroy_String_handle_T_map(kh_String_handle_T_map_t *h); extern void kh_clear_String_handle_T_map(kh_String_handle_T_map_t *h); extern khint_t kh_get_String_handle_T_map(const kh_String_handle_T_map_t *h, String key); extern void kh_resize_String_handle_T_map(kh_String_handle_T_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_String_handle_T_map(kh_String_handle_T_map_t *h, String key, int *ret); extern void kh_del_String_handle_T_map(kh_String_handle_T_map_t *h, khint_t x); typedef struct { kh_String_handle_T_map_t table; } Map_String_handle_T; Map_String_handle_T *map_String_handle_T_new(void); void map_String_handle_T_free(Map_String_handle_T *map); void map_String_handle_T_destroy(Map_String_handle_T *map); handle_T map_String_handle_T_get(Map_String_handle_T *map, String key); 
-# 55 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 55 "/home/nick/dl/neovim/src/nvim/map.h"
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_String_handle_T_has(Map_String_handle_T *map, String key); String map_String_handle_T_key(Map_String_handle_T *map, String key); handle_T map_String_handle_T_put(Map_String_handle_T *map, String key, handle_T value); handle_T *map_String_handle_T_ref(Map_String_handle_T *map, String key, 
-# 55 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 55 "/home/nick/dl/neovim/src/nvim/map.h"
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); handle_T map_String_handle_T_del(Map_String_handle_T *map, String key); void map_String_handle_T_clear(Map_String_handle_T *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; String *keys; int *vals; } kh_String_int_map_t; extern kh_String_int_map_t *kh_init_String_int_map(void); extern void kh_dealloc_String_int_map(kh_String_int_map_t *h); extern void kh_destroy_String_int_map(kh_String_int_map_t *h); extern void kh_clear_String_int_map(kh_String_int_map_t *h); extern khint_t kh_get_String_int_map(const kh_String_int_map_t *h, String key); extern void kh_resize_String_int_map(kh_String_int_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_String_int_map(kh_String_int_map_t *h, String key, int *ret); extern void kh_del_String_int_map(kh_String_int_map_t *h, khint_t x); typedef struct { kh_String_int_map_t table; } Map_String_int; Map_String_int *map_String_int_new(void); void map_String_int_free(Map_String_int *map); void map_String_int_destroy(Map_String_int *map); int map_String_int_get(Map_String_int *map, String key); 
-# 56 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 56 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 56 "/home/nick/dl/neovim/src/nvim/map.h"
+# 56 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_String_int_has(Map_String_int *map, String key); String map_String_int_key(Map_String_int *map, String key); int map_String_int_put(Map_String_int *map, String key, int value); int *map_String_int_ref(Map_String_int *map, String key, 
-# 56 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 56 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 56 "/home/nick/dl/neovim/src/nvim/map.h"
+# 56 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); int map_String_int_del(Map_String_int *map, String key); void map_String_int_clear(Map_String_int *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; int *keys; String *vals; } kh_int_String_map_t; extern kh_int_String_map_t *kh_init_int_String_map(void); extern void kh_dealloc_int_String_map(kh_int_String_map_t *h); extern void kh_destroy_int_String_map(kh_int_String_map_t *h); extern void kh_clear_int_String_map(kh_int_String_map_t *h); extern khint_t kh_get_int_String_map(const kh_int_String_map_t *h, int key); extern void kh_resize_int_String_map(kh_int_String_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_int_String_map(kh_int_String_map_t *h, int key, int *ret); extern void kh_del_int_String_map(kh_int_String_map_t *h, khint_t x); typedef struct { kh_int_String_map_t table; } Map_int_String; Map_int_String *map_int_String_new(void); void map_int_String_free(Map_int_String *map); void map_int_String_destroy(Map_int_String *map); String map_int_String_get(Map_int_String *map, int key); 
-# 57 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 57 "/home/nick/dl/neovim/src/nvim/map.h"
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_int_String_has(Map_int_String *map, int key); int map_int_String_key(Map_int_String *map, int key); String map_int_String_put(Map_int_String *map, int key, String value); String *map_int_String_ref(Map_int_String *map, int key, 
-# 57 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 57 "/home/nick/dl/neovim/src/nvim/map.h"
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); String map_int_String_del(Map_int_String *map, int key); void map_int_String_clear(Map_int_String *map);
 
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; ColorKey *keys; ColorItem *vals; } kh_ColorKey_ColorItem_map_t; extern kh_ColorKey_ColorItem_map_t *kh_init_ColorKey_ColorItem_map(void); extern void kh_dealloc_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h); extern void kh_destroy_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h); extern void kh_clear_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h); extern khint_t kh_get_ColorKey_ColorItem_map(const kh_ColorKey_ColorItem_map_t *h, ColorKey key); extern void kh_resize_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h, ColorKey key, int *ret); extern void kh_del_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h, khint_t x); typedef struct { kh_ColorKey_ColorItem_map_t table; } Map_ColorKey_ColorItem; Map_ColorKey_ColorItem *map_ColorKey_ColorItem_new(void); void map_ColorKey_ColorItem_free(Map_ColorKey_ColorItem *map); void map_ColorKey_ColorItem_destroy(Map_ColorKey_ColorItem *map); ColorItem map_ColorKey_ColorItem_get(Map_ColorKey_ColorItem *map, ColorKey key); 
-# 59 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 59 "/home/nick/dl/neovim/src/nvim/map.h"
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_ColorKey_ColorItem_has(Map_ColorKey_ColorItem *map, ColorKey key); ColorKey map_ColorKey_ColorItem_key(Map_ColorKey_ColorItem *map, ColorKey key); ColorItem map_ColorKey_ColorItem_put(Map_ColorKey_ColorItem *map, ColorKey key, ColorItem value); ColorItem *map_ColorKey_ColorItem_ref(Map_ColorKey_ColorItem *map, ColorKey key, 
-# 59 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 59 "/home/nick/dl/neovim/src/nvim/map.h"
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ColorItem map_ColorKey_ColorItem_del(Map_ColorKey_ColorItem *map, ColorKey key); void map_ColorKey_ColorItem_clear(Map_ColorKey_ColorItem *map);
 
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; KittyKey *keys; cstr_t *vals; } kh_KittyKey_cstr_t_map_t; extern kh_KittyKey_cstr_t_map_t *kh_init_KittyKey_cstr_t_map(void); extern void kh_dealloc_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h); extern void kh_destroy_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h); extern void kh_clear_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h); extern khint_t kh_get_KittyKey_cstr_t_map(const kh_KittyKey_cstr_t_map_t *h, KittyKey key); extern void kh_resize_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h, KittyKey key, int *ret); extern void kh_del_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h, khint_t x); typedef struct { kh_KittyKey_cstr_t_map_t table; } Map_KittyKey_cstr_t; Map_KittyKey_cstr_t *map_KittyKey_cstr_t_new(void); void map_KittyKey_cstr_t_free(Map_KittyKey_cstr_t *map); void map_KittyKey_cstr_t_destroy(Map_KittyKey_cstr_t *map); cstr_t map_KittyKey_cstr_t_get(Map_KittyKey_cstr_t *map, KittyKey key); 
-# 61 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 61 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 61 "/home/nick/dl/neovim/src/nvim/map.h"
+# 61 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_KittyKey_cstr_t_has(Map_KittyKey_cstr_t *map, KittyKey key); KittyKey map_KittyKey_cstr_t_key(Map_KittyKey_cstr_t *map, KittyKey key); cstr_t map_KittyKey_cstr_t_put(Map_KittyKey_cstr_t *map, KittyKey key, cstr_t value); cstr_t *map_KittyKey_cstr_t_ref(Map_KittyKey_cstr_t *map, KittyKey key, 
-# 61 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 61 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 61 "/home/nick/dl/neovim/src/nvim/map.h"
+# 61 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); cstr_t map_KittyKey_cstr_t_del(Map_KittyKey_cstr_t *map, KittyKey key); void map_KittyKey_cstr_t_clear(Map_KittyKey_cstr_t *map);
-# 94 "/home/nick/dl/neovim/src/nvim/map.h"
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 void pmap_del2(Map_cstr_t_ptr_t *map, const char *key);
-# 19 "/home/nick/dl/neovim/src/nvim/map.c" 2
-# 118 "/home/nick/dl/neovim/src/nvim/map.c"
+# 19 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 2
+# 118 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 static inline khint_t String_hash(String s)
 {
   khint_t h = 0;
@@ -7515,16 +7515,16 @@ static inline khint_t String_hash(String s)
 }
 
 static inline 
-# 127 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 127 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
              _Bool 
-# 127 "/home/nick/dl/neovim/src/nvim/map.c"
+# 127 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
                   String_eq(String a, String b)
 {
   if (a.size != b.size) {
     return 
-# 130 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 130 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
           0
-# 130 "/home/nick/dl/neovim/src/nvim/map.c"
+# 130 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
                ;
   }
   return memcmp(a.data, b.data, a.size) == 0;
@@ -7541,9 +7541,9 @@ static inline khint_t HlEntry_hash(HlEntry ae)
 }
 
 static inline 
-# 145 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 145 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
              _Bool 
-# 145 "/home/nick/dl/neovim/src/nvim/map.c"
+# 145 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
                   HlEntry_eq(HlEntry ae1, HlEntry ae2)
 {
   return memcmp(&ae1, &ae2, sizeof(ae1)) == 0;
@@ -7560,584 +7560,584 @@ static inline khint_t ColorKey_hash(ColorKey ae)
 }
 
 static inline 
-# 160 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 160 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
              _Bool 
-# 160 "/home/nick/dl/neovim/src/nvim/map.c"
+# 160 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
                   ColorKey_eq(ColorKey ae1, ColorKey ae2)
 {
   return memcmp(&ae1, &ae2, sizeof(ae1)) == 0;
 }
 
 const int int_int_initializer = { 0 }; kh_int_int_map_t *kh_init_int_int_map(void) __attribute__((unused)); kh_int_int_map_t *kh_init_int_int_map(void) { return (kh_int_int_map_t *)xcalloc(1, sizeof(kh_int_int_map_t)); } void kh_dealloc_int_int_map(kh_int_int_map_t *h) __attribute__((unused)); void kh_dealloc_int_int_map(kh_int_int_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 165 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 165 "/home/nick/dl/neovim/src/nvim/map.c"
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 165 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 165 "/home/nick/dl/neovim/src/nvim/map.c"
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 165 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 165 "/home/nick/dl/neovim/src/nvim/map.c"
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_int_int_map(kh_int_int_map_t *h) __attribute__((unused)); void kh_destroy_int_int_map(kh_int_int_map_t *h) { if (h) { kh_dealloc_int_int_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 165 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 165 "/home/nick/dl/neovim/src/nvim/map.c"
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_int_int_map(kh_int_int_map_t *h) __attribute__((unused)); void kh_clear_int_int_map(kh_int_int_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_int_int_map(const kh_int_int_map_t *h, int key) __attribute__((unused)); khint_t kh_get_int_int_map(const kh_int_int_map_t *h, int key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = (khint32_t)(key); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_int_int_map(kh_int_int_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_int_int_map(kh_int_int_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { int *new_keys = (int *)xrealloc((void *)h->keys, new_n_buckets * sizeof(int)); h->keys = new_keys; if (1) { int *new_vals = (int *)xrealloc((void *)h->vals, new_n_buckets * sizeof(int)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { int key = h->keys[j]; int val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = (khint32_t)(key); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { int tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { int tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (int *)xrealloc((void *)h->keys, new_n_buckets * sizeof(int)); if (1) { h->vals = (int *)xrealloc((void *)h->vals, new_n_buckets * sizeof(int)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 165 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 165 "/home/nick/dl/neovim/src/nvim/map.c"
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_int_int_map(kh_int_int_map_t *h, int key, int *ret) __attribute__((unused)); khint_t kh_put_int_int_map(kh_int_int_map_t *h, int key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_int_int_map(h, h->n_buckets - 1); } else { kh_resize_int_int_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = (khint32_t)(key); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_int_int_map(kh_int_int_map_t *h, khint_t x) __attribute__((unused)); void kh_del_int_int_map(kh_int_int_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_int_int_destroy(Map_int_int *map) { kh_dealloc_int_int_map(&map->table); } int map_int_int_get(Map_int_int *map, int key) { khiter_t k; if ((k = kh_get_int_int_map(&map->table, key)) == ((&map->table)->n_buckets)) { return int_int_initializer; } return ((&map->table)->vals[k]); } 
-# 165 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 165 "/home/nick/dl/neovim/src/nvim/map.c"
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_int_int_has(Map_int_int *map, int key) { return kh_get_int_int_map(&map->table, key) != ((&map->table)->n_buckets); } int map_int_int_key(Map_int_int *map, int key) { khiter_t k; if ((k = kh_get_int_int_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } int map_int_int_put(Map_int_int *map, int key, int value) { int ret; int rv = int_int_initializer; khiter_t k = kh_put_int_int_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } int *map_int_int_ref(Map_int_int *map, int key, 
-# 165 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 165 "/home/nick/dl/neovim/src/nvim/map.c"
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_int_int_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = int_int_initializer; } } else { k = kh_get_int_int_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 165 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 165 "/home/nick/dl/neovim/src/nvim/map.c"
+# 165 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } int map_int_int_del(Map_int_int *map, int key) { int rv = int_int_initializer; khiter_t k; if ((k = kh_get_int_int_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_int_int_map(&map->table, k); } return rv; } void map_int_int_clear(Map_int_int *map) { kh_clear_int_int_map(&map->table); }
 const cstr_t int_cstr_t_initializer = { 0 }; kh_int_cstr_t_map_t *kh_init_int_cstr_t_map(void) __attribute__((unused)); kh_int_cstr_t_map_t *kh_init_int_cstr_t_map(void) { return (kh_int_cstr_t_map_t *)xcalloc(1, sizeof(kh_int_cstr_t_map_t)); } void kh_dealloc_int_cstr_t_map(kh_int_cstr_t_map_t *h) __attribute__((unused)); void kh_dealloc_int_cstr_t_map(kh_int_cstr_t_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 166 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 166 "/home/nick/dl/neovim/src/nvim/map.c"
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 166 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 166 "/home/nick/dl/neovim/src/nvim/map.c"
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 166 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 166 "/home/nick/dl/neovim/src/nvim/map.c"
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_int_cstr_t_map(kh_int_cstr_t_map_t *h) __attribute__((unused)); void kh_destroy_int_cstr_t_map(kh_int_cstr_t_map_t *h) { if (h) { kh_dealloc_int_cstr_t_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 166 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 166 "/home/nick/dl/neovim/src/nvim/map.c"
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_int_cstr_t_map(kh_int_cstr_t_map_t *h) __attribute__((unused)); void kh_clear_int_cstr_t_map(kh_int_cstr_t_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_int_cstr_t_map(const kh_int_cstr_t_map_t *h, int key) __attribute__((unused)); khint_t kh_get_int_cstr_t_map(const kh_int_cstr_t_map_t *h, int key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = (khint32_t)(key); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_int_cstr_t_map(kh_int_cstr_t_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_int_cstr_t_map(kh_int_cstr_t_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { int *new_keys = (int *)xrealloc((void *)h->keys, new_n_buckets * sizeof(int)); h->keys = new_keys; if (1) { cstr_t *new_vals = (cstr_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(cstr_t)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { int key = h->keys[j]; cstr_t val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = (khint32_t)(key); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { int tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { cstr_t tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (int *)xrealloc((void *)h->keys, new_n_buckets * sizeof(int)); if (1) { h->vals = (cstr_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(cstr_t)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 166 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 166 "/home/nick/dl/neovim/src/nvim/map.c"
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_int_cstr_t_map(kh_int_cstr_t_map_t *h, int key, int *ret) __attribute__((unused)); khint_t kh_put_int_cstr_t_map(kh_int_cstr_t_map_t *h, int key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_int_cstr_t_map(h, h->n_buckets - 1); } else { kh_resize_int_cstr_t_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = (khint32_t)(key); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_int_cstr_t_map(kh_int_cstr_t_map_t *h, khint_t x) __attribute__((unused)); void kh_del_int_cstr_t_map(kh_int_cstr_t_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_int_cstr_t_destroy(Map_int_cstr_t *map) { kh_dealloc_int_cstr_t_map(&map->table); } cstr_t map_int_cstr_t_get(Map_int_cstr_t *map, int key) { khiter_t k; if ((k = kh_get_int_cstr_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { return int_cstr_t_initializer; } return ((&map->table)->vals[k]); } 
-# 166 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 166 "/home/nick/dl/neovim/src/nvim/map.c"
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_int_cstr_t_has(Map_int_cstr_t *map, int key) { return kh_get_int_cstr_t_map(&map->table, key) != ((&map->table)->n_buckets); } int map_int_cstr_t_key(Map_int_cstr_t *map, int key) { khiter_t k; if ((k = kh_get_int_cstr_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } cstr_t map_int_cstr_t_put(Map_int_cstr_t *map, int key, cstr_t value) { int ret; cstr_t rv = int_cstr_t_initializer; khiter_t k = kh_put_int_cstr_t_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } cstr_t *map_int_cstr_t_ref(Map_int_cstr_t *map, int key, 
-# 166 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 166 "/home/nick/dl/neovim/src/nvim/map.c"
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_int_cstr_t_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = int_cstr_t_initializer; } } else { k = kh_get_int_cstr_t_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 166 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 166 "/home/nick/dl/neovim/src/nvim/map.c"
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } cstr_t map_int_cstr_t_del(Map_int_cstr_t *map, int key) { cstr_t rv = int_cstr_t_initializer; khiter_t k; if ((k = kh_get_int_cstr_t_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_int_cstr_t_map(&map->table, k); } return rv; } void map_int_cstr_t_clear(Map_int_cstr_t *map) { kh_clear_int_cstr_t_map(&map->table); }
 const ptr_t cstr_t_ptr_t_initializer = { 0 }; kh_cstr_t_ptr_t_map_t *kh_init_cstr_t_ptr_t_map(void) __attribute__((unused)); kh_cstr_t_ptr_t_map_t *kh_init_cstr_t_ptr_t_map(void) { return (kh_cstr_t_ptr_t_map_t *)xcalloc(1, sizeof(kh_cstr_t_ptr_t_map_t)); } void kh_dealloc_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h) __attribute__((unused)); void kh_dealloc_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 167 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 167 "/home/nick/dl/neovim/src/nvim/map.c"
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 167 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 167 "/home/nick/dl/neovim/src/nvim/map.c"
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 167 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 167 "/home/nick/dl/neovim/src/nvim/map.c"
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h) __attribute__((unused)); void kh_destroy_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h) { if (h) { kh_dealloc_cstr_t_ptr_t_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 167 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 167 "/home/nick/dl/neovim/src/nvim/map.c"
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h) __attribute__((unused)); void kh_clear_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_cstr_t_ptr_t_map(const kh_cstr_t_ptr_t_map_t *h, cstr_t key) __attribute__((unused)); khint_t kh_get_cstr_t_ptr_t_map(const kh_cstr_t_ptr_t_map_t *h, cstr_t key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = __ac_X31_hash_string(key); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !(strcmp(h->keys[i], key) == 0))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { cstr_t *new_keys = (cstr_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(cstr_t)); h->keys = new_keys; if (1) { ptr_t *new_vals = (ptr_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(ptr_t)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { cstr_t key = h->keys[j]; ptr_t val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = __ac_X31_hash_string(key); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { cstr_t tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { ptr_t tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (cstr_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(cstr_t)); if (1) { h->vals = (ptr_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(ptr_t)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 167 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 167 "/home/nick/dl/neovim/src/nvim/map.c"
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h, cstr_t key, int *ret) __attribute__((unused)); khint_t kh_put_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h, cstr_t key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_cstr_t_ptr_t_map(h, h->n_buckets - 1); } else { kh_resize_cstr_t_ptr_t_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = __ac_X31_hash_string(key); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !(strcmp(h->keys[i], key) == 0))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h, khint_t x) __attribute__((unused)); void kh_del_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_cstr_t_ptr_t_destroy(Map_cstr_t_ptr_t *map) { kh_dealloc_cstr_t_ptr_t_map(&map->table); } ptr_t map_cstr_t_ptr_t_get(Map_cstr_t_ptr_t *map, cstr_t key) { khiter_t k; if ((k = kh_get_cstr_t_ptr_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { return cstr_t_ptr_t_initializer; } return ((&map->table)->vals[k]); } 
-# 167 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 167 "/home/nick/dl/neovim/src/nvim/map.c"
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_cstr_t_ptr_t_has(Map_cstr_t_ptr_t *map, cstr_t key) { return kh_get_cstr_t_ptr_t_map(&map->table, key) != ((&map->table)->n_buckets); } cstr_t map_cstr_t_ptr_t_key(Map_cstr_t_ptr_t *map, cstr_t key) { khiter_t k; if ((k = kh_get_cstr_t_ptr_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } ptr_t map_cstr_t_ptr_t_put(Map_cstr_t_ptr_t *map, cstr_t key, ptr_t value) { int ret; ptr_t rv = cstr_t_ptr_t_initializer; khiter_t k = kh_put_cstr_t_ptr_t_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } ptr_t *map_cstr_t_ptr_t_ref(Map_cstr_t_ptr_t *map, cstr_t key, 
-# 167 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 167 "/home/nick/dl/neovim/src/nvim/map.c"
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_cstr_t_ptr_t_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = cstr_t_ptr_t_initializer; } } else { k = kh_get_cstr_t_ptr_t_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 167 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 167 "/home/nick/dl/neovim/src/nvim/map.c"
+# 167 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } ptr_t map_cstr_t_ptr_t_del(Map_cstr_t_ptr_t *map, cstr_t key) { ptr_t rv = cstr_t_ptr_t_initializer; khiter_t k; if ((k = kh_get_cstr_t_ptr_t_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_cstr_t_ptr_t_map(&map->table, k); } return rv; } void map_cstr_t_ptr_t_clear(Map_cstr_t_ptr_t *map) { kh_clear_cstr_t_ptr_t_map(&map->table); }
 const int cstr_t_int_initializer = { 0 }; kh_cstr_t_int_map_t *kh_init_cstr_t_int_map(void) __attribute__((unused)); kh_cstr_t_int_map_t *kh_init_cstr_t_int_map(void) { return (kh_cstr_t_int_map_t *)xcalloc(1, sizeof(kh_cstr_t_int_map_t)); } void kh_dealloc_cstr_t_int_map(kh_cstr_t_int_map_t *h) __attribute__((unused)); void kh_dealloc_cstr_t_int_map(kh_cstr_t_int_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 168 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 168 "/home/nick/dl/neovim/src/nvim/map.c"
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 168 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 168 "/home/nick/dl/neovim/src/nvim/map.c"
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 168 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 168 "/home/nick/dl/neovim/src/nvim/map.c"
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_cstr_t_int_map(kh_cstr_t_int_map_t *h) __attribute__((unused)); void kh_destroy_cstr_t_int_map(kh_cstr_t_int_map_t *h) { if (h) { kh_dealloc_cstr_t_int_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 168 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 168 "/home/nick/dl/neovim/src/nvim/map.c"
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_cstr_t_int_map(kh_cstr_t_int_map_t *h) __attribute__((unused)); void kh_clear_cstr_t_int_map(kh_cstr_t_int_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_cstr_t_int_map(const kh_cstr_t_int_map_t *h, cstr_t key) __attribute__((unused)); khint_t kh_get_cstr_t_int_map(const kh_cstr_t_int_map_t *h, cstr_t key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = __ac_X31_hash_string(key); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !(strcmp(h->keys[i], key) == 0))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_cstr_t_int_map(kh_cstr_t_int_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_cstr_t_int_map(kh_cstr_t_int_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { cstr_t *new_keys = (cstr_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(cstr_t)); h->keys = new_keys; if (1) { int *new_vals = (int *)xrealloc((void *)h->vals, new_n_buckets * sizeof(int)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { cstr_t key = h->keys[j]; int val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = __ac_X31_hash_string(key); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { cstr_t tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { int tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (cstr_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(cstr_t)); if (1) { h->vals = (int *)xrealloc((void *)h->vals, new_n_buckets * sizeof(int)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 168 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 168 "/home/nick/dl/neovim/src/nvim/map.c"
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_cstr_t_int_map(kh_cstr_t_int_map_t *h, cstr_t key, int *ret) __attribute__((unused)); khint_t kh_put_cstr_t_int_map(kh_cstr_t_int_map_t *h, cstr_t key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_cstr_t_int_map(h, h->n_buckets - 1); } else { kh_resize_cstr_t_int_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = __ac_X31_hash_string(key); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !(strcmp(h->keys[i], key) == 0))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_cstr_t_int_map(kh_cstr_t_int_map_t *h, khint_t x) __attribute__((unused)); void kh_del_cstr_t_int_map(kh_cstr_t_int_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_cstr_t_int_destroy(Map_cstr_t_int *map) { kh_dealloc_cstr_t_int_map(&map->table); } int map_cstr_t_int_get(Map_cstr_t_int *map, cstr_t key) { khiter_t k; if ((k = kh_get_cstr_t_int_map(&map->table, key)) == ((&map->table)->n_buckets)) { return cstr_t_int_initializer; } return ((&map->table)->vals[k]); } 
-# 168 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 168 "/home/nick/dl/neovim/src/nvim/map.c"
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_cstr_t_int_has(Map_cstr_t_int *map, cstr_t key) { return kh_get_cstr_t_int_map(&map->table, key) != ((&map->table)->n_buckets); } cstr_t map_cstr_t_int_key(Map_cstr_t_int *map, cstr_t key) { khiter_t k; if ((k = kh_get_cstr_t_int_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } int map_cstr_t_int_put(Map_cstr_t_int *map, cstr_t key, int value) { int ret; int rv = cstr_t_int_initializer; khiter_t k = kh_put_cstr_t_int_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } int *map_cstr_t_int_ref(Map_cstr_t_int *map, cstr_t key, 
-# 168 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 168 "/home/nick/dl/neovim/src/nvim/map.c"
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_cstr_t_int_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = cstr_t_int_initializer; } } else { k = kh_get_cstr_t_int_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 168 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 168 "/home/nick/dl/neovim/src/nvim/map.c"
+# 168 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } int map_cstr_t_int_del(Map_cstr_t_int *map, cstr_t key) { int rv = cstr_t_int_initializer; khiter_t k; if ((k = kh_get_cstr_t_int_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_cstr_t_int_map(&map->table, k); } return rv; } void map_cstr_t_int_clear(Map_cstr_t_int *map) { kh_clear_cstr_t_int_map(&map->table); }
 const ptr_t ptr_t_ptr_t_initializer = { 0 }; kh_ptr_t_ptr_t_map_t *kh_init_ptr_t_ptr_t_map(void) __attribute__((unused)); kh_ptr_t_ptr_t_map_t *kh_init_ptr_t_ptr_t_map(void) { return (kh_ptr_t_ptr_t_map_t *)xcalloc(1, sizeof(kh_ptr_t_ptr_t_map_t)); } void kh_dealloc_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h) __attribute__((unused)); void kh_dealloc_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 169 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 169 "/home/nick/dl/neovim/src/nvim/map.c"
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 169 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 169 "/home/nick/dl/neovim/src/nvim/map.c"
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 169 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 169 "/home/nick/dl/neovim/src/nvim/map.c"
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h) __attribute__((unused)); void kh_destroy_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h) { if (h) { kh_dealloc_ptr_t_ptr_t_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 169 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 169 "/home/nick/dl/neovim/src/nvim/map.c"
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h) __attribute__((unused)); void kh_clear_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_ptr_t_ptr_t_map(const kh_ptr_t_ptr_t_map_t *h, ptr_t key) __attribute__((unused)); khint_t kh_get_ptr_t_ptr_t_map(const kh_ptr_t_ptr_t_map_t *h, ptr_t key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = (khint32_t)(((uint64_t)(key))>>33^((uint64_t)(key))^((uint64_t)(key))<<11); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !(((uint64_t)(h->keys[i])) == ((uint64_t)(key))))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { ptr_t *new_keys = (ptr_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(ptr_t)); h->keys = new_keys; if (1) { ptr_t *new_vals = (ptr_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(ptr_t)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { ptr_t key = h->keys[j]; ptr_t val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = (khint32_t)(((uint64_t)(key))>>33^((uint64_t)(key))^((uint64_t)(key))<<11); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { ptr_t tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { ptr_t tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (ptr_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(ptr_t)); if (1) { h->vals = (ptr_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(ptr_t)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 169 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 169 "/home/nick/dl/neovim/src/nvim/map.c"
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h, ptr_t key, int *ret) __attribute__((unused)); khint_t kh_put_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h, ptr_t key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_ptr_t_ptr_t_map(h, h->n_buckets - 1); } else { kh_resize_ptr_t_ptr_t_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = (khint32_t)(((uint64_t)(key))>>33^((uint64_t)(key))^((uint64_t)(key))<<11); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !(((uint64_t)(h->keys[i])) == ((uint64_t)(key))))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h, khint_t x) __attribute__((unused)); void kh_del_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_ptr_t_ptr_t_destroy(Map_ptr_t_ptr_t *map) { kh_dealloc_ptr_t_ptr_t_map(&map->table); } ptr_t map_ptr_t_ptr_t_get(Map_ptr_t_ptr_t *map, ptr_t key) { khiter_t k; if ((k = kh_get_ptr_t_ptr_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { return ptr_t_ptr_t_initializer; } return ((&map->table)->vals[k]); } 
-# 169 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 169 "/home/nick/dl/neovim/src/nvim/map.c"
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_ptr_t_ptr_t_has(Map_ptr_t_ptr_t *map, ptr_t key) { return kh_get_ptr_t_ptr_t_map(&map->table, key) != ((&map->table)->n_buckets); } ptr_t map_ptr_t_ptr_t_key(Map_ptr_t_ptr_t *map, ptr_t key) { khiter_t k; if ((k = kh_get_ptr_t_ptr_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } ptr_t map_ptr_t_ptr_t_put(Map_ptr_t_ptr_t *map, ptr_t key, ptr_t value) { int ret; ptr_t rv = ptr_t_ptr_t_initializer; khiter_t k = kh_put_ptr_t_ptr_t_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } ptr_t *map_ptr_t_ptr_t_ref(Map_ptr_t_ptr_t *map, ptr_t key, 
-# 169 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 169 "/home/nick/dl/neovim/src/nvim/map.c"
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_ptr_t_ptr_t_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = ptr_t_ptr_t_initializer; } } else { k = kh_get_ptr_t_ptr_t_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 169 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 169 "/home/nick/dl/neovim/src/nvim/map.c"
+# 169 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } ptr_t map_ptr_t_ptr_t_del(Map_ptr_t_ptr_t *map, ptr_t key) { ptr_t rv = ptr_t_ptr_t_initializer; khiter_t k; if ((k = kh_get_ptr_t_ptr_t_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_ptr_t_ptr_t_map(&map->table, k); } return rv; } void map_ptr_t_ptr_t_clear(Map_ptr_t_ptr_t *map) { kh_clear_ptr_t_ptr_t_map(&map->table); }
 const ptr_t uint32_t_ptr_t_initializer = { 0 }; kh_uint32_t_ptr_t_map_t *kh_init_uint32_t_ptr_t_map(void) __attribute__((unused)); kh_uint32_t_ptr_t_map_t *kh_init_uint32_t_ptr_t_map(void) { return (kh_uint32_t_ptr_t_map_t *)xcalloc(1, sizeof(kh_uint32_t_ptr_t_map_t)); } void kh_dealloc_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h) __attribute__((unused)); void kh_dealloc_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 170 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 170 "/home/nick/dl/neovim/src/nvim/map.c"
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 170 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 170 "/home/nick/dl/neovim/src/nvim/map.c"
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 170 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 170 "/home/nick/dl/neovim/src/nvim/map.c"
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h) __attribute__((unused)); void kh_destroy_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h) { if (h) { kh_dealloc_uint32_t_ptr_t_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 170 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 170 "/home/nick/dl/neovim/src/nvim/map.c"
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h) __attribute__((unused)); void kh_clear_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_uint32_t_ptr_t_map(const kh_uint32_t_ptr_t_map_t *h, uint32_t key) __attribute__((unused)); khint_t kh_get_uint32_t_ptr_t_map(const kh_uint32_t_ptr_t_map_t *h, uint32_t key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = (khint32_t)(key); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { uint32_t *new_keys = (uint32_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(uint32_t)); h->keys = new_keys; if (1) { ptr_t *new_vals = (ptr_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(ptr_t)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { uint32_t key = h->keys[j]; ptr_t val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = (khint32_t)(key); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { uint32_t tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { ptr_t tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (uint32_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(uint32_t)); if (1) { h->vals = (ptr_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(ptr_t)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 170 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 170 "/home/nick/dl/neovim/src/nvim/map.c"
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h, uint32_t key, int *ret) __attribute__((unused)); khint_t kh_put_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h, uint32_t key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_uint32_t_ptr_t_map(h, h->n_buckets - 1); } else { kh_resize_uint32_t_ptr_t_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = (khint32_t)(key); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h, khint_t x) __attribute__((unused)); void kh_del_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_uint32_t_ptr_t_destroy(Map_uint32_t_ptr_t *map) { kh_dealloc_uint32_t_ptr_t_map(&map->table); } ptr_t map_uint32_t_ptr_t_get(Map_uint32_t_ptr_t *map, uint32_t key) { khiter_t k; if ((k = kh_get_uint32_t_ptr_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { return uint32_t_ptr_t_initializer; } return ((&map->table)->vals[k]); } 
-# 170 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 170 "/home/nick/dl/neovim/src/nvim/map.c"
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_uint32_t_ptr_t_has(Map_uint32_t_ptr_t *map, uint32_t key) { return kh_get_uint32_t_ptr_t_map(&map->table, key) != ((&map->table)->n_buckets); } uint32_t map_uint32_t_ptr_t_key(Map_uint32_t_ptr_t *map, uint32_t key) { khiter_t k; if ((k = kh_get_uint32_t_ptr_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } ptr_t map_uint32_t_ptr_t_put(Map_uint32_t_ptr_t *map, uint32_t key, ptr_t value) { int ret; ptr_t rv = uint32_t_ptr_t_initializer; khiter_t k = kh_put_uint32_t_ptr_t_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } ptr_t *map_uint32_t_ptr_t_ref(Map_uint32_t_ptr_t *map, uint32_t key, 
-# 170 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 170 "/home/nick/dl/neovim/src/nvim/map.c"
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_uint32_t_ptr_t_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = uint32_t_ptr_t_initializer; } } else { k = kh_get_uint32_t_ptr_t_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 170 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 170 "/home/nick/dl/neovim/src/nvim/map.c"
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } ptr_t map_uint32_t_ptr_t_del(Map_uint32_t_ptr_t *map, uint32_t key) { ptr_t rv = uint32_t_ptr_t_initializer; khiter_t k; if ((k = kh_get_uint32_t_ptr_t_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_uint32_t_ptr_t_map(&map->table, k); } return rv; } void map_uint32_t_ptr_t_clear(Map_uint32_t_ptr_t *map) { kh_clear_uint32_t_ptr_t_map(&map->table); }
 const ptr_t uint64_t_ptr_t_initializer = { 0 }; kh_uint64_t_ptr_t_map_t *kh_init_uint64_t_ptr_t_map(void) __attribute__((unused)); kh_uint64_t_ptr_t_map_t *kh_init_uint64_t_ptr_t_map(void) { return (kh_uint64_t_ptr_t_map_t *)xcalloc(1, sizeof(kh_uint64_t_ptr_t_map_t)); } void kh_dealloc_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h) __attribute__((unused)); void kh_dealloc_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 171 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 171 "/home/nick/dl/neovim/src/nvim/map.c"
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 171 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 171 "/home/nick/dl/neovim/src/nvim/map.c"
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 171 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 171 "/home/nick/dl/neovim/src/nvim/map.c"
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h) __attribute__((unused)); void kh_destroy_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h) { if (h) { kh_dealloc_uint64_t_ptr_t_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 171 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 171 "/home/nick/dl/neovim/src/nvim/map.c"
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h) __attribute__((unused)); void kh_clear_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_uint64_t_ptr_t_map(const kh_uint64_t_ptr_t_map_t *h, uint64_t key) __attribute__((unused)); khint_t kh_get_uint64_t_ptr_t_map(const kh_uint64_t_ptr_t_map_t *h, uint64_t key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = (khint32_t)((key)>>33^(key)^(key)<<11); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { uint64_t *new_keys = (uint64_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(uint64_t)); h->keys = new_keys; if (1) { ptr_t *new_vals = (ptr_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(ptr_t)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { uint64_t key = h->keys[j]; ptr_t val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = (khint32_t)((key)>>33^(key)^(key)<<11); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { uint64_t tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { ptr_t tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (uint64_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(uint64_t)); if (1) { h->vals = (ptr_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(ptr_t)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 171 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 171 "/home/nick/dl/neovim/src/nvim/map.c"
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h, uint64_t key, int *ret) __attribute__((unused)); khint_t kh_put_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h, uint64_t key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_uint64_t_ptr_t_map(h, h->n_buckets - 1); } else { kh_resize_uint64_t_ptr_t_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = (khint32_t)((key)>>33^(key)^(key)<<11); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h, khint_t x) __attribute__((unused)); void kh_del_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_uint64_t_ptr_t_destroy(Map_uint64_t_ptr_t *map) { kh_dealloc_uint64_t_ptr_t_map(&map->table); } ptr_t map_uint64_t_ptr_t_get(Map_uint64_t_ptr_t *map, uint64_t key) { khiter_t k; if ((k = kh_get_uint64_t_ptr_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { return uint64_t_ptr_t_initializer; } return ((&map->table)->vals[k]); } 
-# 171 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 171 "/home/nick/dl/neovim/src/nvim/map.c"
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_uint64_t_ptr_t_has(Map_uint64_t_ptr_t *map, uint64_t key) { return kh_get_uint64_t_ptr_t_map(&map->table, key) != ((&map->table)->n_buckets); } uint64_t map_uint64_t_ptr_t_key(Map_uint64_t_ptr_t *map, uint64_t key) { khiter_t k; if ((k = kh_get_uint64_t_ptr_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } ptr_t map_uint64_t_ptr_t_put(Map_uint64_t_ptr_t *map, uint64_t key, ptr_t value) { int ret; ptr_t rv = uint64_t_ptr_t_initializer; khiter_t k = kh_put_uint64_t_ptr_t_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } ptr_t *map_uint64_t_ptr_t_ref(Map_uint64_t_ptr_t *map, uint64_t key, 
-# 171 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 171 "/home/nick/dl/neovim/src/nvim/map.c"
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_uint64_t_ptr_t_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = uint64_t_ptr_t_initializer; } } else { k = kh_get_uint64_t_ptr_t_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 171 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 171 "/home/nick/dl/neovim/src/nvim/map.c"
+# 171 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } ptr_t map_uint64_t_ptr_t_del(Map_uint64_t_ptr_t *map, uint64_t key) { ptr_t rv = uint64_t_ptr_t_initializer; khiter_t k; if ((k = kh_get_uint64_t_ptr_t_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_uint64_t_ptr_t_map(&map->table, k); } return rv; } void map_uint64_t_ptr_t_clear(Map_uint64_t_ptr_t *map) { kh_clear_uint64_t_ptr_t_map(&map->table); }
 const ssize_t uint64_t_ssize_t_initializer = { -1 }; kh_uint64_t_ssize_t_map_t *kh_init_uint64_t_ssize_t_map(void) __attribute__((unused)); kh_uint64_t_ssize_t_map_t *kh_init_uint64_t_ssize_t_map(void) { return (kh_uint64_t_ssize_t_map_t *)xcalloc(1, sizeof(kh_uint64_t_ssize_t_map_t)); } void kh_dealloc_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h) __attribute__((unused)); void kh_dealloc_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 172 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 172 "/home/nick/dl/neovim/src/nvim/map.c"
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 172 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 172 "/home/nick/dl/neovim/src/nvim/map.c"
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 172 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 172 "/home/nick/dl/neovim/src/nvim/map.c"
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h) __attribute__((unused)); void kh_destroy_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h) { if (h) { kh_dealloc_uint64_t_ssize_t_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 172 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 172 "/home/nick/dl/neovim/src/nvim/map.c"
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h) __attribute__((unused)); void kh_clear_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_uint64_t_ssize_t_map(const kh_uint64_t_ssize_t_map_t *h, uint64_t key) __attribute__((unused)); khint_t kh_get_uint64_t_ssize_t_map(const kh_uint64_t_ssize_t_map_t *h, uint64_t key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = (khint32_t)((key)>>33^(key)^(key)<<11); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { uint64_t *new_keys = (uint64_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(uint64_t)); h->keys = new_keys; if (1) { ssize_t *new_vals = (ssize_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(ssize_t)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { uint64_t key = h->keys[j]; ssize_t val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = (khint32_t)((key)>>33^(key)^(key)<<11); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { uint64_t tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { ssize_t tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (uint64_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(uint64_t)); if (1) { h->vals = (ssize_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(ssize_t)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 172 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 172 "/home/nick/dl/neovim/src/nvim/map.c"
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h, uint64_t key, int *ret) __attribute__((unused)); khint_t kh_put_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h, uint64_t key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_uint64_t_ssize_t_map(h, h->n_buckets - 1); } else { kh_resize_uint64_t_ssize_t_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = (khint32_t)((key)>>33^(key)^(key)<<11); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h, khint_t x) __attribute__((unused)); void kh_del_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_uint64_t_ssize_t_destroy(Map_uint64_t_ssize_t *map) { kh_dealloc_uint64_t_ssize_t_map(&map->table); } ssize_t map_uint64_t_ssize_t_get(Map_uint64_t_ssize_t *map, uint64_t key) { khiter_t k; if ((k = kh_get_uint64_t_ssize_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { return uint64_t_ssize_t_initializer; } return ((&map->table)->vals[k]); } 
-# 172 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 172 "/home/nick/dl/neovim/src/nvim/map.c"
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_uint64_t_ssize_t_has(Map_uint64_t_ssize_t *map, uint64_t key) { return kh_get_uint64_t_ssize_t_map(&map->table, key) != ((&map->table)->n_buckets); } uint64_t map_uint64_t_ssize_t_key(Map_uint64_t_ssize_t *map, uint64_t key) { khiter_t k; if ((k = kh_get_uint64_t_ssize_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } ssize_t map_uint64_t_ssize_t_put(Map_uint64_t_ssize_t *map, uint64_t key, ssize_t value) { int ret; ssize_t rv = uint64_t_ssize_t_initializer; khiter_t k = kh_put_uint64_t_ssize_t_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } ssize_t *map_uint64_t_ssize_t_ref(Map_uint64_t_ssize_t *map, uint64_t key, 
-# 172 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 172 "/home/nick/dl/neovim/src/nvim/map.c"
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_uint64_t_ssize_t_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = uint64_t_ssize_t_initializer; } } else { k = kh_get_uint64_t_ssize_t_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 172 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 172 "/home/nick/dl/neovim/src/nvim/map.c"
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } ssize_t map_uint64_t_ssize_t_del(Map_uint64_t_ssize_t *map, uint64_t key) { ssize_t rv = uint64_t_ssize_t_initializer; khiter_t k; if ((k = kh_get_uint64_t_ssize_t_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_uint64_t_ssize_t_map(&map->table, k); } return rv; } void map_uint64_t_ssize_t_clear(Map_uint64_t_ssize_t *map) { kh_clear_uint64_t_ssize_t_map(&map->table); }
 const uint64_t uint64_t_uint64_t_initializer = { 0 }; kh_uint64_t_uint64_t_map_t *kh_init_uint64_t_uint64_t_map(void) __attribute__((unused)); kh_uint64_t_uint64_t_map_t *kh_init_uint64_t_uint64_t_map(void) { return (kh_uint64_t_uint64_t_map_t *)xcalloc(1, sizeof(kh_uint64_t_uint64_t_map_t)); } void kh_dealloc_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h) __attribute__((unused)); void kh_dealloc_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 173 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 173 "/home/nick/dl/neovim/src/nvim/map.c"
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 173 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 173 "/home/nick/dl/neovim/src/nvim/map.c"
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 173 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 173 "/home/nick/dl/neovim/src/nvim/map.c"
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h) __attribute__((unused)); void kh_destroy_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h) { if (h) { kh_dealloc_uint64_t_uint64_t_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 173 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 173 "/home/nick/dl/neovim/src/nvim/map.c"
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h) __attribute__((unused)); void kh_clear_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_uint64_t_uint64_t_map(const kh_uint64_t_uint64_t_map_t *h, uint64_t key) __attribute__((unused)); khint_t kh_get_uint64_t_uint64_t_map(const kh_uint64_t_uint64_t_map_t *h, uint64_t key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = (khint32_t)((key)>>33^(key)^(key)<<11); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { uint64_t *new_keys = (uint64_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(uint64_t)); h->keys = new_keys; if (1) { uint64_t *new_vals = (uint64_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(uint64_t)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { uint64_t key = h->keys[j]; uint64_t val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = (khint32_t)((key)>>33^(key)^(key)<<11); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { uint64_t tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { uint64_t tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (uint64_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(uint64_t)); if (1) { h->vals = (uint64_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(uint64_t)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 173 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 173 "/home/nick/dl/neovim/src/nvim/map.c"
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h, uint64_t key, int *ret) __attribute__((unused)); khint_t kh_put_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h, uint64_t key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_uint64_t_uint64_t_map(h, h->n_buckets - 1); } else { kh_resize_uint64_t_uint64_t_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = (khint32_t)((key)>>33^(key)^(key)<<11); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h, khint_t x) __attribute__((unused)); void kh_del_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_uint64_t_uint64_t_destroy(Map_uint64_t_uint64_t *map) { kh_dealloc_uint64_t_uint64_t_map(&map->table); } uint64_t map_uint64_t_uint64_t_get(Map_uint64_t_uint64_t *map, uint64_t key) { khiter_t k; if ((k = kh_get_uint64_t_uint64_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { return uint64_t_uint64_t_initializer; } return ((&map->table)->vals[k]); } 
-# 173 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 173 "/home/nick/dl/neovim/src/nvim/map.c"
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_uint64_t_uint64_t_has(Map_uint64_t_uint64_t *map, uint64_t key) { return kh_get_uint64_t_uint64_t_map(&map->table, key) != ((&map->table)->n_buckets); } uint64_t map_uint64_t_uint64_t_key(Map_uint64_t_uint64_t *map, uint64_t key) { khiter_t k; if ((k = kh_get_uint64_t_uint64_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } uint64_t map_uint64_t_uint64_t_put(Map_uint64_t_uint64_t *map, uint64_t key, uint64_t value) { int ret; uint64_t rv = uint64_t_uint64_t_initializer; khiter_t k = kh_put_uint64_t_uint64_t_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } uint64_t *map_uint64_t_uint64_t_ref(Map_uint64_t_uint64_t *map, uint64_t key, 
-# 173 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 173 "/home/nick/dl/neovim/src/nvim/map.c"
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_uint64_t_uint64_t_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = uint64_t_uint64_t_initializer; } } else { k = kh_get_uint64_t_uint64_t_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 173 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 173 "/home/nick/dl/neovim/src/nvim/map.c"
+# 173 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } uint64_t map_uint64_t_uint64_t_del(Map_uint64_t_uint64_t *map, uint64_t key) { uint64_t rv = uint64_t_uint64_t_initializer; khiter_t k; if ((k = kh_get_uint64_t_uint64_t_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_uint64_t_uint64_t_map(&map->table, k); } return rv; } void map_uint64_t_uint64_t_clear(Map_uint64_t_uint64_t *map) { kh_clear_uint64_t_uint64_t_map(&map->table); }
 const uint32_t uint32_t_uint32_t_initializer = { 0 }; kh_uint32_t_uint32_t_map_t *kh_init_uint32_t_uint32_t_map(void) __attribute__((unused)); kh_uint32_t_uint32_t_map_t *kh_init_uint32_t_uint32_t_map(void) { return (kh_uint32_t_uint32_t_map_t *)xcalloc(1, sizeof(kh_uint32_t_uint32_t_map_t)); } void kh_dealloc_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h) __attribute__((unused)); void kh_dealloc_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 174 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 174 "/home/nick/dl/neovim/src/nvim/map.c"
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 174 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 174 "/home/nick/dl/neovim/src/nvim/map.c"
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 174 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 174 "/home/nick/dl/neovim/src/nvim/map.c"
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h) __attribute__((unused)); void kh_destroy_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h) { if (h) { kh_dealloc_uint32_t_uint32_t_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 174 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 174 "/home/nick/dl/neovim/src/nvim/map.c"
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h) __attribute__((unused)); void kh_clear_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_uint32_t_uint32_t_map(const kh_uint32_t_uint32_t_map_t *h, uint32_t key) __attribute__((unused)); khint_t kh_get_uint32_t_uint32_t_map(const kh_uint32_t_uint32_t_map_t *h, uint32_t key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = (khint32_t)(key); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { uint32_t *new_keys = (uint32_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(uint32_t)); h->keys = new_keys; if (1) { uint32_t *new_vals = (uint32_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(uint32_t)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { uint32_t key = h->keys[j]; uint32_t val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = (khint32_t)(key); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { uint32_t tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { uint32_t tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (uint32_t *)xrealloc((void *)h->keys, new_n_buckets * sizeof(uint32_t)); if (1) { h->vals = (uint32_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(uint32_t)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 174 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 174 "/home/nick/dl/neovim/src/nvim/map.c"
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h, uint32_t key, int *ret) __attribute__((unused)); khint_t kh_put_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h, uint32_t key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_uint32_t_uint32_t_map(h, h->n_buckets - 1); } else { kh_resize_uint32_t_uint32_t_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = (khint32_t)(key); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h, khint_t x) __attribute__((unused)); void kh_del_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_uint32_t_uint32_t_destroy(Map_uint32_t_uint32_t *map) { kh_dealloc_uint32_t_uint32_t_map(&map->table); } uint32_t map_uint32_t_uint32_t_get(Map_uint32_t_uint32_t *map, uint32_t key) { khiter_t k; if ((k = kh_get_uint32_t_uint32_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { return uint32_t_uint32_t_initializer; } return ((&map->table)->vals[k]); } 
-# 174 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 174 "/home/nick/dl/neovim/src/nvim/map.c"
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_uint32_t_uint32_t_has(Map_uint32_t_uint32_t *map, uint32_t key) { return kh_get_uint32_t_uint32_t_map(&map->table, key) != ((&map->table)->n_buckets); } uint32_t map_uint32_t_uint32_t_key(Map_uint32_t_uint32_t *map, uint32_t key) { khiter_t k; if ((k = kh_get_uint32_t_uint32_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } uint32_t map_uint32_t_uint32_t_put(Map_uint32_t_uint32_t *map, uint32_t key, uint32_t value) { int ret; uint32_t rv = uint32_t_uint32_t_initializer; khiter_t k = kh_put_uint32_t_uint32_t_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } uint32_t *map_uint32_t_uint32_t_ref(Map_uint32_t_uint32_t *map, uint32_t key, 
-# 174 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 174 "/home/nick/dl/neovim/src/nvim/map.c"
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_uint32_t_uint32_t_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = uint32_t_uint32_t_initializer; } } else { k = kh_get_uint32_t_uint32_t_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 174 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 174 "/home/nick/dl/neovim/src/nvim/map.c"
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } uint32_t map_uint32_t_uint32_t_del(Map_uint32_t_uint32_t *map, uint32_t key) { uint32_t rv = uint32_t_uint32_t_initializer; khiter_t k; if ((k = kh_get_uint32_t_uint32_t_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_uint32_t_uint32_t_map(&map->table, k); } return rv; } void map_uint32_t_uint32_t_clear(Map_uint32_t_uint32_t *map) { kh_clear_uint32_t_uint32_t_map(&map->table); }
 const ptr_t handle_T_ptr_t_initializer = { 0 }; kh_handle_T_ptr_t_map_t *kh_init_handle_T_ptr_t_map(void) __attribute__((unused)); kh_handle_T_ptr_t_map_t *kh_init_handle_T_ptr_t_map(void) { return (kh_handle_T_ptr_t_map_t *)xcalloc(1, sizeof(kh_handle_T_ptr_t_map_t)); } void kh_dealloc_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h) __attribute__((unused)); void kh_dealloc_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 175 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 175 "/home/nick/dl/neovim/src/nvim/map.c"
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 175 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 175 "/home/nick/dl/neovim/src/nvim/map.c"
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 175 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 175 "/home/nick/dl/neovim/src/nvim/map.c"
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h) __attribute__((unused)); void kh_destroy_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h) { if (h) { kh_dealloc_handle_T_ptr_t_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 175 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 175 "/home/nick/dl/neovim/src/nvim/map.c"
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h) __attribute__((unused)); void kh_clear_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_handle_T_ptr_t_map(const kh_handle_T_ptr_t_map_t *h, handle_T key) __attribute__((unused)); khint_t kh_get_handle_T_ptr_t_map(const kh_handle_T_ptr_t_map_t *h, handle_T key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = (khint32_t)(key); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { handle_T *new_keys = (handle_T *)xrealloc((void *)h->keys, new_n_buckets * sizeof(handle_T)); h->keys = new_keys; if (1) { ptr_t *new_vals = (ptr_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(ptr_t)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { handle_T key = h->keys[j]; ptr_t val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = (khint32_t)(key); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { handle_T tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { ptr_t tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (handle_T *)xrealloc((void *)h->keys, new_n_buckets * sizeof(handle_T)); if (1) { h->vals = (ptr_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(ptr_t)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 175 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 175 "/home/nick/dl/neovim/src/nvim/map.c"
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h, handle_T key, int *ret) __attribute__((unused)); khint_t kh_put_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h, handle_T key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_handle_T_ptr_t_map(h, h->n_buckets - 1); } else { kh_resize_handle_T_ptr_t_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = (khint32_t)(key); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h, khint_t x) __attribute__((unused)); void kh_del_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_handle_T_ptr_t_destroy(Map_handle_T_ptr_t *map) { kh_dealloc_handle_T_ptr_t_map(&map->table); } ptr_t map_handle_T_ptr_t_get(Map_handle_T_ptr_t *map, handle_T key) { khiter_t k; if ((k = kh_get_handle_T_ptr_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { return handle_T_ptr_t_initializer; } return ((&map->table)->vals[k]); } 
-# 175 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 175 "/home/nick/dl/neovim/src/nvim/map.c"
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_handle_T_ptr_t_has(Map_handle_T_ptr_t *map, handle_T key) { return kh_get_handle_T_ptr_t_map(&map->table, key) != ((&map->table)->n_buckets); } handle_T map_handle_T_ptr_t_key(Map_handle_T_ptr_t *map, handle_T key) { khiter_t k; if ((k = kh_get_handle_T_ptr_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } ptr_t map_handle_T_ptr_t_put(Map_handle_T_ptr_t *map, handle_T key, ptr_t value) { int ret; ptr_t rv = handle_T_ptr_t_initializer; khiter_t k = kh_put_handle_T_ptr_t_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } ptr_t *map_handle_T_ptr_t_ref(Map_handle_T_ptr_t *map, handle_T key, 
-# 175 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 175 "/home/nick/dl/neovim/src/nvim/map.c"
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_handle_T_ptr_t_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = handle_T_ptr_t_initializer; } } else { k = kh_get_handle_T_ptr_t_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 175 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 175 "/home/nick/dl/neovim/src/nvim/map.c"
+# 175 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } ptr_t map_handle_T_ptr_t_del(Map_handle_T_ptr_t *map, handle_T key) { ptr_t rv = handle_T_ptr_t_initializer; khiter_t k; if ((k = kh_get_handle_T_ptr_t_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_handle_T_ptr_t_map(&map->table, k); } return rv; } void map_handle_T_ptr_t_clear(Map_handle_T_ptr_t *map) { kh_clear_handle_T_ptr_t_map(&map->table); }
 const int HlEntry_int_initializer = { 0 }; kh_HlEntry_int_map_t *kh_init_HlEntry_int_map(void) __attribute__((unused)); kh_HlEntry_int_map_t *kh_init_HlEntry_int_map(void) { return (kh_HlEntry_int_map_t *)xcalloc(1, sizeof(kh_HlEntry_int_map_t)); } void kh_dealloc_HlEntry_int_map(kh_HlEntry_int_map_t *h) __attribute__((unused)); void kh_dealloc_HlEntry_int_map(kh_HlEntry_int_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 176 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 176 "/home/nick/dl/neovim/src/nvim/map.c"
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 176 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 176 "/home/nick/dl/neovim/src/nvim/map.c"
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 176 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 176 "/home/nick/dl/neovim/src/nvim/map.c"
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_HlEntry_int_map(kh_HlEntry_int_map_t *h) __attribute__((unused)); void kh_destroy_HlEntry_int_map(kh_HlEntry_int_map_t *h) { if (h) { kh_dealloc_HlEntry_int_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 176 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 176 "/home/nick/dl/neovim/src/nvim/map.c"
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_HlEntry_int_map(kh_HlEntry_int_map_t *h) __attribute__((unused)); void kh_clear_HlEntry_int_map(kh_HlEntry_int_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_HlEntry_int_map(const kh_HlEntry_int_map_t *h, HlEntry key) __attribute__((unused)); khint_t kh_get_HlEntry_int_map(const kh_HlEntry_int_map_t *h, HlEntry key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = HlEntry_hash(key); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !HlEntry_eq(h->keys[i], key))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_HlEntry_int_map(kh_HlEntry_int_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_HlEntry_int_map(kh_HlEntry_int_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { HlEntry *new_keys = (HlEntry *)xrealloc((void *)h->keys, new_n_buckets * sizeof(HlEntry)); h->keys = new_keys; if (1) { int *new_vals = (int *)xrealloc((void *)h->vals, new_n_buckets * sizeof(int)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { HlEntry key = h->keys[j]; int val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = HlEntry_hash(key); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { HlEntry tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { int tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (HlEntry *)xrealloc((void *)h->keys, new_n_buckets * sizeof(HlEntry)); if (1) { h->vals = (int *)xrealloc((void *)h->vals, new_n_buckets * sizeof(int)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 176 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 176 "/home/nick/dl/neovim/src/nvim/map.c"
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_HlEntry_int_map(kh_HlEntry_int_map_t *h, HlEntry key, int *ret) __attribute__((unused)); khint_t kh_put_HlEntry_int_map(kh_HlEntry_int_map_t *h, HlEntry key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_HlEntry_int_map(h, h->n_buckets - 1); } else { kh_resize_HlEntry_int_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = HlEntry_hash(key); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !HlEntry_eq(h->keys[i], key))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_HlEntry_int_map(kh_HlEntry_int_map_t *h, khint_t x) __attribute__((unused)); void kh_del_HlEntry_int_map(kh_HlEntry_int_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_HlEntry_int_destroy(Map_HlEntry_int *map) { kh_dealloc_HlEntry_int_map(&map->table); } int map_HlEntry_int_get(Map_HlEntry_int *map, HlEntry key) { khiter_t k; if ((k = kh_get_HlEntry_int_map(&map->table, key)) == ((&map->table)->n_buckets)) { return HlEntry_int_initializer; } return ((&map->table)->vals[k]); } 
-# 176 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 176 "/home/nick/dl/neovim/src/nvim/map.c"
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_HlEntry_int_has(Map_HlEntry_int *map, HlEntry key) { return kh_get_HlEntry_int_map(&map->table, key) != ((&map->table)->n_buckets); } HlEntry map_HlEntry_int_key(Map_HlEntry_int *map, HlEntry key) { khiter_t k; if ((k = kh_get_HlEntry_int_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } int map_HlEntry_int_put(Map_HlEntry_int *map, HlEntry key, int value) { int ret; int rv = HlEntry_int_initializer; khiter_t k = kh_put_HlEntry_int_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } int *map_HlEntry_int_ref(Map_HlEntry_int *map, HlEntry key, 
-# 176 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 176 "/home/nick/dl/neovim/src/nvim/map.c"
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_HlEntry_int_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = HlEntry_int_initializer; } } else { k = kh_get_HlEntry_int_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 176 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 176 "/home/nick/dl/neovim/src/nvim/map.c"
+# 176 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } int map_HlEntry_int_del(Map_HlEntry_int *map, HlEntry key) { int rv = HlEntry_int_initializer; khiter_t k; if ((k = kh_get_HlEntry_int_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_HlEntry_int_map(&map->table, k); } return rv; } void map_HlEntry_int_clear(Map_HlEntry_int *map) { kh_clear_HlEntry_int_map(&map->table); }
 const handle_T String_handle_T_initializer = 0; kh_String_handle_T_map_t *kh_init_String_handle_T_map(void) __attribute__((unused)); kh_String_handle_T_map_t *kh_init_String_handle_T_map(void) { return (kh_String_handle_T_map_t *)xcalloc(1, sizeof(kh_String_handle_T_map_t)); } void kh_dealloc_String_handle_T_map(kh_String_handle_T_map_t *h) __attribute__((unused)); void kh_dealloc_String_handle_T_map(kh_String_handle_T_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 177 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 177 "/home/nick/dl/neovim/src/nvim/map.c"
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 177 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 177 "/home/nick/dl/neovim/src/nvim/map.c"
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 177 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 177 "/home/nick/dl/neovim/src/nvim/map.c"
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_String_handle_T_map(kh_String_handle_T_map_t *h) __attribute__((unused)); void kh_destroy_String_handle_T_map(kh_String_handle_T_map_t *h) { if (h) { kh_dealloc_String_handle_T_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 177 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 177 "/home/nick/dl/neovim/src/nvim/map.c"
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_String_handle_T_map(kh_String_handle_T_map_t *h) __attribute__((unused)); void kh_clear_String_handle_T_map(kh_String_handle_T_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_String_handle_T_map(const kh_String_handle_T_map_t *h, String key) __attribute__((unused)); khint_t kh_get_String_handle_T_map(const kh_String_handle_T_map_t *h, String key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = String_hash(key); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !String_eq(h->keys[i], key))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_String_handle_T_map(kh_String_handle_T_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_String_handle_T_map(kh_String_handle_T_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { String *new_keys = (String *)xrealloc((void *)h->keys, new_n_buckets * sizeof(String)); h->keys = new_keys; if (1) { handle_T *new_vals = (handle_T *)xrealloc((void *)h->vals, new_n_buckets * sizeof(handle_T)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { String key = h->keys[j]; handle_T val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = String_hash(key); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { String tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { handle_T tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (String *)xrealloc((void *)h->keys, new_n_buckets * sizeof(String)); if (1) { h->vals = (handle_T *)xrealloc((void *)h->vals, new_n_buckets * sizeof(handle_T)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 177 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 177 "/home/nick/dl/neovim/src/nvim/map.c"
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_String_handle_T_map(kh_String_handle_T_map_t *h, String key, int *ret) __attribute__((unused)); khint_t kh_put_String_handle_T_map(kh_String_handle_T_map_t *h, String key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_String_handle_T_map(h, h->n_buckets - 1); } else { kh_resize_String_handle_T_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = String_hash(key); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !String_eq(h->keys[i], key))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_String_handle_T_map(kh_String_handle_T_map_t *h, khint_t x) __attribute__((unused)); void kh_del_String_handle_T_map(kh_String_handle_T_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_String_handle_T_destroy(Map_String_handle_T *map) { kh_dealloc_String_handle_T_map(&map->table); } handle_T map_String_handle_T_get(Map_String_handle_T *map, String key) { khiter_t k; if ((k = kh_get_String_handle_T_map(&map->table, key)) == ((&map->table)->n_buckets)) { return String_handle_T_initializer; } return ((&map->table)->vals[k]); } 
-# 177 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 177 "/home/nick/dl/neovim/src/nvim/map.c"
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_String_handle_T_has(Map_String_handle_T *map, String key) { return kh_get_String_handle_T_map(&map->table, key) != ((&map->table)->n_buckets); } String map_String_handle_T_key(Map_String_handle_T *map, String key) { khiter_t k; if ((k = kh_get_String_handle_T_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } handle_T map_String_handle_T_put(Map_String_handle_T *map, String key, handle_T value) { int ret; handle_T rv = String_handle_T_initializer; khiter_t k = kh_put_String_handle_T_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } handle_T *map_String_handle_T_ref(Map_String_handle_T *map, String key, 
-# 177 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 177 "/home/nick/dl/neovim/src/nvim/map.c"
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_String_handle_T_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = String_handle_T_initializer; } } else { k = kh_get_String_handle_T_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 177 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 177 "/home/nick/dl/neovim/src/nvim/map.c"
+# 177 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } handle_T map_String_handle_T_del(Map_String_handle_T *map, String key) { handle_T rv = String_handle_T_initializer; khiter_t k; if ((k = kh_get_String_handle_T_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_String_handle_T_map(&map->table, k); } return rv; } void map_String_handle_T_clear(Map_String_handle_T *map) { kh_clear_String_handle_T_map(&map->table); }
 const int String_int_initializer = { 0 }; kh_String_int_map_t *kh_init_String_int_map(void) __attribute__((unused)); kh_String_int_map_t *kh_init_String_int_map(void) { return (kh_String_int_map_t *)xcalloc(1, sizeof(kh_String_int_map_t)); } void kh_dealloc_String_int_map(kh_String_int_map_t *h) __attribute__((unused)); void kh_dealloc_String_int_map(kh_String_int_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 178 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 178 "/home/nick/dl/neovim/src/nvim/map.c"
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 178 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 178 "/home/nick/dl/neovim/src/nvim/map.c"
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 178 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 178 "/home/nick/dl/neovim/src/nvim/map.c"
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_String_int_map(kh_String_int_map_t *h) __attribute__((unused)); void kh_destroy_String_int_map(kh_String_int_map_t *h) { if (h) { kh_dealloc_String_int_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 178 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 178 "/home/nick/dl/neovim/src/nvim/map.c"
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_String_int_map(kh_String_int_map_t *h) __attribute__((unused)); void kh_clear_String_int_map(kh_String_int_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_String_int_map(const kh_String_int_map_t *h, String key) __attribute__((unused)); khint_t kh_get_String_int_map(const kh_String_int_map_t *h, String key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = String_hash(key); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !String_eq(h->keys[i], key))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_String_int_map(kh_String_int_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_String_int_map(kh_String_int_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { String *new_keys = (String *)xrealloc((void *)h->keys, new_n_buckets * sizeof(String)); h->keys = new_keys; if (1) { int *new_vals = (int *)xrealloc((void *)h->vals, new_n_buckets * sizeof(int)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { String key = h->keys[j]; int val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = String_hash(key); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { String tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { int tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (String *)xrealloc((void *)h->keys, new_n_buckets * sizeof(String)); if (1) { h->vals = (int *)xrealloc((void *)h->vals, new_n_buckets * sizeof(int)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 178 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 178 "/home/nick/dl/neovim/src/nvim/map.c"
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_String_int_map(kh_String_int_map_t *h, String key, int *ret) __attribute__((unused)); khint_t kh_put_String_int_map(kh_String_int_map_t *h, String key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_String_int_map(h, h->n_buckets - 1); } else { kh_resize_String_int_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = String_hash(key); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !String_eq(h->keys[i], key))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_String_int_map(kh_String_int_map_t *h, khint_t x) __attribute__((unused)); void kh_del_String_int_map(kh_String_int_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_String_int_destroy(Map_String_int *map) { kh_dealloc_String_int_map(&map->table); } int map_String_int_get(Map_String_int *map, String key) { khiter_t k; if ((k = kh_get_String_int_map(&map->table, key)) == ((&map->table)->n_buckets)) { return String_int_initializer; } return ((&map->table)->vals[k]); } 
-# 178 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 178 "/home/nick/dl/neovim/src/nvim/map.c"
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_String_int_has(Map_String_int *map, String key) { return kh_get_String_int_map(&map->table, key) != ((&map->table)->n_buckets); } String map_String_int_key(Map_String_int *map, String key) { khiter_t k; if ((k = kh_get_String_int_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } int map_String_int_put(Map_String_int *map, String key, int value) { int ret; int rv = String_int_initializer; khiter_t k = kh_put_String_int_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } int *map_String_int_ref(Map_String_int *map, String key, 
-# 178 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 178 "/home/nick/dl/neovim/src/nvim/map.c"
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_String_int_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = String_int_initializer; } } else { k = kh_get_String_int_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 178 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 178 "/home/nick/dl/neovim/src/nvim/map.c"
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } int map_String_int_del(Map_String_int *map, String key) { int rv = String_int_initializer; khiter_t k; if ((k = kh_get_String_int_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_String_int_map(&map->table, k); } return rv; } void map_String_int_clear(Map_String_int *map) { kh_clear_String_int_map(&map->table); }
 const String int_String_initializer = { 0 }; kh_int_String_map_t *kh_init_int_String_map(void) __attribute__((unused)); kh_int_String_map_t *kh_init_int_String_map(void) { return (kh_int_String_map_t *)xcalloc(1, sizeof(kh_int_String_map_t)); } void kh_dealloc_int_String_map(kh_int_String_map_t *h) __attribute__((unused)); void kh_dealloc_int_String_map(kh_int_String_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 179 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 179 "/home/nick/dl/neovim/src/nvim/map.c"
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 179 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 179 "/home/nick/dl/neovim/src/nvim/map.c"
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 179 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 179 "/home/nick/dl/neovim/src/nvim/map.c"
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_int_String_map(kh_int_String_map_t *h) __attribute__((unused)); void kh_destroy_int_String_map(kh_int_String_map_t *h) { if (h) { kh_dealloc_int_String_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 179 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 179 "/home/nick/dl/neovim/src/nvim/map.c"
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_int_String_map(kh_int_String_map_t *h) __attribute__((unused)); void kh_clear_int_String_map(kh_int_String_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_int_String_map(const kh_int_String_map_t *h, int key) __attribute__((unused)); khint_t kh_get_int_String_map(const kh_int_String_map_t *h, int key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = (khint32_t)(key); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_int_String_map(kh_int_String_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_int_String_map(kh_int_String_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { int *new_keys = (int *)xrealloc((void *)h->keys, new_n_buckets * sizeof(int)); h->keys = new_keys; if (1) { String *new_vals = (String *)xrealloc((void *)h->vals, new_n_buckets * sizeof(String)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { int key = h->keys[j]; String val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = (khint32_t)(key); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { int tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { String tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (int *)xrealloc((void *)h->keys, new_n_buckets * sizeof(int)); if (1) { h->vals = (String *)xrealloc((void *)h->vals, new_n_buckets * sizeof(String)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 179 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 179 "/home/nick/dl/neovim/src/nvim/map.c"
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_int_String_map(kh_int_String_map_t *h, int key, int *ret) __attribute__((unused)); khint_t kh_put_int_String_map(kh_int_String_map_t *h, int key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_int_String_map(h, h->n_buckets - 1); } else { kh_resize_int_String_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = (khint32_t)(key); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_int_String_map(kh_int_String_map_t *h, khint_t x) __attribute__((unused)); void kh_del_int_String_map(kh_int_String_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_int_String_destroy(Map_int_String *map) { kh_dealloc_int_String_map(&map->table); } String map_int_String_get(Map_int_String *map, int key) { khiter_t k; if ((k = kh_get_int_String_map(&map->table, key)) == ((&map->table)->n_buckets)) { return int_String_initializer; } return ((&map->table)->vals[k]); } 
-# 179 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 179 "/home/nick/dl/neovim/src/nvim/map.c"
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_int_String_has(Map_int_String *map, int key) { return kh_get_int_String_map(&map->table, key) != ((&map->table)->n_buckets); } int map_int_String_key(Map_int_String *map, int key) { khiter_t k; if ((k = kh_get_int_String_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } String map_int_String_put(Map_int_String *map, int key, String value) { int ret; String rv = int_String_initializer; khiter_t k = kh_put_int_String_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } String *map_int_String_ref(Map_int_String *map, int key, 
-# 179 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 179 "/home/nick/dl/neovim/src/nvim/map.c"
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_int_String_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = int_String_initializer; } } else { k = kh_get_int_String_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 179 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 179 "/home/nick/dl/neovim/src/nvim/map.c"
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } String map_int_String_del(Map_int_String *map, int key) { String rv = int_String_initializer; khiter_t k; if ((k = kh_get_int_String_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_int_String_map(&map->table, k); } return rv; } void map_int_String_clear(Map_int_String *map) { kh_clear_int_String_map(&map->table); }
 
 const ColorItem ColorKey_ColorItem_initializer = { .attr_id = -1, .link_id = -1, .version = -1, .is_default = 
-# 181 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 0
-# 181 "/home/nick/dl/neovim/src/nvim/map.c"
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 , .link_global = 
-# 181 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 0 
-# 181 "/home/nick/dl/neovim/src/nvim/map.c"
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 }; kh_ColorKey_ColorItem_map_t *kh_init_ColorKey_ColorItem_map(void) __attribute__((unused)); kh_ColorKey_ColorItem_map_t *kh_init_ColorKey_ColorItem_map(void) { return (kh_ColorKey_ColorItem_map_t *)xcalloc(1, sizeof(kh_ColorKey_ColorItem_map_t)); } void kh_dealloc_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h) __attribute__((unused)); void kh_dealloc_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 181 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 181 "/home/nick/dl/neovim/src/nvim/map.c"
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 181 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 181 "/home/nick/dl/neovim/src/nvim/map.c"
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 181 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 181 "/home/nick/dl/neovim/src/nvim/map.c"
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h) __attribute__((unused)); void kh_destroy_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h) { if (h) { kh_dealloc_ColorKey_ColorItem_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 181 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 181 "/home/nick/dl/neovim/src/nvim/map.c"
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h) __attribute__((unused)); void kh_clear_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_ColorKey_ColorItem_map(const kh_ColorKey_ColorItem_map_t *h, ColorKey key) __attribute__((unused)); khint_t kh_get_ColorKey_ColorItem_map(const kh_ColorKey_ColorItem_map_t *h, ColorKey key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = ColorKey_hash(key); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !ColorKey_eq(h->keys[i], key))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { ColorKey *new_keys = (ColorKey *)xrealloc((void *)h->keys, new_n_buckets * sizeof(ColorKey)); h->keys = new_keys; if (1) { ColorItem *new_vals = (ColorItem *)xrealloc((void *)h->vals, new_n_buckets * sizeof(ColorItem)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { ColorKey key = h->keys[j]; ColorItem val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = ColorKey_hash(key); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { ColorKey tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { ColorItem tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (ColorKey *)xrealloc((void *)h->keys, new_n_buckets * sizeof(ColorKey)); if (1) { h->vals = (ColorItem *)xrealloc((void *)h->vals, new_n_buckets * sizeof(ColorItem)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 181 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 181 "/home/nick/dl/neovim/src/nvim/map.c"
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h, ColorKey key, int *ret) __attribute__((unused)); khint_t kh_put_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h, ColorKey key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_ColorKey_ColorItem_map(h, h->n_buckets - 1); } else { kh_resize_ColorKey_ColorItem_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = ColorKey_hash(key); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !ColorKey_eq(h->keys[i], key))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h, khint_t x) __attribute__((unused)); void kh_del_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_ColorKey_ColorItem_destroy(Map_ColorKey_ColorItem *map) { kh_dealloc_ColorKey_ColorItem_map(&map->table); } ColorItem map_ColorKey_ColorItem_get(Map_ColorKey_ColorItem *map, ColorKey key) { khiter_t k; if ((k = kh_get_ColorKey_ColorItem_map(&map->table, key)) == ((&map->table)->n_buckets)) { return ColorKey_ColorItem_initializer; } return ((&map->table)->vals[k]); } 
-# 181 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 181 "/home/nick/dl/neovim/src/nvim/map.c"
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_ColorKey_ColorItem_has(Map_ColorKey_ColorItem *map, ColorKey key) { return kh_get_ColorKey_ColorItem_map(&map->table, key) != ((&map->table)->n_buckets); } ColorKey map_ColorKey_ColorItem_key(Map_ColorKey_ColorItem *map, ColorKey key) { khiter_t k; if ((k = kh_get_ColorKey_ColorItem_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } ColorItem map_ColorKey_ColorItem_put(Map_ColorKey_ColorItem *map, ColorKey key, ColorItem value) { int ret; ColorItem rv = ColorKey_ColorItem_initializer; khiter_t k = kh_put_ColorKey_ColorItem_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } ColorItem *map_ColorKey_ColorItem_ref(Map_ColorKey_ColorItem *map, ColorKey key, 
-# 181 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 181 "/home/nick/dl/neovim/src/nvim/map.c"
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_ColorKey_ColorItem_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = ColorKey_ColorItem_initializer; } } else { k = kh_get_ColorKey_ColorItem_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 181 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 181 "/home/nick/dl/neovim/src/nvim/map.c"
+# 181 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } ColorItem map_ColorKey_ColorItem_del(Map_ColorKey_ColorItem *map, ColorKey key) { ColorItem rv = ColorKey_ColorItem_initializer; khiter_t k; if ((k = kh_get_ColorKey_ColorItem_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_ColorKey_ColorItem_map(&map->table, k); } return rv; } void map_ColorKey_ColorItem_clear(Map_ColorKey_ColorItem *map) { kh_clear_ColorKey_ColorItem_map(&map->table); }
 
 const cstr_t KittyKey_cstr_t_initializer = { 0 }; kh_KittyKey_cstr_t_map_t *kh_init_KittyKey_cstr_t_map(void) __attribute__((unused)); kh_KittyKey_cstr_t_map_t *kh_init_KittyKey_cstr_t_map(void) { return (kh_KittyKey_cstr_t_map_t *)xcalloc(1, sizeof(kh_KittyKey_cstr_t_map_t)); } void kh_dealloc_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h) __attribute__((unused)); void kh_dealloc_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h) { do { void **ptr_ = (void **)&(h->keys); xfree(*ptr_); *ptr_ = 
-# 183 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 183 "/home/nick/dl/neovim/src/nvim/map.c"
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 183 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 183 "/home/nick/dl/neovim/src/nvim/map.c"
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(h->vals); xfree(*ptr_); *ptr_ = 
-# 183 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 183 "/home/nick/dl/neovim/src/nvim/map.c"
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } void kh_destroy_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h) __attribute__((unused)); void kh_destroy_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h) { if (h) { kh_dealloc_KittyKey_cstr_t_map(h); do { void **ptr_ = (void **)&(h); xfree(*ptr_); *ptr_ = 
-# 183 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 183 "/home/nick/dl/neovim/src/nvim/map.c"
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); } } void kh_clear_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h) __attribute__((unused)); void kh_clear_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h) { if (h && h->flags) { memset(h->flags, 0xaa, ((h->n_buckets) < 16? 1 : (h->n_buckets)>>4) * sizeof(khint32_t)); h->size = h->n_occupied = 0; } } khint_t kh_get_KittyKey_cstr_t_map(const kh_KittyKey_cstr_t_map_t *h, KittyKey key) __attribute__((unused)); khint_t kh_get_KittyKey_cstr_t_map(const kh_KittyKey_cstr_t_map_t *h, KittyKey key) { if (h->n_buckets) { khint_t k, i, last, mask, step = 0; mask = h->n_buckets - 1; k = (khint32_t)(key); i = k & mask; last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { i = (i + (++step)) & mask; if (i == last) { return h->n_buckets; } } return ((h->flags[i>>4]>>((i&0xfU)<<1))&3) ? h->n_buckets : i; } else { return 0; } } void kh_resize_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h, khint_t new_n_buckets) __attribute__((unused)); void kh_resize_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h, khint_t new_n_buckets) { khint32_t *new_flags = 0; khint_t j = 1; { (--(new_n_buckets), (new_n_buckets)|=(new_n_buckets)>>1, (new_n_buckets)|=(new_n_buckets)>>2, (new_n_buckets)|=(new_n_buckets)>>4, (new_n_buckets)|=(new_n_buckets)>>8, (new_n_buckets)|=(new_n_buckets)>>16, ++(new_n_buckets)); if (new_n_buckets < 4) { new_n_buckets = 4; } if (h->size >= (khint_t)(new_n_buckets * 0.77 + 0.5)) { j = 0; } else { new_flags = (khint32_t *)xmalloc(((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); memset(new_flags, 0xaa, ((new_n_buckets) < 16? 1 : (new_n_buckets)>>4) * sizeof(khint32_t)); if (h->n_buckets < new_n_buckets) { KittyKey *new_keys = (KittyKey *)xrealloc((void *)h->keys, new_n_buckets * sizeof(KittyKey)); h->keys = new_keys; if (1) { cstr_t *new_vals = (cstr_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(cstr_t)); h->vals = new_vals; } } } } if (j) { for (j = 0; j != h->n_buckets; ++j) { if (((h->flags[j>>4]>>((j&0xfU)<<1))&3) == 0) { KittyKey key = h->keys[j]; cstr_t val; khint_t new_mask; new_mask = new_n_buckets - 1; if (1) { val = h->vals[j]; } (h->flags[j>>4]|=(khint_t)1ul<<((j&0xfU)<<1)); while (1) { khint_t k, i, step = 0; k = (khint32_t)(key); i = k & new_mask; while (!((new_flags[i>>4]>>((i&0xfU)<<1))&2)) { i = (i + (++step)) & new_mask; } (new_flags[i>>4]&=~(khint_t)(2ul<<((i&0xfU)<<1))); if (i < h->n_buckets && ((h->flags[i>>4]>>((i&0xfU)<<1))&3) == 0) { { KittyKey tmp = h->keys[i]; h->keys[i] = key; key = tmp; } if (1) { cstr_t tmp = h->vals[i]; h->vals[i] = val; val = tmp; } (h->flags[i>>4]|=(khint_t)1ul<<((i&0xfU)<<1)); } else { h->keys[i] = key; if (1) { h->vals[i] = val; } break; } } } } if (h->n_buckets > new_n_buckets) { h->keys = (KittyKey *)xrealloc((void *)h->keys, new_n_buckets * sizeof(KittyKey)); if (1) { h->vals = (cstr_t *)xrealloc((void *)h->vals, new_n_buckets * sizeof(cstr_t)); } } do { void **ptr_ = (void **)&(h->flags); xfree(*ptr_); *ptr_ = 
-# 183 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 183 "/home/nick/dl/neovim/src/nvim/map.c"
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; (void)(*ptr_); } while (0); h->flags = new_flags; h->n_buckets = new_n_buckets; h->n_occupied = h->size; h->upper_bound = (khint_t)(h->n_buckets * 0.77 + 0.5); } } khint_t kh_put_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h, KittyKey key, int *ret) __attribute__((unused)); khint_t kh_put_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h, KittyKey key, int *ret) { khint_t x; if (h->n_occupied >= h->upper_bound) { if (h->n_buckets > (h->size << 1)) { kh_resize_KittyKey_cstr_t_map(h, h->n_buckets - 1); } else { kh_resize_KittyKey_cstr_t_map(h, h->n_buckets + 1); } } { khint_t k, i, site, last, mask = h->n_buckets - 1, step = 0; x = site = h->n_buckets; k = (khint32_t)(key); i = k & mask; if (((h->flags[i>>4]>>((i&0xfU)<<1))&2)) { x = i; } else { last = i; while (!((h->flags[i>>4]>>((i&0xfU)<<1))&2) && (((h->flags[i>>4]>>((i&0xfU)<<1))&1) || !((h->keys[i]) == (key)))) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&1)) { site = i; } i = (i + (++step)) & mask; if (i == last) { x = site; break; } } if (x == h->n_buckets) { if (((h->flags[i>>4]>>((i&0xfU)<<1))&2) && site != h->n_buckets) { x = site; } else { x = i; } } } } if (((h->flags[x>>4]>>((x&0xfU)<<1))&2)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; h->n_occupied++; *ret = 1; } else if (((h->flags[x>>4]>>((x&0xfU)<<1))&1)) { h->keys[x] = key; (h->flags[x>>4]&=~(khint_t)(3ul<<((x&0xfU)<<1))); h->size++; *ret = 2; } else { *ret = 0; } return x; } void kh_del_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h, khint_t x) __attribute__((unused)); void kh_del_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h, khint_t x) { if (x != h->n_buckets && !((h->flags[x>>4]>>((x&0xfU)<<1))&3)) { (h->flags[x>>4]|=(khint_t)1ul<<((x&0xfU)<<1)); --h->size; } } void map_KittyKey_cstr_t_destroy(Map_KittyKey_cstr_t *map) { kh_dealloc_KittyKey_cstr_t_map(&map->table); } cstr_t map_KittyKey_cstr_t_get(Map_KittyKey_cstr_t *map, KittyKey key) { khiter_t k; if ((k = kh_get_KittyKey_cstr_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { return KittyKey_cstr_t_initializer; } return ((&map->table)->vals[k]); } 
-# 183 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 183 "/home/nick/dl/neovim/src/nvim/map.c"
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 map_KittyKey_cstr_t_has(Map_KittyKey_cstr_t *map, KittyKey key) { return kh_get_KittyKey_cstr_t_map(&map->table, key) != ((&map->table)->n_buckets); } KittyKey map_KittyKey_cstr_t_key(Map_KittyKey_cstr_t *map, KittyKey key) { khiter_t k; if ((k = kh_get_KittyKey_cstr_t_map(&map->table, key)) == ((&map->table)->n_buckets)) { abort(); } return ((&map->table)->keys[k]); } cstr_t map_KittyKey_cstr_t_put(Map_KittyKey_cstr_t *map, KittyKey key, cstr_t value) { int ret; cstr_t rv = KittyKey_cstr_t_initializer; khiter_t k = kh_put_KittyKey_cstr_t_map(&map->table, key, &ret); if (!ret) { rv = ((&map->table)->vals[k]); } ((&map->table)->vals[k]) = value; return rv; } cstr_t *map_KittyKey_cstr_t_ref(Map_KittyKey_cstr_t *map, KittyKey key, 
-# 183 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 _Bool 
-# 183 "/home/nick/dl/neovim/src/nvim/map.c"
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 put) { int ret; khiter_t k; if (put) { k = kh_put_KittyKey_cstr_t_map(&map->table, key, &ret); if (ret) { ((&map->table)->vals[k]) = KittyKey_cstr_t_initializer; } } else { k = kh_get_KittyKey_cstr_t_map(&map->table, key); if (k == ((&map->table)->n_buckets)) { return 
-# 183 "/home/nick/dl/neovim/src/nvim/map.c" 3 4
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c" 3 4
 ((void *)0)
-# 183 "/home/nick/dl/neovim/src/nvim/map.c"
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/map.c"
 ; } } return &((&map->table)->vals[k]); } cstr_t map_KittyKey_cstr_t_del(Map_KittyKey_cstr_t *map, KittyKey key) { cstr_t rv = KittyKey_cstr_t_initializer; khiter_t k; if ((k = kh_get_KittyKey_cstr_t_map(&map->table, key)) != ((&map->table)->n_buckets)) { rv = ((&map->table)->vals[k]); kh_del_KittyKey_cstr_t_map(&map->table, k); } return rv; } void map_KittyKey_cstr_t_clear(Map_KittyKey_cstr_t *map) { kh_clear_KittyKey_cstr_t_map(&map->table); }
 
 

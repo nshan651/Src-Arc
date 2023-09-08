@@ -1,5 +1,5 @@
 CMakeFiles/vterm-ctrl.dir/bin/vterm-ctrl.c.o: \
- /home/nick/dl/neovim/.deps/build/src/libvterm/bin/vterm-ctrl.c \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/bin/vterm-ctrl.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdbool.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \

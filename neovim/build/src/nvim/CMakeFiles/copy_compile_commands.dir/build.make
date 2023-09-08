@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 # Utility rule file for copy_compile_commands.
 
@@ -67,7 +67,7 @@ include src/nvim/CMakeFiles/copy_compile_commands.dir/compiler_depend.make
 include src/nvim/CMakeFiles/copy_compile_commands.dir/progress.make
 
 src/nvim/CMakeFiles/copy_compile_commands:
-	cd /home/nick/dl/neovim/build/src/nvim && /usr/bin/cmake -E copy /home/nick/dl/neovim/build/compile_commands.json /home/nick/dl/neovim/compile_commands.json
+	cd /home/nick/git/Src-Arc/neovim/build/src/nvim && /usr/bin/cmake -E copy /home/nick/git/Src-Arc/neovim/build/compile_commands.json /home/nick/git/Src-Arc/neovim/compile_commands.json
 
 copy_compile_commands: src/nvim/CMakeFiles/copy_compile_commands
 copy_compile_commands: src/nvim/CMakeFiles/copy_compile_commands.dir/build.make
@@ -78,10 +78,10 @@ src/nvim/CMakeFiles/copy_compile_commands.dir/build: copy_compile_commands
 .PHONY : src/nvim/CMakeFiles/copy_compile_commands.dir/build
 
 src/nvim/CMakeFiles/copy_compile_commands.dir/clean:
-	cd /home/nick/dl/neovim/build/src/nvim && $(CMAKE_COMMAND) -P CMakeFiles/copy_compile_commands.dir/cmake_clean.cmake
+	cd /home/nick/git/Src-Arc/neovim/build/src/nvim && $(CMAKE_COMMAND) -P CMakeFiles/copy_compile_commands.dir/cmake_clean.cmake
 .PHONY : src/nvim/CMakeFiles/copy_compile_commands.dir/clean
 
 src/nvim/CMakeFiles/copy_compile_commands.dir/depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim /home/nick/dl/neovim/src/nvim /home/nick/dl/neovim/build /home/nick/dl/neovim/build/src/nvim /home/nick/dl/neovim/build/src/nvim/CMakeFiles/copy_compile_commands.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim/src/nvim /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build/src/nvim /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/copy_compile_commands.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/nvim/CMakeFiles/copy_compile_commands.dir/depend
 

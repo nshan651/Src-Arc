@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/cmake.deps
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/cmake.deps
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps
 
 # Utility rule file for mpack.
 
@@ -69,8 +69,8 @@ include CMakeFiles/mpack.dir/progress.make
 CMakeFiles/mpack: usr/lib/luarocks/rocks-5.1/mpack
 
 usr/lib/luarocks/rocks-5.1/mpack:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating usr/lib/luarocks/rocks-5.1/mpack"
-	/usr/bin/cmake -E env  /home/nick/dl/neovim/.deps/usr/bin/luarocks build mpack 1.0.10-0 CC=/usr/bin/cc LD=/usr/bin/cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating usr/lib/luarocks/rocks-5.1/mpack"
+	/usr/bin/cmake -E env  /home/nick/git/Src-Arc/neovim/.deps/usr/bin/luarocks build mpack 1.0.10-0 CC=/usr/bin/cc LD=/usr/bin/cc
 
 mpack: CMakeFiles/mpack
 mpack: usr/lib/luarocks/rocks-5.1/mpack
@@ -86,6 +86,6 @@ CMakeFiles/mpack.dir/clean:
 .PHONY : CMakeFiles/mpack.dir/clean
 
 CMakeFiles/mpack.dir/depend:
-	cd /home/nick/dl/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps/CMakeFiles/mpack.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/mpack.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/mpack.dir/depend
 

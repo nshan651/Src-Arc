@@ -1,4 +1,4 @@
-prefix=/home/nick/dl/neovim/.deps/usr
+prefix=/home/nick/git/Src-Arc/neovim/.deps/usr
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

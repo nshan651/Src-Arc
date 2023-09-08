@@ -1,5 +1,5 @@
-/home/nick/dl/neovim/.deps/usr/lib/libluv.a
-/home/nick/dl/neovim/.deps/usr/include/luv/luv.h
-/home/nick/dl/neovim/.deps/usr/include/luv/util.h
-/home/nick/dl/neovim/.deps/usr/include/luv/lhandle.h
-/home/nick/dl/neovim/.deps/usr/include/luv/lreq.h
+/home/nick/git/Src-Arc/neovim/.deps/usr/lib/libluv.a
+/home/nick/git/Src-Arc/neovim/.deps/usr/include/luv/luv.h
+/home/nick/git/Src-Arc/neovim/.deps/usr/include/luv/util.h
+/home/nick/git/Src-Arc/neovim/.deps/usr/include/luv/lhandle.h
+/home/nick/git/Src-Arc/neovim/.deps/usr/include/luv/lreq.h

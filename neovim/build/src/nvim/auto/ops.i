@@ -1,9 +1,9 @@
-# 0 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 0 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 
 
 
@@ -62,7 +62,7 @@ extern void __assert (const char *__assertion, const char *__file, int __line)
 
 
 
-# 8 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 # 1 "/usr/include/ctype.h" 1 3 4
 # 26 "/usr/include/ctype.h" 3 4
 # 1 "/usr/include/bits/types.h" 1 3 4
@@ -340,7 +340,7 @@ extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __l
 extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
 # 327 "/usr/include/ctype.h" 3 4
 
-# 9 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 # 1 "/usr/include/inttypes.h" 1 3 4
 # 27 "/usr/include/inttypes.h" 3 4
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 1 3 4
@@ -478,7 +478,7 @@ extern uintmax_t wcstoumax (const __gwchar_t *__restrict __nptr, __gwchar_t **__
                         ;
 # 415 "/usr/include/inttypes.h" 3 4
 
-# 10 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 1 3 4
 # 34 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 3 4
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/syslimits.h" 1 3 4
@@ -529,9 +529,9 @@ extern long int __sysconf (int __name) __attribute__ ((__nothrow__ , __leaf__));
 # 206 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 2 3 4
 # 8 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/syslimits.h" 2 3 4
 # 35 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 2 3 4
-# 11 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdbool.h" 1 3 4
-# 12 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 # 1 "/usr/include/stdio.h" 1 3 4
 # 27 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
@@ -1368,7 +1368,7 @@ __attribute__ ((__nothrow__ , __leaf__)) ferror_unlocked (FILE *__stream)
 
 
 
-# 13 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 13 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 # 1 "/usr/include/stdlib.h" 1 3 4
 # 26 "/usr/include/stdlib.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
@@ -2837,7 +2837,7 @@ __attribute__ ((__nothrow__ , __leaf__)) atof (const char *__nptr)
 # 1156 "/usr/include/stdlib.h" 2 3 4
 # 1167 "/usr/include/stdlib.h" 3 4
 
-# 14 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 # 1 "/usr/include/string.h" 1 3 4
 # 26 "/usr/include/string.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
@@ -3191,19 +3191,19 @@ extern void *memfrob (void *__s, size_t __n) __attribute__ ((__nothrow__ , __lea
 extern char *basename (const char *__filename) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
 # 552 "/usr/include/string.h" 3 4
 
-# 15 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 15 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 1
-
-
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 1
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/klib/kvec.h" 1
-# 43 "/home/nick/dl/neovim/src/klib/kvec.h"
-# 1 "/home/nick/dl/neovim/src/nvim/memory.h" 1
+
+
+# 1 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h" 1
+# 43 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 1
 
 
 
@@ -3217,7 +3217,7 @@ typedef struct {
   long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
 # 436 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 3 4
 } max_align_t;
-# 6 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 
 # 1 "/usr/include/time.h" 1 3 4
 # 29 "/usr/include/time.h" 3 4
@@ -3490,19 +3490,19 @@ extern int getdate_r (const char *__restrict __string,
 
 
 
-# 8 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/macros.h" 1
-
-
-
-# 1 "/home/nick/dl/neovim/build/cmake.config/auto/config.h" 1
-# 5 "/home/nick/dl/neovim/src/nvim/macros.h" 2
-# 10 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/macros.h" 1
 
 
 
-# 12 "/home/nick/dl/neovim/src/nvim/memory.h"
+# 1 "/home/nick/git/Src-Arc/neovim/build/cmake.config/auto/config.h" 1
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/macros.h" 2
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
+
+
+
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h"
 typedef void *(*MemMalloc)(size_t);
 
 
@@ -3513,7 +3513,7 @@ typedef void *(*MemCalloc)(size_t, size_t);
 
 
 typedef void *(*MemRealloc)(void *, size_t);
-# 42 "/home/nick/dl/neovim/src/nvim/memory.h"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h"
 extern size_t arena_alloc_count ;
 
 typedef struct consumed_blk {
@@ -3526,8 +3526,8 @@ typedef struct {
   char *cur_blk;
   size_t pos, size;
 } Arena;
-# 44 "/home/nick/dl/neovim/src/klib/kvec.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/os/os_defs.h" 1
+# 44 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h" 1
 
 
 
@@ -3994,13 +3994,13 @@ int statx (int __dirfd, const char *__restrict __path, int __flags,
 
 
 
-# 8 "/home/nick/dl/neovim/src/nvim/os/os_defs.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h" 2
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/os/unix_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h" 1
 
 
 
@@ -6332,7 +6332,7 @@ extern int tgkill (__pid_t __tgid, __pid_t __tid, int __signal);
 # 6 "/usr/include/linux/param.h" 2 3 4
 # 29 "/usr/include/bits/param.h" 2 3 4
 # 32 "/usr/include/sys/param.h" 2 3 4
-# 5 "/home/nick/dl/neovim/src/nvim/os/unix_defs.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h" 2
 
 
 # 1 "/usr/include/termios.h" 1 3 4
@@ -6446,33 +6446,33 @@ extern __pid_t tcgetsid (int __fd) __attribute__ ((__nothrow__ , __leaf__));
 
 
 
-# 8 "/home/nick/dl/neovim/src/nvim/os/unix_defs.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h" 2
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 1 3 4
-# 12 "/home/nick/dl/neovim/src/nvim/os/unix_defs.h" 2
-# 14 "/home/nick/dl/neovim/src/nvim/os/os_defs.h" 2
-# 45 "/home/nick/dl/neovim/src/klib/kvec.h" 2
-# 164 "/home/nick/dl/neovim/src/klib/kvec.h"
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h" 2
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h" 2
+# 45 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h" 2
+# 164 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h"
 
-# 164 "/home/nick/dl/neovim/src/klib/kvec.h"
+# 164 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h"
 static inline void *_memcpy_free(void *const restrict dest, void *const restrict src,
                                  const size_t size)
   FUNC_ATTR_NONNULL_ALL FUNC_ATTR_NONNULL_RET FUNC_ATTR_ALWAYS_INLINE
 {
   memcpy(dest, src, size);
   do { void **ptr_ = (void **)&(src); xfree(*ptr_); *ptr_ = 
-# 169 "/home/nick/dl/neovim/src/klib/kvec.h" 3 4
+# 169 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h" 3 4
  ((void *)0)
-# 169 "/home/nick/dl/neovim/src/klib/kvec.h"
+# 169 "/home/nick/git/Src-Arc/neovim/src/klib/kvec.h"
  ; (void)(*ptr_); } while (0);
   return dest;
 }
-# 9 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 10 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/types.h" 1
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/types.h" 1
 
 
 
@@ -6520,8 +6520,8 @@ typedef enum {
 
 
 typedef struct Decoration Decoration;
-# 11 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 2
-# 27 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 2
+# 27 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
 typedef enum {
   kErrorTypeNone = -1,
   kErrorTypeException,
@@ -6536,11 +6536,11 @@ typedef enum {
   kMessageTypeNotification = 2,
   kMessageTypeRedrawEvent = 3,
 } MessageType;
-# 51 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
 static inline 
-# 51 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 3 4
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 3 4
              _Bool 
-# 51 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
                   is_internal_call(uint64_t channel_id)
   __attribute__((always_inline)) __attribute__((const));
 
@@ -6550,9 +6550,9 @@ static inline
 
 
 static inline 
-# 59 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 3 4
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 3 4
              _Bool 
-# 59 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
                   is_internal_call(const uint64_t channel_id)
 {
   return !!(channel_id & (((uint64_t)1) << (sizeof(uint64_t) * 8 - 1)));
@@ -6564,9 +6564,9 @@ typedef struct {
 } Error;
 
 typedef 
-# 69 "/home/nick/dl/neovim/src/nvim/api/private/defs.h" 3 4
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h" 3 4
        _Bool 
-# 69 "/home/nick/dl/neovim/src/nvim/api/private/defs.h"
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h"
             Boolean;
 typedef int64_t Integer;
 typedef double Float;
@@ -6630,68 +6630,68 @@ typedef struct {
   char *str;
   size_t ptr_off;
 } KeySetLink;
-# 17 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/ascii.h" 1
+# 17 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 1
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 7 "/home/nick/dl/neovim/src/nvim/ascii.h" 2
-# 87 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 2
+# 87 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
 static inline 
-# 87 "/home/nick/dl/neovim/src/nvim/ascii.h" 3 4
+# 87 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 3 4
              _Bool 
-# 87 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 87 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
                   ascii_iswhite(int c)
   __attribute__((const))
   __attribute__((always_inline));
 
 static inline 
-# 91 "/home/nick/dl/neovim/src/nvim/ascii.h" 3 4
+# 91 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 3 4
              _Bool 
-# 91 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 91 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
                   ascii_iswhite_or_nul(int c)
   __attribute__((const))
   __attribute__((always_inline));
 
 static inline 
-# 95 "/home/nick/dl/neovim/src/nvim/ascii.h" 3 4
+# 95 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 3 4
              _Bool 
-# 95 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 95 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
                   ascii_isdigit(int c)
   __attribute__((const))
   __attribute__((always_inline));
 
 static inline 
-# 99 "/home/nick/dl/neovim/src/nvim/ascii.h" 3 4
+# 99 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 3 4
              _Bool 
-# 99 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 99 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
                   ascii_isxdigit(int c)
   __attribute__((const))
   __attribute__((always_inline));
 
 static inline 
-# 103 "/home/nick/dl/neovim/src/nvim/ascii.h" 3 4
+# 103 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 3 4
              _Bool 
-# 103 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 103 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
                   ascii_isident(int c)
   __attribute__((const))
   __attribute__((always_inline));
 
 static inline 
-# 107 "/home/nick/dl/neovim/src/nvim/ascii.h" 3 4
+# 107 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 3 4
              _Bool 
-# 107 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 107 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
                   ascii_isbdigit(int c)
   __attribute__((const))
   __attribute__((always_inline));
 
 static inline 
-# 111 "/home/nick/dl/neovim/src/nvim/ascii.h" 3 4
+# 111 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 3 4
              _Bool 
-# 111 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 111 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
                   ascii_isspace(int c)
   __attribute__((const))
   __attribute__((always_inline));
@@ -6700,9 +6700,9 @@ static inline
 
 
 static inline 
-# 118 "/home/nick/dl/neovim/src/nvim/ascii.h" 3 4
+# 118 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 3 4
              _Bool 
-# 118 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 118 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
                   ascii_iswhite(int c)
 {
   return c == ' ' || c == '\t';
@@ -6712,18 +6712,18 @@ static inline
 
 
 static inline 
-# 126 "/home/nick/dl/neovim/src/nvim/ascii.h" 3 4
+# 126 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 3 4
              _Bool 
-# 126 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 126 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
                   ascii_iswhite_or_nul(int c)
 {
   return ascii_iswhite(c) || c == '\000';
 }
-# 140 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 140 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
 static inline 
-# 140 "/home/nick/dl/neovim/src/nvim/ascii.h" 3 4
+# 140 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 3 4
              _Bool 
-# 140 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 140 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
                   ascii_isdigit(int c)
 {
   return c >= '0' && c <= '9';
@@ -6733,9 +6733,9 @@ static inline
 
 
 static inline 
-# 148 "/home/nick/dl/neovim/src/nvim/ascii.h" 3 4
+# 148 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 3 4
              _Bool 
-# 148 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 148 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
                   ascii_isxdigit(int c)
 {
   return (c >= '0' && c <= '9')
@@ -6747,9 +6747,9 @@ static inline
 
 
 static inline 
-# 158 "/home/nick/dl/neovim/src/nvim/ascii.h" 3 4
+# 158 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 3 4
              _Bool 
-# 158 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 158 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
                   ascii_isident(int c)
 {
   return ((((unsigned)(c) >= 'A' && (unsigned)(c) <= 'Z') || ((unsigned)(c) >= 'a' && (unsigned)(c) <= 'z')) || ascii_isdigit(c)) || c == '_';
@@ -6759,9 +6759,9 @@ static inline
 
 
 static inline 
-# 166 "/home/nick/dl/neovim/src/nvim/ascii.h" 3 4
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 3 4
              _Bool 
-# 166 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 166 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
                   ascii_isbdigit(int c)
 {
   return (c == '0' || c == '1');
@@ -6771,9 +6771,9 @@ static inline
 
 
 static inline 
-# 174 "/home/nick/dl/neovim/src/nvim/ascii.h" 3 4
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 3 4
              _Bool 
-# 174 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 174 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
                   ascii_isodigit(int c)
 {
   return (c >= '0' && c <= '7');
@@ -6784,17 +6784,17 @@ static inline
 
 
 static inline 
-# 183 "/home/nick/dl/neovim/src/nvim/ascii.h" 3 4
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h" 3 4
              _Bool 
-# 183 "/home/nick/dl/neovim/src/nvim/ascii.h"
+# 183 "/home/nick/git/Src-Arc/neovim/src/nvim/ascii.h"
                   ascii_isspace(int c)
 {
   return (c >= 9 && c <= 13) || c == ' ';
 }
-# 18 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/assert.h" 1
-# 19 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/autocmd.h" 1
+# 18 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/assert.h" 1
+# 19 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h" 1
 
 
 
@@ -6802,7 +6802,7 @@ static inline
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 1
 
 
 
@@ -6822,7 +6822,7 @@ typedef struct {
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 1
 
 
 
@@ -6850,39 +6850,39 @@ extern void __assert (const char *__assertion, const char *__file, int __line)
 
 
 
-# 5 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 2
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 7 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 2
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 2
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/garray.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/garray.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/log.h" 1
-# 13 "/home/nick/dl/neovim/src/nvim/log.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/log.h" 1
+# 13 "/home/nick/git/Src-Arc/neovim/src/nvim/log.h"
 # 1 "/usr/include/sys/sdt.h" 1 3 4
 # 164 "/usr/include/sys/sdt.h" 3 4
 __extension__ extern unsigned long long __sdt_unsp;
 # 208 "/usr/include/sys/sdt.h" 3 4
 # 1 "/usr/include/sys/sdt-config.h" 1 3 4
 # 209 "/usr/include/sys/sdt.h" 2 3 4
-# 14 "/home/nick/dl/neovim/src/nvim/log.h" 2
-# 50 "/home/nick/dl/neovim/src/nvim/log.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/log.h" 2
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/log.h"
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/sanitizer/asan_interface.h" 1 3 4
 # 16 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/sanitizer/asan_interface.h" 3 4
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/sanitizer/common_interface_defs.h" 1 3 4
@@ -7157,8 +7157,8 @@ void __asan_handle_no_return(void);
 
 
 int __asan_update_allocation_context(void* addr);
-# 51 "/home/nick/dl/neovim/src/nvim/log.h" 2
-# 8 "/home/nick/dl/neovim/src/nvim/garray.h" 2
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/log.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h" 2
 
 
 
@@ -7166,7 +7166,7 @@ int __asan_update_allocation_context(void* addr);
 
 
 
-# 14 "/home/nick/dl/neovim/src/nvim/garray.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h"
 typedef struct growarray {
   int ga_len;
   int ga_maxlen;
@@ -7174,30 +7174,30 @@ typedef struct growarray {
   int ga_growsize;
   void *ga_data;
 } garray_T;
-# 41 "/home/nick/dl/neovim/src/nvim/garray.h"
+# 41 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h"
 static inline void *ga_append_via_ptr(garray_T *gap, size_t item_size)
 {
   if ((int)item_size != gap->ga_itemsize) {
     logmsg(3, 
-# 44 "/home/nick/dl/neovim/src/nvim/garray.h" 3 4
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h" 3 4
    ((void *)0)
-# 44 "/home/nick/dl/neovim/src/nvim/garray.h"
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h"
    , __func__, 44, 
-# 44 "/home/nick/dl/neovim/src/nvim/garray.h" 3 4
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h" 3 4
    1
-# 44 "/home/nick/dl/neovim/src/nvim/garray.h"
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/garray.h"
    , "wrong item size (%zu), should be %d", item_size, gap->ga_itemsize);
   }
   ga_grow(gap, 1);
   return ((char *)gap->ga_data) + (item_size * (size_t)gap->ga_len++);
 }
-# 8 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/hashtab.h" 1
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/hashtab.h" 1
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 5 "/home/nick/dl/neovim/src/nvim/hashtab.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/hashtab.h" 2
 
 
 
@@ -7208,7 +7208,7 @@ extern char hash_removed;
 
 
 typedef size_t hash_T;
-# 38 "/home/nick/dl/neovim/src/nvim/hashtab.h"
+# 38 "/home/nick/git/Src-Arc/neovim/src/nvim/hashtab.h"
 typedef struct hashitem_S {
 
   hash_T hi_hash;
@@ -7221,7 +7221,7 @@ typedef struct hashitem_S {
 
   char *hi_key;
 } hashitem_T;
-# 63 "/home/nick/dl/neovim/src/nvim/hashtab.h"
+# 63 "/home/nick/git/Src-Arc/neovim/src/nvim/hashtab.h"
 typedef struct hashtable_S {
   hash_T ht_mask;
 
@@ -7233,20 +7233,20 @@ typedef struct hashtable_S {
 
   hashitem_T ht_smallarray[16];
 } hashtab_T;
-# 9 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/lib/queue.h" 1
-# 23 "/home/nick/dl/neovim/src/nvim/lib/queue.h"
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/lib/queue.h" 1
+# 23 "/home/nick/git/Src-Arc/neovim/src/nvim/lib/queue.h"
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 24 "/home/nick/dl/neovim/src/nvim/lib/queue.h" 2
+# 24 "/home/nick/git/Src-Arc/neovim/src/nvim/lib/queue.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 26 "/home/nick/dl/neovim/src/nvim/lib/queue.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 26 "/home/nick/git/Src-Arc/neovim/src/nvim/lib/queue.h" 2
 
 typedef struct _queue {
   struct _queue *next;
   struct _queue *prev;
 } QUEUE;
-# 48 "/home/nick/dl/neovim/src/nvim/lib/queue.h"
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/lib/queue.h"
 static inline int QUEUE_EMPTY(const QUEUE *const q)
   FUNC_ATTR_ALWAYS_INLINE FUNC_ATTR_PURE FUNC_ATTR_WARN_UNUSED_RESULT
 {
@@ -7293,8 +7293,8 @@ static inline void QUEUE_REMOVE(QUEUE *const q) FUNC_ATTR_ALWAYS_INLINE
   q->prev->next = q->next;
   q->next->prev = q->prev;
 }
-# 10 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/pos.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/pos.h" 1
 
 
 
@@ -7336,7 +7336,7 @@ typedef struct {
   linenr_T lnum;
   colnr_T col;
 } lpos_T;
-# 11 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h" 2
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h" 2
 
 
 
@@ -7345,7 +7345,7 @@ typedef uint64_t uvarnumber_T;
 
 
 enum { DO_NOT_FREE_CNT = (0x7fffffff 
-# 18 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h"
+# 18 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h"
                                  / 2), };
 
 
@@ -7366,7 +7366,7 @@ enum ListLenSpecials {
 
   kListLenMayKnow = -3,
 };
-# 49 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h"
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h"
 typedef struct listvar_S list_T;
 typedef struct dictvar_S dict_T;
 typedef struct partial_S partial_T;
@@ -7400,14 +7400,14 @@ typedef struct dict_watcher {
   size_t key_pattern_len;
   QUEUE node;
   
-# 81 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h" 3 4
+# 81 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h" 3 4
  _Bool 
-# 81 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h"
+# 81 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h"
       busy;
   
-# 82 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h" 3 4
+# 82 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h" 3 4
  _Bool 
-# 82 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h"
+# 82 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h"
       needs_free;
 } DictWatcher;
 
@@ -7460,7 +7460,7 @@ typedef struct {
     blob_T *v_blob;
   } vval;
 } typval_T;
-# 142 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h"
+# 142 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h"
 typedef enum {
   VAR_NO_SCOPE = 0,
   VAR_SCOPE = 1,
@@ -7509,7 +7509,7 @@ typedef struct {
   list_T sl_list;
   listitem_T sl_items[10];
 } staticList10_T;
-# 218 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h"
+# 218 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h"
 typedef struct { typval_T di_tv; uint8_t di_flags; char di_key[1]; } ScopeDictDictItem;
 
 
@@ -7553,7 +7553,7 @@ struct blobvar_S {
 
 
 typedef int scid_T;
-# 270 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h"
+# 270 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h"
 typedef struct {
   scid_T sc_sid;
   int sc_seq;
@@ -7600,9 +7600,9 @@ struct ufunc {
   int uf_flags;
   int uf_calls;
   
-# 315 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h" 3 4
+# 315 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h" 3 4
  _Bool 
-# 315 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h"
+# 315 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h"
       uf_cleared;
   garray_T uf_args;
   garray_T uf_def_args;
@@ -7640,9 +7640,9 @@ struct partial_S {
   char *pt_name;
   ufunc_T *pt_func;
   
-# 351 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h" 3 4
+# 351 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h" 3 4
  _Bool 
-# 351 "/home/nick/dl/neovim/src/nvim/eval/typval_defs.h"
+# 351 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h"
       pt_auto;
 
   int pt_argc;
@@ -7669,11 +7669,11 @@ typedef struct {
 } ListSortItem;
 
 typedef int (*ListSorter)(const void *, const void *);
-# 11 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 12 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 2
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/gettext.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/gettext.h" 1
 
 
 
@@ -7856,18 +7856,18 @@ extern locale_t uselocale (locale_t __dataset) __attribute__ ((__nothrow__ , __l
 # 104 "/usr/include/libintl.h" 2 3 4
 # 121 "/usr/include/libintl.h" 3 4
 
-# 6 "/home/nick/dl/neovim/src/nvim/gettext.h" 2
-# 14 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/gettext.h" 2
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 2
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/mbyte_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte_defs.h" 1
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/iconv.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/iconv.h" 1
 
 
 
@@ -7915,7 +7915,7 @@ typedef int error_t;
 
 
 
-# 5 "/home/nick/dl/neovim/src/nvim/iconv.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/iconv.h" 2
 # 1 "/usr/include/iconv.h" 1 3 4
 # 23 "/usr/include/iconv.h" 3 4
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
@@ -7951,12 +7951,12 @@ extern size_t iconv (iconv_t __cd, char **__restrict __inbuf,
        size_t *__restrict __outbytesleft);
 
 
-# 6 "/home/nick/dl/neovim/src/nvim/iconv.h" 2
-# 7 "/home/nick/dl/neovim/src/nvim/mbyte_defs.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/iconv.h" 2
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte_defs.h" 2
 
 
 
-# 9 "/home/nick/dl/neovim/src/nvim/mbyte_defs.h"
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte_defs.h"
 enum { MB_MAXCHAR = 6, };
 
 
@@ -7986,38 +7986,38 @@ typedef enum {
   CONV_TO_LATIN9 = 4,
   CONV_ICONV = 5,
 } ConvFlags;
-# 46 "/home/nick/dl/neovim/src/nvim/mbyte_defs.h"
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte_defs.h"
 typedef struct {
   int vc_type;
   int vc_factor;
   iconv_t vc_fd;
   
-# 50 "/home/nick/dl/neovim/src/nvim/mbyte_defs.h" 3 4
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte_defs.h" 3 4
  _Bool 
-# 50 "/home/nick/dl/neovim/src/nvim/mbyte_defs.h"
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte_defs.h"
       vc_fail;
 
 } vimconv_T;
-# 18 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/message.h" 1
+# 18 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/message.h" 1
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h" 1 3 4
-# 5 "/home/nick/dl/neovim/src/nvim/message.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/message.h" 2
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 7 "/home/nick/dl/neovim/src/nvim/message.h" 2
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/message.h" 2
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 2
 
 
 
@@ -8035,7 +8035,7 @@ enum {
   kZIndexMessages = 200,
   kZIndexCmdlinePopupMenu = 250,
 };
-# 46 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
 typedef struct ScreenGrid ScreenGrid;
 struct ScreenGrid {
   handle_T handle;
@@ -8055,17 +8055,17 @@ struct ScreenGrid {
 
 
   
-# 64 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 64 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 64 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 64 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       valid;
 
 
 
   
-# 68 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 68 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       throttled;
 
 
@@ -8078,16 +8078,16 @@ struct ScreenGrid {
 
 
   
-# 79 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 79 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 79 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 79 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       blending;
 
 
   
-# 82 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 82 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 82 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 82 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       focusable;
 
 
@@ -8113,9 +8113,9 @@ struct ScreenGrid {
 
 
   
-# 106 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 106 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 106 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 106 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       comp_disabled;
 };
 
@@ -8131,13 +8131,13 @@ typedef struct {
   int cur_attr;
   int clear_width;
   
-# 120 "/home/nick/dl/neovim/src/nvim/grid_defs.h" 3 4
+# 120 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h" 3 4
  _Bool 
-# 120 "/home/nick/dl/neovim/src/nvim/grid_defs.h"
+# 120 "/home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h"
       wrap;
 } GridLineEvent;
-# 11 "/home/nick/dl/neovim/src/nvim/message.h" 2
-# 29 "/home/nick/dl/neovim/src/nvim/message.h"
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/message.h" 2
+# 29 "/home/nick/git/Src-Arc/neovim/src/nvim/message.h"
 typedef struct {
   String text;
   int attr;
@@ -8152,9 +8152,9 @@ typedef struct msg_hist {
   const char *kind;
   int attr;
   
-# 42 "/home/nick/dl/neovim/src/nvim/message.h" 3 4
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/message.h" 3 4
  _Bool 
-# 42 "/home/nick/dl/neovim/src/nvim/message.h"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/message.h"
       multiline;
   HlMessage multiattr;
 } MessageHistoryEntry;
@@ -8165,9 +8165,9 @@ extern MessageHistoryEntry *first_msg_hist;
 extern MessageHistoryEntry *last_msg_hist;
 
 extern 
-# 51 "/home/nick/dl/neovim/src/nvim/message.h" 3 4
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/message.h" 3 4
       _Bool 
-# 51 "/home/nick/dl/neovim/src/nvim/message.h"
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/message.h"
            msg_ext_need_clear ;
 
 
@@ -8187,8 +8187,8 @@ extern ScreenGrid msg_grid_adj ;
 extern int msg_scrolled_at_flush ;
 
 extern int msg_grid_scroll_discount ;
-# 19 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 2
-# 96 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 19 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 2
+# 96 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
 static inline void tv_list_ref(list_T *l)
   __attribute__((always_inline));
 
@@ -8200,9 +8200,9 @@ static inline void tv_list_ref(list_T *l)
 static inline void tv_list_ref(list_T *const l)
 {
   if (l == 
-# 106 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 106 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
           ((void *)0)
-# 106 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 106 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
               ) {
     return;
   }
@@ -8234,9 +8234,9 @@ static inline VarLockStatus tv_list_locked(const list_T *l)
 static inline VarLockStatus tv_list_locked(const list_T *const l)
 {
   if (l == 
-# 136 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 136 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
           ((void *)0)
-# 136 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 136 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
               ) {
     return VAR_FIXED;
   }
@@ -8252,26 +8252,26 @@ static inline VarLockStatus tv_list_locked(const list_T *const l)
 static inline void tv_list_set_lock(list_T *const l, const VarLockStatus lock)
 {
   if (l == 
-# 150 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 150 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
           ((void *)0)
-# 150 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 150 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
               ) {
     
-# 151 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 151 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
    ((void) sizeof ((
-# 151 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 151 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
    lock == VAR_FIXED
-# 151 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 151 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 151 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 151 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
    lock == VAR_FIXED
-# 151 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 151 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
    ) ; else __assert_fail (
-# 151 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 151 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
    "lock == VAR_FIXED"
-# 151 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
-   , "/home/nick/dl/neovim/src/nvim/eval/typval.h", 151, __extension__ __PRETTY_FUNCTION__); }))
-# 151 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 151 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h", 151, __extension__ __PRETTY_FUNCTION__); }))
+# 151 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
                             ;
     return;
   }
@@ -8300,9 +8300,9 @@ static inline int tv_list_len(const list_T *const l)
 {
   ;
   if (l == 
-# 178 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
           ((void *)0)
-# 178 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 178 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
               ) {
     return 0;
   }
@@ -8324,7 +8324,7 @@ static inline int tv_list_copyid(const list_T *const l)
 
 static inline list_T *tv_list_latest_copy(const list_T *l)
   __attribute__((pure)) __attribute__((warn_unused_result)) __attribute__((nonnull));
-# 207 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 207 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
 static inline list_T *tv_list_latest_copy(const list_T *const l)
 {
   return l->lv_copylist;
@@ -8354,16 +8354,16 @@ static inline int tv_list_uidx(const list_T *const l, int n)
 }
 
 static inline 
-# 235 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 235 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
              _Bool 
-# 235 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 235 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
                   tv_list_has_watchers(const list_T *l)
   __attribute__((pure)) __attribute__((warn_unused_result));
-# 245 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 245 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
 static inline 
-# 245 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 245 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
              _Bool 
-# 245 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 245 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
                   tv_list_has_watchers(const list_T *const l)
 {
   return l && l->lv_watch;
@@ -8380,15 +8380,15 @@ static inline listitem_T *tv_list_first(const list_T *l)
 static inline listitem_T *tv_list_first(const list_T *const l)
 {
   if (l == 
-# 260 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 260 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
           ((void *)0)
-# 260 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 260 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
               ) {
     ;
     return 
-# 262 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 262 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
           ((void *)0)
-# 262 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 262 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
               ;
   }
   ;
@@ -8406,15 +8406,15 @@ static inline listitem_T *tv_list_last(const list_T *l)
 static inline listitem_T *tv_list_last(const list_T *const l)
 {
   if (l == 
-# 278 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 278 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
           ((void *)0)
-# 278 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 278 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
               ) {
     ;
     return 
-# 280 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 280 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
           ((void *)0)
-# 280 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 280 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
               ;
   }
   ;
@@ -8433,9 +8433,9 @@ static inline void tv_dict_set_ret(typval_T *const tv, dict_T *const d)
   tv->v_type = VAR_DICT;
   tv->vval.v_dict = d;
   if (d != 
-# 297 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 297 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
           ((void *)0)
-# 297 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 297 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
               ) {
     d->dv_refcount++;
   }
@@ -8450,9 +8450,9 @@ static inline long tv_dict_len(const dict_T *d)
 static inline long tv_dict_len(const dict_T *const d)
 {
   if (d == 
-# 310 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 310 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
           ((void *)0)
-# 310 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 310 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
               ) {
     return 0L;
   }
@@ -8460,9 +8460,9 @@ static inline long tv_dict_len(const dict_T *const d)
 }
 
 static inline 
-# 316 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 316 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
              _Bool 
-# 316 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 316 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
                   tv_dict_is_watched(const dict_T *d)
   __attribute__((pure)) __attribute__((warn_unused_result));
 
@@ -8472,9 +8472,9 @@ static inline
 
 
 static inline 
-# 324 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 324 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
              _Bool 
-# 324 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 324 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
                   tv_dict_is_watched(const dict_T *const d)
 {
   return d && !QUEUE_EMPTY(&d->watchers);
@@ -8494,9 +8494,9 @@ static inline void tv_blob_set_ret(typval_T *const tv, blob_T *const b)
   tv->v_type = VAR_BLOB;
   tv->vval.v_blob = b;
   if (b != 
-# 342 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 342 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
           ((void *)0)
-# 342 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 342 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
               ) {
     b->bv_refcount++;
   }
@@ -8511,9 +8511,9 @@ static inline int tv_blob_len(const blob_T *b)
 static inline int tv_blob_len(const blob_T *const b)
 {
   if (b == 
-# 355 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 355 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
           ((void *)0)
-# 355 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 355 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
               ) {
     return 0;
   }
@@ -8555,9 +8555,9 @@ static inline void tv_blob_set(blob_T *const blob, int idx, uint8_t c)
 static inline void tv_init(typval_T *const tv)
 {
   if (tv != 
-# 395 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 395 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
            ((void *)0)
-# 395 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 395 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
                ) {
     memset(tv, 0, sizeof(*tv));
   }
@@ -8571,53 +8571,53 @@ extern const char *const tv_empty_string;
 
 
 extern 
-# 407 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 407 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
       _Bool 
-# 407 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 407 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
            tv_in_free_unref_items;
-# 494 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 494 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
 static inline 
-# 494 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 494 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
              _Bool 
-# 494 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 494 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
                   tv_get_float_chk(const typval_T *tv, float_T *ret_f)
   __attribute__((nonnull)) __attribute__((warn_unused_result));
-# 505 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 505 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
 static inline 
-# 505 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 505 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
              _Bool 
-# 505 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 505 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
                   tv_get_float_chk(const typval_T *const tv, float_T *const ret_f)
 {
   if (tv->v_type == VAR_FLOAT) {
     *ret_f = tv->vval.v_float;
     return 
-# 509 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 509 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
           1
-# 509 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 509 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
               ;
   }
   if (tv->v_type == VAR_NUMBER) {
     *ret_f = (float_T)tv->vval.v_number;
     return 
-# 513 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 513 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
           1
-# 513 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 513 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
               ;
   }
   semsg("%s", 
-# 515 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 515 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
              dcgettext (((void *)0), 
-# 515 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 515 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
              "E808: Number or Float required"
-# 515 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 515 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
              , 5)
-# 515 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 515 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
                                                 );
   return 
-# 516 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 516 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
         0
-# 516 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 516 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
              ;
 }
 
@@ -8634,41 +8634,41 @@ static inline DictWatcher *tv_dict_watcher_node_data(QUEUE *q)
   FUNC_ATTR_NO_SANITIZE_ADDRESS
 {
   return ((DictWatcher *)((char *)(q) - 
-# 531 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 531 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
         __builtin_offsetof (
-# 531 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 531 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
         DictWatcher
-# 531 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 531 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
         , 
-# 531 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 531 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
         node
-# 531 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 531 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
         )
-# 531 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 531 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
         ));
 }
 
 static inline 
-# 534 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 534 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
              _Bool 
-# 534 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 534 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
                   tv_is_func(typval_T tv)
   FUNC_ATTR_WARN_UNUSED_RESULT FUNC_ATTR_ALWAYS_INLINE FUNC_ATTR_CONST;
-# 544 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 544 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
 static inline 
-# 544 "/home/nick/dl/neovim/src/nvim/eval/typval.h" 3 4
+# 544 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h" 3 4
              _Bool 
-# 544 "/home/nick/dl/neovim/src/nvim/eval/typval.h"
+# 544 "/home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h"
                   tv_is_func(const typval_T tv)
 {
   return tv.v_type == VAR_FUNC || tv.v_type == VAR_PARTIAL;
 }
-# 21 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 2
+# 21 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 2
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/highlight_defs.h" 1
-# 9 "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h" 1
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
 typedef int32_t RgbValue;
 
 
@@ -8705,7 +8705,7 @@ typedef struct attr_entry {
   int cterm_fg_color, cterm_bg_color;
   int hl_blend;
 } HlAttrs;
-# 59 "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
 typedef enum {
   HLF_8 = 0,
 
@@ -8777,7 +8777,7 @@ typedef enum {
 } hlf_T;
 
 extern const char *hlf_names[]
-# 195 "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
+# 195 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
   ;
 
 extern int highlight_attr[HLF_COUNT + 1];
@@ -8826,14 +8826,14 @@ typedef struct {
   int link_id;
   int version;
   
-# 242 "/home/nick/dl/neovim/src/nvim/highlight_defs.h" 3 4
+# 242 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h" 3 4
  _Bool 
-# 242 "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
+# 242 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
       is_default;
   
-# 243 "/home/nick/dl/neovim/src/nvim/highlight_defs.h" 3 4
+# 243 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h" 3 4
  _Bool 
-# 243 "/home/nick/dl/neovim/src/nvim/highlight_defs.h"
+# 243 "/home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h"
       link_global;
 } ColorItem;
 
@@ -8844,8 +8844,8 @@ typedef struct {
   int hl_id;
   int priority;
 } HlPriId;
-# 25 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/map.h" 1
+# 25 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 1
 
 
 
@@ -8853,16 +8853,16 @@ typedef struct {
 
 
 
-# 1 "/home/nick/dl/neovim/src/klib/khash.h" 1
-# 127 "/home/nick/dl/neovim/src/klib/khash.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h" 1
+# 127 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 1 3 4
-# 128 "/home/nick/dl/neovim/src/klib/khash.h" 2
+# 128 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h" 2
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 133 "/home/nick/dl/neovim/src/klib/khash.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 133 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h" 2
 
 
 
@@ -8875,10 +8875,10 @@ typedef unsigned int khint32_t;
 
 
 typedef unsigned long khint64_t;
-# 155 "/home/nick/dl/neovim/src/klib/khash.h"
+# 155 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 typedef khint32_t khint_t;
 typedef khint_t khiter_t;
-# 457 "/home/nick/dl/neovim/src/klib/khash.h"
+# 457 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 static inline khint_t __ac_X31_hash_string(const char *s)
 {
   khint_t h = (khint_t)*s;
@@ -8887,7 +8887,7 @@ static inline khint_t __ac_X31_hash_string(const char *s)
   }
   return h;
 }
-# 476 "/home/nick/dl/neovim/src/klib/khash.h"
+# 476 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 static inline khint_t __ac_Wang_hash(khint_t key)
 {
   key += ~(key << 15);
@@ -8898,11 +8898,11 @@ static inline khint_t __ac_Wang_hash(khint_t key)
   key ^= (key >> 16);
   return key;
 }
-# 700 "/home/nick/dl/neovim/src/klib/khash.h"
+# 700 "/home/nick/git/Src-Arc/neovim/src/klib/khash.h"
 typedef const char *kh_cstr_t;
-# 9 "/home/nick/dl/neovim/src/nvim/map.h" 2
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/extmark_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/extmark_defs.h" 1
 
 
 
@@ -8933,10 +8933,10 @@ typedef enum {
   kDecorLevelVisible = 1,
   kDecorLevelVirtLine = 2,
 } DecorLevel;
-# 11 "/home/nick/dl/neovim/src/nvim/map.h" 2
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/map_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/map_defs.h" 1
 
 
 
@@ -8944,8 +8944,8 @@ typedef enum {
 
 typedef const char *cstr_t;
 typedef void *ptr_t;
-# 14 "/home/nick/dl/neovim/src/nvim/map.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/tui/input_defs.h" 1
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/tui/input_defs.h" 1
 
 
 
@@ -9062,15 +9062,15 @@ typedef enum {
   KITTY_KEY_ISO_LEVEL3_SHIFT = 57453,
   KITTY_KEY_ISO_LEVEL5_SHIFT = 57454,
 } KittyKey;
-# 15 "/home/nick/dl/neovim/src/nvim/map.h" 2
+# 15 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/ui_client.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/ui_client.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h" 2
 
 
 
@@ -9096,9 +9096,9 @@ extern uint64_t ui_client_channel_id ;
 
 
 extern 
-# 30 "/home/nick/dl/neovim/src/nvim/ui_client.h" 3 4
+# 30 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h" 3 4
       _Bool 
-# 30 "/home/nick/dl/neovim/src/nvim/ui_client.h"
+# 30 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h"
            ui_client_attached ;
 
 
@@ -9108,177 +9108,177 @@ extern TriState ui_client_bg_response ;
 
 
 extern 
-# 38 "/home/nick/dl/neovim/src/nvim/ui_client.h" 3 4
+# 38 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h" 3 4
       _Bool 
-# 38 "/home/nick/dl/neovim/src/nvim/ui_client.h"
+# 38 "/home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h"
            ui_client_forward_stdin ;
-# 17 "/home/nick/dl/neovim/src/nvim/map.h" 2
-# 42 "/home/nick/dl/neovim/src/nvim/map.h"
+# 17 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 2
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; int *keys; int *vals; } kh_int_int_map_t; extern kh_int_int_map_t *kh_init_int_int_map(void); extern void kh_dealloc_int_int_map(kh_int_int_map_t *h); extern void kh_destroy_int_int_map(kh_int_int_map_t *h); extern void kh_clear_int_int_map(kh_int_int_map_t *h); extern khint_t kh_get_int_int_map(const kh_int_int_map_t *h, int key); extern void kh_resize_int_int_map(kh_int_int_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_int_int_map(kh_int_int_map_t *h, int key, int *ret); extern void kh_del_int_int_map(kh_int_int_map_t *h, khint_t x); typedef struct { kh_int_int_map_t table; } Map_int_int; Map_int_int *map_int_int_new(void); void map_int_int_free(Map_int_int *map); void map_int_int_destroy(Map_int_int *map); int map_int_int_get(Map_int_int *map, int key); 
-# 42 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 42 "/home/nick/dl/neovim/src/nvim/map.h"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_int_int_has(Map_int_int *map, int key); int map_int_int_key(Map_int_int *map, int key); int map_int_int_put(Map_int_int *map, int key, int value); int *map_int_int_ref(Map_int_int *map, int key, 
-# 42 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 42 "/home/nick/dl/neovim/src/nvim/map.h"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); int map_int_int_del(Map_int_int *map, int key); void map_int_int_clear(Map_int_int *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; int *keys; cstr_t *vals; } kh_int_cstr_t_map_t; extern kh_int_cstr_t_map_t *kh_init_int_cstr_t_map(void); extern void kh_dealloc_int_cstr_t_map(kh_int_cstr_t_map_t *h); extern void kh_destroy_int_cstr_t_map(kh_int_cstr_t_map_t *h); extern void kh_clear_int_cstr_t_map(kh_int_cstr_t_map_t *h); extern khint_t kh_get_int_cstr_t_map(const kh_int_cstr_t_map_t *h, int key); extern void kh_resize_int_cstr_t_map(kh_int_cstr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_int_cstr_t_map(kh_int_cstr_t_map_t *h, int key, int *ret); extern void kh_del_int_cstr_t_map(kh_int_cstr_t_map_t *h, khint_t x); typedef struct { kh_int_cstr_t_map_t table; } Map_int_cstr_t; Map_int_cstr_t *map_int_cstr_t_new(void); void map_int_cstr_t_free(Map_int_cstr_t *map); void map_int_cstr_t_destroy(Map_int_cstr_t *map); cstr_t map_int_cstr_t_get(Map_int_cstr_t *map, int key); 
-# 43 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 43 "/home/nick/dl/neovim/src/nvim/map.h"
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_int_cstr_t_has(Map_int_cstr_t *map, int key); int map_int_cstr_t_key(Map_int_cstr_t *map, int key); cstr_t map_int_cstr_t_put(Map_int_cstr_t *map, int key, cstr_t value); cstr_t *map_int_cstr_t_ref(Map_int_cstr_t *map, int key, 
-# 43 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 43 "/home/nick/dl/neovim/src/nvim/map.h"
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); cstr_t map_int_cstr_t_del(Map_int_cstr_t *map, int key); void map_int_cstr_t_clear(Map_int_cstr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; cstr_t *keys; ptr_t *vals; } kh_cstr_t_ptr_t_map_t; extern kh_cstr_t_ptr_t_map_t *kh_init_cstr_t_ptr_t_map(void); extern void kh_dealloc_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h); extern void kh_destroy_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h); extern void kh_clear_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h); extern khint_t kh_get_cstr_t_ptr_t_map(const kh_cstr_t_ptr_t_map_t *h, cstr_t key); extern void kh_resize_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h, cstr_t key, int *ret); extern void kh_del_cstr_t_ptr_t_map(kh_cstr_t_ptr_t_map_t *h, khint_t x); typedef struct { kh_cstr_t_ptr_t_map_t table; } Map_cstr_t_ptr_t; Map_cstr_t_ptr_t *map_cstr_t_ptr_t_new(void); void map_cstr_t_ptr_t_free(Map_cstr_t_ptr_t *map); void map_cstr_t_ptr_t_destroy(Map_cstr_t_ptr_t *map); ptr_t map_cstr_t_ptr_t_get(Map_cstr_t_ptr_t *map, cstr_t key); 
-# 44 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 44 "/home/nick/dl/neovim/src/nvim/map.h"
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_cstr_t_ptr_t_has(Map_cstr_t_ptr_t *map, cstr_t key); cstr_t map_cstr_t_ptr_t_key(Map_cstr_t_ptr_t *map, cstr_t key); ptr_t map_cstr_t_ptr_t_put(Map_cstr_t_ptr_t *map, cstr_t key, ptr_t value); ptr_t *map_cstr_t_ptr_t_ref(Map_cstr_t_ptr_t *map, cstr_t key, 
-# 44 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 44 "/home/nick/dl/neovim/src/nvim/map.h"
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ptr_t map_cstr_t_ptr_t_del(Map_cstr_t_ptr_t *map, cstr_t key); void map_cstr_t_ptr_t_clear(Map_cstr_t_ptr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; cstr_t *keys; int *vals; } kh_cstr_t_int_map_t; extern kh_cstr_t_int_map_t *kh_init_cstr_t_int_map(void); extern void kh_dealloc_cstr_t_int_map(kh_cstr_t_int_map_t *h); extern void kh_destroy_cstr_t_int_map(kh_cstr_t_int_map_t *h); extern void kh_clear_cstr_t_int_map(kh_cstr_t_int_map_t *h); extern khint_t kh_get_cstr_t_int_map(const kh_cstr_t_int_map_t *h, cstr_t key); extern void kh_resize_cstr_t_int_map(kh_cstr_t_int_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_cstr_t_int_map(kh_cstr_t_int_map_t *h, cstr_t key, int *ret); extern void kh_del_cstr_t_int_map(kh_cstr_t_int_map_t *h, khint_t x); typedef struct { kh_cstr_t_int_map_t table; } Map_cstr_t_int; Map_cstr_t_int *map_cstr_t_int_new(void); void map_cstr_t_int_free(Map_cstr_t_int *map); void map_cstr_t_int_destroy(Map_cstr_t_int *map); int map_cstr_t_int_get(Map_cstr_t_int *map, cstr_t key); 
-# 45 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 45 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 45 "/home/nick/dl/neovim/src/nvim/map.h"
+# 45 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_cstr_t_int_has(Map_cstr_t_int *map, cstr_t key); cstr_t map_cstr_t_int_key(Map_cstr_t_int *map, cstr_t key); int map_cstr_t_int_put(Map_cstr_t_int *map, cstr_t key, int value); int *map_cstr_t_int_ref(Map_cstr_t_int *map, cstr_t key, 
-# 45 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 45 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 45 "/home/nick/dl/neovim/src/nvim/map.h"
+# 45 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); int map_cstr_t_int_del(Map_cstr_t_int *map, cstr_t key); void map_cstr_t_int_clear(Map_cstr_t_int *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; ptr_t *keys; ptr_t *vals; } kh_ptr_t_ptr_t_map_t; extern kh_ptr_t_ptr_t_map_t *kh_init_ptr_t_ptr_t_map(void); extern void kh_dealloc_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h); extern void kh_destroy_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h); extern void kh_clear_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h); extern khint_t kh_get_ptr_t_ptr_t_map(const kh_ptr_t_ptr_t_map_t *h, ptr_t key); extern void kh_resize_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h, ptr_t key, int *ret); extern void kh_del_ptr_t_ptr_t_map(kh_ptr_t_ptr_t_map_t *h, khint_t x); typedef struct { kh_ptr_t_ptr_t_map_t table; } Map_ptr_t_ptr_t; Map_ptr_t_ptr_t *map_ptr_t_ptr_t_new(void); void map_ptr_t_ptr_t_free(Map_ptr_t_ptr_t *map); void map_ptr_t_ptr_t_destroy(Map_ptr_t_ptr_t *map); ptr_t map_ptr_t_ptr_t_get(Map_ptr_t_ptr_t *map, ptr_t key); 
-# 46 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 46 "/home/nick/dl/neovim/src/nvim/map.h"
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_ptr_t_ptr_t_has(Map_ptr_t_ptr_t *map, ptr_t key); ptr_t map_ptr_t_ptr_t_key(Map_ptr_t_ptr_t *map, ptr_t key); ptr_t map_ptr_t_ptr_t_put(Map_ptr_t_ptr_t *map, ptr_t key, ptr_t value); ptr_t *map_ptr_t_ptr_t_ref(Map_ptr_t_ptr_t *map, ptr_t key, 
-# 46 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 46 "/home/nick/dl/neovim/src/nvim/map.h"
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ptr_t map_ptr_t_ptr_t_del(Map_ptr_t_ptr_t *map, ptr_t key); void map_ptr_t_ptr_t_clear(Map_ptr_t_ptr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; uint32_t *keys; ptr_t *vals; } kh_uint32_t_ptr_t_map_t; extern kh_uint32_t_ptr_t_map_t *kh_init_uint32_t_ptr_t_map(void); extern void kh_dealloc_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h); extern void kh_destroy_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h); extern void kh_clear_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h); extern khint_t kh_get_uint32_t_ptr_t_map(const kh_uint32_t_ptr_t_map_t *h, uint32_t key); extern void kh_resize_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h, uint32_t key, int *ret); extern void kh_del_uint32_t_ptr_t_map(kh_uint32_t_ptr_t_map_t *h, khint_t x); typedef struct { kh_uint32_t_ptr_t_map_t table; } Map_uint32_t_ptr_t; Map_uint32_t_ptr_t *map_uint32_t_ptr_t_new(void); void map_uint32_t_ptr_t_free(Map_uint32_t_ptr_t *map); void map_uint32_t_ptr_t_destroy(Map_uint32_t_ptr_t *map); ptr_t map_uint32_t_ptr_t_get(Map_uint32_t_ptr_t *map, uint32_t key); 
-# 47 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 47 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 47 "/home/nick/dl/neovim/src/nvim/map.h"
+# 47 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_uint32_t_ptr_t_has(Map_uint32_t_ptr_t *map, uint32_t key); uint32_t map_uint32_t_ptr_t_key(Map_uint32_t_ptr_t *map, uint32_t key); ptr_t map_uint32_t_ptr_t_put(Map_uint32_t_ptr_t *map, uint32_t key, ptr_t value); ptr_t *map_uint32_t_ptr_t_ref(Map_uint32_t_ptr_t *map, uint32_t key, 
-# 47 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 47 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 47 "/home/nick/dl/neovim/src/nvim/map.h"
+# 47 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ptr_t map_uint32_t_ptr_t_del(Map_uint32_t_ptr_t *map, uint32_t key); void map_uint32_t_ptr_t_clear(Map_uint32_t_ptr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; uint64_t *keys; ptr_t *vals; } kh_uint64_t_ptr_t_map_t; extern kh_uint64_t_ptr_t_map_t *kh_init_uint64_t_ptr_t_map(void); extern void kh_dealloc_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h); extern void kh_destroy_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h); extern void kh_clear_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h); extern khint_t kh_get_uint64_t_ptr_t_map(const kh_uint64_t_ptr_t_map_t *h, uint64_t key); extern void kh_resize_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h, uint64_t key, int *ret); extern void kh_del_uint64_t_ptr_t_map(kh_uint64_t_ptr_t_map_t *h, khint_t x); typedef struct { kh_uint64_t_ptr_t_map_t table; } Map_uint64_t_ptr_t; Map_uint64_t_ptr_t *map_uint64_t_ptr_t_new(void); void map_uint64_t_ptr_t_free(Map_uint64_t_ptr_t *map); void map_uint64_t_ptr_t_destroy(Map_uint64_t_ptr_t *map); ptr_t map_uint64_t_ptr_t_get(Map_uint64_t_ptr_t *map, uint64_t key); 
-# 48 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 48 "/home/nick/dl/neovim/src/nvim/map.h"
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_uint64_t_ptr_t_has(Map_uint64_t_ptr_t *map, uint64_t key); uint64_t map_uint64_t_ptr_t_key(Map_uint64_t_ptr_t *map, uint64_t key); ptr_t map_uint64_t_ptr_t_put(Map_uint64_t_ptr_t *map, uint64_t key, ptr_t value); ptr_t *map_uint64_t_ptr_t_ref(Map_uint64_t_ptr_t *map, uint64_t key, 
-# 48 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 48 "/home/nick/dl/neovim/src/nvim/map.h"
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ptr_t map_uint64_t_ptr_t_del(Map_uint64_t_ptr_t *map, uint64_t key); void map_uint64_t_ptr_t_clear(Map_uint64_t_ptr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; uint64_t *keys; ssize_t *vals; } kh_uint64_t_ssize_t_map_t; extern kh_uint64_t_ssize_t_map_t *kh_init_uint64_t_ssize_t_map(void); extern void kh_dealloc_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h); extern void kh_destroy_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h); extern void kh_clear_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h); extern khint_t kh_get_uint64_t_ssize_t_map(const kh_uint64_t_ssize_t_map_t *h, uint64_t key); extern void kh_resize_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h, uint64_t key, int *ret); extern void kh_del_uint64_t_ssize_t_map(kh_uint64_t_ssize_t_map_t *h, khint_t x); typedef struct { kh_uint64_t_ssize_t_map_t table; } Map_uint64_t_ssize_t; Map_uint64_t_ssize_t *map_uint64_t_ssize_t_new(void); void map_uint64_t_ssize_t_free(Map_uint64_t_ssize_t *map); void map_uint64_t_ssize_t_destroy(Map_uint64_t_ssize_t *map); ssize_t map_uint64_t_ssize_t_get(Map_uint64_t_ssize_t *map, uint64_t key); 
-# 49 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 49 "/home/nick/dl/neovim/src/nvim/map.h"
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_uint64_t_ssize_t_has(Map_uint64_t_ssize_t *map, uint64_t key); uint64_t map_uint64_t_ssize_t_key(Map_uint64_t_ssize_t *map, uint64_t key); ssize_t map_uint64_t_ssize_t_put(Map_uint64_t_ssize_t *map, uint64_t key, ssize_t value); ssize_t *map_uint64_t_ssize_t_ref(Map_uint64_t_ssize_t *map, uint64_t key, 
-# 49 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 49 "/home/nick/dl/neovim/src/nvim/map.h"
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ssize_t map_uint64_t_ssize_t_del(Map_uint64_t_ssize_t *map, uint64_t key); void map_uint64_t_ssize_t_clear(Map_uint64_t_ssize_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; uint64_t *keys; uint64_t *vals; } kh_uint64_t_uint64_t_map_t; extern kh_uint64_t_uint64_t_map_t *kh_init_uint64_t_uint64_t_map(void); extern void kh_dealloc_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h); extern void kh_destroy_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h); extern void kh_clear_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h); extern khint_t kh_get_uint64_t_uint64_t_map(const kh_uint64_t_uint64_t_map_t *h, uint64_t key); extern void kh_resize_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h, uint64_t key, int *ret); extern void kh_del_uint64_t_uint64_t_map(kh_uint64_t_uint64_t_map_t *h, khint_t x); typedef struct { kh_uint64_t_uint64_t_map_t table; } Map_uint64_t_uint64_t; Map_uint64_t_uint64_t *map_uint64_t_uint64_t_new(void); void map_uint64_t_uint64_t_free(Map_uint64_t_uint64_t *map); void map_uint64_t_uint64_t_destroy(Map_uint64_t_uint64_t *map); uint64_t map_uint64_t_uint64_t_get(Map_uint64_t_uint64_t *map, uint64_t key); 
-# 50 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 50 "/home/nick/dl/neovim/src/nvim/map.h"
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_uint64_t_uint64_t_has(Map_uint64_t_uint64_t *map, uint64_t key); uint64_t map_uint64_t_uint64_t_key(Map_uint64_t_uint64_t *map, uint64_t key); uint64_t map_uint64_t_uint64_t_put(Map_uint64_t_uint64_t *map, uint64_t key, uint64_t value); uint64_t *map_uint64_t_uint64_t_ref(Map_uint64_t_uint64_t *map, uint64_t key, 
-# 50 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 50 "/home/nick/dl/neovim/src/nvim/map.h"
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); uint64_t map_uint64_t_uint64_t_del(Map_uint64_t_uint64_t *map, uint64_t key); void map_uint64_t_uint64_t_clear(Map_uint64_t_uint64_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; uint32_t *keys; uint32_t *vals; } kh_uint32_t_uint32_t_map_t; extern kh_uint32_t_uint32_t_map_t *kh_init_uint32_t_uint32_t_map(void); extern void kh_dealloc_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h); extern void kh_destroy_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h); extern void kh_clear_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h); extern khint_t kh_get_uint32_t_uint32_t_map(const kh_uint32_t_uint32_t_map_t *h, uint32_t key); extern void kh_resize_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h, uint32_t key, int *ret); extern void kh_del_uint32_t_uint32_t_map(kh_uint32_t_uint32_t_map_t *h, khint_t x); typedef struct { kh_uint32_t_uint32_t_map_t table; } Map_uint32_t_uint32_t; Map_uint32_t_uint32_t *map_uint32_t_uint32_t_new(void); void map_uint32_t_uint32_t_free(Map_uint32_t_uint32_t *map); void map_uint32_t_uint32_t_destroy(Map_uint32_t_uint32_t *map); uint32_t map_uint32_t_uint32_t_get(Map_uint32_t_uint32_t *map, uint32_t key); 
-# 51 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 51 "/home/nick/dl/neovim/src/nvim/map.h"
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_uint32_t_uint32_t_has(Map_uint32_t_uint32_t *map, uint32_t key); uint32_t map_uint32_t_uint32_t_key(Map_uint32_t_uint32_t *map, uint32_t key); uint32_t map_uint32_t_uint32_t_put(Map_uint32_t_uint32_t *map, uint32_t key, uint32_t value); uint32_t *map_uint32_t_uint32_t_ref(Map_uint32_t_uint32_t *map, uint32_t key, 
-# 51 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 51 "/home/nick/dl/neovim/src/nvim/map.h"
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); uint32_t map_uint32_t_uint32_t_del(Map_uint32_t_uint32_t *map, uint32_t key); void map_uint32_t_uint32_t_clear(Map_uint32_t_uint32_t *map);
 
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; handle_T *keys; ptr_t *vals; } kh_handle_T_ptr_t_map_t; extern kh_handle_T_ptr_t_map_t *kh_init_handle_T_ptr_t_map(void); extern void kh_dealloc_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h); extern void kh_destroy_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h); extern void kh_clear_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h); extern khint_t kh_get_handle_T_ptr_t_map(const kh_handle_T_ptr_t_map_t *h, handle_T key); extern void kh_resize_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h, handle_T key, int *ret); extern void kh_del_handle_T_ptr_t_map(kh_handle_T_ptr_t_map_t *h, khint_t x); typedef struct { kh_handle_T_ptr_t_map_t table; } Map_handle_T_ptr_t; Map_handle_T_ptr_t *map_handle_T_ptr_t_new(void); void map_handle_T_ptr_t_free(Map_handle_T_ptr_t *map); void map_handle_T_ptr_t_destroy(Map_handle_T_ptr_t *map); ptr_t map_handle_T_ptr_t_get(Map_handle_T_ptr_t *map, handle_T key); 
-# 53 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 53 "/home/nick/dl/neovim/src/nvim/map.h"
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_handle_T_ptr_t_has(Map_handle_T_ptr_t *map, handle_T key); handle_T map_handle_T_ptr_t_key(Map_handle_T_ptr_t *map, handle_T key); ptr_t map_handle_T_ptr_t_put(Map_handle_T_ptr_t *map, handle_T key, ptr_t value); ptr_t *map_handle_T_ptr_t_ref(Map_handle_T_ptr_t *map, handle_T key, 
-# 53 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 53 "/home/nick/dl/neovim/src/nvim/map.h"
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ptr_t map_handle_T_ptr_t_del(Map_handle_T_ptr_t *map, handle_T key); void map_handle_T_ptr_t_clear(Map_handle_T_ptr_t *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; HlEntry *keys; int *vals; } kh_HlEntry_int_map_t; extern kh_HlEntry_int_map_t *kh_init_HlEntry_int_map(void); extern void kh_dealloc_HlEntry_int_map(kh_HlEntry_int_map_t *h); extern void kh_destroy_HlEntry_int_map(kh_HlEntry_int_map_t *h); extern void kh_clear_HlEntry_int_map(kh_HlEntry_int_map_t *h); extern khint_t kh_get_HlEntry_int_map(const kh_HlEntry_int_map_t *h, HlEntry key); extern void kh_resize_HlEntry_int_map(kh_HlEntry_int_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_HlEntry_int_map(kh_HlEntry_int_map_t *h, HlEntry key, int *ret); extern void kh_del_HlEntry_int_map(kh_HlEntry_int_map_t *h, khint_t x); typedef struct { kh_HlEntry_int_map_t table; } Map_HlEntry_int; Map_HlEntry_int *map_HlEntry_int_new(void); void map_HlEntry_int_free(Map_HlEntry_int *map); void map_HlEntry_int_destroy(Map_HlEntry_int *map); int map_HlEntry_int_get(Map_HlEntry_int *map, HlEntry key); 
-# 54 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 54 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 54 "/home/nick/dl/neovim/src/nvim/map.h"
+# 54 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_HlEntry_int_has(Map_HlEntry_int *map, HlEntry key); HlEntry map_HlEntry_int_key(Map_HlEntry_int *map, HlEntry key); int map_HlEntry_int_put(Map_HlEntry_int *map, HlEntry key, int value); int *map_HlEntry_int_ref(Map_HlEntry_int *map, HlEntry key, 
-# 54 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 54 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 54 "/home/nick/dl/neovim/src/nvim/map.h"
+# 54 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); int map_HlEntry_int_del(Map_HlEntry_int *map, HlEntry key); void map_HlEntry_int_clear(Map_HlEntry_int *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; String *keys; handle_T *vals; } kh_String_handle_T_map_t; extern kh_String_handle_T_map_t *kh_init_String_handle_T_map(void); extern void kh_dealloc_String_handle_T_map(kh_String_handle_T_map_t *h); extern void kh_destroy_String_handle_T_map(kh_String_handle_T_map_t *h); extern void kh_clear_String_handle_T_map(kh_String_handle_T_map_t *h); extern khint_t kh_get_String_handle_T_map(const kh_String_handle_T_map_t *h, String key); extern void kh_resize_String_handle_T_map(kh_String_handle_T_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_String_handle_T_map(kh_String_handle_T_map_t *h, String key, int *ret); extern void kh_del_String_handle_T_map(kh_String_handle_T_map_t *h, khint_t x); typedef struct { kh_String_handle_T_map_t table; } Map_String_handle_T; Map_String_handle_T *map_String_handle_T_new(void); void map_String_handle_T_free(Map_String_handle_T *map); void map_String_handle_T_destroy(Map_String_handle_T *map); handle_T map_String_handle_T_get(Map_String_handle_T *map, String key); 
-# 55 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 55 "/home/nick/dl/neovim/src/nvim/map.h"
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_String_handle_T_has(Map_String_handle_T *map, String key); String map_String_handle_T_key(Map_String_handle_T *map, String key); handle_T map_String_handle_T_put(Map_String_handle_T *map, String key, handle_T value); handle_T *map_String_handle_T_ref(Map_String_handle_T *map, String key, 
-# 55 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 55 "/home/nick/dl/neovim/src/nvim/map.h"
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); handle_T map_String_handle_T_del(Map_String_handle_T *map, String key); void map_String_handle_T_clear(Map_String_handle_T *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; String *keys; int *vals; } kh_String_int_map_t; extern kh_String_int_map_t *kh_init_String_int_map(void); extern void kh_dealloc_String_int_map(kh_String_int_map_t *h); extern void kh_destroy_String_int_map(kh_String_int_map_t *h); extern void kh_clear_String_int_map(kh_String_int_map_t *h); extern khint_t kh_get_String_int_map(const kh_String_int_map_t *h, String key); extern void kh_resize_String_int_map(kh_String_int_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_String_int_map(kh_String_int_map_t *h, String key, int *ret); extern void kh_del_String_int_map(kh_String_int_map_t *h, khint_t x); typedef struct { kh_String_int_map_t table; } Map_String_int; Map_String_int *map_String_int_new(void); void map_String_int_free(Map_String_int *map); void map_String_int_destroy(Map_String_int *map); int map_String_int_get(Map_String_int *map, String key); 
-# 56 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 56 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 56 "/home/nick/dl/neovim/src/nvim/map.h"
+# 56 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_String_int_has(Map_String_int *map, String key); String map_String_int_key(Map_String_int *map, String key); int map_String_int_put(Map_String_int *map, String key, int value); int *map_String_int_ref(Map_String_int *map, String key, 
-# 56 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 56 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 56 "/home/nick/dl/neovim/src/nvim/map.h"
+# 56 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); int map_String_int_del(Map_String_int *map, String key); void map_String_int_clear(Map_String_int *map);
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; int *keys; String *vals; } kh_int_String_map_t; extern kh_int_String_map_t *kh_init_int_String_map(void); extern void kh_dealloc_int_String_map(kh_int_String_map_t *h); extern void kh_destroy_int_String_map(kh_int_String_map_t *h); extern void kh_clear_int_String_map(kh_int_String_map_t *h); extern khint_t kh_get_int_String_map(const kh_int_String_map_t *h, int key); extern void kh_resize_int_String_map(kh_int_String_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_int_String_map(kh_int_String_map_t *h, int key, int *ret); extern void kh_del_int_String_map(kh_int_String_map_t *h, khint_t x); typedef struct { kh_int_String_map_t table; } Map_int_String; Map_int_String *map_int_String_new(void); void map_int_String_free(Map_int_String *map); void map_int_String_destroy(Map_int_String *map); String map_int_String_get(Map_int_String *map, int key); 
-# 57 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 57 "/home/nick/dl/neovim/src/nvim/map.h"
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_int_String_has(Map_int_String *map, int key); int map_int_String_key(Map_int_String *map, int key); String map_int_String_put(Map_int_String *map, int key, String value); String *map_int_String_ref(Map_int_String *map, int key, 
-# 57 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 57 "/home/nick/dl/neovim/src/nvim/map.h"
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); String map_int_String_del(Map_int_String *map, int key); void map_int_String_clear(Map_int_String *map);
 
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; ColorKey *keys; ColorItem *vals; } kh_ColorKey_ColorItem_map_t; extern kh_ColorKey_ColorItem_map_t *kh_init_ColorKey_ColorItem_map(void); extern void kh_dealloc_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h); extern void kh_destroy_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h); extern void kh_clear_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h); extern khint_t kh_get_ColorKey_ColorItem_map(const kh_ColorKey_ColorItem_map_t *h, ColorKey key); extern void kh_resize_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h, ColorKey key, int *ret); extern void kh_del_ColorKey_ColorItem_map(kh_ColorKey_ColorItem_map_t *h, khint_t x); typedef struct { kh_ColorKey_ColorItem_map_t table; } Map_ColorKey_ColorItem; Map_ColorKey_ColorItem *map_ColorKey_ColorItem_new(void); void map_ColorKey_ColorItem_free(Map_ColorKey_ColorItem *map); void map_ColorKey_ColorItem_destroy(Map_ColorKey_ColorItem *map); ColorItem map_ColorKey_ColorItem_get(Map_ColorKey_ColorItem *map, ColorKey key); 
-# 59 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 59 "/home/nick/dl/neovim/src/nvim/map.h"
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_ColorKey_ColorItem_has(Map_ColorKey_ColorItem *map, ColorKey key); ColorKey map_ColorKey_ColorItem_key(Map_ColorKey_ColorItem *map, ColorKey key); ColorItem map_ColorKey_ColorItem_put(Map_ColorKey_ColorItem *map, ColorKey key, ColorItem value); ColorItem *map_ColorKey_ColorItem_ref(Map_ColorKey_ColorItem *map, ColorKey key, 
-# 59 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 59 "/home/nick/dl/neovim/src/nvim/map.h"
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); ColorItem map_ColorKey_ColorItem_del(Map_ColorKey_ColorItem *map, ColorKey key); void map_ColorKey_ColorItem_clear(Map_ColorKey_ColorItem *map);
 
 typedef struct { khint_t n_buckets, size, n_occupied, upper_bound; khint32_t *flags; KittyKey *keys; cstr_t *vals; } kh_KittyKey_cstr_t_map_t; extern kh_KittyKey_cstr_t_map_t *kh_init_KittyKey_cstr_t_map(void); extern void kh_dealloc_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h); extern void kh_destroy_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h); extern void kh_clear_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h); extern khint_t kh_get_KittyKey_cstr_t_map(const kh_KittyKey_cstr_t_map_t *h, KittyKey key); extern void kh_resize_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h, khint_t new_n_buckets); extern khint_t kh_put_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h, KittyKey key, int *ret); extern void kh_del_KittyKey_cstr_t_map(kh_KittyKey_cstr_t_map_t *h, khint_t x); typedef struct { kh_KittyKey_cstr_t_map_t table; } Map_KittyKey_cstr_t; Map_KittyKey_cstr_t *map_KittyKey_cstr_t_new(void); void map_KittyKey_cstr_t_free(Map_KittyKey_cstr_t *map); void map_KittyKey_cstr_t_destroy(Map_KittyKey_cstr_t *map); cstr_t map_KittyKey_cstr_t_get(Map_KittyKey_cstr_t *map, KittyKey key); 
-# 61 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 61 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 61 "/home/nick/dl/neovim/src/nvim/map.h"
+# 61 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 map_KittyKey_cstr_t_has(Map_KittyKey_cstr_t *map, KittyKey key); KittyKey map_KittyKey_cstr_t_key(Map_KittyKey_cstr_t *map, KittyKey key); cstr_t map_KittyKey_cstr_t_put(Map_KittyKey_cstr_t *map, KittyKey key, cstr_t value); cstr_t *map_KittyKey_cstr_t_ref(Map_KittyKey_cstr_t *map, KittyKey key, 
-# 61 "/home/nick/dl/neovim/src/nvim/map.h" 3 4
+# 61 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h" 3 4
 _Bool 
-# 61 "/home/nick/dl/neovim/src/nvim/map.h"
+# 61 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 put); cstr_t map_KittyKey_cstr_t_del(Map_KittyKey_cstr_t *map, KittyKey key); void map_KittyKey_cstr_t_clear(Map_KittyKey_cstr_t *map);
-# 94 "/home/nick/dl/neovim/src/nvim/map.h"
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/map.h"
 void pmap_del2(Map_cstr_t_ptr_t *map, const char *key);
-# 26 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/mark_defs.h" 1
+# 26 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/mark_defs.h" 1
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/os/time.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/os/time.h" 1
 
 
 
@@ -9287,7 +9287,7 @@ void pmap_del2(Map_cstr_t_ptr_t *map, const char *key);
 
 
 typedef uint64_t Timestamp;
-# 6 "/home/nick/dl/neovim/src/nvim/mark_defs.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/mark_defs.h" 2
 
 
 
@@ -9319,7 +9319,7 @@ typedef enum {
   kMarkAll,
   kMarkAllNoResolve,
 } MarkGet;
-# 63 "/home/nick/dl/neovim/src/nvim/mark_defs.h"
+# 63 "/home/nick/git/Src-Arc/neovim/src/nvim/mark_defs.h"
 typedef struct fmarkv {
   linenr_T topline_offset;
 
@@ -9343,8 +9343,8 @@ typedef struct xfilemark {
   fmark_T fmark;
   char *fname;
 } xfmark_T;
-# 27 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/marktree.h" 1
+# 27 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 1
 
 
 
@@ -9372,13 +9372,13 @@ extern void __assert (const char *__assertion, const char *__file, int __line)
 
 
 
-# 5 "/home/nick/dl/neovim/src/nvim/marktree.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 2
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 7 "/home/nick/dl/neovim/src/nvim/marktree.h" 2
-# 16 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 2
+# 16 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
 
-# 16 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 16 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
 struct mtnode_s;
 
 
@@ -9421,11 +9421,11 @@ typedef struct {
   uint16_t priority;
   Decoration *decor_full;
 } mtkey_t;
-# 78 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 78 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
 static inline uint64_t mt_lookup_id(uint32_t ns, uint32_t id, 
-# 78 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 78 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
                                                              _Bool 
-# 78 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 78 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
                                                                   enda)
 {
   return (uint64_t)ns << 32 | id | (enda?(((uint64_t)1) << 63):0);
@@ -9438,36 +9438,36 @@ static inline uint64_t mt_lookup_key(mtkey_t key)
 }
 
 static inline 
-# 89 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 89 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
              _Bool 
-# 89 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 89 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
                   mt_paired(mtkey_t key)
 {
   return key.flags & (((uint16_t)1) << 2);
 }
 
 static inline 
-# 94 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
              _Bool 
-# 94 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
                   mt_end(mtkey_t key)
 {
   return key.flags & (((uint16_t)1) << 1);
 }
 
 static inline 
-# 99 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 99 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
              _Bool 
-# 99 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 99 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
                   mt_start(mtkey_t key)
 {
   return mt_paired(key) && !mt_end(key);
 }
 
 static inline 
-# 104 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 104 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
              _Bool 
-# 104 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 104 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
                   mt_right(mtkey_t key)
 {
   return key.flags & (((uint16_t)1) << 14);
@@ -9479,27 +9479,27 @@ static inline uint8_t marktree_decor_level(mtkey_t key)
 }
 
 static inline uint16_t mt_flags(
-# 114 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 114 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
                                _Bool 
-# 114 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 114 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
                                     right_gravity, uint8_t decor_level)
 {
   
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
  ((void) sizeof ((
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
  decor_level < 4
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
  decor_level < 4
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
  ) ; else __assert_fail (
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
  "decor_level < DECOR_LEVELS"
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h" 3 4
- , "/home/nick/dl/neovim/src/nvim/marktree.h", 116, __extension__ __PRETTY_FUNCTION__); }))
-# 116 "/home/nick/dl/neovim/src/nvim/marktree.h"
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h", 116, __extension__ __PRETTY_FUNCTION__); }))
+# 116 "/home/nick/git/Src-Arc/neovim/src/nvim/marktree.h"
                                    ;
   return (uint16_t)((right_gravity ? (((uint16_t)1) << 14) : 0)
                     | (decor_level << 4));
@@ -9522,12 +9522,12 @@ typedef struct {
 
   Map_uint64_t_ptr_t id2node[1];
 } MarkTree;
-# 28 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 2
+# 28 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 2
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/option_defs.h" 1
-# 62 "/home/nick/dl/neovim/src/nvim/option_defs.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/option_defs.h" 1
+# 62 "/home/nick/git/Src-Arc/neovim/src/nvim/option_defs.h"
 typedef enum {
   OPT_FREE = 0x01,
   OPT_GLOBAL = 0x02,
@@ -9540,7 +9540,7 @@ typedef enum {
   OPT_SKIPRTP = 0x100,
   OPT_CLEAR = 0x200,
 } OptionFlags;
-# 240 "/home/nick/dl/neovim/src/nvim/option_defs.h"
+# 240 "/home/nick/git/Src-Arc/neovim/src/nvim/option_defs.h"
 enum {
   SHM_RO = 'r',
   SHM_MOD = 'm',
@@ -9565,7 +9565,7 @@ enum {
   SHM_FILEINFO = 'F',
   SHM_SEARCHCOUNT = 'S',
 };
-# 309 "/home/nick/dl/neovim/src/nvim/option_defs.h"
+# 309 "/home/nick/git/Src-Arc/neovim/src/nvim/option_defs.h"
 enum {
   STL_FILEPATH = 'f',
   STL_FULLPATH = 'F',
@@ -9608,7 +9608,7 @@ enum {
   STL_TABCLOSENR = 'X',
   STL_CLICK_FUNC = '@',
 };
-# 390 "/home/nick/dl/neovim/src/nvim/option_defs.h"
+# 390 "/home/nick/git/Src-Arc/neovim/src/nvim/option_defs.h"
 extern char *p_ambw;
 extern int p_acd;
 extern int p_ai;
@@ -9642,7 +9642,7 @@ extern char *p_bex;
 extern char *p_bo;
 extern char breakat_flags[256];
 extern unsigned bo_flags;
-# 445 "/home/nick/dl/neovim/src/nvim/option_defs.h"
+# 445 "/home/nick/git/Src-Arc/neovim/src/nvim/option_defs.h"
 extern char *p_bsk;
 extern char *p_breakat;
 extern char *p_bh;
@@ -9718,7 +9718,7 @@ extern char *p_fcl;
 extern long p_fdls;
 extern char *p_fdo;
 extern unsigned fdo_flags;
-# 531 "/home/nick/dl/neovim/src/nvim/option_defs.h"
+# 531 "/home/nick/git/Src-Arc/neovim/src/nvim/option_defs.h"
 extern char *p_fex;
 extern char *p_flp;
 extern char *p_fo;
@@ -9842,7 +9842,7 @@ extern char *p_sel;
 extern char *p_slm;
 extern char *p_ssop;
 extern unsigned ssop_flags;
-# 674 "/home/nick/dl/neovim/src/nvim/option_defs.h"
+# 674 "/home/nick/git/Src-Arc/neovim/src/nvim/option_defs.h"
 extern char *p_sh;
 extern char *p_shcf;
 extern char *p_sp;
@@ -10141,7 +10141,7 @@ enum {
   WV_WBR,
   WV_COUNT,
 };
-# 981 "/home/nick/dl/neovim/src/nvim/option_defs.h"
+# 981 "/home/nick/git/Src-Arc/neovim/src/nvim/option_defs.h"
 typedef struct {
   sctx_T script_ctx;
   uint64_t channel_id;
@@ -10165,16 +10165,16 @@ typedef struct vimoption {
   char *def_val;
   LastSet last_set;
 } vimoption_T;
-# 32 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 2
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/statusline_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/statusline_defs.h" 1
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 5 "/home/nick/dl/neovim/src/nvim/statusline_defs.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/statusline_defs.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/fold_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/fold_defs.h" 1
 
 
 
@@ -10190,11 +10190,11 @@ typedef struct foldinfo {
 
   linenr_T fi_lines;
 } foldinfo_T;
-# 7 "/home/nick/dl/neovim/src/nvim/statusline_defs.h" 2
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/statusline_defs.h" 2
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/sign_defs.h" 1
-# 12 "/home/nick/dl/neovim/src/nvim/sign_defs.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/sign_defs.h" 1
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/sign_defs.h"
 typedef struct signgroup_S {
   int sg_next_sign_id;
   uint16_t sg_refcount;
@@ -10212,9 +10212,9 @@ struct sign_entry {
   int se_typenr;
   int se_priority;
   
-# 28 "/home/nick/dl/neovim/src/nvim/sign_defs.h" 3 4
+# 28 "/home/nick/git/Src-Arc/neovim/src/nvim/sign_defs.h" 3 4
  _Bool 
-# 28 "/home/nick/dl/neovim/src/nvim/sign_defs.h"
+# 28 "/home/nick/git/Src-Arc/neovim/src/nvim/sign_defs.h"
       se_has_text_or_icon;
   linenr_T se_lnum;
   signgroup_T *se_group;
@@ -10240,7 +10240,7 @@ typedef enum {
   SIGN_NUMHL,
   SIGN_TEXT,
 } SignType;
-# 10 "/home/nick/dl/neovim/src/nvim/statusline_defs.h" 2
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/statusline_defs.h" 2
 
 
 typedef struct {
@@ -10300,14 +10300,14 @@ struct statuscol {
   int sign_cul_id;
   int truncate;
   
-# 68 "/home/nick/dl/neovim/src/nvim/statusline_defs.h" 3 4
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/statusline_defs.h" 3 4
  _Bool 
-# 68 "/home/nick/dl/neovim/src/nvim/statusline_defs.h"
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/statusline_defs.h"
       draw;
   
-# 69 "/home/nick/dl/neovim/src/nvim/statusline_defs.h" 3 4
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/statusline_defs.h" 3 4
  _Bool 
-# 69 "/home/nick/dl/neovim/src/nvim/statusline_defs.h"
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/statusline_defs.h"
       use_cul;
   char text[4096];
   char *textp;
@@ -10317,9 +10317,9 @@ struct statuscol {
   foldinfo_T foldinfo;
   SignTextAttrs *sattrs;
 };
-# 34 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/undo_defs.h" 1
-# 10 "/home/nick/dl/neovim/src/nvim/undo_defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/undo_defs.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/undo_defs.h"
 typedef struct u_header u_header_T;
 
 
@@ -10330,8 +10330,8 @@ typedef struct {
   colnr_T vi_curswant;
 } visualinfo_T;
 
-# 1 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 1
-# 21 "/home/nick/dl/neovim/src/nvim/undo_defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 1
+# 21 "/home/nick/git/Src-Arc/neovim/src/nvim/undo_defs.h" 2
 
 typedef struct u_entry u_entry_T;
 struct u_entry {
@@ -10382,27 +10382,27 @@ struct u_header {
 
 
 };
-# 35 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 2
-# 84 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 35 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 2
+# 84 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
 typedef struct window_S win_T;
 typedef struct wininfo_S wininfo_T;
 typedef struct frame_S frame_T;
 typedef uint64_t disptick_T;
 
-# 1 "/home/nick/dl/neovim/src/nvim/memline_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/memline_defs.h" 1
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/memfile_defs.h" 1
-# 16 "/home/nick/dl/neovim/src/nvim/memfile_defs.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/memfile_defs.h" 1
+# 16 "/home/nick/git/Src-Arc/neovim/src/nvim/memfile_defs.h"
 typedef int64_t blocknr_T;
-# 25 "/home/nick/dl/neovim/src/nvim/memfile_defs.h"
+# 25 "/home/nick/git/Src-Arc/neovim/src/nvim/memfile_defs.h"
 typedef struct mf_hashitem {
   struct mf_hashitem *mhi_next;
   struct mf_hashitem *mhi_prev;
   blocknr_T mhi_key;
 } mf_hashitem_T;
-# 40 "/home/nick/dl/neovim/src/nvim/memfile_defs.h"
+# 40 "/home/nick/git/Src-Arc/neovim/src/nvim/memfile_defs.h"
 typedef struct mf_hashtab {
   size_t mht_mask;
 
@@ -10412,7 +10412,7 @@ typedef struct mf_hashtab {
 
   mf_hashitem_T *mht_small_buckets[64];
 } mf_hashtab_T;
-# 63 "/home/nick/dl/neovim/src/nvim/memfile_defs.h"
+# 63 "/home/nick/git/Src-Arc/neovim/src/nvim/memfile_defs.h"
 typedef struct bhdr {
   mf_hashitem_T bh_hashitem;
 
@@ -10455,12 +10455,12 @@ typedef struct memfile {
   blocknr_T mf_infile_count;
   unsigned mf_page_size;
   
-# 104 "/home/nick/dl/neovim/src/nvim/memfile_defs.h" 3 4
+# 104 "/home/nick/git/Src-Arc/neovim/src/nvim/memfile_defs.h" 3 4
  _Bool 
-# 104 "/home/nick/dl/neovim/src/nvim/memfile_defs.h"
+# 104 "/home/nick/git/Src-Arc/neovim/src/nvim/memfile_defs.h"
       mf_dirty;
 } memfile_T;
-# 5 "/home/nick/dl/neovim/src/nvim/memline_defs.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/memline_defs.h" 2
 
 
 
@@ -10478,7 +10478,7 @@ typedef struct ml_chunksize {
   int mlcs_numlines;
   long mlcs_totalsize;
 } chunksize_T;
-# 43 "/home/nick/dl/neovim/src/nvim/memline_defs.h"
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/memline_defs.h"
 typedef struct memline {
   linenr_T ml_line_count;
 
@@ -10508,19 +10508,19 @@ typedef struct memline {
   int ml_numchunks;
   int ml_usedchunks;
 } memline_T;
-# 90 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/os/fs_defs.h" 1
+# 90 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/os/fs_defs.h" 1
 
 
 
-# 1 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 1
-# 56 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
-# 1 "/home/nick/dl/neovim/.deps/usr/include/uv/errno.h" 1
-# 57 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 2
-# 1 "/home/nick/dl/neovim/.deps/usr/include/uv/version.h" 1
-# 58 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 1
+# 56 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/errno.h" 1
+# 57 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/version.h" 1
+# 58 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 59 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 2
+# 59 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 2
 
 
 
@@ -10533,8 +10533,8 @@ struct uv__queue {
 
 
 
-# 1 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 1
-# 27 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 1
+# 27 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h"
 # 1 "/usr/include/fcntl.h" 1 3 4
 # 28 "/usr/include/fcntl.h" 3 4
 
@@ -10722,7 +10722,7 @@ extern int posix_fallocate (int __fd, off_t __offset, off_t __len);
 extern int posix_fallocate64 (int __fd, off64_t __offset, off64_t __len);
 # 345 "/usr/include/fcntl.h" 3 4
 
-# 28 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 28 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 # 1 "/usr/include/dirent.h" 1 3 4
 # 27 "/usr/include/dirent.h" 3 4
 
@@ -10918,7 +10918,7 @@ extern __ssize_t getdents64 (int __fd, void *__buffer, size_t __length)
 
 
 # 407 "/usr/include/dirent.h" 2 3 4
-# 29 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 29 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 
 # 1 "/usr/include/sys/socket.h" 1 3 4
 # 24 "/usr/include/sys/socket.h" 3 4
@@ -11327,7 +11327,7 @@ extern int sockatmark (int __fd) __attribute__ ((__nothrow__ , __leaf__));
 extern int isfdtype (int __fd, int __fdtype) __attribute__ ((__nothrow__ , __leaf__));
 # 346 "/usr/include/sys/socket.h" 3 4
 
-# 31 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 31 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 # 1 "/usr/include/netinet/in.h" 1 3 4
 # 27 "/usr/include/netinet/in.h" 3 4
 
@@ -11762,7 +11762,7 @@ extern int setsourcefilter (int __s, uint32_t __interface_addr,
 
 
 
-# 32 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 32 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 # 1 "/usr/include/netinet/tcp.h" 1 3 4
 # 93 "/usr/include/netinet/tcp.h" 3 4
 typedef uint32_t tcp_seq;
@@ -11943,7 +11943,7 @@ struct tcp_zerocopy_receive
   uint32_t length;
   uint32_t recv_skip_hint;
 };
-# 33 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 33 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 # 1 "/usr/include/arpa/inet.h" 1 3 4
 # 30 "/usr/include/arpa/inet.h" 3 4
 
@@ -12021,7 +12021,7 @@ extern char *inet_nsap_ntoa (int __len, const unsigned char *__cp,
 
 
 
-# 34 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 34 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 # 1 "/usr/include/netdb.h" 1 3 4
 # 32 "/usr/include/netdb.h" 3 4
 # 1 "/usr/include/rpc/netdb.h" 1 3 4
@@ -12459,7 +12459,7 @@ extern int gai_cancel (struct gaicb *__gaicbp) __attribute__ ((__nothrow__ , __l
 
 
 
-# 35 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 35 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 
 
 # 1 "/usr/include/pwd.h" 1 3 4
@@ -12554,7 +12554,7 @@ extern int getpw (__uid_t __uid, char *__buffer);
 
 
 
-# 38 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 38 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 
 
 # 1 "/usr/include/semaphore.h" 1 3 4
@@ -12624,7 +12624,7 @@ extern int sem_getvalue (sem_t *__restrict __sem, int *__restrict __sval)
 
 
 
-# 41 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 41 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 
 
 # 1 "/usr/include/pthread.h" 1 3 4
@@ -13599,25 +13599,25 @@ __attribute__ ((__nothrow__ , __leaf__)) pthread_equal (pthread_t __thread1, pth
 
 
 
-# 44 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 44 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 
 
-# 1 "/home/nick/dl/neovim/.deps/usr/include/uv/threadpool.h" 1
-# 30 "/home/nick/dl/neovim/.deps/usr/include/uv/threadpool.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/threadpool.h" 1
+# 30 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/threadpool.h"
 
-# 30 "/home/nick/dl/neovim/.deps/usr/include/uv/threadpool.h"
+# 30 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/threadpool.h"
 struct uv__work {
   void (*work)(struct uv__work *w);
   void (*done)(struct uv__work *w, int status);
   struct uv_loop_s* loop;
   struct uv__queue wq;
 };
-# 47 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
+# 47 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
 
 
-# 1 "/home/nick/dl/neovim/.deps/usr/include/uv/linux.h" 1
-# 50 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h" 2
-# 85 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/linux.h" 1
+# 50 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h" 2
+# 85 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h"
 struct uv__io_s;
 struct uv_loop_s;
 
@@ -13635,7 +13635,7 @@ struct uv__io_s {
   int fd;
  
 };
-# 120 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h"
+# 120 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h"
 typedef struct uv_buf_t {
   char* base;
   size_t len;
@@ -13655,7 +13655,7 @@ typedef pthread_rwlock_t uv_rwlock_t;
 typedef sem_t uv_sem_t;
 typedef pthread_cond_t uv_cond_t;
 typedef pthread_key_t uv_key_t;
-# 161 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h"
+# 161 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h"
 typedef pthread_barrier_t uv_barrier_t;
 
 
@@ -13664,279 +13664,279 @@ typedef gid_t uv_gid_t;
 typedef uid_t uv_uid_t;
 
 typedef struct dirent uv__dirent_t;
-# 215 "/home/nick/dl/neovim/.deps/usr/include/uv/unix.h"
+# 215 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv/unix.h"
 typedef struct {
   void* handle;
   char* errmsg;
 } uv_lib_t;
-# 72 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 2
-# 191 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 72 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 2
+# 191 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 typedef enum {
 
   UV_E2BIG = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  7
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EACCES = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  13
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EADDRINUSE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  98
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EADDRNOTAVAIL = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  99
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EAFNOSUPPORT = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  97
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EAGAIN = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  11
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EAI_ADDRFAMILY = (-3000), UV_EAI_AGAIN = (-3001), UV_EAI_BADFLAGS = (-3002), UV_EAI_BADHINTS = (-3013), UV_EAI_CANCELED = (-3003), UV_EAI_FAIL = (-3004), UV_EAI_FAMILY = (-3005), UV_EAI_MEMORY = (-3006), UV_EAI_NODATA = (-3007), UV_EAI_NONAME = (-3008), UV_EAI_OVERFLOW = (-3009), UV_EAI_PROTOCOL = (-3014), UV_EAI_SERVICE = (-3010), UV_EAI_SOCKTYPE = (-3011), UV_EALREADY = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  114
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EBADF = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  9
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EBUSY = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  16
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ECANCELED = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  125
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ECHARSET = (-4080), UV_ECONNABORTED = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  103
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ECONNREFUSED = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  111
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ECONNRESET = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  104
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EDESTADDRREQ = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  89
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EEXIST = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  17
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EFAULT = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  14
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EFBIG = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  27
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EHOSTUNREACH = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  113
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EINTR = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  4
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EINVAL = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  22
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EIO = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  5
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EISCONN = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  106
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EISDIR = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  21
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ELOOP = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  40
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EMFILE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  24
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EMSGSIZE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  90
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENAMETOOLONG = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  36
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENETDOWN = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  100
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENETUNREACH = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  101
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENFILE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  23
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOBUFS = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  105
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENODEV = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  19
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOENT = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  2
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOMEM = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  12
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENONET = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  64
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOPROTOOPT = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  92
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOSPC = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  28
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOSYS = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  38
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOTCONN = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  107
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOTDIR = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  20
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOTEMPTY = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  39
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOTSOCK = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  88
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOTSUP = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  95
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EOVERFLOW = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  75
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EPERM = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  1
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EPIPE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  32
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EPROTO = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  71
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EPROTONOSUPPORT = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  93
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EPROTOTYPE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  91
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ERANGE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  34
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EROFS = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  30
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ESHUTDOWN = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  108
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ESPIPE = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  29
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ESRCH = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  3
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ETIMEDOUT = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  110
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ETXTBSY = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  26
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EXDEV = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  18
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_UNKNOWN = (-4094), UV_EOF = (-4095), UV_ENXIO = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  6
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EMLINK = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  31
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EHOSTDOWN = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  112
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EREMOTEIO = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  121
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENOTTY = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  25
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EFTYPE = (-4028), UV_EILSEQ = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  84
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ESOCKTNOSUPPORT = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  94
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_ENODATA = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  61
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )), UV_EUNATCH = (-(
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  49
-# 193 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 193 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  )),
 
   UV_ERRNO_MAX = (-4095) - 1
@@ -14172,7 +14172,7 @@ __attribute__((visibility("default"))) char* uv_strerror_r(int err, char* buf, s
 
 __attribute__((visibility("default"))) const char* uv_err_name(int err);
 __attribute__((visibility("default"))) char* uv_err_name_r(int err, char* buf, size_t buflen);
-# 440 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 440 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 struct uv_req_s {
   void* data; uv_req_type type; void* reserved[6];
 };
@@ -14192,7 +14192,7 @@ struct uv_shutdown_s {
   uv_shutdown_cb cb;
  
 };
-# 477 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 477 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 struct uv_handle_s {
   void* data; uv_loop_t* loop; uv_handle_type type; uv_close_cb close_cb; struct uv__queue handle_queue; union { int fd; void* reserved[4]; } u; uv_handle_t* next_closing; unsigned int flags;
 };
@@ -14233,7 +14233,7 @@ __attribute__((visibility("default"))) int uv_socketpair(int type,
                             uv_os_sock_t socket_vector[2],
                             int flags0,
                             int flags1);
-# 533 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 533 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 struct uv_stream_s {
   void* data; uv_loop_t* loop; uv_handle_type type; uv_close_cb close_cb; struct uv__queue handle_queue; union { int fd; void* reserved[4]; } u; uv_handle_t* next_closing; unsigned int flags;
   size_t write_queue_size; uv_alloc_cb alloc_cb; uv_read_cb read_cb; uv_connect_t *connect_req; uv_shutdown_t *shutdown_req; uv__io_t io_watcher; struct uv__queue write_queue; struct uv__queue write_completed_queue; uv_connection_cb connection_cb; int delayed_error; int accepted_fd; void* queued_fds;
@@ -14347,7 +14347,7 @@ enum uv_udp_flags {
 
 
   UV_UDP_PARTIAL = 2,
-# 654 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 654 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
   UV_UDP_REUSEADDR = 4,
 
 
@@ -14492,7 +14492,7 @@ __attribute__((visibility("default"))) int uv_tty_reset_mode(void);
 __attribute__((visibility("default"))) int uv_tty_get_winsize(uv_tty_t*, int* width, int* height);
 __attribute__((visibility("default"))) void uv_tty_set_vterm_state(uv_tty_vtermstate_t state);
 __attribute__((visibility("default"))) int uv_tty_get_vterm_state(uv_tty_vtermstate_t* state);
-# 809 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 809 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 __attribute__((visibility("default"))) uv_handle_type uv_guess_handle(uv_file file);
 
 enum {
@@ -14659,13 +14659,13 @@ struct uv_getnameinfo_s {
   uv_loop_t* loop;
 
   struct uv__work work_req; uv_getnameinfo_cb getnameinfo_cb; struct sockaddr_storage storage; int flags; char host[
-# 974 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 974 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  1025
-# 974 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 974 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  ]; char service[
-# 974 "/home/nick/dl/neovim/.deps/usr/include/uv.h" 3 4
+# 974 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h" 3 4
  32
-# 974 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 974 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
  ]; int retcode;
 };
 
@@ -14735,7 +14735,7 @@ typedef struct uv_process_options_s {
 
 
   unsigned int flags;
-# 1052 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 1052 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
   int stdio_count;
   uv_stdio_container_t* stdio;
 
@@ -14950,7 +14950,7 @@ __attribute__((visibility("default"))) int uv_os_get_group(uv_group_t* grp, uv_u
 __attribute__((visibility("default"))) void uv_os_free_group(uv_group_t* grp);
 __attribute__((visibility("default"))) uv_pid_t uv_os_getpid(void);
 __attribute__((visibility("default"))) uv_pid_t uv_os_getppid(void);
-# 1284 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 1284 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 __attribute__((visibility("default"))) int uv_os_getpriority(uv_pid_t pid, int* priority);
 __attribute__((visibility("default"))) int uv_os_setpriority(uv_pid_t pid, int priority);
 
@@ -14974,7 +14974,7 @@ __attribute__((visibility("default"))) void uv_os_free_environ(uv_env_item_t* en
 __attribute__((visibility("default"))) int uv_os_getenv(const char* name, char* buffer, size_t* size);
 __attribute__((visibility("default"))) int uv_os_setenv(const char* name, const char* value);
 __attribute__((visibility("default"))) int uv_os_unsetenv(const char* name);
-# 1319 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 1319 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 __attribute__((visibility("default"))) int uv_os_gethostname(char* buffer, size_t* size);
 
 __attribute__((visibility("default"))) int uv_os_uname(uv_utsname_t* buffer);
@@ -15087,7 +15087,7 @@ __attribute__((visibility("default"))) int uv_fs_write(uv_loop_t* loop,
                           unsigned int nbufs,
                           int64_t offset,
                           uv_fs_cb cb);
-# 1449 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 1449 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 __attribute__((visibility("default"))) int uv_fs_copyfile(uv_loop_t* loop,
                              uv_fs_t* req,
                              const char* path,
@@ -15200,7 +15200,7 @@ __attribute__((visibility("default"))) int uv_fs_link(uv_loop_t* loop,
                          const char* path,
                          const char* new_path,
                          uv_fs_cb cb);
-# 1574 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 1574 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 __attribute__((visibility("default"))) int uv_fs_symlink(uv_loop_t* loop,
                             uv_fs_t* req,
                             const char* path,
@@ -15309,7 +15309,7 @@ enum uv_fs_event_flags {
 
 
   UV_FS_EVENT_WATCH_ENTRY = 1,
-# 1690 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 1690 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
   UV_FS_EVENT_STAT = 2,
 
 
@@ -15360,7 +15360,7 @@ __attribute__((visibility("default"))) int uv_random(uv_loop_t* loop,
                         size_t buflen,
                         unsigned flags,
                         uv_random_cb cb);
-# 1749 "/home/nick/dl/neovim/.deps/usr/include/uv.h"
+# 1749 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/uv.h"
 __attribute__((visibility("default"))) int uv_if_indextoname(unsigned int ifindex,
                                 char* buffer,
                                 size_t* size);
@@ -15499,7 +15499,7 @@ struct uv_loop_s {
 
 __attribute__((visibility("default"))) void* uv_loop_get_data(const uv_loop_t*);
 __attribute__((visibility("default"))) void uv_loop_set_data(uv_loop_t*, void* data);
-# 5 "/home/nick/dl/neovim/src/nvim/os/fs_defs.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/os/fs_defs.h" 2
 
 
 typedef struct {
@@ -15518,9 +15518,9 @@ typedef struct {
   uv_fs_t request;
   uv_dirent_t ent;
 } Directory;
-# 91 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/regexp_defs.h" 1
-# 19 "/home/nick/dl/neovim/src/nvim/regexp_defs.h"
+# 91 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h" 1
+# 19 "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h"
 typedef enum {
   OPTION_MAGIC_NOT_SET,
   OPTION_MAGIC_ON,
@@ -15537,7 +15537,7 @@ typedef enum {
   MAGIC_ON = 3,
   MAGIC_ALL = 4,
 } magic_T;
-# 56 "/home/nick/dl/neovim/src/nvim/regexp_defs.h"
+# 56 "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h"
 typedef struct regengine regengine_T;
 typedef struct regprog regprog_T;
 typedef struct reg_extmatch reg_extmatch_T;
@@ -15569,9 +15569,9 @@ struct regprog {
   unsigned re_engine;
   unsigned re_flags;
   
-# 86 "/home/nick/dl/neovim/src/nvim/regexp_defs.h" 3 4
+# 86 "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h" 3 4
  _Bool 
-# 86 "/home/nick/dl/neovim/src/nvim/regexp_defs.h"
+# 86 "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h"
       re_in_use;
 };
 
@@ -15585,9 +15585,9 @@ typedef struct {
   unsigned re_engine;
   unsigned re_flags;
   
-# 98 "/home/nick/dl/neovim/src/nvim/regexp_defs.h" 3 4
+# 98 "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h" 3 4
  _Bool 
-# 98 "/home/nick/dl/neovim/src/nvim/regexp_defs.h"
+# 98 "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h"
       re_in_use;
 
   int regstart;
@@ -15618,9 +15618,9 @@ typedef struct {
   unsigned re_engine;
   unsigned re_flags;
   
-# 127 "/home/nick/dl/neovim/src/nvim/regexp_defs.h" 3 4
+# 127 "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h" 3 4
  _Bool 
-# 127 "/home/nick/dl/neovim/src/nvim/regexp_defs.h"
+# 127 "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h"
       re_in_use;
 
   nfa_state_T *start;
@@ -15648,9 +15648,9 @@ typedef struct {
 
   colnr_T rm_matchcol;
   
-# 153 "/home/nick/dl/neovim/src/nvim/regexp_defs.h" 3 4
+# 153 "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h" 3 4
  _Bool 
-# 153 "/home/nick/dl/neovim/src/nvim/regexp_defs.h"
+# 153 "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h"
       rm_ic;
 } regmatch_T;
 
@@ -15669,18 +15669,18 @@ struct regengine {
   void (*regfree)(regprog_T *);
 
   int (*regexec_nl)(regmatch_T *, uint8_t *, colnr_T, 
-# 170 "/home/nick/dl/neovim/src/nvim/regexp_defs.h" 3 4
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h" 3 4
                                                      _Bool
-# 170 "/home/nick/dl/neovim/src/nvim/regexp_defs.h"
+# 170 "/home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h"
                                                          );
 
   long (*regexec_multi)(regmmatch_T *, win_T *, buf_T *, linenr_T, colnr_T, proftime_T *, int *);
 
 };
-# 92 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 2
+# 92 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/syntax_defs.h" 1
-# 12 "/home/nick/dl/neovim/src/nvim/syntax_defs.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/syntax_defs.h" 1
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/syntax_defs.h"
 typedef struct syn_state synstate_T;
 
 
@@ -15731,14 +15731,14 @@ struct syn_state {
   linenr_T sst_change_lnum;
 
 };
-# 94 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/terminal.h" 1
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/terminal.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/terminal.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/terminal.h" 2
 
 
 typedef struct terminal Terminal;
@@ -15755,7 +15755,7 @@ typedef struct {
   terminal_resize_cb resize_cb;
   terminal_close_cb close_cb;
 } TerminalOptions;
-# 95 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 2
+# 95 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 2
 
 
 typedef struct taggy {
@@ -15906,22 +15906,22 @@ typedef struct {
   LastSet wo_script_ctx[WV_COUNT];
 
 } winopt_T;
-# 254 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 254 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
 struct wininfo_S {
   wininfo_T *wi_next;
   wininfo_T *wi_prev;
   win_T *wi_win;
   fmark_T wi_mark;
   
-# 259 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 259 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 259 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 259 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       wi_optset;
   winopt_T wi_opt;
   
-# 261 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 261 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 261 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 261 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       wi_fold_manual;
   garray_T wi_folds;
   int wi_changelistidx;
@@ -15946,7 +15946,7 @@ typedef struct argentry {
   char *ae_fname;
   int ae_fnum;
 } aentry_T;
-# 296 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 296 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
 typedef struct {
   uint8_t *tb_buf;
   uint8_t *tb_noremap;
@@ -15963,9 +15963,9 @@ typedef struct {
 typedef struct {
   typebuf_T save_typebuf;
   
-# 311 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 311 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 311 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 311 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       typebuf_valid;
   int old_char;
   int old_mod_mask;
@@ -15993,12 +15993,12 @@ struct mapblock {
   sctx_T m_script_ctx;
   char *m_desc;
   
-# 337 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 337 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 337 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 337 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       m_replace_keycodes;
 };
-# 352 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 352 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
 typedef struct qf_info_S qf_info_T;
 
 
@@ -16015,14 +16015,14 @@ typedef struct {
   hashtab_T b_keywtab;
   hashtab_T b_keywtab_ic;
   
-# 367 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 367 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 367 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 367 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       b_syn_error;
   
-# 368 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 368 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 368 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 368 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       b_syn_slow;
   int b_syn_ic;
   int b_syn_foldlevel;
@@ -16045,7 +16045,7 @@ typedef struct {
   int b_syn_topgrp;
   int b_syn_conceal;
   int b_syn_folditems;
-# 403 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 403 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
   synstate_T *b_sst_array;
   int b_sst_len;
   synstate_T *b_sst_first;
@@ -16057,9 +16057,9 @@ typedef struct {
 
   garray_T b_langp;
   
-# 413 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 413 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 413 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 413 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       b_spell_ismw[256];
   char *b_spell_ismw_mb;
   char *b_p_spc;
@@ -16087,21 +16087,21 @@ typedef struct {
   LuaRef on_detach;
   LuaRef on_reload;
   
-# 439 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 439 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 439 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 439 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       utf_sizes;
   
-# 440 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 440 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 440 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 440 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       preview;
 } BufUpdateCallbacks;
 
 
 
 extern int curbuf_splice_pending ;
-# 459 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 459 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
 struct file_buffer {
   handle_T handle;
 
@@ -16132,18 +16132,18 @@ struct file_buffer {
 
 
   
-# 488 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 488 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 488 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 488 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       file_id_valid;
   FileID file_id;
 
   int b_changed;
 
   
-# 493 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 493 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 493 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 493 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       b_changed_invalid;
 
 
@@ -16159,18 +16159,18 @@ struct file_buffer {
 
 
   
-# 507 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 507 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 507 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 507 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       b_saving;
 
 
 
 
   
-# 512 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 512 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 512 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 512 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       b_mod_set;
 
   linenr_T b_mod_top;
@@ -16207,9 +16207,9 @@ struct file_buffer {
   fmark_T b_changelist[100];
   int b_changelistlen;
   
-# 547 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 547 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 547 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 547 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       b_new_change;
 
 
@@ -16229,9 +16229,9 @@ struct file_buffer {
   pos_T b_op_end;
 
   
-# 565 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 565 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 565 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 565 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       b_marks_read;
 
 
@@ -16241,9 +16241,9 @@ struct file_buffer {
   u_header_T *b_u_curhead;
   int b_u_numhead;
   
-# 573 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 573 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 573 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 573 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       b_u_synced;
   long b_u_seq_last;
   long b_u_save_nr_last;
@@ -16257,9 +16257,9 @@ struct file_buffer {
   colnr_T b_u_line_colnr;
 
   
-# 585 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 585 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 585 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 585 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       b_scanned;
 
 
@@ -16279,9 +16279,9 @@ struct file_buffer {
 
 
   
-# 603 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 603 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 603 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 603 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       b_p_initialized;
 
   LastSet b_p_script_ctx[BV_COUNT];
@@ -16449,14 +16449,14 @@ struct file_buffer {
 
 
   
-# 769 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 769 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 769 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 769 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       b_may_swap;
   
-# 770 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 770 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 770 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 770 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       b_did_warn;
 
 
@@ -16465,15 +16465,15 @@ struct file_buffer {
 
 
   
-# 777 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 777 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 777 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 777 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       b_help;
 
   
-# 779 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 779 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 779 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 779 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       b_spell;
 
 
@@ -16492,9 +16492,9 @@ struct file_buffer {
   struct {
     int size;
     
-# 796 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 796 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
    _Bool 
-# 796 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 796 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
         valid;
     linenr_T sentinel;
     int max;
@@ -16520,9 +16520,9 @@ struct file_buffer {
 
 
   
-# 820 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 820 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 820 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 820 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       update_need_codepoints;
 
 
@@ -16539,20 +16539,20 @@ struct file_buffer {
 
   int b_diff_failed;
 };
-# 852 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 852 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
 typedef struct diffblock_S diff_T;
 struct diffblock_S {
   diff_T *df_next;
   linenr_T df_lnum[8];
   linenr_T df_count[8];
   
-# 857 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 857 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 857 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 857 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       is_linematched;
 
 };
-# 869 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 869 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
 typedef struct tabpage_S tabpage_T;
 struct tabpage_S {
   handle_T handle;
@@ -16577,7 +16577,7 @@ struct tabpage_S {
   char *tp_localdir;
   char *tp_prevdir;
 };
-# 904 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 904 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
 typedef struct w_line {
   linenr_T wl_lnum;
   uint16_t wl_size;
@@ -16604,7 +16604,7 @@ struct frame_S {
   win_T *fr_win;
 
 };
-# 939 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 939 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
 typedef struct {
   regmmatch_T rm;
 
@@ -16616,14 +16616,14 @@ typedef struct {
   colnr_T startcol;
   colnr_T endcol;
   
-# 949 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 949 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 949 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 949 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       is_addpos;
   
-# 950 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 950 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 950 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 950 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       has_cursor;
   proftime_T tm;
 } match_T;
@@ -16701,31 +16701,31 @@ typedef struct {
   FloatAnchor anchor;
   FloatRelative relative;
   
-# 1026 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1026 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1026 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1026 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       external;
   
-# 1027 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1027 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1027 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1027 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       focusable;
   int zindex;
   WinStyle style;
   
-# 1030 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1030 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1030 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1030 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       border;
   
-# 1031 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1031 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1031 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1031 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       title;
   
-# 1032 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1032 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1032 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1032 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       shadow;
   schar_T border_chars[8];
   int border_hl_ids[8];
@@ -16734,12 +16734,12 @@ typedef struct {
   VirtText title_chunks;
   int title_width;
   
-# 1039 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1039 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1039 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1039 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       noautocmd;
 } FloatConfig;
-# 1053 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1053 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
 typedef struct {
   int w_topline_save;
   int w_topline_corr;
@@ -16772,9 +16772,9 @@ struct window_S {
   win_T *w_prev;
   win_T *w_next;
   
-# 1084 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1084 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1084 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1084 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       w_closing;
 
 
@@ -16855,15 +16855,15 @@ struct window_S {
   int w_topfill;
   int w_old_topfill;
   
-# 1163 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1163 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1163 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1163 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       w_botfill;
 
   
-# 1165 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1165 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1165 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1165 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       w_old_botfill;
   colnr_T w_leftcol;
 
@@ -16924,9 +16924,9 @@ struct window_S {
   colnr_T w_valid_leftcol;
 
   
-# 1224 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1224 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1224 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1224 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       w_viewport_invalid;
   linenr_T w_viewport_last_topline;
   linenr_T w_viewport_last_botline;
@@ -16937,36 +16937,36 @@ struct window_S {
 
   int w_cline_height;
   
-# 1233 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1233 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1233 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1233 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       w_cline_folded;
 
   int w_cline_row;
 
   colnr_T w_virtcol;
-# 1247 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1247 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
   int w_wrow, w_wcol;
 
   linenr_T w_botline;
 
   int w_empty_rows;
   int w_filler_rows;
-# 1263 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1263 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
   int w_lines_valid;
   wline_T *w_lines;
 
   garray_T w_folds;
   
-# 1267 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1267 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1267 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1267 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       w_fold_manual;
 
   
-# 1269 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1269 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1269 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1269 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       w_foldinvalid;
 
   int w_nrwidth;
@@ -16981,19 +16981,19 @@ struct window_S {
   linenr_T w_redraw_top;
   linenr_T w_redraw_bot;
   
-# 1282 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1282 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1282 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1282 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       w_redr_status;
   
-# 1283 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1283 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1283 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1283 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       w_redr_border;
   
-# 1284 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1284 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1284 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1284 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       w_redr_statuscol;
 
 
@@ -17037,9 +17037,9 @@ struct window_S {
   int w_briopt_min;
   int w_briopt_shift;
   
-# 1326 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1326 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1326 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1326 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       w_briopt_sbr;
   int w_briopt_list;
   int w_briopt_vcol;
@@ -17079,14 +17079,14 @@ struct window_S {
   ScreenGrid w_grid;
   ScreenGrid w_grid_alloc;
   
-# 1364 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1364 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1364 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1364 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       w_pos_changed;
   
-# 1365 "/home/nick/dl/neovim/src/nvim/buffer_defs.h" 3 4
+# 1365 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h" 3 4
  _Bool 
-# 1365 "/home/nick/dl/neovim/src/nvim/buffer_defs.h"
+# 1365 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h"
       w_floating;
   FloatConfig w_float_config;
 
@@ -17121,18 +17121,18 @@ struct window_S {
 
   size_t w_statuscol_click_defs_size;
 };
-# 9 "/home/nick/dl/neovim/src/nvim/autocmd.h" 2
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/ex_cmds_defs.h" 1
-
-
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h" 1
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/normal.h" 1
-# 19 "/home/nick/dl/neovim/src/nvim/normal.h"
+
+
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h" 1
+# 19 "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h"
 typedef enum {
   kMTCharWise = 0,
   kMTLineWise = 1,
@@ -17147,21 +17147,21 @@ typedef struct oparg_S {
   MotionType motion_type;
   int motion_force;
   
-# 32 "/home/nick/dl/neovim/src/nvim/normal.h" 3 4
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h" 3 4
  _Bool 
-# 32 "/home/nick/dl/neovim/src/nvim/normal.h"
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h"
       use_reg_one;
 
   
-# 34 "/home/nick/dl/neovim/src/nvim/normal.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h" 3 4
  _Bool 
-# 34 "/home/nick/dl/neovim/src/nvim/normal.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h"
       inclusive;
 
   
-# 36 "/home/nick/dl/neovim/src/nvim/normal.h" 3 4
+# 36 "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h" 3 4
  _Bool 
-# 36 "/home/nick/dl/neovim/src/nvim/normal.h"
+# 36 "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h"
       end_adjusted;
 
   pos_T start;
@@ -17171,24 +17171,24 @@ typedef struct oparg_S {
   long line_count;
 
   
-# 44 "/home/nick/dl/neovim/src/nvim/normal.h" 3 4
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h" 3 4
  _Bool 
-# 44 "/home/nick/dl/neovim/src/nvim/normal.h"
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h"
       empty;
 
   
-# 46 "/home/nick/dl/neovim/src/nvim/normal.h" 3 4
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h" 3 4
  _Bool 
-# 46 "/home/nick/dl/neovim/src/nvim/normal.h"
+# 46 "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h"
       is_VIsual;
   colnr_T start_vcol;
   colnr_T end_vcol;
   long prev_opcount;
   long prev_count0;
   
-# 51 "/home/nick/dl/neovim/src/nvim/normal.h" 3 4
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h" 3 4
  _Bool 
-# 51 "/home/nick/dl/neovim/src/nvim/normal.h"
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h"
       excl_tr_ws;
 
 } oparg_T;
@@ -17209,10 +17209,10 @@ typedef struct cmdarg_S {
   int retval;
   char *searchbuf;
 } cmdarg_T;
-# 80 "/home/nick/dl/neovim/src/nvim/normal.h"
+# 80 "/home/nick/git/Src-Arc/neovim/src/nvim/normal.h"
 extern char showcmd_buf[(10 + 1 + 30)];
-# 9 "/home/nick/dl/neovim/src/nvim/ex_cmds_defs.h" 2
-# 73 "/home/nick/dl/neovim/src/nvim/ex_cmds_defs.h"
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h" 2
+# 73 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h"
 typedef enum {
   ADDR_LINES,
   ADDR_WINDOWS,
@@ -17237,7 +17237,7 @@ typedef struct exarg exarg_T;
 
 typedef void (*ex_func_T)(exarg_T *eap);
 typedef int (*ex_preview_func_T)(exarg_T *eap, long cmdpreview_ns, handle_T cmdpreview_bufnr);
-# 110 "/home/nick/dl/neovim/src/nvim/ex_cmds_defs.h"
+# 110 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h"
 typedef enum {
   CALLABLE_NONE,
   CALLABLE_EX,
@@ -17256,9 +17256,9 @@ struct aucmd_executable_t {
 
 
 typedef char *(*LineGetter)(int, void *, int, 
-# 127 "/home/nick/dl/neovim/src/nvim/ex_cmds_defs.h" 3 4
+# 127 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h" 3 4
                                              _Bool
-# 127 "/home/nick/dl/neovim/src/nvim/ex_cmds_defs.h"
+# 127 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h"
                                                  );
 
 
@@ -17347,7 +17347,7 @@ struct exarg {
   void *cookie;
   cstack_T *cstack;
 };
-# 225 "/home/nick/dl/neovim/src/nvim/ex_cmds_defs.h"
+# 225 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h"
 struct expand {
   char *xp_pattern;
   int xp_context;
@@ -17401,9 +17401,9 @@ typedef struct {
   char *cmod_filter_pat;
   regmatch_T cmod_filter_regmatch;
   
-# 277 "/home/nick/dl/neovim/src/nvim/ex_cmds_defs.h" 3 4
+# 277 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h" 3 4
  _Bool 
-# 277 "/home/nick/dl/neovim/src/nvim/ex_cmds_defs.h"
+# 277 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h"
       cmod_filter_force;
 
   int cmod_verbose;
@@ -17422,18 +17422,18 @@ typedef struct {
   cmdmod_T cmdmod;
   struct {
     
-# 294 "/home/nick/dl/neovim/src/nvim/ex_cmds_defs.h" 3 4
+# 294 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h" 3 4
    _Bool 
-# 294 "/home/nick/dl/neovim/src/nvim/ex_cmds_defs.h"
+# 294 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h"
         file;
     
-# 295 "/home/nick/dl/neovim/src/nvim/ex_cmds_defs.h" 3 4
+# 295 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h" 3 4
    _Bool 
-# 295 "/home/nick/dl/neovim/src/nvim/ex_cmds_defs.h"
+# 295 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h"
         bar;
   } magic;
 } CmdParseInfo;
-# 11 "/home/nick/dl/neovim/src/nvim/autocmd.h" 2
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h" 2
 
 
 
@@ -17441,7 +17441,7 @@ typedef struct {
 struct AutoCmd_S;
 struct AutoPatCmd_S;
 struct AutoPat_S;
-# 26 "/home/nick/dl/neovim/src/nvim/autocmd.h"
+# 26 "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h"
 typedef struct {
   buf_T *save_curbuf;
   int use_aucmd_win_idx;
@@ -17451,9 +17451,9 @@ typedef struct {
   bufref_T new_curbuf;
   char *globaldir;
   
-# 34 "/home/nick/dl/neovim/src/nvim/autocmd.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h" 3 4
  _Bool 
-# 34 "/home/nick/dl/neovim/src/nvim/autocmd.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h"
       save_VIsual_active;
   int save_State;
 } aco_save_T;
@@ -17462,19 +17462,19 @@ typedef struct AutoCmd_S AutoCmd;
 struct AutoCmd_S {
   AucmdExecutable exec;
   
-# 41 "/home/nick/dl/neovim/src/nvim/autocmd.h" 3 4
+# 41 "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h" 3 4
  _Bool 
-# 41 "/home/nick/dl/neovim/src/nvim/autocmd.h"
+# 41 "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h"
       once;
   
-# 42 "/home/nick/dl/neovim/src/nvim/autocmd.h" 3 4
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h" 3 4
  _Bool 
-# 42 "/home/nick/dl/neovim/src/nvim/autocmd.h"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h"
       nested;
   
-# 43 "/home/nick/dl/neovim/src/nvim/autocmd.h" 3 4
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h" 3 4
  _Bool 
-# 43 "/home/nick/dl/neovim/src/nvim/autocmd.h"
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h"
       last;
   int64_t id;
   sctx_T script_ctx;
@@ -17520,12 +17520,12 @@ struct AutoPatCmd_S {
 
 
 extern 
-# 87 "/home/nick/dl/neovim/src/nvim/autocmd.h" 3 4
+# 87 "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h" 3 4
       _Bool 
-# 87 "/home/nick/dl/neovim/src/nvim/autocmd.h"
+# 87 "/home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h"
            au_did_filetype ;
-# 20 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/buffer.h" 1
+# 20 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 1
 
 
 
@@ -17553,27 +17553,27 @@ extern void __assert (const char *__assertion, const char *__file, int __line)
 
 
 
-# 5 "/home/nick/dl/neovim/src/nvim/buffer.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 2
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 7 "/home/nick/dl/neovim/src/nvim/buffer.h" 2
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 2
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 13 "/home/nick/dl/neovim/src/nvim/buffer.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 13 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 2
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/memline.h" 1
-# 16 "/home/nick/dl/neovim/src/nvim/buffer.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/memline.h" 1
+# 16 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 2
 
 
 
 
 
-# 20 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 20 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
 enum getf_values {
   GETF_SETMARK = 0x01,
   GETF_ALT = 0x02,
@@ -17647,92 +17647,92 @@ static inline void buf_set_changedtick(buf_T *const buf, const varnumber_T chang
 
   dictitem_T *const changedtick_di = tv_dict_find(buf->b_vars, ("changedtick"), (sizeof("changedtick") - 1));
   
-# 92 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 92 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
  ((void) sizeof ((
-# 92 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 92 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
  changedtick_di != 
-# 92 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 92 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
  ((void *)0)) ? 1 : 0), __extension__ ({ if (
-# 92 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 92 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
  changedtick_di != 
-# 92 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 92 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
  ((void *)0)) ; else __assert_fail (
-# 92 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 92 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
  "changedtick_di != NULL"
-# 92 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
- , "/home/nick/dl/neovim/src/nvim/buffer.h", 92, __extension__ __PRETTY_FUNCTION__); }))
-# 92 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 92 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h", 92, __extension__ __PRETTY_FUNCTION__); }))
+# 92 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
                                ;
   
-# 93 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 93 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
  ((void) sizeof ((
-# 93 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 93 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
  changedtick_di->di_tv.v_type == VAR_NUMBER
-# 93 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 93 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 93 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 93 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
  changedtick_di->di_tv.v_type == VAR_NUMBER
-# 93 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 93 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
  ) ; else __assert_fail (
-# 93 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 93 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
  "changedtick_di->di_tv.v_type == VAR_NUMBER"
-# 93 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
- , "/home/nick/dl/neovim/src/nvim/buffer.h", 93, __extension__ __PRETTY_FUNCTION__); }))
-# 93 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 93 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h", 93, __extension__ __PRETTY_FUNCTION__); }))
+# 93 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
                                                    ;
   
-# 94 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
  ((void) sizeof ((
-# 94 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
  changedtick_di->di_tv.v_lock == VAR_FIXED
-# 94 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 94 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
  changedtick_di->di_tv.v_lock == VAR_FIXED
-# 94 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
  ) ; else __assert_fail (
-# 94 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
  "changedtick_di->di_tv.v_lock == VAR_FIXED"
-# 94 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
- , "/home/nick/dl/neovim/src/nvim/buffer.h", 94, __extension__ __PRETTY_FUNCTION__); }))
-# 94 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h", 94, __extension__ __PRETTY_FUNCTION__); }))
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
                                                   ;
 
 
   
-# 97 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 97 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
  ((void) sizeof ((
-# 97 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 97 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
  changedtick_di->di_flags == (DI_FLAGS_RO|DI_FLAGS_FIX)
-# 97 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 97 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 97 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 97 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
  changedtick_di->di_flags == (DI_FLAGS_RO|DI_FLAGS_FIX)
-# 97 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 97 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
  ) ; else __assert_fail (
-# 97 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 97 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
  "changedtick_di->di_flags == (DI_FLAGS_RO|DI_FLAGS_FIX)"
-# 97 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
- , "/home/nick/dl/neovim/src/nvim/buffer.h", 97, __extension__ __PRETTY_FUNCTION__); }))
-# 97 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 97 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h", 97, __extension__ __PRETTY_FUNCTION__); }))
+# 97 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
                                                                ;
 
   
-# 99 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 99 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
  ((void) sizeof ((
-# 99 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 99 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
  changedtick_di == (dictitem_T *)&buf->changedtick_di
-# 99 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 99 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 99 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 99 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
  changedtick_di == (dictitem_T *)&buf->changedtick_di
-# 99 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 99 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
  ) ; else __assert_fail (
-# 99 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 99 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
  "changedtick_di == (dictitem_T *)&buf->changedtick_di"
-# 99 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
- , "/home/nick/dl/neovim/src/nvim/buffer.h", 99, __extension__ __PRETTY_FUNCTION__); }))
-# 99 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 99 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h", 99, __extension__ __PRETTY_FUNCTION__); }))
+# 99 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
                                                              ;
 
   buf->changedtick_di.di_tv.vval.v_number = changedtick;
@@ -17773,25 +17773,25 @@ static inline void buf_inc_changedtick(buf_T *const buf)
 }
 
 static inline 
-# 138 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 138 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
              _Bool 
-# 138 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 138 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
                   buf_is_empty(buf_T *buf)
 {
   return buf->b_ml.ml_line_count == 1
          && *ml_get_buf(buf, (linenr_T)1, 
-# 141 "/home/nick/dl/neovim/src/nvim/buffer.h" 3 4
+# 141 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h" 3 4
                                          0
-# 141 "/home/nick/dl/neovim/src/nvim/buffer.h"
+# 141 "/home/nick/git/Src-Arc/neovim/src/nvim/buffer.h"
                                               ) == '\0';
 }
-# 21 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/change.h" 1
-# 22 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/charset.h" 1
-# 10 "/home/nick/dl/neovim/src/nvim/charset.h"
-# 1 "/home/nick/dl/neovim/src/nvim/strings.h" 1
-# 21 "/home/nick/dl/neovim/src/nvim/strings.h"
+# 21 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/change.h" 1
+# 22 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/charset.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/charset.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/strings.h" 1
+# 21 "/home/nick/git/Src-Arc/neovim/src/nvim/strings.h"
 static inline char *strappend(char *const dst, const char *const src)
   FUNC_ATTR_ALWAYS_INLINE FUNC_ATTR_NONNULL_ALL FUNC_ATTR_WARN_UNUSED_RESULT
   FUNC_ATTR_NONNULL_RET
@@ -17801,8 +17801,8 @@ static inline char *strappend(char *const dst, const char *const src)
 }
 
 typedef struct { size_t size; size_t capacity; char *items; } StringBuilder;
-# 11 "/home/nick/dl/neovim/src/nvim/charset.h" 2
-# 24 "/home/nick/dl/neovim/src/nvim/charset.h"
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/charset.h" 2
+# 24 "/home/nick/git/Src-Arc/neovim/src/nvim/charset.h"
 typedef enum {
   STR2NR_DEC = 0,
   STR2NR_BIN = (1 << 0),
@@ -17829,9 +17829,9 @@ typedef enum {
 
 
 static inline 
-# 49 "/home/nick/dl/neovim/src/nvim/charset.h" 3 4
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/charset.h" 3 4
              _Bool 
-# 49 "/home/nick/dl/neovim/src/nvim/charset.h"
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/charset.h"
                   vim_isbreak(int c)
   __attribute__((const))
   __attribute__((always_inline));
@@ -17839,22 +17839,22 @@ static inline
 
 
 static inline 
-# 55 "/home/nick/dl/neovim/src/nvim/charset.h" 3 4
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/charset.h" 3 4
              _Bool 
-# 55 "/home/nick/dl/neovim/src/nvim/charset.h"
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/charset.h"
                   vim_isbreak(int c)
 {
   return breakat_flags[(uint8_t)c];
 }
-# 23 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/cursor.h" 1
+# 23 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/cursor.h" 1
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/vim.h" 1
-# 26 "/home/nick/dl/neovim/src/nvim/vim.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/vim.h" 1
+# 26 "/home/nick/git/Src-Arc/neovim/src/nvim/vim.h"
 enum { NUMBUFLEN = 65, };
 
 
@@ -17862,13 +17862,13 @@ enum { NUMBUFLEN = 65, };
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/keycodes.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/keycodes.h" 1
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 5 "/home/nick/dl/neovim/src/nvim/keycodes.h" 2
-# 101 "/home/nick/dl/neovim/src/nvim/keycodes.h"
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/keycodes.h" 2
+# 101 "/home/nick/git/Src-Arc/neovim/src/nvim/keycodes.h"
 enum key_extra {
   KE_S_UP = 4,
   KE_S_DOWN = 5,
@@ -17995,7 +17995,7 @@ enum key_extra {
   KE_LUA = 103,
   KE_COMMAND = 104,
 };
-# 485 "/home/nick/dl/neovim/src/nvim/keycodes.h"
+# 485 "/home/nick/git/Src-Arc/neovim/src/nvim/keycodes.h"
 enum {
   REPTERM_FROM_PART = 1,
   REPTERM_DO_LT = 2,
@@ -18010,8 +18010,8 @@ enum {
   FSK_IN_STRING = 0x04,
   FSK_SIMPLIFY = 0x08,
 };
-# 34 "/home/nick/dl/neovim/src/nvim/vim.h" 2
-# 75 "/home/nick/dl/neovim/src/nvim/vim.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/vim.h" 2
+# 75 "/home/nick/git/Src-Arc/neovim/src/nvim/vim.h"
 typedef enum {
   kDirectionNotSet = 0,
   FORWARD = 1,
@@ -18019,7 +18019,7 @@ typedef enum {
   FORWARD_FILE = 3,
   BACKWARD_FILE = (-3),
 } Direction;
-# 104 "/home/nick/dl/neovim/src/nvim/vim.h"
+# 104 "/home/nick/git/Src-Arc/neovim/src/nvim/vim.h"
 enum {
   EXPAND_UNSUCCESSFUL = -2,
   EXPAND_OK = -1,
@@ -18079,16 +18079,16 @@ enum {
   EXPAND_CHECKHEALTH,
   EXPAND_LUA,
 };
-# 185 "/home/nick/dl/neovim/src/nvim/vim.h"
+# 185 "/home/nick/git/Src-Arc/neovim/src/nvim/vim.h"
 enum { FOLD_TEXT_LEN = 51, };
-# 239 "/home/nick/dl/neovim/src/nvim/vim.h"
-# 1 "/home/nick/dl/neovim/src/nvim/path.h" 1
+# 239 "/home/nick/git/Src-Arc/neovim/src/nvim/vim.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/path.h" 1
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 5 "/home/nick/dl/neovim/src/nvim/path.h" 2
-# 32 "/home/nick/dl/neovim/src/nvim/path.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/path.h" 2
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/path.h"
 typedef enum file_comparison {
   kEqualFiles = 1,
   kDifferentFiles = 2,
@@ -18096,9 +18096,9 @@ typedef enum file_comparison {
   kOneFileMissing = 6,
   kEqualFileNames = 7,
 } FileComparison;
-# 240 "/home/nick/dl/neovim/src/nvim/vim.h" 2
-# 258 "/home/nick/dl/neovim/src/nvim/vim.h"
-# 1 "/home/nick/dl/neovim/src/nvim/globals.h" 1
+# 240 "/home/nick/git/Src-Arc/neovim/src/nvim/vim.h" 2
+# 258 "/home/nick/git/Src-Arc/neovim/src/nvim/vim.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 1
 
 
 
@@ -18106,15 +18106,15 @@ typedef enum file_comparison {
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/event/loop.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 1
 
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/klib/klist.h" 1
-# 29 "/home/nick/dl/neovim/src/klib/klist.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/klib/klist.h" 1
+# 29 "/home/nick/git/Src-Arc/neovim/src/klib/klist.h"
 # 1 "/usr/include/assert.h" 1 3 4
 # 64 "/usr/include/assert.h" 3 4
 
@@ -18139,19 +18139,19 @@ extern void __assert (const char *__assertion, const char *__file, int __line)
 
 
 
-# 30 "/home/nick/dl/neovim/src/klib/klist.h" 2
+# 30 "/home/nick/git/Src-Arc/neovim/src/klib/klist.h" 2
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 33 "/home/nick/dl/neovim/src/klib/klist.h" 2
-# 8 "/home/nick/dl/neovim/src/nvim/event/loop.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/event/multiqueue.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 33 "/home/nick/git/Src-Arc/neovim/src/klib/klist.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/event/multiqueue.h" 1
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/event/defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 1
 
 
 
@@ -18177,141 +18177,141 @@ extern void __assert (const char *__assertion, const char *__file, int __line)
 
 
 
-# 5 "/home/nick/dl/neovim/src/nvim/event/defs.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 2
 
 
 
 
 
-# 9 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
 typedef void (*argv_callback)(void **argv);
 typedef struct message {
   argv_callback handler;
   void *argv[10];
 } Event;
 typedef void (*event_scheduler)(Event event, void *data);
-# 30 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 30 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
 static inline Event event_create(argv_callback cb, int argc, ...)
 {
   
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ((void) sizeof ((
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  argc <= 10
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  argc <= 10
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ) ; else __assert_fail (
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  "argc <= EVENT_HANDLER_MAX_ARGC"
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
- , "/home/nick/dl/neovim/src/nvim/event/defs.h", 32, __extension__ __PRETTY_FUNCTION__); }))
-# 32 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h", 32, __extension__ __PRETTY_FUNCTION__); }))
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
                                        ;
   Event event;
   do { 
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ((void) sizeof ((
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  argc <= 10
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  argc <= 10
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ) ; else __assert_fail (
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  "argc <= EVENT_HANDLER_MAX_ARGC"
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
- , "/home/nick/dl/neovim/src/nvim/event/defs.h", 34, __extension__ __PRETTY_FUNCTION__); }))
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h", 34, __extension__ __PRETTY_FUNCTION__); }))
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  ; (&event)->handler = cb; if (argc) { va_list args; 
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  __builtin_va_start(
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  args
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ,
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  argc
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  )
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  ; for (int i = 0; i < argc; i++) { (&event)->argv[i] = 
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  __builtin_va_arg(
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  args
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  ,
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  void *
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  )
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  ; } 
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  __builtin_va_end(
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  args
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h" 3 4
  )
-# 34 "/home/nick/dl/neovim/src/nvim/event/defs.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h"
  ; } } while (0);
   return event;
 }
-# 7 "/home/nick/dl/neovim/src/nvim/event/multiqueue.h" 2
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/event/multiqueue.h" 2
 
 
 typedef struct multiqueue MultiQueue;
 typedef void (*PutCallback)(MultiQueue *multiq, void *data);
-# 9 "/home/nick/dl/neovim/src/nvim/event/loop.h" 2
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 2
 
 
 typedef void *WatcherPtr;
 
 
 struct __kl1_WatcherPtr { WatcherPtr data; struct __kl1_WatcherPtr *next; }; typedef struct __kl1_WatcherPtr kl1_WatcherPtr; typedef struct { size_t cnt, n, max; kl1_WatcherPtr **buf; } kmp_WatcherPtr_t; static inline kmp_WatcherPtr_t *kmp_init_WatcherPtr(void) { return (kmp_WatcherPtr_t *)xcalloc(1, sizeof(kmp_WatcherPtr_t)); } static inline void kmp_destroy_WatcherPtr(kmp_WatcherPtr_t *mp) __attribute__((unused)); static inline void kmp_destroy_WatcherPtr(kmp_WatcherPtr_t *mp) { size_t k; for (k = 0; k < mp->n; k++) { ; do { void **ptr_ = (void **)&(mp->buf[k]); xfree(*ptr_); *ptr_ = 
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
 ((void *)0)
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 ; (void)(*ptr_); } while (0); } do { void **ptr_ = (void **)&(mp->buf); xfree(*ptr_); *ptr_ = 
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
 ((void *)0)
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 ; (void)(*ptr_); } while (0); do { void **ptr_ = (void **)&(mp); xfree(*ptr_); *ptr_ = 
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
 ((void *)0)
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 ; (void)(*ptr_); } while (0); } static inline kl1_WatcherPtr *kmp_alloc_WatcherPtr(kmp_WatcherPtr_t *mp) { mp->cnt++; if (mp->n == 0) { return (kl1_WatcherPtr *)xcalloc(1, sizeof(kl1_WatcherPtr)); } return mp->buf[--mp->n]; } static inline void kmp_free_WatcherPtr(kmp_WatcherPtr_t *mp, kl1_WatcherPtr *p) { mp->cnt--; if (mp->n == mp->max) { mp->max = mp->max ? (mp->max << 1) : 16; mp->buf = (kl1_WatcherPtr **)xrealloc(mp->buf, sizeof(kl1_WatcherPtr *) * mp->max); } mp->buf[mp->n++] = p; } typedef struct { kl1_WatcherPtr *head, *tail; kmp_WatcherPtr_t *mp; size_t size; } kl_WatcherPtr_t; static inline kl_WatcherPtr_t *kl_init_WatcherPtr(void) { kl_WatcherPtr_t *kl = (kl_WatcherPtr_t *)xcalloc(1, sizeof(kl_WatcherPtr_t)); kl->mp = kmp_init_WatcherPtr(); kl->head = kl->tail = kmp_alloc_WatcherPtr(kl->mp); kl->head->next = 0; return kl; } static inline void kl_destroy_WatcherPtr(kl_WatcherPtr_t *kl) __attribute__((unused)); static inline void kl_destroy_WatcherPtr(kl_WatcherPtr_t *kl) { kl1_WatcherPtr *p; for (p = kl->head; p != kl->tail; p = p->next) { kmp_free_WatcherPtr(kl->mp, p); } kmp_free_WatcherPtr(kl->mp, p); kmp_destroy_WatcherPtr(kl->mp); do { void **ptr_ = (void **)&(kl); xfree(*ptr_); *ptr_ = 
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
 ((void *)0)
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 ; (void)(*ptr_); } while (0); } static inline void kl_push_WatcherPtr(kl_WatcherPtr_t *kl, WatcherPtr d) { kl1_WatcherPtr *q, *p = kmp_alloc_WatcherPtr(kl->mp); q = kl->tail; p->next = 0; kl->tail->next = p; kl->tail = p; kl->size++; q->data = d; } static inline WatcherPtr kl_shift_at_WatcherPtr(kl_WatcherPtr_t *kl, kl1_WatcherPtr **n) { 
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
 ((void) sizeof ((
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 (*n)->next
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
 ) ? 1 : 0), __extension__ ({ if (
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 (*n)->next
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
 ) ; else __assert_fail (
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 "(*n)->next"
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h" 3 4
-, "/home/nick/dl/neovim/src/nvim/event/loop.h", 14, __extension__ __PRETTY_FUNCTION__); }))
-# 14 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h" 3 4
+, "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h", 14, __extension__ __PRETTY_FUNCTION__); }))
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
 ; kl1_WatcherPtr *p; kl->size--; p = *n; *n = (*n)->next; if (p == kl->head) { kl->head = *n; } WatcherPtr d = p->data; kmp_free_WatcherPtr(kl->mp, p); return d; }
 
 typedef struct loop {
   uv_loop_t uv;
   MultiQueue *events;
   MultiQueue *thread_events;
-# 29 "/home/nick/dl/neovim/src/nvim/event/loop.h"
+# 29 "/home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h"
   MultiQueue *fast_events;
 
 
@@ -18328,9 +18328,9 @@ typedef struct loop {
   uv_mutex_t mutex;
   int recursive;
 } Loop;
-# 9 "/home/nick/dl/neovim/src/nvim/globals.h" 2
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/ex_eval_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_eval_defs.h" 1
 
 
 
@@ -18408,14 +18408,14 @@ struct cleanup_stuff {
   int pending;
   except_T *exception;
 };
-# 11 "/home/nick/dl/neovim/src/nvim/globals.h" 2
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 2
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/mbyte.h" 1
-# 9 "/home/nick/dl/neovim/src/nvim/mbyte.h"
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 10 "/home/nick/dl/neovim/src/nvim/mbyte.h" 2
-# 21 "/home/nick/dl/neovim/src/nvim/mbyte.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte.h" 1
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte.h" 2
+# 21 "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte.h"
 extern const uint8_t utf8len_tab_zero[256];
 
 extern const uint8_t utf8len_tab[256];
@@ -18425,9 +18425,9 @@ extern const uint8_t utf8len_tab[256];
 
 
 static inline int mb_strcmp_ic(
-# 29 "/home/nick/dl/neovim/src/nvim/mbyte.h" 3 4
+# 29 "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte.h" 3 4
                               _Bool 
-# 29 "/home/nick/dl/neovim/src/nvim/mbyte.h"
+# 29 "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte.h"
                                    ic, const char *s1, const char *s2)
   __attribute__((nonnull)) __attribute__((pure)) __attribute__((warn_unused_result));
 
@@ -18437,16 +18437,16 @@ static inline int mb_strcmp_ic(
 
 
 static inline int mb_strcmp_ic(
-# 37 "/home/nick/dl/neovim/src/nvim/mbyte.h" 3 4
+# 37 "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte.h" 3 4
                               _Bool 
-# 37 "/home/nick/dl/neovim/src/nvim/mbyte.h"
+# 37 "/home/nick/git/Src-Arc/neovim/src/nvim/mbyte.h"
                                    ic, const char *s1, const char *s2)
 {
   return (ic ? mb_stricmp(s1, s2) : strcmp(s1, s2));
 }
-# 14 "/home/nick/dl/neovim/src/nvim/globals.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/menu_defs.h" 1
-# 9 "/home/nick/dl/neovim/src/nvim/menu_defs.h"
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/menu_defs.h" 1
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/menu_defs.h"
 enum {
   MENU_INDEX_INVALID = -1,
   MENU_INDEX_NORMAL = 0,
@@ -18497,18 +18497,18 @@ struct VimMenu {
   char *strings[MENU_MODES];
   int noremap[MENU_MODES];
   
-# 58 "/home/nick/dl/neovim/src/nvim/menu_defs.h" 3 4
+# 58 "/home/nick/git/Src-Arc/neovim/src/nvim/menu_defs.h" 3 4
  _Bool 
-# 58 "/home/nick/dl/neovim/src/nvim/menu_defs.h"
+# 58 "/home/nick/git/Src-Arc/neovim/src/nvim/menu_defs.h"
       silent[MENU_MODES];
   vimmenu_T *children;
   vimmenu_T *parent;
   vimmenu_T *next;
 };
-# 15 "/home/nick/dl/neovim/src/nvim/globals.h" 2
+# 15 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/runtime.h" 1
-# 16 "/home/nick/dl/neovim/src/nvim/runtime.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/runtime.h" 1
+# 16 "/home/nick/git/Src-Arc/neovim/src/nvim/runtime.h"
 typedef enum {
   ETYPE_TOP,
   ETYPE_SCRIPT,
@@ -18563,14 +18563,14 @@ typedef struct {
 
   char *sn_name;
   
-# 69 "/home/nick/dl/neovim/src/nvim/runtime.h" 3 4
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/runtime.h" 3 4
  _Bool 
-# 69 "/home/nick/dl/neovim/src/nvim/runtime.h"
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/runtime.h"
       sn_prof_on;
   
-# 70 "/home/nick/dl/neovim/src/nvim/runtime.h" 3 4
+# 70 "/home/nick/git/Src-Arc/neovim/src/nvim/runtime.h" 3 4
  _Bool 
-# 70 "/home/nick/dl/neovim/src/nvim/runtime.h"
+# 70 "/home/nick/git/Src-Arc/neovim/src/nvim/runtime.h"
       sn_pr_force;
   proftime_T sn_pr_child;
   int sn_pr_nest;
@@ -18599,72 +18599,72 @@ typedef void (*DoInRuntimepathCB)(char *, void *);
 typedef struct {
   char *path;
   
-# 97 "/home/nick/dl/neovim/src/nvim/runtime.h" 3 4
+# 97 "/home/nick/git/Src-Arc/neovim/src/nvim/runtime.h" 3 4
  _Bool 
-# 97 "/home/nick/dl/neovim/src/nvim/runtime.h"
+# 97 "/home/nick/git/Src-Arc/neovim/src/nvim/runtime.h"
       after;
   TriState has_lua;
 } SearchPathItem;
 
 typedef struct { size_t size; size_t capacity; SearchPathItem *items; } RuntimeSearchPath;
 typedef struct { size_t size; size_t capacity; char * *items; } CharVec;
-# 17 "/home/nick/dl/neovim/src/nvim/globals.h" 2
-# 82 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 17 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 2
+# 82 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
 extern struct nvim_stats_s {
   int64_t fsync;
   int64_t redraw;
   int16_t log_skip;
 } g_stats ;
-# 100 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 100 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
 extern int Rows ;
 extern int Columns ;
-# 119 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 119 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
 typedef off_t off_T;
-# 133 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 133 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
 extern int mod_mask ;
 
 
 extern int vgetc_mod_mask ;
 extern int vgetc_char ;
-# 146 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 146 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
 extern int cmdline_row;
 
 extern 
-# 148 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 148 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 148 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 148 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            redraw_cmdline ;
 extern 
-# 149 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 149 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 149 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 149 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            redraw_mode ;
 extern 
-# 150 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 150 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 150 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 150 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            clear_cmdline ;
 extern 
-# 151 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 151 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 151 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 151 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            mode_displayed ;
 extern int cmdline_star ;
 extern 
-# 153 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 153 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 153 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 153 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            redrawing_cmdline ;
 extern 
-# 154 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 154 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 154 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 154 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            cmdline_was_last_drawn ;
 
 extern 
-# 156 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 156 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 156 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 156 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            exec_from_reg ;
 
 
@@ -18682,9 +18682,9 @@ extern hlf_T edit_submode_highl;
 
 
 extern 
-# 172 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 172 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 172 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            cmdmsg_rl ;
 extern int msg_col;
 extern int msg_row;
@@ -18693,65 +18693,65 @@ extern int msg_scrolled;
 
 
 extern 
-# 179 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 179 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 179 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            msg_scrolled_ign ;
 
 
 extern 
-# 182 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 182 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 182 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 182 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            msg_did_scroll ;
 
 extern char *keep_msg ;
 extern int keep_msg_attr ;
 extern 
-# 186 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 186 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 186 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 186 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            need_fileinfo ;
 extern int msg_scroll ;
 extern 
-# 188 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 188 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 188 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 188 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            msg_didout ;
 extern 
-# 189 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 189 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 189 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 189 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            msg_didany ;
 extern 
-# 190 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 190 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 190 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 190 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            msg_nowait ;
 extern int emsg_off ;
 
 extern 
-# 193 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 193 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 193 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 193 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            info_message ;
 extern 
-# 194 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 194 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 194 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 194 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            msg_hist_off ;
 extern 
-# 195 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 195 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 195 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 195 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            need_clr_eos ;
 
 extern int emsg_skip ;
 
 extern 
-# 199 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 199 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 199 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 199 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            emsg_severe ;
 
 
@@ -18760,9 +18760,9 @@ extern long emsg_assert_fails_lnum ;
 extern char *emsg_assert_fails_context ;
 
 extern 
-# 206 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 206 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 206 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 206 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            did_endif ;
 extern dict_T vimvardict;
 extern dict_T globvardict;
@@ -18771,81 +18771,81 @@ extern dict_T globvardict;
 extern int did_emsg;
 
 extern 
-# 213 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 213 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 213 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 213 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            called_vim_beep;
 extern 
-# 214 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 214 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 214 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 214 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            did_emsg_syntax;
 
 extern int called_emsg;
 extern int ex_exitval ;
 extern 
-# 218 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 218 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 218 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 218 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            emsg_on_display ;
 extern 
-# 219 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 219 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 219 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 219 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            rc_did_emsg ;
 
 extern int no_wait_return ;
 extern 
-# 222 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 222 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 222 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 222 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            need_wait_return ;
 extern 
-# 223 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 223 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 223 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 223 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            did_wait_return ;
 
 extern 
-# 225 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 225 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 225 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 225 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            need_maketitle ;
 
 extern 
-# 227 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 227 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 227 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 227 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            quit_more ;
 extern int vgetc_busy ;
 
 extern 
-# 230 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 230 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 230 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 230 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            didset_vim ;
 extern 
-# 231 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 231 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 231 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 231 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            didset_vimruntime ;
 
 
 
 extern int lines_left ;
 extern 
-# 236 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 236 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 236 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 236 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            msg_no_more ;
 
 
 extern int ex_nesting_level ;
 extern int debug_break_level ;
 extern 
-# 241 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 241 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 241 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 241 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            debug_did_msg ;
 extern int debug_tick ;
 extern int debug_backtrace_level ;
@@ -18864,25 +18864,25 @@ extern except_T *current_exception;
 
 
 extern 
-# 258 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 258 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 258 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 258 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            did_throw ;
 
 
 
 extern 
-# 262 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 262 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 262 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 262 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            need_rethrow ;
 
 
 
 extern 
-# 266 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 266 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 266 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 266 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            check_cstack ;
 
 
@@ -18896,11 +18896,11 @@ extern int trylevel ;
 
 
 extern 
-# 278 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 278 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 278 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 278 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            force_abort ;
-# 288 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 288 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
 extern msglist_T **msg_list ;
 
 
@@ -18908,9 +18908,9 @@ extern msglist_T **msg_list ;
 
 
 extern 
-# 294 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 294 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 294 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 294 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            suppress_errthrow ;
 
 
@@ -18918,31 +18918,31 @@ extern
 
 
 extern except_T *caught_stack ;
-# 310 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 310 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
 extern 
-# 310 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 310 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 310 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 310 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            may_garbage_collect ;
 extern 
-# 311 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 311 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 311 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 311 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            want_garbage_collect ;
 extern 
-# 312 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 312 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 312 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 312 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            garbage_collect_at_exit ;
-# 327 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 327 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
 extern sctx_T current_sctx ;
 
 extern uint64_t current_channel_id ;
 
 extern 
-# 331 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 331 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 331 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 331 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            did_source_packages ;
 
 
@@ -18952,9 +18952,9 @@ extern struct caller_scope {
   estack_T es_entry;
   char *autocmd_fname, *autocmd_match;
   
-# 339 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 339 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
  _Bool 
-# 339 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 339 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
       autocmd_fname_full;
   int autocmd_bufnr;
   void *funccalp;
@@ -18973,9 +18973,9 @@ extern int include_link ;
 
 
 extern 
-# 356 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 356 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 356 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 356 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            highlight_match ;
 extern linenr_T search_match_lines;
 extern colnr_T search_match_endcol;
@@ -18983,43 +18983,43 @@ extern linenr_T search_first_line ;
 extern linenr_T search_last_line ;
 
 extern 
-# 362 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 362 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 362 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 362 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            no_smartcase ;
 
 extern 
-# 364 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 364 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 364 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 364 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            need_check_timestamps ;
 
 extern 
-# 366 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 366 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 366 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 366 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            did_check_timestamps ;
 
 extern int no_check_timestamps ;
 
 extern 
-# 370 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 370 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 370 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 370 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            autocmd_busy ;
 extern int autocmd_no_enter ;
 extern int autocmd_no_leave ;
 extern int modified_was_set;
 extern 
-# 374 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 374 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 374 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 374 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            did_filetype ;
 
 extern 
-# 376 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 376 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 376 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 376 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            keep_filetype ;
 
 
@@ -19038,14 +19038,14 @@ extern int mouse_grid;
 extern int mouse_row;
 extern int mouse_col;
 extern 
-# 393 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 393 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 393 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 393 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            mouse_past_bottom ;
 extern 
-# 394 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 394 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 394 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 394 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            mouse_past_eol ;
 extern int mouse_dragging ;
 
@@ -19055,9 +19055,9 @@ extern vimmenu_T *root_menu ;
 
 
 extern 
-# 402 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 402 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 402 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 402 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            sys_menu ;
 
 
@@ -19066,16 +19066,16 @@ extern
 extern win_T *firstwin;
 extern win_T *lastwin;
 extern win_T *prevwin ;
-# 425 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 425 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
 extern win_T *curwin;
 
 typedef struct {
   win_T *auc_win;
 
   
-# 430 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 430 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
  _Bool 
-# 430 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 430 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
       auc_win_used;
 } aucmdwin_T;
 
@@ -19097,9 +19097,9 @@ extern tabpage_T *first_tabpage;
 extern tabpage_T *curtab;
 extern tabpage_T *lastused_tabpage;
 extern 
-# 450 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 450 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 450 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 450 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            redraw_tabline ;
 
 
@@ -19110,13 +19110,13 @@ extern
 extern buf_T *firstbuf ;
 extern buf_T *lastbuf ;
 extern buf_T *curbuf ;
-# 476 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 476 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
 extern alist_T global_alist;
 extern int max_alist_id ;
 extern 
-# 478 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 478 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 478 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 478 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            arg_had_last ;
 
 
@@ -19131,29 +19131,29 @@ extern int sc_col;
 extern int starting ;
 
 extern 
-# 491 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 491 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 491 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 491 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            exiting ;
 
 extern int v_dying ;
 
 extern 
-# 495 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 495 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 495 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 495 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            stdin_isatty ;
 
 extern 
-# 497 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 497 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 497 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 497 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            stdout_isatty ;
 
 extern 
-# 499 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 499 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 499 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 499 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            stderr_isatty ;
 
 
@@ -19161,9 +19161,9 @@ extern int stdin_fd ;
 
 
 extern 
-# 505 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 505 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 505 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 505 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            full_screen ;
 
 
@@ -19183,24 +19183,24 @@ extern int sandbox ;
 
 
 extern 
-# 523 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 523 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 523 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 523 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            silent_mode ;
 
 
 extern pos_T VIsual;
 
 extern 
-# 528 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 528 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 528 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 528 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            VIsual_active ;
 
 extern 
-# 530 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 530 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 530 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 530 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            VIsual_select ;
 
 extern int VIsual_select_reg ;
@@ -19212,9 +19212,9 @@ extern int VIsual_reselect;
 extern int VIsual_mode ;
 
 extern 
-# 540 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 540 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 540 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 540 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            redo_VIsual_busy ;
 
 
@@ -19231,9 +19231,9 @@ extern pos_T where_paste_started;
 
 
 extern 
-# 555 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 555 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 555 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 555 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            did_ai ;
 
 
@@ -19251,33 +19251,33 @@ extern int end_comment_pending ;
 
 
 extern 
-# 571 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 571 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 571 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 571 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            did_syncbind ;
 
 
 
 extern 
-# 575 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 575 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 575 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 575 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            did_si ;
 
 
 
 extern 
-# 579 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 579 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 579 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 579 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            can_si ;
 
 
 
 extern 
-# 583 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 583 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 583 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 583 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            can_si_back ;
 
 extern int old_indent ;
@@ -19300,58 +19300,58 @@ extern int vr_lines_changed ;
 
 
 extern int inhibit_delete_count ;
-# 621 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 621 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
 extern char *fenc_default ;
-# 630 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 630 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
 extern int State ;
 
 extern 
-# 632 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 632 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 632 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 632 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            debug_mode ;
 extern 
-# 633 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 633 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 633 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 633 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            finish_op ;
 extern long opcount ;
 extern int motion_force ;
 
 
 extern 
-# 638 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 638 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 638 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 638 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            exmode_active ;
 
 
 extern 
-# 641 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 641 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 641 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 641 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            pending_exmode_active ;
 
 extern 
-# 643 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 643 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 643 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 643 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            ex_no_reprint ;
 
 
 extern 
-# 646 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 646 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 646 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 646 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            cmdpreview ;
 
 extern int reg_recording ;
 extern int reg_executing ;
 
 extern 
-# 651 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 651 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 651 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 651 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            pending_end_reg_executing ;
 extern int reg_recorded ;
 
@@ -19363,9 +19363,9 @@ extern int u_sync_once ;
 
 
 extern 
-# 661 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 661 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 661 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 661 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            force_restart_edit ;
 
 extern int restart_edit ;
@@ -19374,23 +19374,23 @@ extern int arrow_used;
 
 
 extern 
-# 668 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 668 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 668 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 668 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            ins_at_eol ;
 
 
 extern 
-# 671 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 671 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 671 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 671 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            no_abbr ;
 
 extern int mapped_ctrl_c ;
 extern 
-# 674 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 674 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 674 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 674 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            ctrl_c_interrupts ;
 
 extern cmdmod_T cmdmod;
@@ -19398,20 +19398,20 @@ extern cmdmod_T cmdmod;
 extern int msg_silent ;
 extern int emsg_silent ;
 extern 
-# 680 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 680 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 680 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 680 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            emsg_noredir ;
 extern 
-# 681 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 681 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 681 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 681 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            cmd_silent ;
 
 extern 
-# 683 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 683 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 683 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 683 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            in_assert_fails ;
 
 
@@ -19422,9 +19422,9 @@ extern
 
 extern int swap_exists_action ;
 extern 
-# 692 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 692 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 692 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 692 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            swap_exists_did_quit ;
 
 extern char IObuff[(1024 + 1)];
@@ -19442,14 +19442,14 @@ extern char os_buf[
 extern int RedrawingDisabled ;
 
 extern 
-# 708 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 708 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 708 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 708 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            readonlymode ;
 extern 
-# 709 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 709 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 709 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 709 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            recoverymode ;
 
 
@@ -19458,49 +19458,49 @@ extern typebuf_T typebuf ;
 
 
 extern 
-# 716 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 716 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 716 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 716 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            typebuf_was_empty ;
 
 extern int ex_normal_busy ;
 extern int expr_map_lock ;
 extern 
-# 720 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 720 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 720 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 720 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            ignore_script ;
 extern int stop_insert_mode;
 extern 
-# 722 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 722 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 722 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 722 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            KeyTyped;
 extern int KeyStuffed;
 extern int maptick ;
 
 extern int must_redraw ;
 extern 
-# 727 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 727 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 727 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 727 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            skip_redraw ;
 extern 
-# 728 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 728 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 728 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 728 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            do_redraw ;
 extern 
-# 729 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 729 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 729 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 729 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            must_redraw_pum ;
 
 
 extern 
-# 732 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 732 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 732 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 732 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            need_highlight_changed ;
 
 extern FILE *scriptout ;
@@ -19508,14 +19508,14 @@ extern FILE *scriptout ;
 
 
 extern 
-# 738 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 738 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 738 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 738 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            got_int ;
 extern 
-# 739 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 739 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 739 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 739 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            bangredo ;
 extern int searchcmdlen;
 extern int reg_do_extmatch ;
@@ -19527,25 +19527,25 @@ extern reg_extmatch_T *re_extmatch_in ;
 extern reg_extmatch_T *re_extmatch_out ;
 
 extern 
-# 749 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 749 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 749 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 749 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            did_outofmem_msg ;
 extern 
-# 750 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 750 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 750 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 750 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            did_swapwrite_msg ;
 extern int global_busy ;
 extern 
-# 752 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 752 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 752 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 752 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            listcmd_busy ;
 extern 
-# 753 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 753 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 753 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 753 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            need_start_insertmode ;
 
 
@@ -19557,16 +19557,16 @@ extern char *repeat_cmdline ;
 extern char *new_last_cmdline ;
 extern char *autocmd_fname ;
 extern 
-# 763 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 763 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 763 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 763 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            autocmd_fname_full ;
 extern int autocmd_bufnr ;
 extern char *autocmd_match ;
 extern 
-# 766 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 766 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 766 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 766 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            did_cursorhold ;
 
 extern int postponed_split ;
@@ -19575,9 +19575,9 @@ extern int postponed_split_tab ;
 extern int g_do_tagpreview ;
 
 extern 
-# 773 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 773 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 773 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 773 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            g_tag_at_cursor ;
 
 
@@ -19587,9 +19587,9 @@ extern int replace_offset ;
 extern char *escape_chars ;
 
 extern 
-# 781 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 781 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 781 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 781 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            keep_help_flag ;
 
 
@@ -19598,9 +19598,9 @@ extern
 extern char *empty_option ;
 
 extern 
-# 788 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 788 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 788 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 788 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            redir_off ;
 extern FILE *redir_fd ;
 extern int redir_reg ;
@@ -19635,14 +19635,14 @@ extern char *last_chdir_reason ;
 
 
 extern 
-# 821 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 821 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 821 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 821 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            km_stopsel ;
 extern 
-# 822 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 822 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 822 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 822 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            km_startsel ;
 
 extern int cmdwin_type ;
@@ -19667,17 +19667,17 @@ extern int stl_syntax ;
 
 
 extern 
-# 845 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 845 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 845 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 845 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            no_hlsearch ;
 
 extern 
-# 847 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 847 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 847 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 847 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            typebuf_was_filled ;
-# 858 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 858 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
 extern TriState virtual_op ;
 
 
@@ -19867,15 +19867,15 @@ extern int vim_ignored;
 
 
 extern 
-# 1046 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 1046 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 1046 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 1046 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            embedded_mode ;
 
 extern 
-# 1048 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 1048 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 1048 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 1048 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            headless_mode ;
 
 
@@ -19921,32 +19921,32 @@ extern optmagic_T magic_overruled ;
 
 
 extern 
-# 1092 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 1092 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 1092 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 1092 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            skip_win_fix_cursor ;
 
 extern 
-# 1094 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 1094 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 1094 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 1094 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            skip_win_fix_scroll ;
 
 extern 
-# 1096 "/home/nick/dl/neovim/src/nvim/globals.h" 3 4
+# 1096 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h" 3 4
       _Bool 
-# 1096 "/home/nick/dl/neovim/src/nvim/globals.h"
+# 1096 "/home/nick/git/Src-Arc/neovim/src/nvim/globals.h"
            skip_update_topline ;
-# 259 "/home/nick/dl/neovim/src/nvim/vim.h" 2
-# 7 "/home/nick/dl/neovim/src/nvim/cursor.h" 2
-# 24 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/drawscreen.h" 1
+# 259 "/home/nick/git/Src-Arc/neovim/src/nvim/vim.h" 2
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/cursor.h" 2
+# 24 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/drawscreen.h" 1
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/drawline.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/drawline.h" 1
 
 
 
@@ -19954,14 +19954,14 @@ extern
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/decoration_provider.h" 1
-# 11 "/home/nick/dl/neovim/src/nvim/decoration_provider.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration_provider.h" 1
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration_provider.h"
 typedef struct {
   NS ns_id;
   
-# 13 "/home/nick/dl/neovim/src/nvim/decoration_provider.h" 3 4
+# 13 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration_provider.h" 3 4
  _Bool 
-# 13 "/home/nick/dl/neovim/src/nvim/decoration_provider.h"
+# 13 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration_provider.h"
       active;
   LuaRef redraw_start;
   LuaRef redraw_buf;
@@ -19972,24 +19972,24 @@ typedef struct {
   LuaRef spell_nav;
   int hl_valid;
   
-# 22 "/home/nick/dl/neovim/src/nvim/decoration_provider.h" 3 4
+# 22 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration_provider.h" 3 4
  _Bool 
-# 22 "/home/nick/dl/neovim/src/nvim/decoration_provider.h"
+# 22 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration_provider.h"
       hl_cached;
 } DecorProvider;
 
 typedef struct { size_t size; size_t capacity; DecorProvider * *items; DecorProvider * init_array[4]; } DecorProviders;
 
 extern 
-# 27 "/home/nick/dl/neovim/src/nvim/decoration_provider.h" 3 4
+# 27 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration_provider.h" 3 4
       _Bool 
-# 27 "/home/nick/dl/neovim/src/nvim/decoration_provider.h"
+# 27 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration_provider.h"
            provider_active ;
-# 9 "/home/nick/dl/neovim/src/nvim/drawline.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/fold.h" 1
-# 12 "/home/nick/dl/neovim/src/nvim/fold.h"
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/drawline.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/fold.h" 1
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/fold.h"
 extern int disable_fold_update ;
-# 10 "/home/nick/dl/neovim/src/nvim/drawline.h" 2
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/drawline.h" 2
 
 
 
@@ -20005,11 +20005,11 @@ typedef struct {
 extern struct { size_t size; size_t capacity; WinExtmark *items; } win_extmark_arr ;
 
 extern 
-# 24 "/home/nick/dl/neovim/src/nvim/drawline.h" 3 4
+# 24 "/home/nick/git/Src-Arc/neovim/src/nvim/drawline.h" 3 4
       _Bool 
-# 24 "/home/nick/dl/neovim/src/nvim/drawline.h"
+# 24 "/home/nick/git/Src-Arc/neovim/src/nvim/drawline.h"
            conceal_cursor_used ;
-# 7 "/home/nick/dl/neovim/src/nvim/drawscreen.h" 2
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/drawscreen.h" 2
 
 
 
@@ -20027,75 +20027,75 @@ enum {
 
 
 extern 
-# 23 "/home/nick/dl/neovim/src/nvim/drawscreen.h" 3 4
+# 23 "/home/nick/git/Src-Arc/neovim/src/nvim/drawscreen.h" 3 4
       _Bool 
-# 23 "/home/nick/dl/neovim/src/nvim/drawscreen.h"
+# 23 "/home/nick/git/Src-Arc/neovim/src/nvim/drawscreen.h"
            updating_screen ;
 
 extern match_T screen_search_hl ;
-# 25 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/edit.h" 1
-# 26 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/eval.h" 1
+# 25 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/edit.h" 1
+# 26 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/eval.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h" 2
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/channel.h" 1
-# 10 "/home/nick/dl/neovim/src/nvim/channel.h"
-# 1 "/home/nick/dl/neovim/src/nvim/event/libuv_process.h" 1
-
-
-
-
-
-
-# 1 "/home/nick/dl/neovim/src/nvim/event/process.h" 1
-
-
-
-
-# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/event/process.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/event/libuv_process.h" 1
 
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/event/rstream.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/event/rstream.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 2
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/event/stream.h" 1
+
+
+
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/event/rstream.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/event/stream.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/event/rstream.h" 2
+
+
+
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/event/stream.h" 1
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/rbuffer.h" 1
-# 17 "/home/nick/dl/neovim/src/nvim/rbuffer.h"
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 18 "/home/nick/dl/neovim/src/nvim/rbuffer.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/event/stream.h" 2
+
+
+
+
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.h" 1
+# 17 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.h"
+# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
+# 18 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.h" 2
 
 
 struct rbuffer;
-# 72 "/home/nick/dl/neovim/src/nvim/rbuffer.h"
+# 72 "/home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.h"
 typedef struct rbuffer RBuffer;
 
 
@@ -20111,7 +20111,7 @@ struct rbuffer {
   char *end_ptr, *read_ptr, *write_ptr;
   char start_ptr[];
 };
-# 11 "/home/nick/dl/neovim/src/nvim/event/stream.h" 2
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/event/stream.h" 2
 
 struct stream;
 
@@ -20124,9 +20124,9 @@ typedef struct stream Stream;
 
 
 typedef void (*stream_read_cb)(Stream *stream, RBuffer *buf, size_t count, void *data, 
-# 22 "/home/nick/dl/neovim/src/nvim/event/stream.h" 3 4
+# 22 "/home/nick/git/Src-Arc/neovim/src/nvim/event/stream.h" 3 4
                                                                                       _Bool 
-# 22 "/home/nick/dl/neovim/src/nvim/event/stream.h"
+# 22 "/home/nick/git/Src-Arc/neovim/src/nvim/event/stream.h"
                                                                                            eof);
 
 
@@ -20140,14 +20140,14 @@ typedef void (*stream_close_cb)(Stream *stream, void *data);
 
 struct stream {
   
-# 34 "/home/nick/dl/neovim/src/nvim/event/stream.h" 3 4
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/stream.h" 3 4
  _Bool 
-# 34 "/home/nick/dl/neovim/src/nvim/event/stream.h"
+# 34 "/home/nick/git/Src-Arc/neovim/src/nvim/event/stream.h"
       closed;
   
-# 35 "/home/nick/dl/neovim/src/nvim/event/stream.h" 3 4
+# 35 "/home/nick/git/Src-Arc/neovim/src/nvim/event/stream.h" 3 4
  _Bool 
-# 35 "/home/nick/dl/neovim/src/nvim/event/stream.h"
+# 35 "/home/nick/git/Src-Arc/neovim/src/nvim/event/stream.h"
       did_eof;
   union {
     uv_pipe_t pipe;
@@ -20173,16 +20173,16 @@ struct stream {
   size_t num_bytes;
   MultiQueue *events;
 };
-# 10 "/home/nick/dl/neovim/src/nvim/event/rstream.h" 2
-# 13 "/home/nick/dl/neovim/src/nvim/event/process.h" 2
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/event/rstream.h" 2
+# 13 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/event/wstream.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/event/wstream.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/event/wstream.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/event/wstream.h" 2
 
 
 
@@ -20199,7 +20199,7 @@ struct wbuffer {
   char *data;
   wbuffer_data_finalizer cb;
 };
-# 15 "/home/nick/dl/neovim/src/nvim/event/process.h" 2
+# 15 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 2
 
 struct process;
 
@@ -20228,9 +20228,9 @@ struct process {
   process_exit_cb cb;
   internal_process_cb internal_exit_cb, internal_close_cb;
   
-# 42 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
  _Bool 
-# 42 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
       closed, detach, overlapped, fwd_err;
   MultiQueue *events;
 };
@@ -20242,73 +20242,73 @@ static inline Process process_init(Loop *loop, ProcessType type, void *data)
     .data = data,
     .loop = loop,
     .events = 
-# 52 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 52 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
              ((void *)0)
-# 52 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 52 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
                  ,
     .pid = 0,
     .status = -1,
     .refcount = 0,
     .stopped_time = 0,
     .cwd = 
-# 57 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
           ((void *)0)
-# 57 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
               ,
     .argv = 
-# 58 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 58 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
            ((void *)0)
-# 58 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 58 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
                ,
     .exepath = 
-# 59 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
               ((void *)0)
-# 59 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
                   ,
     .in = { .closed = 
-# 60 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 60 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
                      0 
-# 60 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 60 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
                            },
     .out = { .closed = 
-# 61 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 61 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
                       0 
-# 61 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 61 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
                             },
     .err = { .closed = 
-# 62 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 62 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
                       0 
-# 62 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 62 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
                             },
     .cb = 
-# 63 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 63 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
          ((void *)0)
-# 63 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 63 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
              ,
     .closed = 
-# 64 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 64 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
              0
-# 64 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 64 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
                   ,
     .internal_close_cb = 
-# 65 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 65 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
                         ((void *)0)
-# 65 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 65 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
                             ,
     .internal_exit_cb = 
-# 66 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 66 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
                        ((void *)0)
-# 66 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 66 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
                            ,
     .detach = 
-# 67 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 67 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
              0
-# 67 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 67 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
                   ,
     .fwd_err = 
-# 68 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
               0
-# 68 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
                    ,
   };
 }
@@ -20317,26 +20317,26 @@ static inline Process process_init(Loop *loop, ProcessType type, void *data)
 static inline const char *process_get_exepath(Process *proc)
 {
   return proc->exepath != 
-# 75 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 75 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
                          ((void *)0) 
-# 75 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 75 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
                               ? proc->exepath : proc->argv[0];
 }
 
 static inline 
-# 78 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 78 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
              _Bool 
-# 78 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 78 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
                   process_is_stopped(Process *proc)
 {
   
-# 80 "/home/nick/dl/neovim/src/nvim/event/process.h" 3 4
+# 80 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h" 3 4
  _Bool 
-# 80 "/home/nick/dl/neovim/src/nvim/event/process.h"
+# 80 "/home/nick/git/Src-Arc/neovim/src/nvim/event/process.h"
       exited = (proc->status >= 0);
   return exited || (proc->stopped_time != 0);
 }
-# 8 "/home/nick/dl/neovim/src/nvim/event/libuv_process.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/event/libuv_process.h" 2
 
 typedef struct libuv_process {
   Process process;
@@ -20352,11 +20352,11 @@ static inline LibuvProcess libuv_process_init(Loop *loop, void *data)
   };
   return rv;
 }
-# 11 "/home/nick/dl/neovim/src/nvim/channel.h" 2
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h" 2
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/event/socket.h" 1
-# 11 "/home/nick/dl/neovim/src/nvim/event/socket.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/event/socket.h" 1
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/event/socket.h"
 struct socket_watcher;
 
 
@@ -20384,12 +20384,12 @@ struct socket_watcher {
   socket_close_cb close_cb;
   MultiQueue *events;
 };
-# 14 "/home/nick/dl/neovim/src/nvim/channel.h" 2
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h" 2
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/main.h" 1
-# 11 "/home/nick/dl/neovim/src/nvim/main.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/main.h" 1
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/main.h"
 extern Loop main_loop;
 
 
@@ -20399,9 +20399,9 @@ typedef struct {
 
   char *use_vimrc;
   
-# 19 "/home/nick/dl/neovim/src/nvim/main.h" 3 4
+# 19 "/home/nick/git/Src-Arc/neovim/src/nvim/main.h" 3 4
  _Bool 
-# 19 "/home/nick/dl/neovim/src/nvim/main.h"
+# 19 "/home/nick/git/Src-Arc/neovim/src/nvim/main.h"
       clean;
 
   int n_commands;
@@ -20417,9 +20417,9 @@ typedef struct {
   char *use_ef;
 
   
-# 33 "/home/nick/dl/neovim/src/nvim/main.h" 3 4
+# 33 "/home/nick/git/Src-Arc/neovim/src/nvim/main.h" 3 4
  _Bool 
-# 33 "/home/nick/dl/neovim/src/nvim/main.h"
+# 33 "/home/nick/git/Src-Arc/neovim/src/nvim/main.h"
       input_istext;
 
   int no_swap_file;
@@ -20435,45 +20435,45 @@ typedef struct {
   char *scriptin;
   char *scriptout;
   
-# 47 "/home/nick/dl/neovim/src/nvim/main.h" 3 4
+# 47 "/home/nick/git/Src-Arc/neovim/src/nvim/main.h" 3 4
  _Bool 
-# 47 "/home/nick/dl/neovim/src/nvim/main.h"
+# 47 "/home/nick/git/Src-Arc/neovim/src/nvim/main.h"
       scriptout_append;
   
-# 48 "/home/nick/dl/neovim/src/nvim/main.h" 3 4
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/main.h" 3 4
  _Bool 
-# 48 "/home/nick/dl/neovim/src/nvim/main.h"
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/main.h"
       had_stdin_file;
 } mparm_T;
-# 18 "/home/nick/dl/neovim/src/nvim/channel.h" 2
+# 18 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h" 2
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/msgpack_rpc/channel_defs.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel_defs.h" 1
 
 
 
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack.h" 1
-# 16 "/home/nick/dl/neovim/.deps/usr/include/msgpack.h"
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/util.h" 1
-# 17 "/home/nick/dl/neovim/.deps/usr/include/msgpack.h" 2
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/object.h" 1
-# 13 "/home/nick/dl/neovim/.deps/usr/include/msgpack/object.h"
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h" 1
-# 13 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h"
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sysdep.h" 1
-# 14 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sysdep.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack.h" 1
+# 16 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/util.h" 1
+# 17 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/object.h" 1
+# 13 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/object.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h" 1
+# 13 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sysdep.h" 1
+# 14 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sysdep.h"
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 15 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sysdep.h" 2
-# 84 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sysdep.h"
+# 15 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sysdep.h" 2
+# 84 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sysdep.h"
     typedef unsigned int _msgpack_atomic_counter_t;
-# 105 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sysdep.h"
+# 105 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sysdep.h"
 # 1 "/usr/include/byteswap.h" 1 3 4
 # 25 "/usr/include/byteswap.h" 3 4
 # 1 "/usr/include/bits/byteswap.h" 1 3 4
 # 26 "/usr/include/byteswap.h" 2 3 4
-# 106 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sysdep.h" 2
-# 14 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h" 2
-# 26 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h"
+# 106 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sysdep.h" 2
+# 14 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h" 2
+# 26 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h"
 typedef struct msgpack_zone_finalizer {
     void (*func)(void* data);
     void* data;
@@ -20506,9 +20506,9 @@ typedef struct msgpack_zone {
 
 
 
-# 57 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h" 3 4
+# 57 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h" 3 4
 _Bool 
-# 57 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h"
+# 57 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h"
     msgpack_zone_init(msgpack_zone* zone, size_t chunk_size);
 
 void msgpack_zone_destroy(msgpack_zone* zone);
@@ -20522,9 +20522,9 @@ static inline void* msgpack_zone_malloc(msgpack_zone* zone, size_t size);
 static inline void* msgpack_zone_malloc_no_align(msgpack_zone* zone, size_t size);
 
 static inline 
-# 69 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h" 3 4
+# 69 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h" 3 4
              _Bool 
-# 69 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h"
+# 69 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h"
                   msgpack_zone_push_finalizer(msgpack_zone* zone,
         void (*func)(void* data), void* data);
 
@@ -20532,14 +20532,14 @@ static inline void msgpack_zone_swap(msgpack_zone* a, msgpack_zone* b);
 
 
 
-# 75 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h" 3 4
+# 75 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h" 3 4
 _Bool 
-# 75 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h"
+# 75 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h"
     msgpack_zone_is_empty(msgpack_zone* zone);
 
 
 void msgpack_zone_clear(msgpack_zone* zone);
-# 87 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h"
+# 87 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h"
 
 void* msgpack_zone_malloc_expand(msgpack_zone* zone, size_t size);
 
@@ -20580,24 +20580,24 @@ static inline void* msgpack_zone_malloc(msgpack_zone* zone, size_t size)
         }
     }
     return 
-# 126 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h" 3 4
+# 126 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h" 3 4
           ((void *)0)
-# 126 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h"
+# 126 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h"
               ;
 }
 
 
 
-# 130 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h" 3 4
+# 130 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h" 3 4
 _Bool 
-# 130 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h"
+# 130 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h"
     msgpack_zone_push_finalizer_expand(msgpack_zone* zone,
         void (*func)(void* data), void* data);
 
 static inline 
-# 133 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h" 3 4
+# 133 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h" 3 4
              _Bool 
-# 133 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h"
+# 133 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h"
                   msgpack_zone_push_finalizer(msgpack_zone* zone,
         void (*func)(void* data), void* data)
 {
@@ -20614,9 +20614,9 @@ static inline
     ++fa->tail;
 
     return 
-# 148 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h" 3 4
+# 148 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h" 3 4
           1
-# 148 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h"
+# 148 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h"
               ;
 }
 
@@ -20626,8 +20626,8 @@ static inline void msgpack_zone_swap(msgpack_zone* a, msgpack_zone* b)
     *a = *b;
     *b = tmp;
 }
-# 14 "/home/nick/dl/neovim/.deps/usr/include/msgpack/object.h" 2
-# 27 "/home/nick/dl/neovim/.deps/usr/include/msgpack/object.h"
+# 14 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/object.h" 2
+# 27 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/object.h"
 typedef enum {
     MSGPACK_OBJECT_NIL = 0x00,
     MSGPACK_OBJECT_BOOLEAN = 0x01,
@@ -20678,9 +20678,9 @@ typedef struct {
 
 typedef union {
     
-# 76 "/home/nick/dl/neovim/.deps/usr/include/msgpack/object.h" 3 4
+# 76 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/object.h" 3 4
    _Bool 
-# 76 "/home/nick/dl/neovim/.deps/usr/include/msgpack/object.h"
+# 76 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/object.h"
         boolean;
     uint64_t u64;
     int64_t i64;
@@ -20715,28 +20715,28 @@ int msgpack_object_print_buffer(char *buffer, size_t buffer_size, msgpack_object
 
 
 
-# 109 "/home/nick/dl/neovim/.deps/usr/include/msgpack/object.h" 3 4
+# 109 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/object.h" 3 4
 _Bool 
-# 109 "/home/nick/dl/neovim/.deps/usr/include/msgpack/object.h"
+# 109 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/object.h"
     msgpack_object_equal(const msgpack_object x, const msgpack_object y);
-# 18 "/home/nick/dl/neovim/.deps/usr/include/msgpack.h" 2
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/zone.h" 1
-# 19 "/home/nick/dl/neovim/.deps/usr/include/msgpack.h" 2
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack.h" 1
-# 13 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack.h"
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_define.h" 1
-# 13 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_define.h"
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sysdep.h" 1
-# 14 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_define.h" 2
+# 18 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/zone.h" 1
+# 19 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack.h" 1
+# 13 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_define.h" 1
+# 13 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_define.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sysdep.h" 1
+# 14 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_define.h" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 1 3 4
-# 15 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_define.h" 2
-# 14 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack.h" 2
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/object.h" 1
-# 15 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack.h" 2
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 1
-# 13 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/object.h" 1
-# 14 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 2
+# 15 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_define.h" 2
+# 14 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/object.h" 1
+# 15 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 1
+# 13 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/object.h" 1
+# 14 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 2
 
 
 
@@ -20749,19 +20749,19 @@ typedef struct msgpack_timestamp {
 } msgpack_timestamp;
 
 static inline 
-# 25 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
+# 25 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
              _Bool 
-# 25 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 25 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
                   msgpack_object_to_timestamp(const msgpack_object* obj, msgpack_timestamp* ts) {
     if (obj->type != MSGPACK_OBJECT_EXT) return 
-# 26 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
+# 26 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
                                                0
-# 26 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 26 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
                                                     ;
     if (obj->via.ext.type != -1) return 
-# 27 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
+# 27 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
                                        0
-# 27 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 27 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
                                             ;
     switch (obj->via.ext.size) {
     case 4:
@@ -20769,74 +20769,74 @@ static inline
         {
             uint32_t v;
             do { memcpy((uint32_t*)(&v), (obj->via.ext.ptr), sizeof(uint32_t)); *(&v) = (uint32_t)
-# 33 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
+# 33 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
            __bswap_32 (
-# 33 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 33 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
            (uint32_t)*(&v)
-# 33 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
+# 33 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
            )
-# 33 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 33 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
            ; } while (0);;
             ts->tv_sec = v;
         }
         return 
-# 36 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
+# 36 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
               1
-# 36 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 36 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
                   ;
     case 8: {
         uint64_t value;
         do { memcpy((uint64_t*)(&value), (obj->via.ext.ptr), sizeof(uint64_t)); *(&value) = (uint64_t)
-# 39 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
+# 39 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
        __bswap_64 (
-# 39 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 39 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
        *(&value)
-# 39 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
+# 39 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
        )
-# 39 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 39 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
        ; } while (0);;
         ts->tv_nsec = (uint32_t)(value >> 34);
         ts->tv_sec = value & 0x00000003ffffffffLL;
         return 
-# 42 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
+# 42 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
               1
-# 42 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 42 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
                   ;
     }
     case 12:
         do { memcpy((uint32_t*)(&ts->tv_nsec), (obj->via.ext.ptr), sizeof(uint32_t)); *(&ts->tv_nsec) = (uint32_t)
-# 45 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
+# 45 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
        __bswap_32 (
-# 45 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 45 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
        (uint32_t)*(&ts->tv_nsec)
-# 45 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
+# 45 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
        )
-# 45 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 45 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
        ; } while (0);;
         do { memcpy((int64_t*)(&ts->tv_sec), (obj->via.ext.ptr + 4), sizeof(int64_t)); *(&ts->tv_sec) = (int64_t)
-# 46 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
+# 46 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
        __bswap_64 (
-# 46 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 46 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
        *(&ts->tv_sec)
-# 46 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
+# 46 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
        )
-# 46 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 46 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
        ; } while (0);;
         return 
-# 47 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
+# 47 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
               1
-# 47 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 47 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
                   ;
     default:
         return 
-# 49 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
+# 49 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h" 3 4
               0
-# 49 "/home/nick/dl/neovim/.deps/usr/include/msgpack/timestamp.h"
+# 49 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/timestamp.h"
                    ;
     }
 }
-# 16 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack.h" 2
-# 36 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack.h"
+# 16 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack.h" 2
+# 36 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack.h"
 typedef int (*msgpack_packer_write)(void* data, const char* buf, size_t len);
 
 typedef struct msgpack_packer {
@@ -20910,9 +20910,9 @@ static int msgpack_pack_timestamp(msgpack_packer* pk, const msgpack_timestamp* d
 
 
 int msgpack_pack_object(msgpack_packer* pk, msgpack_object d);
-# 128 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack.h"
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 1
-# 282 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 128 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 1
+# 282 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
 inline int msgpack_pack_fix_uint8(msgpack_packer* x, uint8_t d)
 {
     unsigned char buf[2] = {0xcc, ((uint8_t*)&d)[0]};
@@ -20923,13 +20923,13 @@ inline int msgpack_pack_fix_uint16(msgpack_packer* x, uint16_t d)
 {
     unsigned char buf[3];
     buf[0] = 0xcd; do { uint16_t val = 
-# 291 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 291 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                   __bswap_16 (
-# 291 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 291 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                   (uint16_t)d
-# 291 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 291 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                   )
-# 291 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 291 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                   ; memcpy(&buf[1], &val, 2); } while(0);
     return (*(x)->callback)((x)->data, (const char*)buf, 3);
 }
@@ -20938,13 +20938,13 @@ inline int msgpack_pack_fix_uint32(msgpack_packer* x, uint32_t d)
 {
     unsigned char buf[5];
     buf[0] = 0xce; do { uint32_t val = 
-# 298 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 298 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                   __bswap_32 (
-# 298 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 298 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                   (uint32_t)d
-# 298 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 298 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                   )
-# 298 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 298 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                   ; memcpy(&buf[1], &val, 4); } while(0);
     return (*(x)->callback)((x)->data, (const char*)buf, 5);
 }
@@ -20953,13 +20953,13 @@ inline int msgpack_pack_fix_uint64(msgpack_packer* x, uint64_t d)
 {
     unsigned char buf[9];
     buf[0] = 0xcf; do { uint64_t val = 
-# 305 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 305 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                   __bswap_64 (
-# 305 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 305 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                   d
-# 305 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 305 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                   )
-# 305 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 305 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                   ; memcpy(&buf[1], &val, 8); } while(0);
     return (*(x)->callback)((x)->data, (const char*)buf, 9);
 }
@@ -20974,13 +20974,13 @@ inline int msgpack_pack_fix_int16(msgpack_packer* x, int16_t d)
 {
     unsigned char buf[3];
     buf[0] = 0xd1; do { uint16_t val = 
-# 318 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 318 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                   __bswap_16 (
-# 318 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 318 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                   (uint16_t)d
-# 318 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 318 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                   )
-# 318 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 318 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                   ; memcpy(&buf[1], &val, 2); } while(0);
     return (*(x)->callback)((x)->data, (const char*)buf, 3);
 }
@@ -20989,13 +20989,13 @@ inline int msgpack_pack_fix_int32(msgpack_packer* x, int32_t d)
 {
     unsigned char buf[5];
     buf[0] = 0xd2; do { uint32_t val = 
-# 325 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 325 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                   __bswap_32 (
-# 325 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 325 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                   (uint32_t)d
-# 325 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 325 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                   )
-# 325 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 325 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                   ; memcpy(&buf[1], &val, 4); } while(0);
     return (*(x)->callback)((x)->data, (const char*)buf, 5);
 }
@@ -21004,13 +21004,13 @@ inline int msgpack_pack_fix_int64(msgpack_packer* x, int64_t d)
 {
     unsigned char buf[9];
     buf[0] = 0xd3; do { uint64_t val = 
-# 332 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 332 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                   __bswap_64 (
-# 332 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 332 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                   d
-# 332 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 332 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                   )
-# 332 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 332 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                   ; memcpy(&buf[1], &val, 8); } while(0);
     return (*(x)->callback)((x)->data, (const char*)buf, 9);
 }
@@ -21027,63 +21027,63 @@ inline int msgpack_pack_uint8(msgpack_packer* x, uint8_t d)
 inline int msgpack_pack_uint16(msgpack_packer* x, uint16_t d)
 {
     do { if(d < (1<<7)) { return (*(x)->callback)((x)->data, (const char*)&((uint8_t*)&d)[0], 1); } else if(d < (1<<8)) { unsigned char buf[2] = {0xcc, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } else { unsigned char buf[3]; buf[0] = 0xcd; do { uint16_t val = 
-# 347 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 347 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 347 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 347 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(uint16_t)d
-# 347 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 347 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 347 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 347 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } } while(0);
 }
 
 inline int msgpack_pack_uint32(msgpack_packer* x, uint32_t d)
 {
     do { if(d < (1<<8)) { if(d < (1<<7)) { return (*(x)->callback)((x)->data, (const char*)&((uint8_t*)&d)[0], 1); } else { unsigned char buf[2] = {0xcc, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } } else { if(d < (1<<16)) { unsigned char buf[3]; buf[0] = 0xcd; do { uint16_t val = 
-# 352 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 352 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 352 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 352 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(uint16_t)d
-# 352 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 352 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 352 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 352 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } else { unsigned char buf[5]; buf[0] = 0xce; do { uint32_t val = 
-# 352 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 352 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_32 (
-# 352 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 352 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint32_t)(uint32_t)d
-# 352 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 352 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 352 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 352 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 4); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 5); } } } while(0);
 }
 
 inline int msgpack_pack_uint64(msgpack_packer* x, uint64_t d)
 {
     do { if(d < (1ULL<<8)) { if(d < (1ULL<<7)) { return (*(x)->callback)((x)->data, (const char*)&((uint8_t*)&d)[0], 1); } else { unsigned char buf[2] = {0xcc, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } } else { if(d < (1ULL<<16)) { unsigned char buf[3]; buf[0] = 0xcd; do { uint16_t val = 
-# 357 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 357 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 357 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 357 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(uint16_t)d
-# 357 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 357 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 357 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 357 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } else if(d < (1ULL<<32)) { unsigned char buf[5]; buf[0] = 0xce; do { uint32_t val = 
-# 357 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 357 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_32 (
-# 357 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 357 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint32_t)(uint32_t)d
-# 357 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 357 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 357 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 357 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 4); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 5); } else { unsigned char buf[9]; buf[0] = 0xcf; do { uint64_t val = 
-# 357 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 357 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_64 (
-# 357 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 357 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    d
-# 357 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 357 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 357 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 357 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 8); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 9); } } } while(0);
 }
 
@@ -21095,111 +21095,111 @@ inline int msgpack_pack_int8(msgpack_packer* x, int8_t d)
 inline int msgpack_pack_int16(msgpack_packer* x, int16_t d)
 {
     do { if(d < -(1<<5)) { if(d < -(1<<7)) { unsigned char buf[3]; buf[0] = 0xd1; do { uint16_t val = 
-# 367 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 367 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 367 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 367 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(int16_t)d
-# 367 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 367 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 367 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 367 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } else { unsigned char buf[2] = {0xd0, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } } else if(d < (1<<7)) { return (*(x)->callback)((x)->data, (const char*)&((uint8_t*)&d)[0], 1); } else { if(d < (1<<8)) { unsigned char buf[2] = {0xcc, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } else { unsigned char buf[3]; buf[0] = 0xcd; do { uint16_t val = 
-# 367 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 367 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 367 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 367 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(uint16_t)d
-# 367 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 367 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 367 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 367 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } } } while(0);
 }
 
 inline int msgpack_pack_int32(msgpack_packer* x, int32_t d)
 {
     do { if(d < -(1<<5)) { if(d < -(1<<15)) { unsigned char buf[5]; buf[0] = 0xd2; do { uint32_t val = 
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_32 (
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint32_t)(int32_t)d
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 4); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 5); } else if(d < -(1<<7)) { unsigned char buf[3]; buf[0] = 0xd1; do { uint16_t val = 
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(int16_t)d
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } else { unsigned char buf[2] = {0xd0, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } } else if(d < (1<<7)) { return (*(x)->callback)((x)->data, (const char*)&((uint8_t*)&d)[0], 1); } else { if(d < (1<<8)) { unsigned char buf[2] = {0xcc, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } else if(d < (1<<16)) { unsigned char buf[3]; buf[0] = 0xcd; do { uint16_t val = 
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(uint16_t)d
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } else { unsigned char buf[5]; buf[0] = 0xce; do { uint32_t val = 
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_32 (
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint32_t)(uint32_t)d
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 372 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 372 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 4); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 5); } } } while(0);
 }
 
 inline int msgpack_pack_int64(msgpack_packer* x, int64_t d)
 {
     do { if(d < -(1LL<<5)) { if(d < -(1LL<<15)) { if(d < -(1LL<<31)) { unsigned char buf[9]; buf[0] = 0xd3; do { uint64_t val = 
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_64 (
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    d
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 8); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 9); } else { unsigned char buf[5]; buf[0] = 0xd2; do { uint32_t val = 
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_32 (
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint32_t)(int32_t)d
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 4); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 5); } } else { if(d < -(1<<7)) { unsigned char buf[3]; buf[0] = 0xd1; do { uint16_t val = 
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(int16_t)d
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } else { unsigned char buf[2] = {0xd0, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } } } else if(d < (1<<7)) { return (*(x)->callback)((x)->data, (const char*)&((uint8_t*)&d)[0], 1); } else { if(d < (1LL<<16)) { if(d < (1<<8)) { unsigned char buf[2] = {0xcc, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } else { unsigned char buf[3]; buf[0] = 0xcd; do { uint16_t val = 
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(uint16_t)d
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } } else { if(d < (1LL<<32)) { unsigned char buf[5]; buf[0] = 0xce; do { uint32_t val = 
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_32 (
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint32_t)(uint32_t)d
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 4); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 5); } else { unsigned char buf[9]; buf[0] = 0xcf; do { uint64_t val = 
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_64 (
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    d
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 377 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 377 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 8); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 9); } } } } while(0);
 }
 
@@ -21230,25 +21230,25 @@ inline int msgpack_pack_unsigned_char(msgpack_packer* x, unsigned char d)
 
 inline int msgpack_pack_short(msgpack_packer* x, short d)
 {
-# 418 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 418 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
     do { if(d < -(1<<5)) { if(d < -(1<<7)) { unsigned char buf[3]; buf[0] = 0xd1; do { uint16_t val = 
-# 418 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 418 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 418 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 418 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(int16_t)d
-# 418 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 418 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 418 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 418 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } else { unsigned char buf[2] = {0xd0, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } } else if(d < (1<<7)) { return (*(x)->callback)((x)->data, (const char*)&((uint8_t*)&d)[0], 1); } else { if(d < (1<<8)) { unsigned char buf[2] = {0xcc, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } else { unsigned char buf[3]; buf[0] = 0xcd; do { uint16_t val = 
-# 418 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 418 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 418 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 418 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(uint16_t)d
-# 418 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 418 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 418 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 418 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } } } while(0);
-# 434 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 434 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
 }
 
 inline int msgpack_pack_int(msgpack_packer* x, int d)
@@ -21258,39 +21258,39 @@ inline int msgpack_pack_int(msgpack_packer* x, int d)
 
 
     do { if(d < -(1<<5)) { if(d < -(1<<15)) { unsigned char buf[5]; buf[0] = 0xd2; do { uint32_t val = 
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_32 (
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint32_t)(int32_t)d
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 4); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 5); } else if(d < -(1<<7)) { unsigned char buf[3]; buf[0] = 0xd1; do { uint16_t val = 
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(int16_t)d
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } else { unsigned char buf[2] = {0xd0, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } } else if(d < (1<<7)) { return (*(x)->callback)((x)->data, (const char*)&((uint8_t*)&d)[0], 1); } else { if(d < (1<<8)) { unsigned char buf[2] = {0xcc, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } else if(d < (1<<16)) { unsigned char buf[3]; buf[0] = 0xcd; do { uint16_t val = 
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(uint16_t)d
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } else { unsigned char buf[5]; buf[0] = 0xce; do { uint32_t val = 
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_32 (
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint32_t)(uint32_t)d
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 442 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 442 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 4); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 5); } } } while(0);
-# 465 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 465 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
 }
 
 inline int msgpack_pack_long(msgpack_packer* x, long d)
@@ -21302,125 +21302,125 @@ inline int msgpack_pack_long(msgpack_packer* x, long d)
 
 
     do { if(d < -(1LL<<5)) { if(d < -(1LL<<15)) { if(d < -(1LL<<31)) { unsigned char buf[9]; buf[0] = 0xd3; do { uint64_t val = 
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_64 (
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    d
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 8); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 9); } else { unsigned char buf[5]; buf[0] = 0xd2; do { uint32_t val = 
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_32 (
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint32_t)(int32_t)d
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 4); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 5); } } else { if(d < -(1<<7)) { unsigned char buf[3]; buf[0] = 0xd1; do { uint16_t val = 
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(int16_t)d
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } else { unsigned char buf[2] = {0xd0, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } } } else if(d < (1<<7)) { return (*(x)->callback)((x)->data, (const char*)&((uint8_t*)&d)[0], 1); } else { if(d < (1LL<<16)) { if(d < (1<<8)) { unsigned char buf[2] = {0xcc, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } else { unsigned char buf[3]; buf[0] = 0xcd; do { uint16_t val = 
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(uint16_t)d
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } } else { if(d < (1LL<<32)) { unsigned char buf[5]; buf[0] = 0xce; do { uint32_t val = 
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_32 (
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint32_t)(uint32_t)d
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 4); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 5); } else { unsigned char buf[9]; buf[0] = 0xcf; do { uint64_t val = 
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_64 (
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    d
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 475 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 475 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 8); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 9); } } } } while(0);
-# 496 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 496 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
 }
 
 inline int msgpack_pack_long_long(msgpack_packer* x, long long d)
 {
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
     do { if(d < -(1LL<<5)) { if(d < -(1LL<<15)) { if(d < -(1LL<<31)) { unsigned char buf[9]; buf[0] = 0xd3; do { uint64_t val = 
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_64 (
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    d
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 8); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 9); } else { unsigned char buf[5]; buf[0] = 0xd2; do { uint32_t val = 
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_32 (
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint32_t)(int32_t)d
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 4); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 5); } } else { if(d < -(1<<7)) { unsigned char buf[3]; buf[0] = 0xd1; do { uint16_t val = 
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(int16_t)d
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } else { unsigned char buf[2] = {0xd0, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } } } else if(d < (1<<7)) { return (*(x)->callback)((x)->data, (const char*)&((uint8_t*)&d)[0], 1); } else { if(d < (1LL<<16)) { if(d < (1<<8)) { unsigned char buf[2] = {0xcc, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } else { unsigned char buf[3]; buf[0] = 0xcd; do { uint16_t val = 
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(uint16_t)d
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } } else { if(d < (1LL<<32)) { unsigned char buf[5]; buf[0] = 0xce; do { uint32_t val = 
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_32 (
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint32_t)(uint32_t)d
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 4); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 5); } else { unsigned char buf[9]; buf[0] = 0xcf; do { uint64_t val = 
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_64 (
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    d
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 515 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 515 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 8); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 9); } } } } while(0);
-# 527 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 527 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
 }
 
 inline int msgpack_pack_unsigned_short(msgpack_packer* x, unsigned short d)
 {
-# 542 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 542 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
     do { if(d < (1<<7)) { return (*(x)->callback)((x)->data, (const char*)&((uint8_t*)&d)[0], 1); } else if(d < (1<<8)) { unsigned char buf[2] = {0xcc, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } else { unsigned char buf[3]; buf[0] = 0xcd; do { uint16_t val = 
-# 542 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 542 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 542 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 542 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(uint16_t)d
-# 542 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 542 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 542 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 542 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } } while(0);
-# 558 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 558 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
 }
 
 inline int msgpack_pack_unsigned_int(msgpack_packer* x, unsigned int d)
@@ -21430,23 +21430,23 @@ inline int msgpack_pack_unsigned_int(msgpack_packer* x, unsigned int d)
 
 
     do { if(d < (1<<8)) { if(d < (1<<7)) { return (*(x)->callback)((x)->data, (const char*)&((uint8_t*)&d)[0], 1); } else { unsigned char buf[2] = {0xcc, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } } else { if(d < (1<<16)) { unsigned char buf[3]; buf[0] = 0xcd; do { uint16_t val = 
-# 566 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 566 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 566 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 566 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(uint16_t)d
-# 566 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 566 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 566 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 566 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } else { unsigned char buf[5]; buf[0] = 0xce; do { uint32_t val = 
-# 566 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 566 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_32 (
-# 566 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 566 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint32_t)(uint32_t)d
-# 566 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 566 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 566 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 566 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 4); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 5); } } } while(0);
-# 589 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 589 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
 }
 
 inline int msgpack_pack_unsigned_long(msgpack_packer* x, unsigned long d)
@@ -21458,77 +21458,77 @@ inline int msgpack_pack_unsigned_long(msgpack_packer* x, unsigned long d)
 
 
     do { if(d < (1ULL<<8)) { if(d < (1ULL<<7)) { return (*(x)->callback)((x)->data, (const char*)&((uint8_t*)&d)[0], 1); } else { unsigned char buf[2] = {0xcc, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } } else { if(d < (1ULL<<16)) { unsigned char buf[3]; buf[0] = 0xcd; do { uint16_t val = 
-# 599 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 599 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 599 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 599 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(uint16_t)d
-# 599 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 599 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 599 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 599 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } else if(d < (1ULL<<32)) { unsigned char buf[5]; buf[0] = 0xce; do { uint32_t val = 
-# 599 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 599 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_32 (
-# 599 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 599 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint32_t)(uint32_t)d
-# 599 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 599 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 599 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 599 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 4); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 5); } else { unsigned char buf[9]; buf[0] = 0xcf; do { uint64_t val = 
-# 599 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 599 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_64 (
-# 599 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 599 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    d
-# 599 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 599 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 599 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 599 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 8); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 9); } } } while(0);
-# 620 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 620 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
 }
 
 inline int msgpack_pack_unsigned_long_long(msgpack_packer* x, unsigned long long d)
 {
-# 639 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 639 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
     do { if(d < (1ULL<<8)) { if(d < (1ULL<<7)) { return (*(x)->callback)((x)->data, (const char*)&((uint8_t*)&d)[0], 1); } else { unsigned char buf[2] = {0xcc, ((uint8_t*)&d)[0]}; return (*(x)->callback)((x)->data, (const char*)buf, 2); } } else { if(d < (1ULL<<16)) { unsigned char buf[3]; buf[0] = 0xcd; do { uint16_t val = 
-# 639 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 639 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_16 (
-# 639 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 639 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint16_t)(uint16_t)d
-# 639 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 639 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 639 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 639 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 2); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 3); } else if(d < (1ULL<<32)) { unsigned char buf[5]; buf[0] = 0xce; do { uint32_t val = 
-# 639 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 639 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_32 (
-# 639 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 639 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    (uint32_t)(uint32_t)d
-# 639 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 639 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 639 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 639 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 4); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 5); } else { unsigned char buf[9]; buf[0] = 0xcf; do { uint64_t val = 
-# 639 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 639 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_64 (
-# 639 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 639 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    d
-# 639 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 639 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 639 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 639 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 8); } while(0); return (*(x)->callback)((x)->data, (const char*)buf, 9); } } } while(0);
-# 651 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 651 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
 }
-# 662 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 662 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
 inline int msgpack_pack_float(msgpack_packer* x, float d)
 {
     unsigned char buf[5];
     union { float f; uint32_t i; } mem;
     mem.f = d;
     buf[0] = 0xca; do { uint32_t val = 
-# 667 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 667 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                   __bswap_32 (
-# 667 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 667 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                   (uint32_t)mem.i
-# 667 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 667 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                   )
-# 667 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 667 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                   ; memcpy(&buf[1], &val, 4); } while(0);
     return (*(x)->callback)((x)->data, (const char*)buf, 5);
 }
@@ -21546,13 +21546,13 @@ inline int msgpack_pack_double(msgpack_packer* x, double d)
 
 
     do { uint64_t val = 
-# 683 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 683 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    __bswap_64 (
-# 683 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 683 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    mem.i
-# 683 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 683 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
    )
-# 683 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 683 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
    ; memcpy(&buf[1], &val, 8); } while(0);
     return (*(x)->callback)((x)->data, (const char*)buf, 9);
 }
@@ -21598,25 +21598,25 @@ inline int msgpack_pack_array(msgpack_packer* x, size_t n)
     } else if(n < 65536) {
         unsigned char buf[3];
         buf[0] = 0xdc; do { uint16_t val = 
-# 727 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 727 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       __bswap_16 (
-# 727 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 727 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       (uint16_t)(uint16_t)n
-# 727 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 727 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       )
-# 727 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 727 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       ; memcpy(&buf[1], &val, 2); } while(0);
         return (*(x)->callback)((x)->data, (const char*)buf, 3);
     } else {
         unsigned char buf[5];
         buf[0] = 0xdd; do { uint32_t val = 
-# 731 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 731 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       __bswap_32 (
-# 731 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 731 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       (uint32_t)(uint32_t)n
-# 731 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 731 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       )
-# 731 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 731 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       ; memcpy(&buf[1], &val, 4); } while(0);
         return (*(x)->callback)((x)->data, (const char*)buf, 5);
     }
@@ -21635,25 +21635,25 @@ inline int msgpack_pack_map(msgpack_packer* x, size_t n)
     } else if(n < 65536) {
         unsigned char buf[3];
         buf[0] = 0xde; do { uint16_t val = 
-# 748 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 748 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       __bswap_16 (
-# 748 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 748 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       (uint16_t)(uint16_t)n
-# 748 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 748 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       )
-# 748 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 748 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       ; memcpy(&buf[1], &val, 2); } while(0);
         return (*(x)->callback)((x)->data, (const char*)buf, 3);
     } else {
         unsigned char buf[5];
         buf[0] = 0xdf; do { uint32_t val = 
-# 752 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 752 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       __bswap_32 (
-# 752 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 752 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       (uint32_t)(uint32_t)n
-# 752 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 752 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       )
-# 752 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 752 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       ; memcpy(&buf[1], &val, 4); } while(0);
         return (*(x)->callback)((x)->data, (const char*)buf, 5);
     }
@@ -21676,25 +21676,25 @@ inline int msgpack_pack_str(msgpack_packer* x, size_t l)
     } else if(l < 65536) {
         unsigned char buf[3];
         buf[0] = 0xda; do { uint16_t val = 
-# 773 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 773 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       __bswap_16 (
-# 773 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 773 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       (uint16_t)(uint16_t)l
-# 773 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 773 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       )
-# 773 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 773 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       ; memcpy(&buf[1], &val, 2); } while(0);
         return (*(x)->callback)((x)->data, (const char*)buf, 3);
     } else {
         unsigned char buf[5];
         buf[0] = 0xdb; do { uint32_t val = 
-# 777 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 777 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       __bswap_32 (
-# 777 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 777 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       (uint32_t)(uint32_t)l
-# 777 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 777 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       )
-# 777 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 777 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       ; memcpy(&buf[1], &val, 4); } while(0);
         return (*(x)->callback)((x)->data, (const char*)buf, 5);
     }
@@ -21717,25 +21717,25 @@ inline int msgpack_pack_v4raw(msgpack_packer* x, size_t l)
     } else if(l < 65536) {
         unsigned char buf[3];
         buf[0] = 0xda; do { uint16_t val = 
-# 798 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 798 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       __bswap_16 (
-# 798 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 798 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       (uint16_t)(uint16_t)l
-# 798 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 798 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       )
-# 798 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 798 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       ; memcpy(&buf[1], &val, 2); } while(0);
         return (*(x)->callback)((x)->data, (const char*)buf, 3);
     } else {
         unsigned char buf[5];
         buf[0] = 0xdb; do { uint32_t val = 
-# 802 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 802 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       __bswap_32 (
-# 802 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 802 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       (uint32_t)(uint32_t)l
-# 802 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 802 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       )
-# 802 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 802 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       ; memcpy(&buf[1], &val, 4); } while(0);
         return (*(x)->callback)((x)->data, (const char*)buf, 5);
     }
@@ -21759,25 +21759,25 @@ inline int msgpack_pack_bin(msgpack_packer* x, size_t l)
     } else if(l < 65536) {
         unsigned char buf[3];
         buf[0] = 0xc5; do { uint16_t val = 
-# 824 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 824 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       __bswap_16 (
-# 824 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 824 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       (uint16_t)(uint16_t)l
-# 824 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 824 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       )
-# 824 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 824 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       ; memcpy(&buf[1], &val, 2); } while(0);
         return (*(x)->callback)((x)->data, (const char*)buf, 3);
     } else {
         unsigned char buf[5];
         buf[0] = 0xc6; do { uint32_t val = 
-# 828 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 828 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       __bswap_32 (
-# 828 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 828 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       (uint32_t)(uint32_t)l
-# 828 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 828 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
                       )
-# 828 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 828 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
                       ; memcpy(&buf[1], &val, 4); } while(0);
         return (*(x)->callback)((x)->data, (const char*)buf, 5);
     }
@@ -21836,13 +21836,13 @@ inline int msgpack_pack_ext(msgpack_packer* x, size_t l, int8_t type)
             unsigned char buf[4];
             buf[0] = 0xc8;
             do { uint16_t val = 
-# 885 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 885 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
            __bswap_16 (
-# 885 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 885 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
            (uint16_t)l
-# 885 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 885 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
            )
-# 885 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 885 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
            ; memcpy(&buf[1], &val, 2); } while(0);
             buf[3] = (unsigned char)type;
             return (*(x)->callback)((x)->data, (const char*)buf, 4);
@@ -21850,13 +21850,13 @@ inline int msgpack_pack_ext(msgpack_packer* x, size_t l, int8_t type)
             unsigned char buf[6];
             buf[0] = 0xc9;
             do { uint32_t val = 
-# 891 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 891 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
            __bswap_32 (
-# 891 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 891 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
            (uint32_t)l
-# 891 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 891 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
            )
-# 891 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 891 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
            ; memcpy(&buf[1], &val, 4); } while(0);
             buf[5] = (unsigned char)type;
             return (*(x)->callback)((x)->data, (const char*)buf, 6);
@@ -21880,13 +21880,13 @@ inline int msgpack_pack_timestamp(msgpack_packer* x, const msgpack_timestamp* d)
             uint32_t data32 = (uint32_t)data64;
             msgpack_pack_ext(x, 4, -1);
             do { uint32_t val = 
-# 913 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 913 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
            __bswap_32 (
-# 913 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 913 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
            (uint32_t)data32
-# 913 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 913 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
            )
-# 913 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 913 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
            ; memcpy(buf, &val, 4); } while(0);
             return (*(x)->callback)((x)->data, (const char*)buf, 4);
         } else {
@@ -21894,13 +21894,13 @@ inline int msgpack_pack_timestamp(msgpack_packer* x, const msgpack_timestamp* d)
             char buf[8];
             msgpack_pack_ext(x, 8, -1);
             do { uint64_t val = 
-# 919 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 919 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
            __bswap_64 (
-# 919 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 919 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
            data64
-# 919 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 919 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
            )
-# 919 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 919 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
            ; memcpy(buf, &val, 8); } while(0);
             return (*(x)->callback)((x)->data, (const char*)buf, 8);
         }
@@ -21908,28 +21908,28 @@ inline int msgpack_pack_timestamp(msgpack_packer* x, const msgpack_timestamp* d)
 
         char buf[12];
         do { uint32_t val = 
-# 925 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 925 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
        __bswap_32 (
-# 925 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 925 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
        (uint32_t)d->tv_nsec
-# 925 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 925 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
        )
-# 925 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 925 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
        ; memcpy(&buf[0], &val, 4); } while(0);
         do { uint64_t val = 
-# 926 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 926 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
        __bswap_64 (
-# 926 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 926 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
        d->tv_sec
-# 926 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
+# 926 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h" 3 4
        )
-# 926 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack_template.h"
+# 926 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack_template.h"
        ; memcpy(&buf[4], &val, 8); } while(0);
         msgpack_pack_ext(x, 12, -1);
         return (*(x)->callback)((x)->data, (const char*)buf, 12);
     }
 }
-# 129 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack.h" 2
+# 129 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack.h" 2
 
 inline void msgpack_packer_init(msgpack_packer* pk, void* data, msgpack_packer_write callback)
 {
@@ -21941,9 +21941,9 @@ inline msgpack_packer* msgpack_packer_new(void* data, msgpack_packer_write callb
 {
     msgpack_packer* pk = (msgpack_packer*)calloc(1, sizeof(msgpack_packer));
     if(!pk) { return 
-# 139 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack.h" 3 4
+# 139 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack.h" 3 4
                     ((void *)0)
-# 139 "/home/nick/dl/neovim/.deps/usr/include/msgpack/pack.h"
+# 139 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/pack.h"
                         ; }
     msgpack_packer_init(pk, data, callback);
     return pk;
@@ -21974,9 +21974,9 @@ inline int msgpack_pack_str_with_body(msgpack_packer* pk, const void* b, size_t 
      if (ret != 0) { return ret; }
      return msgpack_pack_ext_body(pk, b, l);
  }
-# 20 "/home/nick/dl/neovim/.deps/usr/include/msgpack.h" 2
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h" 1
-# 28 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 20 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h" 1
+# 28 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
 typedef struct msgpack_unpacked {
     msgpack_zone* zone;
     msgpack_object data;
@@ -21995,7 +21995,7 @@ typedef enum {
 msgpack_unpack_return
 msgpack_unpack_next(msgpack_unpacked* result,
         const char* data, size_t len, size_t* off);
-# 56 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 56 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
 typedef struct msgpack_unpacker {
     char* buffer;
     size_t used;
@@ -22006,12 +22006,12 @@ typedef struct msgpack_unpacker {
     size_t initial_buffer_size;
     void* ctx;
 } msgpack_unpacker;
-# 76 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 76 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
 
 
-# 77 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
+# 77 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
 _Bool 
-# 77 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 77 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
     msgpack_unpacker_init(msgpack_unpacker* mpac, size_t initial_buffer_size);
 
 
@@ -22033,17 +22033,17 @@ msgpack_unpacker* msgpack_unpacker_new(size_t initial_buffer_size);
 
 
 void msgpack_unpacker_free(msgpack_unpacker* mpac);
-# 111 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 111 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
 static inline 
-# 111 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
+# 111 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
              _Bool 
-# 111 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 111 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
                     msgpack_unpacker_reserve_buffer(msgpack_unpacker* mpac, size_t size);
-# 120 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 120 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
 static inline char* msgpack_unpacker_buffer(msgpack_unpacker* mpac);
-# 129 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 129 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
 static inline size_t msgpack_unpacker_buffer_capacity(const msgpack_unpacker* mpac);
-# 138 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 138 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
 static inline void msgpack_unpacker_buffer_consumed(msgpack_unpacker* mpac, size_t size);
 
 
@@ -22054,7 +22054,7 @@ static inline void msgpack_unpacker_buffer_consumed(msgpack_unpacker* mpac, size
 
 
 msgpack_unpack_return msgpack_unpacker_next(msgpack_unpacker* mpac, msgpack_unpacked* pac);
-# 156 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 156 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
 
 msgpack_unpack_return msgpack_unpacker_next_with_size(msgpack_unpacker* mpac,
                                                       msgpack_unpacked* result,
@@ -22114,28 +22114,28 @@ static inline size_t msgpack_unpacker_parsed_size(const msgpack_unpacker* mpac);
 
 
 
-# 214 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
+# 214 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
 _Bool 
-# 214 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 214 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
     msgpack_unpacker_flush_zone(msgpack_unpacker* mpac);
 
 
 
-# 217 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
+# 217 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
 _Bool 
-# 217 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 217 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
     msgpack_unpacker_expand_buffer(msgpack_unpacker* mpac, size_t size);
 
 static inline 
-# 219 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
+# 219 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
              _Bool 
-# 219 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 219 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
                   msgpack_unpacker_reserve_buffer(msgpack_unpacker* mpac, size_t size)
 {
     if(mpac->free >= size) { return 
-# 221 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
+# 221 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
                                    1
-# 221 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 221 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
                                        ; }
     return msgpack_unpacker_expand_buffer(mpac, size);
 }
@@ -22175,15 +22175,15 @@ static inline void msgpack_unpacked_init(msgpack_unpacked* result)
 static inline void msgpack_unpacked_destroy(msgpack_unpacked* result)
 {
     if(result->zone != 
-# 259 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
+# 259 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
                       ((void *)0)
-# 259 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 259 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
                           ) {
         msgpack_zone_free(result->zone);
         result->zone = 
-# 261 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
+# 261 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
                       ((void *)0)
-# 261 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 261 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
                           ;
         memset(&result->data, 0, sizeof(msgpack_object));
     }
@@ -22192,27 +22192,27 @@ static inline void msgpack_unpacked_destroy(msgpack_unpacked* result)
 static inline msgpack_zone* msgpack_unpacked_release_zone(msgpack_unpacked* result)
 {
     if(result->zone != 
-# 268 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
+# 268 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
                       ((void *)0)
-# 268 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 268 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
                           ) {
         msgpack_zone* z = result->zone;
         result->zone = 
-# 270 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
+# 270 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
                       ((void *)0)
-# 270 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 270 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
                           ;
         return z;
     }
     return 
-# 273 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
+# 273 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h" 3 4
           ((void *)0)
-# 273 "/home/nick/dl/neovim/.deps/usr/include/msgpack/unpack.h"
+# 273 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/unpack.h"
               ;
 }
-# 21 "/home/nick/dl/neovim/.deps/usr/include/msgpack.h" 2
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h" 1
-# 15 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h"
+# 21 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h" 1
+# 15 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h"
 # 1 "/usr/include/assert.h" 1 3 4
 # 64 "/usr/include/assert.h" 3 4
 
@@ -22237,10 +22237,10 @@ extern void __assert (const char *__assertion, const char *__file, int __line)
 
 
 
-# 16 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h" 2
-# 28 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h"
+# 16 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h" 2
+# 28 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h"
 
-# 28 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h"
+# 28 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h"
 typedef struct msgpack_sbuffer {
     size_t size;
     char* data;
@@ -22265,9 +22265,9 @@ static inline msgpack_sbuffer* msgpack_sbuffer_new(void)
 static inline void msgpack_sbuffer_free(msgpack_sbuffer* sbuf)
 {
     if(sbuf == 
-# 51 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h" 3 4
+# 51 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h" 3 4
               ((void *)0)
-# 51 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h"
+# 51 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h"
                   ) { return; }
     msgpack_sbuffer_destroy(sbuf);
     free(sbuf);
@@ -22282,21 +22282,21 @@ static inline int msgpack_sbuffer_write(void* data, const char* buf, size_t len)
     msgpack_sbuffer* sbuf = (msgpack_sbuffer*)data;
 
     
-# 64 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h" 3 4
+# 64 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h" 3 4
    ((void) sizeof ((
-# 64 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h"
+# 64 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h"
    buf || len == 0
-# 64 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h" 3 4
+# 64 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 64 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h"
+# 64 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h"
    buf || len == 0
-# 64 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h" 3 4
+# 64 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h" 3 4
    ) ; else __assert_fail (
-# 64 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h"
+# 64 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h"
    "buf || len == 0"
-# 64 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h" 3 4
-   , "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h", 64, __extension__ __PRETTY_FUNCTION__); }))
-# 64 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h"
+# 64 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h" 3 4
+   , "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h", 64, __extension__ __PRETTY_FUNCTION__); }))
+# 64 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h"
                           ;
     if(!buf) return 0;
 
@@ -22332,9 +22332,9 @@ static inline char* msgpack_sbuffer_release(msgpack_sbuffer* sbuf)
     char* tmp = sbuf->data;
     sbuf->size = 0;
     sbuf->data = 
-# 98 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h" 3 4
+# 98 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h" 3 4
                 ((void *)0)
-# 98 "/home/nick/dl/neovim/.deps/usr/include/msgpack/sbuffer.h"
+# 98 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/sbuffer.h"
                     ;
     sbuf->alloc = 0;
     return tmp;
@@ -22344,9 +22344,9 @@ static inline void msgpack_sbuffer_clear(msgpack_sbuffer* sbuf)
 {
     sbuf->size = 0;
 }
-# 22 "/home/nick/dl/neovim/.deps/usr/include/msgpack.h" 2
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 1
-# 15 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
+# 22 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 1
+# 15 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
 # 1 "/usr/include/assert.h" 1 3 4
 # 64 "/usr/include/assert.h" 3 4
 
@@ -22371,7 +22371,7 @@ extern void __assert (const char *__assertion, const char *__file, int __line)
 
 
 
-# 16 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 2
+# 16 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 2
 
 
 # 1 "/usr/include/sys/uio.h" 1 3 4
@@ -22454,11 +22454,11 @@ extern ssize_t process_vm_writev (pid_t __pid, const struct iovec *__lvec,
 # 51 "/usr/include/bits/uio-ext.h" 3 4
 
 # 180 "/usr/include/sys/uio.h" 2 3 4
-# 19 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 2
+# 19 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 2
 
-# 19 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
+# 19 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
 typedef struct iovec msgpack_iovec;
-# 39 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
+# 39 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
 struct msgpack_vrefbuffer_chunk;
 typedef struct msgpack_vrefbuffer_chunk msgpack_vrefbuffer_chunk;
 
@@ -22478,12 +22478,12 @@ typedef struct msgpack_vrefbuffer {
 
     msgpack_vrefbuffer_inner_buffer inner_buffer;
 } msgpack_vrefbuffer;
-# 68 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
+# 68 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
 
 
-# 69 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
+# 69 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
 _Bool 
-# 69 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
+# 69 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
     msgpack_vrefbuffer_init(msgpack_vrefbuffer* vbuf,
         size_t ref_size, size_t chunk_size);
 
@@ -22518,20 +22518,20 @@ static inline msgpack_vrefbuffer* msgpack_vrefbuffer_new(size_t ref_size, size_t
 {
     msgpack_vrefbuffer* vbuf = (msgpack_vrefbuffer*)malloc(sizeof(msgpack_vrefbuffer));
     if (vbuf == 
-# 102 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
+# 102 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
                ((void *)0)
-# 102 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
+# 102 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
                    ) return 
-# 102 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
+# 102 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
                             ((void *)0)
-# 102 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
+# 102 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
                                 ;
     if(!msgpack_vrefbuffer_init(vbuf, ref_size, chunk_size)) {
         free(vbuf);
         return 
-# 105 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
+# 105 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
               ((void *)0)
-# 105 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
+# 105 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
                   ;
     }
     return vbuf;
@@ -22540,9 +22540,9 @@ static inline msgpack_vrefbuffer* msgpack_vrefbuffer_new(size_t ref_size, size_t
 static inline void msgpack_vrefbuffer_free(msgpack_vrefbuffer* vbuf)
 {
     if(vbuf == 
-# 112 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
+# 112 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
               ((void *)0)
-# 112 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
+# 112 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
                   ) { return; }
     msgpack_vrefbuffer_destroy(vbuf);
     free(vbuf);
@@ -22552,21 +22552,21 @@ static inline int msgpack_vrefbuffer_write(void* data, const char* buf, size_t l
 {
     msgpack_vrefbuffer* vbuf = (msgpack_vrefbuffer*)data;
     
-# 120 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
+# 120 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
    ((void) sizeof ((
-# 120 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
+# 120 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
    buf || len == 0
-# 120 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
+# 120 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 120 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
+# 120 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
    buf || len == 0
-# 120 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
+# 120 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
    ) ; else __assert_fail (
-# 120 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
+# 120 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
    "buf || len == 0"
-# 120 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
-   , "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h", 120, __extension__ __PRETTY_FUNCTION__); }))
-# 120 "/home/nick/dl/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
+# 120 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h" 3 4
+   , "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h", 120, __extension__ __PRETTY_FUNCTION__); }))
+# 120 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/vrefbuffer.h"
                           ;
 
     if(!buf) return 0;
@@ -22587,9 +22587,9 @@ static inline size_t msgpack_vrefbuffer_veclen(const msgpack_vrefbuffer* vref)
 {
     return (size_t)(vref->tail - vref->array);
 }
-# 23 "/home/nick/dl/neovim/.deps/usr/include/msgpack.h" 2
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/version.h" 1
-# 17 "/home/nick/dl/neovim/.deps/usr/include/msgpack/version.h"
+# 23 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/version.h" 1
+# 17 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/version.h"
 
 const char* msgpack_version(void);
 
@@ -22599,16 +22599,16 @@ int msgpack_version_minor(void);
 
 int msgpack_version_revision(void);
 
-# 1 "/home/nick/dl/neovim/.deps/usr/include/msgpack/version_master.h" 1
-# 27 "/home/nick/dl/neovim/.deps/usr/include/msgpack/version.h" 2
-# 24 "/home/nick/dl/neovim/.deps/usr/include/msgpack.h" 2
-# 5 "/home/nick/dl/neovim/src/nvim/msgpack_rpc/channel_defs.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/version_master.h" 1
+# 27 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack/version.h" 2
+# 24 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/msgpack.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel_defs.h" 2
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/api/private/dispatch.h" 1
-# 11 "/home/nick/dl/neovim/src/nvim/api/private/dispatch.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/dispatch.h" 1
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/dispatch.h"
 typedef Object (*ApiDispatchWrapper)(uint64_t channel_id, Array args, Arena *arena, Error *error);
 
 
@@ -22617,23 +22617,23 @@ struct MsgpackRpcRequestHandler {
   const char *name;
   ApiDispatchWrapper fn;
   
-# 18 "/home/nick/dl/neovim/src/nvim/api/private/dispatch.h" 3 4
+# 18 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/dispatch.h" 3 4
  _Bool 
-# 18 "/home/nick/dl/neovim/src/nvim/api/private/dispatch.h"
+# 18 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/dispatch.h"
       fast;
 
 
 
   
-# 22 "/home/nick/dl/neovim/src/nvim/api/private/dispatch.h" 3 4
+# 22 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/dispatch.h" 3 4
  _Bool 
-# 22 "/home/nick/dl/neovim/src/nvim/api/private/dispatch.h"
+# 22 "/home/nick/git/Src-Arc/neovim/src/nvim/api/private/dispatch.h"
       arena_return;
 
 };
 
 extern const MsgpackRpcRequestHandler method_handlers[];
-# 10 "/home/nick/dl/neovim/src/nvim/msgpack_rpc/channel_defs.h" 2
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel_defs.h" 2
 
 
 
@@ -22644,9 +22644,9 @@ typedef struct Unpacker Unpacker;
 typedef struct {
   uint32_t request_id;
   
-# 19 "/home/nick/dl/neovim/src/nvim/msgpack_rpc/channel_defs.h" 3 4
+# 19 "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel_defs.h" 3 4
  _Bool 
-# 19 "/home/nick/dl/neovim/src/nvim/msgpack_rpc/channel_defs.h"
+# 19 "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel_defs.h"
       returned, errored;
   Object result;
   ArenaMem result_mem;
@@ -22664,24 +22664,24 @@ typedef struct {
 typedef struct {
   Map_cstr_t_ptr_t subscribed_events[1];
   
-# 35 "/home/nick/dl/neovim/src/nvim/msgpack_rpc/channel_defs.h" 3 4
+# 35 "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel_defs.h" 3 4
  _Bool 
-# 35 "/home/nick/dl/neovim/src/nvim/msgpack_rpc/channel_defs.h"
+# 35 "/home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel_defs.h"
       closed;
   Unpacker *unpacker;
   uint32_t next_request_id;
   struct { size_t size; size_t capacity; ChannelCallFrame * *items; } call_stack;
   Dictionary info;
 } RpcState;
-# 21 "/home/nick/dl/neovim/src/nvim/channel.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/os/pty_process.h" 1
+# 21 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process.h" 1
 
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/os/pty_process_unix.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process_unix.h" 1
 
 
 
@@ -22757,13 +22757,13 @@ struct termio
 extern int ioctl (int __fd, unsigned long int __request, ...) __attribute__ ((__nothrow__ , __leaf__));
 # 53 "/usr/include/sys/ioctl.h" 3 4
 
-# 6 "/home/nick/dl/neovim/src/nvim/os/pty_process_unix.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process_unix.h" 2
 
 
 
 
 
-# 10 "/home/nick/dl/neovim/src/nvim/os/pty_process_unix.h"
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process_unix.h"
 typedef struct pty_process {
   Process process;
   uint16_t width, height;
@@ -22780,8 +22780,8 @@ static inline PtyProcess pty_process_init(Loop *loop, void *data)
   rv.tty_fd = -1;
   return rv;
 }
-# 8 "/home/nick/dl/neovim/src/nvim/os/pty_process.h" 2
-# 22 "/home/nick/dl/neovim/src/nvim/channel.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process.h" 2
+# 22 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h" 2
 
 
 
@@ -22816,18 +22816,18 @@ typedef struct {
 
 typedef struct {
   
-# 55 "/home/nick/dl/neovim/src/nvim/channel.h" 3 4
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h" 3 4
  _Bool 
-# 55 "/home/nick/dl/neovim/src/nvim/channel.h"
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h"
       closed;
 } StderrState;
 
 typedef struct {
   LuaRef cb;
   
-# 60 "/home/nick/dl/neovim/src/nvim/channel.h" 3 4
+# 60 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h" 3 4
  _Bool 
-# 60 "/home/nick/dl/neovim/src/nvim/channel.h"
+# 60 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h"
       closed;
 } InternalState;
 
@@ -22836,19 +22836,19 @@ typedef struct {
   dict_T *self;
   garray_T buffer;
   
-# 67 "/home/nick/dl/neovim/src/nvim/channel.h" 3 4
+# 67 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h" 3 4
  _Bool 
-# 67 "/home/nick/dl/neovim/src/nvim/channel.h"
+# 67 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h"
       eof;
   
-# 68 "/home/nick/dl/neovim/src/nvim/channel.h" 3 4
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h" 3 4
  _Bool 
-# 68 "/home/nick/dl/neovim/src/nvim/channel.h"
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h"
       buffered;
   
-# 69 "/home/nick/dl/neovim/src/nvim/channel.h" 3 4
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h" 3 4
  _Bool 
-# 69 "/home/nick/dl/neovim/src/nvim/channel.h"
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h"
       fwd_err;
   const char *type;
 } CallbackReader;
@@ -22860,9 +22860,9 @@ typedef struct {
 
 
 static inline 
-# 79 "/home/nick/dl/neovim/src/nvim/channel.h" 3 4
+# 79 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h" 3 4
              _Bool 
-# 79 "/home/nick/dl/neovim/src/nvim/channel.h"
+# 79 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h"
                   callback_reader_set(CallbackReader reader)
 {
   return reader.cb.type != kCallbackNone || reader.self;
@@ -22885,9 +22885,9 @@ struct Channel {
   } stream;
 
   
-# 100 "/home/nick/dl/neovim/src/nvim/channel.h" 3 4
+# 100 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h" 3 4
  _Bool 
-# 100 "/home/nick/dl/neovim/src/nvim/channel.h"
+# 100 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h"
       is_rpc;
   RpcState rpc;
   Terminal *term;
@@ -22898,14 +22898,14 @@ struct Channel {
   int exit_status;
 
   
-# 109 "/home/nick/dl/neovim/src/nvim/channel.h" 3 4
+# 109 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h" 3 4
  _Bool 
-# 109 "/home/nick/dl/neovim/src/nvim/channel.h"
+# 109 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h"
       callback_busy;
   
-# 110 "/home/nick/dl/neovim/src/nvim/channel.h" 3 4
+# 110 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h" 3 4
  _Bool 
-# 110 "/home/nick/dl/neovim/src/nvim/channel.h"
+# 110 "/home/nick/git/Src-Arc/neovim/src/nvim/channel.h"
       callback_scheduled;
 };
 
@@ -22962,10 +22962,10 @@ static inline Stream *channel_outstream(Channel *chan)
   }
   abort();
 }
-# 9 "/home/nick/dl/neovim/src/nvim/eval.h" 2
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/event/time.h" 1
-# 10 "/home/nick/dl/neovim/src/nvim/event/time.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.h"
 struct time_watcher;
 
 typedef struct time_watcher TimeWatcher;
@@ -22977,24 +22977,24 @@ struct time_watcher {
   time_cb cb, close_cb;
   MultiQueue *events;
   
-# 20 "/home/nick/dl/neovim/src/nvim/event/time.h" 3 4
+# 20 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.h" 3 4
  _Bool 
-# 20 "/home/nick/dl/neovim/src/nvim/event/time.h"
+# 20 "/home/nick/git/Src-Arc/neovim/src/nvim/event/time.h"
       blockable;
 };
-# 11 "/home/nick/dl/neovim/src/nvim/eval.h" 2
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h" 2
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/os/fileio.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/os/fileio.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 8 "/home/nick/dl/neovim/src/nvim/os/fileio.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h" 2
 
 
 
@@ -23003,19 +23003,19 @@ typedef struct {
   int _error;
   RBuffer *rv;
   
-# 15 "/home/nick/dl/neovim/src/nvim/os/fileio.h" 3 4
+# 15 "/home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h" 3 4
  _Bool 
-# 15 "/home/nick/dl/neovim/src/nvim/os/fileio.h"
+# 15 "/home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h"
       wr;
   
-# 16 "/home/nick/dl/neovim/src/nvim/os/fileio.h" 3 4
+# 16 "/home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h" 3 4
  _Bool 
-# 16 "/home/nick/dl/neovim/src/nvim/os/fileio.h"
+# 16 "/home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h"
       eof;
   
-# 17 "/home/nick/dl/neovim/src/nvim/os/fileio.h" 3 4
+# 17 "/home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h" 3 4
  _Bool 
-# 17 "/home/nick/dl/neovim/src/nvim/os/fileio.h"
+# 17 "/home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h"
       non_blocking;
 } FileDescriptor;
 
@@ -23041,9 +23041,9 @@ typedef enum {
 } FileOpenFlags;
 
 static inline 
-# 41 "/home/nick/dl/neovim/src/nvim/os/fileio.h" 3 4
+# 41 "/home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h" 3 4
              _Bool 
-# 41 "/home/nick/dl/neovim/src/nvim/os/fileio.h"
+# 41 "/home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h"
                   file_eof(const FileDescriptor *fp)
   __attribute__((pure)) __attribute__((warn_unused_result)) __attribute__((nonnull));
 
@@ -23054,9 +23054,9 @@ static inline
 
 
 static inline 
-# 50 "/home/nick/dl/neovim/src/nvim/os/fileio.h" 3 4
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h" 3 4
              _Bool 
-# 50 "/home/nick/dl/neovim/src/nvim/os/fileio.h"
+# 50 "/home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h"
                   file_eof(const FileDescriptor *const fp)
 {
   return fp->eof && rbuffer_size(fp->rv) == 0;
@@ -23081,8 +23081,8 @@ enum {
 
   kRWBufferSize = 1024,
 };
-# 14 "/home/nick/dl/neovim/src/nvim/eval.h" 2
-# 1 "/home/nick/dl/neovim/src/nvim/os/stdpaths_defs.h" 1
+# 14 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/os/stdpaths_defs.h" 1
 
 
 
@@ -23097,8 +23097,8 @@ typedef enum {
   kXDGConfigDirs,
   kXDGDataDirs,
 } XDGVarType;
-# 15 "/home/nick/dl/neovim/src/nvim/eval.h" 2
-# 44 "/home/nick/dl/neovim/src/nvim/eval.h"
+# 15 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h" 2
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h"
 typedef struct lval_S {
   const char *ll_name;
   size_t ll_name_len;
@@ -23108,14 +23108,14 @@ typedef struct lval_S {
   listitem_T *ll_li;
   list_T *ll_list;
   
-# 52 "/home/nick/dl/neovim/src/nvim/eval.h" 3 4
+# 52 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h" 3 4
  _Bool 
-# 52 "/home/nick/dl/neovim/src/nvim/eval.h"
+# 52 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h"
       ll_range;
   
-# 53 "/home/nick/dl/neovim/src/nvim/eval.h" 3 4
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h" 3 4
  _Bool 
-# 53 "/home/nick/dl/neovim/src/nvim/eval.h"
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h"
       ll_empty2;
   long ll_n1;
   long ll_n2;
@@ -23258,9 +23258,9 @@ extern const list_T *eval_msgpack_type_lists[kMPExt + 1];
 
 typedef struct {
   
-# 194 "/home/nick/dl/neovim/src/nvim/eval.h" 3 4
+# 194 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h" 3 4
  _Bool 
-# 194 "/home/nick/dl/neovim/src/nvim/eval.h"
+# 194 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h"
       sve_did_save;
   hashtab_T sve_hashtab;
 } save_v_event_T;
@@ -23295,14 +23295,14 @@ typedef struct {
   int emsg_count;
   long timeout;
   
-# 227 "/home/nick/dl/neovim/src/nvim/eval.h" 3 4
+# 227 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h" 3 4
  _Bool 
-# 227 "/home/nick/dl/neovim/src/nvim/eval.h"
+# 227 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h"
       stopped;
   
-# 228 "/home/nick/dl/neovim/src/nvim/eval.h" 3 4
+# 228 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h" 3 4
  _Bool 
-# 228 "/home/nick/dl/neovim/src/nvim/eval.h"
+# 228 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h"
       paused;
   Callback callback;
 } timer_T;
@@ -23343,17 +23343,17 @@ typedef int (*ex_unletlock_callback)(lval_T *, char *, exarg_T *, int);
 
 
 extern 
-# 267 "/home/nick/dl/neovim/src/nvim/eval.h" 3 4
+# 267 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h" 3 4
       _Bool 
-# 267 "/home/nick/dl/neovim/src/nvim/eval.h"
+# 267 "/home/nick/git/Src-Arc/neovim/src/nvim/eval.h"
            *eval_lavars_used;
-# 27 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 27 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/ex_cmds2.h" 1
-# 29 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds2.h" 1
+# 29 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/ex_getln.h" 1
-# 12 "/home/nick/dl/neovim/src/nvim/ex_getln.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_getln.h" 1
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_getln.h"
 struct cmdline_info;
 
 
@@ -23415,9 +23415,9 @@ struct cmdline_info {
   CmdlineInfo *prev_ccline;
   char special_char;
   
-# 72 "/home/nick/dl/neovim/src/nvim/ex_getln.h" 3 4
+# 72 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_getln.h" 3 4
  _Bool 
-# 72 "/home/nick/dl/neovim/src/nvim/ex_getln.h"
+# 72 "/home/nick/git/Src-Arc/neovim/src/nvim/ex_getln.h"
       special_shift;
   CmdRedraw redraw_state;
 };
@@ -23428,26 +23428,26 @@ enum {
   VSE_SHELL = 1,
   VSE_BUFFER = 2,
 };
-# 31 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/extmark.h" 1
+# 31 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/extmark.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/extmark.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/extmark.h" 2
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/decoration.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/decoration.h" 2
-# 18 "/home/nick/dl/neovim/src/nvim/decoration.h"
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h" 2
+# 18 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h"
 typedef uint16_t DecorPriority;
 
 
@@ -23472,9 +23472,9 @@ extern const char *const hl_mode_str[] ;
 
 
 typedef struct { size_t size; size_t capacity; struct virt_line { VirtText line; 
-# 41 "/home/nick/dl/neovim/src/nvim/decoration.h" 3 4
+# 41 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h" 3 4
        _Bool 
-# 41 "/home/nick/dl/neovim/src/nvim/decoration.h"
+# 41 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h"
        left_col; } *items; } VirtLines;
 
 struct Decoration {
@@ -23487,24 +23487,24 @@ struct Decoration {
 
 
   
-# 52 "/home/nick/dl/neovim/src/nvim/decoration.h" 3 4
+# 52 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h" 3 4
  _Bool 
-# 52 "/home/nick/dl/neovim/src/nvim/decoration.h"
+# 52 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h"
       virt_text_hide;
   
-# 53 "/home/nick/dl/neovim/src/nvim/decoration.h" 3 4
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h" 3 4
  _Bool 
-# 53 "/home/nick/dl/neovim/src/nvim/decoration.h"
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h"
       hl_eol;
   
-# 54 "/home/nick/dl/neovim/src/nvim/decoration.h" 3 4
+# 54 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h" 3 4
  _Bool 
-# 54 "/home/nick/dl/neovim/src/nvim/decoration.h"
+# 54 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h"
       virt_lines_above;
   
-# 55 "/home/nick/dl/neovim/src/nvim/decoration.h" 3 4
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h" 3 4
  _Bool 
-# 55 "/home/nick/dl/neovim/src/nvim/decoration.h"
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h"
       conceal;
   TriState spell;
 
@@ -23520,9 +23520,9 @@ struct Decoration {
 
   int conceal_char;
   
-# 69 "/home/nick/dl/neovim/src/nvim/decoration.h" 3 4
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h" 3 4
  _Bool 
-# 69 "/home/nick/dl/neovim/src/nvim/decoration.h"
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h"
       ui_watched;
 };
 
@@ -23537,9 +23537,9 @@ typedef struct {
   Decoration decor;
   int attr_id;
   
-# 82 "/home/nick/dl/neovim/src/nvim/decoration.h" 3 4
+# 82 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h" 3 4
  _Bool 
-# 82 "/home/nick/dl/neovim/src/nvim/decoration.h"
+# 82 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h"
       virt_text_owned;
   int win_col;
   uint64_t ns_id;
@@ -23557,9 +23557,9 @@ typedef struct {
   int eol_col;
 
   
-# 98 "/home/nick/dl/neovim/src/nvim/decoration.h" 3 4
+# 98 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h" 3 4
  _Bool 
-# 98 "/home/nick/dl/neovim/src/nvim/decoration.h"
+# 98 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h"
       conceal;
   int conceal_char;
   int conceal_attr;
@@ -23570,9 +23570,9 @@ typedef struct {
 extern DecorState decor_state ;
 
 static inline 
-# 107 "/home/nick/dl/neovim/src/nvim/decoration.h" 3 4
+# 107 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h" 3 4
              _Bool 
-# 107 "/home/nick/dl/neovim/src/nvim/decoration.h"
+# 107 "/home/nick/git/Src-Arc/neovim/src/nvim/decoration.h"
                   decor_has_sign(Decoration *decor)
 {
   return decor->sign_text
@@ -23581,7 +23581,7 @@ static inline
          || decor->line_hl_id
          || decor->cursorline_hl_id;
 }
-# 11 "/home/nick/dl/neovim/src/nvim/extmark.h" 2
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/extmark.h" 2
 
 
 
@@ -23598,14 +23598,14 @@ typedef struct {
   int end_row;
   colnr_T end_col;
   
-# 26 "/home/nick/dl/neovim/src/nvim/extmark.h" 3 4
+# 26 "/home/nick/git/Src-Arc/neovim/src/nvim/extmark.h" 3 4
  _Bool 
-# 26 "/home/nick/dl/neovim/src/nvim/extmark.h"
+# 26 "/home/nick/git/Src-Arc/neovim/src/nvim/extmark.h"
       right_gravity;
   
-# 27 "/home/nick/dl/neovim/src/nvim/extmark.h" 3 4
+# 27 "/home/nick/git/Src-Arc/neovim/src/nvim/extmark.h" 3 4
  _Bool 
-# 27 "/home/nick/dl/neovim/src/nvim/extmark.h"
+# 27 "/home/nick/git/Src-Arc/neovim/src/nvim/extmark.h"
       end_right_gravity;
   Decoration decor;
 } ExtmarkInfo;
@@ -23675,11 +23675,11 @@ struct undo_object {
     ExtmarkSavePos savepos;
   } data;
 };
-# 32 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 32 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/getchar.h" 1
-# 10 "/home/nick/dl/neovim/src/nvim/getchar.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/getchar.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/getchar.h"
 enum RemapValues {
   REMAP_YES = 0,
   REMAP_NONE = -1,
@@ -23702,37 +23702,37 @@ enum { NSCRIPT = 15, };
 
 
 extern FileDescriptor *scriptin[NSCRIPT];
-# 35 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 35 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/indent.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/indent.h" 1
 
 
 
 
 
 typedef int (*IndentGetter)(void);
-# 39 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/indent_c.h" 1
-# 40 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 39 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/indent_c.h" 1
+# 40 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/mark.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/mark.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h" 2
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/func_attr.h" 1
-# 12 "/home/nick/dl/neovim/src/nvim/mark.h" 2
-# 59 "/home/nick/dl/neovim/src/nvim/mark.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h" 1
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h" 2
+# 59 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h"
 static inline int mark_global_index(const char name)
   FUNC_ATTR_CONST
 {
@@ -23759,21 +23759,21 @@ static inline int mark_local_index(const char name)
 }
 
 static inline 
-# 84 "/home/nick/dl/neovim/src/nvim/mark.h" 3 4
+# 84 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h" 3 4
              _Bool 
-# 84 "/home/nick/dl/neovim/src/nvim/mark.h"
+# 84 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h"
                   lt(pos_T a, pos_T b)
   __attribute__((const)) __attribute__((always_inline));
 static inline 
-# 86 "/home/nick/dl/neovim/src/nvim/mark.h" 3 4
+# 86 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h" 3 4
              _Bool 
-# 86 "/home/nick/dl/neovim/src/nvim/mark.h"
+# 86 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h"
                   equalpos(pos_T a, pos_T b)
   __attribute__((const)) __attribute__((always_inline));
 static inline 
-# 88 "/home/nick/dl/neovim/src/nvim/mark.h" 3 4
+# 88 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h" 3 4
              _Bool 
-# 88 "/home/nick/dl/neovim/src/nvim/mark.h"
+# 88 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h"
                   ltoreq(pos_T a, pos_T b)
   __attribute__((const)) __attribute__((always_inline));
 static inline void clearpos(pos_T *a)
@@ -23781,9 +23781,9 @@ static inline void clearpos(pos_T *a)
 
 
 static inline 
-# 94 "/home/nick/dl/neovim/src/nvim/mark.h" 3 4
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h" 3 4
              _Bool 
-# 94 "/home/nick/dl/neovim/src/nvim/mark.h"
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h"
                   lt(pos_T a, pos_T b)
 {
   if (a.lnum != b.lnum) {
@@ -23797,9 +23797,9 @@ static inline
 
 
 static inline 
-# 106 "/home/nick/dl/neovim/src/nvim/mark.h" 3 4
+# 106 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h" 3 4
              _Bool 
-# 106 "/home/nick/dl/neovim/src/nvim/mark.h"
+# 106 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h"
                   equalpos(pos_T a, pos_T b)
 {
   return (a.lnum == b.lnum) && (a.col == b.col) && (a.coladd == b.coladd);
@@ -23807,9 +23807,9 @@ static inline
 
 
 static inline 
-# 112 "/home/nick/dl/neovim/src/nvim/mark.h" 3 4
+# 112 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h" 3 4
              _Bool 
-# 112 "/home/nick/dl/neovim/src/nvim/mark.h"
+# 112 "/home/nick/git/Src-Arc/neovim/src/nvim/mark.h"
                   ltoreq(pos_T a, pos_T b)
 {
   return lt(a, b) || equalpos(a, b);
@@ -23822,34 +23822,34 @@ static inline void clearpos(pos_T *a)
   a->col = 0;
   a->coladd = 0;
 }
-# 43 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 43 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/mouse.h" 1
-# 9 "/home/nick/dl/neovim/src/nvim/mouse.h"
-# 1 "/home/nick/dl/neovim/src/nvim/window.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/mouse.h" 1
+# 9 "/home/nick/git/Src-Arc/neovim/src/nvim/mouse.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/window.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/window.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/window.h" 2
 
 
 
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/os/os.h" 1
-# 12 "/home/nick/dl/neovim/src/nvim/window.h" 2
-# 40 "/home/nick/dl/neovim/src/nvim/window.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/os/os.h" 1
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/window.h" 2
+# 40 "/home/nick/git/Src-Arc/neovim/src/nvim/window.h"
 extern 
-# 40 "/home/nick/dl/neovim/src/nvim/window.h" 3 4
+# 40 "/home/nick/git/Src-Arc/neovim/src/nvim/window.h" 3 4
       _Bool 
-# 40 "/home/nick/dl/neovim/src/nvim/window.h"
+# 40 "/home/nick/git/Src-Arc/neovim/src/nvim/window.h"
            p_ch_was_zero ;
-# 10 "/home/nick/dl/neovim/src/nvim/mouse.h" 2
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/mouse.h" 2
 
 
 
@@ -23895,38 +23895,38 @@ enum {
   MSCR_LEFT = -1,
   MSCR_RIGHT = -2,
 };
-# 48 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/move.h" 1
-# 49 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 48 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/move.h" 1
+# 49 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/ops.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/ops.h" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.h" 2
 
-# 1 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lauxlib.h" 1
-# 12 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lauxlib.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lauxlib.h" 1
+# 12 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lauxlib.h"
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 13 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lauxlib.h" 2
+# 13 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lauxlib.h" 2
 
 
-# 1 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lua.h" 1
-# 13 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lua.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lua.h" 1
+# 13 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lua.h"
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 14 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lua.h" 2
+# 14 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lua.h" 2
 
 
-# 1 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/luaconf.h" 1
-# 12 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/luaconf.h"
+# 1 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/luaconf.h" 1
+# 12 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/luaconf.h"
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/limits.h" 1 3 4
-# 13 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/luaconf.h" 2
+# 13 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/luaconf.h" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 14 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/luaconf.h" 2
-# 17 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lua.h" 2
-# 51 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lua.h"
+# 14 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/luaconf.h" 2
+# 17 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lua.h" 2
+# 51 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lua.h"
 typedef struct lua_State lua_State;
 
 typedef int (*lua_CFunction) (lua_State *L);
@@ -23944,7 +23944,7 @@ typedef int (*lua_Writer) (lua_State *L, const void* p, size_t sz, void* ud);
 
 
 typedef void * (*lua_Alloc) (void *ud, void *ptr, size_t osize, size_t nsize);
-# 100 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lua.h"
+# 100 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lua.h"
 typedef double lua_Number;
 
 
@@ -24062,7 +24062,7 @@ extern int (lua_dump) (lua_State *L, lua_Writer writer, void *data);
 extern int (lua_yield) (lua_State *L, int nresults);
 extern int (lua_resume) (lua_State *L, int narg);
 extern int (lua_status) (lua_State *L);
-# 232 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lua.h"
+# 232 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lua.h"
 extern int (lua_gc) (lua_State *L, int what, int data);
 
 
@@ -24078,9 +24078,9 @@ extern void (lua_concat) (lua_State *L, int n);
 
 extern lua_Alloc (lua_getallocf) (lua_State *L, void **ud);
 extern void lua_setallocf (lua_State *L, lua_Alloc f, void *ud);
-# 300 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lua.h"
+# 300 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lua.h"
 extern void lua_setlevel (lua_State *from, lua_State *to);
-# 328 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lua.h"
+# 328 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lua.h"
 typedef struct lua_Debug lua_Debug;
 
 
@@ -24127,7 +24127,7 @@ struct lua_Debug {
 
   int i_ci;
 };
-# 16 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lauxlib.h" 2
+# 16 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lauxlib.h" 2
 
 
 
@@ -24205,32 +24205,32 @@ extern void (luaL_pushmodule) (lua_State *L, const char *modname,
        int sizehint);
 extern void *(luaL_testudata) (lua_State *L, int ud, const char *tname);
 extern void (luaL_setmetatable) (lua_State *L, const char *tname);
-# 135 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lauxlib.h"
+# 135 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lauxlib.h"
 typedef struct luaL_Buffer {
   char *p;
   int lvl;
   lua_State *L;
   char buffer[(
-# 139 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lauxlib.h" 3 4
+# 139 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lauxlib.h" 3 4
              8192 
-# 139 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lauxlib.h"
+# 139 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lauxlib.h"
              > 16384 ? 8192 : 
-# 139 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lauxlib.h" 3 4
+# 139 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lauxlib.h" 3 4
              8192
-# 139 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lauxlib.h"
+# 139 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lauxlib.h"
              )];
 } luaL_Buffer;
-# 151 "/home/nick/dl/neovim/.deps/usr/include/luajit-2.1/lauxlib.h"
+# 151 "/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1/lauxlib.h"
 extern void (luaL_buffinit) (lua_State *L, luaL_Buffer *B);
 extern char *(luaL_prepbuffer) (luaL_Buffer *B);
 extern void (luaL_addlstring) (luaL_Buffer *B, const char *s, size_t l);
 extern void (luaL_addstring) (luaL_Buffer *B, const char *s);
 extern void (luaL_addvalue) (luaL_Buffer *B);
 extern void (luaL_pushresult) (luaL_Buffer *B);
-# 8 "/home/nick/dl/neovim/src/nvim/ops.h" 2
-# 19 "/home/nick/dl/neovim/src/nvim/ops.h"
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.h" 2
+# 19 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.h"
 typedef int (*Indenter)(void);
-# 79 "/home/nick/dl/neovim/src/nvim/ops.h"
+# 79 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.h"
 enum GRegFlags {
   kGRegNoExpr = 1,
   kGRegExprSrc = 2,
@@ -24284,8 +24284,8 @@ static inline int op_reg_index(const int regname)
 
 
 extern LuaRef repeat_luaref ;
-# 51 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/option.h" 1
+# 51 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/option.h" 1
 
 
 
@@ -24301,47 +24301,47 @@ typedef enum {
   gov_hidden_number,
   gov_hidden_string,
 } getoption_T;
-# 52 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/os/input.h" 1
-# 10 "/home/nick/dl/neovim/src/nvim/os/input.h"
+# 52 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/os/input.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/os/input.h"
 extern 
-# 10 "/home/nick/dl/neovim/src/nvim/os/input.h" 3 4
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/os/input.h" 3 4
       _Bool 
-# 10 "/home/nick/dl/neovim/src/nvim/os/input.h"
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/os/input.h"
            used_stdin ;
-# 53 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 53 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/plines.h" 1
-# 10 "/home/nick/dl/neovim/src/nvim/plines.h"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/plines.h" 1
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/plines.h"
 typedef struct {
   win_T *cts_win;
   char *cts_line;
   char *cts_ptr;
 
   
-# 15 "/home/nick/dl/neovim/src/nvim/plines.h" 3 4
+# 15 "/home/nick/git/Src-Arc/neovim/src/nvim/plines.h" 3 4
  _Bool 
-# 15 "/home/nick/dl/neovim/src/nvim/plines.h"
+# 15 "/home/nick/git/Src-Arc/neovim/src/nvim/plines.h"
       cts_has_virt_text;
   int cts_cur_text_width;
 
 
   int cts_vcol;
 } chartabsize_T;
-# 55 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/search.h" 1
-# 67 "/home/nick/dl/neovim/src/nvim/search.h"
+# 55 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/search.h" 1
+# 67 "/home/nick/git/Src-Arc/neovim/src/nvim/search.h"
 typedef struct soffset {
   char dir;
   
-# 69 "/home/nick/dl/neovim/src/nvim/search.h" 3 4
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/search.h" 3 4
  _Bool 
-# 69 "/home/nick/dl/neovim/src/nvim/search.h"
+# 69 "/home/nick/git/Src-Arc/neovim/src/nvim/search.h"
       line;
   
-# 70 "/home/nick/dl/neovim/src/nvim/search.h" 3 4
+# 70 "/home/nick/git/Src-Arc/neovim/src/nvim/search.h" 3 4
  _Bool 
-# 70 "/home/nick/dl/neovim/src/nvim/search.h"
+# 70 "/home/nick/git/Src-Arc/neovim/src/nvim/search.h"
       end;
   int64_t off;
 } SearchOffset;
@@ -24350,14 +24350,14 @@ typedef struct soffset {
 typedef struct spat {
   char *pat;
   
-# 77 "/home/nick/dl/neovim/src/nvim/search.h" 3 4
+# 77 "/home/nick/git/Src-Arc/neovim/src/nvim/search.h" 3 4
  _Bool 
-# 77 "/home/nick/dl/neovim/src/nvim/search.h"
+# 77 "/home/nick/git/Src-Arc/neovim/src/nvim/search.h"
       magic;
   
-# 78 "/home/nick/dl/neovim/src/nvim/search.h" 3 4
+# 78 "/home/nick/git/Src-Arc/neovim/src/nvim/search.h" 3 4
  _Bool 
-# 78 "/home/nick/dl/neovim/src/nvim/search.h"
+# 78 "/home/nick/git/Src-Arc/neovim/src/nvim/search.h"
       no_scs;
   Timestamp timestamp;
   SearchOffset off;
@@ -24376,9 +24376,9 @@ typedef struct searchstat {
   int cur;
   int cnt;
   
-# 95 "/home/nick/dl/neovim/src/nvim/search.h" 3 4
+# 95 "/home/nick/git/Src-Arc/neovim/src/nvim/search.h" 3 4
  _Bool 
-# 95 "/home/nick/dl/neovim/src/nvim/search.h"
+# 95 "/home/nick/git/Src-Arc/neovim/src/nvim/search.h"
       exact_match;
   int incomplete;
 
@@ -24393,13 +24393,13 @@ typedef struct {
   char *str;
   int score;
 } fuzmatch_str_T;
-# 56 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/state.h" 1
+# 56 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/state.h" 1
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 5 "/home/nick/dl/neovim/src/nvim/state.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/state.h" 2
 
 struct vim_state;
 
@@ -24412,20 +24412,20 @@ struct vim_state {
   state_check_callback check;
   state_execute_callback execute;
 };
-# 57 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 57 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 
 
-# 1 "/home/nick/dl/neovim/src/nvim/textformat.h" 1
-# 60 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/textformat.h" 1
+# 60 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/ui.h" 1
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h" 1
 
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/ui.h" 2
-# 16 "/home/nick/dl/neovim/src/nvim/ui.h"
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h" 2
+# 16 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h"
 struct ui_t;
 
 typedef enum {
@@ -24444,7 +24444,7 @@ typedef enum {
 } UIExtension;
 
 extern const char *ui_ext_names[]
-# 44 "/home/nick/dl/neovim/src/nvim/ui.h"
+# 44 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h"
   ;
 
 typedef struct ui_t UI;
@@ -24472,9 +24472,9 @@ typedef struct {
 
   size_t pack_totlen;
   
-# 70 "/home/nick/dl/neovim/src/nvim/ui.h" 3 4
+# 70 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h" 3 4
  _Bool 
-# 70 "/home/nick/dl/neovim/src/nvim/ui.h"
+# 70 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h"
       buf_overflow;
   char *temp_buf;
 
@@ -24486,9 +24486,9 @@ typedef struct {
   uint32_t nevents;
   uint32_t ncalls;
   
-# 80 "/home/nick/dl/neovim/src/nvim/ui.h" 3 4
+# 80 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h" 3 4
  _Bool 
-# 80 "/home/nick/dl/neovim/src/nvim/ui.h"
+# 80 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h"
       flushed_events;
 
   size_t ncells_pending;
@@ -24499,40 +24499,40 @@ typedef struct {
 
   Integer client_row, client_col;
   
-# 89 "/home/nick/dl/neovim/src/nvim/ui.h" 3 4
+# 89 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h" 3 4
  _Bool 
-# 89 "/home/nick/dl/neovim/src/nvim/ui.h"
+# 89 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h"
       wildmenu_active;
 } UIData;
 
 struct ui_t {
   
-# 93 "/home/nick/dl/neovim/src/nvim/ui.h" 3 4
+# 93 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h" 3 4
  _Bool 
-# 93 "/home/nick/dl/neovim/src/nvim/ui.h"
+# 93 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h"
       rgb;
   
-# 94 "/home/nick/dl/neovim/src/nvim/ui.h" 3 4
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h" 3 4
  _Bool 
-# 94 "/home/nick/dl/neovim/src/nvim/ui.h"
+# 94 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h"
       override;
   
-# 95 "/home/nick/dl/neovim/src/nvim/ui.h" 3 4
+# 95 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h" 3 4
  _Bool 
-# 95 "/home/nick/dl/neovim/src/nvim/ui.h"
+# 95 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h"
       composed;
   
-# 96 "/home/nick/dl/neovim/src/nvim/ui.h" 3 4
+# 96 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h" 3 4
  _Bool 
-# 96 "/home/nick/dl/neovim/src/nvim/ui.h"
+# 96 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h"
       ui_ext[kUIExtCount];
   int width;
   int height;
   int pum_nlines;
   
-# 100 "/home/nick/dl/neovim/src/nvim/ui.h" 3 4
+# 100 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h" 3 4
  _Bool 
-# 100 "/home/nick/dl/neovim/src/nvim/ui.h"
+# 100 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h"
       pum_pos;
   double pum_row;
   double pum_col;
@@ -24544,14 +24544,14 @@ struct ui_t {
   char *term_background;
   int term_colors;
   
-# 110 "/home/nick/dl/neovim/src/nvim/ui.h" 3 4
+# 110 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h" 3 4
  _Bool 
-# 110 "/home/nick/dl/neovim/src/nvim/ui.h"
+# 110 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h"
       stdin_tty;
   
-# 111 "/home/nick/dl/neovim/src/nvim/ui.h" 3 4
+# 111 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h" 3 4
  _Bool 
-# 111 "/home/nick/dl/neovim/src/nvim/ui.h"
+# 111 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h"
       stdout_tty;
 
 
@@ -24561,55 +24561,55 @@ struct ui_t {
 typedef struct ui_event_callback {
   LuaRef cb;
   
-# 119 "/home/nick/dl/neovim/src/nvim/ui.h" 3 4
+# 119 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h" 3 4
  _Bool 
-# 119 "/home/nick/dl/neovim/src/nvim/ui.h"
+# 119 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h"
       ext_widgets[kUILinegrid];
 } UIEventCallback;
-# 129 "/home/nick/dl/neovim/src/nvim/ui.h"
+# 129 "/home/nick/git/Src-Arc/neovim/src/nvim/ui.h"
 extern MultiQueue *resize_events;
-# 62 "/home/nick/dl/neovim/src/nvim/ops.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/undo.h" 1
-# 63 "/home/nick/dl/neovim/src/nvim/ops.c" 2
+# 62 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/undo.h" 1
+# 63 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 2
 
 
 
 static yankreg_T y_regs[39] = { 0 };
 
 static yankreg_T *y_previous = 
-# 68 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                               ((void *)0)
-# 68 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 68 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                   ;
 
 
 static int batch_change_count = 0;
 static 
-# 72 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 72 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
       _Bool 
-# 72 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 72 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
            clipboard_delay_update = 
-# 72 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 72 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                     0
-# 72 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 72 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                          ;
 static 
-# 73 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 73 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
       _Bool 
-# 73 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 73 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
            clipboard_needs_update = 
-# 73 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 73 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                     0
-# 73 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 73 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                          ;
 static 
-# 74 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 74 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
       _Bool 
-# 74 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 74 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
            clipboard_didwarn = 
-# 74 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 74 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                0
-# 74 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 74 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                     ;
 
 
@@ -24630,7 +24630,7 @@ struct block_def {
   colnr_T end_char_vcols;
   colnr_T start_char_vcols;
 };
-# 106 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 106 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 static char opchars[][3] = {
   { '\000', '\000', 0 },
   { 'd', '\000', 2 },
@@ -24762,9 +24762,9 @@ void op_shift(oparg_T *oap, int curs_top, int amount)
 
 
       shift_line(oap->op_type == 4, p_sr, amount, 
-# 236 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 236 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                          0
-# 236 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 236 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                               );
     }
     curwin->w_cursor.lnum++;
@@ -24791,84 +24791,84 @@ void op_shift(oparg_T *oap, int curs_top, int amount)
     }
 
     char *msg_line_single = 
-# 261 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 261 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                            dcngettext (((void *)0), 
-# 261 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 261 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            "%" 
-# 261 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 261 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                            "l" "d" 
-# 261 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 261 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            " line %sed %d time"
-# 261 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 261 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                            , 
-# 261 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 261 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            "%" 
-# 261 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 261 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                            "l" "d" 
-# 261 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 261 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            " line %sed %d times"
-# 261 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 261 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                            , 
-# 261 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 261 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            (unsigned long)amount
-# 261 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 261 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                            , 5)
                                                                               
-# 262 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 262 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                              ;
     char *msg_line_plural = 
-# 263 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 263 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                            dcngettext (((void *)0), 
-# 263 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 263 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            "%" 
-# 263 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 263 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                            "l" "d" 
-# 263 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 263 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            " lines %sed %d time"
-# 263 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 263 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                            , 
-# 263 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 263 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            "%" 
-# 263 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 263 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                            "l" "d" 
-# 263 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 263 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            " lines %sed %d times"
-# 263 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 263 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                            , 
-# 263 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 263 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            (unsigned long)amount
-# 263 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 263 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                            , 5)
                                                                                
-# 264 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 264 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                               ;
     vim_snprintf(IObuff, (1024 + 1),
                  
-# 266 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 266 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 dcngettext (((void *)0), 
-# 266 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 266 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                 msg_line_single
-# 266 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 266 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 , 
-# 266 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 266 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                 msg_line_plural
-# 266 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 266 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 , 
-# 266 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 266 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                 (unsigned long)oap->line_count
-# 266 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 266 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 , 5)
-# 266 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 266 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                            ,
                  (int64_t)oap->line_count, op, amount);
     msg_attr_keep(IObuff, 0, 
-# 268 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 268 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             1
-# 268 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 268 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                 , 
-# 268 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 268 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                   0
-# 268 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 268 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                        );
   }
 
@@ -24883,9 +24883,9 @@ void op_shift(oparg_T *oap, int curs_top, int amount)
   }
 
   changed_lines(oap->start.lnum, 0, oap->end.lnum + 1, 0L, 
-# 281 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 281 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                           1
-# 281 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 281 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                               );
 }
 
@@ -24928,9 +24928,9 @@ void shift_line(int left, int round, int amount, int call_changed_bytes)
 
   if (State & 0x200) {
     change_indent(1, count, 
-# 322 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 322 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                     0
-# 322 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 322 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                          , '\000', call_changed_bytes);
   } else {
     (void)set_indent(count, call_changed_bytes ? 1 : 0);
@@ -24942,9 +24942,9 @@ void shift_line(int left, int round, int amount, int call_changed_bytes)
 static void shift_block(oparg_T *oap, int amount)
 {
   const 
-# 332 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 332 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
        _Bool 
-# 332 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 332 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             left = (oap->op_type == 4);
   const int oldstate = State;
   char *newp;
@@ -24960,9 +24960,9 @@ static void shift_block(oparg_T *oap, int amount)
 
   State = 0x10;
   block_prep(oap, &bd, curwin->w_cursor.lnum, 
-# 346 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 346 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                              1
-# 346 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 346 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                  );
   if (bd.is_short) {
     return;
@@ -25022,21 +25022,21 @@ static void shift_block(oparg_T *oap, int amount)
     const int len = (int)strlen(bd.textstart) + 1;
     int col = bd.textcol + i + j + len;
     
-# 404 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 404 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ((void) sizeof ((
-# 404 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 404 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    col >= 0
-# 404 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 404 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 404 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 404 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    col >= 0
-# 404 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 404 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ) ; else __assert_fail (
-# 404 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 404 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    "col >= 0"
-# 404 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/ops.c", 404, __extension__ __PRETTY_FUNCTION__); }))
-# 404 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 404 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c", 404, __extension__ __PRETTY_FUNCTION__); }))
+# 404 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                    ;
     newp = xmalloc((size_t)col);
     memset(newp, '\000', (size_t)col);
@@ -25059,7 +25059,7 @@ static void shift_block(oparg_T *oap, int amount)
     size_t new_line_len;
 
     char *non_white = bd.textstart;
-# 436 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 436 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
     if (bd.startspaces) {
       (non_white += utfc_ptr2len((char *)non_white));
     }
@@ -25115,40 +25115,40 @@ static void shift_block(oparg_T *oap, int amount)
 
 
     
-# 490 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 490 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ((void) sizeof ((
-# 490 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 490 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    destination_col - verbatim_copy_width >= 0
-# 490 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 490 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 490 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 490 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    destination_col - verbatim_copy_width >= 0
-# 490 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 490 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ) ; else __assert_fail (
-# 490 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 490 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    "destination_col - verbatim_copy_width >= 0"
-# 490 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/ops.c", 490, __extension__ __PRETTY_FUNCTION__); }))
-# 490 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 490 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c", 490, __extension__ __PRETTY_FUNCTION__); }))
+# 490 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                      ;
     fill = (size_t)(destination_col - verbatim_copy_width);
 
     
-# 493 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 493 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ((void) sizeof ((
-# 493 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 493 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    verbatim_copy_end - oldp >= 0
-# 493 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 493 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 493 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 493 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    verbatim_copy_end - oldp >= 0
-# 493 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 493 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ) ; else __assert_fail (
-# 493 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 493 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    "verbatim_copy_end - oldp >= 0"
-# 493 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/ops.c", 493, __extension__ __PRETTY_FUNCTION__); }))
-# 493 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 493 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c", 493, __extension__ __PRETTY_FUNCTION__); }))
+# 493 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                         ;
     const size_t verbatim_diff = (size_t)(verbatim_copy_end - oldp);
 
@@ -25167,9 +25167,9 @@ static void shift_block(oparg_T *oap, int amount)
   }
 
   ml_replace(curwin->w_cursor.lnum, newp, 
-# 510 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 510 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                          0
-# 510 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 510 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                               );
   changed_bytes(curwin->w_cursor.lnum, bd.textcol);
   extmark_splice_cols(curbuf, (int)curwin->w_cursor.lnum - 1, startcol,
@@ -25196,9 +25196,9 @@ static void block_insert(oparg_T *oap, char *s, int b_insert, struct block_def *
 
   for (lnum = oap->start.lnum + 1; lnum <= oap->end.lnum; lnum++) {
     block_prep(oap, bdp, lnum, 
-# 535 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 535 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                               1
-# 535 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 535 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                   );
     if (bdp->is_short && b_insert) {
       continue;
@@ -25240,21 +25240,21 @@ static void block_insert(oparg_T *oap, char *s, int b_insert, struct block_def *
     }
 
     
-# 575 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 575 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ((void) sizeof ((
-# 575 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 575 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    count >= 0
-# 575 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 575 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 575 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 575 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    count >= 0
-# 575 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 575 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ) ; else __assert_fail (
-# 575 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 575 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    "count >= 0"
-# 575 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/ops.c", 575, __extension__ __PRETTY_FUNCTION__); }))
-# 575 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 575 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c", 575, __extension__ __PRETTY_FUNCTION__); }))
+# 575 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      ;
 
     newp = xmalloc(strlen(oldp) + (size_t)spaces + s_len
@@ -25295,9 +25295,9 @@ static void block_insert(oparg_T *oap, char *s, int b_insert, struct block_def *
     memmove((newp + offset), (oldp), strlen(oldp) + 1);
 
     ml_replace(lnum, newp, 
-# 614 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 614 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           0
-# 614 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 614 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                );
     extmark_splice_cols(curbuf, (int)lnum - 1, startcol,
                         skipped, offset - startcol, kExtmarkUndo);
@@ -25313,9 +25313,9 @@ static void block_insert(oparg_T *oap, char *s, int b_insert, struct block_def *
   State = oldstate;
 
   changed_lines(oap->start.lnum + 1, 0, oap->end.lnum + 1, 0L, 
-# 628 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 628 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                               1
-# 628 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 628 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                   );
 }
 
@@ -25330,13 +25330,13 @@ void op_reindent(oparg_T *oap, Indenter how)
 
   if (!(curbuf->b_p_ma)) {
     emsg(
-# 641 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 641 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         dcgettext (((void *)0), 
-# 641 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 641 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         e_modifiable
-# 641 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 641 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         , 5)
-# 641 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 641 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        );
     return;
   }
@@ -25345,9 +25345,9 @@ void op_reindent(oparg_T *oap, Indenter how)
 
   if (u_savecommon(curbuf, start_lnum - 1, start_lnum + (linenr_T)oap->line_count,
                    start_lnum + (linenr_T)oap->line_count, 
-# 648 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 648 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                           0
-# 648 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 648 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                ) == 1) {
     char *l;
     int amount;
@@ -25359,17 +25359,17 @@ void op_reindent(oparg_T *oap, Indenter how)
           && (i % 50 == 0 || i == oap->line_count - 1)
           && oap->line_count > p_report) {
         smsg(
-# 658 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 658 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             dcgettext (((void *)0), 
-# 658 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 658 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             "%" 
-# 658 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 658 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             "l" "d" 
-# 658 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 658 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             " lines to indent... "
-# 658 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 658 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             , 5)
-# 658 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 658 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                 , (int64_t)i);
       }
 
@@ -25407,9 +25407,9 @@ void op_reindent(oparg_T *oap, Indenter how)
     changed_lines(first_changed, 0,
                   oap->is_VIsual ? start_lnum + (linenr_T)oap->line_count :
                   last_changed + 1, 0L, 
-# 694 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 694 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                        1
-# 694 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 694 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                            );
   } else if (oap->is_VIsual) {
     redraw_curbuf_later(UPD_INVERTED);
@@ -25418,30 +25418,30 @@ void op_reindent(oparg_T *oap, Indenter how)
   if (oap->line_count > p_report) {
     i = oap->line_count - (i + 1);
     smsg(
-# 701 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 701 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         dcngettext (((void *)0), 
-# 701 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 701 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         "%" 
-# 701 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 701 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         "l" "d" 
-# 701 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 701 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         " line indented "
-# 701 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 701 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         , 
-# 701 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 701 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         "%" 
-# 701 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 701 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         "l" "d" 
-# 701 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 701 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         " lines indented "
-# 701 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 701 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         , 
-# 701 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 701 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         (unsigned long)i
-# 701 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 701 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         , 5)
                                                    
-# 702 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 702 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                   ,
          (int64_t)i);
   }
@@ -25454,9 +25454,9 @@ void op_reindent(oparg_T *oap, Indenter how)
 
 
 static char *expr_line = 
-# 713 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 713 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                         ((void *)0)
-# 713 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 713 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
 
 
@@ -25467,14 +25467,14 @@ int get_expr_register(void)
   char *new_line;
 
   new_line = getcmdline('=', 0L, 0, 
-# 722 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 722 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                    1
-# 722 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 722 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                        );
   if (new_line == 
-# 723 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 723 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  ((void *)0)
-# 723 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 723 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      ) {
     return '\000';
   }
@@ -25504,14 +25504,14 @@ char *get_expr_line(void)
   static int nested = 0;
 
   if (expr_line == 
-# 751 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 751 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   ((void *)0)
-# 751 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 751 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ) {
     return 
-# 752 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 752 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           ((void *)0)
-# 752 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 752 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
   }
 
@@ -25527,13 +25527,13 @@ char *get_expr_line(void)
 
   nested++;
   rv = eval_to_string(expr_copy, 
-# 766 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 766 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                 ((void *)0)
-# 766 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 766 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                     , 
-# 766 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 766 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                       1
-# 766 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 766 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                           );
   nested--;
   xfree(expr_copy);
@@ -25544,34 +25544,34 @@ char *get_expr_line(void)
 char *get_expr_line_src(void)
 {
   if (expr_line == 
-# 775 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 775 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   ((void *)0)
-# 775 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 775 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ) {
     return 
-# 776 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 776 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           ((void *)0)
-# 776 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 776 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
   }
   return xstrdup(expr_line);
 }
-# 788 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 788 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 
-# 788 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 788 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
 _Bool 
-# 788 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 788 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
     valid_yank_reg(int regname, 
-# 788 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 788 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                 _Bool 
-# 788 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 788 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                      writing)
 {
   if ((regname > 0 && ((((unsigned)(regname) >= 'A' && (unsigned)(regname) <= 'Z') || ((unsigned)(regname) >= 'a' && (unsigned)(regname) <= 'z')) || ascii_isdigit(regname)))
       || (!writing && vim_strchr("/.%:=", regname) != 
-# 791 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 791 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                      ((void *)0)
-# 791 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 791 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                          )
       || regname == '#'
       || regname == '"'
@@ -25580,35 +25580,35 @@ _Bool
       || regname == '*'
       || regname == '+') {
     return 
-# 798 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 798 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           1
-# 798 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 798 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
   }
   return 
-# 800 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 800 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         0
-# 800 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 800 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
              ;
 }
-# 821 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 821 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 yankreg_T *get_yank_register(int regname, int mode)
 {
   yankreg_T *reg;
 
   if (mode == YREG_PASTE && get_clipboard(regname, &reg, 
-# 825 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 825 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                         0
-# 825 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 825 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                              )) {
 
     return reg;
   } else if (mode != YREG_YANK
              && (regname == 0 || regname == '"' || regname == '*' || regname == '+')
              && y_previous != 
-# 830 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 830 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                              ((void *)0)
-# 830 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 830 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                  ) {
 
     return y_previous;
@@ -25629,9 +25629,9 @@ yankreg_T *get_yank_register(int regname, int mode)
 }
 
 static 
-# 849 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 849 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
       _Bool 
-# 849 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 849 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
            is_append_register(int regname)
 {
   return ((unsigned)(regname) >= 'A' && (unsigned)(regname) <= 'Z');
@@ -25641,9 +25641,9 @@ static
 
 
 static inline 
-# 857 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 857 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
              _Bool 
-# 857 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 857 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   is_literal_register(int regname)
   FUNC_ATTR_CONST
 {
@@ -25661,9 +25661,9 @@ yankreg_T *copy_register(int name)
   *copy = *reg;
   if (copy->y_size == 0) {
     copy->y_array = 
-# 873 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 873 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    ((void *)0)
-# 873 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 873 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        ;
   } else {
     copy->y_array = xcalloc(copy->y_size, sizeof(char *));
@@ -25676,27 +25676,27 @@ yankreg_T *copy_register(int name)
 
 
 
-# 884 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 884 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
 _Bool 
-# 884 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 884 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
     yank_register_mline(int regname)
 {
   if (regname != 0 && !valid_yank_reg(regname, 
-# 886 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 886 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                               0
-# 886 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 886 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                    )) {
     return 
-# 887 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 887 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           0
-# 887 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 887 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                ;
   }
   if (regname == '_') {
     return 
-# 890 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 890 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           0
-# 890 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 890 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                ;
   }
   yankreg_T *reg = get_yank_register(regname, YREG_PASTE);
@@ -25725,17 +25725,17 @@ int do_record(int c)
       retval = 1;
 
       apply_autocmds(EVENT_RECORDINGENTER, 
-# 917 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 917 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                           ((void *)0)
-# 917 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 917 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                               , 
-# 917 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 917 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                 ((void *)0)
-# 917 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 917 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                     , 
-# 917 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 917 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                       0
-# 917 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 917 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                            , curbuf);
     }
   } else {
@@ -25746,9 +25746,9 @@ int do_record(int c)
 
     char *p = get_recorded();
     if (p != 
-# 926 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 926 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             ((void *)0)
-# 926 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 926 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                 ) {
 
       vim_unescape_ks(p);
@@ -25766,17 +25766,17 @@ int do_record(int c)
 
 
     apply_autocmds(EVENT_RECORDINGLEAVE, 
-# 942 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 942 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                         ((void *)0)
-# 942 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 942 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                             , 
-# 942 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 942 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                               ((void *)0)
-# 942 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 942 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                   , 
-# 942 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 942 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                     0
-# 942 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 942 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                          , curbuf);
     restore_v_event(dict, &save_v_event);
     reg_recorded = reg_recording;
@@ -25787,9 +25787,9 @@ int do_record(int c)
       msg("");
     }
     if (p == 
-# 951 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 951 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             ((void *)0)
-# 951 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 951 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                 ) {
       retval = 0;
     } else {
@@ -25823,9 +25823,9 @@ static int stuff_yank(int regname, char *p)
 {
 
   if (regname != 0 && !valid_yank_reg(regname, 
-# 983 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 983 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                               1
-# 983 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 983 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                   )) {
     xfree(p);
     return 0;
@@ -25836,9 +25836,9 @@ static int stuff_yank(int regname, char *p)
   }
   yankreg_T *reg = get_yank_register(regname, YREG_YANK);
   if (is_append_register(regname) && reg->y_array != 
-# 992 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 992 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                     ((void *)0)
-# 992 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 992 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                         ) {
     char **pp = &(reg->y_array[reg->y_size - 1]);
     char *lp = xmalloc(strlen(*pp) + strlen(p) + 1);
@@ -25851,9 +25851,9 @@ static int stuff_yank(int regname, char *p)
   } else {
     free_register(reg);
     set_yreg_additional_data(reg, 
-# 1003 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1003 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                  ((void *)0)
-# 1003 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1003 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                      );
     reg->y_array = xmalloc(sizeof(char *));
     reg->y_array[0] = p;
@@ -25865,26 +25865,26 @@ static int stuff_yank(int regname, char *p)
 }
 
 static int execreg_lastc = '\000';
-# 1026 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1026 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 static char *execreg_line_continuation(char **lines, size_t *idx)
 {
   size_t i = *idx;
   
-# 1029 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1029 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ((void) sizeof ((
-# 1029 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1029 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  i > 0
-# 1029 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1029 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 1029 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1029 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  i > 0
-# 1029 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1029 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ) ; else __assert_fail (
-# 1029 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1029 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  "i > 0"
-# 1029 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/ops.c", 1029, __extension__ __PRETTY_FUNCTION__); }))
-# 1029 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1029 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c", 1029, __extension__ __PRETTY_FUNCTION__); }))
+# 1029 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
   const size_t cmd_end = i;
 
@@ -25913,25 +25913,25 @@ static char *execreg_line_continuation(char **lines, size_t *idx)
 
       if (ga.ga_len > 400) {
         ga_set_growsize(&ga, 
-# 1056 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1056 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             (((
-# 1056 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1056 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ga.ga_len
-# 1056 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1056 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             )<(
-# 1056 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1056 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             8000
-# 1056 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1056 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             ))?(
-# 1056 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1056 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ga.ga_len
-# 1056 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1056 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             ):(
-# 1056 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1056 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             8000
-# 1056 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1056 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             ))
-# 1056 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1056 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                 );
       }
       ga_concat(&ga, p + 1);
@@ -25944,7 +25944,7 @@ static char *execreg_line_continuation(char **lines, size_t *idx)
   *idx = i;
   return str;
 }
-# 1076 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1076 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 int do_execreg(int regname, int colon, int addcr, int silent)
 {
   char *p;
@@ -25953,13 +25953,13 @@ int do_execreg(int regname, int colon, int addcr, int silent)
   if (regname == '@') {
     if (execreg_lastc == '\000') {
       emsg(
-# 1083 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1083 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           dcgettext (((void *)0), 
-# 1083 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1083 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
           "E748: No previously used register"
-# 1083 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1083 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           , 5)
-# 1083 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1083 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                 );
       return 0;
     }
@@ -25967,9 +25967,9 @@ int do_execreg(int regname, int colon, int addcr, int silent)
   }
 
   if (regname == '%' || regname == '#' || !valid_yank_reg(regname, 
-# 1089 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1089 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                   0
-# 1089 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1089 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                        )) {
     emsg_invreg(regname);
     return 0;
@@ -25982,26 +25982,26 @@ int do_execreg(int regname, int colon, int addcr, int silent)
 
   if (regname == ':') {
     if (last_cmdline == 
-# 1100 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1100 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        ((void *)0)
-# 1100 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1100 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            ) {
       emsg(
-# 1101 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1101 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           dcgettext (((void *)0), 
-# 1101 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1101 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
           e_nolastcmd
-# 1101 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1101 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           , 5)
-# 1101 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1101 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         );
       return 0;
     }
 
     do { void **ptr_ = (void **)&(new_last_cmdline); xfree(*ptr_); *ptr_ = 
-# 1105 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1105 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ((void *)0)
-# 1105 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1105 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    ; (void)(*ptr_); } while (0);
 
     p = vim_strsave_escaped_ext(last_cmdline,
@@ -26010,79 +26010,79 @@ int do_execreg(int regname, int colon, int addcr, int silent)
                                 "\020\021\022\023\024\025\026\027"
                                 "\030\031\032\033\034\035\036\037",
                                 22, 
-# 1112 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1112 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                        0
-# 1112 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1112 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                             );
 
 
     if (VIsual_active && strncmp(p, "'<,'>", 5) == 0) {
       retval = put_in_typebuf(p + 5, 
-# 1116 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1116 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                     1
-# 1116 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1116 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                         , 
-# 1116 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1116 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                           1
-# 1116 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1116 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                               , silent);
     } else {
       retval = put_in_typebuf(p, 
-# 1118 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1118 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                 1
-# 1118 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1118 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                     , 
-# 1118 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1118 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                       1
-# 1118 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1118 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                           , silent);
     }
     xfree(p);
   } else if (regname == '=') {
     p = get_expr_line();
     if (p == 
-# 1123 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1123 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             ((void *)0)
-# 1123 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1123 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                 ) {
       return 0;
     }
     retval = put_in_typebuf(p, 
-# 1126 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1126 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                               1
-# 1126 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1126 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                   , colon, silent);
     xfree(p);
   } else if (regname == '.') {
     p = get_last_insert_save();
     if (p == 
-# 1130 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1130 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             ((void *)0)
-# 1130 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1130 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                 ) {
       emsg(
-# 1131 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1131 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           dcgettext (((void *)0), 
-# 1131 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1131 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
           e_noinstext
-# 1131 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1131 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           , 5)
-# 1131 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1131 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         );
       return 0;
     }
     retval = put_in_typebuf(p, 
-# 1134 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1134 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                               0
-# 1134 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1134 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                    , colon, silent);
     xfree(p);
   } else {
     yankreg_T *reg = get_yank_register(regname, YREG_PASTE);
     if (reg->y_array == 
-# 1138 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1138 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        ((void *)0)
-# 1138 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1138 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            ) {
       return 0;
     }
@@ -26096,9 +26096,9 @@ int do_execreg(int regname, int colon, int addcr, int silent)
 
       if (reg->y_type == kMTLineWise || i < reg->y_size - 1 || addcr) {
         if (ins_typebuf("\n", remap, 0, 
-# 1150 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1150 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                        1
-# 1150 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1150 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                            , silent) == 0) {
           return 0;
         }
@@ -26107,22 +26107,22 @@ int do_execreg(int regname, int colon, int addcr, int silent)
 
       char *str = reg->y_array[i];
       
-# 1157 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1157 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
      _Bool 
-# 1157 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1157 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
           free_str = 
-# 1157 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1157 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      0
-# 1157 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1157 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                           ;
       if (colon && i > 0) {
         p = skipwhite(str);
         if (*p == '\\' || (p[0] == '"' && p[1] == '\\' && p[2] == ' ')) {
           str = execreg_line_continuation(reg->y_array, &i);
           free_str = 
-# 1162 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1162 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     1
-# 1162 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1162 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         ;
         }
       }
@@ -26131,9 +26131,9 @@ int do_execreg(int regname, int colon, int addcr, int silent)
         xfree(str);
       }
       retval = ins_typebuf(escaped, remap, 0, 
-# 1169 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1169 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                              1
-# 1169 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1169 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                  , silent);
       xfree(escaped);
       if (retval == 0) {
@@ -26141,9 +26141,9 @@ int do_execreg(int regname, int colon, int addcr, int silent)
       }
       if (colon
           && ins_typebuf(":", remap, 0, 
-# 1175 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1175 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                        1
-# 1175 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1175 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                            , silent) == 0) {
         return 0;
       }
@@ -26172,9 +26172,9 @@ static void put_reedit_in_typebuf(int silent)
     buf[1] = '\000';
   }
   if (ins_typebuf((char *)buf, REMAP_NONE, 0, 
-# 1202 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1202 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                              1
-# 1202 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1202 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                  , silent) == 1) {
     restart_edit = '\000';
   }
@@ -26187,13 +26187,13 @@ static void put_reedit_in_typebuf(int silent)
 
 
 static int put_in_typebuf(char *s, 
-# 1213 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1213 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                   _Bool 
-# 1213 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1213 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                        esc, 
-# 1213 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1213 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                             _Bool 
-# 1213 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1213 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                  colon, int silent)
 {
   int retval = 1;
@@ -26201,9 +26201,9 @@ static int put_in_typebuf(char *s,
   put_reedit_in_typebuf(silent);
   if (colon) {
     retval = ins_typebuf("\n", REMAP_NONE, 0, 
-# 1219 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1219 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                              1
-# 1219 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1219 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                  , silent);
   }
   if (retval == 1) {
@@ -26215,16 +26215,16 @@ static int put_in_typebuf(char *s,
       p = s;
     }
     if (p == 
-# 1229 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1229 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             ((void *)0)
-# 1229 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1229 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                 ) {
       retval = 0;
     } else {
       retval = ins_typebuf(p, esc ? REMAP_NONE : REMAP_YES, 0, 
-# 1232 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1232 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                               1
-# 1232 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1232 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                   , silent);
     }
     if (esc) {
@@ -26233,9 +26233,9 @@ static int put_in_typebuf(char *s,
   }
   if (colon && retval == 1) {
     retval = ins_typebuf(":", REMAP_NONE, 0, 
-# 1239 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1239 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                             1
-# 1239 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1239 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                 , silent);
   }
   return retval;
@@ -26248,21 +26248,21 @@ static int put_in_typebuf(char *s,
 
 
 int insert_reg(int regname, 
-# 1250 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1250 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                            _Bool 
-# 1250 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1250 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                 literally_arg)
 {
   int retval = 1;
   
-# 1253 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1253 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  _Bool 
-# 1253 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1253 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
       allocated;
   const 
-# 1254 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1254 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
        _Bool 
-# 1254 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1254 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             literally = literally_arg || is_literal_register(regname);
 
 
@@ -26275,9 +26275,9 @@ int insert_reg(int regname,
 
 
   if (regname != '\000' && !valid_yank_reg(regname, 
-# 1265 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1265 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                 0
-# 1265 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1265 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                      )) {
     return 0;
   }
@@ -26285,19 +26285,19 @@ int insert_reg(int regname,
   char *arg;
   if (regname == '.') {
     retval = stuff_inserted('\000', 1L, 
-# 1271 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1271 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                     1
-# 1271 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1271 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                         );
   } else if (get_spec_reg(regname, &arg, &allocated, 
-# 1272 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1272 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                     1
-# 1272 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1272 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                         )) {
     if (arg == 
-# 1273 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1273 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
               ((void *)0)
-# 1273 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1273 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   ) {
       return 0;
     }
@@ -26308,9 +26308,9 @@ int insert_reg(int regname,
   } else {
     yankreg_T *reg = get_yank_register(regname, YREG_PASTE);
     if (reg->y_array == 
-# 1282 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1282 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        ((void *)0)
-# 1282 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1282 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            ) {
       retval = 0;
     } else {
@@ -26319,9 +26319,9 @@ int insert_reg(int regname,
           AppendCharToRedobuff(18);
           AppendCharToRedobuff(regname);
           do_put(regname, 
-# 1289 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1289 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                          ((void *)0)
-# 1289 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1289 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                              , BACKWARD, 1L, 2);
         } else {
           stuffescaped(reg->y_array[i], literally);
@@ -26337,32 +26337,32 @@ int insert_reg(int regname,
 
   return retval;
 }
-# 1312 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1312 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 
-# 1312 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1312 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
 _Bool 
-# 1312 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1312 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
     get_spec_reg(int regname, char **argp, 
-# 1312 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1312 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                            _Bool 
-# 1312 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1312 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                 *allocated, 
-# 1312 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1312 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                             _Bool 
-# 1312 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1312 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                  errmsg)
 {
   size_t cnt;
 
   *argp = 
-# 1316 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1316 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
          ((void *)0)
-# 1316 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1316 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
              ;
   *allocated = 
-# 1317 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1317 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
               0
-# 1317 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1317 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                    ;
   switch (regname) {
   case '%':
@@ -26371,221 +26371,221 @@ _Bool
     }
     *argp = curbuf->b_fname;
     return 
-# 1324 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1324 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           1
-# 1324 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1324 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
 
   case '#':
     *argp = getaltfname(errmsg);
     return 
-# 1328 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1328 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           1
-# 1328 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1328 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
 
   case '=':
     *argp = get_expr_line();
     *allocated = 
-# 1332 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1332 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 1
-# 1332 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1332 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
     return 
-# 1333 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1333 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           1
-# 1333 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1333 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
 
   case ':':
     if (last_cmdline == 
-# 1336 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1336 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        ((void *)0) 
-# 1336 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1336 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             && errmsg) {
       emsg(
-# 1337 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1337 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           dcgettext (((void *)0), 
-# 1337 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1337 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
           e_nolastcmd
-# 1337 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1337 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           , 5)
-# 1337 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1337 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         );
     }
     *argp = last_cmdline;
     return 
-# 1340 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1340 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           1
-# 1340 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1340 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
 
   case '/':
     if (last_search_pat() == 
-# 1343 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1343 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             ((void *)0) 
-# 1343 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1343 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                  && errmsg) {
       emsg(
-# 1344 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1344 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           dcgettext (((void *)0), 
-# 1344 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1344 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
           e_noprevre
-# 1344 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1344 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           , 5)
-# 1344 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1344 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        );
     }
     *argp = last_search_pat();
     return 
-# 1347 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1347 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           1
-# 1347 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1347 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
 
   case '.':
     *argp = get_last_insert_save();
     *allocated = 
-# 1351 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1351 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 1
-# 1351 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1351 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
     if (*argp == 
-# 1352 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1352 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 ((void *)0) 
-# 1352 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1352 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      && errmsg) {
       emsg(
-# 1353 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1353 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           dcgettext (((void *)0), 
-# 1353 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1353 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
           e_noinstext
-# 1353 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1353 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           , 5)
-# 1353 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1353 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         );
     }
     return 
-# 1355 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1355 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           1
-# 1355 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1355 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
 
   case 6:
   case 16:
     if (!errmsg) {
       return 
-# 1360 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1360 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             0
-# 1360 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1360 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                  ;
     }
     *argp = file_name_at_cursor(1 | 4 | (regname == 16 ? 2 : 0),
                                 1L, 
-# 1363 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1363 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                    ((void *)0)
-# 1363 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1363 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                        );
     *allocated = 
-# 1364 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1364 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 1
-# 1364 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1364 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
     return 
-# 1365 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1365 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           1
-# 1365 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1365 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
 
   case 23:
   case 1:
     if (!errmsg) {
       return 
-# 1370 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1370 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             0
-# 1370 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1370 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                  ;
     }
     cnt = find_ident_under_cursor(argp, (regname == 23
                                          ? (1|2)
                                          : 2));
     *argp = cnt ? xstrnsave(*argp, cnt) : 
-# 1375 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1375 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                          ((void *)0)
-# 1375 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1375 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                              ;
     *allocated = 
-# 1376 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1376 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 1
-# 1376 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1376 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
     return 
-# 1377 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1377 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           1
-# 1377 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1377 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
 
   case 12:
     if (!errmsg) {
       return 
-# 1381 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1381 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             0
-# 1381 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1381 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                  ;
     }
 
     *argp = ml_get_buf(curwin->w_buffer, curwin->w_cursor.lnum, 
-# 1384 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1384 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                0
-# 1384 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1384 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                     );
     return 
-# 1385 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1385 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           1
-# 1385 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1385 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
 
   case '_':
     *argp = "";
     return 
-# 1389 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1389 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           1
-# 1389 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1389 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
   }
 
   return 
-# 1392 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1392 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         0
-# 1392 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1392 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
              ;
 }
-# 1406 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1406 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 
-# 1406 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1406 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
 _Bool 
-# 1406 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1406 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
     cmdline_paste_reg(int regname, 
-# 1406 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1406 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                    _Bool 
-# 1406 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1406 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                         literally_arg, 
-# 1406 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1406 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                        _Bool 
-# 1406 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1406 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                             remcr)
 {
   const 
-# 1408 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1408 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
        _Bool 
-# 1408 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1408 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             literally = literally_arg || is_literal_register(regname);
 
   yankreg_T *reg = get_yank_register(regname, YREG_PASTE);
   if (reg->y_array == 
-# 1411 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1411 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      ((void *)0)
-# 1411 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1411 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ) {
     return 0;
   }
@@ -26610,9 +26610,9 @@ _Bool
 
 
 static void shift_delete_registers(
-# 1434 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1434 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                   _Bool 
-# 1434 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1434 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                        y_append)
 {
   free_register(&y_regs[9]);
@@ -26623,9 +26623,9 @@ static void shift_delete_registers(
     y_previous = &y_regs[1];
   }
   y_regs[1].y_array = 
-# 1443 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1443 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      ((void *)0)
-# 1443 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1443 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ;
 }
 
@@ -26652,13 +26652,13 @@ int op_delete(oparg_T *oap)
 
   if (!(curbuf->b_p_ma)) {
     emsg(
-# 1468 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1468 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         dcgettext (((void *)0), 
-# 1468 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1468 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         e_modifiable
-# 1468 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1468 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         , 5)
-# 1468 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1468 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        );
     return 0;
   }
@@ -26702,9 +26702,9 @@ int op_delete(oparg_T *oap)
       goto setmarks;
     }
     if (vim_strchr(p_cpo, 'E') != 
-# 1510 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1510 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                              ((void *)0)
-# 1510 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1510 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                  ) {
       beep_flush();
     }
@@ -26716,35 +26716,35 @@ int op_delete(oparg_T *oap)
 
   if (oap->regname != '_') {
     yankreg_T *reg = 
-# 1520 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1520 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     ((void *)0)
-# 1520 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1520 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         ;
     int did_yank = 
-# 1521 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1521 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   0
-# 1521 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1521 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        ;
     if (oap->regname != 0) {
 
       if (!valid_yank_reg(oap->regname, 
-# 1524 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1524 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                        1
-# 1524 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1524 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                            )) {
         beep_flush();
         return 1;
       }
       reg = get_yank_register(oap->regname, YREG_YANK);
       op_yank_reg(oap, 
-# 1529 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1529 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       0
-# 1529 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1529 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            , reg, is_append_register(oap->regname));
       did_yank = 
-# 1530 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1530 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 1
-# 1530 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1530 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
     }
 
@@ -26756,18 +26756,18 @@ int op_delete(oparg_T *oap)
       shift_delete_registers(is_append_register(oap->regname));
       reg = &y_regs[1];
       op_yank_reg(oap, 
-# 1540 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1540 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       0
-# 1540 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1540 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            , reg, 
-# 1540 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1540 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                   0
-# 1540 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1540 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                        );
       did_yank = 
-# 1541 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1541 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 1
-# 1541 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1541 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
     }
 
@@ -26777,26 +26777,26 @@ int op_delete(oparg_T *oap)
         && oap->line_count == 1) {
       reg = get_yank_register('-', YREG_YANK);
       op_yank_reg(oap, 
-# 1549 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1549 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       0
-# 1549 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1549 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            , reg, 
-# 1549 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1549 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                   0
-# 1549 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1549 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                        );
       did_yank = 
-# 1550 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1550 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 1
-# 1550 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1550 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
     }
 
     if (did_yank || oap->regname == 0) {
       if (reg == 
-# 1554 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1554 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 ((void *)0)
-# 1554 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1554 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ) {
         abort();
       }
@@ -26814,9 +26814,9 @@ int op_delete(oparg_T *oap)
 
     for (lnum = curwin->w_cursor.lnum; lnum <= oap->end.lnum; lnum++) {
       block_prep(oap, &bd, lnum, 
-# 1570 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1570 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                 1
-# 1570 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1570 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                     );
       if (bd.textlen == 0) {
         continue;
@@ -26844,9 +26844,9 @@ int op_delete(oparg_T *oap)
       memmove((newp + bd.textcol + bd.startspaces + bd.endspaces), (oldp), strlen(oldp) + 1);
 
       ml_replace(lnum, newp, 
-# 1596 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1596 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             0
-# 1596 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1596 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                  );
 
       extmark_splice_cols(curbuf, (int)lnum - 1, bd.textcol,
@@ -26857,9 +26857,9 @@ int op_delete(oparg_T *oap)
     check_cursor_col();
     changed_lines(curwin->w_cursor.lnum, curwin->w_cursor.col,
                   oap->end.lnum + 1, 0L, 
-# 1605 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1605 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                         1
-# 1605 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1605 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                             );
     oap->line_count = 0;
   } else if (oap->motion_type == kMTLineWise) {
@@ -26872,9 +26872,9 @@ int op_delete(oparg_T *oap)
         lnum = curwin->w_cursor.lnum;
         curwin->w_cursor.lnum++;
         del_lines(oap->line_count - 1, 
-# 1616 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1616 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                       1
-# 1616 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1616 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                           );
         curwin->w_cursor.lnum = lnum;
       }
@@ -26884,9 +26884,9 @@ int op_delete(oparg_T *oap)
       if (curbuf->b_p_ai) {
         beginline(1);
         did_ai = 
-# 1624 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1624 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 1
-# 1624 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1624 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
         ai_col = curwin->w_cursor.col;
       } else {
@@ -26895,9 +26895,9 @@ int op_delete(oparg_T *oap)
 
       int old_len = (int)strlen(ml_get(curwin->w_cursor.lnum));
       truncate_line(
-# 1631 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1631 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    0
-# 1631 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1631 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         );
 
       extmark_splice_cols(curbuf,
@@ -26910,9 +26910,9 @@ int op_delete(oparg_T *oap)
       }
     } else {
       del_lines(oap->line_count, 
-# 1642 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1642 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                 1
-# 1642 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1642 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                     );
       beginline(1 | 4);
       u_clearline();
@@ -26962,10 +26962,10 @@ int op_delete(oparg_T *oap)
 
 
       if (vim_strchr(p_cpo, '$') != 
-# 1690 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1690 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                           ((void *)0)
           
-# 1691 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1691 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
          && oap->op_type == 3
           && oap->end.lnum == curwin->w_cursor.lnum
           && !oap->is_VIsual) {
@@ -27014,18 +27014,18 @@ int op_delete(oparg_T *oap)
                                                     startpos.col,
                                                     oap->end.col) + oap->inclusive;
       truncate_line(
-# 1738 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1738 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    1
-# 1738 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1738 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        );
 
       curpos = curwin->w_cursor;
       curwin->w_cursor.lnum++;
 
       del_lines(oap->line_count - 2, 
-# 1743 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1743 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                     0
-# 1743 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1743 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                          );
 
 
@@ -27035,21 +27035,21 @@ int op_delete(oparg_T *oap)
                       oap->op_type == 1 && !oap->is_VIsual);
       curwin->w_cursor = curpos;
       (void)do_join(2, 
-# 1751 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1751 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       0
-# 1751 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1751 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            , 
-# 1751 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1751 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                              0
-# 1751 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1751 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                   , 
-# 1751 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1751 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                     0
-# 1751 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1751 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                          , 
-# 1751 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1751 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                            0
-# 1751 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1751 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                 );
       curbuf_splice_pending--;
       extmark_splice(curbuf, (int)startpos.lnum - 1, startpos.col,
@@ -27058,13 +27058,13 @@ int op_delete(oparg_T *oap)
     }
     if (oap->op_type == 1) {
       auto_format(
-# 1758 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1758 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  0
-# 1758 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1758 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       , 
-# 1758 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1758 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                         1
-# 1758 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1758 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             );
     }
   }
@@ -27101,26 +27101,26 @@ static void mb_adjust_opend(oparg_T *oap)
 static inline void pbyte(pos_T lp, int c)
 {
   
-# 1793 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1793 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ((void) sizeof ((
-# 1793 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1793 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  c <= 
-# 1793 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1793 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  (0x7f * 2 + 1)) ? 1 : 0), __extension__ ({ if (
-# 1793 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1793 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  c <= 
-# 1793 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1793 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  (0x7f * 2 + 1)) ; else __assert_fail (
-# 1793 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1793 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  "c <= UCHAR_MAX"
-# 1793 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/ops.c", 1793, __extension__ __PRETTY_FUNCTION__); }))
-# 1793 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1793 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c", 1793, __extension__ __PRETTY_FUNCTION__); }))
+# 1793 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        ;
   *(ml_get_buf(curbuf, lp.lnum, 
-# 1794 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1794 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                1
-# 1794 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1794 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                    ) + lp.col) = (char)c;
   if (!curbuf_splice_pending) {
     extmark_splice_cols(curbuf, (int)lp.lnum - 1, lp.col, 1, 1, kExtmarkUndo);
@@ -27146,14 +27146,14 @@ static int op_replace(oparg_T *oap, int c)
   int n;
   struct block_def bd;
   char *after_p = 
-# 1818 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1818 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  ((void *)0)
-# 1818 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1818 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      ;
   int had_ctrl_v_cr = 
-# 1819 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1819 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      0
-# 1819 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1819 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                           ;
 
   if ((curbuf->b_ml.ml_flags & 0x01) || oap->empty) {
@@ -27161,16 +27161,16 @@ static int op_replace(oparg_T *oap, int c)
   }
   if (c == (-1)) {
     had_ctrl_v_cr = 
-# 1825 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1825 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    1
-# 1825 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1825 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        ;
     c = '\015';
   } else if (c == (-2)) {
     had_ctrl_v_cr = 
-# 1828 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1828 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    1
-# 1828 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1828 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        ;
     c = '\012';
   }
@@ -27193,9 +27193,9 @@ static int op_replace(oparg_T *oap, int c)
     for (; curwin->w_cursor.lnum <= oap->end.lnum; curwin->w_cursor.lnum++) {
       curwin->w_cursor.col = 0;
       block_prep(oap, &bd, curwin->w_cursor.lnum, 
-# 1849 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1849 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                  1
-# 1849 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1849 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                      );
       if (bd.textlen == 0 && (!virtual_op || bd.is_MAX)) {
         continue;
@@ -27264,21 +27264,21 @@ static int op_replace(oparg_T *oap, int c)
       size_t after_p_len = 0;
       int col = oldlen - bd.textcol - bd.textlen + 1;
       
-# 1916 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1916 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
      ((void) sizeof ((
-# 1916 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1916 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
      col >= 0
-# 1916 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1916 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
      ) ? 1 : 0), __extension__ ({ if (
-# 1916 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1916 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
      col >= 0
-# 1916 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1916 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
      ) ; else __assert_fail (
-# 1916 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1916 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
      "col >= 0"
-# 1916 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
-     , "/home/nick/dl/neovim/src/nvim/ops.c", 1916, __extension__ __PRETTY_FUNCTION__); }))
-# 1916 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1916 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
+     , "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c", 1916, __extension__ __PRETTY_FUNCTION__); }))
+# 1916 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      ;
       int newrows = 0, newcols = 0;
       if (had_ctrl_v_cr || (c != '\r' && c != '\n')) {
@@ -27304,21 +27304,21 @@ static int op_replace(oparg_T *oap, int c)
       }
 
       ml_replace(curwin->w_cursor.lnum, newp, 
-# 1940 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1940 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                              0
-# 1940 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1940 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                   );
       curbuf_splice_pending++;
       linenr_T baselnum = curwin->w_cursor.lnum;
       if (after_p != 
-# 1943 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1943 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     ((void *)0)
-# 1943 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1943 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         ) {
         ml_append(curwin->w_cursor.lnum++, after_p, (int)after_p_len, 
-# 1944 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1944 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                      0
-# 1944 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1944 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                           );
         appended_lines_mark(curwin->w_cursor.lnum, 1L);
         oap->end.lnum++;
@@ -27346,13 +27346,13 @@ static int op_replace(oparg_T *oap, int c)
 
     while (ltoreq(curwin->w_cursor, oap->end)) {
       
-# 1970 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1970 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
      _Bool 
-# 1970 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1970 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
           done = 
-# 1970 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1970 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  0
-# 1970 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1970 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ;
 
       n = gchar_cursor();
@@ -27368,9 +27368,9 @@ static int op_replace(oparg_T *oap, int c)
           }
           replace_character(c);
           done = 
-# 1984 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 1984 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 1
-# 1984 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 1984 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
         } else {
           if (n == '\011') {
@@ -27391,9 +27391,9 @@ static int op_replace(oparg_T *oap, int c)
           if (gchar_cursor() != '\000') {
             pbyte(curwin->w_cursor, c);
             done = 
-# 2003 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2003 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   1
-# 2003 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2003 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ;
           }
         }
@@ -27433,9 +27433,9 @@ static int op_replace(oparg_T *oap, int c)
   curwin->w_cursor = oap->start;
   check_cursor();
   changed_lines(oap->start.lnum, oap->start.col, oap->end.lnum + 1, 0L, 
-# 2041 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2041 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                        1
-# 2041 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2041 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                            );
 
   if ((cmdmod.cmod_flags & CMOD_LOCKMARKS) == 0) {
@@ -27453,9 +27453,9 @@ void op_tilde(oparg_T *oap)
   pos_T pos;
   struct block_def bd;
   int did_change = 
-# 2057 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2057 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   0
-# 2057 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2057 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        ;
 
   if (u_save((linenr_T)(oap->start.lnum - 1),
@@ -27469,9 +27469,9 @@ void op_tilde(oparg_T *oap)
       int one_change;
 
       block_prep(oap, &bd, pos.lnum, 
-# 2069 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2069 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                     0
-# 2069 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2069 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                          );
       pos.col = bd.textcol;
       one_change = swapchars(oap->op_type, &pos, bd.textlen);
@@ -27479,9 +27479,9 @@ void op_tilde(oparg_T *oap)
     }
     if (did_change) {
       changed_lines(oap->start.lnum, 0, oap->end.lnum + 1, 0L, 
-# 2075 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2075 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                               1
-# 2075 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2075 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                   );
     }
   } else {
@@ -27512,9 +27512,9 @@ void op_tilde(oparg_T *oap)
     if (did_change) {
       changed_lines(oap->start.lnum, oap->start.col, oap->end.lnum + 1,
                     0L, 
-# 2104 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2104 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        1
-# 2104 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2104 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            );
     }
   }
@@ -27532,35 +27532,35 @@ void op_tilde(oparg_T *oap)
 
   if (oap->line_count > p_report) {
     smsg(
-# 2120 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2120 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         dcngettext (((void *)0), 
-# 2120 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2120 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         "%" 
-# 2120 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2120 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         "l" "d" 
-# 2120 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2120 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         " line changed"
-# 2120 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2120 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         , 
-# 2120 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2120 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         "%" 
-# 2120 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2120 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         "l" "d" 
-# 2120 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2120 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         " lines changed"
-# 2120 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2120 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         , 
-# 2120 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2120 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         (unsigned long)oap->line_count
-# 2120 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2120 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         , 5)
                                                                
-# 2121 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2121 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                               ,
          (int64_t)oap->line_count);
   }
 }
-# 2133 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2133 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 static int swapchars(int op_type, pos_T *pos, int length)
   FUNC_ATTR_NONNULL_ALL
 {
@@ -27580,11 +27580,11 @@ static int swapchars(int op_type, pos_T *pos, int length)
   }
   return did_change;
 }
-# 2160 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2160 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 
-# 2160 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2160 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
 _Bool 
-# 2160 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2160 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
     swapchar(int op_type, pos_T *pos)
   FUNC_ATTR_NONNULL_ARG(2)
 {
@@ -27593,9 +27593,9 @@ _Bool
 
   if (c >= 0x80 && op_type == 15) {
     return 
-# 2167 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2167 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           0
-# 2167 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2167 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                ;
   }
 
@@ -27605,9 +27605,9 @@ _Bool
 
     curwin->w_cursor = *pos;
     del_char(
-# 2175 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2175 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             0
-# 2175 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2175 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                  );
     ins_char('S');
     ins_char('S');
@@ -27636,13 +27636,13 @@ _Bool
       curwin->w_cursor = *pos;
 
       del_bytes(utf_ptr2len(get_cursor_pos_ptr()), 
-# 2202 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2202 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                   0
-# 2202 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2202 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                        , 
-# 2202 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2202 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                          0
-# 2202 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2202 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                               );
       ins_char(nc);
       curwin->w_cursor = sp;
@@ -27650,15 +27650,15 @@ _Bool
       pbyte(*pos, nc);
     }
     return 
-# 2208 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2208 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           1
-# 2208 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2208 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
   }
   return 
-# 2210 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2210 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         0
-# 2210 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2210 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
              ;
 }
 
@@ -27704,9 +27704,9 @@ void op_insert(oparg_T *oap, long count1)
     }
 
     block_prep(oap, &bd, oap->start.lnum, 
-# 2254 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2254 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                          1
-# 2254 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2254 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                              );
 
     ind_pre_col = (colnr_T)getwhitecols_curline();
@@ -27724,9 +27724,9 @@ void op_insert(oparg_T *oap, long count1)
         && curwin->w_cursor.coladd == 0) {
 
       curwin->w_set_curswant = 
-# 2270 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2270 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                               1
-# 2270 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2270 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                   ;
       while (*get_cursor_pos_ptr() != '\000'
              && (curwin->w_cursor.col < bd.textcol + bd.textlen)) {
@@ -27758,9 +27758,9 @@ void op_insert(oparg_T *oap, long count1)
   t1 = oap->start;
   const pos_T start_insert = curwin->w_cursor;
   (void)edit('\000', 
-# 2300 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2300 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  0
-# 2300 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2300 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       , (linenr_T)count1);
 
 
@@ -27782,13 +27782,13 @@ void op_insert(oparg_T *oap, long count1)
     int ind_post_vcol = 0;
     struct block_def bd2;
     
-# 2320 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2320 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    _Bool 
-# 2320 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2320 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         did_indent = 
-# 2320 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2320 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      0
-# 2320 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2320 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                           ;
 
 
@@ -27799,9 +27799,9 @@ void op_insert(oparg_T *oap, long count1)
       ind_post_vcol = get_indent();
       bd.start_vcol += ind_post_vcol - ind_pre_vcol;
       did_indent = 
-# 2329 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2329 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   1
-# 2329 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2329 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ;
     }
 
@@ -27842,9 +27842,9 @@ void op_insert(oparg_T *oap, long count1)
       oap->end_vcol += ind_post_vcol - ind_pre_vcol;
     }
     block_prep(oap, &bd2, oap->start.lnum, 
-# 2368 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2368 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                           1
-# 2368 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2368 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                               );
     if (did_indent && bd.textcol - ind_post_col > 0) {
 
@@ -27926,16 +27926,16 @@ int op_change(oparg_T *oap)
   if (curbuf->b_ml.ml_flags & 0x01) {
     if (u_save_cursor() == 0) {
       return 
-# 2448 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2448 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             0
-# 2448 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2448 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                  ;
     }
   } else if (op_delete(oap) == 0) {
     return 
-# 2451 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2451 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           0
-# 2451 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2451 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                ;
   }
 
@@ -27964,20 +27964,20 @@ int op_change(oparg_T *oap)
 
 
   const 
-# 2478 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2478 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
        _Bool 
-# 2478 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2478 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             save_finish_op = finish_op;
   finish_op = 
-# 2479 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2479 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
              0
-# 2479 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2479 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   ;
 
   retval = edit('\000', 
-# 2481 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2481 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     0
-# 2481 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2481 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          , (linenr_T)1);
 
   finish_op = save_finish_op;
@@ -28010,9 +28010,9 @@ int op_change(oparg_T *oap)
       for (linenr_T linenr = oap->start.lnum + 1; linenr <= oap->end.lnum;
            linenr++) {
         block_prep(oap, &bd, linenr, 
-# 2512 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                     1
-# 2512 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                         );
         if (!bd.is_short || virtual_op) {
           pos_T vpos;
@@ -28038,9 +28038,9 @@ int op_change(oparg_T *oap)
           oldp += bd.textcol;
           memmove((newp + offset), (oldp), strlen(oldp) + 1);
           ml_replace(linenr, newp, 
-# 2536 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2536 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                   0
-# 2536 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2536 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                        );
           extmark_splice_cols(curbuf, (int)linenr - 1, bd.textcol,
                               0, vpos.coladd + (int)ins_len, kExtmarkUndo);
@@ -28048,38 +28048,38 @@ int op_change(oparg_T *oap)
       }
       check_cursor();
       changed_lines(oap->start.lnum + 1, 0, oap->end.lnum + 1, 0L, 
-# 2542 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2542 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                   1
-# 2542 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2542 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                       );
       xfree(ins_text);
     }
   }
   auto_format(
-# 2546 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2546 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
              0
-# 2546 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2546 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   , 
-# 2546 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2546 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     1
-# 2546 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2546 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         );
 
   return retval;
 }
-# 2567 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2567 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 void free_register(yankreg_T *reg)
   FUNC_ATTR_NONNULL_ALL
 {
   set_yreg_additional_data(reg, 
-# 2570 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2570 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                ((void *)0)
-# 2570 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2570 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                    );
   if (reg->y_array == 
-# 2571 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2571 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      ((void *)0)
-# 2571 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2571 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ) {
     return;
   }
@@ -28088,41 +28088,41 @@ void free_register(yankreg_T *reg)
     xfree(reg->y_array[i]);
   }
   do { void **ptr_ = (void **)&(reg->y_array); xfree(*ptr_); *ptr_ = 
-# 2578 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2578 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ((void *)0)
-# 2578 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2578 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  ; (void)(*ptr_); } while (0);
 }
-# 2589 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2589 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 
-# 2589 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2589 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
 _Bool 
-# 2589 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2589 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
     op_yank(oparg_T *oap, 
-# 2589 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2589 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           _Bool 
-# 2589 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2589 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                message)
   FUNC_ATTR_NONNULL_ALL
 {
 
   if (oap->regname != 0 && !valid_yank_reg(oap->regname, 
-# 2593 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2593 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                         1
-# 2593 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2593 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                             )) {
     beep_flush();
     return 
-# 2595 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2595 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           0
-# 2595 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2595 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                ;
   }
   if (oap->regname == '_') {
     return 
-# 2598 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2598 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           1
-# 2598 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2598 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
   }
 
@@ -28132,20 +28132,20 @@ _Bool
   do_autocmd_textyankpost(oap, reg);
 
   return 
-# 2606 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2606 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         1
-# 2606 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2606 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             ;
 }
 
 static void op_yank_reg(oparg_T *oap, 
-# 2609 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2609 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                      _Bool 
-# 2609 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2609 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                           message, yankreg_T *reg, 
-# 2609 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2609 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                    _Bool 
-# 2609 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2609 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                         append)
 {
   yankreg_T newreg;
@@ -28161,9 +28161,9 @@ static void op_yank_reg(oparg_T *oap,
   yankreg_T *curr = reg;
 
   if (append && reg->y_array != 
-# 2623 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2623 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                ((void *)0)
-# 2623 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2623 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                    ) {
     reg = &newreg;
   } else {
@@ -28188,9 +28188,9 @@ static void op_yank_reg(oparg_T *oap,
   reg->y_width = 0;
   reg->y_array = xcalloc(yanklines, sizeof(char *));
   reg->additional_data = 
-# 2646 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2646 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                         ((void *)0)
-# 2646 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2646 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
   reg->timestamp = os_time();
 
@@ -28210,9 +28210,9 @@ static void op_yank_reg(oparg_T *oap,
     switch (reg->y_type) {
     case kMTBlockWise:
       block_prep(oap, &bd, lnum, 
-# 2664 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2664 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                 0
-# 2664 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2664 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                      );
       yank_copy_line(reg, &bd, y_idx, oap->excl_tr_ws);
       break;
@@ -28224,9 +28224,9 @@ static void op_yank_reg(oparg_T *oap,
     case kMTCharWise: {
       colnr_T startcol = 0, endcol = MAXCOL;
       int is_oneChar = 
-# 2674 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2674 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       0
-# 2674 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2674 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            ;
       colnr_T cs, ce;
       p = ml_get(lnum);
@@ -28237,9 +28237,9 @@ static void op_yank_reg(oparg_T *oap,
         startcol = oap->start.col;
         if (virtual_op) {
           getvcol(curwin, &oap->start, &cs, 
-# 2683 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2683 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                            ((void *)0)
-# 2683 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2683 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                , &ce);
           if (ce != cs && oap->start.coladd > 0) {
 
@@ -28256,9 +28256,9 @@ static void op_yank_reg(oparg_T *oap,
         endcol = oap->end.col;
         if (virtual_op) {
           getvcol(curwin, &oap->end, &cs, 
-# 2698 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2698 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                          ((void *)0)
-# 2698 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2698 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                              , &ce);
           if (p[endcol] == '\000' || (cs + oap->end.coladd < ce
 
@@ -28269,9 +28269,9 @@ static void op_yank_reg(oparg_T *oap,
                 && oap->start.col == oap->end.col) {
 
               is_oneChar = 
-# 2707 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2707 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           1
-# 2707 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2707 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               ;
               bd.startspaces = oap->end.coladd
                                - oap->start.coladd + oap->inclusive;
@@ -28295,9 +28295,9 @@ static void op_yank_reg(oparg_T *oap,
       }
       bd.textstart = p + startcol;
       yank_copy_line(reg, &bd, y_idx, 
-# 2729 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2729 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                      0
-# 2729 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2729 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                           );
       break;
     }
@@ -28325,9 +28325,9 @@ static void op_yank_reg(oparg_T *oap,
 
     if (curr->y_type == kMTCharWise
         && vim_strchr(p_cpo, '>') == 
-# 2755 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2755 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                               ((void *)0)
-# 2755 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2755 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                   ) {
       pnew = xmalloc(strlen(curr->y_array[curr->y_size - 1])
                      + strlen(reg->y_array[0]) + 1);
@@ -28359,13 +28359,13 @@ static void op_yank_reg(oparg_T *oap,
         *namebuf = '\000';
       } else {
         vim_snprintf(namebuf, sizeof(namebuf), 
-# 2785 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2785 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                               dcgettext (((void *)0), 
-# 2785 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2785 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                               " into \"%c"
-# 2785 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2785 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                               , 5)
-# 2785 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2785 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                              , oap->regname);
       }
 
@@ -28376,58 +28376,58 @@ static void op_yank_reg(oparg_T *oap,
       }
       if (yank_type == kMTBlockWise) {
         smsg(
-# 2794 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2794 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             dcngettext (((void *)0), 
-# 2794 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2794 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             "block of %" 
-# 2794 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2794 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             "l" "d" 
-# 2794 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2794 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             " line yanked%s"
-# 2794 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2794 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             , 
-# 2794 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2794 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             "block of %" 
-# 2794 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2794 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             "l" "d" 
-# 2794 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2794 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             " lines yanked%s"
-# 2794 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2794 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             , 
-# 2794 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2794 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             (unsigned long)yanklines
-# 2794 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2794 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             , 5)
                                                                        
-# 2795 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2795 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                       ,
              (int64_t)yanklines, namebuf);
       } else {
         smsg(
-# 2798 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2798 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             dcngettext (((void *)0), 
-# 2798 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2798 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             "%" 
-# 2798 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2798 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             "l" "d" 
-# 2798 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2798 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             " line yanked%s"
-# 2798 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2798 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             , 
-# 2798 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2798 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             "%" 
-# 2798 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2798 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             "l" "d" 
-# 2798 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2798 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             " lines yanked%s"
-# 2798 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2798 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             , 
-# 2798 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2798 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             (unsigned long)yanklines
-# 2798 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2798 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             , 5)
                                                               
-# 2799 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2799 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                              ,
              (int64_t)yanklines, namebuf);
       }
@@ -28450,9 +28450,9 @@ static void op_yank_reg(oparg_T *oap,
 
 static void yank_copy_line(yankreg_T *reg, struct block_def *bd, size_t y_idx,
                            
-# 2820 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2820 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           _Bool 
-# 2820 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2820 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                exclude_trailing_space)
   FUNC_ATTR_NONNULL_ALL
 {
@@ -28461,21 +28461,21 @@ static void yank_copy_line(yankreg_T *reg, struct block_def *bd, size_t y_idx,
   }
   int size = bd->startspaces + bd->endspaces + bd->textlen;
   
-# 2827 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2827 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ((void) sizeof ((
-# 2827 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2827 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  size >= 0
-# 2827 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2827 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 2827 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2827 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  size >= 0
-# 2827 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2827 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ) ; else __assert_fail (
-# 2827 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2827 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  "size >= 0"
-# 2827 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/ops.c", 2827, __extension__ __PRETTY_FUNCTION__); }))
-# 2827 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2827 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c", 2827, __extension__ __PRETTY_FUNCTION__); }))
+# 2827 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   ;
   char *pnew = xmallocz((size_t)size);
   reg->y_array[y_idx] = pnew;
@@ -28504,13 +28504,13 @@ static void do_autocmd_textyankpost(oparg_T *oap, yankreg_T *reg)
   FUNC_ATTR_NONNULL_ALL
 {
   static 
-# 2854 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2854 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         _Bool 
-# 2854 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2854 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
              recursive = 
-# 2854 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2854 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                          0
-# 2854 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2854 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               ;
 
   if (recursive || !has_event(EVENT_TEXTYANKPOST)) {
@@ -28519,9 +28519,9 @@ static void do_autocmd_textyankpost(oparg_T *oap, yankreg_T *reg)
   }
 
   recursive = 
-# 2861 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2861 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
              1
-# 2861 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2861 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                  ;
 
   save_v_event_T save_v_event;
@@ -28562,28 +28562,28 @@ static void do_autocmd_textyankpost(oparg_T *oap, yankreg_T *reg)
   tv_dict_set_keys_readonly(dict);
   textlock++;
   apply_autocmds(EVENT_TEXTYANKPOST, 
-# 2900 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2900 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                     ((void *)0)
-# 2900 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2900 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                         , 
-# 2900 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2900 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                           ((void *)0)
-# 2900 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2900 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                               , 
-# 2900 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2900 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                 0
-# 2900 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2900 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                      , curbuf);
   textlock--;
   restore_v_event(dict, &save_v_event);
 
   recursive = 
-# 2904 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2904 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
              0
-# 2904 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2904 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   ;
 }
-# 2915 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2915 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
 {
   char *ptr;
@@ -28603,9 +28603,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
   int incr = 0;
   struct block_def bd;
   char **y_array = 
-# 2933 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2933 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   ((void *)0)
-# 2933 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2933 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ;
   linenr_T nr_lines = 0;
   pos_T new_cursor;
@@ -28613,29 +28613,29 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
   int orig_indent = 0;
   int indent_diff = 0;
   
-# 2939 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2939 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  _Bool 
-# 2939 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2939 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
       first_indent = 
-# 2939 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2939 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      1
-# 2939 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2939 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ;
   int lendiff = 0;
   pos_T old_pos;
   char *insert_string = 
-# 2942 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2942 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        ((void *)0)
-# 2942 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2942 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            ;
   
-# 2943 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2943 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  _Bool 
-# 2943 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2943 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
       allocated = 
-# 2943 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2943 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   0
-# 2943 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2943 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        ;
   long cnt;
   const pos_T orig_start = curbuf->b_op_start;
@@ -28653,9 +28653,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
 
   if (regname == '.' && !reg) {
     
-# 2959 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2959 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    _Bool 
-# 2959 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2959 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         non_linewise_vis = (VIsual_active && VIsual_mode != 'V');
 
 
@@ -28665,9 +28665,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
 
     if (flags & 8) {
       do_put('_', 
-# 2967 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2967 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  ((void *)0)
-# 2967 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2967 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      , dir, 1, 8);
     }
 
@@ -28689,9 +28689,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
       }
     } else {
       (void)stuff_inserted(command_start_char, count, 
-# 2987 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 2987 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                      0
-# 2987 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 2987 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                           );
     }
 
@@ -28701,35 +28701,35 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
       if (flags & 8) {
         stuffReadbuff("j0");
       } else {
-# 3009 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3009 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         char *cursor_pos = get_cursor_pos_ptr();
         
-# 3010 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3010 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
        _Bool 
-# 3010 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3010 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             one_past_line = (*cursor_pos == '\000');
         
-# 3011 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3011 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
        _Bool 
-# 3011 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3011 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             eol = 
-# 3011 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3011 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   0
-# 3011 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3011 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        ;
         if (!one_past_line) {
           eol = (*(cursor_pos + utfc_ptr2len(cursor_pos)) == '\000');
         }
 
         
-# 3016 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3016 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
        _Bool 
-# 3016 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3016 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             ve_allows = (cur_ve_flags == 4U || cur_ve_flags == 8U);
         
-# 3017 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3017 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
        _Bool 
-# 3017 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3017 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             eof = curbuf->b_ml.ml_line_count == curwin->w_cursor.lnum
                    && one_past_line;
         if (ve_allows || !(eol || eof)) {
@@ -28753,14 +28753,14 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
 
 
   if (!reg && get_spec_reg(regname, &insert_string, &allocated, 
-# 3039 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3039 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                1
-# 3039 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3039 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                    )) {
     if (insert_string == 
-# 3040 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3040 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                         ((void *)0)
-# 3040 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3040 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ) {
       return;
     }
@@ -28775,9 +28775,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
   }
 
   if (insert_string != 
-# 3053 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3053 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       ((void *)0)
-# 3053 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3053 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                           ) {
     y_type = kMTCharWise;
     if (regname == '=') {
@@ -28788,28 +28788,28 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
         y_size = 0;
         ptr = insert_string;
         while (ptr != 
-# 3062 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3062 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      ((void *)0)
-# 3062 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3062 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ) {
           if (y_array != 
-# 3063 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3063 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                         ((void *)0)
-# 3063 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3063 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ) {
             y_array[y_size] = ptr;
           }
           y_size++;
           ptr = vim_strchr(ptr, '\n');
           if (ptr != 
-# 3068 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3068 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     ((void *)0)
-# 3068 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3068 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         ) {
             if (y_array != 
-# 3069 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3069 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           ((void *)0)
-# 3069 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3069 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               ) {
               *ptr = '\000';
             }
@@ -28822,9 +28822,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
           }
         }
         if (y_array != 
-# 3080 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3080 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       ((void *)0)
-# 3080 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3080 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                           ) {
           break;
         }
@@ -28839,9 +28839,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
 
 
     if (reg == 
-# 3093 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3093 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
               ((void *)0)
-# 3093 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3093 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   ) {
       reg = get_yank_register(regname, YREG_PASTE);
     }
@@ -28870,9 +28870,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
       }
       ptr = xstrdup(p);
       ml_append(curwin->w_cursor.lnum, ptr, (colnr_T)0, 
-# 3120 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3120 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                        0
-# 3120 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3120 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                             );
       xfree(ptr);
 
@@ -28883,9 +28883,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
       }
       ptr = xstrnsave(oldp, (size_t)(p - oldp));
       ml_replace(curwin->w_cursor.lnum, ptr, 
-# 3129 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3129 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                             0
-# 3129 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3129 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                  );
       nr_lines++;
       dir = FORWARD;
@@ -28904,18 +28904,18 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
   }
 
   if (y_size == 0 || y_array == 
-# 3146 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3146 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                ((void *)0)
-# 3146 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3146 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                    ) {
     semsg(
-# 3147 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3147 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
          dcgettext (((void *)0), 
-# 3147 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3147 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
          "E353: Nothing in register %s"
-# 3147 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3147 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
          , 5)
-# 3147 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3147 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                           ,
           regname == 0 ? "\"" : transchar(regname));
     goto end;
@@ -28935,15 +28935,15 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
 
     if (dir == BACKWARD) {
       (void)hasFolding(lnum, &lnum, 
-# 3165 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3165 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                    ((void *)0)
-# 3165 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3165 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                        );
     } else {
       (void)hasFolding(lnum, 
-# 3167 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3167 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             ((void *)0)
-# 3167 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3167 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                 , &lnum);
     }
     if (dir == FORWARD) {
@@ -28996,19 +28996,19 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
     if (dir == FORWARD && c != '\000') {
       if (cur_ve_flags == 4U) {
         getvcol(curwin, &curwin->w_cursor, &col, 
-# 3218 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3218 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                 ((void *)0)
-# 3218 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3218 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                     , &endcol2);
       } else {
         getvcol(curwin, &curwin->w_cursor, 
-# 3220 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3220 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                           ((void *)0)
-# 3220 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3220 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                               , 
-# 3220 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3220 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                 ((void *)0)
-# 3220 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3220 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                     , &col);
       }
 
@@ -29017,9 +29017,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
       col++;
     } else {
       getvcol(curwin, &curwin->w_cursor, &col, 
-# 3227 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3227 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                               ((void *)0)
-# 3227 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3227 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                   , &endcol2);
     }
 
@@ -29059,9 +29059,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
       if (curwin->w_cursor.lnum > curbuf->b_ml.ml_line_count) {
         if (ml_append(curbuf->b_ml.ml_line_count, "",
                       (colnr_T)1, 
-# 3265 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3265 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                  0
-# 3265 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3265 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                       ) == 0) {
           break;
         }
@@ -29125,16 +29125,16 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
 
       if (yanklen + spaces != 0
           && count > ((0x7fffffff 
-# 3327 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3327 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               - (bd.startspaces + bd.endspaces)) / (yanklen + spaces))) {
         emsg(
-# 3328 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3328 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             dcgettext (((void *)0), 
-# 3328 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3328 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             e_resulting_text_too_long
-# 3328 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3328 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             , 5)
-# 3328 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3328 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                         );
         break;
       }
@@ -29172,27 +29172,27 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
 
       int columns = (int)oldlen - bd.textcol - delcount + 1;
       
-# 3364 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3364 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
      ((void) sizeof ((
-# 3364 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3364 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
      columns >= 0
-# 3364 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3364 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
      ) ? 1 : 0), __extension__ ({ if (
-# 3364 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3364 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
      columns >= 0
-# 3364 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3364 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
      ) ; else __assert_fail (
-# 3364 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3364 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
      "columns >= 0"
-# 3364 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
-     , "/home/nick/dl/neovim/src/nvim/ops.c", 3364, __extension__ __PRETTY_FUNCTION__); }))
-# 3364 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3364 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
+     , "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c", 3364, __extension__ __PRETTY_FUNCTION__); }))
+# 3364 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ;
       memmove(ptr, oldp + bd.textcol + delcount, (size_t)columns);
       ml_replace(curwin->w_cursor.lnum, newp, 
-# 3366 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3366 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                              0
-# 3366 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3366 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                   );
       extmark_splice_cols(curbuf, (int)curwin->w_cursor.lnum - 1, bd.textcol,
                           delcount, (int)totlen + lines_appended, kExtmarkUndo);
@@ -29205,9 +29205,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
 
     changed_lines(lnum, 0, curbuf->b_op_start.lnum + (linenr_T)y_size
                   - nr_lines, nr_lines, 
-# 3377 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3377 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                        1
-# 3377 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3377 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                            );
 
 
@@ -29278,13 +29278,13 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
             .coladd = 0,
           };
           getvcol(curwin, &pos, 
-# 3446 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3446 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                ((void *)0)
-# 3446 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3446 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                    , &vcol, 
-# 3446 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3446 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                             ((void *)0)
-# 3446 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3446 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                 );
         }
       }
@@ -29294,17 +29294,17 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
           lnum = end_lnum;
         }
       } else if (count > 0x7fffffff 
-# 3454 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3454 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                 / yanklen) {
 
         emsg(
-# 3456 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3456 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             dcgettext (((void *)0), 
-# 3456 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3456 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             e_resulting_text_too_long
-# 3456 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3456 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             , 5)
-# 3456 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3456 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                         );
       } else {
         totlen = (size_t)(count * yanklen);
@@ -29334,9 +29334,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
           }
           memmove((ptr), (oldp + col), strlen(oldp + col) + 1);
           ml_replace(lnum, newp, 
-# 3484 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3484 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                 0
-# 3484 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3484 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                      );
 
 
@@ -29392,9 +29392,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
           strcat((char *)(newp), (char *)(ptr));
 
           ml_append(lnum, newp, (colnr_T)0, 
-# 3538 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3538 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                            0
-# 3538 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3538 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                 );
           new_lnum++;
           xfree(newp);
@@ -29406,9 +29406,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
 
           memmove(newp + col, y_array[0], (size_t)yanklen + 1);
           ml_replace(lnum, newp, 
-# 3548 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3548 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                 0
-# 3548 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3548 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                      );
 
           curwin->w_cursor.lnum = lnum;
@@ -29418,9 +29418,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
         for (; i < y_size; i++) {
           if ((y_type != kMTCharWise || i < y_size - 1)) {
             if (ml_append(lnum, y_array[i], (colnr_T)0, 
-# 3556 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3556 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                        0
-# 3556 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3556 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                             ) == 0) {
               goto error;
             }
@@ -29443,9 +29443,9 @@ void do_put(int regname, yankreg_T *reg, int dir, long count, int flags)
               indent_diff = orig_indent - get_indent();
               indent = orig_indent;
               first_indent = 
-# 3577 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3577 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             0
-# 3577 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3577 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                  ;
             } else if ((indent = get_indent() + indent_diff) < 0) {
               indent = 0;
@@ -29502,16 +29502,16 @@ error:
       if (y_type == kMTCharWise) {
         changed_lines(curwin->w_cursor.lnum, col,
                       curwin->w_cursor.lnum + 1, nr_lines, 
-# 3632 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3632 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                           1
-# 3632 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3632 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                               );
       } else {
         changed_lines(curbuf->b_op_start.lnum, 0,
                       curbuf->b_op_start.lnum, nr_lines, 
-# 3635 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3635 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                         1
-# 3635 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3635 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                             );
       }
 
@@ -29566,9 +29566,9 @@ error:
 
   msgmore(nr_lines);
   curwin->w_set_curswant = 
-# 3688 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3688 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           1
-# 3688 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3688 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               ;
 
 
@@ -29593,9 +29593,9 @@ end:
   }
 
   VIsual_active = 
-# 3711 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3711 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  0
-# 3711 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3711 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ;
 
 
@@ -29609,9 +29609,9 @@ void adjust_cursor_eol(void)
   unsigned int cur_ve_flags = get_ve_flags();
 
   const 
-# 3723 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3723 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
        _Bool 
-# 3723 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3723 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             adj_cursor = (curwin->w_cursor.col > 0
                            && gchar_cursor() == '\000'
                            && (cur_ve_flags & 8U) == 0
@@ -29628,9 +29628,9 @@ void adjust_cursor_eol(void)
 
 
     getvcol(curwin, &curwin->w_cursor, &scol, 
-# 3738 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3738 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                              ((void *)0)
-# 3738 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3738 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                  , &ecol);
     curwin->w_cursor.coladd = ecol - scol + 1;
   }
@@ -29641,9 +29641,9 @@ int preprocs_left(void)
 {
   return ((curbuf->b_p_si && !curbuf->b_p_cin)
           || (curbuf->b_p_cin && in_cinkeys('#', ' ', 
-# 3747 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3747 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                      1
-# 3747 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3747 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                          )
               && curbuf->b_ind_hash_comment == 0));
 }
@@ -29670,9 +29670,9 @@ int get_register_name(int num)
 int get_unname_register(void)
 {
   return y_previous == 
-# 3772 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3772 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       ((void *)0) 
-# 3772 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3772 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            ? -1 : (int)(y_previous - &y_regs[0]);
 }
 
@@ -29686,34 +29686,34 @@ void ex_display(exarg_T *eap)
   int type;
 
   if (arg != 
-# 3784 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3784 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             ((void *)0) 
-# 3784 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3784 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                  && *arg == '\000') {
     arg = 
-# 3785 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3785 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
          ((void *)0)
-# 3785 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3785 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
              ;
   }
   int attr = hl_attr_active[(int)(HLF_8)];
 
 
   msg_puts_title(
-# 3790 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3790 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 dcgettext (((void *)0), 
-# 3790 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3790 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                 "\nType Name Content"
-# 3790 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3790 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 , 5)
-# 3790 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3790 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                         );
   for (int i = -1; i < 39 && !got_int; i++) {
     int name = get_register_name(i);
     switch (get_reg_type(name, 
-# 3793 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3793 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                               ((void *)0)
-# 3793 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3793 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                   )) {
     case kMTLineWise:
       type = 'l'; break;
@@ -29724,22 +29724,22 @@ void ex_display(exarg_T *eap)
     }
 
     if (arg != 
-# 3802 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3802 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
               ((void *)0) 
-# 3802 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3802 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                    && vim_strchr(arg, name) == 
-# 3802 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3802 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                ((void *)0)
-# 3802 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3802 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                    ) {
       continue;
     }
 
     if (i == -1) {
       if (y_previous != 
-# 3807 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3807 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        ((void *)0)
-# 3807 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3807 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            ) {
         yb = y_previous;
       } else {
@@ -29750,9 +29750,9 @@ void ex_display(exarg_T *eap)
     }
 
     get_clipboard(name, &yb, 
-# 3816 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3816 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             1
-# 3816 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3816 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                 );
 
     if (name == mb_tolower(redir_reg)
@@ -29762,18 +29762,18 @@ void ex_display(exarg_T *eap)
     }
 
     if (yb->y_array != 
-# 3824 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3824 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       ((void *)0)
-# 3824 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3824 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                           ) {
       
-# 3825 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3825 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
      _Bool 
-# 3825 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3825 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
           do_show = 
-# 3825 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3825 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     0
-# 3825 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3825 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ;
 
       for (size_t j = 0; !do_show && j < yb->y_size; j++) {
@@ -29812,84 +29812,84 @@ void ex_display(exarg_T *eap)
 
 
   if ((p = get_last_insert()) != 
-# 3862 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3862 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                 ((void *)0)
       
-# 3863 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3863 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
      && (arg == 
-# 3863 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3863 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 ((void *)0) 
-# 3863 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3863 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      || vim_strchr(arg, '.') != 
-# 3863 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3863 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                 ((void *)0)
-# 3863 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3863 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                     ) && !got_int
       && !message_filtered(p)) {
     msg_puts("\n  c  \".   ");
     dis_msg(p, 
-# 3866 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3866 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
               1
-# 3866 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3866 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   );
   }
 
 
   if (last_cmdline != 
-# 3870 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3870 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      ((void *)0) 
-# 3870 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3870 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                           && (arg == 
-# 3870 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3870 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                      ((void *)0) 
-# 3870 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3870 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                           || vim_strchr(arg, ':') != 
-# 3870 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3870 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                      ((void *)0)
-# 3870 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3870 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                          )
       && !got_int && !message_filtered(last_cmdline)) {
     msg_puts("\n  c  \":   ");
     dis_msg(last_cmdline, 
-# 3873 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3873 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                          0
-# 3873 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3873 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               );
   }
 
 
   if (curbuf->b_fname != 
-# 3877 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3877 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                         ((void *)0)
       
-# 3878 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3878 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
      && (arg == 
-# 3878 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3878 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 ((void *)0) 
-# 3878 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3878 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      || vim_strchr(arg, '%') != 
-# 3878 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3878 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                 ((void *)0)
-# 3878 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3878 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                     ) && !got_int
       && !message_filtered(curbuf->b_fname)) {
     msg_puts("\n  c  \"%   ");
     dis_msg(curbuf->b_fname, 
-# 3881 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3881 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             0
-# 3881 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3881 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                  );
   }
 
 
   if ((arg == 
-# 3885 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3885 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
              ((void *)0) 
-# 3885 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3885 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   || vim_strchr(arg, '%') != 
-# 3885 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3885 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                              ((void *)0)
-# 3885 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3885 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                  ) && !got_int) {
     char *fname;
     linenr_T dummy;
@@ -29897,57 +29897,57 @@ void ex_display(exarg_T *eap)
     if (buflist_name_nr(0, &fname, &dummy) != 0 && !message_filtered(fname)) {
       msg_puts("\n  c  \"#   ");
       dis_msg(fname, 
-# 3891 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3891 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     0
-# 3891 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3891 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          );
     }
   }
 
 
   if (last_search_pat() != 
-# 3896 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3896 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           ((void *)0)
       
-# 3897 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3897 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
      && (arg == 
-# 3897 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3897 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 ((void *)0) 
-# 3897 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3897 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      || vim_strchr(arg, '/') != 
-# 3897 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3897 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                 ((void *)0)
-# 3897 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3897 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                     ) && !got_int
       && !message_filtered(last_search_pat())) {
     msg_puts("\n  c  \"/   ");
     dis_msg(last_search_pat(), 
-# 3900 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3900 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                               0
-# 3900 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3900 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                    );
   }
 
 
   if (expr_line != 
-# 3904 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3904 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   ((void *)0) 
-# 3904 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3904 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        && (arg == 
-# 3904 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3904 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                   ((void *)0) 
-# 3904 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3904 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                        || vim_strchr(arg, '=') != 
-# 3904 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3904 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                   ((void *)0)
-# 3904 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3904 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                       )
       && !got_int && !message_filtered(expr_line)) {
     msg_puts("\n  c  \"=   ");
     dis_msg(expr_line, 
-# 3907 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3907 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       0
-# 3907 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3907 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            );
   }
 }
@@ -29957,9 +29957,9 @@ void ex_display(exarg_T *eap)
 
 
 static void dis_msg(const char *p, 
-# 3915 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3915 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                   _Bool 
-# 3915 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3915 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                        skip_esc)
   FUNC_ATTR_NONNULL_ALL
 {
@@ -29977,33 +29977,33 @@ static void dis_msg(const char *p,
   }
   os_breakcheck();
 }
-# 3944 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3944 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 char *skip_comment(char *line, 
-# 3944 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3944 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                               _Bool 
-# 3944 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3944 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                    process, 
-# 3944 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3944 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                             _Bool 
-# 3944 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3944 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                  include_space, 
-# 3944 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3944 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                 _Bool 
-# 3944 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3944 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                      *is_comment)
 {
   char *comment_flags = 
-# 3946 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3946 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        ((void *)0)
-# 3946 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3946 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            ;
   int lead_len;
   int leader_offset = get_last_leader_offset(line, &comment_flags);
 
   *is_comment = 
-# 3950 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3950 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                0
-# 3950 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3950 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
   if (leader_offset != -1) {
 
@@ -30017,25 +30017,25 @@ char *skip_comment(char *line,
     }
     if (*comment_flags != 'e') {
       *is_comment = 
-# 3962 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3962 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    1
-# 3962 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3962 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        ;
     }
   }
 
   if (process == 
-# 3966 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3966 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 0
-# 3966 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3966 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      ) {
     return line;
   }
 
   lead_len = get_leader_len(line, &comment_flags, 
-# 3970 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 3970 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                  0
-# 3970 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 3970 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                       , include_space);
 
   if (lead_len == 0) {
@@ -30063,22 +30063,22 @@ char *skip_comment(char *line,
 
   return line;
 }
-# 4006 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4006 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 int do_join(size_t count, int insert_space, int save_undo, int use_formatoptions, 
-# 4006 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4006 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                                  _Bool 
-# 4006 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4006 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                                       setmark)
 {
   char *curr = 
-# 4008 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4008 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
               ((void *)0)
-# 4008 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4008 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   ;
   char *curr_start = 
-# 4009 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4009 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     ((void *)0)
-# 4009 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4009 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         ;
   char *cend;
   char *newp;
@@ -30091,41 +30091,41 @@ int do_join(size_t count, int insert_space, int save_undo, int use_formatoptions
   colnr_T col = 0;
   int ret = 1;
   int *comments = 
-# 4020 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4020 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  ((void *)0)
-# 4020 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4020 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      ;
   int remove_comments = (use_formatoptions == 
-# 4021 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4021 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                              1
-# 4021 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4021 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                  )
                         && has_format_option('j');
   
-# 4023 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4023 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  _Bool 
-# 4023 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4023 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
       prev_was_comment = 
-# 4023 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4023 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                          0
-# 4023 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4023 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               ;
   
-# 4024 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4024 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ((void) sizeof ((
-# 4024 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4024 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  count >= 1
-# 4024 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4024 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 4024 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4024 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  count >= 1
-# 4024 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4024 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ) ; else __assert_fail (
-# 4024 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4024 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  "count >= 1"
-# 4024 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/ops.c", 4024, __extension__ __PRETTY_FUNCTION__); }))
-# 4024 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4024 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c", 4024, __extension__ __PRETTY_FUNCTION__); }))
+# 4024 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                    ;
 
   if (save_undo && u_save(curwin->w_cursor.lnum - 1,
@@ -30155,17 +30155,17 @@ int do_join(size_t count, int insert_space, int save_undo, int use_formatoptions
 
       if (t > 0 && prev_was_comment) {
         char *new_curr = skip_comment(curr, 
-# 4052 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4052 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                            1
-# 4052 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4052 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                , insert_space, &prev_was_comment);
         comments[t] = (int)(new_curr - curr);
         curr = new_curr;
       } else {
         curr = skip_comment(curr, 
-# 4056 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4056 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                  0
-# 4056 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4056 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                       , insert_space, &prev_was_comment);
       }
     }
@@ -30271,9 +30271,9 @@ int do_join(size_t count, int insert_space, int save_undo, int use_formatoptions
   }
 
   ml_replace(curwin->w_cursor.lnum, newp, 
-# 4160 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4160 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                          0
-# 4160 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4160 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                               );
 
   if (setmark && (cmdmod.cmod_flags & CMOD_LOCKMARKS) == 0) {
@@ -30286,9 +30286,9 @@ int do_join(size_t count, int insert_space, int save_undo, int use_formatoptions
 
   changed_lines(curwin->w_cursor.lnum, currsize,
                 curwin->w_cursor.lnum + 1, 0L, 
-# 4171 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4171 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                               1
-# 4171 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4171 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                   );
 
 
@@ -30297,9 +30297,9 @@ int do_join(size_t count, int insert_space, int save_undo, int use_formatoptions
   t = curwin->w_cursor.lnum;
   curwin->w_cursor.lnum++;
   del_lines((long)count - 1, 
-# 4178 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4178 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             0
-# 4178 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4178 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                  );
   curwin->w_cursor.lnum = t;
   curbuf_splice_pending--;
@@ -30310,17 +30310,17 @@ int do_join(size_t count, int insert_space, int save_undo, int use_formatoptions
 
   curwin->w_cursor.col =
     (vim_strchr(p_cpo, 'q') != 
-# 4187 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4187 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                       ((void *)0) 
-# 4187 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4187 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                            ? currsize : col);
   check_cursor_col();
 
   curwin->w_cursor.coladd = 0;
   curwin->w_set_curswant = 
-# 4191 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4191 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           1
-# 4191 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4191 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               ;
 
 theend:
@@ -30334,37 +30334,37 @@ theend:
 
 
 static 
-# 4203 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4203 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
       _Bool 
-# 4203 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4203 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
            reset_lbr(void)
 {
   if (!curwin->w_onebuf_opt.wo_lbr) {
     return 
-# 4206 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4206 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           0
-# 4206 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4206 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                ;
   }
 
   curwin->w_onebuf_opt.wo_lbr = 
-# 4209 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4209 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    0
-# 4209 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4209 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         ;
   curwin->w_valid &= ~(0x01|0x02|0x04);
   return 
-# 4211 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4211 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         1
-# 4211 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4211 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             ;
 }
 
 
 static void restore_lbr(
-# 4215 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4215 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        _Bool 
-# 4215 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4215 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             lbr_saved)
 {
   if (curwin->w_onebuf_opt.wo_lbr || !lbr_saved) {
@@ -30373,17 +30373,17 @@ static void restore_lbr(
 
 
   curwin->w_onebuf_opt.wo_lbr = 
-# 4222 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4222 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    1
-# 4222 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4222 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        ;
   curwin->w_valid &= ~(0x01|0x02|0x04);
 }
-# 4237 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4237 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 static void block_prep(oparg_T *oap, struct block_def *bdp, linenr_T lnum, 
-# 4237 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4237 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                           _Bool 
-# 4237 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4237 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                                is_del)
 {
   int incr = 0;
@@ -30394,9 +30394,9 @@ static void block_prep(oparg_T *oap, struct block_def *bdp, linenr_T lnum,
   char *prev_pend;
 
   const 
-# 4246 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4246 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
        _Bool 
-# 4246 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4246 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             lbr_saved = reset_lbr();
 
   bdp->startspaces = 0;
@@ -30405,14 +30405,14 @@ static void block_prep(oparg_T *oap, struct block_def *bdp, linenr_T lnum,
   bdp->start_vcol = 0;
   bdp->end_vcol = 0;
   bdp->is_short = 
-# 4253 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4253 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  0
-# 4253 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4253 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ;
   bdp->is_oneChar = 
-# 4254 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4254 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    0
-# 4254 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4254 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         ;
   bdp->pre_whitesp = 0;
   bdp->pre_whitesp_c = 0;
@@ -30446,9 +30446,9 @@ static void block_prep(oparg_T *oap, struct block_def *bdp, linenr_T lnum,
   if (bdp->start_vcol < oap->start_vcol) {
     bdp->end_vcol = bdp->start_vcol;
     bdp->is_short = 
-# 4286 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4286 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    1
-# 4286 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4286 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        ;
     if (!is_del || oap->op_type == 18) {
       bdp->endspaces = oap->end_vcol - oap->start_vcol + 1;
@@ -30464,9 +30464,9 @@ static void block_prep(oparg_T *oap, struct block_def *bdp, linenr_T lnum,
     bdp->end_vcol = bdp->start_vcol;
     if (bdp->end_vcol > oap->end_vcol) {
       bdp->is_oneChar = 
-# 4300 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4300 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        1
-# 4300 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4300 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            ;
       if (oap->op_type == 17) {
         bdp->endspaces = bdp->start_char_vcols - bdp->startspaces;
@@ -30502,9 +30502,9 @@ static void block_prep(oparg_T *oap, struct block_def *bdp, linenr_T lnum,
               || oap->op_type == 18
               || oap->op_type == 16)) {
         bdp->is_short = 
-# 4334 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4334 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        1
-# 4334 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4334 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            ;
 
 
@@ -30541,9 +30541,9 @@ static void block_prep(oparg_T *oap, struct block_def *bdp, linenr_T lnum,
 
 
 void op_addsub(oparg_T *oap, linenr_T Prenum1, 
-# 4369 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4369 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                               _Bool 
-# 4369 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4369 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                    g_cmd)
 {
   pos_T pos;
@@ -30566,9 +30566,9 @@ void op_addsub(oparg_T *oap, linenr_T Prenum1,
     disable_fold_update--;
     if (change_cnt) {
       changed_lines(pos.lnum, 0, pos.lnum + 1, 0L, 
-# 4390 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4390 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                   1
-# 4390 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4390 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                       );
     }
   } else {
@@ -30586,9 +30586,9 @@ void op_addsub(oparg_T *oap, linenr_T Prenum1,
       if (oap->motion_type == kMTBlockWise) {
 
         block_prep(oap, &bd, pos.lnum, 
-# 4406 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4406 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                       0
-# 4406 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4406 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                            );
         pos.col = bd.textcol;
         length = bd.textlen;
@@ -30632,9 +30632,9 @@ void op_addsub(oparg_T *oap, linenr_T Prenum1,
     disable_fold_update--;
     if (change_cnt) {
       changed_lines(oap->start.lnum, 0, oap->end.lnum + 1, 0L, 
-# 4448 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4448 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                               1
-# 4448 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4448 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                   );
     }
 
@@ -30651,54 +30651,54 @@ void op_addsub(oparg_T *oap, linenr_T Prenum1,
 
     if (change_cnt > p_report) {
       smsg(
-# 4463 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4463 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           dcngettext (((void *)0), 
-# 4463 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4463 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
           "%" 
-# 4463 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4463 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           "l" "d" 
-# 4463 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4463 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
           " lines changed"
-# 4463 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4463 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           , 
-# 4463 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4463 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
           "%" 
-# 4463 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4463 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           "l" "d" 
-# 4463 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4463 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
           " lines changed"
-# 4463 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4463 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           , 
-# 4463 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4463 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
           (unsigned long)change_cnt
-# 4463 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4463 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           , 5)
                                                             
-# 4464 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4464 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                            ,
            (int64_t)change_cnt);
     }
   }
 }
-# 4478 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4478 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
 {
   int col;
   char *buf1 = 
-# 4481 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4481 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
               ((void *)0)
-# 4481 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4481 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   ;
   char buf2[NUMBUFLEN];
   int pre;
   static 
-# 4484 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4484 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         _Bool 
-# 4484 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4484 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
              hexupper = 
-# 4484 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4484 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                         0
-# 4484 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4484 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                              ;
   uvarnumber_T n;
   uvarnumber_T oldn;
@@ -30707,36 +30707,36 @@ int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
   int todel;
   int firstdigit;
   
-# 4491 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4491 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  _Bool 
-# 4491 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4491 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
       negative = 
-# 4491 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4491 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  0
-# 4491 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4491 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ;
   
-# 4492 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  _Bool 
-# 4492 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
       was_positive = 
-# 4492 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      1
-# 4492 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ;
   
-# 4493 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4493 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  _Bool 
-# 4493 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4493 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
       visual = VIsual_active;
   
-# 4494 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4494 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  _Bool 
-# 4494 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4494 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
       did_change = 
-# 4494 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4494 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    0
-# 4494 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4494 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         ;
   pos_T save_cursor = curwin->w_cursor;
   int maxlen = 0;
@@ -30745,50 +30745,50 @@ int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
   colnr_T save_coladd = 0;
 
   const 
-# 4501 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4501 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
        _Bool 
-# 4501 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4501 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             do_hex = vim_strchr(curbuf->b_p_nf, 'x') != 
-# 4501 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4501 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                         ((void *)0)
-# 4501 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4501 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                             ;
   const 
-# 4502 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4502 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
        _Bool 
-# 4502 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4502 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             do_oct = vim_strchr(curbuf->b_p_nf, 'o') != 
-# 4502 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4502 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                         ((void *)0)
-# 4502 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4502 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                             ;
   const 
-# 4503 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4503 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
        _Bool 
-# 4503 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4503 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             do_bin = vim_strchr(curbuf->b_p_nf, 'b') != 
-# 4503 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4503 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                         ((void *)0)
-# 4503 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4503 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                             ;
   const 
-# 4504 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4504 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
        _Bool 
-# 4504 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4504 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             do_alpha = vim_strchr(curbuf->b_p_nf, 'p') != 
-# 4504 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4504 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                           ((void *)0)
-# 4504 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4504 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                               ;
 
   const 
-# 4506 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4506 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
        _Bool 
-# 4506 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4506 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             do_unsigned = vim_strchr(curbuf->b_p_nf, 'u') != 
-# 4506 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4506 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                              ((void *)0)
-# 4506 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4506 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                  ;
 
   if (virtual_active()) {
@@ -30886,14 +30886,14 @@ int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
         && !utf_head_off(ptr, ptr + col - 1)
         && !do_unsigned) {
       negative = 
-# 4602 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4602 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 1
-# 4602 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4602 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
       was_positive = 
-# 4603 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4603 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     0
-# 4603 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4603 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ;
     }
   }
@@ -30910,13 +30910,13 @@ int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
     if (op_type == 29) {
       if (((uint8_t)(firstdigit) < 'a' ? (uint8_t)(firstdigit) - 'A' : (uint8_t)(firstdigit) - 'a') < Prenum1) {
         if (
-# 4618 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4618 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
            ((*__ctype_b_loc ())[(int) ((
-# 4618 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4618 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
            firstdigit
-# 4618 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4618 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
            ))] & (unsigned short int) _ISupper)
-# 4618 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4618 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               ) {
           firstdigit = 'A';
         } else {
@@ -30928,13 +30928,13 @@ int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
     } else {
       if (26 - ((uint8_t)(firstdigit) < 'a' ? (uint8_t)(firstdigit) - 'A' : (uint8_t)(firstdigit) - 'a') - 1 < Prenum1) {
         if (
-# 4628 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4628 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
            ((*__ctype_b_loc ())[(int) ((
-# 4628 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4628 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
            firstdigit
-# 4628 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4628 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
            ))] & (unsigned short int) _ISupper)
-# 4628 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4628 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               ) {
           firstdigit = 'Z';
         } else {
@@ -30947,14 +30947,14 @@ int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
     curwin->w_cursor.col = col;
     startpos = curwin->w_cursor;
     did_change = 
-# 4639 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4639 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 1
-# 4639 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4639 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
     (void)del_char(
-# 4640 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4640 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   0
-# 4640 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4640 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        );
     ins_char(firstdigit);
     endpos = curwin->w_cursor;
@@ -30967,9 +30967,9 @@ int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
 
       col--;
       negative = 
-# 4651 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4651 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 1
-# 4651 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4651 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
     }
 
@@ -30981,26 +30981,26 @@ int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
     }
 
     
-# 4661 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4661 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    _Bool 
-# 4661 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4661 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         overflow = 
-# 4661 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4661 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    0
-# 4661 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4661 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         ;
     vim_str2nr(ptr + col, &pre, &length,
                0 + (do_bin ? STR2NR_BIN : 0)
                + (do_oct ? STR2NR_OCT : 0)
                + (do_hex ? STR2NR_HEX : 0),
                
-# 4666 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4666 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
               ((void *)0)
-# 4666 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4666 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   , &n, maxlen, 
-# 4666 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4666 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                 0
-# 4666 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4666 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                      , &overflow);
 
 
@@ -31008,34 +31008,34 @@ int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
       col++;
       length--;
       negative = 
-# 4672 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4672 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 0
-# 4672 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4672 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      ;
     }
 
 
     
-# 4676 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4676 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    _Bool 
-# 4676 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4676 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         subtract = 
-# 4676 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4676 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    0
-# 4676 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4676 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         ;
     if (op_type == 29) {
       subtract ^= 
-# 4678 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4678 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  1
-# 4678 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4678 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      ;
     }
     if (negative) {
       subtract ^= 
-# 4681 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4681 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  1
-# 4681 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4681 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      ;
     }
 
@@ -31052,9 +31052,9 @@ int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
         if (n > oldn) {
           n = 1 + (n ^ (uvarnumber_T) - 1);
           negative ^= 
-# 4696 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4696 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      1
-# 4696 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4696 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ;
         }
       } else {
@@ -31062,17 +31062,17 @@ int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
         if (n < oldn) {
           n = (n ^ (uvarnumber_T) - 1);
           negative ^= 
-# 4702 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4702 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      1
-# 4702 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4702 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ;
         }
       }
       if (n == 0) {
         negative = 
-# 4706 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4706 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   0
-# 4706 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4706 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        ;
       }
     }
@@ -31086,9 +31086,9 @@ int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
         n = (uvarnumber_T)(-1);
       }
       negative = 
-# 4718 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4718 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 0
-# 4718 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4718 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      ;
     }
 
@@ -31102,9 +31102,9 @@ int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
     curwin->w_cursor.col = col;
     startpos = curwin->w_cursor;
     did_change = 
-# 4730 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4730 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 1
-# 4730 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4730 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
     todel = length;
     c = gchar_cursor();
@@ -31116,41 +31116,41 @@ int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
     }
     while (todel-- > 0) {
       if (c < 0x100 && 
-# 4740 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4740 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       ((*__ctype_b_loc ())[(int) ((
-# 4740 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4740 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       c
-# 4740 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4740 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       ))] & (unsigned short int) _ISalpha)
-# 4740 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4740 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                 ) {
         if (
-# 4741 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4741 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
            ((*__ctype_b_loc ())[(int) ((
-# 4741 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4741 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
            c
-# 4741 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4741 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
            ))] & (unsigned short int) _ISupper)
-# 4741 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4741 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      ) {
           hexupper = 
-# 4742 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4742 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     1
-# 4742 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4742 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         ;
         } else {
           hexupper = 
-# 4744 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4744 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     0
-# 4744 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4744 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ;
         }
       }
 
       (void)del_char(
-# 4748 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4748 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     0
-# 4748 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4748 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          );
       c = gchar_cursor();
     }
@@ -31191,27 +31191,27 @@ int do_addsub(int op_type, pos_T *pos, int length, linenr_T Prenum1)
       buf2[i] = '\0';
     } else if (pre == 0) {
       vim_snprintf(buf2, ((sizeof(buf2)/sizeof((buf2)[0])) / ((size_t)(!(sizeof(buf2) % sizeof((buf2)[0]))))), "%" 
-# 4787 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4787 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                               "l" "u"
-# 4787 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4787 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                     , (uint64_t)n);
     } else if (pre == '0') {
       vim_snprintf(buf2, ((sizeof(buf2)/sizeof((buf2)[0])) / ((size_t)(!(sizeof(buf2) % sizeof((buf2)[0]))))), "%" 
-# 4789 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4789 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                               "l" "o"
-# 4789 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4789 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                     , (uint64_t)n);
     } else if (hexupper) {
       vim_snprintf(buf2, ((sizeof(buf2)/sizeof((buf2)[0])) / ((size_t)(!(sizeof(buf2) % sizeof((buf2)[0]))))), "%" 
-# 4791 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4791 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                               "l" "X"
-# 4791 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4791 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                     , (uint64_t)n);
     } else {
       vim_snprintf(buf2, ((sizeof(buf2)/sizeof((buf2)[0])) / ((size_t)(!(sizeof(buf2) % sizeof((buf2)[0]))))), "%" 
-# 4793 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4793 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                               "l" "x"
-# 4793 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4793 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                     , (uint64_t)n);
     }
     length -= (int)strlen(buf2);
@@ -31249,9 +31249,9 @@ theend:
     curwin->w_cursor = save_cursor;
   } else if (did_change) {
     curwin->w_set_curswant = 
-# 4829 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4829 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             1
-# 4829 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4829 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                 ;
   } else if (virtual_active()) {
     curwin->w_cursor.coladd = save_coladd;
@@ -31282,9 +31282,9 @@ MotionType get_reg_type(int regname, colnr_T *reg_width)
   }
 
   if (regname != '\000' && !valid_yank_reg(regname, 
-# 4858 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4858 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                 0
-# 4858 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4858 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                      )) {
     return kMTUnknown;
   }
@@ -31292,14 +31292,14 @@ MotionType get_reg_type(int regname, colnr_T *reg_width)
   yankreg_T *reg = get_yank_register(regname, YREG_PASTE);
 
   if (reg->y_array != 
-# 4864 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4864 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      ((void *)0)
-# 4864 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4864 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ) {
     if (reg_width != 
-# 4865 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4865 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     ((void *)0) 
-# 4865 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4865 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          && reg->y_type == kMTBlockWise) {
       *reg_width = reg->y_width;
     }
@@ -31307,26 +31307,26 @@ MotionType get_reg_type(int regname, colnr_T *reg_width)
   }
   return kMTUnknown;
 }
-# 4880 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4880 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 void format_reg_type(MotionType reg_type, colnr_T reg_width, char *buf, size_t buf_len)
   FUNC_ATTR_NONNULL_ALL
 {
   
-# 4883 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4883 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ((void) sizeof ((
-# 4883 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4883 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  buf_len > 1
-# 4883 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4883 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 4883 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4883 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  buf_len > 1
-# 4883 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4883 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ) ; else __assert_fail (
-# 4883 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4883 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  "buf_len > 1"
-# 4883 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/ops.c", 4883, __extension__ __PRETTY_FUNCTION__); }))
-# 4883 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4883 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c", 4883, __extension__ __PRETTY_FUNCTION__); }))
+# 4883 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
   switch (reg_type) {
   case kMTLineWise:
@@ -31359,16 +31359,16 @@ static void *get_reg_wrap_one_line(char *s, int flags)
   tv_list_append_allocated_string(list, s);
   return list;
 }
-# 4925 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4925 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 void *get_reg_contents(int regname, int flags)
 {
 
   if (regname == '=') {
     if (flags & kGRegNoExpr) {
       return 
-# 4930 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4930 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             ((void *)0)
-# 4930 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4930 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                 ;
     }
     if (flags & kGRegExprSrc) {
@@ -31383,37 +31383,37 @@ void *get_reg_contents(int regname, int flags)
 
 
   if (regname != '\000' && !valid_yank_reg(regname, 
-# 4943 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4943 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                 0
-# 4943 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4943 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                      )) {
     return 
-# 4944 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4944 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           ((void *)0)
-# 4944 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4944 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
   }
 
   char *retval;
   
-# 4948 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4948 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  _Bool 
-# 4948 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4948 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
       allocated;
   if (get_spec_reg(regname, &retval, &allocated, 
-# 4949 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4949 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                 0
-# 4949 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4949 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                      )) {
     if (retval == 
-# 4950 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4950 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  ((void *)0)
-# 4950 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4950 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      ) {
       return 
-# 4951 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4951 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             ((void *)0)
-# 4951 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4951 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                 ;
     }
     if (allocated) {
@@ -31424,14 +31424,14 @@ void *get_reg_contents(int regname, int flags)
 
   yankreg_T *reg = get_yank_register(regname, YREG_PASTE);
   if (reg->y_array == 
-# 4960 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4960 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      ((void *)0)
-# 4960 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4960 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ) {
     return 
-# 4961 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 4961 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           ((void *)0)
-# 4961 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 4961 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
   }
 
@@ -31475,21 +31475,21 @@ void *get_reg_contents(int regname, int flags)
 }
 
 static yankreg_T *init_write_reg(int name, yankreg_T **old_y_previous, 
-# 5003 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5003 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                       _Bool 
-# 5003 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5003 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                            must_append)
 {
   if (!valid_yank_reg(name, 
-# 5005 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5005 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                            1
-# 5005 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5005 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                )) {
     emsg_invreg(name);
     return 
-# 5007 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5007 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           ((void *)0)
-# 5007 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5007 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
   }
 
@@ -31523,34 +31523,34 @@ void write_reg_contents(int name, const char *str, ssize_t len, int must_append)
 }
 
 void write_reg_contents_lst(int name, char **strings, 
-# 5039 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5039 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                      _Bool 
-# 5039 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5039 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                           must_append, MotionType yank_type,
                             colnr_T block_len)
 {
   if (name == '/' || name == '=') {
     char *s = strings[0];
     if (strings[0] == 
-# 5044 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5044 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      ((void *)0)
-# 5044 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5044 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ) {
       s = "";
     } else if (strings[1] != 
-# 5046 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5046 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             ((void *)0)
-# 5046 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5046 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                 ) {
       emsg(
-# 5047 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5047 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           dcgettext (((void *)0), 
-# 5047 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5047 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
           "E883: search pattern and expression register may not " "contain two or more lines"
-# 5047 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5047 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           , 5)
                                          
-# 5048 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5048 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                         );
       return;
     }
@@ -31570,17 +31570,17 @@ void write_reg_contents_lst(int name, char **strings,
 
   str_to_reg(reg, yank_type, (char *)strings, strlen((char *)strings),
              block_len, 
-# 5066 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5066 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        1
-# 5066 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5066 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            );
   finish_write_reg(name, reg, old_y_previous);
 }
-# 5088 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5088 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 void write_reg_contents_ex(int name, const char *str, ssize_t len, 
-# 5088 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5088 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                   _Bool 
-# 5088 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5088 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                        must_append,
                            MotionType yank_type, colnr_T block_len)
 {
@@ -31591,13 +31591,13 @@ void write_reg_contents_ex(int name, const char *str, ssize_t len,
 
   if (name == '/') {
     set_last_search_pat(str, 0, 
-# 5097 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5097 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                        1
-# 5097 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5097 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                            , 
-# 5097 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5097 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                              1
-# 5097 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5097 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                  );
     return;
   }
@@ -31610,40 +31610,40 @@ void write_reg_contents_ex(int name, const char *str, ssize_t len,
 
       buf = buflist_findnr(num);
       if (buf == 
-# 5108 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5108 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 ((void *)0)
-# 5108 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5108 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ) {
         semsg(
-# 5109 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5109 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
              dcgettext (((void *)0), 
-# 5109 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5109 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
              e_nobufnr
-# 5109 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5109 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
              , 5)
-# 5109 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5109 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          , (int64_t)num);
       }
     } else {
       buf = buflist_findnr(buflist_findpat(str, str + strlen(str),
                                            
-# 5113 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5113 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                           1
-# 5113 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5113 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                               , 
-# 5113 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5113 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                 0
-# 5113 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5113 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                      , 
-# 5113 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5113 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                        0
-# 5113 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5113 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                             ));
     }
     if (buf == 
-# 5115 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5115 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
               ((void *)0)
-# 5115 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5115 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   ) {
       return;
     }
@@ -31683,25 +31683,25 @@ void write_reg_contents_ex(int name, const char *str, ssize_t len,
     return;
   }
   str_to_reg(reg, yank_type, str, (size_t)len, block_len, 
-# 5153 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5153 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                          0
-# 5153 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5153 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                               );
   finish_write_reg(name, reg, old_y_previous);
 }
-# 5167 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5167 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 static void str_to_reg(yankreg_T *y_ptr, MotionType yank_type, const char *str, size_t len,
                        colnr_T blocklen, 
-# 5168 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5168 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                         _Bool 
-# 5168 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5168 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                              str_list)
   FUNC_ATTR_NONNULL_ALL
 {
   if (y_ptr->y_array == 
-# 5171 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5171 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        ((void *)0)
-# 5171 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5171 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            ) {
     y_ptr->y_size = 0;
   }
@@ -31714,30 +31714,30 @@ static void str_to_reg(yankreg_T *y_ptr, MotionType yank_type, const char *str, 
 
   size_t newlines = 0;
   
-# 5182 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5182 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  _Bool 
-# 5182 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5182 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
       extraline = 
-# 5182 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5182 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   0
-# 5182 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5182 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        ;
   
-# 5183 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5183 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  _Bool 
-# 5183 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5183 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
       append = 
-# 5183 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5183 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                0
-# 5183 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5183 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
 
 
   if (str_list) {
     for (char **ss = (char **)str; *ss != 
-# 5187 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5187 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                          ((void *)0)
-# 5187 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5187 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                              ; ss++) {
       newlines++;
     }
@@ -31749,9 +31749,9 @@ static void str_to_reg(yankreg_T *y_ptr, MotionType yank_type, const char *str, 
     }
     if (y_ptr->y_size > 0 && y_ptr->y_type == kMTCharWise) {
       append = 
-# 5197 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5197 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
               1
-# 5197 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5197 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   ;
       newlines--;
     }
@@ -31760,9 +31760,9 @@ static void str_to_reg(yankreg_T *y_ptr, MotionType yank_type, const char *str, 
 
   if (y_ptr->y_size + newlines == 0) {
     do { void **ptr_ = (void **)&(y_ptr->y_array); xfree(*ptr_); *ptr_ = 
-# 5204 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5204 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ((void *)0)
-# 5204 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5204 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    ; (void)(*ptr_); } while (0);
     return;
   }
@@ -31779,9 +31779,9 @@ static void str_to_reg(yankreg_T *y_ptr, MotionType yank_type, const char *str, 
 
   if (str_list) {
     for (char **ss = (char **)str; *ss != 
-# 5219 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5219 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                          ((void *)0)
-# 5219 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5219 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                              ; ss++, lnum++) {
       size_t ss_len = strlen(*ss);
       pp[lnum] = xmemdupz(*ss, ss_len);
@@ -31795,21 +31795,21 @@ static void str_to_reg(yankreg_T *y_ptr, MotionType yank_type, const char *str, 
          start < end + extraline;
          start += line_len + 1, lnum++) {
       
-# 5231 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5231 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
      ((void) sizeof ((
-# 5231 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5231 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
      end - start >= 0
-# 5231 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5231 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
      ) ? 1 : 0), __extension__ ({ if (
-# 5231 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5231 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
      end - start >= 0
-# 5231 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5231 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
      ) ; else __assert_fail (
-# 5231 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5231 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
      "end - start >= 0"
-# 5231 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
-     , "/home/nick/dl/neovim/src/nvim/ops.c", 5231, __extension__ __PRETTY_FUNCTION__); }))
-# 5231 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5231 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
+     , "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c", 5231, __extension__ __PRETTY_FUNCTION__); }))
+# 5231 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                              ;
       line_len = (size_t)((char *)xmemscan(start, '\n', (size_t)(end - start)) - start);
       if (line_len > maxlen) {
@@ -31828,9 +31828,9 @@ static void str_to_reg(yankreg_T *y_ptr, MotionType yank_type, const char *str, 
       if (append) {
         xfree(pp[lnum]);
         append = 
-# 5248 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5248 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 0
-# 5248 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5248 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      ;
       }
       pp[lnum] = s;
@@ -31842,9 +31842,9 @@ static void str_to_reg(yankreg_T *y_ptr, MotionType yank_type, const char *str, 
   y_ptr->y_type = yank_type;
   y_ptr->y_size = lnum;
   set_yreg_additional_data(y_ptr, 
-# 5258 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5258 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                  ((void *)0)
-# 5258 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5258 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                      );
   y_ptr->timestamp = os_time();
   if (yank_type == kMTBlockWise) {
@@ -31858,7 +31858,7 @@ void clear_oparg(oparg_T *oap)
 {
   memset((oap), 0, sizeof(*(oap)));
 }
-# 5284 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5284 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 static varnumber_T line_count_info(char *line, varnumber_T *wc, varnumber_T *cc, varnumber_T limit,
                                    int eol_size)
 {
@@ -31920,18 +31920,18 @@ void cursor_pos_info(dict_T *dict)
 
   if (curbuf->b_ml.ml_flags & 0x01) {
     if (dict == 
-# 5344 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5344 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                ((void *)0)
-# 5344 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5344 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                    ) {
       msg(
-# 5345 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5345 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
          dcgettext (((void *)0), 
-# 5345 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5345 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
          no_lines_msg
-# 5345 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5345 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
          , 5)
-# 5345 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5345 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         );
       return;
     }
@@ -31966,9 +31966,9 @@ void cursor_pos_info(dict_T *dict)
         p_sbr = empty_option;
         curwin->w_onebuf_opt.wo_sbr = empty_option;
         oparg.is_VIsual = 
-# 5378 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5378 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                          1
-# 5378 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5378 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                              ;
         oparg.motion_type = kMTBlockWise;
         oparg.op_type = 0;
@@ -32002,9 +32002,9 @@ void cursor_pos_info(dict_T *dict)
       if (l_VIsual_active
           && lnum >= min_pos.lnum && lnum <= max_pos.lnum) {
         char *s = 
-# 5410 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5410 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  ((void *)0)
-# 5410 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5410 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      ;
         long len = 0L;
 
@@ -32012,9 +32012,9 @@ void cursor_pos_info(dict_T *dict)
         case 22:
           virtual_op = virtual_active();
           block_prep(&oparg, &bd, lnum, 
-# 5416 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5416 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                        0
-# 5416 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5416 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                             );
           virtual_op = kNone;
           s = bd.textstart;
@@ -32036,9 +32036,9 @@ void cursor_pos_info(dict_T *dict)
         break;
         }
         if (s != 
-# 5436 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5436 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 ((void *)0)
-# 5436 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5436 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ) {
           byte_count_cursor += line_count_info(s, &word_count_cursor,
                                                &char_count_cursor, len, eol_size);
@@ -32072,35 +32072,35 @@ void cursor_pos_info(dict_T *dict)
     }
 
     if (dict == 
-# 5468 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5468 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                ((void *)0)
-# 5468 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5468 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                    ) {
       if (l_VIsual_active) {
         if (l_VIsual_mode == 22 && curwin->w_curswant < MAXCOL) {
           getvcols(curwin, &min_pos, &max_pos, &min_pos.col, &max_pos.col);
           int64_t cols;
           do { if (__builtin_sub_overflow(oparg.end_vcol + 1, oparg.start_vcol, &cols)) { logmsg(4, 
-# 5473 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5473 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
          ((void *)0)
-# 5473 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5473 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
          , __func__, 5473, 
-# 5473 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5473 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
          1
-# 5473 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5473 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
          , "STRICT_SUB overflow"); abort(); } } while (0);
           vim_snprintf(buf1, sizeof(buf1), 
-# 5474 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5474 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                           dcgettext (((void *)0), 
-# 5474 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5474 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                           "%" 
-# 5474 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5474 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                           "l" "d" 
-# 5474 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5474 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                           " Cols; "
-# 5474 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5474 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                           , 5)
-# 5474 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5474 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                  ,
                        cols);
         } else {
@@ -32111,39 +32111,39 @@ void cursor_pos_info(dict_T *dict)
             && char_count == byte_count) {
           vim_snprintf(IObuff, (1024 + 1),
                        
-# 5483 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5483 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       dcgettext (((void *)0), 
-# 5483 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5483 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       "Selected %s%" 
-# 5483 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5483 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5483 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5483 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " of %" 
-# 5483 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5483 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5483 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5483 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " Lines;" " %" 
-# 5483 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5483 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5483 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5483 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " of %" 
-# 5483 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5483 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5483 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5483 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " Words;" " %" 
-# 5483 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5483 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5483 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5483 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " of %" 
-# 5483 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5483 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5483 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5483 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " Bytes"
-# 5483 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5483 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       , 5)
 
                                                              
-# 5485 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5485 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                             ,
                        buf1, (int64_t)line_count_selected,
                        (int64_t)curbuf->b_ml.ml_line_count,
@@ -32152,48 +32152,48 @@ void cursor_pos_info(dict_T *dict)
         } else {
           vim_snprintf(IObuff, (1024 + 1),
                        
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       dcgettext (((void *)0), 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       "Selected %s%" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " of %" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " Lines;" " %" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " of %" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " Words;" " %" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " of %" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " Chars;" " %" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " of %" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " Bytes"
-# 5492 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5492 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       , 5)
 
 
                                                              
-# 5495 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5495 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                             ,
                        buf1, (int64_t)line_count_selected,
                        (int64_t)curbuf->b_ml.ml_line_count,
@@ -32212,39 +32212,39 @@ void cursor_pos_info(dict_T *dict)
             && char_count == byte_count) {
           vim_snprintf(IObuff, (1024 + 1),
                        
-# 5512 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       dcgettext (((void *)0), 
-# 5512 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       "Col %s of %s; Line %" 
-# 5512 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5512 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " of %" 
-# 5512 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5512 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ";" " Word %" 
-# 5512 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5512 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " of %" 
-# 5512 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5512 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ";" " Byte %" 
-# 5512 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5512 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " of %" 
-# 5512 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5512 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ""
-# 5512 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5512 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       , 5)
 
                                                             
-# 5514 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5514 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                            ,
                        buf1, buf2,
                        (int64_t)curwin->w_cursor.lnum,
@@ -32254,48 +32254,48 @@ void cursor_pos_info(dict_T *dict)
         } else {
           vim_snprintf(IObuff, (1024 + 1),
                        
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       dcgettext (((void *)0), 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       "Col %s of %s; Line %" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " of %" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ";" " Word %" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " of %" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ";" " Char %" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " of %" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ";" " Byte %" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       " of %" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       "l" "d" 
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ""
-# 5522 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5522 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       , 5)
 
 
                                                             
-# 5525 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5525 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                            ,
                        buf1, buf2,
                        (int64_t)curwin->w_cursor.lnum,
@@ -32309,30 +32309,30 @@ void cursor_pos_info(dict_T *dict)
 
     bom_count = bomb_size();
     if (dict == 
-# 5537 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5537 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                ((void *)0) 
-# 5537 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5537 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     && bom_count > 0) {
       const size_t len = strlen(IObuff);
       vim_snprintf(IObuff + len, (1024 + 1) - len,
                    
-# 5540 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5540 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   dcgettext (((void *)0), 
-# 5540 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5540 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   "(+%" 
-# 5540 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5540 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   "l" "d" 
-# 5540 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5540 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   " for BOM)"
-# 5540 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5540 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   , 5)
-# 5540 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5540 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                              , (int64_t)bom_count);
     }
     if (dict == 
-# 5542 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5542 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                ((void *)0)
-# 5542 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5542 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                    ) {
 
       p = p_shm;
@@ -32340,9 +32340,9 @@ void cursor_pos_info(dict_T *dict)
       if (p_ch < 1) {
         msg_start();
         msg_scroll = 
-# 5548 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5548 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     1
-# 5548 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5548 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         ;
       }
       msg(IObuff);
@@ -32351,9 +32351,9 @@ void cursor_pos_info(dict_T *dict)
   }
 
   if (dict != 
-# 5555 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5555 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
              ((void *)0)
-# 5555 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5555 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                  ) {
 
     tv_dict_add_nr(dict, ("words"), (sizeof("words") - 1), word_count);
@@ -32389,9 +32389,9 @@ static void op_colon(oparg_T *oap)
 
     linenr_T endOfStartFold = oap->start.lnum;
     (void)hasFolding(oap->start.lnum, 
-# 5589 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5589 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                      ((void *)0)
-# 5589 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5589 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                          , &endOfStartFold);
     if (oap->end.lnum != oap->start.lnum && oap->end.lnum != endOfStartFold) {
 
@@ -32404,13 +32404,13 @@ static void op_colon(oparg_T *oap)
 
 
                  && !hasFolding(oap->end.lnum, 
-# 5600 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5600 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                               ((void *)0)
-# 5600 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5600 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                   , 
-# 5600 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5600 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                     ((void *)0)
-# 5600 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5600 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                         )) {
         stuffReadbuff(".+");
         stuffnumReadbuff(oap->line_count - 1);
@@ -32449,21 +32449,21 @@ void set_operatorfunc_option(const char **errmsg)
     *errmsg = e_invarg;
   }
 }
-# 5648 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5648 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 
-# 5648 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5648 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
 _Bool 
-# 5648 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5648 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
     set_ref_in_opfunc(int copyID)
 {
   return set_ref_in_callback(&opfunc_cb, copyID, 
-# 5650 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5650 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                 ((void *)0)
-# 5650 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5650 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                     , 
-# 5650 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5650 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                       ((void *)0)
-# 5650 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5650 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                           );
 }
 
@@ -32476,13 +32476,13 @@ static void op_function(const oparg_T *oap)
 
   if (*p_opfunc == '\000') {
     emsg(
-# 5661 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5661 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         dcgettext (((void *)0), 
-# 5661 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5661 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         "E774: 'operatorfunc' is empty"
-# 5661 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5661 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         , 5)
-# 5661 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5661 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                           );
   } else {
 
@@ -32510,14 +32510,14 @@ static void op_function(const oparg_T *oap)
 
 
     const 
-# 5687 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5687 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
          _Bool 
-# 5687 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5687 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               save_finish_op = finish_op;
     finish_op = 
-# 5688 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5688 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                0
-# 5688 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5688 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
 
     typval_T rettv;
@@ -32538,9 +32538,9 @@ static void op_function(const oparg_T *oap)
 
 
 static void get_op_vcol(oparg_T *oap, colnr_T redo_VIsual_vcol, 
-# 5707 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5707 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                _Bool 
-# 5707 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5707 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                     initial)
 {
   colnr_T start;
@@ -32557,15 +32557,15 @@ static void get_op_vcol(oparg_T *oap, colnr_T redo_VIsual_vcol,
   mark_mb_adjustpos(curwin->w_buffer, &oap->end);
 
   getvvcol(curwin, &(oap->start), &oap->start_vcol, 
-# 5722 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5722 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                    ((void *)0)
-# 5722 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5722 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                        , &oap->end_vcol);
   if (!redo_VIsual_busy) {
     getvvcol(curwin, &(oap->end), &start, 
-# 5724 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5724 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                          ((void *)0)
-# 5724 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5724 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                              , &end);
 
     if (start < oap->start_vcol) {
@@ -32589,13 +32589,13 @@ static void get_op_vcol(oparg_T *oap, colnr_T redo_VIsual_vcol,
     for (curwin->w_cursor.lnum = oap->start.lnum;
          curwin->w_cursor.lnum <= oap->end.lnum; curwin->w_cursor.lnum++) {
       getvvcol(curwin, &curwin->w_cursor, 
-# 5746 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5746 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                          ((void *)0)
-# 5746 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5746 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                              , 
-# 5746 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5746 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                ((void *)0)
-# 5746 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5746 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                    , &end);
       if (end > oap->end_vcol) {
         oap->end_vcol = end;
@@ -32629,9 +32629,9 @@ typedef struct {
 } redo_VIsual_T;
 
 static 
-# 5778 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5778 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
       _Bool 
-# 5778 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5778 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
            is_ex_cmdchar(cmdarg_T *cap)
 {
   return cap->cmdchar == ':' || cap->cmdchar == (-((253) + ((int)(KE_COMMAND) << 8)));
@@ -32640,9 +32640,9 @@ static
 
 
 void do_pending_operator(cmdarg_T *cap, int old_col, 
-# 5785 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5785 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                     _Bool 
-# 5785 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5785 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                          gui_yank)
 {
   oparg_T *oap = cap->oap;
@@ -32658,30 +32658,30 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
        || VIsual_active)
       && oap->op_type != 0) {
     
-# 5799 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5799 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    _Bool 
-# 5799 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5799 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         empty_region_error;
     int restart_edit_save;
     
-# 5801 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5801 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    _Bool 
-# 5801 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5801 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
         include_line_break = 
-# 5801 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5801 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                              0
-# 5801 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5801 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                   ;
 
 
     const 
-# 5804 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5804 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
          _Bool 
-# 5804 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5804 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               redo_yank = vim_strchr(p_cpo, 'y') != 
-# 5804 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5804 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                          ((void *)0) 
-# 5804 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5804 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                               && !gui_yank;
 
 
@@ -32694,9 +32694,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
       if (oap->motion_type == kMTLineWise) {
         oap->inclusive = 
-# 5815 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5815 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                         0
-# 5815 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5815 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                              ;
       } else if (oap->motion_type == kMTCharWise) {
 
@@ -32707,22 +32707,22 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
       if (!VIsual_active) {
         VIsual_active = 
-# 5824 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5824 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        1
-# 5824 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5824 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            ;
         VIsual = oap->start;
       }
       VIsual_mode = 22;
       VIsual_select = 
-# 5828 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5828 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      0
-# 5828 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5828 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                           ;
       VIsual_reselect = 
-# 5829 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5829 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        0
-# 5829 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5829 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
     }
 
@@ -32748,9 +32748,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
 
         if (vim_strchr(p_cpo, 'r') == 
-# 5853 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5853 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                           ((void *)0)
-# 5853 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5853 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                               ) {
           AppendToRedobuffLit(cap->searchbuf, -1);
         }
@@ -32760,18 +32760,18 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
 
         if (repeat_cmdline == 
-# 5861 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5861 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                              ((void *)0)
-# 5861 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5861 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                  ) {
           ResetRedobuff();
         } else {
           AppendToRedobuffLit(repeat_cmdline, -1);
           AppendToRedobuff("\012");
           do { void **ptr_ = (void **)&(repeat_cmdline); xfree(*ptr_); *ptr_ = 
-# 5866 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5866 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
          ((void *)0)
-# 5866 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5866 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
          ; (void)(*ptr_); } while (0);
         }
       } else if (cap->cmdchar == (-((253) + ((int)(KE_LUA) << 8)))) {
@@ -32848,9 +32848,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
       if (!VIsual_active) {
         if (hasFolding(oap->start.lnum, &oap->start.lnum, 
-# 5941 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5941 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                          ((void *)0)
-# 5941 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5941 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                              )) {
           oap->start.col = 0;
         }
@@ -32858,9 +32858,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
              || oap->inclusive
              || oap->motion_type == kMTLineWise)
             && hasFolding(curwin->w_cursor.lnum, 
-# 5947 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5947 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                 ((void *)0)
-# 5947 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5947 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                     ,
                           &curwin->w_cursor.lnum)) {
           curwin->w_cursor.col = (colnr_T)strlen(get_cursor_line_ptr());
@@ -32878,16 +32878,16 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
       if (!VIsual_active && oap->motion_type == kMTLineWise) {
         if (hasFolding(curwin->w_cursor.lnum, &curwin->w_cursor.lnum,
                        
-# 5963 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5963 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                       ((void *)0)
-# 5963 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5963 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                           )) {
           curwin->w_cursor.col = 0;
         }
         if (hasFolding(oap->start.lnum, 
-# 5966 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5966 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                        ((void *)0)
-# 5966 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5966 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                            , &oap->start.lnum)) {
           oap->start.col = (colnr_T)strlen(ml_get(oap->start.lnum));
         }
@@ -32905,9 +32905,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
     if (VIsual_active || redo_VIsual_busy) {
       get_op_vcol(oap, redo_VIsual.rv_vcol, 
-# 5982 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5982 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                            1
-# 5982 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5982 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                );
 
       if (!redo_VIsual_busy && !gui_yank) {
@@ -32920,26 +32920,26 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
           if (VIsual_mode != 22) {
             getvvcol(curwin, &(oap->end),
                      
-# 5993 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5993 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     ((void *)0)
-# 5993 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5993 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         , 
-# 5993 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5993 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           ((void *)0)
-# 5993 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5993 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               , &oap->end_vcol);
           }
           if (VIsual_mode == 22 || oap->line_count <= 1) {
             if (VIsual_mode != 22) {
               getvvcol(curwin, &(oap->start),
                        &oap->start_vcol, 
-# 5998 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5998 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                         ((void *)0)
-# 5998 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5998 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                             , 
-# 5998 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 5998 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                               ((void *)0)
-# 5998 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 5998 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                   );
             }
             resel_VIsual_vcol = oap->end_vcol - oap->start_vcol + 1;
@@ -33001,9 +33001,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
       if (oap->motion_force == '\000' || oap->motion_type == kMTLineWise) {
         oap->inclusive = 
-# 6058 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6058 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                         1
-# 6058 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6058 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
       }
       if (VIsual_mode == 'V') {
@@ -33013,9 +33013,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
         if (*ml_get_pos(&(oap->end)) == '\000'
             && (include_line_break || !virtual_op)) {
           oap->inclusive = 
-# 6066 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6066 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           0
-# 6066 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6066 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                ;
 
 
@@ -33031,9 +33031,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
       }
 
       redo_VIsual_busy = 
-# 6080 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6080 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                         0
-# 6080 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6080 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                              ;
 
 
@@ -33043,9 +33043,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
       if (!gui_yank) {
         VIsual_active = 
-# 6088 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6088 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        0
-# 6088 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6088 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
         setmouse();
         mouse_dragging = 0;
@@ -33070,9 +33070,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
       }
     }
     curwin->w_set_curswant = 
-# 6111 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6111 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             1
-# 6111 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6111 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                 ;
 
 
@@ -33087,9 +33087,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
     empty_region_error = (oap->empty
                           && vim_strchr(p_cpo, 'E') != 
-# 6124 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6124 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                   ((void *)0)
-# 6124 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6124 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                       );
 
 
@@ -33107,18 +33107,18 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
     if (oap->motion_type == kMTCharWise
         && oap->inclusive == 
-# 6140 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6140 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             0
         
-# 6141 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6141 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
        && !(cap->retval & 2)
         && oap->end.col == 0
         && (!oap->is_VIsual || *p_sel == 'o')
         && oap->line_count > 1) {
       oap->end_adjusted = 
-# 6145 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6145 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                          1
-# 6145 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6145 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                              ;
       oap->line_count--;
       oap->end.lnum--;
@@ -33129,17 +33129,17 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
         if (oap->end.col) {
           oap->end.col--;
           oap->inclusive = 
-# 6154 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6154 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           1
-# 6154 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6154 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               ;
         }
       }
     } else {
       oap->end_adjusted = 
-# 6158 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6158 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                          0
-# 6158 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6158 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               ;
     }
 
@@ -33147,18 +33147,18 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
     case 4:
     case 5:
       op_shift(oap, 
-# 6164 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6164 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    1
-# 6164 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6164 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        , oap->is_VIsual ? (int)cap->count1 : 1);
       auto_format(
-# 6165 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6165 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  0
-# 6165 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6165 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       , 
-# 6165 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6165 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                         1
-# 6165 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6165 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             );
       break;
 
@@ -33173,35 +33173,35 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
       } else {
         do_join((size_t)oap->line_count, oap->op_type == 13,
                 
-# 6178 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6178 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                1
-# 6178 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6178 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                    , 
-# 6178 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6178 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      1
-# 6178 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6178 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          , 
-# 6178 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6178 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                            1
-# 6178 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6178 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                );
         auto_format(
-# 6179 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6179 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    0
-# 6179 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6179 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         , 
-# 6179 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6179 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           1
-# 6179 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6179 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               );
       }
       break;
 
     case 1:
       VIsual_reselect = 
-# 6184 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6184 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        0
-# 6184 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6184 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
       if (empty_region_error) {
         vim_beep(0x4000);
@@ -33213,13 +33213,13 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
             && has_format_option('a')
             && u_save_cursor() == 1) {
           auto_format(
-# 6194 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6194 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      0
-# 6194 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6194 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                           , 
-# 6194 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6194 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             1
-# 6194 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6194 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                 );
         }
       }
@@ -33241,9 +33241,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
     case 3:
       VIsual_reselect = 
-# 6214 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6214 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        0
-# 6214 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6214 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
       if (empty_region_error) {
         vim_beep(0x4000);
@@ -33273,16 +33273,16 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
     case 6:
       if (vim_strchr(p_cpo, '!') != 
-# 6242 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6242 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                           ((void *)0)
-# 6242 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6242 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                               ) {
         AppendToRedobuff("!\r");
       } else {
         bangredo = 
-# 6245 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6245 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   1
-# 6245 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6245 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                       ;
       }
       {} __attribute__((fallthrough));
@@ -33330,9 +33330,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
           op_colon(oap);
         } else {
           op_format(oap, 
-# 6291 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6291 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                         0
-# 6291 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6291 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                              );
         }
       }
@@ -33340,9 +33340,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
     case 26:
       op_format(oap, 
-# 6297 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6297 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                     1
-# 6297 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6297 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         );
       break;
 
@@ -33363,9 +33363,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
     case 17:
     case 18:
       VIsual_reselect = 
-# 6316 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6316 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        0
-# 6316 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6316 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
       if (empty_region_error) {
         vim_beep(0x4000);
@@ -33388,13 +33388,13 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
 
         auto_format(
-# 6337 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6337 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                    0
-# 6337 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6337 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                         , 
-# 6337 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6337 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           1
-# 6337 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6337 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               );
 
         if (restart_edit == 0) {
@@ -33407,9 +33407,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
     case 16:
       VIsual_reselect = 
-# 6348 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6348 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        0
-# 6348 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6348 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
       if (empty_region_error) {
         vim_beep(0x4000);
@@ -33424,9 +33424,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
 
     case 19:
       VIsual_reselect = 
-# 6361 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6361 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        0
-# 6361 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6361 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
       foldCreate(curwin, oap->start, oap->end);
       break;
@@ -33436,9 +33436,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
     case 22:
     case 23:
       VIsual_reselect = 
-# 6369 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6369 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        0
-# 6369 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6369 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
       opFoldRange(oap->start, oap->end,
                   oap->op_type == 20
@@ -33451,9 +33451,9 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
     case 24:
     case 25:
       VIsual_reselect = 
-# 6380 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6380 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        0
-# 6380 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6380 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
       deleteFold(curwin, oap->start.lnum, oap->end.lnum,
                  oap->op_type == 25, oap->is_VIsual);
@@ -33466,16 +33466,16 @@ void do_pending_operator(cmdarg_T *cap, int old_col,
         CancelRedo();
       } else {
         VIsual_active = 
-# 6391 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6391 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        1
-# 6391 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6391 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                            ;
         restore_lbr(lbr_saved);
         op_addsub(oap, (linenr_T)cap->count1, redo_VIsual.rv_arg);
         VIsual_active = 
-# 6394 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6394 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                        0
-# 6394 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6394 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
       }
       check_cursor_col();
@@ -33510,44 +33510,44 @@ int get_default_register_name(void)
 {
   int name = '\000';
   adjust_clipboard_name(&name, 
-# 6427 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6427 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                               1
-# 6427 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6427 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                   , 
-# 6427 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6427 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                     0
-# 6427 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6427 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                          );
   return name;
 }
-# 6441 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6441 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 static yankreg_T *adjust_clipboard_name(int *name, 
-# 6441 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6441 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                   _Bool 
-# 6441 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6441 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                        quiet, 
-# 6441 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6441 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                               _Bool 
-# 6441 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6441 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                    writing)
 {
 
 
 
   yankreg_T *target = 
-# 6446 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6446 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                      ((void *)0)
-# 6446 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6446 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                          ;
   
-# 6447 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6447 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  _Bool 
-# 6447 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6447 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
       explicit_cb_reg = (*name == '*' || *name == '+');
   
-# 6448 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6448 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  _Bool 
-# 6448 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6448 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
       implicit_cb_reg = (*name == '\000') && (cb_flags & (0x001 | 0x002));
   if (!explicit_cb_reg && !implicit_cb_reg) {
     goto end;
@@ -33557,9 +33557,9 @@ static yankreg_T *adjust_clipboard_name(int *name,
     if (batch_change_count <= 1 && !quiet
         && (!clipboard_didwarn || (explicit_cb_reg && !redirecting()))) {
       clipboard_didwarn = 
-# 6456 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6456 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                          1
-# 6456 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6456 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                              ;
 
 
@@ -33573,9 +33573,9 @@ static yankreg_T *adjust_clipboard_name(int *name,
     target = &y_regs[*name == '*' ? 37 : 38];
     if (writing && (cb_flags & (*name == '*' ? 0x001 : 0x002))) {
       clipboard_needs_update = 
-# 6468 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6468 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                               0
-# 6468 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6468 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                    ;
     }
     goto end;
@@ -33583,9 +33583,9 @@ static yankreg_T *adjust_clipboard_name(int *name,
     if (writing && clipboard_delay_update) {
 
       clipboard_needs_update = 
-# 6474 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6474 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                               1
-# 6474 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6474 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                   ;
       goto end;
     } else if (!writing && clipboard_needs_update) {
@@ -33609,9 +33609,9 @@ end:
 
 
 
-# 6496 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6496 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
 _Bool 
-# 6496 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6496 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
     prepare_yankreg_from_object(yankreg_T *reg, String regtype, size_t lines)
 {
   char type = regtype.data ? regtype.data[0] : '\000';
@@ -33634,9 +33634,9 @@ _Bool
     break;
   default:
     return 
-# 6517 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6517 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           0
-# 6517 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6517 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                ;
   }
 
@@ -33644,31 +33644,31 @@ _Bool
   if (regtype.size > 1) {
     if (reg->y_type != kMTBlockWise) {
       return 
-# 6523 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6523 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             0
-# 6523 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6523 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                  ;
     }
 
 
     if (!ascii_isdigit(regtype.data[1])) {
       return 
-# 6528 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6528 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             0
-# 6528 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6528 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                  ;
     }
     const char *p = regtype.data + 1;
     reg->y_width = getdigits_int((char **)&p, 
-# 6531 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6531 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                              0
-# 6531 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6531 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                   , 1) - 1;
     if (regtype.size > (size_t)(p - regtype.data)) {
       return 
-# 6533 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6533 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             0
-# 6533 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6533 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                  ;
     }
   }
@@ -33676,22 +33676,22 @@ _Bool
   reg->y_array = xcalloc(lines, sizeof(uint8_t *));
   reg->y_size = lines;
   reg->additional_data = 
-# 6539 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6539 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                         ((void *)0)
-# 6539 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6539 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
   reg->timestamp = 0;
   return 
-# 6541 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6541 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         1
-# 6541 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6541 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             ;
 }
 
 void finish_yankreg_from_object(yankreg_T *reg, 
-# 6544 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6544 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                _Bool 
-# 6544 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6544 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                     clipboard_adjust)
 {
   if (reg->y_size > 0 && strlen(reg->y_array[reg->y_size - 1]) == 0) {
@@ -33721,77 +33721,77 @@ void finish_yankreg_from_object(yankreg_T *reg,
       }
     }
     
-# 6572 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6572 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ((void) sizeof ((
-# 6572 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6572 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    maxlen <= 0x7fffffff) ? 1 : 0), __extension__ ({ if (
-# 6572 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6572 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    maxlen <= 0x7fffffff) ; else __assert_fail (
-# 6572 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6572 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    "maxlen <= INT_MAX"
-# 6572 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/ops.c", 6572, __extension__ __PRETTY_FUNCTION__); }))
-# 6572 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6572 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c", 6572, __extension__ __PRETTY_FUNCTION__); }))
+# 6572 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
     reg->y_width = 
-# 6573 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6573 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   (((
-# 6573 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6573 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   reg->y_width
-# 6573 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6573 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   )>(
-# 6573 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6573 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   (int)maxlen - 1
-# 6573 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6573 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   ))?(
-# 6573 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6573 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   reg->y_width
-# 6573 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6573 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   ):(
-# 6573 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6573 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   (int)maxlen - 1
-# 6573 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6573 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   ))
-# 6573 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6573 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                     ;
   }
 }
 
 static 
-# 6577 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6577 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
       _Bool 
-# 6577 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6577 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
            get_clipboard(int name, yankreg_T **target, 
-# 6577 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6577 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                        _Bool 
-# 6577 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6577 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                             quiet)
 {
 
   
-# 6580 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6580 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  _Bool 
-# 6580 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6580 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
       errmsg = 
-# 6580 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6580 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                1
-# 6580 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6580 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                    ;
 
   yankreg_T *reg = adjust_clipboard_name(&name, quiet, 
-# 6582 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6582 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                       0
-# 6582 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6582 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                            );
   if (reg == 
-# 6583 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6583 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
             ((void *)0)
-# 6583 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6583 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                 ) {
     return 
-# 6584 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6584 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           0
-# 6584 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6584 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                ;
   }
   free_register(reg);
@@ -33801,18 +33801,18 @@ static
   tv_list_append_string(args, &regname, 1);
 
   typval_T result = eval_call_provider("clipboard", "get", args, 
-# 6592 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6592 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                 0
-# 6592 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6592 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                      );
 
   if (result.v_type != VAR_LIST) {
     if (result.v_type == VAR_NUMBER && result.vval.v_number == 0) {
 
       errmsg = 
-# 6597 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6597 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
               0
-# 6597 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6597 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                    ;
     }
     goto err;
@@ -33820,9 +33820,9 @@ static
 
   list_T *res = result.vval.v_list;
   list_T *lines = 
-# 6603 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6603 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                  ((void *)0)
-# 6603 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6603 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                      ;
   if (tv_list_len(res) == 2
       && (&(tv_list_first(res))->li_tv)->v_type == VAR_LIST) {
@@ -33832,9 +33832,9 @@ static
     }
     char *regtype = (&(tv_list_last(res))->li_tv)->vval.v_string;
     if (regtype == 
-# 6611 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6611 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                   ((void *)0) 
-# 6611 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6611 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                        || strlen(regtype) > 1) {
       goto err;
     }
@@ -33866,9 +33866,9 @@ static
   reg->y_array = xcalloc((size_t)tv_list_len(lines), sizeof(char *));
   reg->y_size = (size_t)tv_list_len(lines);
   reg->additional_data = 
-# 6641 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6641 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                         ((void *)0)
-# 6641 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6641 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
   reg->timestamp = 0;
 
@@ -33876,13 +33876,13 @@ static
 
   size_t tv_idx = 0;
   do { const list_T *const l_ = (lines); ; if (l_ != 
-# 6647 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6647 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ((void *)0)
-# 6647 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6647 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  ) { for (const listitem_T *li = l_->lv_first; li != 
-# 6647 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6647 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ((void *)0)
-# 6647 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6647 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  ; li = li->li_next) { { if ((&(li)->li_tv)->v_type != VAR_STRING) { goto err; } reg->y_array[tv_idx++] = xstrdupnul((&(li)->li_tv)->vval.v_string); } } } } while (0)
 
 
@@ -33915,26 +33915,26 @@ static
       }
     }
     
-# 6678 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6678 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
    ((void) sizeof ((
-# 6678 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6678 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    maxlen <= 0x7fffffff) ? 1 : 0), __extension__ ({ if (
-# 6678 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6678 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    maxlen <= 0x7fffffff) ; else __assert_fail (
-# 6678 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6678 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
    "maxlen <= INT_MAX"
-# 6678 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/ops.c", 6678, __extension__ __PRETTY_FUNCTION__); }))
-# 6678 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6678 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c", 6678, __extension__ __PRETTY_FUNCTION__); }))
+# 6678 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
     reg->y_width = (int)maxlen - 1;
   }
 
   *target = reg;
   return 
-# 6683 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6683 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         1
-# 6683 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6683 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             ;
 
 err:
@@ -33945,15 +33945,15 @@ err:
     xfree(reg->y_array);
   }
   reg->y_array = 
-# 6692 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6692 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                 ((void *)0)
-# 6692 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6692 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                     ;
   reg->y_size = 0;
   reg->additional_data = 
-# 6694 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6694 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                         ((void *)0)
-# 6694 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6694 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                             ;
   reg->timestamp = 0;
   if (errmsg) {
@@ -33961,22 +33961,22 @@ err:
   }
   *target = reg;
   return 
-# 6700 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6700 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         0
-# 6700 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6700 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
              ;
 }
 
 static void set_clipboard(int name, yankreg_T *reg)
 {
   if (!adjust_clipboard_name(&name, 
-# 6705 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6705 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                    0
-# 6705 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6705 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                         , 
-# 6705 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6705 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                           1
-# 6705 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6705 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                               )) {
     return;
   }
@@ -33992,9 +33992,9 @@ static void set_clipboard(int name, yankreg_T *reg)
   case kMTLineWise:
     regtype = 'V';
     tv_list_append_string(lines, 
-# 6719 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6719 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                 ((void *)0)
-# 6719 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6719 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                     , 0);
     break;
   case kMTCharWise:
@@ -34003,9 +34003,9 @@ static void set_clipboard(int name, yankreg_T *reg)
   case kMTBlockWise:
     regtype = 'b';
     tv_list_append_string(lines, 
-# 6726 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6726 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                 ((void *)0)
-# 6726 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6726 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                     , 0);
     break;
   case kMTUnknown:
@@ -34018,9 +34018,9 @@ static void set_clipboard(int name, yankreg_T *reg)
   tv_list_append_string(args, ((char[]) { (char)name }), 1);
 
   (void)eval_call_provider("clipboard", "set", args, 
-# 6737 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6737 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                     1
-# 6737 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6737 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                         );
 }
 
@@ -34031,9 +34031,9 @@ void start_batch_changes(void)
     return;
   }
   clipboard_delay_update = 
-# 6746 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6746 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           1
-# 6746 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6746 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               ;
 }
 
@@ -34045,17 +34045,17 @@ void end_batch_changes(void)
     return;
   }
   clipboard_delay_update = 
-# 6756 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6756 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           0
-# 6756 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6756 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                ;
   if (clipboard_needs_update) {
 
 
     clipboard_needs_update = 
-# 6760 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6760 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             0
-# 6760 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6760 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                  ;
 
     set_clipboard('\000', y_previous);
@@ -34067,15 +34067,15 @@ int save_batch_count(void)
   int save_count = batch_change_count;
   batch_change_count = 0;
   clipboard_delay_update = 
-# 6770 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6770 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                           0
-# 6770 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6770 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                ;
   if (clipboard_needs_update) {
     clipboard_needs_update = 
-# 6772 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6772 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             0
-# 6772 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6772 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                  ;
 
     set_clipboard('\000', y_previous);
@@ -34086,45 +34086,45 @@ int save_batch_count(void)
 void restore_batch_count(int save_count)
 {
   
-# 6781 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6781 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ((void) sizeof ((
-# 6781 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6781 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  batch_change_count == 0
-# 6781 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6781 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 6781 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6781 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  batch_change_count == 0
-# 6781 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6781 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
  ) ; else __assert_fail (
-# 6781 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6781 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
  "batch_change_count == 0"
-# 6781 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/ops.c", 6781, __extension__ __PRETTY_FUNCTION__); }))
-# 6781 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6781 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c", 6781, __extension__ __PRETTY_FUNCTION__); }))
+# 6781 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                 ;
   batch_change_count = save_count;
   if (batch_change_count > 0) {
     clipboard_delay_update = 
-# 6784 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6784 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                             1
-# 6784 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6784 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                 ;
   }
 }
 
 
 static inline 
-# 6789 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6789 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
              _Bool 
-# 6789 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6789 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                   reg_empty(const yankreg_T *const reg)
   FUNC_ATTR_PURE
 {
   return (reg->y_array == 
-# 6792 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6792 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                          ((void *)0)
           
-# 6793 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6793 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
          || reg->y_size == 0
           || (reg->y_size == 1
               && reg->y_type == kMTCharWise
@@ -34136,29 +34136,29 @@ static inline
 
 const void *op_global_reg_iter(const void *const iter, char *const name, yankreg_T *const reg,
                                
-# 6803 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6803 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                               _Bool 
-# 6803 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6803 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                    *is_unnamed)
   FUNC_ATTR_NONNULL_ARG(2, 3, 4) FUNC_ATTR_WARN_UNUSED_RESULT
 {
   return op_reg_iter(iter, y_regs, name, reg, is_unnamed);
 }
-# 6818 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6818 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 const void *op_reg_iter(const void *const iter, const yankreg_T *const regs, char *const name,
                         yankreg_T *const reg, 
-# 6819 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6819 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                              _Bool 
-# 6819 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6819 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                   *is_unnamed)
   FUNC_ATTR_NONNULL_ARG(3, 4, 5) FUNC_ATTR_WARN_UNUSED_RESULT
 {
   *name = '\000';
   const yankreg_T *iter_reg = (iter == 
-# 6823 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6823 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                       ((void *)0)
                                
-# 6824 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6824 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                               ? &(regs[0])
                                : (const yankreg_T *const)iter);
   while (iter_reg - &(regs[0]) < 37 && reg_empty(iter_reg)) {
@@ -34166,9 +34166,9 @@ const void *op_reg_iter(const void *const iter, const yankreg_T *const regs, cha
   }
   if (iter_reg - &(regs[0]) == 37 || reg_empty(iter_reg)) {
     return 
-# 6830 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6830 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           ((void *)0)
-# 6830 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6830 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
   }
   int iter_off = (int)(iter_reg - &(regs[0]));
@@ -34181,9 +34181,9 @@ const void *op_reg_iter(const void *const iter, const yankreg_T *const regs, cha
     }
   }
   return 
-# 6841 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6841 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         ((void *)0)
-# 6841 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6841 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             ;
 }
 
@@ -34199,23 +34199,23 @@ size_t op_reg_amount(void)
   }
   return ret;
 }
-# 6864 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6864 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
 
-# 6864 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6864 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
 _Bool 
-# 6864 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6864 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
     op_reg_set(const char name, const yankreg_T reg, 
-# 6864 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6864 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                      _Bool 
-# 6864 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6864 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                           is_unnamed)
 {
   int i = op_reg_index(name);
   if (i == -1) {
     return 
-# 6868 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6868 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           0
-# 6868 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6868 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                ;
   }
   free_register(&y_regs[i]);
@@ -34225,9 +34225,9 @@ _Bool
     y_previous = &y_regs[i];
   }
   return 
-# 6876 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6876 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         1
-# 6876 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6876 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             ;
 }
 
@@ -34241,9 +34241,9 @@ const yankreg_T *op_reg_get(const char name)
   int i = op_reg_index(name);
   if (i == -1) {
     return 
-# 6888 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6888 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           ((void *)0)
-# 6888 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6888 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
               ;
   }
   return &y_regs[i];
@@ -34255,25 +34255,25 @@ const yankreg_T *op_reg_get(const char name)
 
 
 
-# 6898 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6898 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
 _Bool 
-# 6898 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6898 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
     op_reg_set_previous(const char name)
 {
   int i = op_reg_index(name);
   if (i == -1) {
     return 
-# 6902 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6902 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
           0
-# 6902 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6902 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                ;
   }
 
   y_previous = &y_regs[i];
   return 
-# 6906 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6906 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
         1
-# 6906 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6906 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
             ;
 }
 
@@ -34291,9 +34291,9 @@ bcount_t get_region_bytecount(buf_T *buf, linenr_T start_lnum, linenr_T end_lnum
     return end_col - start_col;
   }
   const char *first = ml_get_buf(buf, start_lnum, 
-# 6922 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6922 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                  0
-# 6922 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6922 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                       );
   bcount_t deleted_bytes = (bcount_t)strlen(first) - start_col + 1;
 
@@ -34302,9 +34302,9 @@ bcount_t get_region_bytecount(buf_T *buf, linenr_T start_lnum, linenr_T end_lnum
       return deleted_bytes;
     }
     deleted_bytes += (bcount_t)strlen(ml_get_buf(buf, start_lnum + i, 
-# 6929 "/home/nick/dl/neovim/src/nvim/ops.c" 3 4
+# 6929 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c" 3 4
                                                                      0
-# 6929 "/home/nick/dl/neovim/src/nvim/ops.c"
+# 6929 "/home/nick/git/Src-Arc/neovim/src/nvim/ops.c"
                                                                           )) + 1;
   }
   if (end_lnum > max_lnum) {

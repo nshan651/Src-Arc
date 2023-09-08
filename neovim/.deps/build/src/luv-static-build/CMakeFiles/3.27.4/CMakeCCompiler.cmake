@@ -68,7 +68,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/nick/dl/neovim/.deps/usr/include;/home/nick/dl/neovim/.deps/usr/include/luajit-2.1;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed;/usr/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/nick/git/Src-Arc/neovim/.deps/usr/include;/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed;/usr/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1;/usr/lib;/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

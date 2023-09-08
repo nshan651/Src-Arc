@@ -1,5 +1,5 @@
 CMakeFiles/uv_a.dir/src/strtok.c.o: \
- /home/nick/dl/neovim/.deps/build/src/libuv/src/strtok.c \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv/src/strtok.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
@@ -26,4 +26,4 @@ CMakeFiles/uv_a.dir/src/strtok.c.o: \
  /usr/include/bits/atomic_wide_counter.h /usr/include/bits/struct_mutex.h \
  /usr/include/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
- /home/nick/dl/neovim/.deps/build/src/libuv/src/strtok.h
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv/src/strtok.h

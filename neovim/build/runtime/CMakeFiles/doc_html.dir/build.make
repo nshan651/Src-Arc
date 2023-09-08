@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 # Utility rule file for doc_html.
 
@@ -67,13 +67,13 @@ include runtime/CMakeFiles/doc_html.dir/compiler_depend.make
 include runtime/CMakeFiles/doc_html.dir/progress.make
 
 runtime/CMakeFiles/doc_html: runtime/doc/tags
-	cd /home/nick/dl/neovim/build/runtime/doc && /home/nick/dl/neovim/build/bin/nvim -V1 -es --clean -c lua\ require('scripts.gen_help_html').gen('./build/runtime/doc',\ './build/doc_html',\ nil,\ 'todo_commit_id') -c 0cq
+	cd /home/nick/git/Src-Arc/neovim/build/runtime/doc && /home/nick/git/Src-Arc/neovim/build/bin/nvim -V1 -es --clean -c lua\ require('scripts.gen_help_html').gen('./build/runtime/doc',\ './build/doc_html',\ nil,\ 'todo_commit_id') -c 0cq
 
 runtime/doc/tags: bin/nvim
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating doc/tags"
-	cd /home/nick/dl/neovim/build/runtime && /usr/bin/cmake -E remove_directory doc
-	cd /home/nick/dl/neovim/build/runtime && /usr/bin/cmake -E copy_directory /home/nick/dl/neovim/runtime/doc doc
-	cd /home/nick/dl/neovim/build/runtime && /home/nick/dl/neovim/build/bin/nvim -u NONE -i NONE -e --headless -c helptags\ ++t\ doc -c quit
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating doc/tags"
+	cd /home/nick/git/Src-Arc/neovim/build/runtime && /usr/bin/cmake -E remove_directory doc
+	cd /home/nick/git/Src-Arc/neovim/build/runtime && /usr/bin/cmake -E copy_directory /home/nick/git/Src-Arc/neovim/runtime/doc doc
+	cd /home/nick/git/Src-Arc/neovim/build/runtime && /home/nick/git/Src-Arc/neovim/build/bin/nvim -u NONE -i NONE -e --headless -c helptags\ ++t\ doc -c quit
 
 doc_html: runtime/CMakeFiles/doc_html
 doc_html: runtime/doc/tags
@@ -85,10 +85,10 @@ runtime/CMakeFiles/doc_html.dir/build: doc_html
 .PHONY : runtime/CMakeFiles/doc_html.dir/build
 
 runtime/CMakeFiles/doc_html.dir/clean:
-	cd /home/nick/dl/neovim/build/runtime && $(CMAKE_COMMAND) -P CMakeFiles/doc_html.dir/cmake_clean.cmake
+	cd /home/nick/git/Src-Arc/neovim/build/runtime && $(CMAKE_COMMAND) -P CMakeFiles/doc_html.dir/cmake_clean.cmake
 .PHONY : runtime/CMakeFiles/doc_html.dir/clean
 
 runtime/CMakeFiles/doc_html.dir/depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim /home/nick/dl/neovim/runtime /home/nick/dl/neovim/build /home/nick/dl/neovim/build/runtime /home/nick/dl/neovim/build/runtime/CMakeFiles/doc_html.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim/runtime /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build/runtime /home/nick/git/Src-Arc/neovim/build/runtime/CMakeFiles/doc_html.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : runtime/CMakeFiles/doc_html.dir/depend
 

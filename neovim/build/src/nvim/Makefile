@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /home/nick/dl/neovim/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /home/nick/dl/neovim/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/nick/dl/neovim/build/CPackSourceConfig.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/nick/git/Src-Arc/neovim/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/build/CMakeFiles /home/nick/dl/neovim/build/src/nvim//CMakeFiles/progress.marks
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/build/CMakeFiles 0
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/build/CMakeFiles /home/nick/git/Src-Arc/neovim/build/src/nvim//CMakeFiles/progress.marks
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/clean
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,23 +168,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/preinstall
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/preinstall
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -P /home/nick/dl/neovim/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -P /home/nick/git/Src-Arc/neovim/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/nvim/CMakeFiles/nvim.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/nvim.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/nvim.dir/rule
 .PHONY : src/nvim/CMakeFiles/nvim.dir/rule
 
 # Convenience name for target.
@@ -193,12 +193,12 @@ nvim: src/nvim/CMakeFiles/nvim.dir/rule
 
 # fast build rule for target.
 nvim/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/build
 .PHONY : nvim/fast
 
 # Convenience name for target.
 src/nvim/CMakeFiles/update_version_stamp.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/update_version_stamp.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/update_version_stamp.dir/rule
 .PHONY : src/nvim/CMakeFiles/update_version_stamp.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ update_version_stamp: src/nvim/CMakeFiles/update_version_stamp.dir/rule
 
 # fast build rule for target.
 update_version_stamp/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/update_version_stamp.dir/build.make src/nvim/CMakeFiles/update_version_stamp.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/update_version_stamp.dir/build.make src/nvim/CMakeFiles/update_version_stamp.dir/build
 .PHONY : update_version_stamp/fast
 
 # Convenience name for target.
 src/nvim/CMakeFiles/nvim_runtime_deps.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/nvim_runtime_deps.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/nvim_runtime_deps.dir/rule
 .PHONY : src/nvim/CMakeFiles/nvim_runtime_deps.dir/rule
 
 # Convenience name for target.
@@ -221,12 +221,12 @@ nvim_runtime_deps: src/nvim/CMakeFiles/nvim_runtime_deps.dir/rule
 
 # fast build rule for target.
 nvim_runtime_deps/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim_runtime_deps.dir/build.make src/nvim/CMakeFiles/nvim_runtime_deps.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim_runtime_deps.dir/build.make src/nvim/CMakeFiles/nvim_runtime_deps.dir/build
 .PHONY : nvim_runtime_deps/fast
 
 # Convenience name for target.
 src/nvim/CMakeFiles/libnvim.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/libnvim.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/libnvim.dir/rule
 .PHONY : src/nvim/CMakeFiles/libnvim.dir/rule
 
 # Convenience name for target.
@@ -235,12 +235,12 @@ libnvim: src/nvim/CMakeFiles/libnvim.dir/rule
 
 # fast build rule for target.
 libnvim/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/build
 .PHONY : libnvim/fast
 
 # Convenience name for target.
 src/nvim/CMakeFiles/clang-tidy.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/clang-tidy.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/clang-tidy.dir/rule
 .PHONY : src/nvim/CMakeFiles/clang-tidy.dir/rule
 
 # Convenience name for target.
@@ -249,12 +249,12 @@ clang-tidy: src/nvim/CMakeFiles/clang-tidy.dir/rule
 
 # fast build rule for target.
 clang-tidy/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/clang-tidy.dir/build.make src/nvim/CMakeFiles/clang-tidy.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/clang-tidy.dir/build.make src/nvim/CMakeFiles/clang-tidy.dir/build
 .PHONY : clang-tidy/fast
 
 # Convenience name for target.
 src/nvim/CMakeFiles/copy_compile_commands.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/copy_compile_commands.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/copy_compile_commands.dir/rule
 .PHONY : src/nvim/CMakeFiles/copy_compile_commands.dir/rule
 
 # Convenience name for target.
@@ -263,12 +263,12 @@ copy_compile_commands: src/nvim/CMakeFiles/copy_compile_commands.dir/rule
 
 # fast build rule for target.
 copy_compile_commands/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/copy_compile_commands.dir/build.make src/nvim/CMakeFiles/copy_compile_commands.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/copy_compile_commands.dir/build.make src/nvim/CMakeFiles/copy_compile_commands.dir/build
 .PHONY : copy_compile_commands/fast
 
 # Convenience name for target.
 src/nvim/CMakeFiles/lintc-clint.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/lintc-clint.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/lintc-clint.dir/rule
 .PHONY : src/nvim/CMakeFiles/lintc-clint.dir/rule
 
 # Convenience name for target.
@@ -277,12 +277,12 @@ lintc-clint: src/nvim/CMakeFiles/lintc-clint.dir/rule
 
 # fast build rule for target.
 lintc-clint/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/lintc-clint.dir/build.make src/nvim/CMakeFiles/lintc-clint.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/lintc-clint.dir/build.make src/nvim/CMakeFiles/lintc-clint.dir/build
 .PHONY : lintc-clint/fast
 
 # Convenience name for target.
 src/nvim/CMakeFiles/uncrustify-version.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/uncrustify-version.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/uncrustify-version.dir/rule
 .PHONY : src/nvim/CMakeFiles/uncrustify-version.dir/rule
 
 # Convenience name for target.
@@ -291,12 +291,12 @@ uncrustify-version: src/nvim/CMakeFiles/uncrustify-version.dir/rule
 
 # fast build rule for target.
 uncrustify-version/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/uncrustify-version.dir/build.make src/nvim/CMakeFiles/uncrustify-version.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/uncrustify-version.dir/build.make src/nvim/CMakeFiles/uncrustify-version.dir/build
 .PHONY : uncrustify-version/fast
 
 # Convenience name for target.
 src/nvim/CMakeFiles/lintc-uncrustify.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/lintc-uncrustify.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/lintc-uncrustify.dir/rule
 .PHONY : src/nvim/CMakeFiles/lintc-uncrustify.dir/rule
 
 # Convenience name for target.
@@ -305,12 +305,12 @@ lintc-uncrustify: src/nvim/CMakeFiles/lintc-uncrustify.dir/rule
 
 # fast build rule for target.
 lintc-uncrustify/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/lintc-uncrustify.dir/build.make src/nvim/CMakeFiles/lintc-uncrustify.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/lintc-uncrustify.dir/build.make src/nvim/CMakeFiles/lintc-uncrustify.dir/build
 .PHONY : lintc-uncrustify/fast
 
 # Convenience name for target.
 src/nvim/CMakeFiles/lintc.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/lintc.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/lintc.dir/rule
 .PHONY : src/nvim/CMakeFiles/lintc.dir/rule
 
 # Convenience name for target.
@@ -319,12 +319,12 @@ lintc: src/nvim/CMakeFiles/lintc.dir/rule
 
 # fast build rule for target.
 lintc/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/lintc.dir/build.make src/nvim/CMakeFiles/lintc.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/lintc.dir/build.make src/nvim/CMakeFiles/lintc.dir/build
 .PHONY : lintc/fast
 
 # Convenience name for target.
 src/nvim/CMakeFiles/formatc.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/formatc.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/formatc.dir/rule
 .PHONY : src/nvim/CMakeFiles/formatc.dir/rule
 
 # Convenience name for target.
@@ -333,12 +333,12 @@ formatc: src/nvim/CMakeFiles/formatc.dir/rule
 
 # fast build rule for target.
 formatc/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/formatc.dir/build.make src/nvim/CMakeFiles/formatc.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/formatc.dir/build.make src/nvim/CMakeFiles/formatc.dir/build
 .PHONY : formatc/fast
 
 # Convenience name for target.
 src/nvim/CMakeFiles/generated-sources.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/generated-sources.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/nvim/CMakeFiles/generated-sources.dir/rule
 .PHONY : src/nvim/CMakeFiles/generated-sources.dir/rule
 
 # Convenience name for target.
@@ -347,7 +347,7 @@ generated-sources: src/nvim/CMakeFiles/generated-sources.dir/rule
 
 # fast build rule for target.
 generated-sources/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/generated-sources.dir/build.make src/nvim/CMakeFiles/generated-sources.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/generated-sources.dir/build.make src/nvim/CMakeFiles/generated-sources.dir/build
 .PHONY : generated-sources/fast
 
 __/__/cmake.config/auto/pathdef.o: __/__/cmake.config/auto/pathdef.c.o
@@ -355,8 +355,8 @@ __/__/cmake.config/auto/pathdef.o: __/__/cmake.config/auto/pathdef.c.o
 
 # target to build an object file
 __/__/cmake.config/auto/pathdef.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/cmake.config/auto/pathdef.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/__/cmake.config/auto/pathdef.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/cmake.config/auto/pathdef.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/__/cmake.config/auto/pathdef.c.o
 .PHONY : __/__/cmake.config/auto/pathdef.c.o
 
 __/__/cmake.config/auto/pathdef.i: __/__/cmake.config/auto/pathdef.c.i
@@ -364,8 +364,8 @@ __/__/cmake.config/auto/pathdef.i: __/__/cmake.config/auto/pathdef.c.i
 
 # target to preprocess a source file
 __/__/cmake.config/auto/pathdef.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/cmake.config/auto/pathdef.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/__/cmake.config/auto/pathdef.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/cmake.config/auto/pathdef.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/__/cmake.config/auto/pathdef.c.i
 .PHONY : __/__/cmake.config/auto/pathdef.c.i
 
 __/__/cmake.config/auto/pathdef.s: __/__/cmake.config/auto/pathdef.c.s
@@ -373,8 +373,8 @@ __/__/cmake.config/auto/pathdef.s: __/__/cmake.config/auto/pathdef.c.s
 
 # target to generate assembly for a file
 __/__/cmake.config/auto/pathdef.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/cmake.config/auto/pathdef.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/__/cmake.config/auto/pathdef.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/cmake.config/auto/pathdef.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/__/cmake.config/auto/pathdef.c.s
 .PHONY : __/__/cmake.config/auto/pathdef.c.s
 
 __/__/test/unit/fixtures/multiqueue.o: __/__/test/unit/fixtures/multiqueue.c.o
@@ -382,7 +382,7 @@ __/__/test/unit/fixtures/multiqueue.o: __/__/test/unit/fixtures/multiqueue.c.o
 
 # target to build an object file
 __/__/test/unit/fixtures/multiqueue.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/test/unit/fixtures/multiqueue.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/test/unit/fixtures/multiqueue.c.o
 .PHONY : __/__/test/unit/fixtures/multiqueue.c.o
 
 __/__/test/unit/fixtures/multiqueue.i: __/__/test/unit/fixtures/multiqueue.c.i
@@ -390,7 +390,7 @@ __/__/test/unit/fixtures/multiqueue.i: __/__/test/unit/fixtures/multiqueue.c.i
 
 # target to preprocess a source file
 __/__/test/unit/fixtures/multiqueue.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/test/unit/fixtures/multiqueue.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/test/unit/fixtures/multiqueue.c.i
 .PHONY : __/__/test/unit/fixtures/multiqueue.c.i
 
 __/__/test/unit/fixtures/multiqueue.s: __/__/test/unit/fixtures/multiqueue.c.s
@@ -398,7 +398,7 @@ __/__/test/unit/fixtures/multiqueue.s: __/__/test/unit/fixtures/multiqueue.c.s
 
 # target to generate assembly for a file
 __/__/test/unit/fixtures/multiqueue.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/test/unit/fixtures/multiqueue.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/test/unit/fixtures/multiqueue.c.s
 .PHONY : __/__/test/unit/fixtures/multiqueue.c.s
 
 __/__/test/unit/fixtures/rbuffer.o: __/__/test/unit/fixtures/rbuffer.c.o
@@ -406,7 +406,7 @@ __/__/test/unit/fixtures/rbuffer.o: __/__/test/unit/fixtures/rbuffer.c.o
 
 # target to build an object file
 __/__/test/unit/fixtures/rbuffer.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/test/unit/fixtures/rbuffer.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/test/unit/fixtures/rbuffer.c.o
 .PHONY : __/__/test/unit/fixtures/rbuffer.c.o
 
 __/__/test/unit/fixtures/rbuffer.i: __/__/test/unit/fixtures/rbuffer.c.i
@@ -414,7 +414,7 @@ __/__/test/unit/fixtures/rbuffer.i: __/__/test/unit/fixtures/rbuffer.c.i
 
 # target to preprocess a source file
 __/__/test/unit/fixtures/rbuffer.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/test/unit/fixtures/rbuffer.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/test/unit/fixtures/rbuffer.c.i
 .PHONY : __/__/test/unit/fixtures/rbuffer.c.i
 
 __/__/test/unit/fixtures/rbuffer.s: __/__/test/unit/fixtures/rbuffer.c.s
@@ -422,7 +422,7 @@ __/__/test/unit/fixtures/rbuffer.s: __/__/test/unit/fixtures/rbuffer.c.s
 
 # target to generate assembly for a file
 __/__/test/unit/fixtures/rbuffer.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/test/unit/fixtures/rbuffer.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/__/test/unit/fixtures/rbuffer.c.s
 .PHONY : __/__/test/unit/fixtures/rbuffer.c.s
 
 __/cjson/fpconv.o: __/cjson/fpconv.c.o
@@ -430,8 +430,8 @@ __/cjson/fpconv.o: __/cjson/fpconv.c.o
 
 # target to build an object file
 __/cjson/fpconv.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/fpconv.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/fpconv.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/fpconv.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/fpconv.c.o
 .PHONY : __/cjson/fpconv.c.o
 
 __/cjson/fpconv.i: __/cjson/fpconv.c.i
@@ -439,8 +439,8 @@ __/cjson/fpconv.i: __/cjson/fpconv.c.i
 
 # target to preprocess a source file
 __/cjson/fpconv.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/fpconv.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/fpconv.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/fpconv.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/fpconv.c.i
 .PHONY : __/cjson/fpconv.c.i
 
 __/cjson/fpconv.s: __/cjson/fpconv.c.s
@@ -448,8 +448,8 @@ __/cjson/fpconv.s: __/cjson/fpconv.c.s
 
 # target to generate assembly for a file
 __/cjson/fpconv.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/fpconv.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/fpconv.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/fpconv.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/fpconv.c.s
 .PHONY : __/cjson/fpconv.c.s
 
 __/cjson/lua_cjson.o: __/cjson/lua_cjson.c.o
@@ -457,8 +457,8 @@ __/cjson/lua_cjson.o: __/cjson/lua_cjson.c.o
 
 # target to build an object file
 __/cjson/lua_cjson.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/lua_cjson.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/lua_cjson.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/lua_cjson.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/lua_cjson.c.o
 .PHONY : __/cjson/lua_cjson.c.o
 
 __/cjson/lua_cjson.i: __/cjson/lua_cjson.c.i
@@ -466,8 +466,8 @@ __/cjson/lua_cjson.i: __/cjson/lua_cjson.c.i
 
 # target to preprocess a source file
 __/cjson/lua_cjson.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/lua_cjson.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/lua_cjson.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/lua_cjson.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/lua_cjson.c.i
 .PHONY : __/cjson/lua_cjson.c.i
 
 __/cjson/lua_cjson.s: __/cjson/lua_cjson.c.s
@@ -475,8 +475,8 @@ __/cjson/lua_cjson.s: __/cjson/lua_cjson.c.s
 
 # target to generate assembly for a file
 __/cjson/lua_cjson.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/lua_cjson.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/lua_cjson.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/lua_cjson.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/lua_cjson.c.s
 .PHONY : __/cjson/lua_cjson.c.s
 
 __/cjson/strbuf.o: __/cjson/strbuf.c.o
@@ -484,8 +484,8 @@ __/cjson/strbuf.o: __/cjson/strbuf.c.o
 
 # target to build an object file
 __/cjson/strbuf.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/strbuf.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/strbuf.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/strbuf.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/strbuf.c.o
 .PHONY : __/cjson/strbuf.c.o
 
 __/cjson/strbuf.i: __/cjson/strbuf.c.i
@@ -493,8 +493,8 @@ __/cjson/strbuf.i: __/cjson/strbuf.c.i
 
 # target to preprocess a source file
 __/cjson/strbuf.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/strbuf.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/strbuf.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/strbuf.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/strbuf.c.i
 .PHONY : __/cjson/strbuf.c.i
 
 __/cjson/strbuf.s: __/cjson/strbuf.c.s
@@ -502,8 +502,8 @@ __/cjson/strbuf.s: __/cjson/strbuf.c.s
 
 # target to generate assembly for a file
 __/cjson/strbuf.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/strbuf.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/strbuf.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/cjson/strbuf.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/cjson/strbuf.c.s
 .PHONY : __/cjson/strbuf.c.s
 
 __/mpack/conv.o: __/mpack/conv.c.o
@@ -511,8 +511,8 @@ __/mpack/conv.o: __/mpack/conv.c.o
 
 # target to build an object file
 __/mpack/conv.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/conv.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/conv.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/conv.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/conv.c.o
 .PHONY : __/mpack/conv.c.o
 
 __/mpack/conv.i: __/mpack/conv.c.i
@@ -520,8 +520,8 @@ __/mpack/conv.i: __/mpack/conv.c.i
 
 # target to preprocess a source file
 __/mpack/conv.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/conv.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/conv.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/conv.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/conv.c.i
 .PHONY : __/mpack/conv.c.i
 
 __/mpack/conv.s: __/mpack/conv.c.s
@@ -529,8 +529,8 @@ __/mpack/conv.s: __/mpack/conv.c.s
 
 # target to generate assembly for a file
 __/mpack/conv.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/conv.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/conv.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/conv.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/conv.c.s
 .PHONY : __/mpack/conv.c.s
 
 __/mpack/lmpack.o: __/mpack/lmpack.c.o
@@ -538,8 +538,8 @@ __/mpack/lmpack.o: __/mpack/lmpack.c.o
 
 # target to build an object file
 __/mpack/lmpack.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/lmpack.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/lmpack.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/lmpack.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/lmpack.c.o
 .PHONY : __/mpack/lmpack.c.o
 
 __/mpack/lmpack.i: __/mpack/lmpack.c.i
@@ -547,8 +547,8 @@ __/mpack/lmpack.i: __/mpack/lmpack.c.i
 
 # target to preprocess a source file
 __/mpack/lmpack.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/lmpack.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/lmpack.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/lmpack.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/lmpack.c.i
 .PHONY : __/mpack/lmpack.c.i
 
 __/mpack/lmpack.s: __/mpack/lmpack.c.s
@@ -556,8 +556,8 @@ __/mpack/lmpack.s: __/mpack/lmpack.c.s
 
 # target to generate assembly for a file
 __/mpack/lmpack.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/lmpack.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/lmpack.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/lmpack.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/lmpack.c.s
 .PHONY : __/mpack/lmpack.c.s
 
 __/mpack/mpack_core.o: __/mpack/mpack_core.c.o
@@ -565,8 +565,8 @@ __/mpack/mpack_core.o: __/mpack/mpack_core.c.o
 
 # target to build an object file
 __/mpack/mpack_core.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/mpack_core.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/mpack_core.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/mpack_core.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/mpack_core.c.o
 .PHONY : __/mpack/mpack_core.c.o
 
 __/mpack/mpack_core.i: __/mpack/mpack_core.c.i
@@ -574,8 +574,8 @@ __/mpack/mpack_core.i: __/mpack/mpack_core.c.i
 
 # target to preprocess a source file
 __/mpack/mpack_core.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/mpack_core.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/mpack_core.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/mpack_core.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/mpack_core.c.i
 .PHONY : __/mpack/mpack_core.c.i
 
 __/mpack/mpack_core.s: __/mpack/mpack_core.c.s
@@ -583,8 +583,8 @@ __/mpack/mpack_core.s: __/mpack/mpack_core.c.s
 
 # target to generate assembly for a file
 __/mpack/mpack_core.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/mpack_core.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/mpack_core.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/mpack_core.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/mpack_core.c.s
 .PHONY : __/mpack/mpack_core.c.s
 
 __/mpack/object.o: __/mpack/object.c.o
@@ -592,8 +592,8 @@ __/mpack/object.o: __/mpack/object.c.o
 
 # target to build an object file
 __/mpack/object.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/object.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/object.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/object.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/object.c.o
 .PHONY : __/mpack/object.c.o
 
 __/mpack/object.i: __/mpack/object.c.i
@@ -601,8 +601,8 @@ __/mpack/object.i: __/mpack/object.c.i
 
 # target to preprocess a source file
 __/mpack/object.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/object.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/object.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/object.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/object.c.i
 .PHONY : __/mpack/object.c.i
 
 __/mpack/object.s: __/mpack/object.c.s
@@ -610,8 +610,8 @@ __/mpack/object.s: __/mpack/object.c.s
 
 # target to generate assembly for a file
 __/mpack/object.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/object.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/object.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/object.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/object.c.s
 .PHONY : __/mpack/object.c.s
 
 __/mpack/rpc.o: __/mpack/rpc.c.o
@@ -619,8 +619,8 @@ __/mpack/rpc.o: __/mpack/rpc.c.o
 
 # target to build an object file
 __/mpack/rpc.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/rpc.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/rpc.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/rpc.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/rpc.c.o
 .PHONY : __/mpack/rpc.c.o
 
 __/mpack/rpc.i: __/mpack/rpc.c.i
@@ -628,8 +628,8 @@ __/mpack/rpc.i: __/mpack/rpc.c.i
 
 # target to preprocess a source file
 __/mpack/rpc.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/rpc.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/rpc.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/rpc.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/rpc.c.i
 .PHONY : __/mpack/rpc.c.i
 
 __/mpack/rpc.s: __/mpack/rpc.c.s
@@ -637,8 +637,8 @@ __/mpack/rpc.s: __/mpack/rpc.c.s
 
 # target to generate assembly for a file
 __/mpack/rpc.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/rpc.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/rpc.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/mpack/rpc.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/mpack/rpc.c.s
 .PHONY : __/mpack/rpc.c.s
 
 __/xdiff/xdiffi.o: __/xdiff/xdiffi.c.o
@@ -646,8 +646,8 @@ __/xdiff/xdiffi.o: __/xdiff/xdiffi.c.o
 
 # target to build an object file
 __/xdiff/xdiffi.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xdiffi.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xdiffi.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xdiffi.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xdiffi.c.o
 .PHONY : __/xdiff/xdiffi.c.o
 
 __/xdiff/xdiffi.i: __/xdiff/xdiffi.c.i
@@ -655,8 +655,8 @@ __/xdiff/xdiffi.i: __/xdiff/xdiffi.c.i
 
 # target to preprocess a source file
 __/xdiff/xdiffi.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xdiffi.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xdiffi.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xdiffi.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xdiffi.c.i
 .PHONY : __/xdiff/xdiffi.c.i
 
 __/xdiff/xdiffi.s: __/xdiff/xdiffi.c.s
@@ -664,8 +664,8 @@ __/xdiff/xdiffi.s: __/xdiff/xdiffi.c.s
 
 # target to generate assembly for a file
 __/xdiff/xdiffi.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xdiffi.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xdiffi.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xdiffi.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xdiffi.c.s
 .PHONY : __/xdiff/xdiffi.c.s
 
 __/xdiff/xemit.o: __/xdiff/xemit.c.o
@@ -673,8 +673,8 @@ __/xdiff/xemit.o: __/xdiff/xemit.c.o
 
 # target to build an object file
 __/xdiff/xemit.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xemit.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xemit.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xemit.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xemit.c.o
 .PHONY : __/xdiff/xemit.c.o
 
 __/xdiff/xemit.i: __/xdiff/xemit.c.i
@@ -682,8 +682,8 @@ __/xdiff/xemit.i: __/xdiff/xemit.c.i
 
 # target to preprocess a source file
 __/xdiff/xemit.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xemit.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xemit.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xemit.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xemit.c.i
 .PHONY : __/xdiff/xemit.c.i
 
 __/xdiff/xemit.s: __/xdiff/xemit.c.s
@@ -691,8 +691,8 @@ __/xdiff/xemit.s: __/xdiff/xemit.c.s
 
 # target to generate assembly for a file
 __/xdiff/xemit.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xemit.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xemit.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xemit.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xemit.c.s
 .PHONY : __/xdiff/xemit.c.s
 
 __/xdiff/xhistogram.o: __/xdiff/xhistogram.c.o
@@ -700,8 +700,8 @@ __/xdiff/xhistogram.o: __/xdiff/xhistogram.c.o
 
 # target to build an object file
 __/xdiff/xhistogram.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xhistogram.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xhistogram.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xhistogram.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xhistogram.c.o
 .PHONY : __/xdiff/xhistogram.c.o
 
 __/xdiff/xhistogram.i: __/xdiff/xhistogram.c.i
@@ -709,8 +709,8 @@ __/xdiff/xhistogram.i: __/xdiff/xhistogram.c.i
 
 # target to preprocess a source file
 __/xdiff/xhistogram.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xhistogram.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xhistogram.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xhistogram.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xhistogram.c.i
 .PHONY : __/xdiff/xhistogram.c.i
 
 __/xdiff/xhistogram.s: __/xdiff/xhistogram.c.s
@@ -718,8 +718,8 @@ __/xdiff/xhistogram.s: __/xdiff/xhistogram.c.s
 
 # target to generate assembly for a file
 __/xdiff/xhistogram.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xhistogram.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xhistogram.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xhistogram.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xhistogram.c.s
 .PHONY : __/xdiff/xhistogram.c.s
 
 __/xdiff/xpatience.o: __/xdiff/xpatience.c.o
@@ -727,8 +727,8 @@ __/xdiff/xpatience.o: __/xdiff/xpatience.c.o
 
 # target to build an object file
 __/xdiff/xpatience.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xpatience.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xpatience.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xpatience.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xpatience.c.o
 .PHONY : __/xdiff/xpatience.c.o
 
 __/xdiff/xpatience.i: __/xdiff/xpatience.c.i
@@ -736,8 +736,8 @@ __/xdiff/xpatience.i: __/xdiff/xpatience.c.i
 
 # target to preprocess a source file
 __/xdiff/xpatience.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xpatience.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xpatience.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xpatience.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xpatience.c.i
 .PHONY : __/xdiff/xpatience.c.i
 
 __/xdiff/xpatience.s: __/xdiff/xpatience.c.s
@@ -745,8 +745,8 @@ __/xdiff/xpatience.s: __/xdiff/xpatience.c.s
 
 # target to generate assembly for a file
 __/xdiff/xpatience.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xpatience.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xpatience.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xpatience.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xpatience.c.s
 .PHONY : __/xdiff/xpatience.c.s
 
 __/xdiff/xprepare.o: __/xdiff/xprepare.c.o
@@ -754,8 +754,8 @@ __/xdiff/xprepare.o: __/xdiff/xprepare.c.o
 
 # target to build an object file
 __/xdiff/xprepare.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xprepare.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xprepare.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xprepare.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xprepare.c.o
 .PHONY : __/xdiff/xprepare.c.o
 
 __/xdiff/xprepare.i: __/xdiff/xprepare.c.i
@@ -763,8 +763,8 @@ __/xdiff/xprepare.i: __/xdiff/xprepare.c.i
 
 # target to preprocess a source file
 __/xdiff/xprepare.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xprepare.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xprepare.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xprepare.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xprepare.c.i
 .PHONY : __/xdiff/xprepare.c.i
 
 __/xdiff/xprepare.s: __/xdiff/xprepare.c.s
@@ -772,8 +772,8 @@ __/xdiff/xprepare.s: __/xdiff/xprepare.c.s
 
 # target to generate assembly for a file
 __/xdiff/xprepare.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xprepare.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xprepare.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xprepare.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xprepare.c.s
 .PHONY : __/xdiff/xprepare.c.s
 
 __/xdiff/xutils.o: __/xdiff/xutils.c.o
@@ -781,8 +781,8 @@ __/xdiff/xutils.o: __/xdiff/xutils.c.o
 
 # target to build an object file
 __/xdiff/xutils.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xutils.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xutils.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xutils.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xutils.c.o
 .PHONY : __/xdiff/xutils.c.o
 
 __/xdiff/xutils.i: __/xdiff/xutils.c.i
@@ -790,8 +790,8 @@ __/xdiff/xutils.i: __/xdiff/xutils.c.i
 
 # target to preprocess a source file
 __/xdiff/xutils.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xutils.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xutils.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xutils.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xutils.c.i
 .PHONY : __/xdiff/xutils.c.i
 
 __/xdiff/xutils.s: __/xdiff/xutils.c.s
@@ -799,8 +799,8 @@ __/xdiff/xutils.s: __/xdiff/xutils.c.s
 
 # target to generate assembly for a file
 __/xdiff/xutils.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xutils.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xutils.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/__/xdiff/xutils.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/__/xdiff/xutils.c.s
 .PHONY : __/xdiff/xutils.c.s
 
 api/autocmd.o: api/autocmd.c.o
@@ -808,8 +808,8 @@ api/autocmd.o: api/autocmd.c.o
 
 # target to build an object file
 api/autocmd.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/autocmd.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/autocmd.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/autocmd.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/autocmd.c.o
 .PHONY : api/autocmd.c.o
 
 api/autocmd.i: api/autocmd.c.i
@@ -817,8 +817,8 @@ api/autocmd.i: api/autocmd.c.i
 
 # target to preprocess a source file
 api/autocmd.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/autocmd.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/autocmd.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/autocmd.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/autocmd.c.i
 .PHONY : api/autocmd.c.i
 
 api/autocmd.s: api/autocmd.c.s
@@ -826,8 +826,8 @@ api/autocmd.s: api/autocmd.c.s
 
 # target to generate assembly for a file
 api/autocmd.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/autocmd.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/autocmd.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/autocmd.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/autocmd.c.s
 .PHONY : api/autocmd.c.s
 
 api/buffer.o: api/buffer.c.o
@@ -835,8 +835,8 @@ api/buffer.o: api/buffer.c.o
 
 # target to build an object file
 api/buffer.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/buffer.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/buffer.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/buffer.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/buffer.c.o
 .PHONY : api/buffer.c.o
 
 api/buffer.i: api/buffer.c.i
@@ -844,8 +844,8 @@ api/buffer.i: api/buffer.c.i
 
 # target to preprocess a source file
 api/buffer.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/buffer.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/buffer.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/buffer.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/buffer.c.i
 .PHONY : api/buffer.c.i
 
 api/buffer.s: api/buffer.c.s
@@ -853,8 +853,8 @@ api/buffer.s: api/buffer.c.s
 
 # target to generate assembly for a file
 api/buffer.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/buffer.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/buffer.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/buffer.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/buffer.c.s
 .PHONY : api/buffer.c.s
 
 api/command.o: api/command.c.o
@@ -862,8 +862,8 @@ api/command.o: api/command.c.o
 
 # target to build an object file
 api/command.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/command.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/command.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/command.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/command.c.o
 .PHONY : api/command.c.o
 
 api/command.i: api/command.c.i
@@ -871,8 +871,8 @@ api/command.i: api/command.c.i
 
 # target to preprocess a source file
 api/command.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/command.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/command.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/command.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/command.c.i
 .PHONY : api/command.c.i
 
 api/command.s: api/command.c.s
@@ -880,8 +880,8 @@ api/command.s: api/command.c.s
 
 # target to generate assembly for a file
 api/command.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/command.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/command.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/command.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/command.c.s
 .PHONY : api/command.c.s
 
 api/deprecated.o: api/deprecated.c.o
@@ -889,8 +889,8 @@ api/deprecated.o: api/deprecated.c.o
 
 # target to build an object file
 api/deprecated.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/deprecated.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/deprecated.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/deprecated.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/deprecated.c.o
 .PHONY : api/deprecated.c.o
 
 api/deprecated.i: api/deprecated.c.i
@@ -898,8 +898,8 @@ api/deprecated.i: api/deprecated.c.i
 
 # target to preprocess a source file
 api/deprecated.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/deprecated.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/deprecated.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/deprecated.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/deprecated.c.i
 .PHONY : api/deprecated.c.i
 
 api/deprecated.s: api/deprecated.c.s
@@ -907,8 +907,8 @@ api/deprecated.s: api/deprecated.c.s
 
 # target to generate assembly for a file
 api/deprecated.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/deprecated.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/deprecated.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/deprecated.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/deprecated.c.s
 .PHONY : api/deprecated.c.s
 
 api/extmark.o: api/extmark.c.o
@@ -916,8 +916,8 @@ api/extmark.o: api/extmark.c.o
 
 # target to build an object file
 api/extmark.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/extmark.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/extmark.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/extmark.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/extmark.c.o
 .PHONY : api/extmark.c.o
 
 api/extmark.i: api/extmark.c.i
@@ -925,8 +925,8 @@ api/extmark.i: api/extmark.c.i
 
 # target to preprocess a source file
 api/extmark.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/extmark.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/extmark.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/extmark.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/extmark.c.i
 .PHONY : api/extmark.c.i
 
 api/extmark.s: api/extmark.c.s
@@ -934,8 +934,8 @@ api/extmark.s: api/extmark.c.s
 
 # target to generate assembly for a file
 api/extmark.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/extmark.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/extmark.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/extmark.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/extmark.c.s
 .PHONY : api/extmark.c.s
 
 api/options.o: api/options.c.o
@@ -943,8 +943,8 @@ api/options.o: api/options.c.o
 
 # target to build an object file
 api/options.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/options.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/options.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/options.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/options.c.o
 .PHONY : api/options.c.o
 
 api/options.i: api/options.c.i
@@ -952,8 +952,8 @@ api/options.i: api/options.c.i
 
 # target to preprocess a source file
 api/options.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/options.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/options.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/options.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/options.c.i
 .PHONY : api/options.c.i
 
 api/options.s: api/options.c.s
@@ -961,8 +961,8 @@ api/options.s: api/options.c.s
 
 # target to generate assembly for a file
 api/options.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/options.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/options.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/options.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/options.c.s
 .PHONY : api/options.c.s
 
 api/private/converter.o: api/private/converter.c.o
@@ -970,8 +970,8 @@ api/private/converter.o: api/private/converter.c.o
 
 # target to build an object file
 api/private/converter.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/converter.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/converter.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/converter.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/converter.c.o
 .PHONY : api/private/converter.c.o
 
 api/private/converter.i: api/private/converter.c.i
@@ -979,8 +979,8 @@ api/private/converter.i: api/private/converter.c.i
 
 # target to preprocess a source file
 api/private/converter.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/converter.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/converter.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/converter.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/converter.c.i
 .PHONY : api/private/converter.c.i
 
 api/private/converter.s: api/private/converter.c.s
@@ -988,8 +988,8 @@ api/private/converter.s: api/private/converter.c.s
 
 # target to generate assembly for a file
 api/private/converter.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/converter.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/converter.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/converter.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/converter.c.s
 .PHONY : api/private/converter.c.s
 
 api/private/dispatch.o: api/private/dispatch.c.o
@@ -997,8 +997,8 @@ api/private/dispatch.o: api/private/dispatch.c.o
 
 # target to build an object file
 api/private/dispatch.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/dispatch.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/dispatch.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/dispatch.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/dispatch.c.o
 .PHONY : api/private/dispatch.c.o
 
 api/private/dispatch.i: api/private/dispatch.c.i
@@ -1006,8 +1006,8 @@ api/private/dispatch.i: api/private/dispatch.c.i
 
 # target to preprocess a source file
 api/private/dispatch.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/dispatch.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/dispatch.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/dispatch.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/dispatch.c.i
 .PHONY : api/private/dispatch.c.i
 
 api/private/dispatch.s: api/private/dispatch.c.s
@@ -1015,8 +1015,8 @@ api/private/dispatch.s: api/private/dispatch.c.s
 
 # target to generate assembly for a file
 api/private/dispatch.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/dispatch.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/dispatch.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/dispatch.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/dispatch.c.s
 .PHONY : api/private/dispatch.c.s
 
 api/private/helpers.o: api/private/helpers.c.o
@@ -1024,8 +1024,8 @@ api/private/helpers.o: api/private/helpers.c.o
 
 # target to build an object file
 api/private/helpers.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/helpers.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/helpers.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/helpers.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/helpers.c.o
 .PHONY : api/private/helpers.c.o
 
 api/private/helpers.i: api/private/helpers.c.i
@@ -1033,8 +1033,8 @@ api/private/helpers.i: api/private/helpers.c.i
 
 # target to preprocess a source file
 api/private/helpers.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/helpers.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/helpers.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/helpers.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/helpers.c.i
 .PHONY : api/private/helpers.c.i
 
 api/private/helpers.s: api/private/helpers.c.s
@@ -1042,8 +1042,8 @@ api/private/helpers.s: api/private/helpers.c.s
 
 # target to generate assembly for a file
 api/private/helpers.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/helpers.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/helpers.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/helpers.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/helpers.c.s
 .PHONY : api/private/helpers.c.s
 
 api/private/validate.o: api/private/validate.c.o
@@ -1051,8 +1051,8 @@ api/private/validate.o: api/private/validate.c.o
 
 # target to build an object file
 api/private/validate.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/validate.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/validate.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/validate.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/validate.c.o
 .PHONY : api/private/validate.c.o
 
 api/private/validate.i: api/private/validate.c.i
@@ -1060,8 +1060,8 @@ api/private/validate.i: api/private/validate.c.i
 
 # target to preprocess a source file
 api/private/validate.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/validate.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/validate.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/validate.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/validate.c.i
 .PHONY : api/private/validate.c.i
 
 api/private/validate.s: api/private/validate.c.s
@@ -1069,8 +1069,8 @@ api/private/validate.s: api/private/validate.c.s
 
 # target to generate assembly for a file
 api/private/validate.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/validate.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/validate.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/private/validate.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/private/validate.c.s
 .PHONY : api/private/validate.c.s
 
 api/tabpage.o: api/tabpage.c.o
@@ -1078,8 +1078,8 @@ api/tabpage.o: api/tabpage.c.o
 
 # target to build an object file
 api/tabpage.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/tabpage.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/tabpage.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/tabpage.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/tabpage.c.o
 .PHONY : api/tabpage.c.o
 
 api/tabpage.i: api/tabpage.c.i
@@ -1087,8 +1087,8 @@ api/tabpage.i: api/tabpage.c.i
 
 # target to preprocess a source file
 api/tabpage.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/tabpage.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/tabpage.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/tabpage.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/tabpage.c.i
 .PHONY : api/tabpage.c.i
 
 api/tabpage.s: api/tabpage.c.s
@@ -1096,8 +1096,8 @@ api/tabpage.s: api/tabpage.c.s
 
 # target to generate assembly for a file
 api/tabpage.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/tabpage.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/tabpage.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/tabpage.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/tabpage.c.s
 .PHONY : api/tabpage.c.s
 
 api/ui.o: api/ui.c.o
@@ -1105,8 +1105,8 @@ api/ui.o: api/ui.c.o
 
 # target to build an object file
 api/ui.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/ui.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/ui.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/ui.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/ui.c.o
 .PHONY : api/ui.c.o
 
 api/ui.i: api/ui.c.i
@@ -1114,8 +1114,8 @@ api/ui.i: api/ui.c.i
 
 # target to preprocess a source file
 api/ui.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/ui.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/ui.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/ui.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/ui.c.i
 .PHONY : api/ui.c.i
 
 api/ui.s: api/ui.c.s
@@ -1123,8 +1123,8 @@ api/ui.s: api/ui.c.s
 
 # target to generate assembly for a file
 api/ui.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/ui.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/ui.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/ui.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/ui.c.s
 .PHONY : api/ui.c.s
 
 api/vim.o: api/vim.c.o
@@ -1132,8 +1132,8 @@ api/vim.o: api/vim.c.o
 
 # target to build an object file
 api/vim.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/vim.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/vim.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/vim.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/vim.c.o
 .PHONY : api/vim.c.o
 
 api/vim.i: api/vim.c.i
@@ -1141,8 +1141,8 @@ api/vim.i: api/vim.c.i
 
 # target to preprocess a source file
 api/vim.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/vim.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/vim.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/vim.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/vim.c.i
 .PHONY : api/vim.c.i
 
 api/vim.s: api/vim.c.s
@@ -1150,8 +1150,8 @@ api/vim.s: api/vim.c.s
 
 # target to generate assembly for a file
 api/vim.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/vim.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/vim.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/vim.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/vim.c.s
 .PHONY : api/vim.c.s
 
 api/vimscript.o: api/vimscript.c.o
@@ -1159,8 +1159,8 @@ api/vimscript.o: api/vimscript.c.o
 
 # target to build an object file
 api/vimscript.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/vimscript.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/vimscript.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/vimscript.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/vimscript.c.o
 .PHONY : api/vimscript.c.o
 
 api/vimscript.i: api/vimscript.c.i
@@ -1168,8 +1168,8 @@ api/vimscript.i: api/vimscript.c.i
 
 # target to preprocess a source file
 api/vimscript.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/vimscript.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/vimscript.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/vimscript.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/vimscript.c.i
 .PHONY : api/vimscript.c.i
 
 api/vimscript.s: api/vimscript.c.s
@@ -1177,8 +1177,8 @@ api/vimscript.s: api/vimscript.c.s
 
 # target to generate assembly for a file
 api/vimscript.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/vimscript.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/vimscript.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/vimscript.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/vimscript.c.s
 .PHONY : api/vimscript.c.s
 
 api/win_config.o: api/win_config.c.o
@@ -1186,8 +1186,8 @@ api/win_config.o: api/win_config.c.o
 
 # target to build an object file
 api/win_config.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/win_config.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/win_config.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/win_config.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/win_config.c.o
 .PHONY : api/win_config.c.o
 
 api/win_config.i: api/win_config.c.i
@@ -1195,8 +1195,8 @@ api/win_config.i: api/win_config.c.i
 
 # target to preprocess a source file
 api/win_config.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/win_config.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/win_config.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/win_config.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/win_config.c.i
 .PHONY : api/win_config.c.i
 
 api/win_config.s: api/win_config.c.s
@@ -1204,8 +1204,8 @@ api/win_config.s: api/win_config.c.s
 
 # target to generate assembly for a file
 api/win_config.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/win_config.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/win_config.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/win_config.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/win_config.c.s
 .PHONY : api/win_config.c.s
 
 api/window.o: api/window.c.o
@@ -1213,8 +1213,8 @@ api/window.o: api/window.c.o
 
 # target to build an object file
 api/window.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/window.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/window.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/window.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/window.c.o
 .PHONY : api/window.c.o
 
 api/window.i: api/window.c.i
@@ -1222,8 +1222,8 @@ api/window.i: api/window.c.i
 
 # target to preprocess a source file
 api/window.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/window.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/window.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/window.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/window.c.i
 .PHONY : api/window.c.i
 
 api/window.s: api/window.c.s
@@ -1231,8 +1231,8 @@ api/window.s: api/window.c.s
 
 # target to generate assembly for a file
 api/window.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/window.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/window.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/api/window.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/api/window.c.s
 .PHONY : api/window.c.s
 
 arabic.o: arabic.c.o
@@ -1240,8 +1240,8 @@ arabic.o: arabic.c.o
 
 # target to build an object file
 arabic.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/arabic.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/arabic.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/arabic.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/arabic.c.o
 .PHONY : arabic.c.o
 
 arabic.i: arabic.c.i
@@ -1249,8 +1249,8 @@ arabic.i: arabic.c.i
 
 # target to preprocess a source file
 arabic.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/arabic.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/arabic.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/arabic.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/arabic.c.i
 .PHONY : arabic.c.i
 
 arabic.s: arabic.c.s
@@ -1258,8 +1258,8 @@ arabic.s: arabic.c.s
 
 # target to generate assembly for a file
 arabic.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/arabic.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/arabic.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/arabic.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/arabic.c.s
 .PHONY : arabic.c.s
 
 arglist.o: arglist.c.o
@@ -1267,8 +1267,8 @@ arglist.o: arglist.c.o
 
 # target to build an object file
 arglist.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/arglist.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/arglist.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/arglist.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/arglist.c.o
 .PHONY : arglist.c.o
 
 arglist.i: arglist.c.i
@@ -1276,8 +1276,8 @@ arglist.i: arglist.c.i
 
 # target to preprocess a source file
 arglist.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/arglist.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/arglist.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/arglist.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/arglist.c.i
 .PHONY : arglist.c.i
 
 arglist.s: arglist.c.s
@@ -1285,8 +1285,8 @@ arglist.s: arglist.c.s
 
 # target to generate assembly for a file
 arglist.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/arglist.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/arglist.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/arglist.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/arglist.c.s
 .PHONY : arglist.c.s
 
 auto/lua_api_c_bindings.generated.o: auto/lua_api_c_bindings.generated.c.o
@@ -1294,8 +1294,8 @@ auto/lua_api_c_bindings.generated.o: auto/lua_api_c_bindings.generated.c.o
 
 # target to build an object file
 auto/lua_api_c_bindings.generated.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/auto/lua_api_c_bindings.generated.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/auto/lua_api_c_bindings.generated.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/auto/lua_api_c_bindings.generated.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/auto/lua_api_c_bindings.generated.c.o
 .PHONY : auto/lua_api_c_bindings.generated.c.o
 
 auto/lua_api_c_bindings.generated.i: auto/lua_api_c_bindings.generated.c.i
@@ -1303,8 +1303,8 @@ auto/lua_api_c_bindings.generated.i: auto/lua_api_c_bindings.generated.c.i
 
 # target to preprocess a source file
 auto/lua_api_c_bindings.generated.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/auto/lua_api_c_bindings.generated.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/auto/lua_api_c_bindings.generated.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/auto/lua_api_c_bindings.generated.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/auto/lua_api_c_bindings.generated.c.i
 .PHONY : auto/lua_api_c_bindings.generated.c.i
 
 auto/lua_api_c_bindings.generated.s: auto/lua_api_c_bindings.generated.c.s
@@ -1312,8 +1312,8 @@ auto/lua_api_c_bindings.generated.s: auto/lua_api_c_bindings.generated.c.s
 
 # target to generate assembly for a file
 auto/lua_api_c_bindings.generated.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/auto/lua_api_c_bindings.generated.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/auto/lua_api_c_bindings.generated.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/auto/lua_api_c_bindings.generated.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/auto/lua_api_c_bindings.generated.c.s
 .PHONY : auto/lua_api_c_bindings.generated.c.s
 
 autocmd.o: autocmd.c.o
@@ -1321,8 +1321,8 @@ autocmd.o: autocmd.c.o
 
 # target to build an object file
 autocmd.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/autocmd.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/autocmd.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/autocmd.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/autocmd.c.o
 .PHONY : autocmd.c.o
 
 autocmd.i: autocmd.c.i
@@ -1330,8 +1330,8 @@ autocmd.i: autocmd.c.i
 
 # target to preprocess a source file
 autocmd.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/autocmd.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/autocmd.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/autocmd.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/autocmd.c.i
 .PHONY : autocmd.c.i
 
 autocmd.s: autocmd.c.s
@@ -1339,8 +1339,8 @@ autocmd.s: autocmd.c.s
 
 # target to generate assembly for a file
 autocmd.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/autocmd.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/autocmd.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/autocmd.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/autocmd.c.s
 .PHONY : autocmd.c.s
 
 buffer.o: buffer.c.o
@@ -1348,8 +1348,8 @@ buffer.o: buffer.c.o
 
 # target to build an object file
 buffer.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/buffer.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/buffer.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/buffer.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/buffer.c.o
 .PHONY : buffer.c.o
 
 buffer.i: buffer.c.i
@@ -1357,8 +1357,8 @@ buffer.i: buffer.c.i
 
 # target to preprocess a source file
 buffer.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/buffer.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/buffer.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/buffer.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/buffer.c.i
 .PHONY : buffer.c.i
 
 buffer.s: buffer.c.s
@@ -1366,8 +1366,8 @@ buffer.s: buffer.c.s
 
 # target to generate assembly for a file
 buffer.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/buffer.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/buffer.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/buffer.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/buffer.c.s
 .PHONY : buffer.c.s
 
 buffer_updates.o: buffer_updates.c.o
@@ -1375,8 +1375,8 @@ buffer_updates.o: buffer_updates.c.o
 
 # target to build an object file
 buffer_updates.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/buffer_updates.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/buffer_updates.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/buffer_updates.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/buffer_updates.c.o
 .PHONY : buffer_updates.c.o
 
 buffer_updates.i: buffer_updates.c.i
@@ -1384,8 +1384,8 @@ buffer_updates.i: buffer_updates.c.i
 
 # target to preprocess a source file
 buffer_updates.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/buffer_updates.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/buffer_updates.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/buffer_updates.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/buffer_updates.c.i
 .PHONY : buffer_updates.c.i
 
 buffer_updates.s: buffer_updates.c.s
@@ -1393,8 +1393,8 @@ buffer_updates.s: buffer_updates.c.s
 
 # target to generate assembly for a file
 buffer_updates.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/buffer_updates.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/buffer_updates.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/buffer_updates.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/buffer_updates.c.s
 .PHONY : buffer_updates.c.s
 
 change.o: change.c.o
@@ -1402,8 +1402,8 @@ change.o: change.c.o
 
 # target to build an object file
 change.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/change.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/change.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/change.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/change.c.o
 .PHONY : change.c.o
 
 change.i: change.c.i
@@ -1411,8 +1411,8 @@ change.i: change.c.i
 
 # target to preprocess a source file
 change.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/change.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/change.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/change.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/change.c.i
 .PHONY : change.c.i
 
 change.s: change.c.s
@@ -1420,8 +1420,8 @@ change.s: change.c.s
 
 # target to generate assembly for a file
 change.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/change.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/change.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/change.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/change.c.s
 .PHONY : change.c.s
 
 channel.o: channel.c.o
@@ -1429,8 +1429,8 @@ channel.o: channel.c.o
 
 # target to build an object file
 channel.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/channel.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/channel.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/channel.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/channel.c.o
 .PHONY : channel.c.o
 
 channel.i: channel.c.i
@@ -1438,8 +1438,8 @@ channel.i: channel.c.i
 
 # target to preprocess a source file
 channel.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/channel.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/channel.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/channel.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/channel.c.i
 .PHONY : channel.c.i
 
 channel.s: channel.c.s
@@ -1447,8 +1447,8 @@ channel.s: channel.c.s
 
 # target to generate assembly for a file
 channel.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/channel.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/channel.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/channel.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/channel.c.s
 .PHONY : channel.c.s
 
 charset.o: charset.c.o
@@ -1456,8 +1456,8 @@ charset.o: charset.c.o
 
 # target to build an object file
 charset.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/charset.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/charset.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/charset.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/charset.c.o
 .PHONY : charset.c.o
 
 charset.i: charset.c.i
@@ -1465,8 +1465,8 @@ charset.i: charset.c.i
 
 # target to preprocess a source file
 charset.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/charset.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/charset.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/charset.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/charset.c.i
 .PHONY : charset.c.i
 
 charset.s: charset.c.s
@@ -1474,8 +1474,8 @@ charset.s: charset.c.s
 
 # target to generate assembly for a file
 charset.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/charset.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/charset.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/charset.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/charset.c.s
 .PHONY : charset.c.s
 
 cmdexpand.o: cmdexpand.c.o
@@ -1483,8 +1483,8 @@ cmdexpand.o: cmdexpand.c.o
 
 # target to build an object file
 cmdexpand.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cmdexpand.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cmdexpand.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cmdexpand.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cmdexpand.c.o
 .PHONY : cmdexpand.c.o
 
 cmdexpand.i: cmdexpand.c.i
@@ -1492,8 +1492,8 @@ cmdexpand.i: cmdexpand.c.i
 
 # target to preprocess a source file
 cmdexpand.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cmdexpand.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cmdexpand.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cmdexpand.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cmdexpand.c.i
 .PHONY : cmdexpand.c.i
 
 cmdexpand.s: cmdexpand.c.s
@@ -1501,8 +1501,8 @@ cmdexpand.s: cmdexpand.c.s
 
 # target to generate assembly for a file
 cmdexpand.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cmdexpand.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cmdexpand.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cmdexpand.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cmdexpand.c.s
 .PHONY : cmdexpand.c.s
 
 cmdhist.o: cmdhist.c.o
@@ -1510,8 +1510,8 @@ cmdhist.o: cmdhist.c.o
 
 # target to build an object file
 cmdhist.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cmdhist.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cmdhist.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cmdhist.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cmdhist.c.o
 .PHONY : cmdhist.c.o
 
 cmdhist.i: cmdhist.c.i
@@ -1519,8 +1519,8 @@ cmdhist.i: cmdhist.c.i
 
 # target to preprocess a source file
 cmdhist.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cmdhist.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cmdhist.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cmdhist.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cmdhist.c.i
 .PHONY : cmdhist.c.i
 
 cmdhist.s: cmdhist.c.s
@@ -1528,8 +1528,8 @@ cmdhist.s: cmdhist.c.s
 
 # target to generate assembly for a file
 cmdhist.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cmdhist.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cmdhist.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cmdhist.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cmdhist.c.s
 .PHONY : cmdhist.c.s
 
 context.o: context.c.o
@@ -1537,8 +1537,8 @@ context.o: context.c.o
 
 # target to build an object file
 context.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/context.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/context.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/context.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/context.c.o
 .PHONY : context.c.o
 
 context.i: context.c.i
@@ -1546,8 +1546,8 @@ context.i: context.c.i
 
 # target to preprocess a source file
 context.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/context.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/context.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/context.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/context.c.i
 .PHONY : context.c.i
 
 context.s: context.c.s
@@ -1555,8 +1555,8 @@ context.s: context.c.s
 
 # target to generate assembly for a file
 context.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/context.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/context.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/context.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/context.c.s
 .PHONY : context.c.s
 
 cursor.o: cursor.c.o
@@ -1564,8 +1564,8 @@ cursor.o: cursor.c.o
 
 # target to build an object file
 cursor.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cursor.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cursor.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cursor.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cursor.c.o
 .PHONY : cursor.c.o
 
 cursor.i: cursor.c.i
@@ -1573,8 +1573,8 @@ cursor.i: cursor.c.i
 
 # target to preprocess a source file
 cursor.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cursor.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cursor.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cursor.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cursor.c.i
 .PHONY : cursor.c.i
 
 cursor.s: cursor.c.s
@@ -1582,8 +1582,8 @@ cursor.s: cursor.c.s
 
 # target to generate assembly for a file
 cursor.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cursor.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cursor.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cursor.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cursor.c.s
 .PHONY : cursor.c.s
 
 cursor_shape.o: cursor_shape.c.o
@@ -1591,8 +1591,8 @@ cursor_shape.o: cursor_shape.c.o
 
 # target to build an object file
 cursor_shape.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cursor_shape.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cursor_shape.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cursor_shape.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cursor_shape.c.o
 .PHONY : cursor_shape.c.o
 
 cursor_shape.i: cursor_shape.c.i
@@ -1600,8 +1600,8 @@ cursor_shape.i: cursor_shape.c.i
 
 # target to preprocess a source file
 cursor_shape.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cursor_shape.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cursor_shape.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cursor_shape.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cursor_shape.c.i
 .PHONY : cursor_shape.c.i
 
 cursor_shape.s: cursor_shape.c.s
@@ -1609,8 +1609,8 @@ cursor_shape.s: cursor_shape.c.s
 
 # target to generate assembly for a file
 cursor_shape.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cursor_shape.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cursor_shape.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/cursor_shape.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/cursor_shape.c.s
 .PHONY : cursor_shape.c.s
 
 debugger.o: debugger.c.o
@@ -1618,8 +1618,8 @@ debugger.o: debugger.c.o
 
 # target to build an object file
 debugger.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/debugger.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/debugger.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/debugger.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/debugger.c.o
 .PHONY : debugger.c.o
 
 debugger.i: debugger.c.i
@@ -1627,8 +1627,8 @@ debugger.i: debugger.c.i
 
 # target to preprocess a source file
 debugger.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/debugger.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/debugger.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/debugger.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/debugger.c.i
 .PHONY : debugger.c.i
 
 debugger.s: debugger.c.s
@@ -1636,8 +1636,8 @@ debugger.s: debugger.c.s
 
 # target to generate assembly for a file
 debugger.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/debugger.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/debugger.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/debugger.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/debugger.c.s
 .PHONY : debugger.c.s
 
 decoration.o: decoration.c.o
@@ -1645,8 +1645,8 @@ decoration.o: decoration.c.o
 
 # target to build an object file
 decoration.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/decoration.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/decoration.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/decoration.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/decoration.c.o
 .PHONY : decoration.c.o
 
 decoration.i: decoration.c.i
@@ -1654,8 +1654,8 @@ decoration.i: decoration.c.i
 
 # target to preprocess a source file
 decoration.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/decoration.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/decoration.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/decoration.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/decoration.c.i
 .PHONY : decoration.c.i
 
 decoration.s: decoration.c.s
@@ -1663,8 +1663,8 @@ decoration.s: decoration.c.s
 
 # target to generate assembly for a file
 decoration.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/decoration.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/decoration.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/decoration.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/decoration.c.s
 .PHONY : decoration.c.s
 
 decoration_provider.o: decoration_provider.c.o
@@ -1672,8 +1672,8 @@ decoration_provider.o: decoration_provider.c.o
 
 # target to build an object file
 decoration_provider.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/decoration_provider.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/decoration_provider.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/decoration_provider.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/decoration_provider.c.o
 .PHONY : decoration_provider.c.o
 
 decoration_provider.i: decoration_provider.c.i
@@ -1681,8 +1681,8 @@ decoration_provider.i: decoration_provider.c.i
 
 # target to preprocess a source file
 decoration_provider.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/decoration_provider.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/decoration_provider.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/decoration_provider.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/decoration_provider.c.i
 .PHONY : decoration_provider.c.i
 
 decoration_provider.s: decoration_provider.c.s
@@ -1690,8 +1690,8 @@ decoration_provider.s: decoration_provider.c.s
 
 # target to generate assembly for a file
 decoration_provider.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/decoration_provider.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/decoration_provider.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/decoration_provider.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/decoration_provider.c.s
 .PHONY : decoration_provider.c.s
 
 diff.o: diff.c.o
@@ -1699,8 +1699,8 @@ diff.o: diff.c.o
 
 # target to build an object file
 diff.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/diff.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/diff.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/diff.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/diff.c.o
 .PHONY : diff.c.o
 
 diff.i: diff.c.i
@@ -1708,8 +1708,8 @@ diff.i: diff.c.i
 
 # target to preprocess a source file
 diff.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/diff.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/diff.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/diff.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/diff.c.i
 .PHONY : diff.c.i
 
 diff.s: diff.c.s
@@ -1717,8 +1717,8 @@ diff.s: diff.c.s
 
 # target to generate assembly for a file
 diff.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/diff.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/diff.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/diff.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/diff.c.s
 .PHONY : diff.c.s
 
 digraph.o: digraph.c.o
@@ -1726,8 +1726,8 @@ digraph.o: digraph.c.o
 
 # target to build an object file
 digraph.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/digraph.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/digraph.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/digraph.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/digraph.c.o
 .PHONY : digraph.c.o
 
 digraph.i: digraph.c.i
@@ -1735,8 +1735,8 @@ digraph.i: digraph.c.i
 
 # target to preprocess a source file
 digraph.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/digraph.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/digraph.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/digraph.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/digraph.c.i
 .PHONY : digraph.c.i
 
 digraph.s: digraph.c.s
@@ -1744,8 +1744,8 @@ digraph.s: digraph.c.s
 
 # target to generate assembly for a file
 digraph.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/digraph.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/digraph.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/digraph.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/digraph.c.s
 .PHONY : digraph.c.s
 
 drawline.o: drawline.c.o
@@ -1753,8 +1753,8 @@ drawline.o: drawline.c.o
 
 # target to build an object file
 drawline.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/drawline.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/drawline.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/drawline.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/drawline.c.o
 .PHONY : drawline.c.o
 
 drawline.i: drawline.c.i
@@ -1762,8 +1762,8 @@ drawline.i: drawline.c.i
 
 # target to preprocess a source file
 drawline.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/drawline.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/drawline.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/drawline.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/drawline.c.i
 .PHONY : drawline.c.i
 
 drawline.s: drawline.c.s
@@ -1771,8 +1771,8 @@ drawline.s: drawline.c.s
 
 # target to generate assembly for a file
 drawline.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/drawline.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/drawline.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/drawline.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/drawline.c.s
 .PHONY : drawline.c.s
 
 drawscreen.o: drawscreen.c.o
@@ -1780,8 +1780,8 @@ drawscreen.o: drawscreen.c.o
 
 # target to build an object file
 drawscreen.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/drawscreen.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/drawscreen.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/drawscreen.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/drawscreen.c.o
 .PHONY : drawscreen.c.o
 
 drawscreen.i: drawscreen.c.i
@@ -1789,8 +1789,8 @@ drawscreen.i: drawscreen.c.i
 
 # target to preprocess a source file
 drawscreen.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/drawscreen.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/drawscreen.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/drawscreen.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/drawscreen.c.i
 .PHONY : drawscreen.c.i
 
 drawscreen.s: drawscreen.c.s
@@ -1798,8 +1798,8 @@ drawscreen.s: drawscreen.c.s
 
 # target to generate assembly for a file
 drawscreen.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/drawscreen.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/drawscreen.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/drawscreen.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/drawscreen.c.s
 .PHONY : drawscreen.c.s
 
 edit.o: edit.c.o
@@ -1807,8 +1807,8 @@ edit.o: edit.c.o
 
 # target to build an object file
 edit.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/edit.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/edit.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/edit.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/edit.c.o
 .PHONY : edit.c.o
 
 edit.i: edit.c.i
@@ -1816,8 +1816,8 @@ edit.i: edit.c.i
 
 # target to preprocess a source file
 edit.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/edit.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/edit.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/edit.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/edit.c.i
 .PHONY : edit.c.i
 
 edit.s: edit.c.s
@@ -1825,8 +1825,8 @@ edit.s: edit.c.s
 
 # target to generate assembly for a file
 edit.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/edit.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/edit.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/edit.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/edit.c.s
 .PHONY : edit.c.s
 
 eval.o: eval.c.o
@@ -1834,8 +1834,8 @@ eval.o: eval.c.o
 
 # target to build an object file
 eval.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval.c.o
 .PHONY : eval.c.o
 
 eval.i: eval.c.i
@@ -1843,8 +1843,8 @@ eval.i: eval.c.i
 
 # target to preprocess a source file
 eval.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval.c.i
 .PHONY : eval.c.i
 
 eval.s: eval.c.s
@@ -1852,8 +1852,8 @@ eval.s: eval.c.s
 
 # target to generate assembly for a file
 eval.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval.c.s
 .PHONY : eval.c.s
 
 eval/buffer.o: eval/buffer.c.o
@@ -1861,8 +1861,8 @@ eval/buffer.o: eval/buffer.c.o
 
 # target to build an object file
 eval/buffer.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/buffer.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/buffer.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/buffer.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/buffer.c.o
 .PHONY : eval/buffer.c.o
 
 eval/buffer.i: eval/buffer.c.i
@@ -1870,8 +1870,8 @@ eval/buffer.i: eval/buffer.c.i
 
 # target to preprocess a source file
 eval/buffer.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/buffer.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/buffer.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/buffer.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/buffer.c.i
 .PHONY : eval/buffer.c.i
 
 eval/buffer.s: eval/buffer.c.s
@@ -1879,8 +1879,8 @@ eval/buffer.s: eval/buffer.c.s
 
 # target to generate assembly for a file
 eval/buffer.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/buffer.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/buffer.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/buffer.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/buffer.c.s
 .PHONY : eval/buffer.c.s
 
 eval/decode.o: eval/decode.c.o
@@ -1888,8 +1888,8 @@ eval/decode.o: eval/decode.c.o
 
 # target to build an object file
 eval/decode.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/decode.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/decode.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/decode.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/decode.c.o
 .PHONY : eval/decode.c.o
 
 eval/decode.i: eval/decode.c.i
@@ -1897,8 +1897,8 @@ eval/decode.i: eval/decode.c.i
 
 # target to preprocess a source file
 eval/decode.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/decode.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/decode.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/decode.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/decode.c.i
 .PHONY : eval/decode.c.i
 
 eval/decode.s: eval/decode.c.s
@@ -1906,8 +1906,8 @@ eval/decode.s: eval/decode.c.s
 
 # target to generate assembly for a file
 eval/decode.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/decode.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/decode.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/decode.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/decode.c.s
 .PHONY : eval/decode.c.s
 
 eval/encode.o: eval/encode.c.o
@@ -1915,8 +1915,8 @@ eval/encode.o: eval/encode.c.o
 
 # target to build an object file
 eval/encode.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/encode.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/encode.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/encode.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/encode.c.o
 .PHONY : eval/encode.c.o
 
 eval/encode.i: eval/encode.c.i
@@ -1924,8 +1924,8 @@ eval/encode.i: eval/encode.c.i
 
 # target to preprocess a source file
 eval/encode.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/encode.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/encode.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/encode.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/encode.c.i
 .PHONY : eval/encode.c.i
 
 eval/encode.s: eval/encode.c.s
@@ -1933,8 +1933,8 @@ eval/encode.s: eval/encode.c.s
 
 # target to generate assembly for a file
 eval/encode.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/encode.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/encode.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/encode.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/encode.c.s
 .PHONY : eval/encode.c.s
 
 eval/executor.o: eval/executor.c.o
@@ -1942,8 +1942,8 @@ eval/executor.o: eval/executor.c.o
 
 # target to build an object file
 eval/executor.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/executor.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/executor.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/executor.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/executor.c.o
 .PHONY : eval/executor.c.o
 
 eval/executor.i: eval/executor.c.i
@@ -1951,8 +1951,8 @@ eval/executor.i: eval/executor.c.i
 
 # target to preprocess a source file
 eval/executor.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/executor.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/executor.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/executor.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/executor.c.i
 .PHONY : eval/executor.c.i
 
 eval/executor.s: eval/executor.c.s
@@ -1960,8 +1960,8 @@ eval/executor.s: eval/executor.c.s
 
 # target to generate assembly for a file
 eval/executor.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/executor.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/executor.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/executor.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/executor.c.s
 .PHONY : eval/executor.c.s
 
 eval/funcs.o: eval/funcs.c.o
@@ -1969,8 +1969,8 @@ eval/funcs.o: eval/funcs.c.o
 
 # target to build an object file
 eval/funcs.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/funcs.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/funcs.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/funcs.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/funcs.c.o
 .PHONY : eval/funcs.c.o
 
 eval/funcs.i: eval/funcs.c.i
@@ -1978,8 +1978,8 @@ eval/funcs.i: eval/funcs.c.i
 
 # target to preprocess a source file
 eval/funcs.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/funcs.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/funcs.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/funcs.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/funcs.c.i
 .PHONY : eval/funcs.c.i
 
 eval/funcs.s: eval/funcs.c.s
@@ -1987,8 +1987,8 @@ eval/funcs.s: eval/funcs.c.s
 
 # target to generate assembly for a file
 eval/funcs.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/funcs.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/funcs.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/funcs.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/funcs.c.s
 .PHONY : eval/funcs.c.s
 
 eval/gc.o: eval/gc.c.o
@@ -1996,8 +1996,8 @@ eval/gc.o: eval/gc.c.o
 
 # target to build an object file
 eval/gc.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/gc.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/gc.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/gc.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/gc.c.o
 .PHONY : eval/gc.c.o
 
 eval/gc.i: eval/gc.c.i
@@ -2005,8 +2005,8 @@ eval/gc.i: eval/gc.c.i
 
 # target to preprocess a source file
 eval/gc.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/gc.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/gc.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/gc.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/gc.c.i
 .PHONY : eval/gc.c.i
 
 eval/gc.s: eval/gc.c.s
@@ -2014,8 +2014,8 @@ eval/gc.s: eval/gc.c.s
 
 # target to generate assembly for a file
 eval/gc.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/gc.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/gc.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/gc.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/gc.c.s
 .PHONY : eval/gc.c.s
 
 eval/typval.o: eval/typval.c.o
@@ -2023,8 +2023,8 @@ eval/typval.o: eval/typval.c.o
 
 # target to build an object file
 eval/typval.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/typval.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/typval.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/typval.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/typval.c.o
 .PHONY : eval/typval.c.o
 
 eval/typval.i: eval/typval.c.i
@@ -2032,8 +2032,8 @@ eval/typval.i: eval/typval.c.i
 
 # target to preprocess a source file
 eval/typval.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/typval.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/typval.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/typval.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/typval.c.i
 .PHONY : eval/typval.c.i
 
 eval/typval.s: eval/typval.c.s
@@ -2041,8 +2041,8 @@ eval/typval.s: eval/typval.c.s
 
 # target to generate assembly for a file
 eval/typval.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/typval.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/typval.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/typval.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/typval.c.s
 .PHONY : eval/typval.c.s
 
 eval/userfunc.o: eval/userfunc.c.o
@@ -2050,8 +2050,8 @@ eval/userfunc.o: eval/userfunc.c.o
 
 # target to build an object file
 eval/userfunc.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/userfunc.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/userfunc.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/userfunc.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/userfunc.c.o
 .PHONY : eval/userfunc.c.o
 
 eval/userfunc.i: eval/userfunc.c.i
@@ -2059,8 +2059,8 @@ eval/userfunc.i: eval/userfunc.c.i
 
 # target to preprocess a source file
 eval/userfunc.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/userfunc.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/userfunc.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/userfunc.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/userfunc.c.i
 .PHONY : eval/userfunc.c.i
 
 eval/userfunc.s: eval/userfunc.c.s
@@ -2068,8 +2068,8 @@ eval/userfunc.s: eval/userfunc.c.s
 
 # target to generate assembly for a file
 eval/userfunc.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/userfunc.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/userfunc.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/userfunc.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/userfunc.c.s
 .PHONY : eval/userfunc.c.s
 
 eval/vars.o: eval/vars.c.o
@@ -2077,8 +2077,8 @@ eval/vars.o: eval/vars.c.o
 
 # target to build an object file
 eval/vars.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/vars.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/vars.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/vars.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/vars.c.o
 .PHONY : eval/vars.c.o
 
 eval/vars.i: eval/vars.c.i
@@ -2086,8 +2086,8 @@ eval/vars.i: eval/vars.c.i
 
 # target to preprocess a source file
 eval/vars.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/vars.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/vars.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/vars.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/vars.c.i
 .PHONY : eval/vars.c.i
 
 eval/vars.s: eval/vars.c.s
@@ -2095,8 +2095,8 @@ eval/vars.s: eval/vars.c.s
 
 # target to generate assembly for a file
 eval/vars.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/vars.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/vars.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/vars.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/vars.c.s
 .PHONY : eval/vars.c.s
 
 eval/window.o: eval/window.c.o
@@ -2104,8 +2104,8 @@ eval/window.o: eval/window.c.o
 
 # target to build an object file
 eval/window.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/window.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/window.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/window.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/window.c.o
 .PHONY : eval/window.c.o
 
 eval/window.i: eval/window.c.i
@@ -2113,8 +2113,8 @@ eval/window.i: eval/window.c.i
 
 # target to preprocess a source file
 eval/window.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/window.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/window.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/window.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/window.c.i
 .PHONY : eval/window.c.i
 
 eval/window.s: eval/window.c.s
@@ -2122,8 +2122,8 @@ eval/window.s: eval/window.c.s
 
 # target to generate assembly for a file
 eval/window.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/window.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/window.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/eval/window.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/eval/window.c.s
 .PHONY : eval/window.c.s
 
 event/libuv_process.o: event/libuv_process.c.o
@@ -2131,8 +2131,8 @@ event/libuv_process.o: event/libuv_process.c.o
 
 # target to build an object file
 event/libuv_process.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/libuv_process.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/libuv_process.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/libuv_process.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/libuv_process.c.o
 .PHONY : event/libuv_process.c.o
 
 event/libuv_process.i: event/libuv_process.c.i
@@ -2140,8 +2140,8 @@ event/libuv_process.i: event/libuv_process.c.i
 
 # target to preprocess a source file
 event/libuv_process.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/libuv_process.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/libuv_process.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/libuv_process.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/libuv_process.c.i
 .PHONY : event/libuv_process.c.i
 
 event/libuv_process.s: event/libuv_process.c.s
@@ -2149,8 +2149,8 @@ event/libuv_process.s: event/libuv_process.c.s
 
 # target to generate assembly for a file
 event/libuv_process.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/libuv_process.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/libuv_process.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/libuv_process.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/libuv_process.c.s
 .PHONY : event/libuv_process.c.s
 
 event/loop.o: event/loop.c.o
@@ -2158,8 +2158,8 @@ event/loop.o: event/loop.c.o
 
 # target to build an object file
 event/loop.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/loop.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/loop.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/loop.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/loop.c.o
 .PHONY : event/loop.c.o
 
 event/loop.i: event/loop.c.i
@@ -2167,8 +2167,8 @@ event/loop.i: event/loop.c.i
 
 # target to preprocess a source file
 event/loop.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/loop.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/loop.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/loop.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/loop.c.i
 .PHONY : event/loop.c.i
 
 event/loop.s: event/loop.c.s
@@ -2176,8 +2176,8 @@ event/loop.s: event/loop.c.s
 
 # target to generate assembly for a file
 event/loop.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/loop.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/loop.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/loop.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/loop.c.s
 .PHONY : event/loop.c.s
 
 event/multiqueue.o: event/multiqueue.c.o
@@ -2185,8 +2185,8 @@ event/multiqueue.o: event/multiqueue.c.o
 
 # target to build an object file
 event/multiqueue.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/multiqueue.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/multiqueue.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/multiqueue.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/multiqueue.c.o
 .PHONY : event/multiqueue.c.o
 
 event/multiqueue.i: event/multiqueue.c.i
@@ -2194,8 +2194,8 @@ event/multiqueue.i: event/multiqueue.c.i
 
 # target to preprocess a source file
 event/multiqueue.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/multiqueue.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/multiqueue.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/multiqueue.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/multiqueue.c.i
 .PHONY : event/multiqueue.c.i
 
 event/multiqueue.s: event/multiqueue.c.s
@@ -2203,8 +2203,8 @@ event/multiqueue.s: event/multiqueue.c.s
 
 # target to generate assembly for a file
 event/multiqueue.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/multiqueue.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/multiqueue.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/multiqueue.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/multiqueue.c.s
 .PHONY : event/multiqueue.c.s
 
 event/process.o: event/process.c.o
@@ -2212,8 +2212,8 @@ event/process.o: event/process.c.o
 
 # target to build an object file
 event/process.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/process.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/process.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/process.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/process.c.o
 .PHONY : event/process.c.o
 
 event/process.i: event/process.c.i
@@ -2221,8 +2221,8 @@ event/process.i: event/process.c.i
 
 # target to preprocess a source file
 event/process.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/process.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/process.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/process.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/process.c.i
 .PHONY : event/process.c.i
 
 event/process.s: event/process.c.s
@@ -2230,8 +2230,8 @@ event/process.s: event/process.c.s
 
 # target to generate assembly for a file
 event/process.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/process.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/process.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/process.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/process.c.s
 .PHONY : event/process.c.s
 
 event/rstream.o: event/rstream.c.o
@@ -2239,8 +2239,8 @@ event/rstream.o: event/rstream.c.o
 
 # target to build an object file
 event/rstream.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/rstream.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/rstream.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/rstream.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/rstream.c.o
 .PHONY : event/rstream.c.o
 
 event/rstream.i: event/rstream.c.i
@@ -2248,8 +2248,8 @@ event/rstream.i: event/rstream.c.i
 
 # target to preprocess a source file
 event/rstream.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/rstream.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/rstream.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/rstream.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/rstream.c.i
 .PHONY : event/rstream.c.i
 
 event/rstream.s: event/rstream.c.s
@@ -2257,8 +2257,8 @@ event/rstream.s: event/rstream.c.s
 
 # target to generate assembly for a file
 event/rstream.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/rstream.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/rstream.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/rstream.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/rstream.c.s
 .PHONY : event/rstream.c.s
 
 event/signal.o: event/signal.c.o
@@ -2266,8 +2266,8 @@ event/signal.o: event/signal.c.o
 
 # target to build an object file
 event/signal.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/signal.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/signal.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/signal.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/signal.c.o
 .PHONY : event/signal.c.o
 
 event/signal.i: event/signal.c.i
@@ -2275,8 +2275,8 @@ event/signal.i: event/signal.c.i
 
 # target to preprocess a source file
 event/signal.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/signal.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/signal.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/signal.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/signal.c.i
 .PHONY : event/signal.c.i
 
 event/signal.s: event/signal.c.s
@@ -2284,8 +2284,8 @@ event/signal.s: event/signal.c.s
 
 # target to generate assembly for a file
 event/signal.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/signal.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/signal.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/signal.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/signal.c.s
 .PHONY : event/signal.c.s
 
 event/socket.o: event/socket.c.o
@@ -2293,8 +2293,8 @@ event/socket.o: event/socket.c.o
 
 # target to build an object file
 event/socket.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/socket.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/socket.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/socket.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/socket.c.o
 .PHONY : event/socket.c.o
 
 event/socket.i: event/socket.c.i
@@ -2302,8 +2302,8 @@ event/socket.i: event/socket.c.i
 
 # target to preprocess a source file
 event/socket.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/socket.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/socket.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/socket.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/socket.c.i
 .PHONY : event/socket.c.i
 
 event/socket.s: event/socket.c.s
@@ -2311,8 +2311,8 @@ event/socket.s: event/socket.c.s
 
 # target to generate assembly for a file
 event/socket.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/socket.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/socket.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/socket.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/socket.c.s
 .PHONY : event/socket.c.s
 
 event/stream.o: event/stream.c.o
@@ -2320,8 +2320,8 @@ event/stream.o: event/stream.c.o
 
 # target to build an object file
 event/stream.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/stream.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/stream.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/stream.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/stream.c.o
 .PHONY : event/stream.c.o
 
 event/stream.i: event/stream.c.i
@@ -2329,8 +2329,8 @@ event/stream.i: event/stream.c.i
 
 # target to preprocess a source file
 event/stream.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/stream.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/stream.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/stream.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/stream.c.i
 .PHONY : event/stream.c.i
 
 event/stream.s: event/stream.c.s
@@ -2338,8 +2338,8 @@ event/stream.s: event/stream.c.s
 
 # target to generate assembly for a file
 event/stream.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/stream.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/stream.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/stream.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/stream.c.s
 .PHONY : event/stream.c.s
 
 event/time.o: event/time.c.o
@@ -2347,8 +2347,8 @@ event/time.o: event/time.c.o
 
 # target to build an object file
 event/time.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/time.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/time.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/time.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/time.c.o
 .PHONY : event/time.c.o
 
 event/time.i: event/time.c.i
@@ -2356,8 +2356,8 @@ event/time.i: event/time.c.i
 
 # target to preprocess a source file
 event/time.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/time.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/time.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/time.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/time.c.i
 .PHONY : event/time.c.i
 
 event/time.s: event/time.c.s
@@ -2365,8 +2365,8 @@ event/time.s: event/time.c.s
 
 # target to generate assembly for a file
 event/time.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/time.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/time.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/time.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/time.c.s
 .PHONY : event/time.c.s
 
 event/wstream.o: event/wstream.c.o
@@ -2374,8 +2374,8 @@ event/wstream.o: event/wstream.c.o
 
 # target to build an object file
 event/wstream.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/wstream.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/wstream.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/wstream.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/wstream.c.o
 .PHONY : event/wstream.c.o
 
 event/wstream.i: event/wstream.c.i
@@ -2383,8 +2383,8 @@ event/wstream.i: event/wstream.c.i
 
 # target to preprocess a source file
 event/wstream.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/wstream.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/wstream.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/wstream.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/wstream.c.i
 .PHONY : event/wstream.c.i
 
 event/wstream.s: event/wstream.c.s
@@ -2392,8 +2392,8 @@ event/wstream.s: event/wstream.c.s
 
 # target to generate assembly for a file
 event/wstream.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/wstream.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/wstream.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/event/wstream.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/event/wstream.c.s
 .PHONY : event/wstream.c.s
 
 ex_cmds.o: ex_cmds.c.o
@@ -2401,8 +2401,8 @@ ex_cmds.o: ex_cmds.c.o
 
 # target to build an object file
 ex_cmds.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_cmds.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_cmds.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_cmds.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_cmds.c.o
 .PHONY : ex_cmds.c.o
 
 ex_cmds.i: ex_cmds.c.i
@@ -2410,8 +2410,8 @@ ex_cmds.i: ex_cmds.c.i
 
 # target to preprocess a source file
 ex_cmds.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_cmds.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_cmds.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_cmds.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_cmds.c.i
 .PHONY : ex_cmds.c.i
 
 ex_cmds.s: ex_cmds.c.s
@@ -2419,8 +2419,8 @@ ex_cmds.s: ex_cmds.c.s
 
 # target to generate assembly for a file
 ex_cmds.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_cmds.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_cmds.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_cmds.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_cmds.c.s
 .PHONY : ex_cmds.c.s
 
 ex_cmds2.o: ex_cmds2.c.o
@@ -2428,8 +2428,8 @@ ex_cmds2.o: ex_cmds2.c.o
 
 # target to build an object file
 ex_cmds2.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_cmds2.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_cmds2.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_cmds2.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_cmds2.c.o
 .PHONY : ex_cmds2.c.o
 
 ex_cmds2.i: ex_cmds2.c.i
@@ -2437,8 +2437,8 @@ ex_cmds2.i: ex_cmds2.c.i
 
 # target to preprocess a source file
 ex_cmds2.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_cmds2.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_cmds2.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_cmds2.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_cmds2.c.i
 .PHONY : ex_cmds2.c.i
 
 ex_cmds2.s: ex_cmds2.c.s
@@ -2446,8 +2446,8 @@ ex_cmds2.s: ex_cmds2.c.s
 
 # target to generate assembly for a file
 ex_cmds2.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_cmds2.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_cmds2.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_cmds2.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_cmds2.c.s
 .PHONY : ex_cmds2.c.s
 
 ex_docmd.o: ex_docmd.c.o
@@ -2455,8 +2455,8 @@ ex_docmd.o: ex_docmd.c.o
 
 # target to build an object file
 ex_docmd.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_docmd.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_docmd.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_docmd.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_docmd.c.o
 .PHONY : ex_docmd.c.o
 
 ex_docmd.i: ex_docmd.c.i
@@ -2464,8 +2464,8 @@ ex_docmd.i: ex_docmd.c.i
 
 # target to preprocess a source file
 ex_docmd.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_docmd.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_docmd.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_docmd.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_docmd.c.i
 .PHONY : ex_docmd.c.i
 
 ex_docmd.s: ex_docmd.c.s
@@ -2473,8 +2473,8 @@ ex_docmd.s: ex_docmd.c.s
 
 # target to generate assembly for a file
 ex_docmd.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_docmd.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_docmd.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_docmd.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_docmd.c.s
 .PHONY : ex_docmd.c.s
 
 ex_eval.o: ex_eval.c.o
@@ -2482,8 +2482,8 @@ ex_eval.o: ex_eval.c.o
 
 # target to build an object file
 ex_eval.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_eval.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_eval.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_eval.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_eval.c.o
 .PHONY : ex_eval.c.o
 
 ex_eval.i: ex_eval.c.i
@@ -2491,8 +2491,8 @@ ex_eval.i: ex_eval.c.i
 
 # target to preprocess a source file
 ex_eval.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_eval.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_eval.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_eval.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_eval.c.i
 .PHONY : ex_eval.c.i
 
 ex_eval.s: ex_eval.c.s
@@ -2500,8 +2500,8 @@ ex_eval.s: ex_eval.c.s
 
 # target to generate assembly for a file
 ex_eval.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_eval.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_eval.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_eval.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_eval.c.s
 .PHONY : ex_eval.c.s
 
 ex_getln.o: ex_getln.c.o
@@ -2509,8 +2509,8 @@ ex_getln.o: ex_getln.c.o
 
 # target to build an object file
 ex_getln.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_getln.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_getln.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_getln.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_getln.c.o
 .PHONY : ex_getln.c.o
 
 ex_getln.i: ex_getln.c.i
@@ -2518,8 +2518,8 @@ ex_getln.i: ex_getln.c.i
 
 # target to preprocess a source file
 ex_getln.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_getln.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_getln.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_getln.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_getln.c.i
 .PHONY : ex_getln.c.i
 
 ex_getln.s: ex_getln.c.s
@@ -2527,8 +2527,8 @@ ex_getln.s: ex_getln.c.s
 
 # target to generate assembly for a file
 ex_getln.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_getln.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_getln.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_getln.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_getln.c.s
 .PHONY : ex_getln.c.s
 
 ex_session.o: ex_session.c.o
@@ -2536,8 +2536,8 @@ ex_session.o: ex_session.c.o
 
 # target to build an object file
 ex_session.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_session.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_session.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_session.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_session.c.o
 .PHONY : ex_session.c.o
 
 ex_session.i: ex_session.c.i
@@ -2545,8 +2545,8 @@ ex_session.i: ex_session.c.i
 
 # target to preprocess a source file
 ex_session.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_session.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_session.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_session.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_session.c.i
 .PHONY : ex_session.c.i
 
 ex_session.s: ex_session.c.s
@@ -2554,8 +2554,8 @@ ex_session.s: ex_session.c.s
 
 # target to generate assembly for a file
 ex_session.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_session.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_session.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ex_session.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ex_session.c.s
 .PHONY : ex_session.c.s
 
 extmark.o: extmark.c.o
@@ -2563,8 +2563,8 @@ extmark.o: extmark.c.o
 
 # target to build an object file
 extmark.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/extmark.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/extmark.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/extmark.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/extmark.c.o
 .PHONY : extmark.c.o
 
 extmark.i: extmark.c.i
@@ -2572,8 +2572,8 @@ extmark.i: extmark.c.i
 
 # target to preprocess a source file
 extmark.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/extmark.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/extmark.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/extmark.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/extmark.c.i
 .PHONY : extmark.c.i
 
 extmark.s: extmark.c.s
@@ -2581,8 +2581,8 @@ extmark.s: extmark.c.s
 
 # target to generate assembly for a file
 extmark.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/extmark.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/extmark.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/extmark.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/extmark.c.s
 .PHONY : extmark.c.s
 
 file_search.o: file_search.c.o
@@ -2590,8 +2590,8 @@ file_search.o: file_search.c.o
 
 # target to build an object file
 file_search.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/file_search.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/file_search.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/file_search.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/file_search.c.o
 .PHONY : file_search.c.o
 
 file_search.i: file_search.c.i
@@ -2599,8 +2599,8 @@ file_search.i: file_search.c.i
 
 # target to preprocess a source file
 file_search.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/file_search.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/file_search.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/file_search.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/file_search.c.i
 .PHONY : file_search.c.i
 
 file_search.s: file_search.c.s
@@ -2608,8 +2608,8 @@ file_search.s: file_search.c.s
 
 # target to generate assembly for a file
 file_search.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/file_search.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/file_search.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/file_search.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/file_search.c.s
 .PHONY : file_search.c.s
 
 fileio.o: fileio.c.o
@@ -2617,8 +2617,8 @@ fileio.o: fileio.c.o
 
 # target to build an object file
 fileio.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/fileio.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/fileio.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/fileio.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/fileio.c.o
 .PHONY : fileio.c.o
 
 fileio.i: fileio.c.i
@@ -2626,8 +2626,8 @@ fileio.i: fileio.c.i
 
 # target to preprocess a source file
 fileio.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/fileio.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/fileio.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/fileio.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/fileio.c.i
 .PHONY : fileio.c.i
 
 fileio.s: fileio.c.s
@@ -2635,8 +2635,8 @@ fileio.s: fileio.c.s
 
 # target to generate assembly for a file
 fileio.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/fileio.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/fileio.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/fileio.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/fileio.c.s
 .PHONY : fileio.c.s
 
 fold.o: fold.c.o
@@ -2644,8 +2644,8 @@ fold.o: fold.c.o
 
 # target to build an object file
 fold.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/fold.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/fold.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/fold.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/fold.c.o
 .PHONY : fold.c.o
 
 fold.i: fold.c.i
@@ -2653,8 +2653,8 @@ fold.i: fold.c.i
 
 # target to preprocess a source file
 fold.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/fold.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/fold.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/fold.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/fold.c.i
 .PHONY : fold.c.i
 
 fold.s: fold.c.s
@@ -2662,8 +2662,8 @@ fold.s: fold.c.s
 
 # target to generate assembly for a file
 fold.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/fold.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/fold.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/fold.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/fold.c.s
 .PHONY : fold.c.s
 
 garray.o: garray.c.o
@@ -2671,8 +2671,8 @@ garray.o: garray.c.o
 
 # target to build an object file
 garray.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/garray.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/garray.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/garray.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/garray.c.o
 .PHONY : garray.c.o
 
 garray.i: garray.c.i
@@ -2680,8 +2680,8 @@ garray.i: garray.c.i
 
 # target to preprocess a source file
 garray.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/garray.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/garray.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/garray.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/garray.c.i
 .PHONY : garray.c.i
 
 garray.s: garray.c.s
@@ -2689,8 +2689,8 @@ garray.s: garray.c.s
 
 # target to generate assembly for a file
 garray.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/garray.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/garray.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/garray.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/garray.c.s
 .PHONY : garray.c.s
 
 getchar.o: getchar.c.o
@@ -2698,8 +2698,8 @@ getchar.o: getchar.c.o
 
 # target to build an object file
 getchar.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/getchar.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/getchar.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/getchar.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/getchar.c.o
 .PHONY : getchar.c.o
 
 getchar.i: getchar.c.i
@@ -2707,8 +2707,8 @@ getchar.i: getchar.c.i
 
 # target to preprocess a source file
 getchar.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/getchar.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/getchar.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/getchar.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/getchar.c.i
 .PHONY : getchar.c.i
 
 getchar.s: getchar.c.s
@@ -2716,8 +2716,8 @@ getchar.s: getchar.c.s
 
 # target to generate assembly for a file
 getchar.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/getchar.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/getchar.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/getchar.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/getchar.c.s
 .PHONY : getchar.c.s
 
 grid.o: grid.c.o
@@ -2725,8 +2725,8 @@ grid.o: grid.c.o
 
 # target to build an object file
 grid.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/grid.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/grid.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/grid.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/grid.c.o
 .PHONY : grid.c.o
 
 grid.i: grid.c.i
@@ -2734,8 +2734,8 @@ grid.i: grid.c.i
 
 # target to preprocess a source file
 grid.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/grid.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/grid.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/grid.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/grid.c.i
 .PHONY : grid.c.i
 
 grid.s: grid.c.s
@@ -2743,8 +2743,8 @@ grid.s: grid.c.s
 
 # target to generate assembly for a file
 grid.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/grid.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/grid.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/grid.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/grid.c.s
 .PHONY : grid.c.s
 
 hashtab.o: hashtab.c.o
@@ -2752,8 +2752,8 @@ hashtab.o: hashtab.c.o
 
 # target to build an object file
 hashtab.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/hashtab.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/hashtab.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/hashtab.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/hashtab.c.o
 .PHONY : hashtab.c.o
 
 hashtab.i: hashtab.c.i
@@ -2761,8 +2761,8 @@ hashtab.i: hashtab.c.i
 
 # target to preprocess a source file
 hashtab.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/hashtab.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/hashtab.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/hashtab.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/hashtab.c.i
 .PHONY : hashtab.c.i
 
 hashtab.s: hashtab.c.s
@@ -2770,8 +2770,8 @@ hashtab.s: hashtab.c.s
 
 # target to generate assembly for a file
 hashtab.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/hashtab.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/hashtab.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/hashtab.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/hashtab.c.s
 .PHONY : hashtab.c.s
 
 help.o: help.c.o
@@ -2779,8 +2779,8 @@ help.o: help.c.o
 
 # target to build an object file
 help.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/help.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/help.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/help.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/help.c.o
 .PHONY : help.c.o
 
 help.i: help.c.i
@@ -2788,8 +2788,8 @@ help.i: help.c.i
 
 # target to preprocess a source file
 help.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/help.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/help.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/help.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/help.c.i
 .PHONY : help.c.i
 
 help.s: help.c.s
@@ -2797,8 +2797,8 @@ help.s: help.c.s
 
 # target to generate assembly for a file
 help.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/help.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/help.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/help.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/help.c.s
 .PHONY : help.c.s
 
 highlight.o: highlight.c.o
@@ -2806,8 +2806,8 @@ highlight.o: highlight.c.o
 
 # target to build an object file
 highlight.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/highlight.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/highlight.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/highlight.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/highlight.c.o
 .PHONY : highlight.c.o
 
 highlight.i: highlight.c.i
@@ -2815,8 +2815,8 @@ highlight.i: highlight.c.i
 
 # target to preprocess a source file
 highlight.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/highlight.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/highlight.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/highlight.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/highlight.c.i
 .PHONY : highlight.c.i
 
 highlight.s: highlight.c.s
@@ -2824,8 +2824,8 @@ highlight.s: highlight.c.s
 
 # target to generate assembly for a file
 highlight.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/highlight.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/highlight.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/highlight.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/highlight.c.s
 .PHONY : highlight.c.s
 
 highlight_group.o: highlight_group.c.o
@@ -2833,8 +2833,8 @@ highlight_group.o: highlight_group.c.o
 
 # target to build an object file
 highlight_group.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/highlight_group.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/highlight_group.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/highlight_group.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/highlight_group.c.o
 .PHONY : highlight_group.c.o
 
 highlight_group.i: highlight_group.c.i
@@ -2842,8 +2842,8 @@ highlight_group.i: highlight_group.c.i
 
 # target to preprocess a source file
 highlight_group.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/highlight_group.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/highlight_group.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/highlight_group.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/highlight_group.c.i
 .PHONY : highlight_group.c.i
 
 highlight_group.s: highlight_group.c.s
@@ -2851,8 +2851,8 @@ highlight_group.s: highlight_group.c.s
 
 # target to generate assembly for a file
 highlight_group.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/highlight_group.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/highlight_group.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/highlight_group.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/highlight_group.c.s
 .PHONY : highlight_group.c.s
 
 indent.o: indent.c.o
@@ -2860,8 +2860,8 @@ indent.o: indent.c.o
 
 # target to build an object file
 indent.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/indent.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/indent.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/indent.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/indent.c.o
 .PHONY : indent.c.o
 
 indent.i: indent.c.i
@@ -2869,8 +2869,8 @@ indent.i: indent.c.i
 
 # target to preprocess a source file
 indent.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/indent.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/indent.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/indent.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/indent.c.i
 .PHONY : indent.c.i
 
 indent.s: indent.c.s
@@ -2878,8 +2878,8 @@ indent.s: indent.c.s
 
 # target to generate assembly for a file
 indent.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/indent.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/indent.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/indent.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/indent.c.s
 .PHONY : indent.c.s
 
 indent_c.o: indent_c.c.o
@@ -2887,8 +2887,8 @@ indent_c.o: indent_c.c.o
 
 # target to build an object file
 indent_c.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/indent_c.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/indent_c.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/indent_c.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/indent_c.c.o
 .PHONY : indent_c.c.o
 
 indent_c.i: indent_c.c.i
@@ -2896,8 +2896,8 @@ indent_c.i: indent_c.c.i
 
 # target to preprocess a source file
 indent_c.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/indent_c.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/indent_c.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/indent_c.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/indent_c.c.i
 .PHONY : indent_c.c.i
 
 indent_c.s: indent_c.c.s
@@ -2905,8 +2905,8 @@ indent_c.s: indent_c.c.s
 
 # target to generate assembly for a file
 indent_c.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/indent_c.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/indent_c.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/indent_c.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/indent_c.c.s
 .PHONY : indent_c.c.s
 
 input.o: input.c.o
@@ -2914,8 +2914,8 @@ input.o: input.c.o
 
 # target to build an object file
 input.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/input.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/input.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/input.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/input.c.o
 .PHONY : input.c.o
 
 input.i: input.c.i
@@ -2923,8 +2923,8 @@ input.i: input.c.i
 
 # target to preprocess a source file
 input.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/input.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/input.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/input.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/input.c.i
 .PHONY : input.c.i
 
 input.s: input.c.s
@@ -2932,8 +2932,8 @@ input.s: input.c.s
 
 # target to generate assembly for a file
 input.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/input.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/input.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/input.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/input.c.s
 .PHONY : input.c.s
 
 insexpand.o: insexpand.c.o
@@ -2941,8 +2941,8 @@ insexpand.o: insexpand.c.o
 
 # target to build an object file
 insexpand.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/insexpand.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/insexpand.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/insexpand.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/insexpand.c.o
 .PHONY : insexpand.c.o
 
 insexpand.i: insexpand.c.i
@@ -2950,8 +2950,8 @@ insexpand.i: insexpand.c.i
 
 # target to preprocess a source file
 insexpand.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/insexpand.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/insexpand.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/insexpand.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/insexpand.c.i
 .PHONY : insexpand.c.i
 
 insexpand.s: insexpand.c.s
@@ -2959,8 +2959,8 @@ insexpand.s: insexpand.c.s
 
 # target to generate assembly for a file
 insexpand.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/insexpand.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/insexpand.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/insexpand.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/insexpand.c.s
 .PHONY : insexpand.c.s
 
 keycodes.o: keycodes.c.o
@@ -2968,8 +2968,8 @@ keycodes.o: keycodes.c.o
 
 # target to build an object file
 keycodes.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/keycodes.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/keycodes.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/keycodes.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/keycodes.c.o
 .PHONY : keycodes.c.o
 
 keycodes.i: keycodes.c.i
@@ -2977,8 +2977,8 @@ keycodes.i: keycodes.c.i
 
 # target to preprocess a source file
 keycodes.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/keycodes.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/keycodes.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/keycodes.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/keycodes.c.i
 .PHONY : keycodes.c.i
 
 keycodes.s: keycodes.c.s
@@ -2986,8 +2986,8 @@ keycodes.s: keycodes.c.s
 
 # target to generate assembly for a file
 keycodes.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/keycodes.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/keycodes.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/keycodes.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/keycodes.c.s
 .PHONY : keycodes.c.s
 
 linematch.o: linematch.c.o
@@ -2995,8 +2995,8 @@ linematch.o: linematch.c.o
 
 # target to build an object file
 linematch.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/linematch.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/linematch.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/linematch.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/linematch.c.o
 .PHONY : linematch.c.o
 
 linematch.i: linematch.c.i
@@ -3004,8 +3004,8 @@ linematch.i: linematch.c.i
 
 # target to preprocess a source file
 linematch.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/linematch.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/linematch.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/linematch.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/linematch.c.i
 .PHONY : linematch.c.i
 
 linematch.s: linematch.c.s
@@ -3013,8 +3013,8 @@ linematch.s: linematch.c.s
 
 # target to generate assembly for a file
 linematch.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/linematch.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/linematch.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/linematch.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/linematch.c.s
 .PHONY : linematch.c.s
 
 log.o: log.c.o
@@ -3022,8 +3022,8 @@ log.o: log.c.o
 
 # target to build an object file
 log.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/log.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/log.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/log.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/log.c.o
 .PHONY : log.c.o
 
 log.i: log.c.i
@@ -3031,8 +3031,8 @@ log.i: log.c.i
 
 # target to preprocess a source file
 log.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/log.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/log.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/log.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/log.c.i
 .PHONY : log.c.i
 
 log.s: log.c.s
@@ -3040,8 +3040,8 @@ log.s: log.c.s
 
 # target to generate assembly for a file
 log.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/log.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/log.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/log.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/log.c.s
 .PHONY : log.c.s
 
 lua/converter.o: lua/converter.c.o
@@ -3049,8 +3049,8 @@ lua/converter.o: lua/converter.c.o
 
 # target to build an object file
 lua/converter.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/converter.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/converter.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/converter.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/converter.c.o
 .PHONY : lua/converter.c.o
 
 lua/converter.i: lua/converter.c.i
@@ -3058,8 +3058,8 @@ lua/converter.i: lua/converter.c.i
 
 # target to preprocess a source file
 lua/converter.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/converter.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/converter.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/converter.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/converter.c.i
 .PHONY : lua/converter.c.i
 
 lua/converter.s: lua/converter.c.s
@@ -3067,8 +3067,8 @@ lua/converter.s: lua/converter.c.s
 
 # target to generate assembly for a file
 lua/converter.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/converter.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/converter.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/converter.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/converter.c.s
 .PHONY : lua/converter.c.s
 
 lua/executor.o: lua/executor.c.o
@@ -3076,8 +3076,8 @@ lua/executor.o: lua/executor.c.o
 
 # target to build an object file
 lua/executor.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/executor.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/executor.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/executor.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/executor.c.o
 .PHONY : lua/executor.c.o
 
 lua/executor.i: lua/executor.c.i
@@ -3085,8 +3085,8 @@ lua/executor.i: lua/executor.c.i
 
 # target to preprocess a source file
 lua/executor.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/executor.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/executor.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/executor.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/executor.c.i
 .PHONY : lua/executor.c.i
 
 lua/executor.s: lua/executor.c.s
@@ -3094,8 +3094,8 @@ lua/executor.s: lua/executor.c.s
 
 # target to generate assembly for a file
 lua/executor.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/executor.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/executor.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/executor.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/executor.c.s
 .PHONY : lua/executor.c.s
 
 lua/spell.o: lua/spell.c.o
@@ -3103,8 +3103,8 @@ lua/spell.o: lua/spell.c.o
 
 # target to build an object file
 lua/spell.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/spell.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/spell.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/spell.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/spell.c.o
 .PHONY : lua/spell.c.o
 
 lua/spell.i: lua/spell.c.i
@@ -3112,8 +3112,8 @@ lua/spell.i: lua/spell.c.i
 
 # target to preprocess a source file
 lua/spell.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/spell.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/spell.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/spell.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/spell.c.i
 .PHONY : lua/spell.c.i
 
 lua/spell.s: lua/spell.c.s
@@ -3121,8 +3121,8 @@ lua/spell.s: lua/spell.c.s
 
 # target to generate assembly for a file
 lua/spell.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/spell.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/spell.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/spell.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/spell.c.s
 .PHONY : lua/spell.c.s
 
 lua/stdlib.o: lua/stdlib.c.o
@@ -3130,8 +3130,8 @@ lua/stdlib.o: lua/stdlib.c.o
 
 # target to build an object file
 lua/stdlib.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/stdlib.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/stdlib.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/stdlib.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/stdlib.c.o
 .PHONY : lua/stdlib.c.o
 
 lua/stdlib.i: lua/stdlib.c.i
@@ -3139,8 +3139,8 @@ lua/stdlib.i: lua/stdlib.c.i
 
 # target to preprocess a source file
 lua/stdlib.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/stdlib.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/stdlib.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/stdlib.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/stdlib.c.i
 .PHONY : lua/stdlib.c.i
 
 lua/stdlib.s: lua/stdlib.c.s
@@ -3148,8 +3148,8 @@ lua/stdlib.s: lua/stdlib.c.s
 
 # target to generate assembly for a file
 lua/stdlib.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/stdlib.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/stdlib.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/stdlib.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/stdlib.c.s
 .PHONY : lua/stdlib.c.s
 
 lua/treesitter.o: lua/treesitter.c.o
@@ -3157,8 +3157,8 @@ lua/treesitter.o: lua/treesitter.c.o
 
 # target to build an object file
 lua/treesitter.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/treesitter.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/treesitter.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/treesitter.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/treesitter.c.o
 .PHONY : lua/treesitter.c.o
 
 lua/treesitter.i: lua/treesitter.c.i
@@ -3166,8 +3166,8 @@ lua/treesitter.i: lua/treesitter.c.i
 
 # target to preprocess a source file
 lua/treesitter.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/treesitter.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/treesitter.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/treesitter.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/treesitter.c.i
 .PHONY : lua/treesitter.c.i
 
 lua/treesitter.s: lua/treesitter.c.s
@@ -3175,8 +3175,8 @@ lua/treesitter.s: lua/treesitter.c.s
 
 # target to generate assembly for a file
 lua/treesitter.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/treesitter.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/treesitter.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/treesitter.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/treesitter.c.s
 .PHONY : lua/treesitter.c.s
 
 lua/xdiff.o: lua/xdiff.c.o
@@ -3184,8 +3184,8 @@ lua/xdiff.o: lua/xdiff.c.o
 
 # target to build an object file
 lua/xdiff.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/xdiff.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/xdiff.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/xdiff.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/xdiff.c.o
 .PHONY : lua/xdiff.c.o
 
 lua/xdiff.i: lua/xdiff.c.i
@@ -3193,8 +3193,8 @@ lua/xdiff.i: lua/xdiff.c.i
 
 # target to preprocess a source file
 lua/xdiff.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/xdiff.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/xdiff.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/xdiff.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/xdiff.c.i
 .PHONY : lua/xdiff.c.i
 
 lua/xdiff.s: lua/xdiff.c.s
@@ -3202,8 +3202,8 @@ lua/xdiff.s: lua/xdiff.c.s
 
 # target to generate assembly for a file
 lua/xdiff.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/xdiff.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/xdiff.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/lua/xdiff.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/lua/xdiff.c.s
 .PHONY : lua/xdiff.c.s
 
 main.o: main.c.o
@@ -3211,8 +3211,8 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/main.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/main.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/main.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -3220,8 +3220,8 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/main.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/main.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/main.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -3229,8 +3229,8 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/main.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/main.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/main.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/main.c.s
 .PHONY : main.c.s
 
 map.o: map.c.o
@@ -3238,8 +3238,8 @@ map.o: map.c.o
 
 # target to build an object file
 map.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/map.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/map.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/map.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/map.c.o
 .PHONY : map.c.o
 
 map.i: map.c.i
@@ -3247,8 +3247,8 @@ map.i: map.c.i
 
 # target to preprocess a source file
 map.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/map.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/map.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/map.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/map.c.i
 .PHONY : map.c.i
 
 map.s: map.c.s
@@ -3256,8 +3256,8 @@ map.s: map.c.s
 
 # target to generate assembly for a file
 map.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/map.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/map.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/map.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/map.c.s
 .PHONY : map.c.s
 
 mapping.o: mapping.c.o
@@ -3265,8 +3265,8 @@ mapping.o: mapping.c.o
 
 # target to build an object file
 mapping.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mapping.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mapping.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mapping.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mapping.c.o
 .PHONY : mapping.c.o
 
 mapping.i: mapping.c.i
@@ -3274,8 +3274,8 @@ mapping.i: mapping.c.i
 
 # target to preprocess a source file
 mapping.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mapping.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mapping.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mapping.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mapping.c.i
 .PHONY : mapping.c.i
 
 mapping.s: mapping.c.s
@@ -3283,8 +3283,8 @@ mapping.s: mapping.c.s
 
 # target to generate assembly for a file
 mapping.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mapping.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mapping.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mapping.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mapping.c.s
 .PHONY : mapping.c.s
 
 mark.o: mark.c.o
@@ -3292,8 +3292,8 @@ mark.o: mark.c.o
 
 # target to build an object file
 mark.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mark.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mark.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mark.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mark.c.o
 .PHONY : mark.c.o
 
 mark.i: mark.c.i
@@ -3301,8 +3301,8 @@ mark.i: mark.c.i
 
 # target to preprocess a source file
 mark.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mark.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mark.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mark.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mark.c.i
 .PHONY : mark.c.i
 
 mark.s: mark.c.s
@@ -3310,8 +3310,8 @@ mark.s: mark.c.s
 
 # target to generate assembly for a file
 mark.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mark.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mark.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mark.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mark.c.s
 .PHONY : mark.c.s
 
 marktree.o: marktree.c.o
@@ -3319,8 +3319,8 @@ marktree.o: marktree.c.o
 
 # target to build an object file
 marktree.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/marktree.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/marktree.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/marktree.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/marktree.c.o
 .PHONY : marktree.c.o
 
 marktree.i: marktree.c.i
@@ -3328,8 +3328,8 @@ marktree.i: marktree.c.i
 
 # target to preprocess a source file
 marktree.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/marktree.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/marktree.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/marktree.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/marktree.c.i
 .PHONY : marktree.c.i
 
 marktree.s: marktree.c.s
@@ -3337,8 +3337,8 @@ marktree.s: marktree.c.s
 
 # target to generate assembly for a file
 marktree.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/marktree.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/marktree.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/marktree.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/marktree.c.s
 .PHONY : marktree.c.s
 
 match.o: match.c.o
@@ -3346,8 +3346,8 @@ match.o: match.c.o
 
 # target to build an object file
 match.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/match.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/match.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/match.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/match.c.o
 .PHONY : match.c.o
 
 match.i: match.c.i
@@ -3355,8 +3355,8 @@ match.i: match.c.i
 
 # target to preprocess a source file
 match.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/match.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/match.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/match.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/match.c.i
 .PHONY : match.c.i
 
 match.s: match.c.s
@@ -3364,8 +3364,8 @@ match.s: match.c.s
 
 # target to generate assembly for a file
 match.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/match.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/match.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/match.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/match.c.s
 .PHONY : match.c.s
 
 math.o: math.c.o
@@ -3373,8 +3373,8 @@ math.o: math.c.o
 
 # target to build an object file
 math.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/math.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/math.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/math.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/math.c.o
 .PHONY : math.c.o
 
 math.i: math.c.i
@@ -3382,8 +3382,8 @@ math.i: math.c.i
 
 # target to preprocess a source file
 math.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/math.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/math.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/math.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/math.c.i
 .PHONY : math.c.i
 
 math.s: math.c.s
@@ -3391,8 +3391,8 @@ math.s: math.c.s
 
 # target to generate assembly for a file
 math.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/math.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/math.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/math.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/math.c.s
 .PHONY : math.c.s
 
 mbyte.o: mbyte.c.o
@@ -3400,8 +3400,8 @@ mbyte.o: mbyte.c.o
 
 # target to build an object file
 mbyte.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mbyte.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mbyte.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mbyte.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mbyte.c.o
 .PHONY : mbyte.c.o
 
 mbyte.i: mbyte.c.i
@@ -3409,8 +3409,8 @@ mbyte.i: mbyte.c.i
 
 # target to preprocess a source file
 mbyte.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mbyte.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mbyte.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mbyte.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mbyte.c.i
 .PHONY : mbyte.c.i
 
 mbyte.s: mbyte.c.s
@@ -3418,8 +3418,8 @@ mbyte.s: mbyte.c.s
 
 # target to generate assembly for a file
 mbyte.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mbyte.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mbyte.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mbyte.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mbyte.c.s
 .PHONY : mbyte.c.s
 
 memfile.o: memfile.c.o
@@ -3427,8 +3427,8 @@ memfile.o: memfile.c.o
 
 # target to build an object file
 memfile.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memfile.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memfile.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memfile.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memfile.c.o
 .PHONY : memfile.c.o
 
 memfile.i: memfile.c.i
@@ -3436,8 +3436,8 @@ memfile.i: memfile.c.i
 
 # target to preprocess a source file
 memfile.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memfile.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memfile.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memfile.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memfile.c.i
 .PHONY : memfile.c.i
 
 memfile.s: memfile.c.s
@@ -3445,8 +3445,8 @@ memfile.s: memfile.c.s
 
 # target to generate assembly for a file
 memfile.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memfile.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memfile.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memfile.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memfile.c.s
 .PHONY : memfile.c.s
 
 memline.o: memline.c.o
@@ -3454,8 +3454,8 @@ memline.o: memline.c.o
 
 # target to build an object file
 memline.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memline.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memline.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memline.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memline.c.o
 .PHONY : memline.c.o
 
 memline.i: memline.c.i
@@ -3463,8 +3463,8 @@ memline.i: memline.c.i
 
 # target to preprocess a source file
 memline.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memline.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memline.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memline.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memline.c.i
 .PHONY : memline.c.i
 
 memline.s: memline.c.s
@@ -3472,8 +3472,8 @@ memline.s: memline.c.s
 
 # target to generate assembly for a file
 memline.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memline.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memline.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memline.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memline.c.s
 .PHONY : memline.c.s
 
 memory.o: memory.c.o
@@ -3481,8 +3481,8 @@ memory.o: memory.c.o
 
 # target to build an object file
 memory.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memory.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memory.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memory.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memory.c.o
 .PHONY : memory.c.o
 
 memory.i: memory.c.i
@@ -3490,8 +3490,8 @@ memory.i: memory.c.i
 
 # target to preprocess a source file
 memory.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memory.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memory.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memory.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memory.c.i
 .PHONY : memory.c.i
 
 memory.s: memory.c.s
@@ -3499,8 +3499,8 @@ memory.s: memory.c.s
 
 # target to generate assembly for a file
 memory.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memory.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memory.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/memory.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/memory.c.s
 .PHONY : memory.c.s
 
 menu.o: menu.c.o
@@ -3508,8 +3508,8 @@ menu.o: menu.c.o
 
 # target to build an object file
 menu.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/menu.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/menu.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/menu.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/menu.c.o
 .PHONY : menu.c.o
 
 menu.i: menu.c.i
@@ -3517,8 +3517,8 @@ menu.i: menu.c.i
 
 # target to preprocess a source file
 menu.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/menu.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/menu.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/menu.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/menu.c.i
 .PHONY : menu.c.i
 
 menu.s: menu.c.s
@@ -3526,8 +3526,8 @@ menu.s: menu.c.s
 
 # target to generate assembly for a file
 menu.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/menu.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/menu.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/menu.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/menu.c.s
 .PHONY : menu.c.s
 
 message.o: message.c.o
@@ -3535,8 +3535,8 @@ message.o: message.c.o
 
 # target to build an object file
 message.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/message.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/message.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/message.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/message.c.o
 .PHONY : message.c.o
 
 message.i: message.c.i
@@ -3544,8 +3544,8 @@ message.i: message.c.i
 
 # target to preprocess a source file
 message.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/message.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/message.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/message.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/message.c.i
 .PHONY : message.c.i
 
 message.s: message.c.s
@@ -3553,8 +3553,8 @@ message.s: message.c.s
 
 # target to generate assembly for a file
 message.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/message.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/message.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/message.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/message.c.s
 .PHONY : message.c.s
 
 mouse.o: mouse.c.o
@@ -3562,8 +3562,8 @@ mouse.o: mouse.c.o
 
 # target to build an object file
 mouse.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mouse.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mouse.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mouse.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mouse.c.o
 .PHONY : mouse.c.o
 
 mouse.i: mouse.c.i
@@ -3571,8 +3571,8 @@ mouse.i: mouse.c.i
 
 # target to preprocess a source file
 mouse.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mouse.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mouse.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mouse.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mouse.c.i
 .PHONY : mouse.c.i
 
 mouse.s: mouse.c.s
@@ -3580,8 +3580,8 @@ mouse.s: mouse.c.s
 
 # target to generate assembly for a file
 mouse.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mouse.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mouse.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/mouse.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/mouse.c.s
 .PHONY : mouse.c.s
 
 move.o: move.c.o
@@ -3589,8 +3589,8 @@ move.o: move.c.o
 
 # target to build an object file
 move.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/move.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/move.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/move.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/move.c.o
 .PHONY : move.c.o
 
 move.i: move.c.i
@@ -3598,8 +3598,8 @@ move.i: move.c.i
 
 # target to preprocess a source file
 move.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/move.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/move.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/move.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/move.c.i
 .PHONY : move.c.i
 
 move.s: move.c.s
@@ -3607,8 +3607,8 @@ move.s: move.c.s
 
 # target to generate assembly for a file
 move.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/move.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/move.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/move.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/move.c.s
 .PHONY : move.c.s
 
 msgpack_rpc/channel.o: msgpack_rpc/channel.c.o
@@ -3616,8 +3616,8 @@ msgpack_rpc/channel.o: msgpack_rpc/channel.c.o
 
 # target to build an object file
 msgpack_rpc/channel.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/channel.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/channel.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/channel.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/channel.c.o
 .PHONY : msgpack_rpc/channel.c.o
 
 msgpack_rpc/channel.i: msgpack_rpc/channel.c.i
@@ -3625,8 +3625,8 @@ msgpack_rpc/channel.i: msgpack_rpc/channel.c.i
 
 # target to preprocess a source file
 msgpack_rpc/channel.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/channel.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/channel.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/channel.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/channel.c.i
 .PHONY : msgpack_rpc/channel.c.i
 
 msgpack_rpc/channel.s: msgpack_rpc/channel.c.s
@@ -3634,8 +3634,8 @@ msgpack_rpc/channel.s: msgpack_rpc/channel.c.s
 
 # target to generate assembly for a file
 msgpack_rpc/channel.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/channel.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/channel.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/channel.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/channel.c.s
 .PHONY : msgpack_rpc/channel.c.s
 
 msgpack_rpc/helpers.o: msgpack_rpc/helpers.c.o
@@ -3643,8 +3643,8 @@ msgpack_rpc/helpers.o: msgpack_rpc/helpers.c.o
 
 # target to build an object file
 msgpack_rpc/helpers.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/helpers.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/helpers.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/helpers.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/helpers.c.o
 .PHONY : msgpack_rpc/helpers.c.o
 
 msgpack_rpc/helpers.i: msgpack_rpc/helpers.c.i
@@ -3652,8 +3652,8 @@ msgpack_rpc/helpers.i: msgpack_rpc/helpers.c.i
 
 # target to preprocess a source file
 msgpack_rpc/helpers.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/helpers.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/helpers.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/helpers.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/helpers.c.i
 .PHONY : msgpack_rpc/helpers.c.i
 
 msgpack_rpc/helpers.s: msgpack_rpc/helpers.c.s
@@ -3661,8 +3661,8 @@ msgpack_rpc/helpers.s: msgpack_rpc/helpers.c.s
 
 # target to generate assembly for a file
 msgpack_rpc/helpers.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/helpers.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/helpers.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/helpers.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/helpers.c.s
 .PHONY : msgpack_rpc/helpers.c.s
 
 msgpack_rpc/server.o: msgpack_rpc/server.c.o
@@ -3670,8 +3670,8 @@ msgpack_rpc/server.o: msgpack_rpc/server.c.o
 
 # target to build an object file
 msgpack_rpc/server.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/server.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/server.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/server.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/server.c.o
 .PHONY : msgpack_rpc/server.c.o
 
 msgpack_rpc/server.i: msgpack_rpc/server.c.i
@@ -3679,8 +3679,8 @@ msgpack_rpc/server.i: msgpack_rpc/server.c.i
 
 # target to preprocess a source file
 msgpack_rpc/server.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/server.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/server.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/server.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/server.c.i
 .PHONY : msgpack_rpc/server.c.i
 
 msgpack_rpc/server.s: msgpack_rpc/server.c.s
@@ -3688,8 +3688,8 @@ msgpack_rpc/server.s: msgpack_rpc/server.c.s
 
 # target to generate assembly for a file
 msgpack_rpc/server.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/server.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/server.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/server.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/server.c.s
 .PHONY : msgpack_rpc/server.c.s
 
 msgpack_rpc/unpacker.o: msgpack_rpc/unpacker.c.o
@@ -3697,8 +3697,8 @@ msgpack_rpc/unpacker.o: msgpack_rpc/unpacker.c.o
 
 # target to build an object file
 msgpack_rpc/unpacker.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/unpacker.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/unpacker.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/unpacker.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/unpacker.c.o
 .PHONY : msgpack_rpc/unpacker.c.o
 
 msgpack_rpc/unpacker.i: msgpack_rpc/unpacker.c.i
@@ -3706,8 +3706,8 @@ msgpack_rpc/unpacker.i: msgpack_rpc/unpacker.c.i
 
 # target to preprocess a source file
 msgpack_rpc/unpacker.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/unpacker.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/unpacker.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/unpacker.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/unpacker.c.i
 .PHONY : msgpack_rpc/unpacker.c.i
 
 msgpack_rpc/unpacker.s: msgpack_rpc/unpacker.c.s
@@ -3715,8 +3715,8 @@ msgpack_rpc/unpacker.s: msgpack_rpc/unpacker.c.s
 
 # target to generate assembly for a file
 msgpack_rpc/unpacker.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/unpacker.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/unpacker.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/msgpack_rpc/unpacker.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/msgpack_rpc/unpacker.c.s
 .PHONY : msgpack_rpc/unpacker.c.s
 
 normal.o: normal.c.o
@@ -3724,8 +3724,8 @@ normal.o: normal.c.o
 
 # target to build an object file
 normal.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/normal.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/normal.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/normal.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/normal.c.o
 .PHONY : normal.c.o
 
 normal.i: normal.c.i
@@ -3733,8 +3733,8 @@ normal.i: normal.c.i
 
 # target to preprocess a source file
 normal.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/normal.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/normal.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/normal.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/normal.c.i
 .PHONY : normal.c.i
 
 normal.s: normal.c.s
@@ -3742,8 +3742,8 @@ normal.s: normal.c.s
 
 # target to generate assembly for a file
 normal.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/normal.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/normal.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/normal.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/normal.c.s
 .PHONY : normal.c.s
 
 ops.o: ops.c.o
@@ -3751,8 +3751,8 @@ ops.o: ops.c.o
 
 # target to build an object file
 ops.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ops.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ops.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ops.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ops.c.o
 .PHONY : ops.c.o
 
 ops.i: ops.c.i
@@ -3760,8 +3760,8 @@ ops.i: ops.c.i
 
 # target to preprocess a source file
 ops.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ops.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ops.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ops.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ops.c.i
 .PHONY : ops.c.i
 
 ops.s: ops.c.s
@@ -3769,8 +3769,8 @@ ops.s: ops.c.s
 
 # target to generate assembly for a file
 ops.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ops.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ops.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ops.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ops.c.s
 .PHONY : ops.c.s
 
 option.o: option.c.o
@@ -3778,8 +3778,8 @@ option.o: option.c.o
 
 # target to build an object file
 option.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/option.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/option.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/option.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/option.c.o
 .PHONY : option.c.o
 
 option.i: option.c.i
@@ -3787,8 +3787,8 @@ option.i: option.c.i
 
 # target to preprocess a source file
 option.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/option.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/option.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/option.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/option.c.i
 .PHONY : option.c.i
 
 option.s: option.c.s
@@ -3796,8 +3796,8 @@ option.s: option.c.s
 
 # target to generate assembly for a file
 option.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/option.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/option.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/option.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/option.c.s
 .PHONY : option.c.s
 
 optionstr.o: optionstr.c.o
@@ -3805,8 +3805,8 @@ optionstr.o: optionstr.c.o
 
 # target to build an object file
 optionstr.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/optionstr.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/optionstr.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/optionstr.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/optionstr.c.o
 .PHONY : optionstr.c.o
 
 optionstr.i: optionstr.c.i
@@ -3814,8 +3814,8 @@ optionstr.i: optionstr.c.i
 
 # target to preprocess a source file
 optionstr.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/optionstr.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/optionstr.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/optionstr.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/optionstr.c.i
 .PHONY : optionstr.c.i
 
 optionstr.s: optionstr.c.s
@@ -3823,8 +3823,8 @@ optionstr.s: optionstr.c.s
 
 # target to generate assembly for a file
 optionstr.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/optionstr.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/optionstr.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/optionstr.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/optionstr.c.s
 .PHONY : optionstr.c.s
 
 os/dl.o: os/dl.c.o
@@ -3832,8 +3832,8 @@ os/dl.o: os/dl.c.o
 
 # target to build an object file
 os/dl.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/dl.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/dl.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/dl.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/dl.c.o
 .PHONY : os/dl.c.o
 
 os/dl.i: os/dl.c.i
@@ -3841,8 +3841,8 @@ os/dl.i: os/dl.c.i
 
 # target to preprocess a source file
 os/dl.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/dl.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/dl.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/dl.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/dl.c.i
 .PHONY : os/dl.c.i
 
 os/dl.s: os/dl.c.s
@@ -3850,8 +3850,8 @@ os/dl.s: os/dl.c.s
 
 # target to generate assembly for a file
 os/dl.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/dl.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/dl.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/dl.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/dl.c.s
 .PHONY : os/dl.c.s
 
 os/env.o: os/env.c.o
@@ -3859,8 +3859,8 @@ os/env.o: os/env.c.o
 
 # target to build an object file
 os/env.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/env.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/env.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/env.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/env.c.o
 .PHONY : os/env.c.o
 
 os/env.i: os/env.c.i
@@ -3868,8 +3868,8 @@ os/env.i: os/env.c.i
 
 # target to preprocess a source file
 os/env.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/env.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/env.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/env.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/env.c.i
 .PHONY : os/env.c.i
 
 os/env.s: os/env.c.s
@@ -3877,8 +3877,8 @@ os/env.s: os/env.c.s
 
 # target to generate assembly for a file
 os/env.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/env.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/env.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/env.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/env.c.s
 .PHONY : os/env.c.s
 
 os/fileio.o: os/fileio.c.o
@@ -3886,8 +3886,8 @@ os/fileio.o: os/fileio.c.o
 
 # target to build an object file
 os/fileio.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/fileio.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/fileio.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/fileio.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/fileio.c.o
 .PHONY : os/fileio.c.o
 
 os/fileio.i: os/fileio.c.i
@@ -3895,8 +3895,8 @@ os/fileio.i: os/fileio.c.i
 
 # target to preprocess a source file
 os/fileio.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/fileio.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/fileio.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/fileio.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/fileio.c.i
 .PHONY : os/fileio.c.i
 
 os/fileio.s: os/fileio.c.s
@@ -3904,8 +3904,8 @@ os/fileio.s: os/fileio.c.s
 
 # target to generate assembly for a file
 os/fileio.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/fileio.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/fileio.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/fileio.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/fileio.c.s
 .PHONY : os/fileio.c.s
 
 os/fs.o: os/fs.c.o
@@ -3913,8 +3913,8 @@ os/fs.o: os/fs.c.o
 
 # target to build an object file
 os/fs.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/fs.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/fs.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/fs.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/fs.c.o
 .PHONY : os/fs.c.o
 
 os/fs.i: os/fs.c.i
@@ -3922,8 +3922,8 @@ os/fs.i: os/fs.c.i
 
 # target to preprocess a source file
 os/fs.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/fs.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/fs.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/fs.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/fs.c.i
 .PHONY : os/fs.c.i
 
 os/fs.s: os/fs.c.s
@@ -3931,8 +3931,8 @@ os/fs.s: os/fs.c.s
 
 # target to generate assembly for a file
 os/fs.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/fs.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/fs.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/fs.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/fs.c.s
 .PHONY : os/fs.c.s
 
 os/input.o: os/input.c.o
@@ -3940,8 +3940,8 @@ os/input.o: os/input.c.o
 
 # target to build an object file
 os/input.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/input.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/input.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/input.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/input.c.o
 .PHONY : os/input.c.o
 
 os/input.i: os/input.c.i
@@ -3949,8 +3949,8 @@ os/input.i: os/input.c.i
 
 # target to preprocess a source file
 os/input.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/input.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/input.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/input.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/input.c.i
 .PHONY : os/input.c.i
 
 os/input.s: os/input.c.s
@@ -3958,8 +3958,8 @@ os/input.s: os/input.c.s
 
 # target to generate assembly for a file
 os/input.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/input.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/input.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/input.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/input.c.s
 .PHONY : os/input.c.s
 
 os/lang.o: os/lang.c.o
@@ -3967,8 +3967,8 @@ os/lang.o: os/lang.c.o
 
 # target to build an object file
 os/lang.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/lang.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/lang.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/lang.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/lang.c.o
 .PHONY : os/lang.c.o
 
 os/lang.i: os/lang.c.i
@@ -3976,8 +3976,8 @@ os/lang.i: os/lang.c.i
 
 # target to preprocess a source file
 os/lang.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/lang.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/lang.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/lang.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/lang.c.i
 .PHONY : os/lang.c.i
 
 os/lang.s: os/lang.c.s
@@ -3985,8 +3985,8 @@ os/lang.s: os/lang.c.s
 
 # target to generate assembly for a file
 os/lang.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/lang.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/lang.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/lang.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/lang.c.s
 .PHONY : os/lang.c.s
 
 os/mem.o: os/mem.c.o
@@ -3994,8 +3994,8 @@ os/mem.o: os/mem.c.o
 
 # target to build an object file
 os/mem.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/mem.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/mem.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/mem.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/mem.c.o
 .PHONY : os/mem.c.o
 
 os/mem.i: os/mem.c.i
@@ -4003,8 +4003,8 @@ os/mem.i: os/mem.c.i
 
 # target to preprocess a source file
 os/mem.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/mem.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/mem.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/mem.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/mem.c.i
 .PHONY : os/mem.c.i
 
 os/mem.s: os/mem.c.s
@@ -4012,8 +4012,8 @@ os/mem.s: os/mem.c.s
 
 # target to generate assembly for a file
 os/mem.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/mem.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/mem.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/mem.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/mem.c.s
 .PHONY : os/mem.c.s
 
 os/process.o: os/process.c.o
@@ -4021,8 +4021,8 @@ os/process.o: os/process.c.o
 
 # target to build an object file
 os/process.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/process.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/process.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/process.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/process.c.o
 .PHONY : os/process.c.o
 
 os/process.i: os/process.c.i
@@ -4030,8 +4030,8 @@ os/process.i: os/process.c.i
 
 # target to preprocess a source file
 os/process.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/process.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/process.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/process.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/process.c.i
 .PHONY : os/process.c.i
 
 os/process.s: os/process.c.s
@@ -4039,8 +4039,8 @@ os/process.s: os/process.c.s
 
 # target to generate assembly for a file
 os/process.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/process.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/process.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/process.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/process.c.s
 .PHONY : os/process.c.s
 
 os/pty_process_unix.o: os/pty_process_unix.c.o
@@ -4048,8 +4048,8 @@ os/pty_process_unix.o: os/pty_process_unix.c.o
 
 # target to build an object file
 os/pty_process_unix.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/pty_process_unix.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/pty_process_unix.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/pty_process_unix.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/pty_process_unix.c.o
 .PHONY : os/pty_process_unix.c.o
 
 os/pty_process_unix.i: os/pty_process_unix.c.i
@@ -4057,8 +4057,8 @@ os/pty_process_unix.i: os/pty_process_unix.c.i
 
 # target to preprocess a source file
 os/pty_process_unix.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/pty_process_unix.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/pty_process_unix.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/pty_process_unix.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/pty_process_unix.c.i
 .PHONY : os/pty_process_unix.c.i
 
 os/pty_process_unix.s: os/pty_process_unix.c.s
@@ -4066,8 +4066,8 @@ os/pty_process_unix.s: os/pty_process_unix.c.s
 
 # target to generate assembly for a file
 os/pty_process_unix.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/pty_process_unix.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/pty_process_unix.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/pty_process_unix.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/pty_process_unix.c.s
 .PHONY : os/pty_process_unix.c.s
 
 os/shell.o: os/shell.c.o
@@ -4075,8 +4075,8 @@ os/shell.o: os/shell.c.o
 
 # target to build an object file
 os/shell.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/shell.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/shell.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/shell.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/shell.c.o
 .PHONY : os/shell.c.o
 
 os/shell.i: os/shell.c.i
@@ -4084,8 +4084,8 @@ os/shell.i: os/shell.c.i
 
 # target to preprocess a source file
 os/shell.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/shell.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/shell.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/shell.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/shell.c.i
 .PHONY : os/shell.c.i
 
 os/shell.s: os/shell.c.s
@@ -4093,8 +4093,8 @@ os/shell.s: os/shell.c.s
 
 # target to generate assembly for a file
 os/shell.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/shell.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/shell.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/shell.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/shell.c.s
 .PHONY : os/shell.c.s
 
 os/signal.o: os/signal.c.o
@@ -4102,8 +4102,8 @@ os/signal.o: os/signal.c.o
 
 # target to build an object file
 os/signal.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/signal.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/signal.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/signal.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/signal.c.o
 .PHONY : os/signal.c.o
 
 os/signal.i: os/signal.c.i
@@ -4111,8 +4111,8 @@ os/signal.i: os/signal.c.i
 
 # target to preprocess a source file
 os/signal.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/signal.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/signal.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/signal.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/signal.c.i
 .PHONY : os/signal.c.i
 
 os/signal.s: os/signal.c.s
@@ -4120,8 +4120,8 @@ os/signal.s: os/signal.c.s
 
 # target to generate assembly for a file
 os/signal.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/signal.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/signal.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/signal.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/signal.c.s
 .PHONY : os/signal.c.s
 
 os/stdpaths.o: os/stdpaths.c.o
@@ -4129,8 +4129,8 @@ os/stdpaths.o: os/stdpaths.c.o
 
 # target to build an object file
 os/stdpaths.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/stdpaths.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/stdpaths.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/stdpaths.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/stdpaths.c.o
 .PHONY : os/stdpaths.c.o
 
 os/stdpaths.i: os/stdpaths.c.i
@@ -4138,8 +4138,8 @@ os/stdpaths.i: os/stdpaths.c.i
 
 # target to preprocess a source file
 os/stdpaths.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/stdpaths.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/stdpaths.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/stdpaths.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/stdpaths.c.i
 .PHONY : os/stdpaths.c.i
 
 os/stdpaths.s: os/stdpaths.c.s
@@ -4147,8 +4147,8 @@ os/stdpaths.s: os/stdpaths.c.s
 
 # target to generate assembly for a file
 os/stdpaths.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/stdpaths.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/stdpaths.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/stdpaths.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/stdpaths.c.s
 .PHONY : os/stdpaths.c.s
 
 os/time.o: os/time.c.o
@@ -4156,8 +4156,8 @@ os/time.o: os/time.c.o
 
 # target to build an object file
 os/time.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/time.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/time.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/time.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/time.c.o
 .PHONY : os/time.c.o
 
 os/time.i: os/time.c.i
@@ -4165,8 +4165,8 @@ os/time.i: os/time.c.i
 
 # target to preprocess a source file
 os/time.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/time.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/time.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/time.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/time.c.i
 .PHONY : os/time.c.i
 
 os/time.s: os/time.c.s
@@ -4174,8 +4174,8 @@ os/time.s: os/time.c.s
 
 # target to generate assembly for a file
 os/time.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/time.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/time.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/time.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/time.c.s
 .PHONY : os/time.c.s
 
 os/tty.o: os/tty.c.o
@@ -4183,8 +4183,8 @@ os/tty.o: os/tty.c.o
 
 # target to build an object file
 os/tty.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/tty.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/tty.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/tty.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/tty.c.o
 .PHONY : os/tty.c.o
 
 os/tty.i: os/tty.c.i
@@ -4192,8 +4192,8 @@ os/tty.i: os/tty.c.i
 
 # target to preprocess a source file
 os/tty.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/tty.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/tty.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/tty.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/tty.c.i
 .PHONY : os/tty.c.i
 
 os/tty.s: os/tty.c.s
@@ -4201,8 +4201,8 @@ os/tty.s: os/tty.c.s
 
 # target to generate assembly for a file
 os/tty.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/tty.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/tty.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/tty.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/tty.c.s
 .PHONY : os/tty.c.s
 
 os/users.o: os/users.c.o
@@ -4210,8 +4210,8 @@ os/users.o: os/users.c.o
 
 # target to build an object file
 os/users.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/users.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/users.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/users.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/users.c.o
 .PHONY : os/users.c.o
 
 os/users.i: os/users.c.i
@@ -4219,8 +4219,8 @@ os/users.i: os/users.c.i
 
 # target to preprocess a source file
 os/users.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/users.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/users.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/users.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/users.c.i
 .PHONY : os/users.c.i
 
 os/users.s: os/users.c.s
@@ -4228,8 +4228,8 @@ os/users.s: os/users.c.s
 
 # target to generate assembly for a file
 os/users.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/users.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/users.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/os/users.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/os/users.c.s
 .PHONY : os/users.c.s
 
 path.o: path.c.o
@@ -4237,8 +4237,8 @@ path.o: path.c.o
 
 # target to build an object file
 path.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/path.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/path.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/path.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/path.c.o
 .PHONY : path.c.o
 
 path.i: path.c.i
@@ -4246,8 +4246,8 @@ path.i: path.c.i
 
 # target to preprocess a source file
 path.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/path.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/path.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/path.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/path.c.i
 .PHONY : path.c.i
 
 path.s: path.c.s
@@ -4255,8 +4255,8 @@ path.s: path.c.s
 
 # target to generate assembly for a file
 path.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/path.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/path.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/path.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/path.c.s
 .PHONY : path.c.s
 
 plines.o: plines.c.o
@@ -4264,8 +4264,8 @@ plines.o: plines.c.o
 
 # target to build an object file
 plines.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/plines.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/plines.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/plines.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/plines.c.o
 .PHONY : plines.c.o
 
 plines.i: plines.c.i
@@ -4273,8 +4273,8 @@ plines.i: plines.c.i
 
 # target to preprocess a source file
 plines.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/plines.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/plines.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/plines.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/plines.c.i
 .PHONY : plines.c.i
 
 plines.s: plines.c.s
@@ -4282,8 +4282,8 @@ plines.s: plines.c.s
 
 # target to generate assembly for a file
 plines.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/plines.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/plines.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/plines.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/plines.c.s
 .PHONY : plines.c.s
 
 popupmenu.o: popupmenu.c.o
@@ -4291,8 +4291,8 @@ popupmenu.o: popupmenu.c.o
 
 # target to build an object file
 popupmenu.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/popupmenu.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/popupmenu.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/popupmenu.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/popupmenu.c.o
 .PHONY : popupmenu.c.o
 
 popupmenu.i: popupmenu.c.i
@@ -4300,8 +4300,8 @@ popupmenu.i: popupmenu.c.i
 
 # target to preprocess a source file
 popupmenu.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/popupmenu.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/popupmenu.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/popupmenu.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/popupmenu.c.i
 .PHONY : popupmenu.c.i
 
 popupmenu.s: popupmenu.c.s
@@ -4309,8 +4309,8 @@ popupmenu.s: popupmenu.c.s
 
 # target to generate assembly for a file
 popupmenu.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/popupmenu.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/popupmenu.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/popupmenu.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/popupmenu.c.s
 .PHONY : popupmenu.c.s
 
 profile.o: profile.c.o
@@ -4318,8 +4318,8 @@ profile.o: profile.c.o
 
 # target to build an object file
 profile.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/profile.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/profile.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/profile.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/profile.c.o
 .PHONY : profile.c.o
 
 profile.i: profile.c.i
@@ -4327,8 +4327,8 @@ profile.i: profile.c.i
 
 # target to preprocess a source file
 profile.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/profile.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/profile.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/profile.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/profile.c.i
 .PHONY : profile.c.i
 
 profile.s: profile.c.s
@@ -4336,8 +4336,8 @@ profile.s: profile.c.s
 
 # target to generate assembly for a file
 profile.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/profile.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/profile.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/profile.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/profile.c.s
 .PHONY : profile.c.s
 
 quickfix.o: quickfix.c.o
@@ -4345,8 +4345,8 @@ quickfix.o: quickfix.c.o
 
 # target to build an object file
 quickfix.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/quickfix.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/quickfix.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/quickfix.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/quickfix.c.o
 .PHONY : quickfix.c.o
 
 quickfix.i: quickfix.c.i
@@ -4354,8 +4354,8 @@ quickfix.i: quickfix.c.i
 
 # target to preprocess a source file
 quickfix.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/quickfix.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/quickfix.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/quickfix.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/quickfix.c.i
 .PHONY : quickfix.c.i
 
 quickfix.s: quickfix.c.s
@@ -4363,8 +4363,8 @@ quickfix.s: quickfix.c.s
 
 # target to generate assembly for a file
 quickfix.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/quickfix.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/quickfix.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/quickfix.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/quickfix.c.s
 .PHONY : quickfix.c.s
 
 rbuffer.o: rbuffer.c.o
@@ -4372,8 +4372,8 @@ rbuffer.o: rbuffer.c.o
 
 # target to build an object file
 rbuffer.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/rbuffer.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/rbuffer.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/rbuffer.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/rbuffer.c.o
 .PHONY : rbuffer.c.o
 
 rbuffer.i: rbuffer.c.i
@@ -4381,8 +4381,8 @@ rbuffer.i: rbuffer.c.i
 
 # target to preprocess a source file
 rbuffer.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/rbuffer.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/rbuffer.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/rbuffer.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/rbuffer.c.i
 .PHONY : rbuffer.c.i
 
 rbuffer.s: rbuffer.c.s
@@ -4390,8 +4390,8 @@ rbuffer.s: rbuffer.c.s
 
 # target to generate assembly for a file
 rbuffer.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/rbuffer.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/rbuffer.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/rbuffer.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/rbuffer.c.s
 .PHONY : rbuffer.c.s
 
 regexp.o: regexp.c.o
@@ -4399,8 +4399,8 @@ regexp.o: regexp.c.o
 
 # target to build an object file
 regexp.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/regexp.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/regexp.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/regexp.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/regexp.c.o
 .PHONY : regexp.c.o
 
 regexp.i: regexp.c.i
@@ -4408,8 +4408,8 @@ regexp.i: regexp.c.i
 
 # target to preprocess a source file
 regexp.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/regexp.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/regexp.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/regexp.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/regexp.c.i
 .PHONY : regexp.c.i
 
 regexp.s: regexp.c.s
@@ -4417,8 +4417,8 @@ regexp.s: regexp.c.s
 
 # target to generate assembly for a file
 regexp.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/regexp.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/regexp.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/regexp.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/regexp.c.s
 .PHONY : regexp.c.s
 
 runtime.o: runtime.c.o
@@ -4426,8 +4426,8 @@ runtime.o: runtime.c.o
 
 # target to build an object file
 runtime.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/runtime.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/runtime.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/runtime.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/runtime.c.o
 .PHONY : runtime.c.o
 
 runtime.i: runtime.c.i
@@ -4435,8 +4435,8 @@ runtime.i: runtime.c.i
 
 # target to preprocess a source file
 runtime.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/runtime.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/runtime.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/runtime.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/runtime.c.i
 .PHONY : runtime.c.i
 
 runtime.s: runtime.c.s
@@ -4444,8 +4444,8 @@ runtime.s: runtime.c.s
 
 # target to generate assembly for a file
 runtime.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/runtime.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/runtime.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/runtime.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/runtime.c.s
 .PHONY : runtime.c.s
 
 search.o: search.c.o
@@ -4453,8 +4453,8 @@ search.o: search.c.o
 
 # target to build an object file
 search.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/search.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/search.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/search.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/search.c.o
 .PHONY : search.c.o
 
 search.i: search.c.i
@@ -4462,8 +4462,8 @@ search.i: search.c.i
 
 # target to preprocess a source file
 search.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/search.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/search.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/search.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/search.c.i
 .PHONY : search.c.i
 
 search.s: search.c.s
@@ -4471,8 +4471,8 @@ search.s: search.c.s
 
 # target to generate assembly for a file
 search.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/search.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/search.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/search.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/search.c.s
 .PHONY : search.c.s
 
 sha256.o: sha256.c.o
@@ -4480,8 +4480,8 @@ sha256.o: sha256.c.o
 
 # target to build an object file
 sha256.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/sha256.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/sha256.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/sha256.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/sha256.c.o
 .PHONY : sha256.c.o
 
 sha256.i: sha256.c.i
@@ -4489,8 +4489,8 @@ sha256.i: sha256.c.i
 
 # target to preprocess a source file
 sha256.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/sha256.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/sha256.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/sha256.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/sha256.c.i
 .PHONY : sha256.c.i
 
 sha256.s: sha256.c.s
@@ -4498,8 +4498,8 @@ sha256.s: sha256.c.s
 
 # target to generate assembly for a file
 sha256.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/sha256.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/sha256.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/sha256.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/sha256.c.s
 .PHONY : sha256.c.s
 
 shada.o: shada.c.o
@@ -4507,8 +4507,8 @@ shada.o: shada.c.o
 
 # target to build an object file
 shada.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/shada.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/shada.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/shada.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/shada.c.o
 .PHONY : shada.c.o
 
 shada.i: shada.c.i
@@ -4516,8 +4516,8 @@ shada.i: shada.c.i
 
 # target to preprocess a source file
 shada.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/shada.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/shada.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/shada.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/shada.c.i
 .PHONY : shada.c.i
 
 shada.s: shada.c.s
@@ -4525,8 +4525,8 @@ shada.s: shada.c.s
 
 # target to generate assembly for a file
 shada.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/shada.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/shada.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/shada.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/shada.c.s
 .PHONY : shada.c.s
 
 sign.o: sign.c.o
@@ -4534,8 +4534,8 @@ sign.o: sign.c.o
 
 # target to build an object file
 sign.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/sign.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/sign.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/sign.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/sign.c.o
 .PHONY : sign.c.o
 
 sign.i: sign.c.i
@@ -4543,8 +4543,8 @@ sign.i: sign.c.i
 
 # target to preprocess a source file
 sign.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/sign.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/sign.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/sign.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/sign.c.i
 .PHONY : sign.c.i
 
 sign.s: sign.c.s
@@ -4552,8 +4552,8 @@ sign.s: sign.c.s
 
 # target to generate assembly for a file
 sign.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/sign.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/sign.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/sign.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/sign.c.s
 .PHONY : sign.c.s
 
 spell.o: spell.c.o
@@ -4561,8 +4561,8 @@ spell.o: spell.c.o
 
 # target to build an object file
 spell.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spell.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spell.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spell.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spell.c.o
 .PHONY : spell.c.o
 
 spell.i: spell.c.i
@@ -4570,8 +4570,8 @@ spell.i: spell.c.i
 
 # target to preprocess a source file
 spell.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spell.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spell.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spell.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spell.c.i
 .PHONY : spell.c.i
 
 spell.s: spell.c.s
@@ -4579,8 +4579,8 @@ spell.s: spell.c.s
 
 # target to generate assembly for a file
 spell.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spell.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spell.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spell.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spell.c.s
 .PHONY : spell.c.s
 
 spellfile.o: spellfile.c.o
@@ -4588,8 +4588,8 @@ spellfile.o: spellfile.c.o
 
 # target to build an object file
 spellfile.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spellfile.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spellfile.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spellfile.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spellfile.c.o
 .PHONY : spellfile.c.o
 
 spellfile.i: spellfile.c.i
@@ -4597,8 +4597,8 @@ spellfile.i: spellfile.c.i
 
 # target to preprocess a source file
 spellfile.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spellfile.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spellfile.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spellfile.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spellfile.c.i
 .PHONY : spellfile.c.i
 
 spellfile.s: spellfile.c.s
@@ -4606,8 +4606,8 @@ spellfile.s: spellfile.c.s
 
 # target to generate assembly for a file
 spellfile.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spellfile.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spellfile.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spellfile.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spellfile.c.s
 .PHONY : spellfile.c.s
 
 spellsuggest.o: spellsuggest.c.o
@@ -4615,8 +4615,8 @@ spellsuggest.o: spellsuggest.c.o
 
 # target to build an object file
 spellsuggest.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spellsuggest.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spellsuggest.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spellsuggest.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spellsuggest.c.o
 .PHONY : spellsuggest.c.o
 
 spellsuggest.i: spellsuggest.c.i
@@ -4624,8 +4624,8 @@ spellsuggest.i: spellsuggest.c.i
 
 # target to preprocess a source file
 spellsuggest.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spellsuggest.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spellsuggest.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spellsuggest.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spellsuggest.c.i
 .PHONY : spellsuggest.c.i
 
 spellsuggest.s: spellsuggest.c.s
@@ -4633,8 +4633,8 @@ spellsuggest.s: spellsuggest.c.s
 
 # target to generate assembly for a file
 spellsuggest.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spellsuggest.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spellsuggest.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/spellsuggest.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/spellsuggest.c.s
 .PHONY : spellsuggest.c.s
 
 state.o: state.c.o
@@ -4642,8 +4642,8 @@ state.o: state.c.o
 
 # target to build an object file
 state.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/state.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/state.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/state.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/state.c.o
 .PHONY : state.c.o
 
 state.i: state.c.i
@@ -4651,8 +4651,8 @@ state.i: state.c.i
 
 # target to preprocess a source file
 state.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/state.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/state.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/state.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/state.c.i
 .PHONY : state.c.i
 
 state.s: state.c.s
@@ -4660,8 +4660,8 @@ state.s: state.c.s
 
 # target to generate assembly for a file
 state.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/state.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/state.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/state.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/state.c.s
 .PHONY : state.c.s
 
 statusline.o: statusline.c.o
@@ -4669,8 +4669,8 @@ statusline.o: statusline.c.o
 
 # target to build an object file
 statusline.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/statusline.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/statusline.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/statusline.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/statusline.c.o
 .PHONY : statusline.c.o
 
 statusline.i: statusline.c.i
@@ -4678,8 +4678,8 @@ statusline.i: statusline.c.i
 
 # target to preprocess a source file
 statusline.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/statusline.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/statusline.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/statusline.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/statusline.c.i
 .PHONY : statusline.c.i
 
 statusline.s: statusline.c.s
@@ -4687,8 +4687,8 @@ statusline.s: statusline.c.s
 
 # target to generate assembly for a file
 statusline.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/statusline.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/statusline.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/statusline.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/statusline.c.s
 .PHONY : statusline.c.s
 
 strings.o: strings.c.o
@@ -4696,8 +4696,8 @@ strings.o: strings.c.o
 
 # target to build an object file
 strings.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/strings.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/strings.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/strings.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/strings.c.o
 .PHONY : strings.c.o
 
 strings.i: strings.c.i
@@ -4705,8 +4705,8 @@ strings.i: strings.c.i
 
 # target to preprocess a source file
 strings.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/strings.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/strings.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/strings.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/strings.c.i
 .PHONY : strings.c.i
 
 strings.s: strings.c.s
@@ -4714,8 +4714,8 @@ strings.s: strings.c.s
 
 # target to generate assembly for a file
 strings.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/strings.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/strings.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/strings.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/strings.c.s
 .PHONY : strings.c.s
 
 syntax.o: syntax.c.o
@@ -4723,8 +4723,8 @@ syntax.o: syntax.c.o
 
 # target to build an object file
 syntax.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/syntax.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/syntax.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/syntax.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/syntax.c.o
 .PHONY : syntax.c.o
 
 syntax.i: syntax.c.i
@@ -4732,8 +4732,8 @@ syntax.i: syntax.c.i
 
 # target to preprocess a source file
 syntax.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/syntax.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/syntax.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/syntax.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/syntax.c.i
 .PHONY : syntax.c.i
 
 syntax.s: syntax.c.s
@@ -4741,8 +4741,8 @@ syntax.s: syntax.c.s
 
 # target to generate assembly for a file
 syntax.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/syntax.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/syntax.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/syntax.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/syntax.c.s
 .PHONY : syntax.c.s
 
 tag.o: tag.c.o
@@ -4750,8 +4750,8 @@ tag.o: tag.c.o
 
 # target to build an object file
 tag.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tag.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tag.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tag.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tag.c.o
 .PHONY : tag.c.o
 
 tag.i: tag.c.i
@@ -4759,8 +4759,8 @@ tag.i: tag.c.i
 
 # target to preprocess a source file
 tag.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tag.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tag.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tag.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tag.c.i
 .PHONY : tag.c.i
 
 tag.s: tag.c.s
@@ -4768,8 +4768,8 @@ tag.s: tag.c.s
 
 # target to generate assembly for a file
 tag.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tag.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tag.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tag.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tag.c.s
 .PHONY : tag.c.s
 
 terminal.o: terminal.c.o
@@ -4777,8 +4777,8 @@ terminal.o: terminal.c.o
 
 # target to build an object file
 terminal.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/terminal.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/terminal.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/terminal.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/terminal.c.o
 .PHONY : terminal.c.o
 
 terminal.i: terminal.c.i
@@ -4786,8 +4786,8 @@ terminal.i: terminal.c.i
 
 # target to preprocess a source file
 terminal.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/terminal.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/terminal.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/terminal.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/terminal.c.i
 .PHONY : terminal.c.i
 
 terminal.s: terminal.c.s
@@ -4795,8 +4795,8 @@ terminal.s: terminal.c.s
 
 # target to generate assembly for a file
 terminal.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/terminal.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/terminal.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/terminal.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/terminal.c.s
 .PHONY : terminal.c.s
 
 testing.o: testing.c.o
@@ -4804,8 +4804,8 @@ testing.o: testing.c.o
 
 # target to build an object file
 testing.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/testing.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/testing.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/testing.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/testing.c.o
 .PHONY : testing.c.o
 
 testing.i: testing.c.i
@@ -4813,8 +4813,8 @@ testing.i: testing.c.i
 
 # target to preprocess a source file
 testing.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/testing.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/testing.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/testing.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/testing.c.i
 .PHONY : testing.c.i
 
 testing.s: testing.c.s
@@ -4822,8 +4822,8 @@ testing.s: testing.c.s
 
 # target to generate assembly for a file
 testing.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/testing.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/testing.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/testing.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/testing.c.s
 .PHONY : testing.c.s
 
 textformat.o: textformat.c.o
@@ -4831,8 +4831,8 @@ textformat.o: textformat.c.o
 
 # target to build an object file
 textformat.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/textformat.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/textformat.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/textformat.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/textformat.c.o
 .PHONY : textformat.c.o
 
 textformat.i: textformat.c.i
@@ -4840,8 +4840,8 @@ textformat.i: textformat.c.i
 
 # target to preprocess a source file
 textformat.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/textformat.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/textformat.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/textformat.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/textformat.c.i
 .PHONY : textformat.c.i
 
 textformat.s: textformat.c.s
@@ -4849,8 +4849,8 @@ textformat.s: textformat.c.s
 
 # target to generate assembly for a file
 textformat.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/textformat.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/textformat.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/textformat.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/textformat.c.s
 .PHONY : textformat.c.s
 
 textobject.o: textobject.c.o
@@ -4858,8 +4858,8 @@ textobject.o: textobject.c.o
 
 # target to build an object file
 textobject.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/textobject.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/textobject.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/textobject.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/textobject.c.o
 .PHONY : textobject.c.o
 
 textobject.i: textobject.c.i
@@ -4867,8 +4867,8 @@ textobject.i: textobject.c.i
 
 # target to preprocess a source file
 textobject.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/textobject.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/textobject.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/textobject.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/textobject.c.i
 .PHONY : textobject.c.i
 
 textobject.s: textobject.c.s
@@ -4876,8 +4876,8 @@ textobject.s: textobject.c.s
 
 # target to generate assembly for a file
 textobject.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/textobject.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/textobject.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/textobject.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/textobject.c.s
 .PHONY : textobject.c.s
 
 tui/input.o: tui/input.c.o
@@ -4885,8 +4885,8 @@ tui/input.o: tui/input.c.o
 
 # target to build an object file
 tui/input.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/input.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/input.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/input.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/input.c.o
 .PHONY : tui/input.c.o
 
 tui/input.i: tui/input.c.i
@@ -4894,8 +4894,8 @@ tui/input.i: tui/input.c.i
 
 # target to preprocess a source file
 tui/input.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/input.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/input.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/input.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/input.c.i
 .PHONY : tui/input.c.i
 
 tui/input.s: tui/input.c.s
@@ -4903,8 +4903,8 @@ tui/input.s: tui/input.c.s
 
 # target to generate assembly for a file
 tui/input.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/input.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/input.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/input.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/input.c.s
 .PHONY : tui/input.c.s
 
 tui/terminfo.o: tui/terminfo.c.o
@@ -4912,8 +4912,8 @@ tui/terminfo.o: tui/terminfo.c.o
 
 # target to build an object file
 tui/terminfo.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/terminfo.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/terminfo.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/terminfo.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/terminfo.c.o
 .PHONY : tui/terminfo.c.o
 
 tui/terminfo.i: tui/terminfo.c.i
@@ -4921,8 +4921,8 @@ tui/terminfo.i: tui/terminfo.c.i
 
 # target to preprocess a source file
 tui/terminfo.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/terminfo.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/terminfo.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/terminfo.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/terminfo.c.i
 .PHONY : tui/terminfo.c.i
 
 tui/terminfo.s: tui/terminfo.c.s
@@ -4930,8 +4930,8 @@ tui/terminfo.s: tui/terminfo.c.s
 
 # target to generate assembly for a file
 tui/terminfo.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/terminfo.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/terminfo.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/terminfo.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/terminfo.c.s
 .PHONY : tui/terminfo.c.s
 
 tui/tui.o: tui/tui.c.o
@@ -4939,8 +4939,8 @@ tui/tui.o: tui/tui.c.o
 
 # target to build an object file
 tui/tui.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/tui.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/tui.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/tui.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/tui.c.o
 .PHONY : tui/tui.c.o
 
 tui/tui.i: tui/tui.c.i
@@ -4948,8 +4948,8 @@ tui/tui.i: tui/tui.c.i
 
 # target to preprocess a source file
 tui/tui.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/tui.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/tui.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/tui.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/tui.c.i
 .PHONY : tui/tui.c.i
 
 tui/tui.s: tui/tui.c.s
@@ -4957,8 +4957,8 @@ tui/tui.s: tui/tui.c.s
 
 # target to generate assembly for a file
 tui/tui.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/tui.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/tui.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/tui/tui.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/tui/tui.c.s
 .PHONY : tui/tui.c.s
 
 ugrid.o: ugrid.c.o
@@ -4966,8 +4966,8 @@ ugrid.o: ugrid.c.o
 
 # target to build an object file
 ugrid.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ugrid.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ugrid.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ugrid.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ugrid.c.o
 .PHONY : ugrid.c.o
 
 ugrid.i: ugrid.c.i
@@ -4975,8 +4975,8 @@ ugrid.i: ugrid.c.i
 
 # target to preprocess a source file
 ugrid.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ugrid.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ugrid.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ugrid.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ugrid.c.i
 .PHONY : ugrid.c.i
 
 ugrid.s: ugrid.c.s
@@ -4984,8 +4984,8 @@ ugrid.s: ugrid.c.s
 
 # target to generate assembly for a file
 ugrid.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ugrid.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ugrid.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ugrid.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ugrid.c.s
 .PHONY : ugrid.c.s
 
 ui.o: ui.c.o
@@ -4993,8 +4993,8 @@ ui.o: ui.c.o
 
 # target to build an object file
 ui.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui.c.o
 .PHONY : ui.c.o
 
 ui.i: ui.c.i
@@ -5002,8 +5002,8 @@ ui.i: ui.c.i
 
 # target to preprocess a source file
 ui.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui.c.i
 .PHONY : ui.c.i
 
 ui.s: ui.c.s
@@ -5011,8 +5011,8 @@ ui.s: ui.c.s
 
 # target to generate assembly for a file
 ui.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui.c.s
 .PHONY : ui.c.s
 
 ui_client.o: ui_client.c.o
@@ -5020,8 +5020,8 @@ ui_client.o: ui_client.c.o
 
 # target to build an object file
 ui_client.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui_client.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui_client.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui_client.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui_client.c.o
 .PHONY : ui_client.c.o
 
 ui_client.i: ui_client.c.i
@@ -5029,8 +5029,8 @@ ui_client.i: ui_client.c.i
 
 # target to preprocess a source file
 ui_client.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui_client.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui_client.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui_client.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui_client.c.i
 .PHONY : ui_client.c.i
 
 ui_client.s: ui_client.c.s
@@ -5038,8 +5038,8 @@ ui_client.s: ui_client.c.s
 
 # target to generate assembly for a file
 ui_client.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui_client.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui_client.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui_client.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui_client.c.s
 .PHONY : ui_client.c.s
 
 ui_compositor.o: ui_compositor.c.o
@@ -5047,8 +5047,8 @@ ui_compositor.o: ui_compositor.c.o
 
 # target to build an object file
 ui_compositor.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui_compositor.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui_compositor.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui_compositor.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui_compositor.c.o
 .PHONY : ui_compositor.c.o
 
 ui_compositor.i: ui_compositor.c.i
@@ -5056,8 +5056,8 @@ ui_compositor.i: ui_compositor.c.i
 
 # target to preprocess a source file
 ui_compositor.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui_compositor.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui_compositor.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui_compositor.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui_compositor.c.i
 .PHONY : ui_compositor.c.i
 
 ui_compositor.s: ui_compositor.c.s
@@ -5065,8 +5065,8 @@ ui_compositor.s: ui_compositor.c.s
 
 # target to generate assembly for a file
 ui_compositor.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui_compositor.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui_compositor.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/ui_compositor.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/ui_compositor.c.s
 .PHONY : ui_compositor.c.s
 
 undo.o: undo.c.o
@@ -5074,8 +5074,8 @@ undo.o: undo.c.o
 
 # target to build an object file
 undo.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/undo.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/undo.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/undo.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/undo.c.o
 .PHONY : undo.c.o
 
 undo.i: undo.c.i
@@ -5083,8 +5083,8 @@ undo.i: undo.c.i
 
 # target to preprocess a source file
 undo.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/undo.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/undo.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/undo.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/undo.c.i
 .PHONY : undo.c.i
 
 undo.s: undo.c.s
@@ -5092,8 +5092,8 @@ undo.s: undo.c.s
 
 # target to generate assembly for a file
 undo.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/undo.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/undo.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/undo.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/undo.c.s
 .PHONY : undo.c.s
 
 usercmd.o: usercmd.c.o
@@ -5101,8 +5101,8 @@ usercmd.o: usercmd.c.o
 
 # target to build an object file
 usercmd.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/usercmd.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/usercmd.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/usercmd.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/usercmd.c.o
 .PHONY : usercmd.c.o
 
 usercmd.i: usercmd.c.i
@@ -5110,8 +5110,8 @@ usercmd.i: usercmd.c.i
 
 # target to preprocess a source file
 usercmd.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/usercmd.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/usercmd.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/usercmd.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/usercmd.c.i
 .PHONY : usercmd.c.i
 
 usercmd.s: usercmd.c.s
@@ -5119,8 +5119,8 @@ usercmd.s: usercmd.c.s
 
 # target to generate assembly for a file
 usercmd.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/usercmd.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/usercmd.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/usercmd.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/usercmd.c.s
 .PHONY : usercmd.c.s
 
 version.o: version.c.o
@@ -5128,8 +5128,8 @@ version.o: version.c.o
 
 # target to build an object file
 version.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/version.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/version.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/version.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/version.c.o
 .PHONY : version.c.o
 
 version.i: version.c.i
@@ -5137,8 +5137,8 @@ version.i: version.c.i
 
 # target to preprocess a source file
 version.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/version.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/version.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/version.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/version.c.i
 .PHONY : version.c.i
 
 version.s: version.c.s
@@ -5146,8 +5146,8 @@ version.s: version.c.s
 
 # target to generate assembly for a file
 version.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/version.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/version.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/version.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/version.c.s
 .PHONY : version.c.s
 
 viml/parser/expressions.o: viml/parser/expressions.c.o
@@ -5155,8 +5155,8 @@ viml/parser/expressions.o: viml/parser/expressions.c.o
 
 # target to build an object file
 viml/parser/expressions.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/viml/parser/expressions.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/viml/parser/expressions.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/viml/parser/expressions.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/viml/parser/expressions.c.o
 .PHONY : viml/parser/expressions.c.o
 
 viml/parser/expressions.i: viml/parser/expressions.c.i
@@ -5164,8 +5164,8 @@ viml/parser/expressions.i: viml/parser/expressions.c.i
 
 # target to preprocess a source file
 viml/parser/expressions.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/viml/parser/expressions.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/viml/parser/expressions.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/viml/parser/expressions.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/viml/parser/expressions.c.i
 .PHONY : viml/parser/expressions.c.i
 
 viml/parser/expressions.s: viml/parser/expressions.c.s
@@ -5173,8 +5173,8 @@ viml/parser/expressions.s: viml/parser/expressions.c.s
 
 # target to generate assembly for a file
 viml/parser/expressions.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/viml/parser/expressions.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/viml/parser/expressions.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/viml/parser/expressions.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/viml/parser/expressions.c.s
 .PHONY : viml/parser/expressions.c.s
 
 viml/parser/parser.o: viml/parser/parser.c.o
@@ -5182,8 +5182,8 @@ viml/parser/parser.o: viml/parser/parser.c.o
 
 # target to build an object file
 viml/parser/parser.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/viml/parser/parser.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/viml/parser/parser.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/viml/parser/parser.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/viml/parser/parser.c.o
 .PHONY : viml/parser/parser.c.o
 
 viml/parser/parser.i: viml/parser/parser.c.i
@@ -5191,8 +5191,8 @@ viml/parser/parser.i: viml/parser/parser.c.i
 
 # target to preprocess a source file
 viml/parser/parser.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/viml/parser/parser.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/viml/parser/parser.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/viml/parser/parser.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/viml/parser/parser.c.i
 .PHONY : viml/parser/parser.c.i
 
 viml/parser/parser.s: viml/parser/parser.c.s
@@ -5200,8 +5200,8 @@ viml/parser/parser.s: viml/parser/parser.c.s
 
 # target to generate assembly for a file
 viml/parser/parser.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/viml/parser/parser.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/viml/parser/parser.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/viml/parser/parser.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/viml/parser/parser.c.s
 .PHONY : viml/parser/parser.c.s
 
 window.o: window.c.o
@@ -5209,8 +5209,8 @@ window.o: window.c.o
 
 # target to build an object file
 window.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/window.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/window.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/window.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/window.c.o
 .PHONY : window.c.o
 
 window.i: window.c.i
@@ -5218,8 +5218,8 @@ window.i: window.c.i
 
 # target to preprocess a source file
 window.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/window.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/window.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/window.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/window.c.i
 .PHONY : window.c.i
 
 window.s: window.c.s
@@ -5227,8 +5227,8 @@ window.s: window.c.s
 
 # target to generate assembly for a file
 window.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/window.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/window.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/nvim.dir/build.make src/nvim/CMakeFiles/nvim.dir/window.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f src/nvim/CMakeFiles/libnvim.dir/build.make src/nvim/CMakeFiles/libnvim.dir/window.c.s
 .PHONY : window.c.s
 
 # Help Target
@@ -5811,7 +5811,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -P /home/nick/dl/neovim/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -P /home/nick/git/Src-Arc/neovim/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

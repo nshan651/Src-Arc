@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 # Utility rule file for clang-tidy.
 
@@ -432,1830 +432,1830 @@ src/nvim/CMakeFiles/clang-tidy: touches/clang-tidy/ran-src-nvim-viml-parser-expr
 src/nvim/CMakeFiles/clang-tidy: touches/clang-tidy/ran-src-nvim-viml-parser-parser-h
 src/nvim/CMakeFiles/clang-tidy: touches/clang-tidy/ran-src-nvim-window-h
 
-touches/clang-tidy/ran-src-nvim-api-autocmd-c: /home/nick/dl/neovim/src/nvim/api/autocmd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../touches/clang-tidy/ran-src-nvim-api-autocmd-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-autocmd-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/autocmd.c
-
-touches/clang-tidy/ran-src-nvim-api-autocmd-h: /home/nick/dl/neovim/src/nvim/api/autocmd.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../../touches/clang-tidy/ran-src-nvim-api-autocmd-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-autocmd-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/autocmd.h
-
-touches/clang-tidy/ran-src-nvim-api-buffer-c: /home/nick/dl/neovim/src/nvim/api/buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../../touches/clang-tidy/ran-src-nvim-api-buffer-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-buffer-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/buffer.c
-
-touches/clang-tidy/ran-src-nvim-api-buffer-h: /home/nick/dl/neovim/src/nvim/api/buffer.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../../touches/clang-tidy/ran-src-nvim-api-buffer-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-buffer-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/buffer.h
-
-touches/clang-tidy/ran-src-nvim-api-command-c: /home/nick/dl/neovim/src/nvim/api/command.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ../../touches/clang-tidy/ran-src-nvim-api-command-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-command-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/command.c
-
-touches/clang-tidy/ran-src-nvim-api-command-h: /home/nick/dl/neovim/src/nvim/api/command.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ../../touches/clang-tidy/ran-src-nvim-api-command-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-command-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/command.h
-
-touches/clang-tidy/ran-src-nvim-api-deprecated-c: /home/nick/dl/neovim/src/nvim/api/deprecated.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ../../touches/clang-tidy/ran-src-nvim-api-deprecated-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-deprecated-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/deprecated.c
-
-touches/clang-tidy/ran-src-nvim-api-deprecated-h: /home/nick/dl/neovim/src/nvim/api/deprecated.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ../../touches/clang-tidy/ran-src-nvim-api-deprecated-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-deprecated-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/deprecated.h
-
-touches/clang-tidy/ran-src-nvim-api-extmark-c: /home/nick/dl/neovim/src/nvim/api/extmark.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ../../touches/clang-tidy/ran-src-nvim-api-extmark-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-extmark-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/extmark.c
-
-touches/clang-tidy/ran-src-nvim-api-extmark-h: /home/nick/dl/neovim/src/nvim/api/extmark.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ../../touches/clang-tidy/ran-src-nvim-api-extmark-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-extmark-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/extmark.h
-
-touches/clang-tidy/ran-src-nvim-api-options-c: /home/nick/dl/neovim/src/nvim/api/options.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ../../touches/clang-tidy/ran-src-nvim-api-options-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-options-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/options.c
-
-touches/clang-tidy/ran-src-nvim-api-options-h: /home/nick/dl/neovim/src/nvim/api/options.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ../../touches/clang-tidy/ran-src-nvim-api-options-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-options-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/options.h
-
-touches/clang-tidy/ran-src-nvim-api-private-converter-c: /home/nick/dl/neovim/src/nvim/api/private/converter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-converter-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-converter-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/private/converter.c
-
-touches/clang-tidy/ran-src-nvim-api-private-converter-h: /home/nick/dl/neovim/src/nvim/api/private/converter.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-converter-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-converter-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/private/converter.h
-
-touches/clang-tidy/ran-src-nvim-api-private-defs-h: /home/nick/dl/neovim/src/nvim/api/private/defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/private/defs.h
-
-touches/clang-tidy/ran-src-nvim-api-private-dispatch-c: /home/nick/dl/neovim/src/nvim/api/private/dispatch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-dispatch-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-dispatch-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/private/dispatch.c
-
-touches/clang-tidy/ran-src-nvim-api-private-dispatch-h: /home/nick/dl/neovim/src/nvim/api/private/dispatch.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-dispatch-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-dispatch-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/private/dispatch.h
-
-touches/clang-tidy/ran-src-nvim-api-private-helpers-c: /home/nick/dl/neovim/src/nvim/api/private/helpers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-helpers-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-helpers-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/private/helpers.c
-
-touches/clang-tidy/ran-src-nvim-api-private-helpers-h: /home/nick/dl/neovim/src/nvim/api/private/helpers.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-helpers-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-helpers-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/private/helpers.h
-
-touches/clang-tidy/ran-src-nvim-api-private-validate-c: /home/nick/dl/neovim/src/nvim/api/private/validate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-validate-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-validate-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/private/validate.c
-
-touches/clang-tidy/ran-src-nvim-api-private-validate-h: /home/nick/dl/neovim/src/nvim/api/private/validate.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-validate-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-validate-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/private/validate.h
-
-touches/clang-tidy/ran-src-nvim-api-tabpage-c: /home/nick/dl/neovim/src/nvim/api/tabpage.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating ../../touches/clang-tidy/ran-src-nvim-api-tabpage-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-tabpage-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/tabpage.c
-
-touches/clang-tidy/ran-src-nvim-api-tabpage-h: /home/nick/dl/neovim/src/nvim/api/tabpage.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating ../../touches/clang-tidy/ran-src-nvim-api-tabpage-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-tabpage-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/tabpage.h
-
-touches/clang-tidy/ran-src-nvim-api-ui-c: /home/nick/dl/neovim/src/nvim/api/ui.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating ../../touches/clang-tidy/ran-src-nvim-api-ui-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-ui-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/ui.c
-
-touches/clang-tidy/ran-src-nvim-api-ui-h: /home/nick/dl/neovim/src/nvim/api/ui.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating ../../touches/clang-tidy/ran-src-nvim-api-ui-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-ui-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/ui.h
-
-touches/clang-tidy/ran-src-nvim-api-vim-c: /home/nick/dl/neovim/src/nvim/api/vim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating ../../touches/clang-tidy/ran-src-nvim-api-vim-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-vim-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/vim.c
-
-touches/clang-tidy/ran-src-nvim-api-vim-h: /home/nick/dl/neovim/src/nvim/api/vim.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating ../../touches/clang-tidy/ran-src-nvim-api-vim-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-vim-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/vim.h
-
-touches/clang-tidy/ran-src-nvim-api-vimscript-c: /home/nick/dl/neovim/src/nvim/api/vimscript.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating ../../touches/clang-tidy/ran-src-nvim-api-vimscript-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-vimscript-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/vimscript.c
-
-touches/clang-tidy/ran-src-nvim-api-vimscript-h: /home/nick/dl/neovim/src/nvim/api/vimscript.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating ../../touches/clang-tidy/ran-src-nvim-api-vimscript-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-vimscript-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/vimscript.h
-
-touches/clang-tidy/ran-src-nvim-api-win_config-c: /home/nick/dl/neovim/src/nvim/api/win_config.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating ../../touches/clang-tidy/ran-src-nvim-api-win_config-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-win_config-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/win_config.c
-
-touches/clang-tidy/ran-src-nvim-api-win_config-h: /home/nick/dl/neovim/src/nvim/api/win_config.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating ../../touches/clang-tidy/ran-src-nvim-api-win_config-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-win_config-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/win_config.h
-
-touches/clang-tidy/ran-src-nvim-api-window-c: /home/nick/dl/neovim/src/nvim/api/window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating ../../touches/clang-tidy/ran-src-nvim-api-window-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-window-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/window.c
-
-touches/clang-tidy/ran-src-nvim-api-window-h: /home/nick/dl/neovim/src/nvim/api/window.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating ../../touches/clang-tidy/ran-src-nvim-api-window-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-api-window-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/api/window.h
-
-touches/clang-tidy/ran-src-nvim-arabic-c: /home/nick/dl/neovim/src/nvim/arabic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating ../../touches/clang-tidy/ran-src-nvim-arabic-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-arabic-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/arabic.c
-
-touches/clang-tidy/ran-src-nvim-arabic-h: /home/nick/dl/neovim/src/nvim/arabic.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating ../../touches/clang-tidy/ran-src-nvim-arabic-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-arabic-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/arabic.h
-
-touches/clang-tidy/ran-src-nvim-arglist-c: /home/nick/dl/neovim/src/nvim/arglist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating ../../touches/clang-tidy/ran-src-nvim-arglist-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-arglist-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/arglist.c
-
-touches/clang-tidy/ran-src-nvim-arglist-h: /home/nick/dl/neovim/src/nvim/arglist.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating ../../touches/clang-tidy/ran-src-nvim-arglist-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-arglist-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/arglist.h
-
-touches/clang-tidy/ran-src-nvim-ascii-h: /home/nick/dl/neovim/src/nvim/ascii.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating ../../touches/clang-tidy/ran-src-nvim-ascii-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ascii-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ascii.h
-
-touches/clang-tidy/ran-src-nvim-assert-h: /home/nick/dl/neovim/src/nvim/assert.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating ../../touches/clang-tidy/ran-src-nvim-assert-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-assert-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/assert.h
-
-touches/clang-tidy/ran-src-nvim-autocmd-c: /home/nick/dl/neovim/src/nvim/autocmd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating ../../touches/clang-tidy/ran-src-nvim-autocmd-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-autocmd-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/autocmd.c
-
-touches/clang-tidy/ran-src-nvim-autocmd-h: /home/nick/dl/neovim/src/nvim/autocmd.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating ../../touches/clang-tidy/ran-src-nvim-autocmd-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-autocmd-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/autocmd.h
-
-touches/clang-tidy/ran-src-nvim-buffer-c: /home/nick/dl/neovim/src/nvim/buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating ../../touches/clang-tidy/ran-src-nvim-buffer-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-buffer-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/buffer.c
-
-touches/clang-tidy/ran-src-nvim-buffer-h: /home/nick/dl/neovim/src/nvim/buffer.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating ../../touches/clang-tidy/ran-src-nvim-buffer-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-buffer-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/buffer.h
-
-touches/clang-tidy/ran-src-nvim-buffer_defs-h: /home/nick/dl/neovim/src/nvim/buffer_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating ../../touches/clang-tidy/ran-src-nvim-buffer_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-buffer_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/buffer_defs.h
-
-touches/clang-tidy/ran-src-nvim-buffer_updates-c: /home/nick/dl/neovim/src/nvim/buffer_updates.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating ../../touches/clang-tidy/ran-src-nvim-buffer_updates-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-buffer_updates-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/buffer_updates.c
-
-touches/clang-tidy/ran-src-nvim-buffer_updates-h: /home/nick/dl/neovim/src/nvim/buffer_updates.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating ../../touches/clang-tidy/ran-src-nvim-buffer_updates-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-buffer_updates-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/buffer_updates.h
-
-touches/clang-tidy/ran-src-nvim-change-c: /home/nick/dl/neovim/src/nvim/change.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating ../../touches/clang-tidy/ran-src-nvim-change-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-change-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/change.c
-
-touches/clang-tidy/ran-src-nvim-change-h: /home/nick/dl/neovim/src/nvim/change.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating ../../touches/clang-tidy/ran-src-nvim-change-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-change-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/change.h
-
-touches/clang-tidy/ran-src-nvim-channel-c: /home/nick/dl/neovim/src/nvim/channel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating ../../touches/clang-tidy/ran-src-nvim-channel-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-channel-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/channel.c
-
-touches/clang-tidy/ran-src-nvim-channel-h: /home/nick/dl/neovim/src/nvim/channel.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating ../../touches/clang-tidy/ran-src-nvim-channel-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-channel-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/channel.h
-
-touches/clang-tidy/ran-src-nvim-charset-c: /home/nick/dl/neovim/src/nvim/charset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating ../../touches/clang-tidy/ran-src-nvim-charset-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-charset-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/charset.c
-
-touches/clang-tidy/ran-src-nvim-charset-h: /home/nick/dl/neovim/src/nvim/charset.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating ../../touches/clang-tidy/ran-src-nvim-charset-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-charset-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/charset.h
-
-touches/clang-tidy/ran-src-nvim-cmdexpand-c: /home/nick/dl/neovim/src/nvim/cmdexpand.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating ../../touches/clang-tidy/ran-src-nvim-cmdexpand-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-cmdexpand-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/cmdexpand.c
-
-touches/clang-tidy/ran-src-nvim-cmdexpand-h: /home/nick/dl/neovim/src/nvim/cmdexpand.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating ../../touches/clang-tidy/ran-src-nvim-cmdexpand-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-cmdexpand-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/cmdexpand.h
-
-touches/clang-tidy/ran-src-nvim-cmdhist-c: /home/nick/dl/neovim/src/nvim/cmdhist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating ../../touches/clang-tidy/ran-src-nvim-cmdhist-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-cmdhist-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/cmdhist.c
-
-touches/clang-tidy/ran-src-nvim-cmdhist-h: /home/nick/dl/neovim/src/nvim/cmdhist.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating ../../touches/clang-tidy/ran-src-nvim-cmdhist-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-cmdhist-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/cmdhist.h
-
-touches/clang-tidy/ran-src-nvim-context-c: /home/nick/dl/neovim/src/nvim/context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating ../../touches/clang-tidy/ran-src-nvim-context-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-context-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/context.c
-
-touches/clang-tidy/ran-src-nvim-context-h: /home/nick/dl/neovim/src/nvim/context.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating ../../touches/clang-tidy/ran-src-nvim-context-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-context-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/context.h
-
-touches/clang-tidy/ran-src-nvim-cursor-c: /home/nick/dl/neovim/src/nvim/cursor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating ../../touches/clang-tidy/ran-src-nvim-cursor-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-cursor-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/cursor.c
-
-touches/clang-tidy/ran-src-nvim-cursor-h: /home/nick/dl/neovim/src/nvim/cursor.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating ../../touches/clang-tidy/ran-src-nvim-cursor-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-cursor-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/cursor.h
-
-touches/clang-tidy/ran-src-nvim-cursor_shape-c: /home/nick/dl/neovim/src/nvim/cursor_shape.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating ../../touches/clang-tidy/ran-src-nvim-cursor_shape-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-cursor_shape-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/cursor_shape.c
-
-touches/clang-tidy/ran-src-nvim-cursor_shape-h: /home/nick/dl/neovim/src/nvim/cursor_shape.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating ../../touches/clang-tidy/ran-src-nvim-cursor_shape-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-cursor_shape-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/cursor_shape.h
-
-touches/clang-tidy/ran-src-nvim-debugger-c: /home/nick/dl/neovim/src/nvim/debugger.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating ../../touches/clang-tidy/ran-src-nvim-debugger-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-debugger-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/debugger.c
-
-touches/clang-tidy/ran-src-nvim-debugger-h: /home/nick/dl/neovim/src/nvim/debugger.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating ../../touches/clang-tidy/ran-src-nvim-debugger-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-debugger-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/debugger.h
-
-touches/clang-tidy/ran-src-nvim-decoration-c: /home/nick/dl/neovim/src/nvim/decoration.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating ../../touches/clang-tidy/ran-src-nvim-decoration-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-decoration-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/decoration.c
-
-touches/clang-tidy/ran-src-nvim-decoration-h: /home/nick/dl/neovim/src/nvim/decoration.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating ../../touches/clang-tidy/ran-src-nvim-decoration-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-decoration-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/decoration.h
-
-touches/clang-tidy/ran-src-nvim-decoration_provider-c: /home/nick/dl/neovim/src/nvim/decoration_provider.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating ../../touches/clang-tidy/ran-src-nvim-decoration_provider-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-decoration_provider-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/decoration_provider.c
-
-touches/clang-tidy/ran-src-nvim-decoration_provider-h: /home/nick/dl/neovim/src/nvim/decoration_provider.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating ../../touches/clang-tidy/ran-src-nvim-decoration_provider-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-decoration_provider-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/decoration_provider.h
-
-touches/clang-tidy/ran-src-nvim-diff-c: /home/nick/dl/neovim/src/nvim/diff.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating ../../touches/clang-tidy/ran-src-nvim-diff-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-diff-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/diff.c
-
-touches/clang-tidy/ran-src-nvim-diff-h: /home/nick/dl/neovim/src/nvim/diff.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating ../../touches/clang-tidy/ran-src-nvim-diff-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-diff-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/diff.h
-
-touches/clang-tidy/ran-src-nvim-digraph-c: /home/nick/dl/neovim/src/nvim/digraph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating ../../touches/clang-tidy/ran-src-nvim-digraph-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-digraph-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/digraph.c
-
-touches/clang-tidy/ran-src-nvim-digraph-h: /home/nick/dl/neovim/src/nvim/digraph.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating ../../touches/clang-tidy/ran-src-nvim-digraph-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-digraph-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/digraph.h
-
-touches/clang-tidy/ran-src-nvim-drawline-c: /home/nick/dl/neovim/src/nvim/drawline.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating ../../touches/clang-tidy/ran-src-nvim-drawline-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-drawline-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/drawline.c
-
-touches/clang-tidy/ran-src-nvim-drawline-h: /home/nick/dl/neovim/src/nvim/drawline.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Generating ../../touches/clang-tidy/ran-src-nvim-drawline-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-drawline-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/drawline.h
-
-touches/clang-tidy/ran-src-nvim-drawscreen-c: /home/nick/dl/neovim/src/nvim/drawscreen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating ../../touches/clang-tidy/ran-src-nvim-drawscreen-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-drawscreen-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/drawscreen.c
-
-touches/clang-tidy/ran-src-nvim-drawscreen-h: /home/nick/dl/neovim/src/nvim/drawscreen.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Generating ../../touches/clang-tidy/ran-src-nvim-drawscreen-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-drawscreen-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/drawscreen.h
-
-touches/clang-tidy/ran-src-nvim-edit-c: /home/nick/dl/neovim/src/nvim/edit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating ../../touches/clang-tidy/ran-src-nvim-edit-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-edit-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/edit.c
-
-touches/clang-tidy/ran-src-nvim-edit-h: /home/nick/dl/neovim/src/nvim/edit.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Generating ../../touches/clang-tidy/ran-src-nvim-edit-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-edit-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/edit.h
-
-touches/clang-tidy/ran-src-nvim-eval-buffer-c: /home/nick/dl/neovim/src/nvim/eval/buffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-buffer-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-buffer-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/buffer.c
-
-touches/clang-tidy/ran-src-nvim-eval-buffer-h: /home/nick/dl/neovim/src/nvim/eval/buffer.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-buffer-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-buffer-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/buffer.h
-
-touches/clang-tidy/ran-src-nvim-eval-c: /home/nick/dl/neovim/src/nvim/eval.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval.c
-
-touches/clang-tidy/ran-src-nvim-eval-decode-c: /home/nick/dl/neovim/src/nvim/eval/decode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-decode-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-decode-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/decode.c
-
-touches/clang-tidy/ran-src-nvim-eval-decode-h: /home/nick/dl/neovim/src/nvim/eval/decode.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-decode-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-decode-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/decode.h
-
-touches/clang-tidy/ran-src-nvim-eval-encode-c: /home/nick/dl/neovim/src/nvim/eval/encode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-encode-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-encode-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/encode.c
-
-touches/clang-tidy/ran-src-nvim-eval-encode-h: /home/nick/dl/neovim/src/nvim/eval/encode.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-encode-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-encode-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/encode.h
-
-touches/clang-tidy/ran-src-nvim-eval-executor-c: /home/nick/dl/neovim/src/nvim/eval/executor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-executor-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-executor-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/executor.c
-
-touches/clang-tidy/ran-src-nvim-eval-executor-h: /home/nick/dl/neovim/src/nvim/eval/executor.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-executor-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-executor-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/executor.h
-
-touches/clang-tidy/ran-src-nvim-eval-funcs-c: /home/nick/dl/neovim/src/nvim/eval/funcs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-funcs-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-funcs-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/funcs.c
-
-touches/clang-tidy/ran-src-nvim-eval-funcs-h: /home/nick/dl/neovim/src/nvim/eval/funcs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-funcs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-funcs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/funcs.h
-
-touches/clang-tidy/ran-src-nvim-eval-gc-c: /home/nick/dl/neovim/src/nvim/eval/gc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-gc-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-gc-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/gc.c
-
-touches/clang-tidy/ran-src-nvim-eval-gc-h: /home/nick/dl/neovim/src/nvim/eval/gc.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-gc-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-gc-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/gc.h
-
-touches/clang-tidy/ran-src-nvim-eval-h: /home/nick/dl/neovim/src/nvim/eval.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval.h
-
-touches/clang-tidy/ran-src-nvim-eval-typval-c: /home/nick/dl/neovim/src/nvim/eval/typval.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-typval-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-typval-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/typval.c
-
-touches/clang-tidy/ran-src-nvim-eval-typval-h: /home/nick/dl/neovim/src/nvim/eval/typval.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-typval-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-typval-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/typval.h
-
-touches/clang-tidy/ran-src-nvim-eval-typval_defs-h: /home/nick/dl/neovim/src/nvim/eval/typval_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-typval_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-typval_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/typval_defs.h
-
-touches/clang-tidy/ran-src-nvim-eval-typval_encode-h: /home/nick/dl/neovim/src/nvim/eval/typval_encode.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-typval_encode-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-typval_encode-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/typval_encode.h
-
-touches/clang-tidy/ran-src-nvim-eval-userfunc-c: /home/nick/dl/neovim/src/nvim/eval/userfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-userfunc-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-userfunc-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/userfunc.c
-
-touches/clang-tidy/ran-src-nvim-eval-userfunc-h: /home/nick/dl/neovim/src/nvim/eval/userfunc.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-userfunc-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-userfunc-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/userfunc.h
-
-touches/clang-tidy/ran-src-nvim-eval-vars-c: /home/nick/dl/neovim/src/nvim/eval/vars.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-vars-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-vars-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/vars.c
-
-touches/clang-tidy/ran-src-nvim-eval-vars-h: /home/nick/dl/neovim/src/nvim/eval/vars.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-vars-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-vars-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/vars.h
-
-touches/clang-tidy/ran-src-nvim-eval-window-c: /home/nick/dl/neovim/src/nvim/eval/window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-window-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-window-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/window.c
-
-touches/clang-tidy/ran-src-nvim-eval-window-h: /home/nick/dl/neovim/src/nvim/eval/window.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-window-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-eval-window-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/eval/window.h
-
-touches/clang-tidy/ran-src-nvim-event-defs-h: /home/nick/dl/neovim/src/nvim/event/defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Generating ../../touches/clang-tidy/ran-src-nvim-event-defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/defs.h
-
-touches/clang-tidy/ran-src-nvim-event-libuv_process-c: /home/nick/dl/neovim/src/nvim/event/libuv_process.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Generating ../../touches/clang-tidy/ran-src-nvim-event-libuv_process-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-libuv_process-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/libuv_process.c
-
-touches/clang-tidy/ran-src-nvim-event-libuv_process-h: /home/nick/dl/neovim/src/nvim/event/libuv_process.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Generating ../../touches/clang-tidy/ran-src-nvim-event-libuv_process-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-libuv_process-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/libuv_process.h
-
-touches/clang-tidy/ran-src-nvim-event-loop-c: /home/nick/dl/neovim/src/nvim/event/loop.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Generating ../../touches/clang-tidy/ran-src-nvim-event-loop-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-loop-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/loop.c
-
-touches/clang-tidy/ran-src-nvim-event-loop-h: /home/nick/dl/neovim/src/nvim/event/loop.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Generating ../../touches/clang-tidy/ran-src-nvim-event-loop-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-loop-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/loop.h
-
-touches/clang-tidy/ran-src-nvim-event-multiqueue-c: /home/nick/dl/neovim/src/nvim/event/multiqueue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Generating ../../touches/clang-tidy/ran-src-nvim-event-multiqueue-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-multiqueue-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/multiqueue.c
-
-touches/clang-tidy/ran-src-nvim-event-multiqueue-h: /home/nick/dl/neovim/src/nvim/event/multiqueue.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Generating ../../touches/clang-tidy/ran-src-nvim-event-multiqueue-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-multiqueue-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/multiqueue.h
-
-touches/clang-tidy/ran-src-nvim-event-process-c: /home/nick/dl/neovim/src/nvim/event/process.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Generating ../../touches/clang-tidy/ran-src-nvim-event-process-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-process-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/process.c
-
-touches/clang-tidy/ran-src-nvim-event-process-h: /home/nick/dl/neovim/src/nvim/event/process.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Generating ../../touches/clang-tidy/ran-src-nvim-event-process-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-process-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/process.h
-
-touches/clang-tidy/ran-src-nvim-event-rstream-c: /home/nick/dl/neovim/src/nvim/event/rstream.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Generating ../../touches/clang-tidy/ran-src-nvim-event-rstream-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-rstream-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/rstream.c
-
-touches/clang-tidy/ran-src-nvim-event-rstream-h: /home/nick/dl/neovim/src/nvim/event/rstream.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Generating ../../touches/clang-tidy/ran-src-nvim-event-rstream-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-rstream-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/rstream.h
-
-touches/clang-tidy/ran-src-nvim-event-signal-c: /home/nick/dl/neovim/src/nvim/event/signal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Generating ../../touches/clang-tidy/ran-src-nvim-event-signal-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-signal-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/signal.c
-
-touches/clang-tidy/ran-src-nvim-event-signal-h: /home/nick/dl/neovim/src/nvim/event/signal.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Generating ../../touches/clang-tidy/ran-src-nvim-event-signal-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-signal-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/signal.h
-
-touches/clang-tidy/ran-src-nvim-event-socket-c: /home/nick/dl/neovim/src/nvim/event/socket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Generating ../../touches/clang-tidy/ran-src-nvim-event-socket-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-socket-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/socket.c
-
-touches/clang-tidy/ran-src-nvim-event-socket-h: /home/nick/dl/neovim/src/nvim/event/socket.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Generating ../../touches/clang-tidy/ran-src-nvim-event-socket-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-socket-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/socket.h
-
-touches/clang-tidy/ran-src-nvim-event-stream-c: /home/nick/dl/neovim/src/nvim/event/stream.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Generating ../../touches/clang-tidy/ran-src-nvim-event-stream-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-stream-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/stream.c
-
-touches/clang-tidy/ran-src-nvim-event-stream-h: /home/nick/dl/neovim/src/nvim/event/stream.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Generating ../../touches/clang-tidy/ran-src-nvim-event-stream-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-stream-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/stream.h
-
-touches/clang-tidy/ran-src-nvim-event-time-c: /home/nick/dl/neovim/src/nvim/event/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Generating ../../touches/clang-tidy/ran-src-nvim-event-time-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-time-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/time.c
-
-touches/clang-tidy/ran-src-nvim-event-time-h: /home/nick/dl/neovim/src/nvim/event/time.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Generating ../../touches/clang-tidy/ran-src-nvim-event-time-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-time-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/time.h
-
-touches/clang-tidy/ran-src-nvim-event-wstream-c: /home/nick/dl/neovim/src/nvim/event/wstream.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Generating ../../touches/clang-tidy/ran-src-nvim-event-wstream-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-wstream-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/wstream.c
-
-touches/clang-tidy/ran-src-nvim-event-wstream-h: /home/nick/dl/neovim/src/nvim/event/wstream.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Generating ../../touches/clang-tidy/ran-src-nvim-event-wstream-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-event-wstream-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/event/wstream.h
-
-touches/clang-tidy/ran-src-nvim-ex_cmds-c: /home/nick/dl/neovim/src/nvim/ex_cmds.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_cmds-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ex_cmds-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ex_cmds.c
-
-touches/clang-tidy/ran-src-nvim-ex_cmds-h: /home/nick/dl/neovim/src/nvim/ex_cmds.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_cmds-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ex_cmds-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ex_cmds.h
-
-touches/clang-tidy/ran-src-nvim-ex_cmds2-c: /home/nick/dl/neovim/src/nvim/ex_cmds2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_cmds2-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ex_cmds2-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ex_cmds2.c
-
-touches/clang-tidy/ran-src-nvim-ex_cmds2-h: /home/nick/dl/neovim/src/nvim/ex_cmds2.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_cmds2-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ex_cmds2-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ex_cmds2.h
-
-touches/clang-tidy/ran-src-nvim-ex_cmds_defs-h: /home/nick/dl/neovim/src/nvim/ex_cmds_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_cmds_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ex_cmds_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ex_cmds_defs.h
-
-touches/clang-tidy/ran-src-nvim-ex_docmd-c: /home/nick/dl/neovim/src/nvim/ex_docmd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_docmd-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ex_docmd-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ex_docmd.c
-
-touches/clang-tidy/ran-src-nvim-ex_docmd-h: /home/nick/dl/neovim/src/nvim/ex_docmd.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_docmd-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ex_docmd-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ex_docmd.h
-
-touches/clang-tidy/ran-src-nvim-ex_eval-c: /home/nick/dl/neovim/src/nvim/ex_eval.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_eval-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ex_eval-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ex_eval.c
-
-touches/clang-tidy/ran-src-nvim-ex_eval-h: /home/nick/dl/neovim/src/nvim/ex_eval.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_eval-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ex_eval-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ex_eval.h
-
-touches/clang-tidy/ran-src-nvim-ex_eval_defs-h: /home/nick/dl/neovim/src/nvim/ex_eval_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_eval_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ex_eval_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ex_eval_defs.h
-
-touches/clang-tidy/ran-src-nvim-ex_getln-c: /home/nick/dl/neovim/src/nvim/ex_getln.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_getln-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ex_getln-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ex_getln.c
-
-touches/clang-tidy/ran-src-nvim-ex_getln-h: /home/nick/dl/neovim/src/nvim/ex_getln.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_getln-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ex_getln-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ex_getln.h
-
-touches/clang-tidy/ran-src-nvim-ex_session-c: /home/nick/dl/neovim/src/nvim/ex_session.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_session-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ex_session-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ex_session.c
-
-touches/clang-tidy/ran-src-nvim-ex_session-h: /home/nick/dl/neovim/src/nvim/ex_session.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_session-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ex_session-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ex_session.h
-
-touches/clang-tidy/ran-src-nvim-extmark-c: /home/nick/dl/neovim/src/nvim/extmark.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Generating ../../touches/clang-tidy/ran-src-nvim-extmark-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-extmark-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/extmark.c
-
-touches/clang-tidy/ran-src-nvim-extmark-h: /home/nick/dl/neovim/src/nvim/extmark.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Generating ../../touches/clang-tidy/ran-src-nvim-extmark-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-extmark-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/extmark.h
-
-touches/clang-tidy/ran-src-nvim-extmark_defs-h: /home/nick/dl/neovim/src/nvim/extmark_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Generating ../../touches/clang-tidy/ran-src-nvim-extmark_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-extmark_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/extmark_defs.h
-
-touches/clang-tidy/ran-src-nvim-file_search-c: /home/nick/dl/neovim/src/nvim/file_search.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Generating ../../touches/clang-tidy/ran-src-nvim-file_search-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-file_search-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/file_search.c
-
-touches/clang-tidy/ran-src-nvim-file_search-h: /home/nick/dl/neovim/src/nvim/file_search.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Generating ../../touches/clang-tidy/ran-src-nvim-file_search-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-file_search-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/file_search.h
-
-touches/clang-tidy/ran-src-nvim-fileio-c: /home/nick/dl/neovim/src/nvim/fileio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Generating ../../touches/clang-tidy/ran-src-nvim-fileio-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-fileio-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/fileio.c
-
-touches/clang-tidy/ran-src-nvim-fileio-h: /home/nick/dl/neovim/src/nvim/fileio.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Generating ../../touches/clang-tidy/ran-src-nvim-fileio-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-fileio-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/fileio.h
-
-touches/clang-tidy/ran-src-nvim-fold-c: /home/nick/dl/neovim/src/nvim/fold.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Generating ../../touches/clang-tidy/ran-src-nvim-fold-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-fold-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/fold.c
-
-touches/clang-tidy/ran-src-nvim-fold-h: /home/nick/dl/neovim/src/nvim/fold.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Generating ../../touches/clang-tidy/ran-src-nvim-fold-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-fold-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/fold.h
-
-touches/clang-tidy/ran-src-nvim-fold_defs-h: /home/nick/dl/neovim/src/nvim/fold_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Generating ../../touches/clang-tidy/ran-src-nvim-fold_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-fold_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/fold_defs.h
-
-touches/clang-tidy/ran-src-nvim-func_attr-h: /home/nick/dl/neovim/src/nvim/func_attr.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Generating ../../touches/clang-tidy/ran-src-nvim-func_attr-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-func_attr-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/func_attr.h
-
-touches/clang-tidy/ran-src-nvim-garray-c: /home/nick/dl/neovim/src/nvim/garray.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Generating ../../touches/clang-tidy/ran-src-nvim-garray-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-garray-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/garray.c
-
-touches/clang-tidy/ran-src-nvim-garray-h: /home/nick/dl/neovim/src/nvim/garray.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Generating ../../touches/clang-tidy/ran-src-nvim-garray-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-garray-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/garray.h
-
-touches/clang-tidy/ran-src-nvim-getchar-c: /home/nick/dl/neovim/src/nvim/getchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Generating ../../touches/clang-tidy/ran-src-nvim-getchar-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-getchar-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/getchar.c
-
-touches/clang-tidy/ran-src-nvim-getchar-h: /home/nick/dl/neovim/src/nvim/getchar.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Generating ../../touches/clang-tidy/ran-src-nvim-getchar-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-getchar-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/getchar.h
-
-touches/clang-tidy/ran-src-nvim-gettext-h: /home/nick/dl/neovim/src/nvim/gettext.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Generating ../../touches/clang-tidy/ran-src-nvim-gettext-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-gettext-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/gettext.h
-
-touches/clang-tidy/ran-src-nvim-globals-h: /home/nick/dl/neovim/src/nvim/globals.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Generating ../../touches/clang-tidy/ran-src-nvim-globals-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-globals-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/globals.h
-
-touches/clang-tidy/ran-src-nvim-grid-c: /home/nick/dl/neovim/src/nvim/grid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Generating ../../touches/clang-tidy/ran-src-nvim-grid-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-grid-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/grid.c
-
-touches/clang-tidy/ran-src-nvim-grid-h: /home/nick/dl/neovim/src/nvim/grid.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Generating ../../touches/clang-tidy/ran-src-nvim-grid-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-grid-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/grid.h
-
-touches/clang-tidy/ran-src-nvim-grid_defs-h: /home/nick/dl/neovim/src/nvim/grid_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Generating ../../touches/clang-tidy/ran-src-nvim-grid_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-grid_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/grid_defs.h
-
-touches/clang-tidy/ran-src-nvim-hashtab-c: /home/nick/dl/neovim/src/nvim/hashtab.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Generating ../../touches/clang-tidy/ran-src-nvim-hashtab-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-hashtab-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/hashtab.c
-
-touches/clang-tidy/ran-src-nvim-hashtab-h: /home/nick/dl/neovim/src/nvim/hashtab.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Generating ../../touches/clang-tidy/ran-src-nvim-hashtab-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-hashtab-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/hashtab.h
-
-touches/clang-tidy/ran-src-nvim-help-c: /home/nick/dl/neovim/src/nvim/help.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Generating ../../touches/clang-tidy/ran-src-nvim-help-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-help-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/help.c
-
-touches/clang-tidy/ran-src-nvim-help-h: /home/nick/dl/neovim/src/nvim/help.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Generating ../../touches/clang-tidy/ran-src-nvim-help-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-help-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/help.h
-
-touches/clang-tidy/ran-src-nvim-highlight-c: /home/nick/dl/neovim/src/nvim/highlight.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Generating ../../touches/clang-tidy/ran-src-nvim-highlight-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-highlight-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/highlight.c
-
-touches/clang-tidy/ran-src-nvim-highlight-h: /home/nick/dl/neovim/src/nvim/highlight.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Generating ../../touches/clang-tidy/ran-src-nvim-highlight-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-highlight-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/highlight.h
-
-touches/clang-tidy/ran-src-nvim-highlight_defs-h: /home/nick/dl/neovim/src/nvim/highlight_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Generating ../../touches/clang-tidy/ran-src-nvim-highlight_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-highlight_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/highlight_defs.h
-
-touches/clang-tidy/ran-src-nvim-highlight_group-c: /home/nick/dl/neovim/src/nvim/highlight_group.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Generating ../../touches/clang-tidy/ran-src-nvim-highlight_group-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-highlight_group-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/highlight_group.c
-
-touches/clang-tidy/ran-src-nvim-highlight_group-h: /home/nick/dl/neovim/src/nvim/highlight_group.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Generating ../../touches/clang-tidy/ran-src-nvim-highlight_group-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-highlight_group-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/highlight_group.h
-
-touches/clang-tidy/ran-src-nvim-iconv-h: /home/nick/dl/neovim/src/nvim/iconv.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Generating ../../touches/clang-tidy/ran-src-nvim-iconv-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-iconv-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/iconv.h
-
-touches/clang-tidy/ran-src-nvim-indent-c: /home/nick/dl/neovim/src/nvim/indent.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Generating ../../touches/clang-tidy/ran-src-nvim-indent-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-indent-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/indent.c
-
-touches/clang-tidy/ran-src-nvim-indent-h: /home/nick/dl/neovim/src/nvim/indent.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Generating ../../touches/clang-tidy/ran-src-nvim-indent-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-indent-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/indent.h
-
-touches/clang-tidy/ran-src-nvim-indent_c-c: /home/nick/dl/neovim/src/nvim/indent_c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Generating ../../touches/clang-tidy/ran-src-nvim-indent_c-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-indent_c-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/indent_c.c
-
-touches/clang-tidy/ran-src-nvim-indent_c-h: /home/nick/dl/neovim/src/nvim/indent_c.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Generating ../../touches/clang-tidy/ran-src-nvim-indent_c-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-indent_c-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/indent_c.h
-
-touches/clang-tidy/ran-src-nvim-input-c: /home/nick/dl/neovim/src/nvim/input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Generating ../../touches/clang-tidy/ran-src-nvim-input-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-input-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/input.c
-
-touches/clang-tidy/ran-src-nvim-input-h: /home/nick/dl/neovim/src/nvim/input.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Generating ../../touches/clang-tidy/ran-src-nvim-input-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-input-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/input.h
-
-touches/clang-tidy/ran-src-nvim-insexpand-c: /home/nick/dl/neovim/src/nvim/insexpand.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Generating ../../touches/clang-tidy/ran-src-nvim-insexpand-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-insexpand-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/insexpand.c
-
-touches/clang-tidy/ran-src-nvim-insexpand-h: /home/nick/dl/neovim/src/nvim/insexpand.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Generating ../../touches/clang-tidy/ran-src-nvim-insexpand-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-insexpand-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/insexpand.h
-
-touches/clang-tidy/ran-src-nvim-keycodes-c: /home/nick/dl/neovim/src/nvim/keycodes.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Generating ../../touches/clang-tidy/ran-src-nvim-keycodes-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-keycodes-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/keycodes.c
-
-touches/clang-tidy/ran-src-nvim-keycodes-h: /home/nick/dl/neovim/src/nvim/keycodes.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Generating ../../touches/clang-tidy/ran-src-nvim-keycodes-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-keycodes-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/keycodes.h
-
-touches/clang-tidy/ran-src-nvim-linematch-c: /home/nick/dl/neovim/src/nvim/linematch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Generating ../../touches/clang-tidy/ran-src-nvim-linematch-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-linematch-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/linematch.c
-
-touches/clang-tidy/ran-src-nvim-linematch-h: /home/nick/dl/neovim/src/nvim/linematch.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Generating ../../touches/clang-tidy/ran-src-nvim-linematch-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-linematch-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/linematch.h
-
-touches/clang-tidy/ran-src-nvim-log-c: /home/nick/dl/neovim/src/nvim/log.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Generating ../../touches/clang-tidy/ran-src-nvim-log-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-log-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/log.c
-
-touches/clang-tidy/ran-src-nvim-log-h: /home/nick/dl/neovim/src/nvim/log.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Generating ../../touches/clang-tidy/ran-src-nvim-log-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-log-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/log.h
-
-touches/clang-tidy/ran-src-nvim-lua-converter-c: /home/nick/dl/neovim/src/nvim/lua/converter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-converter-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-lua-converter-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/lua/converter.c
-
-touches/clang-tidy/ran-src-nvim-lua-converter-h: /home/nick/dl/neovim/src/nvim/lua/converter.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-converter-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-lua-converter-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/lua/converter.h
-
-touches/clang-tidy/ran-src-nvim-lua-executor-c: /home/nick/dl/neovim/src/nvim/lua/executor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-executor-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-lua-executor-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/lua/executor.c
-
-touches/clang-tidy/ran-src-nvim-lua-executor-h: /home/nick/dl/neovim/src/nvim/lua/executor.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-executor-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-lua-executor-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/lua/executor.h
-
-touches/clang-tidy/ran-src-nvim-lua-spell-c: /home/nick/dl/neovim/src/nvim/lua/spell.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-spell-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-lua-spell-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/lua/spell.c
-
-touches/clang-tidy/ran-src-nvim-lua-spell-h: /home/nick/dl/neovim/src/nvim/lua/spell.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-spell-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-lua-spell-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/lua/spell.h
-
-touches/clang-tidy/ran-src-nvim-lua-stdlib-c: /home/nick/dl/neovim/src/nvim/lua/stdlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-stdlib-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-lua-stdlib-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/lua/stdlib.c
-
-touches/clang-tidy/ran-src-nvim-lua-stdlib-h: /home/nick/dl/neovim/src/nvim/lua/stdlib.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-stdlib-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-lua-stdlib-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/lua/stdlib.h
-
-touches/clang-tidy/ran-src-nvim-lua-treesitter-c: /home/nick/dl/neovim/src/nvim/lua/treesitter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-treesitter-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-lua-treesitter-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/lua/treesitter.c
-
-touches/clang-tidy/ran-src-nvim-lua-treesitter-h: /home/nick/dl/neovim/src/nvim/lua/treesitter.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-treesitter-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-lua-treesitter-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/lua/treesitter.h
-
-touches/clang-tidy/ran-src-nvim-lua-xdiff-c: /home/nick/dl/neovim/src/nvim/lua/xdiff.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-xdiff-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-lua-xdiff-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/lua/xdiff.c
-
-touches/clang-tidy/ran-src-nvim-lua-xdiff-h: /home/nick/dl/neovim/src/nvim/lua/xdiff.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-xdiff-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-lua-xdiff-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/lua/xdiff.h
-
-touches/clang-tidy/ran-src-nvim-macros-h: /home/nick/dl/neovim/src/nvim/macros.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Generating ../../touches/clang-tidy/ran-src-nvim-macros-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-macros-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/macros.h
-
-touches/clang-tidy/ran-src-nvim-main-c: /home/nick/dl/neovim/src/nvim/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Generating ../../touches/clang-tidy/ran-src-nvim-main-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-main-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/main.c
-
-touches/clang-tidy/ran-src-nvim-main-h: /home/nick/dl/neovim/src/nvim/main.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Generating ../../touches/clang-tidy/ran-src-nvim-main-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-main-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/main.h
-
-touches/clang-tidy/ran-src-nvim-map-c: /home/nick/dl/neovim/src/nvim/map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Generating ../../touches/clang-tidy/ran-src-nvim-map-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-map-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/map.c
-
-touches/clang-tidy/ran-src-nvim-map-h: /home/nick/dl/neovim/src/nvim/map.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Generating ../../touches/clang-tidy/ran-src-nvim-map-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-map-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/map.h
-
-touches/clang-tidy/ran-src-nvim-map_defs-h: /home/nick/dl/neovim/src/nvim/map_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Generating ../../touches/clang-tidy/ran-src-nvim-map_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-map_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/map_defs.h
-
-touches/clang-tidy/ran-src-nvim-mapping-c: /home/nick/dl/neovim/src/nvim/mapping.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Generating ../../touches/clang-tidy/ran-src-nvim-mapping-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-mapping-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/mapping.c
-
-touches/clang-tidy/ran-src-nvim-mapping-h: /home/nick/dl/neovim/src/nvim/mapping.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Generating ../../touches/clang-tidy/ran-src-nvim-mapping-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-mapping-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/mapping.h
-
-touches/clang-tidy/ran-src-nvim-mark-c: /home/nick/dl/neovim/src/nvim/mark.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Generating ../../touches/clang-tidy/ran-src-nvim-mark-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-mark-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/mark.c
-
-touches/clang-tidy/ran-src-nvim-mark-h: /home/nick/dl/neovim/src/nvim/mark.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Generating ../../touches/clang-tidy/ran-src-nvim-mark-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-mark-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/mark.h
-
-touches/clang-tidy/ran-src-nvim-mark_defs-h: /home/nick/dl/neovim/src/nvim/mark_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Generating ../../touches/clang-tidy/ran-src-nvim-mark_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-mark_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/mark_defs.h
-
-touches/clang-tidy/ran-src-nvim-marktree-c: /home/nick/dl/neovim/src/nvim/marktree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Generating ../../touches/clang-tidy/ran-src-nvim-marktree-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-marktree-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/marktree.c
-
-touches/clang-tidy/ran-src-nvim-marktree-h: /home/nick/dl/neovim/src/nvim/marktree.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Generating ../../touches/clang-tidy/ran-src-nvim-marktree-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-marktree-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/marktree.h
-
-touches/clang-tidy/ran-src-nvim-match-c: /home/nick/dl/neovim/src/nvim/match.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Generating ../../touches/clang-tidy/ran-src-nvim-match-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-match-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/match.c
-
-touches/clang-tidy/ran-src-nvim-match-h: /home/nick/dl/neovim/src/nvim/match.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Generating ../../touches/clang-tidy/ran-src-nvim-match-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-match-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/match.h
-
-touches/clang-tidy/ran-src-nvim-math-c: /home/nick/dl/neovim/src/nvim/math.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Generating ../../touches/clang-tidy/ran-src-nvim-math-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-math-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/math.c
-
-touches/clang-tidy/ran-src-nvim-math-h: /home/nick/dl/neovim/src/nvim/math.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Generating ../../touches/clang-tidy/ran-src-nvim-math-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-math-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/math.h
-
-touches/clang-tidy/ran-src-nvim-mbyte-c: /home/nick/dl/neovim/src/nvim/mbyte.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Generating ../../touches/clang-tidy/ran-src-nvim-mbyte-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-mbyte-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/mbyte.c
-
-touches/clang-tidy/ran-src-nvim-mbyte-h: /home/nick/dl/neovim/src/nvim/mbyte.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Generating ../../touches/clang-tidy/ran-src-nvim-mbyte-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-mbyte-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/mbyte.h
-
-touches/clang-tidy/ran-src-nvim-mbyte_defs-h: /home/nick/dl/neovim/src/nvim/mbyte_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Generating ../../touches/clang-tidy/ran-src-nvim-mbyte_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-mbyte_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/mbyte_defs.h
-
-touches/clang-tidy/ran-src-nvim-memfile-c: /home/nick/dl/neovim/src/nvim/memfile.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Generating ../../touches/clang-tidy/ran-src-nvim-memfile-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-memfile-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/memfile.c
-
-touches/clang-tidy/ran-src-nvim-memfile-h: /home/nick/dl/neovim/src/nvim/memfile.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Generating ../../touches/clang-tidy/ran-src-nvim-memfile-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-memfile-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/memfile.h
-
-touches/clang-tidy/ran-src-nvim-memfile_defs-h: /home/nick/dl/neovim/src/nvim/memfile_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Generating ../../touches/clang-tidy/ran-src-nvim-memfile_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-memfile_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/memfile_defs.h
-
-touches/clang-tidy/ran-src-nvim-memline-c: /home/nick/dl/neovim/src/nvim/memline.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Generating ../../touches/clang-tidy/ran-src-nvim-memline-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-memline-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/memline.c
-
-touches/clang-tidy/ran-src-nvim-memline-h: /home/nick/dl/neovim/src/nvim/memline.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Generating ../../touches/clang-tidy/ran-src-nvim-memline-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-memline-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/memline.h
-
-touches/clang-tidy/ran-src-nvim-memline_defs-h: /home/nick/dl/neovim/src/nvim/memline_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Generating ../../touches/clang-tidy/ran-src-nvim-memline_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-memline_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/memline_defs.h
-
-touches/clang-tidy/ran-src-nvim-memory-c: /home/nick/dl/neovim/src/nvim/memory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Generating ../../touches/clang-tidy/ran-src-nvim-memory-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-memory-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/memory.c
-
-touches/clang-tidy/ran-src-nvim-memory-h: /home/nick/dl/neovim/src/nvim/memory.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Generating ../../touches/clang-tidy/ran-src-nvim-memory-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-memory-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/memory.h
-
-touches/clang-tidy/ran-src-nvim-menu-c: /home/nick/dl/neovim/src/nvim/menu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Generating ../../touches/clang-tidy/ran-src-nvim-menu-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-menu-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/menu.c
-
-touches/clang-tidy/ran-src-nvim-menu-h: /home/nick/dl/neovim/src/nvim/menu.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Generating ../../touches/clang-tidy/ran-src-nvim-menu-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-menu-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/menu.h
-
-touches/clang-tidy/ran-src-nvim-menu_defs-h: /home/nick/dl/neovim/src/nvim/menu_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Generating ../../touches/clang-tidy/ran-src-nvim-menu_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-menu_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/menu_defs.h
-
-touches/clang-tidy/ran-src-nvim-message-c: /home/nick/dl/neovim/src/nvim/message.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Generating ../../touches/clang-tidy/ran-src-nvim-message-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-message-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/message.c
-
-touches/clang-tidy/ran-src-nvim-message-h: /home/nick/dl/neovim/src/nvim/message.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Generating ../../touches/clang-tidy/ran-src-nvim-message-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-message-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/message.h
-
-touches/clang-tidy/ran-src-nvim-mouse-c: /home/nick/dl/neovim/src/nvim/mouse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Generating ../../touches/clang-tidy/ran-src-nvim-mouse-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-mouse-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/mouse.c
-
-touches/clang-tidy/ran-src-nvim-mouse-h: /home/nick/dl/neovim/src/nvim/mouse.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Generating ../../touches/clang-tidy/ran-src-nvim-mouse-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-mouse-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/mouse.h
-
-touches/clang-tidy/ran-src-nvim-move-c: /home/nick/dl/neovim/src/nvim/move.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Generating ../../touches/clang-tidy/ran-src-nvim-move-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-move-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/move.c
-
-touches/clang-tidy/ran-src-nvim-move-h: /home/nick/dl/neovim/src/nvim/move.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Generating ../../touches/clang-tidy/ran-src-nvim-move-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-move-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/move.h
-
-touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel-c: /home/nick/dl/neovim/src/nvim/msgpack_rpc/channel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/msgpack_rpc/channel.c
-
-touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel-h: /home/nick/dl/neovim/src/nvim/msgpack_rpc/channel.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/msgpack_rpc/channel.h
-
-touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel_defs-h: /home/nick/dl/neovim/src/nvim/msgpack_rpc/channel_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/msgpack_rpc/channel_defs.h
-
-touches/clang-tidy/ran-src-nvim-msgpack_rpc-helpers-c: /home/nick/dl/neovim/src/nvim/msgpack_rpc/helpers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-helpers-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-helpers-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/msgpack_rpc/helpers.c
-
-touches/clang-tidy/ran-src-nvim-msgpack_rpc-helpers-h: /home/nick/dl/neovim/src/nvim/msgpack_rpc/helpers.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-helpers-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-helpers-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/msgpack_rpc/helpers.h
-
-touches/clang-tidy/ran-src-nvim-msgpack_rpc-server-c: /home/nick/dl/neovim/src/nvim/msgpack_rpc/server.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-server-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-server-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/msgpack_rpc/server.c
-
-touches/clang-tidy/ran-src-nvim-msgpack_rpc-server-h: /home/nick/dl/neovim/src/nvim/msgpack_rpc/server.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-server-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-server-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/msgpack_rpc/server.h
-
-touches/clang-tidy/ran-src-nvim-msgpack_rpc-unpacker-c: /home/nick/dl/neovim/src/nvim/msgpack_rpc/unpacker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-unpacker-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-unpacker-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/msgpack_rpc/unpacker.c
-
-touches/clang-tidy/ran-src-nvim-msgpack_rpc-unpacker-h: /home/nick/dl/neovim/src/nvim/msgpack_rpc/unpacker.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-unpacker-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-unpacker-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/msgpack_rpc/unpacker.h
-
-touches/clang-tidy/ran-src-nvim-normal-c: /home/nick/dl/neovim/src/nvim/normal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Generating ../../touches/clang-tidy/ran-src-nvim-normal-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-normal-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/normal.c
-
-touches/clang-tidy/ran-src-nvim-normal-h: /home/nick/dl/neovim/src/nvim/normal.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Generating ../../touches/clang-tidy/ran-src-nvim-normal-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-normal-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/normal.h
-
-touches/clang-tidy/ran-src-nvim-ops-c: /home/nick/dl/neovim/src/nvim/ops.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Generating ../../touches/clang-tidy/ran-src-nvim-ops-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ops-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ops.c
-
-touches/clang-tidy/ran-src-nvim-ops-h: /home/nick/dl/neovim/src/nvim/ops.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Generating ../../touches/clang-tidy/ran-src-nvim-ops-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ops-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ops.h
-
-touches/clang-tidy/ran-src-nvim-option-c: /home/nick/dl/neovim/src/nvim/option.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Generating ../../touches/clang-tidy/ran-src-nvim-option-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-option-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/option.c
-
-touches/clang-tidy/ran-src-nvim-option-h: /home/nick/dl/neovim/src/nvim/option.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Generating ../../touches/clang-tidy/ran-src-nvim-option-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-option-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/option.h
-
-touches/clang-tidy/ran-src-nvim-option_defs-h: /home/nick/dl/neovim/src/nvim/option_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Generating ../../touches/clang-tidy/ran-src-nvim-option_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-option_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/option_defs.h
-
-touches/clang-tidy/ran-src-nvim-optionstr-c: /home/nick/dl/neovim/src/nvim/optionstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Generating ../../touches/clang-tidy/ran-src-nvim-optionstr-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-optionstr-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/optionstr.c
-
-touches/clang-tidy/ran-src-nvim-optionstr-h: /home/nick/dl/neovim/src/nvim/optionstr.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Generating ../../touches/clang-tidy/ran-src-nvim-optionstr-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-optionstr-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/optionstr.h
-
-touches/clang-tidy/ran-src-nvim-os-dl-c: /home/nick/dl/neovim/src/nvim/os/dl.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Generating ../../touches/clang-tidy/ran-src-nvim-os-dl-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-dl-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/dl.c
-
-touches/clang-tidy/ran-src-nvim-os-dl-h: /home/nick/dl/neovim/src/nvim/os/dl.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Generating ../../touches/clang-tidy/ran-src-nvim-os-dl-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-dl-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/dl.h
-
-touches/clang-tidy/ran-src-nvim-os-env-c: /home/nick/dl/neovim/src/nvim/os/env.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Generating ../../touches/clang-tidy/ran-src-nvim-os-env-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-env-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/env.c
-
-touches/clang-tidy/ran-src-nvim-os-fileio-c: /home/nick/dl/neovim/src/nvim/os/fileio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Generating ../../touches/clang-tidy/ran-src-nvim-os-fileio-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-fileio-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/fileio.c
-
-touches/clang-tidy/ran-src-nvim-os-fileio-h: /home/nick/dl/neovim/src/nvim/os/fileio.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Generating ../../touches/clang-tidy/ran-src-nvim-os-fileio-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-fileio-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/fileio.h
-
-touches/clang-tidy/ran-src-nvim-os-fs-c: /home/nick/dl/neovim/src/nvim/os/fs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Generating ../../touches/clang-tidy/ran-src-nvim-os-fs-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-fs-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/fs.c
-
-touches/clang-tidy/ran-src-nvim-os-fs-h: /home/nick/dl/neovim/src/nvim/os/fs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Generating ../../touches/clang-tidy/ran-src-nvim-os-fs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-fs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/fs.h
-
-touches/clang-tidy/ran-src-nvim-os-fs_defs-h: /home/nick/dl/neovim/src/nvim/os/fs_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Generating ../../touches/clang-tidy/ran-src-nvim-os-fs_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-fs_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/fs_defs.h
-
-touches/clang-tidy/ran-src-nvim-os-input-c: /home/nick/dl/neovim/src/nvim/os/input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Generating ../../touches/clang-tidy/ran-src-nvim-os-input-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-input-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/input.c
-
-touches/clang-tidy/ran-src-nvim-os-input-h: /home/nick/dl/neovim/src/nvim/os/input.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Generating ../../touches/clang-tidy/ran-src-nvim-os-input-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-input-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/input.h
-
-touches/clang-tidy/ran-src-nvim-os-lang-c: /home/nick/dl/neovim/src/nvim/os/lang.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Generating ../../touches/clang-tidy/ran-src-nvim-os-lang-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-lang-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/lang.c
-
-touches/clang-tidy/ran-src-nvim-os-lang-h: /home/nick/dl/neovim/src/nvim/os/lang.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Generating ../../touches/clang-tidy/ran-src-nvim-os-lang-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-lang-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/lang.h
-
-touches/clang-tidy/ran-src-nvim-os-mem-c: /home/nick/dl/neovim/src/nvim/os/mem.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Generating ../../touches/clang-tidy/ran-src-nvim-os-mem-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-mem-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/mem.c
-
-touches/clang-tidy/ran-src-nvim-os-os-h: /home/nick/dl/neovim/src/nvim/os/os.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Generating ../../touches/clang-tidy/ran-src-nvim-os-os-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-os-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/os.h
-
-touches/clang-tidy/ran-src-nvim-os-os_defs-h: /home/nick/dl/neovim/src/nvim/os/os_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Generating ../../touches/clang-tidy/ran-src-nvim-os-os_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-os_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/os_defs.h
-
-touches/clang-tidy/ran-src-nvim-os-process-c: /home/nick/dl/neovim/src/nvim/os/process.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Generating ../../touches/clang-tidy/ran-src-nvim-os-process-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-process-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/process.c
-
-touches/clang-tidy/ran-src-nvim-os-process-h: /home/nick/dl/neovim/src/nvim/os/process.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Generating ../../touches/clang-tidy/ran-src-nvim-os-process-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-process-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/process.h
-
-touches/clang-tidy/ran-src-nvim-os-pty_process-h: /home/nick/dl/neovim/src/nvim/os/pty_process.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Generating ../../touches/clang-tidy/ran-src-nvim-os-pty_process-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-pty_process-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/pty_process.h
-
-touches/clang-tidy/ran-src-nvim-os-pty_process_unix-c: /home/nick/dl/neovim/src/nvim/os/pty_process_unix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Generating ../../touches/clang-tidy/ran-src-nvim-os-pty_process_unix-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-pty_process_unix-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/pty_process_unix.c
-
-touches/clang-tidy/ran-src-nvim-os-pty_process_unix-h: /home/nick/dl/neovim/src/nvim/os/pty_process_unix.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Generating ../../touches/clang-tidy/ran-src-nvim-os-pty_process_unix-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-pty_process_unix-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/pty_process_unix.h
-
-touches/clang-tidy/ran-src-nvim-os-shell-c: /home/nick/dl/neovim/src/nvim/os/shell.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Generating ../../touches/clang-tidy/ran-src-nvim-os-shell-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-shell-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/shell.c
-
-touches/clang-tidy/ran-src-nvim-os-shell-h: /home/nick/dl/neovim/src/nvim/os/shell.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Generating ../../touches/clang-tidy/ran-src-nvim-os-shell-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-shell-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/shell.h
-
-touches/clang-tidy/ran-src-nvim-os-signal-c: /home/nick/dl/neovim/src/nvim/os/signal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Generating ../../touches/clang-tidy/ran-src-nvim-os-signal-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-signal-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/signal.c
-
-touches/clang-tidy/ran-src-nvim-os-signal-h: /home/nick/dl/neovim/src/nvim/os/signal.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Generating ../../touches/clang-tidy/ran-src-nvim-os-signal-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-signal-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/signal.h
-
-touches/clang-tidy/ran-src-nvim-os-stdpaths-c: /home/nick/dl/neovim/src/nvim/os/stdpaths.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Generating ../../touches/clang-tidy/ran-src-nvim-os-stdpaths-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-stdpaths-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/stdpaths.c
-
-touches/clang-tidy/ran-src-nvim-os-stdpaths_defs-h: /home/nick/dl/neovim/src/nvim/os/stdpaths_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Generating ../../touches/clang-tidy/ran-src-nvim-os-stdpaths_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-stdpaths_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/stdpaths_defs.h
-
-touches/clang-tidy/ran-src-nvim-os-time-c: /home/nick/dl/neovim/src/nvim/os/time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Generating ../../touches/clang-tidy/ran-src-nvim-os-time-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-time-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/time.c
-
-touches/clang-tidy/ran-src-nvim-os-time-h: /home/nick/dl/neovim/src/nvim/os/time.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Generating ../../touches/clang-tidy/ran-src-nvim-os-time-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-time-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/time.h
-
-touches/clang-tidy/ran-src-nvim-os-tty-c: /home/nick/dl/neovim/src/nvim/os/tty.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Generating ../../touches/clang-tidy/ran-src-nvim-os-tty-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-tty-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/tty.c
-
-touches/clang-tidy/ran-src-nvim-os-tty-h: /home/nick/dl/neovim/src/nvim/os/tty.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Generating ../../touches/clang-tidy/ran-src-nvim-os-tty-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-tty-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/tty.h
-
-touches/clang-tidy/ran-src-nvim-os-unix_defs-h: /home/nick/dl/neovim/src/nvim/os/unix_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Generating ../../touches/clang-tidy/ran-src-nvim-os-unix_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-unix_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/unix_defs.h
-
-touches/clang-tidy/ran-src-nvim-os-users-c: /home/nick/dl/neovim/src/nvim/os/users.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Generating ../../touches/clang-tidy/ran-src-nvim-os-users-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-os-users-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/os/users.c
-
-touches/clang-tidy/ran-src-nvim-path-c: /home/nick/dl/neovim/src/nvim/path.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Generating ../../touches/clang-tidy/ran-src-nvim-path-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-path-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/path.c
-
-touches/clang-tidy/ran-src-nvim-path-h: /home/nick/dl/neovim/src/nvim/path.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Generating ../../touches/clang-tidy/ran-src-nvim-path-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-path-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/path.h
-
-touches/clang-tidy/ran-src-nvim-plines-c: /home/nick/dl/neovim/src/nvim/plines.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Generating ../../touches/clang-tidy/ran-src-nvim-plines-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-plines-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/plines.c
-
-touches/clang-tidy/ran-src-nvim-plines-h: /home/nick/dl/neovim/src/nvim/plines.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Generating ../../touches/clang-tidy/ran-src-nvim-plines-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-plines-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/plines.h
-
-touches/clang-tidy/ran-src-nvim-popupmenu-c: /home/nick/dl/neovim/src/nvim/popupmenu.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Generating ../../touches/clang-tidy/ran-src-nvim-popupmenu-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-popupmenu-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/popupmenu.c
-
-touches/clang-tidy/ran-src-nvim-popupmenu-h: /home/nick/dl/neovim/src/nvim/popupmenu.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Generating ../../touches/clang-tidy/ran-src-nvim-popupmenu-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-popupmenu-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/popupmenu.h
-
-touches/clang-tidy/ran-src-nvim-pos-h: /home/nick/dl/neovim/src/nvim/pos.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Generating ../../touches/clang-tidy/ran-src-nvim-pos-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-pos-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/pos.h
-
-touches/clang-tidy/ran-src-nvim-profile-c: /home/nick/dl/neovim/src/nvim/profile.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Generating ../../touches/clang-tidy/ran-src-nvim-profile-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-profile-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/profile.c
-
-touches/clang-tidy/ran-src-nvim-profile-h: /home/nick/dl/neovim/src/nvim/profile.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Generating ../../touches/clang-tidy/ran-src-nvim-profile-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-profile-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/profile.h
-
-touches/clang-tidy/ran-src-nvim-quickfix-c: /home/nick/dl/neovim/src/nvim/quickfix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Generating ../../touches/clang-tidy/ran-src-nvim-quickfix-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-quickfix-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/quickfix.c
-
-touches/clang-tidy/ran-src-nvim-quickfix-h: /home/nick/dl/neovim/src/nvim/quickfix.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Generating ../../touches/clang-tidy/ran-src-nvim-quickfix-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-quickfix-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/quickfix.h
-
-touches/clang-tidy/ran-src-nvim-rbuffer-c: /home/nick/dl/neovim/src/nvim/rbuffer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Generating ../../touches/clang-tidy/ran-src-nvim-rbuffer-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-rbuffer-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/rbuffer.c
-
-touches/clang-tidy/ran-src-nvim-rbuffer-h: /home/nick/dl/neovim/src/nvim/rbuffer.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Generating ../../touches/clang-tidy/ran-src-nvim-rbuffer-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-rbuffer-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/rbuffer.h
-
-touches/clang-tidy/ran-src-nvim-regexp-c: /home/nick/dl/neovim/src/nvim/regexp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Generating ../../touches/clang-tidy/ran-src-nvim-regexp-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-regexp-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/regexp.c
-
-touches/clang-tidy/ran-src-nvim-regexp-h: /home/nick/dl/neovim/src/nvim/regexp.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Generating ../../touches/clang-tidy/ran-src-nvim-regexp-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-regexp-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/regexp.h
-
-touches/clang-tidy/ran-src-nvim-regexp_defs-h: /home/nick/dl/neovim/src/nvim/regexp_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Generating ../../touches/clang-tidy/ran-src-nvim-regexp_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-regexp_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/regexp_defs.h
-
-touches/clang-tidy/ran-src-nvim-runtime-c: /home/nick/dl/neovim/src/nvim/runtime.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Generating ../../touches/clang-tidy/ran-src-nvim-runtime-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-runtime-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/runtime.c
-
-touches/clang-tidy/ran-src-nvim-runtime-h: /home/nick/dl/neovim/src/nvim/runtime.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Generating ../../touches/clang-tidy/ran-src-nvim-runtime-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-runtime-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/runtime.h
-
-touches/clang-tidy/ran-src-nvim-search-c: /home/nick/dl/neovim/src/nvim/search.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Generating ../../touches/clang-tidy/ran-src-nvim-search-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-search-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/search.c
-
-touches/clang-tidy/ran-src-nvim-search-h: /home/nick/dl/neovim/src/nvim/search.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Generating ../../touches/clang-tidy/ran-src-nvim-search-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-search-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/search.h
-
-touches/clang-tidy/ran-src-nvim-sha256-c: /home/nick/dl/neovim/src/nvim/sha256.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Generating ../../touches/clang-tidy/ran-src-nvim-sha256-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-sha256-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/sha256.c
-
-touches/clang-tidy/ran-src-nvim-sha256-h: /home/nick/dl/neovim/src/nvim/sha256.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Generating ../../touches/clang-tidy/ran-src-nvim-sha256-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-sha256-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/sha256.h
-
-touches/clang-tidy/ran-src-nvim-shada-c: /home/nick/dl/neovim/src/nvim/shada.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Generating ../../touches/clang-tidy/ran-src-nvim-shada-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-shada-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/shada.c
-
-touches/clang-tidy/ran-src-nvim-shada-h: /home/nick/dl/neovim/src/nvim/shada.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Generating ../../touches/clang-tidy/ran-src-nvim-shada-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-shada-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/shada.h
-
-touches/clang-tidy/ran-src-nvim-sign-c: /home/nick/dl/neovim/src/nvim/sign.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Generating ../../touches/clang-tidy/ran-src-nvim-sign-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-sign-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/sign.c
-
-touches/clang-tidy/ran-src-nvim-sign-h: /home/nick/dl/neovim/src/nvim/sign.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Generating ../../touches/clang-tidy/ran-src-nvim-sign-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-sign-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/sign.h
-
-touches/clang-tidy/ran-src-nvim-sign_defs-h: /home/nick/dl/neovim/src/nvim/sign_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Generating ../../touches/clang-tidy/ran-src-nvim-sign_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-sign_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/sign_defs.h
-
-touches/clang-tidy/ran-src-nvim-spell-c: /home/nick/dl/neovim/src/nvim/spell.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Generating ../../touches/clang-tidy/ran-src-nvim-spell-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-spell-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/spell.c
-
-touches/clang-tidy/ran-src-nvim-spell-h: /home/nick/dl/neovim/src/nvim/spell.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Generating ../../touches/clang-tidy/ran-src-nvim-spell-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-spell-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/spell.h
-
-touches/clang-tidy/ran-src-nvim-spell_defs-h: /home/nick/dl/neovim/src/nvim/spell_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Generating ../../touches/clang-tidy/ran-src-nvim-spell_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-spell_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/spell_defs.h
-
-touches/clang-tidy/ran-src-nvim-spellfile-c: /home/nick/dl/neovim/src/nvim/spellfile.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Generating ../../touches/clang-tidy/ran-src-nvim-spellfile-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-spellfile-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/spellfile.c
-
-touches/clang-tidy/ran-src-nvim-spellfile-h: /home/nick/dl/neovim/src/nvim/spellfile.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Generating ../../touches/clang-tidy/ran-src-nvim-spellfile-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-spellfile-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/spellfile.h
-
-touches/clang-tidy/ran-src-nvim-spellsuggest-c: /home/nick/dl/neovim/src/nvim/spellsuggest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Generating ../../touches/clang-tidy/ran-src-nvim-spellsuggest-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-spellsuggest-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/spellsuggest.c
-
-touches/clang-tidy/ran-src-nvim-spellsuggest-h: /home/nick/dl/neovim/src/nvim/spellsuggest.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Generating ../../touches/clang-tidy/ran-src-nvim-spellsuggest-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-spellsuggest-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/spellsuggest.h
-
-touches/clang-tidy/ran-src-nvim-state-c: /home/nick/dl/neovim/src/nvim/state.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Generating ../../touches/clang-tidy/ran-src-nvim-state-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-state-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/state.c
-
-touches/clang-tidy/ran-src-nvim-state-h: /home/nick/dl/neovim/src/nvim/state.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Generating ../../touches/clang-tidy/ran-src-nvim-state-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-state-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/state.h
-
-touches/clang-tidy/ran-src-nvim-statusline-c: /home/nick/dl/neovim/src/nvim/statusline.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Generating ../../touches/clang-tidy/ran-src-nvim-statusline-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-statusline-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/statusline.c
-
-touches/clang-tidy/ran-src-nvim-statusline-h: /home/nick/dl/neovim/src/nvim/statusline.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Generating ../../touches/clang-tidy/ran-src-nvim-statusline-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-statusline-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/statusline.h
-
-touches/clang-tidy/ran-src-nvim-statusline_defs-h: /home/nick/dl/neovim/src/nvim/statusline_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Generating ../../touches/clang-tidy/ran-src-nvim-statusline_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-statusline_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/statusline_defs.h
-
-touches/clang-tidy/ran-src-nvim-strings-c: /home/nick/dl/neovim/src/nvim/strings.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Generating ../../touches/clang-tidy/ran-src-nvim-strings-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-strings-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/strings.c
-
-touches/clang-tidy/ran-src-nvim-strings-h: /home/nick/dl/neovim/src/nvim/strings.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Generating ../../touches/clang-tidy/ran-src-nvim-strings-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-strings-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/strings.h
-
-touches/clang-tidy/ran-src-nvim-syntax-c: /home/nick/dl/neovim/src/nvim/syntax.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Generating ../../touches/clang-tidy/ran-src-nvim-syntax-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-syntax-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/syntax.c
-
-touches/clang-tidy/ran-src-nvim-syntax-h: /home/nick/dl/neovim/src/nvim/syntax.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Generating ../../touches/clang-tidy/ran-src-nvim-syntax-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-syntax-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/syntax.h
-
-touches/clang-tidy/ran-src-nvim-syntax_defs-h: /home/nick/dl/neovim/src/nvim/syntax_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Generating ../../touches/clang-tidy/ran-src-nvim-syntax_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-syntax_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/syntax_defs.h
-
-touches/clang-tidy/ran-src-nvim-tag-c: /home/nick/dl/neovim/src/nvim/tag.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Generating ../../touches/clang-tidy/ran-src-nvim-tag-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-tag-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/tag.c
-
-touches/clang-tidy/ran-src-nvim-tag-h: /home/nick/dl/neovim/src/nvim/tag.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Generating ../../touches/clang-tidy/ran-src-nvim-tag-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-tag-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/tag.h
-
-touches/clang-tidy/ran-src-nvim-terminal-c: /home/nick/dl/neovim/src/nvim/terminal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Generating ../../touches/clang-tidy/ran-src-nvim-terminal-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-terminal-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/terminal.c
-
-touches/clang-tidy/ran-src-nvim-terminal-h: /home/nick/dl/neovim/src/nvim/terminal.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Generating ../../touches/clang-tidy/ran-src-nvim-terminal-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-terminal-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/terminal.h
-
-touches/clang-tidy/ran-src-nvim-testing-c: /home/nick/dl/neovim/src/nvim/testing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Generating ../../touches/clang-tidy/ran-src-nvim-testing-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-testing-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/testing.c
-
-touches/clang-tidy/ran-src-nvim-testing-h: /home/nick/dl/neovim/src/nvim/testing.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Generating ../../touches/clang-tidy/ran-src-nvim-testing-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-testing-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/testing.h
-
-touches/clang-tidy/ran-src-nvim-textformat-c: /home/nick/dl/neovim/src/nvim/textformat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Generating ../../touches/clang-tidy/ran-src-nvim-textformat-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-textformat-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/textformat.c
-
-touches/clang-tidy/ran-src-nvim-textformat-h: /home/nick/dl/neovim/src/nvim/textformat.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Generating ../../touches/clang-tidy/ran-src-nvim-textformat-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-textformat-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/textformat.h
-
-touches/clang-tidy/ran-src-nvim-textobject-c: /home/nick/dl/neovim/src/nvim/textobject.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Generating ../../touches/clang-tidy/ran-src-nvim-textobject-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-textobject-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/textobject.c
-
-touches/clang-tidy/ran-src-nvim-textobject-h: /home/nick/dl/neovim/src/nvim/textobject.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Generating ../../touches/clang-tidy/ran-src-nvim-textobject-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-textobject-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/textobject.h
-
-touches/clang-tidy/ran-src-nvim-tui-input-c: /home/nick/dl/neovim/src/nvim/tui/input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-input-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-tui-input-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/tui/input.c
-
-touches/clang-tidy/ran-src-nvim-tui-input-h: /home/nick/dl/neovim/src/nvim/tui/input.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-input-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-tui-input-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/tui/input.h
-
-touches/clang-tidy/ran-src-nvim-tui-input_defs-h: /home/nick/dl/neovim/src/nvim/tui/input_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-input_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-tui-input_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/tui/input_defs.h
-
-touches/clang-tidy/ran-src-nvim-tui-terminfo-c: /home/nick/dl/neovim/src/nvim/tui/terminfo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-terminfo-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-tui-terminfo-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/tui/terminfo.c
-
-touches/clang-tidy/ran-src-nvim-tui-terminfo-h: /home/nick/dl/neovim/src/nvim/tui/terminfo.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-terminfo-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-tui-terminfo-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/tui/terminfo.h
-
-touches/clang-tidy/ran-src-nvim-tui-terminfo_defs-h: /home/nick/dl/neovim/src/nvim/tui/terminfo_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-terminfo_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-tui-terminfo_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/tui/terminfo_defs.h
-
-touches/clang-tidy/ran-src-nvim-tui-tui-c: /home/nick/dl/neovim/src/nvim/tui/tui.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-tui-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-tui-tui-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/tui/tui.c
-
-touches/clang-tidy/ran-src-nvim-tui-tui-h: /home/nick/dl/neovim/src/nvim/tui/tui.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-tui-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-tui-tui-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/tui/tui.h
-
-touches/clang-tidy/ran-src-nvim-types-h: /home/nick/dl/neovim/src/nvim/types.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Generating ../../touches/clang-tidy/ran-src-nvim-types-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-types-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/types.h
-
-touches/clang-tidy/ran-src-nvim-ugrid-c: /home/nick/dl/neovim/src/nvim/ugrid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Generating ../../touches/clang-tidy/ran-src-nvim-ugrid-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ugrid-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ugrid.c
-
-touches/clang-tidy/ran-src-nvim-ugrid-h: /home/nick/dl/neovim/src/nvim/ugrid.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Generating ../../touches/clang-tidy/ran-src-nvim-ugrid-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ugrid-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ugrid.h
-
-touches/clang-tidy/ran-src-nvim-ui-c: /home/nick/dl/neovim/src/nvim/ui.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Generating ../../touches/clang-tidy/ran-src-nvim-ui-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ui-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ui.c
-
-touches/clang-tidy/ran-src-nvim-ui-h: /home/nick/dl/neovim/src/nvim/ui.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Generating ../../touches/clang-tidy/ran-src-nvim-ui-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ui-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ui.h
-
-touches/clang-tidy/ran-src-nvim-ui_client-c: /home/nick/dl/neovim/src/nvim/ui_client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Generating ../../touches/clang-tidy/ran-src-nvim-ui_client-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ui_client-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ui_client.c
-
-touches/clang-tidy/ran-src-nvim-ui_client-h: /home/nick/dl/neovim/src/nvim/ui_client.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Generating ../../touches/clang-tidy/ran-src-nvim-ui_client-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ui_client-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ui_client.h
-
-touches/clang-tidy/ran-src-nvim-ui_compositor-c: /home/nick/dl/neovim/src/nvim/ui_compositor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Generating ../../touches/clang-tidy/ran-src-nvim-ui_compositor-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ui_compositor-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ui_compositor.c
-
-touches/clang-tidy/ran-src-nvim-ui_compositor-h: /home/nick/dl/neovim/src/nvim/ui_compositor.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Generating ../../touches/clang-tidy/ran-src-nvim-ui_compositor-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-ui_compositor-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/ui_compositor.h
-
-touches/clang-tidy/ran-src-nvim-undo-c: /home/nick/dl/neovim/src/nvim/undo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Generating ../../touches/clang-tidy/ran-src-nvim-undo-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-undo-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/undo.c
-
-touches/clang-tidy/ran-src-nvim-undo-h: /home/nick/dl/neovim/src/nvim/undo.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Generating ../../touches/clang-tidy/ran-src-nvim-undo-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-undo-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/undo.h
-
-touches/clang-tidy/ran-src-nvim-undo_defs-h: /home/nick/dl/neovim/src/nvim/undo_defs.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Generating ../../touches/clang-tidy/ran-src-nvim-undo_defs-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-undo_defs-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/undo_defs.h
-
-touches/clang-tidy/ran-src-nvim-usercmd-c: /home/nick/dl/neovim/src/nvim/usercmd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Generating ../../touches/clang-tidy/ran-src-nvim-usercmd-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-usercmd-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/usercmd.c
-
-touches/clang-tidy/ran-src-nvim-usercmd-h: /home/nick/dl/neovim/src/nvim/usercmd.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Generating ../../touches/clang-tidy/ran-src-nvim-usercmd-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-usercmd-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/usercmd.h
-
-touches/clang-tidy/ran-src-nvim-version-c: /home/nick/dl/neovim/src/nvim/version.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Generating ../../touches/clang-tidy/ran-src-nvim-version-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-version-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/version.c
-
-touches/clang-tidy/ran-src-nvim-version-h: /home/nick/dl/neovim/src/nvim/version.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Generating ../../touches/clang-tidy/ran-src-nvim-version-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-version-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/version.h
-
-touches/clang-tidy/ran-src-nvim-vim-h: /home/nick/dl/neovim/src/nvim/vim.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Generating ../../touches/clang-tidy/ran-src-nvim-vim-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-vim-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/vim.h
-
-touches/clang-tidy/ran-src-nvim-viml-parser-expressions-c: /home/nick/dl/neovim/src/nvim/viml/parser/expressions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Generating ../../touches/clang-tidy/ran-src-nvim-viml-parser-expressions-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-viml-parser-expressions-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/viml/parser/expressions.c
-
-touches/clang-tidy/ran-src-nvim-viml-parser-expressions-h: /home/nick/dl/neovim/src/nvim/viml/parser/expressions.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Generating ../../touches/clang-tidy/ran-src-nvim-viml-parser-expressions-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-viml-parser-expressions-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/viml/parser/expressions.h
-
-touches/clang-tidy/ran-src-nvim-viml-parser-parser-c: /home/nick/dl/neovim/src/nvim/viml/parser/parser.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Generating ../../touches/clang-tidy/ran-src-nvim-viml-parser-parser-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-viml-parser-parser-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/viml/parser/parser.c
-
-touches/clang-tidy/ran-src-nvim-viml-parser-parser-h: /home/nick/dl/neovim/src/nvim/viml/parser/parser.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Generating ../../touches/clang-tidy/ran-src-nvim-viml-parser-parser-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-viml-parser-parser-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/viml/parser/parser.h
-
-touches/clang-tidy/ran-src-nvim-window-c: /home/nick/dl/neovim/src/nvim/window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Generating ../../touches/clang-tidy/ran-src-nvim-window-c"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-window-c
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/window.c
-
-touches/clang-tidy/ran-src-nvim-window-h: /home/nick/dl/neovim/src/nvim/window.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Generating ../../touches/clang-tidy/ran-src-nvim-window-h"
-	cd /home/nick/dl/neovim && /usr/bin/cmake -E touch /home/nick/dl/neovim/build/touches/clang-tidy/ran-src-nvim-window-h
-	cd /home/nick/dl/neovim && /usr/bin/clang-tidy --quiet /home/nick/dl/neovim/src/nvim/window.h
+touches/clang-tidy/ran-src-nvim-api-autocmd-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/autocmd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../../touches/clang-tidy/ran-src-nvim-api-autocmd-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-autocmd-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/autocmd.c
+
+touches/clang-tidy/ran-src-nvim-api-autocmd-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/autocmd.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../../touches/clang-tidy/ran-src-nvim-api-autocmd-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-autocmd-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/autocmd.h
+
+touches/clang-tidy/ran-src-nvim-api-buffer-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../../touches/clang-tidy/ran-src-nvim-api-buffer-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-buffer-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/buffer.c
+
+touches/clang-tidy/ran-src-nvim-api-buffer-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/buffer.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../../touches/clang-tidy/ran-src-nvim-api-buffer-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-buffer-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/buffer.h
+
+touches/clang-tidy/ran-src-nvim-api-command-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/command.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ../../touches/clang-tidy/ran-src-nvim-api-command-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-command-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/command.c
+
+touches/clang-tidy/ran-src-nvim-api-command-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/command.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ../../touches/clang-tidy/ran-src-nvim-api-command-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-command-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/command.h
+
+touches/clang-tidy/ran-src-nvim-api-deprecated-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/deprecated.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ../../touches/clang-tidy/ran-src-nvim-api-deprecated-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-deprecated-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/deprecated.c
+
+touches/clang-tidy/ran-src-nvim-api-deprecated-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/deprecated.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ../../touches/clang-tidy/ran-src-nvim-api-deprecated-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-deprecated-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/deprecated.h
+
+touches/clang-tidy/ran-src-nvim-api-extmark-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/extmark.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ../../touches/clang-tidy/ran-src-nvim-api-extmark-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-extmark-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/extmark.c
+
+touches/clang-tidy/ran-src-nvim-api-extmark-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/extmark.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ../../touches/clang-tidy/ran-src-nvim-api-extmark-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-extmark-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/extmark.h
+
+touches/clang-tidy/ran-src-nvim-api-options-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/options.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ../../touches/clang-tidy/ran-src-nvim-api-options-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-options-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/options.c
+
+touches/clang-tidy/ran-src-nvim-api-options-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/options.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ../../touches/clang-tidy/ran-src-nvim-api-options-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-options-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/options.h
+
+touches/clang-tidy/ran-src-nvim-api-private-converter-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/private/converter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-converter-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-converter-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/private/converter.c
+
+touches/clang-tidy/ran-src-nvim-api-private-converter-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/private/converter.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-converter-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-converter-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/private/converter.h
+
+touches/clang-tidy/ran-src-nvim-api-private-defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/private/defs.h
+
+touches/clang-tidy/ran-src-nvim-api-private-dispatch-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/private/dispatch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-dispatch-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-dispatch-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/private/dispatch.c
+
+touches/clang-tidy/ran-src-nvim-api-private-dispatch-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/private/dispatch.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-dispatch-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-dispatch-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/private/dispatch.h
+
+touches/clang-tidy/ran-src-nvim-api-private-helpers-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/private/helpers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-helpers-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-helpers-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/private/helpers.c
+
+touches/clang-tidy/ran-src-nvim-api-private-helpers-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/private/helpers.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-helpers-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-helpers-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/private/helpers.h
+
+touches/clang-tidy/ran-src-nvim-api-private-validate-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/private/validate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-validate-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-validate-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/private/validate.c
+
+touches/clang-tidy/ran-src-nvim-api-private-validate-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/private/validate.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating ../../touches/clang-tidy/ran-src-nvim-api-private-validate-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-private-validate-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/private/validate.h
+
+touches/clang-tidy/ran-src-nvim-api-tabpage-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/tabpage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating ../../touches/clang-tidy/ran-src-nvim-api-tabpage-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-tabpage-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/tabpage.c
+
+touches/clang-tidy/ran-src-nvim-api-tabpage-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/tabpage.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating ../../touches/clang-tidy/ran-src-nvim-api-tabpage-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-tabpage-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/tabpage.h
+
+touches/clang-tidy/ran-src-nvim-api-ui-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/ui.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating ../../touches/clang-tidy/ran-src-nvim-api-ui-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-ui-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/ui.c
+
+touches/clang-tidy/ran-src-nvim-api-ui-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/ui.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating ../../touches/clang-tidy/ran-src-nvim-api-ui-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-ui-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/ui.h
+
+touches/clang-tidy/ran-src-nvim-api-vim-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/vim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating ../../touches/clang-tidy/ran-src-nvim-api-vim-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-vim-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/vim.c
+
+touches/clang-tidy/ran-src-nvim-api-vim-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/vim.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating ../../touches/clang-tidy/ran-src-nvim-api-vim-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-vim-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/vim.h
+
+touches/clang-tidy/ran-src-nvim-api-vimscript-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/vimscript.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating ../../touches/clang-tidy/ran-src-nvim-api-vimscript-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-vimscript-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/vimscript.c
+
+touches/clang-tidy/ran-src-nvim-api-vimscript-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/vimscript.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating ../../touches/clang-tidy/ran-src-nvim-api-vimscript-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-vimscript-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/vimscript.h
+
+touches/clang-tidy/ran-src-nvim-api-win_config-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/win_config.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating ../../touches/clang-tidy/ran-src-nvim-api-win_config-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-win_config-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/win_config.c
+
+touches/clang-tidy/ran-src-nvim-api-win_config-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/win_config.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating ../../touches/clang-tidy/ran-src-nvim-api-win_config-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-win_config-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/win_config.h
+
+touches/clang-tidy/ran-src-nvim-api-window-c: /home/nick/git/Src-Arc/neovim/src/nvim/api/window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating ../../touches/clang-tidy/ran-src-nvim-api-window-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-window-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/window.c
+
+touches/clang-tidy/ran-src-nvim-api-window-h: /home/nick/git/Src-Arc/neovim/src/nvim/api/window.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating ../../touches/clang-tidy/ran-src-nvim-api-window-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-api-window-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/api/window.h
+
+touches/clang-tidy/ran-src-nvim-arabic-c: /home/nick/git/Src-Arc/neovim/src/nvim/arabic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating ../../touches/clang-tidy/ran-src-nvim-arabic-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-arabic-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/arabic.c
+
+touches/clang-tidy/ran-src-nvim-arabic-h: /home/nick/git/Src-Arc/neovim/src/nvim/arabic.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating ../../touches/clang-tidy/ran-src-nvim-arabic-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-arabic-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/arabic.h
+
+touches/clang-tidy/ran-src-nvim-arglist-c: /home/nick/git/Src-Arc/neovim/src/nvim/arglist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating ../../touches/clang-tidy/ran-src-nvim-arglist-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-arglist-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/arglist.c
+
+touches/clang-tidy/ran-src-nvim-arglist-h: /home/nick/git/Src-Arc/neovim/src/nvim/arglist.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating ../../touches/clang-tidy/ran-src-nvim-arglist-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-arglist-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/arglist.h
+
+touches/clang-tidy/ran-src-nvim-ascii-h: /home/nick/git/Src-Arc/neovim/src/nvim/ascii.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating ../../touches/clang-tidy/ran-src-nvim-ascii-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ascii-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ascii.h
+
+touches/clang-tidy/ran-src-nvim-assert-h: /home/nick/git/Src-Arc/neovim/src/nvim/assert.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating ../../touches/clang-tidy/ran-src-nvim-assert-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-assert-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/assert.h
+
+touches/clang-tidy/ran-src-nvim-autocmd-c: /home/nick/git/Src-Arc/neovim/src/nvim/autocmd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating ../../touches/clang-tidy/ran-src-nvim-autocmd-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-autocmd-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/autocmd.c
+
+touches/clang-tidy/ran-src-nvim-autocmd-h: /home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating ../../touches/clang-tidy/ran-src-nvim-autocmd-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-autocmd-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/autocmd.h
+
+touches/clang-tidy/ran-src-nvim-buffer-c: /home/nick/git/Src-Arc/neovim/src/nvim/buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating ../../touches/clang-tidy/ran-src-nvim-buffer-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-buffer-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/buffer.c
+
+touches/clang-tidy/ran-src-nvim-buffer-h: /home/nick/git/Src-Arc/neovim/src/nvim/buffer.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating ../../touches/clang-tidy/ran-src-nvim-buffer-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-buffer-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/buffer.h
+
+touches/clang-tidy/ran-src-nvim-buffer_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating ../../touches/clang-tidy/ran-src-nvim-buffer_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-buffer_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/buffer_defs.h
+
+touches/clang-tidy/ran-src-nvim-buffer_updates-c: /home/nick/git/Src-Arc/neovim/src/nvim/buffer_updates.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating ../../touches/clang-tidy/ran-src-nvim-buffer_updates-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-buffer_updates-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/buffer_updates.c
+
+touches/clang-tidy/ran-src-nvim-buffer_updates-h: /home/nick/git/Src-Arc/neovim/src/nvim/buffer_updates.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating ../../touches/clang-tidy/ran-src-nvim-buffer_updates-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-buffer_updates-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/buffer_updates.h
+
+touches/clang-tidy/ran-src-nvim-change-c: /home/nick/git/Src-Arc/neovim/src/nvim/change.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating ../../touches/clang-tidy/ran-src-nvim-change-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-change-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/change.c
+
+touches/clang-tidy/ran-src-nvim-change-h: /home/nick/git/Src-Arc/neovim/src/nvim/change.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating ../../touches/clang-tidy/ran-src-nvim-change-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-change-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/change.h
+
+touches/clang-tidy/ran-src-nvim-channel-c: /home/nick/git/Src-Arc/neovim/src/nvim/channel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating ../../touches/clang-tidy/ran-src-nvim-channel-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-channel-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/channel.c
+
+touches/clang-tidy/ran-src-nvim-channel-h: /home/nick/git/Src-Arc/neovim/src/nvim/channel.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating ../../touches/clang-tidy/ran-src-nvim-channel-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-channel-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/channel.h
+
+touches/clang-tidy/ran-src-nvim-charset-c: /home/nick/git/Src-Arc/neovim/src/nvim/charset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating ../../touches/clang-tidy/ran-src-nvim-charset-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-charset-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/charset.c
+
+touches/clang-tidy/ran-src-nvim-charset-h: /home/nick/git/Src-Arc/neovim/src/nvim/charset.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating ../../touches/clang-tidy/ran-src-nvim-charset-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-charset-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/charset.h
+
+touches/clang-tidy/ran-src-nvim-cmdexpand-c: /home/nick/git/Src-Arc/neovim/src/nvim/cmdexpand.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating ../../touches/clang-tidy/ran-src-nvim-cmdexpand-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-cmdexpand-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/cmdexpand.c
+
+touches/clang-tidy/ran-src-nvim-cmdexpand-h: /home/nick/git/Src-Arc/neovim/src/nvim/cmdexpand.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating ../../touches/clang-tidy/ran-src-nvim-cmdexpand-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-cmdexpand-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/cmdexpand.h
+
+touches/clang-tidy/ran-src-nvim-cmdhist-c: /home/nick/git/Src-Arc/neovim/src/nvim/cmdhist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating ../../touches/clang-tidy/ran-src-nvim-cmdhist-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-cmdhist-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/cmdhist.c
+
+touches/clang-tidy/ran-src-nvim-cmdhist-h: /home/nick/git/Src-Arc/neovim/src/nvim/cmdhist.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating ../../touches/clang-tidy/ran-src-nvim-cmdhist-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-cmdhist-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/cmdhist.h
+
+touches/clang-tidy/ran-src-nvim-context-c: /home/nick/git/Src-Arc/neovim/src/nvim/context.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating ../../touches/clang-tidy/ran-src-nvim-context-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-context-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/context.c
+
+touches/clang-tidy/ran-src-nvim-context-h: /home/nick/git/Src-Arc/neovim/src/nvim/context.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating ../../touches/clang-tidy/ran-src-nvim-context-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-context-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/context.h
+
+touches/clang-tidy/ran-src-nvim-cursor-c: /home/nick/git/Src-Arc/neovim/src/nvim/cursor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating ../../touches/clang-tidy/ran-src-nvim-cursor-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-cursor-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/cursor.c
+
+touches/clang-tidy/ran-src-nvim-cursor-h: /home/nick/git/Src-Arc/neovim/src/nvim/cursor.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating ../../touches/clang-tidy/ran-src-nvim-cursor-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-cursor-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/cursor.h
+
+touches/clang-tidy/ran-src-nvim-cursor_shape-c: /home/nick/git/Src-Arc/neovim/src/nvim/cursor_shape.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating ../../touches/clang-tidy/ran-src-nvim-cursor_shape-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-cursor_shape-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/cursor_shape.c
+
+touches/clang-tidy/ran-src-nvim-cursor_shape-h: /home/nick/git/Src-Arc/neovim/src/nvim/cursor_shape.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating ../../touches/clang-tidy/ran-src-nvim-cursor_shape-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-cursor_shape-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/cursor_shape.h
+
+touches/clang-tidy/ran-src-nvim-debugger-c: /home/nick/git/Src-Arc/neovim/src/nvim/debugger.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating ../../touches/clang-tidy/ran-src-nvim-debugger-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-debugger-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/debugger.c
+
+touches/clang-tidy/ran-src-nvim-debugger-h: /home/nick/git/Src-Arc/neovim/src/nvim/debugger.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating ../../touches/clang-tidy/ran-src-nvim-debugger-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-debugger-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/debugger.h
+
+touches/clang-tidy/ran-src-nvim-decoration-c: /home/nick/git/Src-Arc/neovim/src/nvim/decoration.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating ../../touches/clang-tidy/ran-src-nvim-decoration-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-decoration-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/decoration.c
+
+touches/clang-tidy/ran-src-nvim-decoration-h: /home/nick/git/Src-Arc/neovim/src/nvim/decoration.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating ../../touches/clang-tidy/ran-src-nvim-decoration-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-decoration-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/decoration.h
+
+touches/clang-tidy/ran-src-nvim-decoration_provider-c: /home/nick/git/Src-Arc/neovim/src/nvim/decoration_provider.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating ../../touches/clang-tidy/ran-src-nvim-decoration_provider-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-decoration_provider-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/decoration_provider.c
+
+touches/clang-tidy/ran-src-nvim-decoration_provider-h: /home/nick/git/Src-Arc/neovim/src/nvim/decoration_provider.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating ../../touches/clang-tidy/ran-src-nvim-decoration_provider-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-decoration_provider-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/decoration_provider.h
+
+touches/clang-tidy/ran-src-nvim-diff-c: /home/nick/git/Src-Arc/neovim/src/nvim/diff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating ../../touches/clang-tidy/ran-src-nvim-diff-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-diff-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/diff.c
+
+touches/clang-tidy/ran-src-nvim-diff-h: /home/nick/git/Src-Arc/neovim/src/nvim/diff.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating ../../touches/clang-tidy/ran-src-nvim-diff-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-diff-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/diff.h
+
+touches/clang-tidy/ran-src-nvim-digraph-c: /home/nick/git/Src-Arc/neovim/src/nvim/digraph.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating ../../touches/clang-tidy/ran-src-nvim-digraph-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-digraph-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/digraph.c
+
+touches/clang-tidy/ran-src-nvim-digraph-h: /home/nick/git/Src-Arc/neovim/src/nvim/digraph.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating ../../touches/clang-tidy/ran-src-nvim-digraph-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-digraph-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/digraph.h
+
+touches/clang-tidy/ran-src-nvim-drawline-c: /home/nick/git/Src-Arc/neovim/src/nvim/drawline.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating ../../touches/clang-tidy/ran-src-nvim-drawline-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-drawline-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/drawline.c
+
+touches/clang-tidy/ran-src-nvim-drawline-h: /home/nick/git/Src-Arc/neovim/src/nvim/drawline.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Generating ../../touches/clang-tidy/ran-src-nvim-drawline-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-drawline-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/drawline.h
+
+touches/clang-tidy/ran-src-nvim-drawscreen-c: /home/nick/git/Src-Arc/neovim/src/nvim/drawscreen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating ../../touches/clang-tidy/ran-src-nvim-drawscreen-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-drawscreen-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/drawscreen.c
+
+touches/clang-tidy/ran-src-nvim-drawscreen-h: /home/nick/git/Src-Arc/neovim/src/nvim/drawscreen.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Generating ../../touches/clang-tidy/ran-src-nvim-drawscreen-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-drawscreen-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/drawscreen.h
+
+touches/clang-tidy/ran-src-nvim-edit-c: /home/nick/git/Src-Arc/neovim/src/nvim/edit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating ../../touches/clang-tidy/ran-src-nvim-edit-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-edit-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/edit.c
+
+touches/clang-tidy/ran-src-nvim-edit-h: /home/nick/git/Src-Arc/neovim/src/nvim/edit.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Generating ../../touches/clang-tidy/ran-src-nvim-edit-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-edit-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/edit.h
+
+touches/clang-tidy/ran-src-nvim-eval-buffer-c: /home/nick/git/Src-Arc/neovim/src/nvim/eval/buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-buffer-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-buffer-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/buffer.c
+
+touches/clang-tidy/ran-src-nvim-eval-buffer-h: /home/nick/git/Src-Arc/neovim/src/nvim/eval/buffer.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-buffer-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-buffer-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/buffer.h
+
+touches/clang-tidy/ran-src-nvim-eval-c: /home/nick/git/Src-Arc/neovim/src/nvim/eval.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval.c
+
+touches/clang-tidy/ran-src-nvim-eval-decode-c: /home/nick/git/Src-Arc/neovim/src/nvim/eval/decode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-decode-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-decode-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/decode.c
+
+touches/clang-tidy/ran-src-nvim-eval-decode-h: /home/nick/git/Src-Arc/neovim/src/nvim/eval/decode.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-decode-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-decode-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/decode.h
+
+touches/clang-tidy/ran-src-nvim-eval-encode-c: /home/nick/git/Src-Arc/neovim/src/nvim/eval/encode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-encode-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-encode-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/encode.c
+
+touches/clang-tidy/ran-src-nvim-eval-encode-h: /home/nick/git/Src-Arc/neovim/src/nvim/eval/encode.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-encode-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-encode-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/encode.h
+
+touches/clang-tidy/ran-src-nvim-eval-executor-c: /home/nick/git/Src-Arc/neovim/src/nvim/eval/executor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-executor-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-executor-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/executor.c
+
+touches/clang-tidy/ran-src-nvim-eval-executor-h: /home/nick/git/Src-Arc/neovim/src/nvim/eval/executor.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-executor-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-executor-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/executor.h
+
+touches/clang-tidy/ran-src-nvim-eval-funcs-c: /home/nick/git/Src-Arc/neovim/src/nvim/eval/funcs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-funcs-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-funcs-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/funcs.c
+
+touches/clang-tidy/ran-src-nvim-eval-funcs-h: /home/nick/git/Src-Arc/neovim/src/nvim/eval/funcs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-funcs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-funcs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/funcs.h
+
+touches/clang-tidy/ran-src-nvim-eval-gc-c: /home/nick/git/Src-Arc/neovim/src/nvim/eval/gc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-gc-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-gc-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/gc.c
+
+touches/clang-tidy/ran-src-nvim-eval-gc-h: /home/nick/git/Src-Arc/neovim/src/nvim/eval/gc.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-gc-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-gc-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/gc.h
+
+touches/clang-tidy/ran-src-nvim-eval-h: /home/nick/git/Src-Arc/neovim/src/nvim/eval.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval.h
+
+touches/clang-tidy/ran-src-nvim-eval-typval-c: /home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-typval-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-typval-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.c
+
+touches/clang-tidy/ran-src-nvim-eval-typval-h: /home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-typval-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-typval-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/typval.h
+
+touches/clang-tidy/ran-src-nvim-eval-typval_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-typval_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-typval_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_defs.h
+
+touches/clang-tidy/ran-src-nvim-eval-typval_encode-h: /home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_encode.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-typval_encode-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-typval_encode-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/typval_encode.h
+
+touches/clang-tidy/ran-src-nvim-eval-userfunc-c: /home/nick/git/Src-Arc/neovim/src/nvim/eval/userfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-userfunc-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-userfunc-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/userfunc.c
+
+touches/clang-tidy/ran-src-nvim-eval-userfunc-h: /home/nick/git/Src-Arc/neovim/src/nvim/eval/userfunc.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-userfunc-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-userfunc-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/userfunc.h
+
+touches/clang-tidy/ran-src-nvim-eval-vars-c: /home/nick/git/Src-Arc/neovim/src/nvim/eval/vars.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-vars-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-vars-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/vars.c
+
+touches/clang-tidy/ran-src-nvim-eval-vars-h: /home/nick/git/Src-Arc/neovim/src/nvim/eval/vars.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-vars-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-vars-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/vars.h
+
+touches/clang-tidy/ran-src-nvim-eval-window-c: /home/nick/git/Src-Arc/neovim/src/nvim/eval/window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-window-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-window-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/window.c
+
+touches/clang-tidy/ran-src-nvim-eval-window-h: /home/nick/git/Src-Arc/neovim/src/nvim/eval/window.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Generating ../../touches/clang-tidy/ran-src-nvim-eval-window-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-eval-window-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/eval/window.h
+
+touches/clang-tidy/ran-src-nvim-event-defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Generating ../../touches/clang-tidy/ran-src-nvim-event-defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/defs.h
+
+touches/clang-tidy/ran-src-nvim-event-libuv_process-c: /home/nick/git/Src-Arc/neovim/src/nvim/event/libuv_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Generating ../../touches/clang-tidy/ran-src-nvim-event-libuv_process-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-libuv_process-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/libuv_process.c
+
+touches/clang-tidy/ran-src-nvim-event-libuv_process-h: /home/nick/git/Src-Arc/neovim/src/nvim/event/libuv_process.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Generating ../../touches/clang-tidy/ran-src-nvim-event-libuv_process-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-libuv_process-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/libuv_process.h
+
+touches/clang-tidy/ran-src-nvim-event-loop-c: /home/nick/git/Src-Arc/neovim/src/nvim/event/loop.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Generating ../../touches/clang-tidy/ran-src-nvim-event-loop-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-loop-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/loop.c
+
+touches/clang-tidy/ran-src-nvim-event-loop-h: /home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Generating ../../touches/clang-tidy/ran-src-nvim-event-loop-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-loop-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/loop.h
+
+touches/clang-tidy/ran-src-nvim-event-multiqueue-c: /home/nick/git/Src-Arc/neovim/src/nvim/event/multiqueue.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Generating ../../touches/clang-tidy/ran-src-nvim-event-multiqueue-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-multiqueue-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/multiqueue.c
+
+touches/clang-tidy/ran-src-nvim-event-multiqueue-h: /home/nick/git/Src-Arc/neovim/src/nvim/event/multiqueue.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Generating ../../touches/clang-tidy/ran-src-nvim-event-multiqueue-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-multiqueue-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/multiqueue.h
+
+touches/clang-tidy/ran-src-nvim-event-process-c: /home/nick/git/Src-Arc/neovim/src/nvim/event/process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Generating ../../touches/clang-tidy/ran-src-nvim-event-process-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-process-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/process.c
+
+touches/clang-tidy/ran-src-nvim-event-process-h: /home/nick/git/Src-Arc/neovim/src/nvim/event/process.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Generating ../../touches/clang-tidy/ran-src-nvim-event-process-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-process-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/process.h
+
+touches/clang-tidy/ran-src-nvim-event-rstream-c: /home/nick/git/Src-Arc/neovim/src/nvim/event/rstream.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Generating ../../touches/clang-tidy/ran-src-nvim-event-rstream-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-rstream-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/rstream.c
+
+touches/clang-tidy/ran-src-nvim-event-rstream-h: /home/nick/git/Src-Arc/neovim/src/nvim/event/rstream.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Generating ../../touches/clang-tidy/ran-src-nvim-event-rstream-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-rstream-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/rstream.h
+
+touches/clang-tidy/ran-src-nvim-event-signal-c: /home/nick/git/Src-Arc/neovim/src/nvim/event/signal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Generating ../../touches/clang-tidy/ran-src-nvim-event-signal-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-signal-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/signal.c
+
+touches/clang-tidy/ran-src-nvim-event-signal-h: /home/nick/git/Src-Arc/neovim/src/nvim/event/signal.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Generating ../../touches/clang-tidy/ran-src-nvim-event-signal-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-signal-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/signal.h
+
+touches/clang-tidy/ran-src-nvim-event-socket-c: /home/nick/git/Src-Arc/neovim/src/nvim/event/socket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Generating ../../touches/clang-tidy/ran-src-nvim-event-socket-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-socket-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/socket.c
+
+touches/clang-tidy/ran-src-nvim-event-socket-h: /home/nick/git/Src-Arc/neovim/src/nvim/event/socket.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Generating ../../touches/clang-tidy/ran-src-nvim-event-socket-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-socket-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/socket.h
+
+touches/clang-tidy/ran-src-nvim-event-stream-c: /home/nick/git/Src-Arc/neovim/src/nvim/event/stream.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Generating ../../touches/clang-tidy/ran-src-nvim-event-stream-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-stream-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/stream.c
+
+touches/clang-tidy/ran-src-nvim-event-stream-h: /home/nick/git/Src-Arc/neovim/src/nvim/event/stream.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Generating ../../touches/clang-tidy/ran-src-nvim-event-stream-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-stream-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/stream.h
+
+touches/clang-tidy/ran-src-nvim-event-time-c: /home/nick/git/Src-Arc/neovim/src/nvim/event/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Generating ../../touches/clang-tidy/ran-src-nvim-event-time-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-time-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/time.c
+
+touches/clang-tidy/ran-src-nvim-event-time-h: /home/nick/git/Src-Arc/neovim/src/nvim/event/time.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Generating ../../touches/clang-tidy/ran-src-nvim-event-time-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-time-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/time.h
+
+touches/clang-tidy/ran-src-nvim-event-wstream-c: /home/nick/git/Src-Arc/neovim/src/nvim/event/wstream.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Generating ../../touches/clang-tidy/ran-src-nvim-event-wstream-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-wstream-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/wstream.c
+
+touches/clang-tidy/ran-src-nvim-event-wstream-h: /home/nick/git/Src-Arc/neovim/src/nvim/event/wstream.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Generating ../../touches/clang-tidy/ran-src-nvim-event-wstream-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-event-wstream-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/event/wstream.h
+
+touches/clang-tidy/ran-src-nvim-ex_cmds-c: /home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_cmds-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ex_cmds-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds.c
+
+touches/clang-tidy/ran-src-nvim-ex_cmds-h: /home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_cmds-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ex_cmds-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds.h
+
+touches/clang-tidy/ran-src-nvim-ex_cmds2-c: /home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_cmds2-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ex_cmds2-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds2.c
+
+touches/clang-tidy/ran-src-nvim-ex_cmds2-h: /home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds2.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_cmds2-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ex_cmds2-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds2.h
+
+touches/clang-tidy/ran-src-nvim-ex_cmds_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_cmds_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ex_cmds_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ex_cmds_defs.h
+
+touches/clang-tidy/ran-src-nvim-ex_docmd-c: /home/nick/git/Src-Arc/neovim/src/nvim/ex_docmd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_docmd-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ex_docmd-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ex_docmd.c
+
+touches/clang-tidy/ran-src-nvim-ex_docmd-h: /home/nick/git/Src-Arc/neovim/src/nvim/ex_docmd.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_docmd-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ex_docmd-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ex_docmd.h
+
+touches/clang-tidy/ran-src-nvim-ex_eval-c: /home/nick/git/Src-Arc/neovim/src/nvim/ex_eval.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_eval-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ex_eval-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ex_eval.c
+
+touches/clang-tidy/ran-src-nvim-ex_eval-h: /home/nick/git/Src-Arc/neovim/src/nvim/ex_eval.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_eval-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ex_eval-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ex_eval.h
+
+touches/clang-tidy/ran-src-nvim-ex_eval_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/ex_eval_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_eval_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ex_eval_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ex_eval_defs.h
+
+touches/clang-tidy/ran-src-nvim-ex_getln-c: /home/nick/git/Src-Arc/neovim/src/nvim/ex_getln.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_getln-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ex_getln-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ex_getln.c
+
+touches/clang-tidy/ran-src-nvim-ex_getln-h: /home/nick/git/Src-Arc/neovim/src/nvim/ex_getln.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_getln-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ex_getln-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ex_getln.h
+
+touches/clang-tidy/ran-src-nvim-ex_session-c: /home/nick/git/Src-Arc/neovim/src/nvim/ex_session.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_session-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ex_session-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ex_session.c
+
+touches/clang-tidy/ran-src-nvim-ex_session-h: /home/nick/git/Src-Arc/neovim/src/nvim/ex_session.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Generating ../../touches/clang-tidy/ran-src-nvim-ex_session-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ex_session-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ex_session.h
+
+touches/clang-tidy/ran-src-nvim-extmark-c: /home/nick/git/Src-Arc/neovim/src/nvim/extmark.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Generating ../../touches/clang-tidy/ran-src-nvim-extmark-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-extmark-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/extmark.c
+
+touches/clang-tidy/ran-src-nvim-extmark-h: /home/nick/git/Src-Arc/neovim/src/nvim/extmark.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Generating ../../touches/clang-tidy/ran-src-nvim-extmark-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-extmark-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/extmark.h
+
+touches/clang-tidy/ran-src-nvim-extmark_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/extmark_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Generating ../../touches/clang-tidy/ran-src-nvim-extmark_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-extmark_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/extmark_defs.h
+
+touches/clang-tidy/ran-src-nvim-file_search-c: /home/nick/git/Src-Arc/neovim/src/nvim/file_search.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Generating ../../touches/clang-tidy/ran-src-nvim-file_search-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-file_search-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/file_search.c
+
+touches/clang-tidy/ran-src-nvim-file_search-h: /home/nick/git/Src-Arc/neovim/src/nvim/file_search.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Generating ../../touches/clang-tidy/ran-src-nvim-file_search-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-file_search-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/file_search.h
+
+touches/clang-tidy/ran-src-nvim-fileio-c: /home/nick/git/Src-Arc/neovim/src/nvim/fileio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Generating ../../touches/clang-tidy/ran-src-nvim-fileio-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-fileio-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/fileio.c
+
+touches/clang-tidy/ran-src-nvim-fileio-h: /home/nick/git/Src-Arc/neovim/src/nvim/fileio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Generating ../../touches/clang-tidy/ran-src-nvim-fileio-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-fileio-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/fileio.h
+
+touches/clang-tidy/ran-src-nvim-fold-c: /home/nick/git/Src-Arc/neovim/src/nvim/fold.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Generating ../../touches/clang-tidy/ran-src-nvim-fold-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-fold-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/fold.c
+
+touches/clang-tidy/ran-src-nvim-fold-h: /home/nick/git/Src-Arc/neovim/src/nvim/fold.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Generating ../../touches/clang-tidy/ran-src-nvim-fold-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-fold-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/fold.h
+
+touches/clang-tidy/ran-src-nvim-fold_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/fold_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Generating ../../touches/clang-tidy/ran-src-nvim-fold_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-fold_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/fold_defs.h
+
+touches/clang-tidy/ran-src-nvim-func_attr-h: /home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Generating ../../touches/clang-tidy/ran-src-nvim-func_attr-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-func_attr-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h
+
+touches/clang-tidy/ran-src-nvim-garray-c: /home/nick/git/Src-Arc/neovim/src/nvim/garray.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Generating ../../touches/clang-tidy/ran-src-nvim-garray-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-garray-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/garray.c
+
+touches/clang-tidy/ran-src-nvim-garray-h: /home/nick/git/Src-Arc/neovim/src/nvim/garray.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Generating ../../touches/clang-tidy/ran-src-nvim-garray-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-garray-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/garray.h
+
+touches/clang-tidy/ran-src-nvim-getchar-c: /home/nick/git/Src-Arc/neovim/src/nvim/getchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Generating ../../touches/clang-tidy/ran-src-nvim-getchar-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-getchar-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/getchar.c
+
+touches/clang-tidy/ran-src-nvim-getchar-h: /home/nick/git/Src-Arc/neovim/src/nvim/getchar.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Generating ../../touches/clang-tidy/ran-src-nvim-getchar-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-getchar-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/getchar.h
+
+touches/clang-tidy/ran-src-nvim-gettext-h: /home/nick/git/Src-Arc/neovim/src/nvim/gettext.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Generating ../../touches/clang-tidy/ran-src-nvim-gettext-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-gettext-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/gettext.h
+
+touches/clang-tidy/ran-src-nvim-globals-h: /home/nick/git/Src-Arc/neovim/src/nvim/globals.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Generating ../../touches/clang-tidy/ran-src-nvim-globals-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-globals-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/globals.h
+
+touches/clang-tidy/ran-src-nvim-grid-c: /home/nick/git/Src-Arc/neovim/src/nvim/grid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Generating ../../touches/clang-tidy/ran-src-nvim-grid-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-grid-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/grid.c
+
+touches/clang-tidy/ran-src-nvim-grid-h: /home/nick/git/Src-Arc/neovim/src/nvim/grid.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Generating ../../touches/clang-tidy/ran-src-nvim-grid-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-grid-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/grid.h
+
+touches/clang-tidy/ran-src-nvim-grid_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Generating ../../touches/clang-tidy/ran-src-nvim-grid_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-grid_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/grid_defs.h
+
+touches/clang-tidy/ran-src-nvim-hashtab-c: /home/nick/git/Src-Arc/neovim/src/nvim/hashtab.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Generating ../../touches/clang-tidy/ran-src-nvim-hashtab-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-hashtab-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/hashtab.c
+
+touches/clang-tidy/ran-src-nvim-hashtab-h: /home/nick/git/Src-Arc/neovim/src/nvim/hashtab.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Generating ../../touches/clang-tidy/ran-src-nvim-hashtab-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-hashtab-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/hashtab.h
+
+touches/clang-tidy/ran-src-nvim-help-c: /home/nick/git/Src-Arc/neovim/src/nvim/help.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Generating ../../touches/clang-tidy/ran-src-nvim-help-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-help-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/help.c
+
+touches/clang-tidy/ran-src-nvim-help-h: /home/nick/git/Src-Arc/neovim/src/nvim/help.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Generating ../../touches/clang-tidy/ran-src-nvim-help-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-help-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/help.h
+
+touches/clang-tidy/ran-src-nvim-highlight-c: /home/nick/git/Src-Arc/neovim/src/nvim/highlight.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Generating ../../touches/clang-tidy/ran-src-nvim-highlight-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-highlight-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/highlight.c
+
+touches/clang-tidy/ran-src-nvim-highlight-h: /home/nick/git/Src-Arc/neovim/src/nvim/highlight.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Generating ../../touches/clang-tidy/ran-src-nvim-highlight-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-highlight-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/highlight.h
+
+touches/clang-tidy/ran-src-nvim-highlight_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Generating ../../touches/clang-tidy/ran-src-nvim-highlight_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-highlight_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/highlight_defs.h
+
+touches/clang-tidy/ran-src-nvim-highlight_group-c: /home/nick/git/Src-Arc/neovim/src/nvim/highlight_group.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Generating ../../touches/clang-tidy/ran-src-nvim-highlight_group-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-highlight_group-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/highlight_group.c
+
+touches/clang-tidy/ran-src-nvim-highlight_group-h: /home/nick/git/Src-Arc/neovim/src/nvim/highlight_group.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Generating ../../touches/clang-tidy/ran-src-nvim-highlight_group-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-highlight_group-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/highlight_group.h
+
+touches/clang-tidy/ran-src-nvim-iconv-h: /home/nick/git/Src-Arc/neovim/src/nvim/iconv.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Generating ../../touches/clang-tidy/ran-src-nvim-iconv-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-iconv-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/iconv.h
+
+touches/clang-tidy/ran-src-nvim-indent-c: /home/nick/git/Src-Arc/neovim/src/nvim/indent.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Generating ../../touches/clang-tidy/ran-src-nvim-indent-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-indent-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/indent.c
+
+touches/clang-tidy/ran-src-nvim-indent-h: /home/nick/git/Src-Arc/neovim/src/nvim/indent.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Generating ../../touches/clang-tidy/ran-src-nvim-indent-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-indent-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/indent.h
+
+touches/clang-tidy/ran-src-nvim-indent_c-c: /home/nick/git/Src-Arc/neovim/src/nvim/indent_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Generating ../../touches/clang-tidy/ran-src-nvim-indent_c-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-indent_c-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/indent_c.c
+
+touches/clang-tidy/ran-src-nvim-indent_c-h: /home/nick/git/Src-Arc/neovim/src/nvim/indent_c.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Generating ../../touches/clang-tidy/ran-src-nvim-indent_c-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-indent_c-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/indent_c.h
+
+touches/clang-tidy/ran-src-nvim-input-c: /home/nick/git/Src-Arc/neovim/src/nvim/input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Generating ../../touches/clang-tidy/ran-src-nvim-input-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-input-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/input.c
+
+touches/clang-tidy/ran-src-nvim-input-h: /home/nick/git/Src-Arc/neovim/src/nvim/input.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Generating ../../touches/clang-tidy/ran-src-nvim-input-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-input-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/input.h
+
+touches/clang-tidy/ran-src-nvim-insexpand-c: /home/nick/git/Src-Arc/neovim/src/nvim/insexpand.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Generating ../../touches/clang-tidy/ran-src-nvim-insexpand-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-insexpand-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/insexpand.c
+
+touches/clang-tidy/ran-src-nvim-insexpand-h: /home/nick/git/Src-Arc/neovim/src/nvim/insexpand.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Generating ../../touches/clang-tidy/ran-src-nvim-insexpand-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-insexpand-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/insexpand.h
+
+touches/clang-tidy/ran-src-nvim-keycodes-c: /home/nick/git/Src-Arc/neovim/src/nvim/keycodes.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Generating ../../touches/clang-tidy/ran-src-nvim-keycodes-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-keycodes-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/keycodes.c
+
+touches/clang-tidy/ran-src-nvim-keycodes-h: /home/nick/git/Src-Arc/neovim/src/nvim/keycodes.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Generating ../../touches/clang-tidy/ran-src-nvim-keycodes-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-keycodes-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/keycodes.h
+
+touches/clang-tidy/ran-src-nvim-linematch-c: /home/nick/git/Src-Arc/neovim/src/nvim/linematch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Generating ../../touches/clang-tidy/ran-src-nvim-linematch-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-linematch-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/linematch.c
+
+touches/clang-tidy/ran-src-nvim-linematch-h: /home/nick/git/Src-Arc/neovim/src/nvim/linematch.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Generating ../../touches/clang-tidy/ran-src-nvim-linematch-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-linematch-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/linematch.h
+
+touches/clang-tidy/ran-src-nvim-log-c: /home/nick/git/Src-Arc/neovim/src/nvim/log.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Generating ../../touches/clang-tidy/ran-src-nvim-log-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-log-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/log.c
+
+touches/clang-tidy/ran-src-nvim-log-h: /home/nick/git/Src-Arc/neovim/src/nvim/log.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Generating ../../touches/clang-tidy/ran-src-nvim-log-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-log-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/log.h
+
+touches/clang-tidy/ran-src-nvim-lua-converter-c: /home/nick/git/Src-Arc/neovim/src/nvim/lua/converter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-converter-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-lua-converter-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/lua/converter.c
+
+touches/clang-tidy/ran-src-nvim-lua-converter-h: /home/nick/git/Src-Arc/neovim/src/nvim/lua/converter.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-converter-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-lua-converter-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/lua/converter.h
+
+touches/clang-tidy/ran-src-nvim-lua-executor-c: /home/nick/git/Src-Arc/neovim/src/nvim/lua/executor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-executor-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-lua-executor-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/lua/executor.c
+
+touches/clang-tidy/ran-src-nvim-lua-executor-h: /home/nick/git/Src-Arc/neovim/src/nvim/lua/executor.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-executor-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-lua-executor-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/lua/executor.h
+
+touches/clang-tidy/ran-src-nvim-lua-spell-c: /home/nick/git/Src-Arc/neovim/src/nvim/lua/spell.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-spell-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-lua-spell-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/lua/spell.c
+
+touches/clang-tidy/ran-src-nvim-lua-spell-h: /home/nick/git/Src-Arc/neovim/src/nvim/lua/spell.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-spell-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-lua-spell-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/lua/spell.h
+
+touches/clang-tidy/ran-src-nvim-lua-stdlib-c: /home/nick/git/Src-Arc/neovim/src/nvim/lua/stdlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-stdlib-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-lua-stdlib-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/lua/stdlib.c
+
+touches/clang-tidy/ran-src-nvim-lua-stdlib-h: /home/nick/git/Src-Arc/neovim/src/nvim/lua/stdlib.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-stdlib-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-lua-stdlib-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/lua/stdlib.h
+
+touches/clang-tidy/ran-src-nvim-lua-treesitter-c: /home/nick/git/Src-Arc/neovim/src/nvim/lua/treesitter.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-treesitter-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-lua-treesitter-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/lua/treesitter.c
+
+touches/clang-tidy/ran-src-nvim-lua-treesitter-h: /home/nick/git/Src-Arc/neovim/src/nvim/lua/treesitter.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-treesitter-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-lua-treesitter-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/lua/treesitter.h
+
+touches/clang-tidy/ran-src-nvim-lua-xdiff-c: /home/nick/git/Src-Arc/neovim/src/nvim/lua/xdiff.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-xdiff-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-lua-xdiff-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/lua/xdiff.c
+
+touches/clang-tidy/ran-src-nvim-lua-xdiff-h: /home/nick/git/Src-Arc/neovim/src/nvim/lua/xdiff.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Generating ../../touches/clang-tidy/ran-src-nvim-lua-xdiff-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-lua-xdiff-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/lua/xdiff.h
+
+touches/clang-tidy/ran-src-nvim-macros-h: /home/nick/git/Src-Arc/neovim/src/nvim/macros.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Generating ../../touches/clang-tidy/ran-src-nvim-macros-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-macros-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/macros.h
+
+touches/clang-tidy/ran-src-nvim-main-c: /home/nick/git/Src-Arc/neovim/src/nvim/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Generating ../../touches/clang-tidy/ran-src-nvim-main-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-main-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/main.c
+
+touches/clang-tidy/ran-src-nvim-main-h: /home/nick/git/Src-Arc/neovim/src/nvim/main.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Generating ../../touches/clang-tidy/ran-src-nvim-main-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-main-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/main.h
+
+touches/clang-tidy/ran-src-nvim-map-c: /home/nick/git/Src-Arc/neovim/src/nvim/map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Generating ../../touches/clang-tidy/ran-src-nvim-map-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-map-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/map.c
+
+touches/clang-tidy/ran-src-nvim-map-h: /home/nick/git/Src-Arc/neovim/src/nvim/map.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Generating ../../touches/clang-tidy/ran-src-nvim-map-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-map-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/map.h
+
+touches/clang-tidy/ran-src-nvim-map_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/map_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Generating ../../touches/clang-tidy/ran-src-nvim-map_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-map_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/map_defs.h
+
+touches/clang-tidy/ran-src-nvim-mapping-c: /home/nick/git/Src-Arc/neovim/src/nvim/mapping.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Generating ../../touches/clang-tidy/ran-src-nvim-mapping-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-mapping-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/mapping.c
+
+touches/clang-tidy/ran-src-nvim-mapping-h: /home/nick/git/Src-Arc/neovim/src/nvim/mapping.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Generating ../../touches/clang-tidy/ran-src-nvim-mapping-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-mapping-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/mapping.h
+
+touches/clang-tidy/ran-src-nvim-mark-c: /home/nick/git/Src-Arc/neovim/src/nvim/mark.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Generating ../../touches/clang-tidy/ran-src-nvim-mark-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-mark-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/mark.c
+
+touches/clang-tidy/ran-src-nvim-mark-h: /home/nick/git/Src-Arc/neovim/src/nvim/mark.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Generating ../../touches/clang-tidy/ran-src-nvim-mark-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-mark-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/mark.h
+
+touches/clang-tidy/ran-src-nvim-mark_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/mark_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Generating ../../touches/clang-tidy/ran-src-nvim-mark_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-mark_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/mark_defs.h
+
+touches/clang-tidy/ran-src-nvim-marktree-c: /home/nick/git/Src-Arc/neovim/src/nvim/marktree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Generating ../../touches/clang-tidy/ran-src-nvim-marktree-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-marktree-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/marktree.c
+
+touches/clang-tidy/ran-src-nvim-marktree-h: /home/nick/git/Src-Arc/neovim/src/nvim/marktree.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Generating ../../touches/clang-tidy/ran-src-nvim-marktree-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-marktree-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/marktree.h
+
+touches/clang-tidy/ran-src-nvim-match-c: /home/nick/git/Src-Arc/neovim/src/nvim/match.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Generating ../../touches/clang-tidy/ran-src-nvim-match-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-match-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/match.c
+
+touches/clang-tidy/ran-src-nvim-match-h: /home/nick/git/Src-Arc/neovim/src/nvim/match.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Generating ../../touches/clang-tidy/ran-src-nvim-match-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-match-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/match.h
+
+touches/clang-tidy/ran-src-nvim-math-c: /home/nick/git/Src-Arc/neovim/src/nvim/math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Generating ../../touches/clang-tidy/ran-src-nvim-math-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-math-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/math.c
+
+touches/clang-tidy/ran-src-nvim-math-h: /home/nick/git/Src-Arc/neovim/src/nvim/math.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Generating ../../touches/clang-tidy/ran-src-nvim-math-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-math-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/math.h
+
+touches/clang-tidy/ran-src-nvim-mbyte-c: /home/nick/git/Src-Arc/neovim/src/nvim/mbyte.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Generating ../../touches/clang-tidy/ran-src-nvim-mbyte-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-mbyte-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/mbyte.c
+
+touches/clang-tidy/ran-src-nvim-mbyte-h: /home/nick/git/Src-Arc/neovim/src/nvim/mbyte.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Generating ../../touches/clang-tidy/ran-src-nvim-mbyte-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-mbyte-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/mbyte.h
+
+touches/clang-tidy/ran-src-nvim-mbyte_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/mbyte_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Generating ../../touches/clang-tidy/ran-src-nvim-mbyte_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-mbyte_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/mbyte_defs.h
+
+touches/clang-tidy/ran-src-nvim-memfile-c: /home/nick/git/Src-Arc/neovim/src/nvim/memfile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Generating ../../touches/clang-tidy/ran-src-nvim-memfile-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-memfile-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/memfile.c
+
+touches/clang-tidy/ran-src-nvim-memfile-h: /home/nick/git/Src-Arc/neovim/src/nvim/memfile.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Generating ../../touches/clang-tidy/ran-src-nvim-memfile-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-memfile-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/memfile.h
+
+touches/clang-tidy/ran-src-nvim-memfile_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/memfile_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Generating ../../touches/clang-tidy/ran-src-nvim-memfile_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-memfile_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/memfile_defs.h
+
+touches/clang-tidy/ran-src-nvim-memline-c: /home/nick/git/Src-Arc/neovim/src/nvim/memline.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Generating ../../touches/clang-tidy/ran-src-nvim-memline-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-memline-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/memline.c
+
+touches/clang-tidy/ran-src-nvim-memline-h: /home/nick/git/Src-Arc/neovim/src/nvim/memline.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Generating ../../touches/clang-tidy/ran-src-nvim-memline-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-memline-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/memline.h
+
+touches/clang-tidy/ran-src-nvim-memline_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/memline_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Generating ../../touches/clang-tidy/ran-src-nvim-memline_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-memline_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/memline_defs.h
+
+touches/clang-tidy/ran-src-nvim-memory-c: /home/nick/git/Src-Arc/neovim/src/nvim/memory.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Generating ../../touches/clang-tidy/ran-src-nvim-memory-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-memory-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/memory.c
+
+touches/clang-tidy/ran-src-nvim-memory-h: /home/nick/git/Src-Arc/neovim/src/nvim/memory.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Generating ../../touches/clang-tidy/ran-src-nvim-memory-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-memory-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/memory.h
+
+touches/clang-tidy/ran-src-nvim-menu-c: /home/nick/git/Src-Arc/neovim/src/nvim/menu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Generating ../../touches/clang-tidy/ran-src-nvim-menu-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-menu-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/menu.c
+
+touches/clang-tidy/ran-src-nvim-menu-h: /home/nick/git/Src-Arc/neovim/src/nvim/menu.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Generating ../../touches/clang-tidy/ran-src-nvim-menu-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-menu-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/menu.h
+
+touches/clang-tidy/ran-src-nvim-menu_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/menu_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Generating ../../touches/clang-tidy/ran-src-nvim-menu_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-menu_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/menu_defs.h
+
+touches/clang-tidy/ran-src-nvim-message-c: /home/nick/git/Src-Arc/neovim/src/nvim/message.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Generating ../../touches/clang-tidy/ran-src-nvim-message-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-message-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/message.c
+
+touches/clang-tidy/ran-src-nvim-message-h: /home/nick/git/Src-Arc/neovim/src/nvim/message.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_226) "Generating ../../touches/clang-tidy/ran-src-nvim-message-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-message-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/message.h
+
+touches/clang-tidy/ran-src-nvim-mouse-c: /home/nick/git/Src-Arc/neovim/src/nvim/mouse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_227) "Generating ../../touches/clang-tidy/ran-src-nvim-mouse-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-mouse-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/mouse.c
+
+touches/clang-tidy/ran-src-nvim-mouse-h: /home/nick/git/Src-Arc/neovim/src/nvim/mouse.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_228) "Generating ../../touches/clang-tidy/ran-src-nvim-mouse-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-mouse-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/mouse.h
+
+touches/clang-tidy/ran-src-nvim-move-c: /home/nick/git/Src-Arc/neovim/src/nvim/move.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_229) "Generating ../../touches/clang-tidy/ran-src-nvim-move-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-move-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/move.c
+
+touches/clang-tidy/ran-src-nvim-move-h: /home/nick/git/Src-Arc/neovim/src/nvim/move.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_230) "Generating ../../touches/clang-tidy/ran-src-nvim-move-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-move-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/move.h
+
+touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel-c: /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_231) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel.c
+
+touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel-h: /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_232) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel.h
+
+touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_233) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-channel_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/channel_defs.h
+
+touches/clang-tidy/ran-src-nvim-msgpack_rpc-helpers-c: /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/helpers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_234) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-helpers-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-helpers-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/helpers.c
+
+touches/clang-tidy/ran-src-nvim-msgpack_rpc-helpers-h: /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/helpers.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_235) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-helpers-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-helpers-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/helpers.h
+
+touches/clang-tidy/ran-src-nvim-msgpack_rpc-server-c: /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/server.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_236) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-server-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-server-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/server.c
+
+touches/clang-tidy/ran-src-nvim-msgpack_rpc-server-h: /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/server.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_237) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-server-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-server-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/server.h
+
+touches/clang-tidy/ran-src-nvim-msgpack_rpc-unpacker-c: /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/unpacker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_238) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-unpacker-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-unpacker-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/unpacker.c
+
+touches/clang-tidy/ran-src-nvim-msgpack_rpc-unpacker-h: /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/unpacker.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_239) "Generating ../../touches/clang-tidy/ran-src-nvim-msgpack_rpc-unpacker-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-msgpack_rpc-unpacker-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/msgpack_rpc/unpacker.h
+
+touches/clang-tidy/ran-src-nvim-normal-c: /home/nick/git/Src-Arc/neovim/src/nvim/normal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_240) "Generating ../../touches/clang-tidy/ran-src-nvim-normal-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-normal-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/normal.c
+
+touches/clang-tidy/ran-src-nvim-normal-h: /home/nick/git/Src-Arc/neovim/src/nvim/normal.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_241) "Generating ../../touches/clang-tidy/ran-src-nvim-normal-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-normal-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/normal.h
+
+touches/clang-tidy/ran-src-nvim-ops-c: /home/nick/git/Src-Arc/neovim/src/nvim/ops.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_242) "Generating ../../touches/clang-tidy/ran-src-nvim-ops-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ops-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ops.c
+
+touches/clang-tidy/ran-src-nvim-ops-h: /home/nick/git/Src-Arc/neovim/src/nvim/ops.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_243) "Generating ../../touches/clang-tidy/ran-src-nvim-ops-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ops-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ops.h
+
+touches/clang-tidy/ran-src-nvim-option-c: /home/nick/git/Src-Arc/neovim/src/nvim/option.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_244) "Generating ../../touches/clang-tidy/ran-src-nvim-option-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-option-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/option.c
+
+touches/clang-tidy/ran-src-nvim-option-h: /home/nick/git/Src-Arc/neovim/src/nvim/option.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_245) "Generating ../../touches/clang-tidy/ran-src-nvim-option-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-option-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/option.h
+
+touches/clang-tidy/ran-src-nvim-option_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/option_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_246) "Generating ../../touches/clang-tidy/ran-src-nvim-option_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-option_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/option_defs.h
+
+touches/clang-tidy/ran-src-nvim-optionstr-c: /home/nick/git/Src-Arc/neovim/src/nvim/optionstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_247) "Generating ../../touches/clang-tidy/ran-src-nvim-optionstr-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-optionstr-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/optionstr.c
+
+touches/clang-tidy/ran-src-nvim-optionstr-h: /home/nick/git/Src-Arc/neovim/src/nvim/optionstr.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_248) "Generating ../../touches/clang-tidy/ran-src-nvim-optionstr-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-optionstr-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/optionstr.h
+
+touches/clang-tidy/ran-src-nvim-os-dl-c: /home/nick/git/Src-Arc/neovim/src/nvim/os/dl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_249) "Generating ../../touches/clang-tidy/ran-src-nvim-os-dl-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-dl-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/dl.c
+
+touches/clang-tidy/ran-src-nvim-os-dl-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/dl.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_250) "Generating ../../touches/clang-tidy/ran-src-nvim-os-dl-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-dl-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/dl.h
+
+touches/clang-tidy/ran-src-nvim-os-env-c: /home/nick/git/Src-Arc/neovim/src/nvim/os/env.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_251) "Generating ../../touches/clang-tidy/ran-src-nvim-os-env-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-env-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/env.c
+
+touches/clang-tidy/ran-src-nvim-os-fileio-c: /home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_252) "Generating ../../touches/clang-tidy/ran-src-nvim-os-fileio-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-fileio-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.c
+
+touches/clang-tidy/ran-src-nvim-os-fileio-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_253) "Generating ../../touches/clang-tidy/ran-src-nvim-os-fileio-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-fileio-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/fileio.h
+
+touches/clang-tidy/ran-src-nvim-os-fs-c: /home/nick/git/Src-Arc/neovim/src/nvim/os/fs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_254) "Generating ../../touches/clang-tidy/ran-src-nvim-os-fs-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-fs-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/fs.c
+
+touches/clang-tidy/ran-src-nvim-os-fs-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/fs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_255) "Generating ../../touches/clang-tidy/ran-src-nvim-os-fs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-fs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/fs.h
+
+touches/clang-tidy/ran-src-nvim-os-fs_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/fs_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_256) "Generating ../../touches/clang-tidy/ran-src-nvim-os-fs_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-fs_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/fs_defs.h
+
+touches/clang-tidy/ran-src-nvim-os-input-c: /home/nick/git/Src-Arc/neovim/src/nvim/os/input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_257) "Generating ../../touches/clang-tidy/ran-src-nvim-os-input-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-input-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/input.c
+
+touches/clang-tidy/ran-src-nvim-os-input-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/input.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_258) "Generating ../../touches/clang-tidy/ran-src-nvim-os-input-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-input-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/input.h
+
+touches/clang-tidy/ran-src-nvim-os-lang-c: /home/nick/git/Src-Arc/neovim/src/nvim/os/lang.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_259) "Generating ../../touches/clang-tidy/ran-src-nvim-os-lang-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-lang-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/lang.c
+
+touches/clang-tidy/ran-src-nvim-os-lang-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/lang.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_260) "Generating ../../touches/clang-tidy/ran-src-nvim-os-lang-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-lang-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/lang.h
+
+touches/clang-tidy/ran-src-nvim-os-mem-c: /home/nick/git/Src-Arc/neovim/src/nvim/os/mem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_261) "Generating ../../touches/clang-tidy/ran-src-nvim-os-mem-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-mem-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/mem.c
+
+touches/clang-tidy/ran-src-nvim-os-os-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/os.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_262) "Generating ../../touches/clang-tidy/ran-src-nvim-os-os-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-os-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/os.h
+
+touches/clang-tidy/ran-src-nvim-os-os_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_263) "Generating ../../touches/clang-tidy/ran-src-nvim-os-os_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-os_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/os_defs.h
+
+touches/clang-tidy/ran-src-nvim-os-process-c: /home/nick/git/Src-Arc/neovim/src/nvim/os/process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_264) "Generating ../../touches/clang-tidy/ran-src-nvim-os-process-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-process-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/process.c
+
+touches/clang-tidy/ran-src-nvim-os-process-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/process.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_265) "Generating ../../touches/clang-tidy/ran-src-nvim-os-process-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-process-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/process.h
+
+touches/clang-tidy/ran-src-nvim-os-pty_process-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_266) "Generating ../../touches/clang-tidy/ran-src-nvim-os-pty_process-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-pty_process-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process.h
+
+touches/clang-tidy/ran-src-nvim-os-pty_process_unix-c: /home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process_unix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_267) "Generating ../../touches/clang-tidy/ran-src-nvim-os-pty_process_unix-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-pty_process_unix-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process_unix.c
+
+touches/clang-tidy/ran-src-nvim-os-pty_process_unix-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process_unix.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_268) "Generating ../../touches/clang-tidy/ran-src-nvim-os-pty_process_unix-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-pty_process_unix-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/pty_process_unix.h
+
+touches/clang-tidy/ran-src-nvim-os-shell-c: /home/nick/git/Src-Arc/neovim/src/nvim/os/shell.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_269) "Generating ../../touches/clang-tidy/ran-src-nvim-os-shell-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-shell-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/shell.c
+
+touches/clang-tidy/ran-src-nvim-os-shell-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/shell.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_270) "Generating ../../touches/clang-tidy/ran-src-nvim-os-shell-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-shell-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/shell.h
+
+touches/clang-tidy/ran-src-nvim-os-signal-c: /home/nick/git/Src-Arc/neovim/src/nvim/os/signal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_271) "Generating ../../touches/clang-tidy/ran-src-nvim-os-signal-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-signal-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/signal.c
+
+touches/clang-tidy/ran-src-nvim-os-signal-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/signal.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_272) "Generating ../../touches/clang-tidy/ran-src-nvim-os-signal-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-signal-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/signal.h
+
+touches/clang-tidy/ran-src-nvim-os-stdpaths-c: /home/nick/git/Src-Arc/neovim/src/nvim/os/stdpaths.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_273) "Generating ../../touches/clang-tidy/ran-src-nvim-os-stdpaths-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-stdpaths-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/stdpaths.c
+
+touches/clang-tidy/ran-src-nvim-os-stdpaths_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/stdpaths_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_274) "Generating ../../touches/clang-tidy/ran-src-nvim-os-stdpaths_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-stdpaths_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/stdpaths_defs.h
+
+touches/clang-tidy/ran-src-nvim-os-time-c: /home/nick/git/Src-Arc/neovim/src/nvim/os/time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_275) "Generating ../../touches/clang-tidy/ran-src-nvim-os-time-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-time-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/time.c
+
+touches/clang-tidy/ran-src-nvim-os-time-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/time.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_276) "Generating ../../touches/clang-tidy/ran-src-nvim-os-time-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-time-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/time.h
+
+touches/clang-tidy/ran-src-nvim-os-tty-c: /home/nick/git/Src-Arc/neovim/src/nvim/os/tty.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_277) "Generating ../../touches/clang-tidy/ran-src-nvim-os-tty-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-tty-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/tty.c
+
+touches/clang-tidy/ran-src-nvim-os-tty-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/tty.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_278) "Generating ../../touches/clang-tidy/ran-src-nvim-os-tty-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-tty-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/tty.h
+
+touches/clang-tidy/ran-src-nvim-os-unix_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_279) "Generating ../../touches/clang-tidy/ran-src-nvim-os-unix_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-unix_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/unix_defs.h
+
+touches/clang-tidy/ran-src-nvim-os-users-c: /home/nick/git/Src-Arc/neovim/src/nvim/os/users.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_280) "Generating ../../touches/clang-tidy/ran-src-nvim-os-users-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-os-users-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/os/users.c
+
+touches/clang-tidy/ran-src-nvim-path-c: /home/nick/git/Src-Arc/neovim/src/nvim/path.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_281) "Generating ../../touches/clang-tidy/ran-src-nvim-path-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-path-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/path.c
+
+touches/clang-tidy/ran-src-nvim-path-h: /home/nick/git/Src-Arc/neovim/src/nvim/path.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_282) "Generating ../../touches/clang-tidy/ran-src-nvim-path-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-path-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/path.h
+
+touches/clang-tidy/ran-src-nvim-plines-c: /home/nick/git/Src-Arc/neovim/src/nvim/plines.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_283) "Generating ../../touches/clang-tidy/ran-src-nvim-plines-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-plines-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/plines.c
+
+touches/clang-tidy/ran-src-nvim-plines-h: /home/nick/git/Src-Arc/neovim/src/nvim/plines.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_284) "Generating ../../touches/clang-tidy/ran-src-nvim-plines-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-plines-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/plines.h
+
+touches/clang-tidy/ran-src-nvim-popupmenu-c: /home/nick/git/Src-Arc/neovim/src/nvim/popupmenu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_285) "Generating ../../touches/clang-tidy/ran-src-nvim-popupmenu-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-popupmenu-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/popupmenu.c
+
+touches/clang-tidy/ran-src-nvim-popupmenu-h: /home/nick/git/Src-Arc/neovim/src/nvim/popupmenu.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_286) "Generating ../../touches/clang-tidy/ran-src-nvim-popupmenu-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-popupmenu-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/popupmenu.h
+
+touches/clang-tidy/ran-src-nvim-pos-h: /home/nick/git/Src-Arc/neovim/src/nvim/pos.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_287) "Generating ../../touches/clang-tidy/ran-src-nvim-pos-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-pos-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/pos.h
+
+touches/clang-tidy/ran-src-nvim-profile-c: /home/nick/git/Src-Arc/neovim/src/nvim/profile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_288) "Generating ../../touches/clang-tidy/ran-src-nvim-profile-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-profile-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/profile.c
+
+touches/clang-tidy/ran-src-nvim-profile-h: /home/nick/git/Src-Arc/neovim/src/nvim/profile.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_289) "Generating ../../touches/clang-tidy/ran-src-nvim-profile-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-profile-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/profile.h
+
+touches/clang-tidy/ran-src-nvim-quickfix-c: /home/nick/git/Src-Arc/neovim/src/nvim/quickfix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_290) "Generating ../../touches/clang-tidy/ran-src-nvim-quickfix-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-quickfix-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/quickfix.c
+
+touches/clang-tidy/ran-src-nvim-quickfix-h: /home/nick/git/Src-Arc/neovim/src/nvim/quickfix.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_291) "Generating ../../touches/clang-tidy/ran-src-nvim-quickfix-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-quickfix-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/quickfix.h
+
+touches/clang-tidy/ran-src-nvim-rbuffer-c: /home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_292) "Generating ../../touches/clang-tidy/ran-src-nvim-rbuffer-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-rbuffer-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.c
+
+touches/clang-tidy/ran-src-nvim-rbuffer-h: /home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_293) "Generating ../../touches/clang-tidy/ran-src-nvim-rbuffer-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-rbuffer-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/rbuffer.h
+
+touches/clang-tidy/ran-src-nvim-regexp-c: /home/nick/git/Src-Arc/neovim/src/nvim/regexp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_294) "Generating ../../touches/clang-tidy/ran-src-nvim-regexp-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-regexp-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/regexp.c
+
+touches/clang-tidy/ran-src-nvim-regexp-h: /home/nick/git/Src-Arc/neovim/src/nvim/regexp.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_295) "Generating ../../touches/clang-tidy/ran-src-nvim-regexp-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-regexp-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/regexp.h
+
+touches/clang-tidy/ran-src-nvim-regexp_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_296) "Generating ../../touches/clang-tidy/ran-src-nvim-regexp_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-regexp_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/regexp_defs.h
+
+touches/clang-tidy/ran-src-nvim-runtime-c: /home/nick/git/Src-Arc/neovim/src/nvim/runtime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_297) "Generating ../../touches/clang-tidy/ran-src-nvim-runtime-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-runtime-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/runtime.c
+
+touches/clang-tidy/ran-src-nvim-runtime-h: /home/nick/git/Src-Arc/neovim/src/nvim/runtime.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_298) "Generating ../../touches/clang-tidy/ran-src-nvim-runtime-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-runtime-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/runtime.h
+
+touches/clang-tidy/ran-src-nvim-search-c: /home/nick/git/Src-Arc/neovim/src/nvim/search.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_299) "Generating ../../touches/clang-tidy/ran-src-nvim-search-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-search-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/search.c
+
+touches/clang-tidy/ran-src-nvim-search-h: /home/nick/git/Src-Arc/neovim/src/nvim/search.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_300) "Generating ../../touches/clang-tidy/ran-src-nvim-search-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-search-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/search.h
+
+touches/clang-tidy/ran-src-nvim-sha256-c: /home/nick/git/Src-Arc/neovim/src/nvim/sha256.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_301) "Generating ../../touches/clang-tidy/ran-src-nvim-sha256-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-sha256-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/sha256.c
+
+touches/clang-tidy/ran-src-nvim-sha256-h: /home/nick/git/Src-Arc/neovim/src/nvim/sha256.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_302) "Generating ../../touches/clang-tidy/ran-src-nvim-sha256-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-sha256-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/sha256.h
+
+touches/clang-tidy/ran-src-nvim-shada-c: /home/nick/git/Src-Arc/neovim/src/nvim/shada.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_303) "Generating ../../touches/clang-tidy/ran-src-nvim-shada-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-shada-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/shada.c
+
+touches/clang-tidy/ran-src-nvim-shada-h: /home/nick/git/Src-Arc/neovim/src/nvim/shada.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_304) "Generating ../../touches/clang-tidy/ran-src-nvim-shada-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-shada-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/shada.h
+
+touches/clang-tidy/ran-src-nvim-sign-c: /home/nick/git/Src-Arc/neovim/src/nvim/sign.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_305) "Generating ../../touches/clang-tidy/ran-src-nvim-sign-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-sign-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/sign.c
+
+touches/clang-tidy/ran-src-nvim-sign-h: /home/nick/git/Src-Arc/neovim/src/nvim/sign.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_306) "Generating ../../touches/clang-tidy/ran-src-nvim-sign-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-sign-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/sign.h
+
+touches/clang-tidy/ran-src-nvim-sign_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/sign_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_307) "Generating ../../touches/clang-tidy/ran-src-nvim-sign_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-sign_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/sign_defs.h
+
+touches/clang-tidy/ran-src-nvim-spell-c: /home/nick/git/Src-Arc/neovim/src/nvim/spell.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_308) "Generating ../../touches/clang-tidy/ran-src-nvim-spell-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-spell-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/spell.c
+
+touches/clang-tidy/ran-src-nvim-spell-h: /home/nick/git/Src-Arc/neovim/src/nvim/spell.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_309) "Generating ../../touches/clang-tidy/ran-src-nvim-spell-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-spell-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/spell.h
+
+touches/clang-tidy/ran-src-nvim-spell_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/spell_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_310) "Generating ../../touches/clang-tidy/ran-src-nvim-spell_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-spell_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/spell_defs.h
+
+touches/clang-tidy/ran-src-nvim-spellfile-c: /home/nick/git/Src-Arc/neovim/src/nvim/spellfile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_311) "Generating ../../touches/clang-tidy/ran-src-nvim-spellfile-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-spellfile-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/spellfile.c
+
+touches/clang-tidy/ran-src-nvim-spellfile-h: /home/nick/git/Src-Arc/neovim/src/nvim/spellfile.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_312) "Generating ../../touches/clang-tidy/ran-src-nvim-spellfile-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-spellfile-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/spellfile.h
+
+touches/clang-tidy/ran-src-nvim-spellsuggest-c: /home/nick/git/Src-Arc/neovim/src/nvim/spellsuggest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_313) "Generating ../../touches/clang-tidy/ran-src-nvim-spellsuggest-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-spellsuggest-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/spellsuggest.c
+
+touches/clang-tidy/ran-src-nvim-spellsuggest-h: /home/nick/git/Src-Arc/neovim/src/nvim/spellsuggest.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_314) "Generating ../../touches/clang-tidy/ran-src-nvim-spellsuggest-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-spellsuggest-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/spellsuggest.h
+
+touches/clang-tidy/ran-src-nvim-state-c: /home/nick/git/Src-Arc/neovim/src/nvim/state.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_315) "Generating ../../touches/clang-tidy/ran-src-nvim-state-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-state-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/state.c
+
+touches/clang-tidy/ran-src-nvim-state-h: /home/nick/git/Src-Arc/neovim/src/nvim/state.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_316) "Generating ../../touches/clang-tidy/ran-src-nvim-state-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-state-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/state.h
+
+touches/clang-tidy/ran-src-nvim-statusline-c: /home/nick/git/Src-Arc/neovim/src/nvim/statusline.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_317) "Generating ../../touches/clang-tidy/ran-src-nvim-statusline-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-statusline-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/statusline.c
+
+touches/clang-tidy/ran-src-nvim-statusline-h: /home/nick/git/Src-Arc/neovim/src/nvim/statusline.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_318) "Generating ../../touches/clang-tidy/ran-src-nvim-statusline-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-statusline-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/statusline.h
+
+touches/clang-tidy/ran-src-nvim-statusline_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/statusline_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_319) "Generating ../../touches/clang-tidy/ran-src-nvim-statusline_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-statusline_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/statusline_defs.h
+
+touches/clang-tidy/ran-src-nvim-strings-c: /home/nick/git/Src-Arc/neovim/src/nvim/strings.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_320) "Generating ../../touches/clang-tidy/ran-src-nvim-strings-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-strings-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/strings.c
+
+touches/clang-tidy/ran-src-nvim-strings-h: /home/nick/git/Src-Arc/neovim/src/nvim/strings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_321) "Generating ../../touches/clang-tidy/ran-src-nvim-strings-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-strings-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/strings.h
+
+touches/clang-tidy/ran-src-nvim-syntax-c: /home/nick/git/Src-Arc/neovim/src/nvim/syntax.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_322) "Generating ../../touches/clang-tidy/ran-src-nvim-syntax-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-syntax-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/syntax.c
+
+touches/clang-tidy/ran-src-nvim-syntax-h: /home/nick/git/Src-Arc/neovim/src/nvim/syntax.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_323) "Generating ../../touches/clang-tidy/ran-src-nvim-syntax-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-syntax-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/syntax.h
+
+touches/clang-tidy/ran-src-nvim-syntax_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/syntax_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_324) "Generating ../../touches/clang-tidy/ran-src-nvim-syntax_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-syntax_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/syntax_defs.h
+
+touches/clang-tidy/ran-src-nvim-tag-c: /home/nick/git/Src-Arc/neovim/src/nvim/tag.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_325) "Generating ../../touches/clang-tidy/ran-src-nvim-tag-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-tag-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/tag.c
+
+touches/clang-tidy/ran-src-nvim-tag-h: /home/nick/git/Src-Arc/neovim/src/nvim/tag.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_326) "Generating ../../touches/clang-tidy/ran-src-nvim-tag-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-tag-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/tag.h
+
+touches/clang-tidy/ran-src-nvim-terminal-c: /home/nick/git/Src-Arc/neovim/src/nvim/terminal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_327) "Generating ../../touches/clang-tidy/ran-src-nvim-terminal-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-terminal-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/terminal.c
+
+touches/clang-tidy/ran-src-nvim-terminal-h: /home/nick/git/Src-Arc/neovim/src/nvim/terminal.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_328) "Generating ../../touches/clang-tidy/ran-src-nvim-terminal-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-terminal-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/terminal.h
+
+touches/clang-tidy/ran-src-nvim-testing-c: /home/nick/git/Src-Arc/neovim/src/nvim/testing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_329) "Generating ../../touches/clang-tidy/ran-src-nvim-testing-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-testing-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/testing.c
+
+touches/clang-tidy/ran-src-nvim-testing-h: /home/nick/git/Src-Arc/neovim/src/nvim/testing.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_330) "Generating ../../touches/clang-tidy/ran-src-nvim-testing-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-testing-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/testing.h
+
+touches/clang-tidy/ran-src-nvim-textformat-c: /home/nick/git/Src-Arc/neovim/src/nvim/textformat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_331) "Generating ../../touches/clang-tidy/ran-src-nvim-textformat-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-textformat-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/textformat.c
+
+touches/clang-tidy/ran-src-nvim-textformat-h: /home/nick/git/Src-Arc/neovim/src/nvim/textformat.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_332) "Generating ../../touches/clang-tidy/ran-src-nvim-textformat-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-textformat-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/textformat.h
+
+touches/clang-tidy/ran-src-nvim-textobject-c: /home/nick/git/Src-Arc/neovim/src/nvim/textobject.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_333) "Generating ../../touches/clang-tidy/ran-src-nvim-textobject-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-textobject-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/textobject.c
+
+touches/clang-tidy/ran-src-nvim-textobject-h: /home/nick/git/Src-Arc/neovim/src/nvim/textobject.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_334) "Generating ../../touches/clang-tidy/ran-src-nvim-textobject-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-textobject-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/textobject.h
+
+touches/clang-tidy/ran-src-nvim-tui-input-c: /home/nick/git/Src-Arc/neovim/src/nvim/tui/input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_335) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-input-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-tui-input-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/tui/input.c
+
+touches/clang-tidy/ran-src-nvim-tui-input-h: /home/nick/git/Src-Arc/neovim/src/nvim/tui/input.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_336) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-input-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-tui-input-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/tui/input.h
+
+touches/clang-tidy/ran-src-nvim-tui-input_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/tui/input_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_337) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-input_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-tui-input_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/tui/input_defs.h
+
+touches/clang-tidy/ran-src-nvim-tui-terminfo-c: /home/nick/git/Src-Arc/neovim/src/nvim/tui/terminfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_338) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-terminfo-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-tui-terminfo-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/tui/terminfo.c
+
+touches/clang-tidy/ran-src-nvim-tui-terminfo-h: /home/nick/git/Src-Arc/neovim/src/nvim/tui/terminfo.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_339) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-terminfo-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-tui-terminfo-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/tui/terminfo.h
+
+touches/clang-tidy/ran-src-nvim-tui-terminfo_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/tui/terminfo_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_340) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-terminfo_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-tui-terminfo_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/tui/terminfo_defs.h
+
+touches/clang-tidy/ran-src-nvim-tui-tui-c: /home/nick/git/Src-Arc/neovim/src/nvim/tui/tui.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_341) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-tui-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-tui-tui-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/tui/tui.c
+
+touches/clang-tidy/ran-src-nvim-tui-tui-h: /home/nick/git/Src-Arc/neovim/src/nvim/tui/tui.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_342) "Generating ../../touches/clang-tidy/ran-src-nvim-tui-tui-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-tui-tui-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/tui/tui.h
+
+touches/clang-tidy/ran-src-nvim-types-h: /home/nick/git/Src-Arc/neovim/src/nvim/types.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_343) "Generating ../../touches/clang-tidy/ran-src-nvim-types-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-types-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/types.h
+
+touches/clang-tidy/ran-src-nvim-ugrid-c: /home/nick/git/Src-Arc/neovim/src/nvim/ugrid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_344) "Generating ../../touches/clang-tidy/ran-src-nvim-ugrid-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ugrid-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ugrid.c
+
+touches/clang-tidy/ran-src-nvim-ugrid-h: /home/nick/git/Src-Arc/neovim/src/nvim/ugrid.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_345) "Generating ../../touches/clang-tidy/ran-src-nvim-ugrid-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ugrid-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ugrid.h
+
+touches/clang-tidy/ran-src-nvim-ui-c: /home/nick/git/Src-Arc/neovim/src/nvim/ui.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_346) "Generating ../../touches/clang-tidy/ran-src-nvim-ui-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ui-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ui.c
+
+touches/clang-tidy/ran-src-nvim-ui-h: /home/nick/git/Src-Arc/neovim/src/nvim/ui.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_347) "Generating ../../touches/clang-tidy/ran-src-nvim-ui-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ui-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ui.h
+
+touches/clang-tidy/ran-src-nvim-ui_client-c: /home/nick/git/Src-Arc/neovim/src/nvim/ui_client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_348) "Generating ../../touches/clang-tidy/ran-src-nvim-ui_client-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ui_client-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ui_client.c
+
+touches/clang-tidy/ran-src-nvim-ui_client-h: /home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_349) "Generating ../../touches/clang-tidy/ran-src-nvim-ui_client-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ui_client-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ui_client.h
+
+touches/clang-tidy/ran-src-nvim-ui_compositor-c: /home/nick/git/Src-Arc/neovim/src/nvim/ui_compositor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_350) "Generating ../../touches/clang-tidy/ran-src-nvim-ui_compositor-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ui_compositor-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ui_compositor.c
+
+touches/clang-tidy/ran-src-nvim-ui_compositor-h: /home/nick/git/Src-Arc/neovim/src/nvim/ui_compositor.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_351) "Generating ../../touches/clang-tidy/ran-src-nvim-ui_compositor-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-ui_compositor-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/ui_compositor.h
+
+touches/clang-tidy/ran-src-nvim-undo-c: /home/nick/git/Src-Arc/neovim/src/nvim/undo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_352) "Generating ../../touches/clang-tidy/ran-src-nvim-undo-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-undo-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/undo.c
+
+touches/clang-tidy/ran-src-nvim-undo-h: /home/nick/git/Src-Arc/neovim/src/nvim/undo.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_353) "Generating ../../touches/clang-tidy/ran-src-nvim-undo-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-undo-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/undo.h
+
+touches/clang-tidy/ran-src-nvim-undo_defs-h: /home/nick/git/Src-Arc/neovim/src/nvim/undo_defs.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_354) "Generating ../../touches/clang-tidy/ran-src-nvim-undo_defs-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-undo_defs-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/undo_defs.h
+
+touches/clang-tidy/ran-src-nvim-usercmd-c: /home/nick/git/Src-Arc/neovim/src/nvim/usercmd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_355) "Generating ../../touches/clang-tidy/ran-src-nvim-usercmd-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-usercmd-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/usercmd.c
+
+touches/clang-tidy/ran-src-nvim-usercmd-h: /home/nick/git/Src-Arc/neovim/src/nvim/usercmd.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_356) "Generating ../../touches/clang-tidy/ran-src-nvim-usercmd-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-usercmd-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/usercmd.h
+
+touches/clang-tidy/ran-src-nvim-version-c: /home/nick/git/Src-Arc/neovim/src/nvim/version.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_357) "Generating ../../touches/clang-tidy/ran-src-nvim-version-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-version-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/version.c
+
+touches/clang-tidy/ran-src-nvim-version-h: /home/nick/git/Src-Arc/neovim/src/nvim/version.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_358) "Generating ../../touches/clang-tidy/ran-src-nvim-version-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-version-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/version.h
+
+touches/clang-tidy/ran-src-nvim-vim-h: /home/nick/git/Src-Arc/neovim/src/nvim/vim.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_359) "Generating ../../touches/clang-tidy/ran-src-nvim-vim-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-vim-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/vim.h
+
+touches/clang-tidy/ran-src-nvim-viml-parser-expressions-c: /home/nick/git/Src-Arc/neovim/src/nvim/viml/parser/expressions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_360) "Generating ../../touches/clang-tidy/ran-src-nvim-viml-parser-expressions-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-viml-parser-expressions-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/viml/parser/expressions.c
+
+touches/clang-tidy/ran-src-nvim-viml-parser-expressions-h: /home/nick/git/Src-Arc/neovim/src/nvim/viml/parser/expressions.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_361) "Generating ../../touches/clang-tidy/ran-src-nvim-viml-parser-expressions-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-viml-parser-expressions-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/viml/parser/expressions.h
+
+touches/clang-tidy/ran-src-nvim-viml-parser-parser-c: /home/nick/git/Src-Arc/neovim/src/nvim/viml/parser/parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_362) "Generating ../../touches/clang-tidy/ran-src-nvim-viml-parser-parser-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-viml-parser-parser-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/viml/parser/parser.c
+
+touches/clang-tidy/ran-src-nvim-viml-parser-parser-h: /home/nick/git/Src-Arc/neovim/src/nvim/viml/parser/parser.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_363) "Generating ../../touches/clang-tidy/ran-src-nvim-viml-parser-parser-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-viml-parser-parser-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/viml/parser/parser.h
+
+touches/clang-tidy/ran-src-nvim-window-c: /home/nick/git/Src-Arc/neovim/src/nvim/window.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_364) "Generating ../../touches/clang-tidy/ran-src-nvim-window-c"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-window-c
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/window.c
+
+touches/clang-tidy/ran-src-nvim-window-h: /home/nick/git/Src-Arc/neovim/src/nvim/window.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_365) "Generating ../../touches/clang-tidy/ran-src-nvim-window-h"
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/build/touches/clang-tidy/ran-src-nvim-window-h
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/clang-tidy --quiet /home/nick/git/Src-Arc/neovim/src/nvim/window.h
 
 clang-tidy: src/nvim/CMakeFiles/clang-tidy
 clang-tidy: touches/clang-tidy/ran-src-nvim-api-autocmd-c
@@ -2631,10 +2631,10 @@ src/nvim/CMakeFiles/clang-tidy.dir/build: clang-tidy
 .PHONY : src/nvim/CMakeFiles/clang-tidy.dir/build
 
 src/nvim/CMakeFiles/clang-tidy.dir/clean:
-	cd /home/nick/dl/neovim/build/src/nvim && $(CMAKE_COMMAND) -P CMakeFiles/clang-tidy.dir/cmake_clean.cmake
+	cd /home/nick/git/Src-Arc/neovim/build/src/nvim && $(CMAKE_COMMAND) -P CMakeFiles/clang-tidy.dir/cmake_clean.cmake
 .PHONY : src/nvim/CMakeFiles/clang-tidy.dir/clean
 
 src/nvim/CMakeFiles/clang-tidy.dir/depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim /home/nick/dl/neovim/src/nvim /home/nick/dl/neovim/build /home/nick/dl/neovim/build/src/nvim /home/nick/dl/neovim/build/src/nvim/CMakeFiles/clang-tidy.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim/src/nvim /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build/src/nvim /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/clang-tidy.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/nvim/CMakeFiles/clang-tidy.dir/depend
 

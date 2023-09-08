@@ -1,8 +1,8 @@
 CMakeFiles/uv_a.dir/src/uv-data-getter-setters.c.o: \
- /home/nick/dl/neovim/.deps/build/src/libuv/src/uv-data-getter-setters.c \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv/src/uv-data-getter-setters.c \
  /usr/include/stdc-predef.h \
- /home/nick/dl/neovim/.deps/build/src/libuv/include/uv.h \
- /home/nick/dl/neovim/.deps/build/src/libuv/include/uv/errno.h \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv/include/uv.h \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv/include/uv/errno.h \
  /usr/include/errno.h /usr/include/features.h \
  /usr/include/features-time64.h /usr/include/bits/wordsize.h \
  /usr/include/bits/timesize.h /usr/include/sys/cdefs.h \
@@ -11,7 +11,7 @@ CMakeFiles/uv_a.dir/src/uv-data-getter-setters.c.o: \
  /usr/include/linux/errno.h /usr/include/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/bits/types/error_t.h \
- /home/nick/dl/neovim/.deps/build/src/libuv/include/uv/version.h \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv/include/uv/version.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdarg.h \
@@ -26,7 +26,7 @@ CMakeFiles/uv_a.dir/src/uv-data-getter-setters.c.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
- /home/nick/dl/neovim/.deps/build/src/libuv/include/uv/unix.h \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv/include/uv/unix.h \
  /usr/include/sys/types.h /usr/include/bits/types/clock_t.h \
  /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
  /usr/include/bits/types/timer_t.h /usr/include/endian.h \
@@ -103,5 +103,5 @@ CMakeFiles/uv_a.dir/src/uv-data-getter-setters.c.o: \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/bits/setjmp.h \
  /usr/include/bits/types/struct___jmp_buf_tag.h \
- /home/nick/dl/neovim/.deps/build/src/libuv/include/uv/threadpool.h \
- /home/nick/dl/neovim/.deps/build/src/libuv/include/uv/linux.h
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv/include/uv/threadpool.h \
+ /home/nick/git/Src-Arc/neovim/.deps/build/src/libuv/include/uv/linux.h

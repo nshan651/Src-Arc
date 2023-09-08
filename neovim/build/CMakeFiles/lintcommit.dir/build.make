@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 # Utility rule file for lintcommit.
 
@@ -67,7 +67,7 @@ include CMakeFiles/lintcommit.dir/compiler_depend.make
 include CMakeFiles/lintcommit.dir/progress.make
 
 CMakeFiles/lintcommit:
-	cd /home/nick/dl/neovim && /home/nick/dl/neovim/build/bin/nvim -u NONE -es -c "lua require('scripts.lintcommit').main({trace=false})"
+	cd /home/nick/git/Src-Arc/neovim && /home/nick/git/Src-Arc/neovim/build/bin/nvim -u NONE -es -c "lua require('scripts.lintcommit').main({trace=false})"
 
 lintcommit: CMakeFiles/lintcommit
 lintcommit: CMakeFiles/lintcommit.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/lintcommit.dir/clean:
 .PHONY : CMakeFiles/lintcommit.dir/clean
 
 CMakeFiles/lintcommit.dir/depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim /home/nick/dl/neovim /home/nick/dl/neovim/build /home/nick/dl/neovim/build /home/nick/dl/neovim/build/CMakeFiles/lintcommit.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build/CMakeFiles/lintcommit.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/lintcommit.dir/depend
 

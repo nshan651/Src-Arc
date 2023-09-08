@@ -1,7 +1,7 @@
-prefix=/home/nick/dl/neovim/.deps/usr
+prefix=/home/nick/git/Src-Arc/neovim/.deps/usr
 exec_prefix=${prefix}
-libdir=/home/nick/dl/neovim/.deps/usr/lib
-includedir=/home/nick/dl/neovim/.deps/usr/include
+libdir=/home/nick/git/Src-Arc/neovim/.deps/usr/lib
+includedir=/home/nick/git/Src-Arc/neovim/.deps/usr/include
 
 Name: libuv-static
 Version: 1.46.0

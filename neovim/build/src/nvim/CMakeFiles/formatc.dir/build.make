@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 # Utility rule file for formatc.
 
@@ -67,7 +67,7 @@ include src/nvim/CMakeFiles/formatc.dir/compiler_depend.make
 include src/nvim/CMakeFiles/formatc.dir/progress.make
 
 src/nvim/CMakeFiles/formatc:
-	cd /home/nick/dl/neovim && /usr/bin/cmake -D FORMAT_PRG=UNCRUSTIFY_PRG-NOTFOUND -D LANG=c -P /home/nick/dl/neovim/cmake/Format.cmake
+	cd /home/nick/git/Src-Arc/neovim && /usr/bin/cmake -D FORMAT_PRG=UNCRUSTIFY_PRG-NOTFOUND -D LANG=c -P /home/nick/git/Src-Arc/neovim/cmake/Format.cmake
 
 formatc: src/nvim/CMakeFiles/formatc
 formatc: src/nvim/CMakeFiles/formatc.dir/build.make
@@ -78,10 +78,10 @@ src/nvim/CMakeFiles/formatc.dir/build: formatc
 .PHONY : src/nvim/CMakeFiles/formatc.dir/build
 
 src/nvim/CMakeFiles/formatc.dir/clean:
-	cd /home/nick/dl/neovim/build/src/nvim && $(CMAKE_COMMAND) -P CMakeFiles/formatc.dir/cmake_clean.cmake
+	cd /home/nick/git/Src-Arc/neovim/build/src/nvim && $(CMAKE_COMMAND) -P CMakeFiles/formatc.dir/cmake_clean.cmake
 .PHONY : src/nvim/CMakeFiles/formatc.dir/clean
 
 src/nvim/CMakeFiles/formatc.dir/depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim /home/nick/dl/neovim/src/nvim /home/nick/dl/neovim/build /home/nick/dl/neovim/build/src/nvim /home/nick/dl/neovim/build/src/nvim/CMakeFiles/formatc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim/src/nvim /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build/src/nvim /home/nick/git/Src-Arc/neovim/build/src/nvim/CMakeFiles/formatc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/nvim/CMakeFiles/formatc.dir/depend
 

@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -isystem /home/nick/dl/neovim/.deps/usr/include
+C_INCLUDES = -isystem /home/nick/git/Src-Arc/neovim/.deps/usr/include
 
-C_FLAGS = -O2 -g -Og -g
+C_FLAGS = -g
 

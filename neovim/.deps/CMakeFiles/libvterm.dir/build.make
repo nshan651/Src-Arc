@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/cmake.deps
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/cmake.deps
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps
 
 # Utility rule file for libvterm.
 
@@ -76,53 +76,53 @@ CMakeFiles/libvterm-complete: build/src/libvterm-stamp/libvterm-patch
 CMakeFiles/libvterm-complete: build/src/libvterm-stamp/libvterm-configure
 CMakeFiles/libvterm-complete: build/src/libvterm-stamp/libvterm-build
 CMakeFiles/libvterm-complete: build/src/libvterm-stamp/libvterm-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libvterm'"
-	/usr/bin/cmake -E make_directory /home/nick/dl/neovim/.deps/CMakeFiles
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/CMakeFiles/libvterm-complete
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libvterm-stamp/libvterm-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libvterm'"
+	/usr/bin/cmake -E make_directory /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/libvterm-complete
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/libvterm-done
 
 build/src/libvterm-stamp/libvterm-build: build/src/libvterm-stamp/libvterm-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'libvterm'"
-	cd /home/nick/dl/neovim/.deps/build/src/libvterm-build && $(MAKE)
-	cd /home/nick/dl/neovim/.deps/build/src/libvterm-build && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libvterm-stamp/libvterm-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'libvterm'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build && $(MAKE)
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/libvterm-build
 
 build/src/libvterm-stamp/libvterm-configure: build/tmp/libvterm-cfgcmd.txt
 build/src/libvterm-stamp/libvterm-configure: build/tmp/libvterm-cache-RelWithDebInfo.cmake
 build/src/libvterm-stamp/libvterm-configure: build/src/libvterm-stamp/libvterm-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'libvterm'"
-	cd /home/nick/dl/neovim/.deps/build/src/libvterm-build && /usr/bin/cmake -D CMAKE_C_COMPILER=/usr/bin/cc -D CMAKE_C_STANDARD=99 -D "CMAKE_GENERATOR=Unix Makefiles" -D CMAKE_GENERATOR_PLATFORM= -D CMAKE_POSITION_INDEPENDENT_CODE=ON -D CMAKE_BUILD_TYPE=RelWithDebInfo -D CMAKE_INSTALL_PREFIX=/home/nick/dl/neovim/.deps/usr "-GUnix Makefiles" -C/home/nick/dl/neovim/.deps/build/tmp/libvterm-cache-RelWithDebInfo.cmake -S /home/nick/dl/neovim/.deps/build/src/libvterm -B /home/nick/dl/neovim/.deps/build/src/libvterm-build
-	cd /home/nick/dl/neovim/.deps/build/src/libvterm-build && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libvterm-stamp/libvterm-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'libvterm'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build && /usr/bin/cmake -D CMAKE_C_COMPILER=/usr/bin/cc -D CMAKE_C_STANDARD=99 -D "CMAKE_GENERATOR=Unix Makefiles" -D CMAKE_GENERATOR_PLATFORM= -D CMAKE_POSITION_INDEPENDENT_CODE=ON -D CMAKE_BUILD_TYPE=RelWithDebInfo -D CMAKE_INSTALL_PREFIX=/home/nick/git/Src-Arc/neovim/.deps/usr "-GUnix Makefiles" -C/home/nick/git/Src-Arc/neovim/.deps/build/tmp/libvterm-cache-RelWithDebInfo.cmake -S /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm -B /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/libvterm-configure
 
 build/src/libvterm-stamp/libvterm-download: build/src/libvterm-stamp/download-libvterm.cmake
 build/src/libvterm-stamp/libvterm-download: build/src/libvterm-stamp/libvterm-urlinfo.txt
 build/src/libvterm-stamp/libvterm-download: build/src/libvterm-stamp/libvterm-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'libvterm'"
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/libvterm-stamp/download-libvterm.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/libvterm-stamp/verify-libvterm.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/dl/neovim/.deps/build/src/libvterm-stamp/extract-libvterm.cmake
-	cd /home/nick/dl/neovim/.deps/build/src && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libvterm-stamp/libvterm-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'libvterm'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/download-libvterm.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/verify-libvterm.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -P /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/extract-libvterm.cmake
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/libvterm-download
 
 build/src/libvterm-stamp/libvterm-install: build/src/libvterm-stamp/libvterm-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'libvterm'"
-	cd /home/nick/dl/neovim/.deps/build/src/libvterm-build && $(MAKE) install
-	cd /home/nick/dl/neovim/.deps/build/src/libvterm-build && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libvterm-stamp/libvterm-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Performing install step for 'libvterm'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build && $(MAKE) install
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/libvterm-install
 
 build/src/libvterm-stamp/libvterm-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'libvterm'"
-	/usr/bin/cmake -Dcfgdir= -P /home/nick/dl/neovim/.deps/build/tmp/libvterm-mkdirs.cmake
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libvterm-stamp/libvterm-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'libvterm'"
+	/usr/bin/cmake -Dcfgdir= -P /home/nick/git/Src-Arc/neovim/.deps/build/tmp/libvterm-mkdirs.cmake
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/libvterm-mkdir
 
 build/src/libvterm-stamp/libvterm-patch: build/src/libvterm-stamp/libvterm-patch-info.txt
 build/src/libvterm-stamp/libvterm-patch: build/src/libvterm-stamp/libvterm-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing patch step for 'libvterm'"
-	cd /home/nick/dl/neovim/.deps/build/src/libvterm && /usr/bin/cmake -E copy /home/nick/dl/neovim/cmake.deps/cmake/LibvtermCMakeLists.txt /home/nick/dl/neovim/.deps/build/src/libvterm/CMakeLists.txt
-	cd /home/nick/dl/neovim/.deps/build/src/libvterm && /usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libvterm-stamp/libvterm-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing patch step for 'libvterm'"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm && /usr/bin/cmake -E copy /home/nick/git/Src-Arc/neovim/cmake.deps/cmake/LibvtermCMakeLists.txt /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/CMakeLists.txt
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm && /usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/libvterm-patch
 
 build/src/libvterm-stamp/libvterm-update: build/src/libvterm-stamp/libvterm-update-info.txt
 build/src/libvterm-stamp/libvterm-update: build/src/libvterm-stamp/libvterm-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/dl/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'libvterm'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'libvterm'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/nick/dl/neovim/.deps/build/src/libvterm-stamp/libvterm-update
+	/usr/bin/cmake -E touch /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-stamp/libvterm-update
 
 libvterm: CMakeFiles/libvterm
 libvterm: CMakeFiles/libvterm-complete
@@ -145,6 +145,6 @@ CMakeFiles/libvterm.dir/clean:
 .PHONY : CMakeFiles/libvterm.dir/clean
 
 CMakeFiles/libvterm.dir/depend:
-	cd /home/nick/dl/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/cmake.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps /home/nick/dl/neovim/.deps/CMakeFiles/libvterm.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/.deps && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/cmake.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps /home/nick/git/Src-Arc/neovim/.deps/CMakeFiles/libvterm.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/libvterm.dir/depend
 

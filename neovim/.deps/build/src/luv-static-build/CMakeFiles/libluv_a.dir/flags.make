@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/nick/dl/neovim/.deps/build/src/lua-compat-5.3/c-api
+C_INCLUDES = -I/home/nick/git/Src-Arc/neovim/.deps/build/src/lua-compat-5.3/c-api
 
-C_FLAGS = -I/home/nick/dl/neovim/.deps/usr/include -I/home/nick/dl/neovim/.deps/usr/include/luajit-2.1 -O2 -g -DNDEBUG -std=gnu99 -fPIC
+C_FLAGS = -I/home/nick/git/Src-Arc/neovim/.deps/usr/include -I/home/nick/git/Src-Arc/neovim/.deps/usr/include/luajit-2.1 -O2 -g -DNDEBUG -std=gnu99 -fPIC
 

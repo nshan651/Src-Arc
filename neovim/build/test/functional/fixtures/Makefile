@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool..."
-	cd /home/nick/dl/neovim/build && /usr/bin/cpack --config ./CPackConfig.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -78,7 +78,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Run CPack packaging tool for source..."
-	cd /home/nick/dl/neovim/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/nick/dl/neovim/build/CPackSourceConfig.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/nick/git/Src-Arc/neovim/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -152,14 +152,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/build/CMakeFiles /home/nick/dl/neovim/build/test/functional/fixtures//CMakeFiles/progress.marks
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/dl/neovim/build/CMakeFiles 0
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/build/CMakeFiles /home/nick/git/Src-Arc/neovim/build/test/functional/fixtures//CMakeFiles/progress.marks
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nick/git/Src-Arc/neovim/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/clean
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/clean
 .PHONY : clean
 
 # The main clean target
@@ -168,23 +168,23 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/preinstall
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/preinstall
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -P /home/nick/dl/neovim/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -P /home/nick/git/Src-Arc/neovim/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/functional/fixtures/CMakeFiles/tty-test.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/CMakeFiles/tty-test.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/CMakeFiles/tty-test.dir/rule
 .PHONY : test/functional/fixtures/CMakeFiles/tty-test.dir/rule
 
 # Convenience name for target.
@@ -193,12 +193,12 @@ tty-test: test/functional/fixtures/CMakeFiles/tty-test.dir/rule
 
 # fast build rule for target.
 tty-test/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/tty-test.dir/build.make test/functional/fixtures/CMakeFiles/tty-test.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/tty-test.dir/build.make test/functional/fixtures/CMakeFiles/tty-test.dir/build
 .PHONY : tty-test/fast
 
 # Convenience name for target.
 test/functional/fixtures/CMakeFiles/shell-test.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/CMakeFiles/shell-test.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/CMakeFiles/shell-test.dir/rule
 .PHONY : test/functional/fixtures/CMakeFiles/shell-test.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ shell-test: test/functional/fixtures/CMakeFiles/shell-test.dir/rule
 
 # fast build rule for target.
 shell-test/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/shell-test.dir/build.make test/functional/fixtures/CMakeFiles/shell-test.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/shell-test.dir/build.make test/functional/fixtures/CMakeFiles/shell-test.dir/build
 .PHONY : shell-test/fast
 
 # Convenience name for target.
 test/functional/fixtures/CMakeFiles/pwsh-test.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/CMakeFiles/pwsh-test.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/CMakeFiles/pwsh-test.dir/rule
 .PHONY : test/functional/fixtures/CMakeFiles/pwsh-test.dir/rule
 
 # Convenience name for target.
@@ -221,12 +221,12 @@ pwsh-test: test/functional/fixtures/CMakeFiles/pwsh-test.dir/rule
 
 # fast build rule for target.
 pwsh-test/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/pwsh-test.dir/build.make test/functional/fixtures/CMakeFiles/pwsh-test.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/pwsh-test.dir/build.make test/functional/fixtures/CMakeFiles/pwsh-test.dir/build
 .PHONY : pwsh-test/fast
 
 # Convenience name for target.
 test/functional/fixtures/CMakeFiles/printargs-test.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/CMakeFiles/printargs-test.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/CMakeFiles/printargs-test.dir/rule
 .PHONY : test/functional/fixtures/CMakeFiles/printargs-test.dir/rule
 
 # Convenience name for target.
@@ -235,12 +235,12 @@ printargs-test: test/functional/fixtures/CMakeFiles/printargs-test.dir/rule
 
 # fast build rule for target.
 printargs-test/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printargs-test.dir/build.make test/functional/fixtures/CMakeFiles/printargs-test.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printargs-test.dir/build.make test/functional/fixtures/CMakeFiles/printargs-test.dir/build
 .PHONY : printargs-test/fast
 
 # Convenience name for target.
 test/functional/fixtures/CMakeFiles/printenv-test.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/CMakeFiles/printenv-test.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/CMakeFiles/printenv-test.dir/rule
 .PHONY : test/functional/fixtures/CMakeFiles/printenv-test.dir/rule
 
 # Convenience name for target.
@@ -249,12 +249,12 @@ printenv-test: test/functional/fixtures/CMakeFiles/printenv-test.dir/rule
 
 # fast build rule for target.
 printenv-test/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printenv-test.dir/build.make test/functional/fixtures/CMakeFiles/printenv-test.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printenv-test.dir/build.make test/functional/fixtures/CMakeFiles/printenv-test.dir/build
 .PHONY : printenv-test/fast
 
 # Convenience name for target.
 test/functional/fixtures/CMakeFiles/streams-test.dir/rule:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/CMakeFiles/streams-test.dir/rule
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/functional/fixtures/CMakeFiles/streams-test.dir/rule
 .PHONY : test/functional/fixtures/CMakeFiles/streams-test.dir/rule
 
 # Convenience name for target.
@@ -263,7 +263,7 @@ streams-test: test/functional/fixtures/CMakeFiles/streams-test.dir/rule
 
 # fast build rule for target.
 streams-test/fast:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/streams-test.dir/build.make test/functional/fixtures/CMakeFiles/streams-test.dir/build
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/streams-test.dir/build.make test/functional/fixtures/CMakeFiles/streams-test.dir/build
 .PHONY : streams-test/fast
 
 printargs-test.o: printargs-test.c.o
@@ -271,7 +271,7 @@ printargs-test.o: printargs-test.c.o
 
 # target to build an object file
 printargs-test.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printargs-test.dir/build.make test/functional/fixtures/CMakeFiles/printargs-test.dir/printargs-test.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printargs-test.dir/build.make test/functional/fixtures/CMakeFiles/printargs-test.dir/printargs-test.c.o
 .PHONY : printargs-test.c.o
 
 printargs-test.i: printargs-test.c.i
@@ -279,7 +279,7 @@ printargs-test.i: printargs-test.c.i
 
 # target to preprocess a source file
 printargs-test.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printargs-test.dir/build.make test/functional/fixtures/CMakeFiles/printargs-test.dir/printargs-test.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printargs-test.dir/build.make test/functional/fixtures/CMakeFiles/printargs-test.dir/printargs-test.c.i
 .PHONY : printargs-test.c.i
 
 printargs-test.s: printargs-test.c.s
@@ -287,7 +287,7 @@ printargs-test.s: printargs-test.c.s
 
 # target to generate assembly for a file
 printargs-test.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printargs-test.dir/build.make test/functional/fixtures/CMakeFiles/printargs-test.dir/printargs-test.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printargs-test.dir/build.make test/functional/fixtures/CMakeFiles/printargs-test.dir/printargs-test.c.s
 .PHONY : printargs-test.c.s
 
 printenv-test.o: printenv-test.c.o
@@ -295,7 +295,7 @@ printenv-test.o: printenv-test.c.o
 
 # target to build an object file
 printenv-test.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printenv-test.dir/build.make test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printenv-test.dir/build.make test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.o
 .PHONY : printenv-test.c.o
 
 printenv-test.i: printenv-test.c.i
@@ -303,7 +303,7 @@ printenv-test.i: printenv-test.c.i
 
 # target to preprocess a source file
 printenv-test.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printenv-test.dir/build.make test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printenv-test.dir/build.make test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.i
 .PHONY : printenv-test.c.i
 
 printenv-test.s: printenv-test.c.s
@@ -311,7 +311,7 @@ printenv-test.s: printenv-test.c.s
 
 # target to generate assembly for a file
 printenv-test.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printenv-test.dir/build.make test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/printenv-test.dir/build.make test/functional/fixtures/CMakeFiles/printenv-test.dir/printenv-test.c.s
 .PHONY : printenv-test.c.s
 
 shell-test.o: shell-test.c.o
@@ -319,8 +319,8 @@ shell-test.o: shell-test.c.o
 
 # target to build an object file
 shell-test.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/shell-test.dir/build.make test/functional/fixtures/CMakeFiles/shell-test.dir/shell-test.c.o
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/pwsh-test.dir/build.make test/functional/fixtures/CMakeFiles/pwsh-test.dir/shell-test.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/shell-test.dir/build.make test/functional/fixtures/CMakeFiles/shell-test.dir/shell-test.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/pwsh-test.dir/build.make test/functional/fixtures/CMakeFiles/pwsh-test.dir/shell-test.c.o
 .PHONY : shell-test.c.o
 
 shell-test.i: shell-test.c.i
@@ -328,8 +328,8 @@ shell-test.i: shell-test.c.i
 
 # target to preprocess a source file
 shell-test.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/shell-test.dir/build.make test/functional/fixtures/CMakeFiles/shell-test.dir/shell-test.c.i
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/pwsh-test.dir/build.make test/functional/fixtures/CMakeFiles/pwsh-test.dir/shell-test.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/shell-test.dir/build.make test/functional/fixtures/CMakeFiles/shell-test.dir/shell-test.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/pwsh-test.dir/build.make test/functional/fixtures/CMakeFiles/pwsh-test.dir/shell-test.c.i
 .PHONY : shell-test.c.i
 
 shell-test.s: shell-test.c.s
@@ -337,8 +337,8 @@ shell-test.s: shell-test.c.s
 
 # target to generate assembly for a file
 shell-test.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/shell-test.dir/build.make test/functional/fixtures/CMakeFiles/shell-test.dir/shell-test.c.s
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/pwsh-test.dir/build.make test/functional/fixtures/CMakeFiles/pwsh-test.dir/shell-test.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/shell-test.dir/build.make test/functional/fixtures/CMakeFiles/shell-test.dir/shell-test.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/pwsh-test.dir/build.make test/functional/fixtures/CMakeFiles/pwsh-test.dir/shell-test.c.s
 .PHONY : shell-test.c.s
 
 streams-test.o: streams-test.c.o
@@ -346,7 +346,7 @@ streams-test.o: streams-test.c.o
 
 # target to build an object file
 streams-test.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/streams-test.dir/build.make test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/streams-test.dir/build.make test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.o
 .PHONY : streams-test.c.o
 
 streams-test.i: streams-test.c.i
@@ -354,7 +354,7 @@ streams-test.i: streams-test.c.i
 
 # target to preprocess a source file
 streams-test.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/streams-test.dir/build.make test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/streams-test.dir/build.make test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.i
 .PHONY : streams-test.c.i
 
 streams-test.s: streams-test.c.s
@@ -362,7 +362,7 @@ streams-test.s: streams-test.c.s
 
 # target to generate assembly for a file
 streams-test.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/streams-test.dir/build.make test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/streams-test.dir/build.make test/functional/fixtures/CMakeFiles/streams-test.dir/streams-test.c.s
 .PHONY : streams-test.c.s
 
 tty-test.o: tty-test.c.o
@@ -370,7 +370,7 @@ tty-test.o: tty-test.c.o
 
 # target to build an object file
 tty-test.c.o:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/tty-test.dir/build.make test/functional/fixtures/CMakeFiles/tty-test.dir/tty-test.c.o
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/tty-test.dir/build.make test/functional/fixtures/CMakeFiles/tty-test.dir/tty-test.c.o
 .PHONY : tty-test.c.o
 
 tty-test.i: tty-test.c.i
@@ -378,7 +378,7 @@ tty-test.i: tty-test.c.i
 
 # target to preprocess a source file
 tty-test.c.i:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/tty-test.dir/build.make test/functional/fixtures/CMakeFiles/tty-test.dir/tty-test.c.i
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/tty-test.dir/build.make test/functional/fixtures/CMakeFiles/tty-test.dir/tty-test.c.i
 .PHONY : tty-test.c.i
 
 tty-test.s: tty-test.c.s
@@ -386,7 +386,7 @@ tty-test.s: tty-test.c.s
 
 # target to generate assembly for a file
 tty-test.c.s:
-	cd /home/nick/dl/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/tty-test.dir/build.make test/functional/fixtures/CMakeFiles/tty-test.dir/tty-test.c.s
+	cd /home/nick/git/Src-Arc/neovim/build && $(MAKE) $(MAKESILENT) -f test/functional/fixtures/CMakeFiles/tty-test.dir/build.make test/functional/fixtures/CMakeFiles/tty-test.dir/tty-test.c.s
 .PHONY : tty-test.c.s
 
 # Help Target
@@ -435,7 +435,7 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -P /home/nick/dl/neovim/build/CMakeFiles/VerifyGlobs.cmake
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -P /home/nick/git/Src-Arc/neovim/build/CMakeFiles/VerifyGlobs.cmake
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

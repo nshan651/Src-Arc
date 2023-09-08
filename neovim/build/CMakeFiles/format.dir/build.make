@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/build
 
 # Utility rule file for format.
 
@@ -78,6 +78,6 @@ CMakeFiles/format.dir/clean:
 .PHONY : CMakeFiles/format.dir/clean
 
 CMakeFiles/format.dir/depend:
-	cd /home/nick/dl/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim /home/nick/dl/neovim /home/nick/dl/neovim/build /home/nick/dl/neovim/build /home/nick/dl/neovim/build/CMakeFiles/format.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build /home/nick/git/Src-Arc/neovim/build/CMakeFiles/format.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/format.dir/depend
 

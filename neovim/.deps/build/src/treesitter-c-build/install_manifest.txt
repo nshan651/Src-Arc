@@ -1,1 +1,1 @@
-/home/nick/dl/neovim/.deps/usr/lib/nvim/parser/c.so
+/home/nick/git/Src-Arc/neovim/.deps/usr/lib/nvim/parser/c.so

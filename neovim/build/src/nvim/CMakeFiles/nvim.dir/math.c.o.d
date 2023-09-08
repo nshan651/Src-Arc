@@ -1,5 +1,5 @@
 src/nvim/CMakeFiles/nvim.dir/math.c.o: \
- /home/nick/dl/neovim/src/nvim/math.c /usr/include/stdc-predef.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/math.c /usr/include/stdc-predef.h \
  /usr/include/math.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/bits/wordsize.h /usr/include/bits/timesize.h \
@@ -19,9 +19,9 @@ src/nvim/CMakeFiles/nvim.dir/math.c.o: \
  /usr/include/string.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /usr/include/strings.h /home/nick/dl/neovim/src/nvim/math.h \
- /home/nick/dl/neovim/build/include/math.h.generated.h \
- /home/nick/dl/neovim/src/nvim/func_attr.h \
- /home/nick/dl/neovim/src/nvim/macros.h \
- /home/nick/dl/neovim/build/cmake.config/auto/config.h \
- /home/nick/dl/neovim/build/src/nvim/auto/math.c.generated.h
+ /usr/include/strings.h /home/nick/git/Src-Arc/neovim/src/nvim/math.h \
+ /home/nick/git/Src-Arc/neovim/build/include/math.h.generated.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/func_attr.h \
+ /home/nick/git/Src-Arc/neovim/src/nvim/macros.h \
+ /home/nick/git/Src-Arc/neovim/build/cmake.config/auto/config.h \
+ /home/nick/git/Src-Arc/neovim/build/src/nvim/auto/math.c.generated.h

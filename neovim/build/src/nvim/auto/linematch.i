@@ -1,9 +1,9 @@
-# 0 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 0 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
 # 0 "<built-in>"
 # 0 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 0 "<command-line>" 2
-# 1 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
 
 
 
@@ -59,9 +59,9 @@ extern void __assert (const char *__assertion, const char *__file, int __line)
 
 
 
-# 5 "/home/nick/dl/neovim/src/nvim/linematch.c" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdbool.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/linematch.c" 2
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
 # 145 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 3 4
 typedef long int ptrdiff_t;
@@ -75,7 +75,7 @@ typedef struct {
   long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
 # 436 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 3 4
 } max_align_t;
-# 7 "/home/nick/dl/neovim/src/nvim/linematch.c" 2
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 2
 # 1 "/usr/include/string.h" 1 3 4
 # 26 "/usr/include/string.h" 3 4
 # 1 "/usr/include/bits/libc-header-start.h" 1 3 4
@@ -451,29 +451,29 @@ extern void *memfrob (void *__s, size_t __n) __attribute__ ((__nothrow__ , __lea
 extern char *basename (const char *__filename) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
 # 552 "/usr/include/string.h" 3 4
 
-# 8 "/home/nick/dl/neovim/src/nvim/linematch.c" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 2
 
-# 1 "/home/nick/dl/neovim/src/nvim/linematch.h" 1
-
-
-
-# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 5 "/home/nick/dl/neovim/src/nvim/linematch.h" 2
-# 10 "/home/nick/dl/neovim/src/nvim/linematch.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/macros.h" 1
-
-
-
-# 1 "/home/nick/dl/neovim/build/cmake.config/auto/config.h" 1
-# 5 "/home/nick/dl/neovim/src/nvim/macros.h" 2
-# 11 "/home/nick/dl/neovim/src/nvim/linematch.c" 2
-# 1 "/home/nick/dl/neovim/src/nvim/memory.h" 1
-
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.h" 1
 
 
 
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
-# 6 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.h" 2
+# 10 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/macros.h" 1
+
+
+
+# 1 "/home/nick/git/Src-Arc/neovim/build/cmake.config/auto/config.h" 1
+# 5 "/home/nick/git/Src-Arc/neovim/src/nvim/macros.h" 2
+# 11 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 2
+# 1 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 1
+
+
+
+
+# 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
+# 6 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 1 3 4
 # 9 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 3 4
 # 1 "/usr/include/stdint.h" 1 3 4
@@ -677,7 +677,7 @@ typedef unsigned long int uintptr_t;
 typedef __intmax_t intmax_t;
 typedef __uintmax_t uintmax_t;
 # 10 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stdint.h" 2 3 4
-# 7 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 7 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 # 1 "/usr/include/time.h" 1 3 4
 # 29 "/usr/include/time.h" 3 4
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include/stddef.h" 1 3 4
@@ -1038,13 +1038,13 @@ extern int getdate_r (const char *__restrict __string,
 
 
 
-# 8 "/home/nick/dl/neovim/src/nvim/memory.h" 2
+# 8 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h" 2
 
 
 
 
 
-# 12 "/home/nick/dl/neovim/src/nvim/memory.h"
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h"
 typedef void *(*MemMalloc)(size_t);
 
 
@@ -1055,7 +1055,7 @@ typedef void *(*MemCalloc)(size_t, size_t);
 
 
 typedef void *(*MemRealloc)(void *, size_t);
-# 42 "/home/nick/dl/neovim/src/nvim/memory.h"
+# 42 "/home/nick/git/Src-Arc/neovim/src/nvim/memory.h"
 extern size_t arena_alloc_count ;
 
 typedef struct consumed_blk {
@@ -1068,7 +1068,7 @@ typedef struct {
   char *cur_blk;
   size_t pos, size;
 } Arena;
-# 12 "/home/nick/dl/neovim/src/nvim/linematch.c" 2
+# 12 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 2
 
 
 typedef struct {
@@ -1143,16 +1143,16 @@ static void update_path_flat(diffcmppath_T *diffcmppath, int score, size_t to, s
   diffcmppath[to].df_lev_score = score;
   diffcmppath[to].df_path_idx = path_idx + 1;
 }
-# 102 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 102 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
 static int matching_chars(const char *s1, const char *s2)
 {
   size_t s1len = ((800 - 1) < (line_len(s1)) ? (800 - 1) : (line_len(s1)));
   size_t s2len = ((800 - 1) < (line_len(s2)) ? (800 - 1) : (line_len(s2)));
   int matrix[2][800] = { 0 };
   
-# 107 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
+# 107 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
  _Bool 
-# 107 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 107 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
       icur = 1;
   for (size_t i = 0; i < s1len; i++) {
     icur = !icur;
@@ -1183,9 +1183,9 @@ static int matching_chars(const char *s1, const char *s2)
 
 
 static int count_n_matched_chars(const char **sp, const size_t n, 
-# 136 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
+# 136 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
                                                                  _Bool 
-# 136 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 136 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
                                                                       iwhite)
 {
   int matched_chars = 0;
@@ -1193,13 +1193,13 @@ static int count_n_matched_chars(const char **sp, const size_t n,
   for (size_t i = 0; i < n; i++) {
     for (size_t j = i + 1; j < n; j++) {
       if (sp[i] != 
-# 142 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
+# 142 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
                   ((void *)0) 
-# 142 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 142 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
                        && sp[j] != 
-# 142 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
+# 142 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
                                    ((void *)0)
-# 142 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 142 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
                                        ) {
         matched++;
 
@@ -1228,14 +1228,14 @@ void fastforward_buf_to_lnum(const char **s, long lnum)
     (*s)++;
   }
 }
-# 182 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 182 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
 static void try_possible_paths(const int *df_iters, const size_t *paths, const int npaths,
                                const int path_idx, int *choice, diffcmppath_T *diffcmppath,
                                const int *diff_len, const size_t ndiffs, const char **diff_blk,
                                
-# 185 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
+# 185 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
                               _Bool 
-# 185 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 185 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
                                    iwhite)
 {
   if (path_idx == npaths) {
@@ -1253,9 +1253,9 @@ static void try_possible_paths(const int *df_iters, const size_t *paths, const i
           current_lines[k] = p;
         } else {
           current_lines[k] = 
-# 201 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
+# 201 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
                             ((void *)0)
-# 201 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 201 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
                                 ;
         }
       }
@@ -1309,13 +1309,13 @@ static size_t unwrap_indexes(const int *values, const int *diff_len, const size_
   }
   return path_idx;
 }
-# 264 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 264 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
 static void populate_tensor(int *df_iters, const size_t ch_dim, diffcmppath_T *diffcmppath,
                             const int *diff_len, const size_t ndiffs, const char **diff_blk,
                             
-# 266 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
+# 266 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
                            _Bool 
-# 266 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 266 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
                                 iwhite)
 {
   if (ch_dim == ndiffs) {
@@ -1342,51 +1342,51 @@ static void populate_tensor(int *df_iters, const size_t ch_dim, diffcmppath_T *d
                     ndiffs, diff_blk, iwhite);
   }
 }
-# 348 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 348 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
 size_t linematch_nbuffers(const char **diff_blk, const int *diff_len, const size_t ndiffs,
                           int **decisions, 
-# 349 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
+# 349 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
                                           _Bool 
-# 349 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 349 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
                                                iwhite)
 {
   
-# 351 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
+# 351 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
  ((void) sizeof ((
-# 351 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 351 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
  ndiffs <= 8
-# 351 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
+# 351 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
  ) ? 1 : 0), __extension__ ({ if (
-# 351 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 351 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
  ndiffs <= 8
-# 351 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
+# 351 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
  ) ; else __assert_fail (
-# 351 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 351 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
  "ndiffs <= LN_MAX_BUFS"
-# 351 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
- , "/home/nick/dl/neovim/src/nvim/linematch.c", 351, __extension__ __PRETTY_FUNCTION__); }))
-# 351 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 351 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
+ , "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c", 351, __extension__ __PRETTY_FUNCTION__); }))
+# 351 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
                               ;
 
   size_t memsize = 1;
   size_t memsize_decisions = 0;
   for (size_t i = 0; i < ndiffs; i++) {
     
-# 356 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
+# 356 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
    ((void) sizeof ((
-# 356 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 356 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
    diff_len[i] >= 0
-# 356 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
+# 356 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
    ) ? 1 : 0), __extension__ ({ if (
-# 356 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 356 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
    diff_len[i] >= 0
-# 356 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
+# 356 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
    ) ; else __assert_fail (
-# 356 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 356 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
    "diff_len[i] >= 0"
-# 356 "/home/nick/dl/neovim/src/nvim/linematch.c" 3 4
-   , "/home/nick/dl/neovim/src/nvim/linematch.c", 356, __extension__ __PRETTY_FUNCTION__); }))
-# 356 "/home/nick/dl/neovim/src/nvim/linematch.c"
+# 356 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c" 3 4
+   , "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c", 356, __extension__ __PRETTY_FUNCTION__); }))
+# 356 "/home/nick/git/Src-Arc/neovim/src/nvim/linematch.c"
                            ;
     memsize *= i == 0 ? 2 : (size_t)(diff_len[i] + 1);
     memsize_decisions += (size_t)diff_len[i];

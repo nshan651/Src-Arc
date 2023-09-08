@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nick/dl/neovim/.deps/build/src/libvterm
+CMAKE_SOURCE_DIR = /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nick/dl/neovim/.deps/build/src/libvterm-build
+CMAKE_BINARY_DIR = /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/vterm.dir/depend.make
@@ -70,130 +70,130 @@ include CMakeFiles/vterm.dir/progress.make
 include CMakeFiles/vterm.dir/flags.make
 
 CMakeFiles/vterm.dir/src/encoding.c.o: CMakeFiles/vterm.dir/flags.make
-CMakeFiles/vterm.dir/src/encoding.c.o: /home/nick/dl/neovim/.deps/build/src/libvterm/src/encoding.c
+CMakeFiles/vterm.dir/src/encoding.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/encoding.c
 CMakeFiles/vterm.dir/src/encoding.c.o: CMakeFiles/vterm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/vterm.dir/src/encoding.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/encoding.c.o -MF CMakeFiles/vterm.dir/src/encoding.c.o.d -o CMakeFiles/vterm.dir/src/encoding.c.o -c /home/nick/dl/neovim/.deps/build/src/libvterm/src/encoding.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/vterm.dir/src/encoding.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/encoding.c.o -MF CMakeFiles/vterm.dir/src/encoding.c.o.d -o CMakeFiles/vterm.dir/src/encoding.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/encoding.c
 
 CMakeFiles/vterm.dir/src/encoding.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vterm.dir/src/encoding.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/libvterm/src/encoding.c > CMakeFiles/vterm.dir/src/encoding.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/encoding.c > CMakeFiles/vterm.dir/src/encoding.c.i
 
 CMakeFiles/vterm.dir/src/encoding.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vterm.dir/src/encoding.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/libvterm/src/encoding.c -o CMakeFiles/vterm.dir/src/encoding.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/encoding.c -o CMakeFiles/vterm.dir/src/encoding.c.s
 
 CMakeFiles/vterm.dir/src/keyboard.c.o: CMakeFiles/vterm.dir/flags.make
-CMakeFiles/vterm.dir/src/keyboard.c.o: /home/nick/dl/neovim/.deps/build/src/libvterm/src/keyboard.c
+CMakeFiles/vterm.dir/src/keyboard.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/keyboard.c
 CMakeFiles/vterm.dir/src/keyboard.c.o: CMakeFiles/vterm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/vterm.dir/src/keyboard.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/keyboard.c.o -MF CMakeFiles/vterm.dir/src/keyboard.c.o.d -o CMakeFiles/vterm.dir/src/keyboard.c.o -c /home/nick/dl/neovim/.deps/build/src/libvterm/src/keyboard.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/vterm.dir/src/keyboard.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/keyboard.c.o -MF CMakeFiles/vterm.dir/src/keyboard.c.o.d -o CMakeFiles/vterm.dir/src/keyboard.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/keyboard.c
 
 CMakeFiles/vterm.dir/src/keyboard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vterm.dir/src/keyboard.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/libvterm/src/keyboard.c > CMakeFiles/vterm.dir/src/keyboard.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/keyboard.c > CMakeFiles/vterm.dir/src/keyboard.c.i
 
 CMakeFiles/vterm.dir/src/keyboard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vterm.dir/src/keyboard.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/libvterm/src/keyboard.c -o CMakeFiles/vterm.dir/src/keyboard.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/keyboard.c -o CMakeFiles/vterm.dir/src/keyboard.c.s
 
 CMakeFiles/vterm.dir/src/mouse.c.o: CMakeFiles/vterm.dir/flags.make
-CMakeFiles/vterm.dir/src/mouse.c.o: /home/nick/dl/neovim/.deps/build/src/libvterm/src/mouse.c
+CMakeFiles/vterm.dir/src/mouse.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/mouse.c
 CMakeFiles/vterm.dir/src/mouse.c.o: CMakeFiles/vterm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/vterm.dir/src/mouse.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/mouse.c.o -MF CMakeFiles/vterm.dir/src/mouse.c.o.d -o CMakeFiles/vterm.dir/src/mouse.c.o -c /home/nick/dl/neovim/.deps/build/src/libvterm/src/mouse.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/vterm.dir/src/mouse.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/mouse.c.o -MF CMakeFiles/vterm.dir/src/mouse.c.o.d -o CMakeFiles/vterm.dir/src/mouse.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/mouse.c
 
 CMakeFiles/vterm.dir/src/mouse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vterm.dir/src/mouse.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/libvterm/src/mouse.c > CMakeFiles/vterm.dir/src/mouse.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/mouse.c > CMakeFiles/vterm.dir/src/mouse.c.i
 
 CMakeFiles/vterm.dir/src/mouse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vterm.dir/src/mouse.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/libvterm/src/mouse.c -o CMakeFiles/vterm.dir/src/mouse.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/mouse.c -o CMakeFiles/vterm.dir/src/mouse.c.s
 
 CMakeFiles/vterm.dir/src/parser.c.o: CMakeFiles/vterm.dir/flags.make
-CMakeFiles/vterm.dir/src/parser.c.o: /home/nick/dl/neovim/.deps/build/src/libvterm/src/parser.c
+CMakeFiles/vterm.dir/src/parser.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/parser.c
 CMakeFiles/vterm.dir/src/parser.c.o: CMakeFiles/vterm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/vterm.dir/src/parser.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/parser.c.o -MF CMakeFiles/vterm.dir/src/parser.c.o.d -o CMakeFiles/vterm.dir/src/parser.c.o -c /home/nick/dl/neovim/.deps/build/src/libvterm/src/parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/vterm.dir/src/parser.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/parser.c.o -MF CMakeFiles/vterm.dir/src/parser.c.o.d -o CMakeFiles/vterm.dir/src/parser.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/parser.c
 
 CMakeFiles/vterm.dir/src/parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vterm.dir/src/parser.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/libvterm/src/parser.c > CMakeFiles/vterm.dir/src/parser.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/parser.c > CMakeFiles/vterm.dir/src/parser.c.i
 
 CMakeFiles/vterm.dir/src/parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vterm.dir/src/parser.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/libvterm/src/parser.c -o CMakeFiles/vterm.dir/src/parser.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/parser.c -o CMakeFiles/vterm.dir/src/parser.c.s
 
 CMakeFiles/vterm.dir/src/pen.c.o: CMakeFiles/vterm.dir/flags.make
-CMakeFiles/vterm.dir/src/pen.c.o: /home/nick/dl/neovim/.deps/build/src/libvterm/src/pen.c
+CMakeFiles/vterm.dir/src/pen.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/pen.c
 CMakeFiles/vterm.dir/src/pen.c.o: CMakeFiles/vterm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/vterm.dir/src/pen.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/pen.c.o -MF CMakeFiles/vterm.dir/src/pen.c.o.d -o CMakeFiles/vterm.dir/src/pen.c.o -c /home/nick/dl/neovim/.deps/build/src/libvterm/src/pen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/vterm.dir/src/pen.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/pen.c.o -MF CMakeFiles/vterm.dir/src/pen.c.o.d -o CMakeFiles/vterm.dir/src/pen.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/pen.c
 
 CMakeFiles/vterm.dir/src/pen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vterm.dir/src/pen.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/libvterm/src/pen.c > CMakeFiles/vterm.dir/src/pen.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/pen.c > CMakeFiles/vterm.dir/src/pen.c.i
 
 CMakeFiles/vterm.dir/src/pen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vterm.dir/src/pen.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/libvterm/src/pen.c -o CMakeFiles/vterm.dir/src/pen.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/pen.c -o CMakeFiles/vterm.dir/src/pen.c.s
 
 CMakeFiles/vterm.dir/src/screen.c.o: CMakeFiles/vterm.dir/flags.make
-CMakeFiles/vterm.dir/src/screen.c.o: /home/nick/dl/neovim/.deps/build/src/libvterm/src/screen.c
+CMakeFiles/vterm.dir/src/screen.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/screen.c
 CMakeFiles/vterm.dir/src/screen.c.o: CMakeFiles/vterm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/vterm.dir/src/screen.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/screen.c.o -MF CMakeFiles/vterm.dir/src/screen.c.o.d -o CMakeFiles/vterm.dir/src/screen.c.o -c /home/nick/dl/neovim/.deps/build/src/libvterm/src/screen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/vterm.dir/src/screen.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/screen.c.o -MF CMakeFiles/vterm.dir/src/screen.c.o.d -o CMakeFiles/vterm.dir/src/screen.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/screen.c
 
 CMakeFiles/vterm.dir/src/screen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vterm.dir/src/screen.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/libvterm/src/screen.c > CMakeFiles/vterm.dir/src/screen.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/screen.c > CMakeFiles/vterm.dir/src/screen.c.i
 
 CMakeFiles/vterm.dir/src/screen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vterm.dir/src/screen.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/libvterm/src/screen.c -o CMakeFiles/vterm.dir/src/screen.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/screen.c -o CMakeFiles/vterm.dir/src/screen.c.s
 
 CMakeFiles/vterm.dir/src/state.c.o: CMakeFiles/vterm.dir/flags.make
-CMakeFiles/vterm.dir/src/state.c.o: /home/nick/dl/neovim/.deps/build/src/libvterm/src/state.c
+CMakeFiles/vterm.dir/src/state.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/state.c
 CMakeFiles/vterm.dir/src/state.c.o: CMakeFiles/vterm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/vterm.dir/src/state.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/state.c.o -MF CMakeFiles/vterm.dir/src/state.c.o.d -o CMakeFiles/vterm.dir/src/state.c.o -c /home/nick/dl/neovim/.deps/build/src/libvterm/src/state.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/vterm.dir/src/state.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/state.c.o -MF CMakeFiles/vterm.dir/src/state.c.o.d -o CMakeFiles/vterm.dir/src/state.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/state.c
 
 CMakeFiles/vterm.dir/src/state.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vterm.dir/src/state.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/libvterm/src/state.c > CMakeFiles/vterm.dir/src/state.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/state.c > CMakeFiles/vterm.dir/src/state.c.i
 
 CMakeFiles/vterm.dir/src/state.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vterm.dir/src/state.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/libvterm/src/state.c -o CMakeFiles/vterm.dir/src/state.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/state.c -o CMakeFiles/vterm.dir/src/state.c.s
 
 CMakeFiles/vterm.dir/src/unicode.c.o: CMakeFiles/vterm.dir/flags.make
-CMakeFiles/vterm.dir/src/unicode.c.o: /home/nick/dl/neovim/.deps/build/src/libvterm/src/unicode.c
+CMakeFiles/vterm.dir/src/unicode.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/unicode.c
 CMakeFiles/vterm.dir/src/unicode.c.o: CMakeFiles/vterm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/vterm.dir/src/unicode.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/unicode.c.o -MF CMakeFiles/vterm.dir/src/unicode.c.o.d -o CMakeFiles/vterm.dir/src/unicode.c.o -c /home/nick/dl/neovim/.deps/build/src/libvterm/src/unicode.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/vterm.dir/src/unicode.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/unicode.c.o -MF CMakeFiles/vterm.dir/src/unicode.c.o.d -o CMakeFiles/vterm.dir/src/unicode.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/unicode.c
 
 CMakeFiles/vterm.dir/src/unicode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vterm.dir/src/unicode.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/libvterm/src/unicode.c > CMakeFiles/vterm.dir/src/unicode.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/unicode.c > CMakeFiles/vterm.dir/src/unicode.c.i
 
 CMakeFiles/vterm.dir/src/unicode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vterm.dir/src/unicode.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/libvterm/src/unicode.c -o CMakeFiles/vterm.dir/src/unicode.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/unicode.c -o CMakeFiles/vterm.dir/src/unicode.c.s
 
 CMakeFiles/vterm.dir/src/vterm.c.o: CMakeFiles/vterm.dir/flags.make
-CMakeFiles/vterm.dir/src/vterm.c.o: /home/nick/dl/neovim/.deps/build/src/libvterm/src/vterm.c
+CMakeFiles/vterm.dir/src/vterm.c.o: /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/vterm.c
 CMakeFiles/vterm.dir/src/vterm.c.o: CMakeFiles/vterm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/dl/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/vterm.dir/src/vterm.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/vterm.c.o -MF CMakeFiles/vterm.dir/src/vterm.c.o.d -o CMakeFiles/vterm.dir/src/vterm.c.o -c /home/nick/dl/neovim/.deps/build/src/libvterm/src/vterm.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/vterm.dir/src/vterm.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/vterm.dir/src/vterm.c.o -MF CMakeFiles/vterm.dir/src/vterm.c.o.d -o CMakeFiles/vterm.dir/src/vterm.c.o -c /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/vterm.c
 
 CMakeFiles/vterm.dir/src/vterm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/vterm.dir/src/vterm.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/dl/neovim/.deps/build/src/libvterm/src/vterm.c > CMakeFiles/vterm.dir/src/vterm.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/vterm.c > CMakeFiles/vterm.dir/src/vterm.c.i
 
 CMakeFiles/vterm.dir/src/vterm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/vterm.dir/src/vterm.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/dl/neovim/.deps/build/src/libvterm/src/vterm.c -o CMakeFiles/vterm.dir/src/vterm.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm/src/vterm.c -o CMakeFiles/vterm.dir/src/vterm.c.s
 
 # Object files for target vterm
 vterm_OBJECTS = \
@@ -221,7 +221,7 @@ libvterm.a: CMakeFiles/vterm.dir/src/unicode.c.o
 libvterm.a: CMakeFiles/vterm.dir/src/vterm.c.o
 libvterm.a: CMakeFiles/vterm.dir/build.make
 libvterm.a: CMakeFiles/vterm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/dl/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C static library libvterm.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C static library libvterm.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/vterm.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vterm.dir/link.txt --verbose=$(VERBOSE)
 
@@ -234,6 +234,6 @@ CMakeFiles/vterm.dir/clean:
 .PHONY : CMakeFiles/vterm.dir/clean
 
 CMakeFiles/vterm.dir/depend:
-	cd /home/nick/dl/neovim/.deps/build/src/libvterm-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/dl/neovim/.deps/build/src/libvterm /home/nick/dl/neovim/.deps/build/src/libvterm /home/nick/dl/neovim/.deps/build/src/libvterm-build /home/nick/dl/neovim/.deps/build/src/libvterm-build /home/nick/dl/neovim/.deps/build/src/libvterm-build/CMakeFiles/vterm.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build /home/nick/git/Src-Arc/neovim/.deps/build/src/libvterm-build/CMakeFiles/vterm.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/vterm.dir/depend
 
