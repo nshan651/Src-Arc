@@ -1,0 +1,1 @@
+/usr/bin/cc -O2 -g -Og -g "CMakeFiles/printargs-test.dir/printargs-test.c.o" -o ../../../bin/printargs-test  /home/nick/dl/neovim/.deps/usr/lib/libuv.a -lpthread -ldl -lrt 

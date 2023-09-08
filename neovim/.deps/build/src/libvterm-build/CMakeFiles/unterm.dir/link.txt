@@ -1,0 +1,1 @@
+/usr/bin/cc -O2 -g -DNDEBUG CMakeFiles/unterm.dir/bin/unterm.c.o -o unterm  libvterm.a 

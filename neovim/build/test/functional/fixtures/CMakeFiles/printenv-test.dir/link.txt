@@ -1,0 +1,1 @@
+/usr/bin/cc -O2 -g -Og -g "CMakeFiles/printenv-test.dir/printenv-test.c.o" -o ../../../bin/printenv-test  /home/nick/dl/neovim/.deps/usr/lib/libuv.a -lpthread -ldl -lrt 

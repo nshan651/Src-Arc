@@ -1,0 +1,941 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      The system is: Linux - 6.4.12-arch1-1 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/3.27.4/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-qcYK5Q"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-qcYK5Q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-qcYK5Q'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3d15a/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-qcYK5Q'
+        /usr/bin/make  -f CMakeFiles/cmTC_3d15a.dir/build.make CMakeFiles/cmTC_3d15a.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-qcYK5Q'
+        Building C object CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,objc,obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.1 20230801 (GCC) 
+        COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d15a.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3d15a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fPIE -o /tmp/ccbf60tt.s
+        GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 13.2.1 20230801, GMP version 6.3.0, MPFR version 4.2.0-p12, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        warning: MPFR header version 4.2.0-p12 differs from library version 4.2.1.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include
+         /usr/local/include
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 865c2688a4f1e3f13d6bf2cc8fd98762
+        COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d15a.dir/'
+         as -v --64 -o CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o /tmp/ccbf60tt.s
+        GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_3d15a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d15a.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o -o cmTC_3d15a 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /build/gcc/src/gcc/configure --enable-languages=ada,c,c++,d,fortran,go,lto,objc,obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.1 20230801 (GCC) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3d15a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3d15a.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cck68LmS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3d15a /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3d15a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3d15a.'
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-qcYK5Q'
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-qcYK5Q'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include;/usr/local/include;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:10 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-qcYK5Q']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3d15a/fast]
+        ignore line: [make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-qcYK5Q']
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_3d15a.dir/build.make CMakeFiles/cmTC_3d15a.dir/build]
+        ignore line: [make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-qcYK5Q']
+        ignore line: [Building C object CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -fPIE   -v -o CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto objc obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.1 20230801 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d15a.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3d15a.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fPIE -o /tmp/ccbf60tt.s]
+        ignore line: [GNU C17 (GCC) version 13.2.1 20230801 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.1 20230801  GMP version 6.3.0  MPFR version 4.2.0-p12  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [warning: MPFR header version 4.2.0-p12 differs from library version 4.2.1.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/include-fixed]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 865c2688a4f1e3f13d6bf2cc8fd98762]
+        ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d15a.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o /tmp/ccbf60tt.s]
+        ignore line: [GNU assembler version 2.41.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.41.0]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fPIE' '-v' '-o' 'CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_3d15a]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d15a.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o -o cmTC_3d15a ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /build/gcc/src/gcc/configure --enable-languages=ada c c++ d fortran go lto objc obj-c++ --enable-bootstrap --prefix=/usr --libdir=/usr/lib --libexecdir=/usr/lib --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=https://bugs.archlinux.org/ --with-build-config=bootstrap-lto --with-linker-hash-style=gnu --with-system-zlib --enable-__cxa_atexit --enable-cet=auto --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-default-ssp --enable-gnu-indirect-function --enable-gnu-unique-object --enable-libstdcxx-backtrace --enable-link-serialization=1 --enable-linker-build-id --enable-lto --enable-multilib --enable-plugin --enable-shared --enable-threads=posix --disable-libssp --disable-libstdcxx-pch --disable-werror]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.1 20230801 (GCC) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3d15a' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_3d15a.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cck68LmS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_3d15a /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../.. CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cck68LmS.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_3d15a] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..]
+          arg [CMakeFiles/cmTC_3d15a.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib/crtn.o] ==> [/usr/lib/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/Scrt1.o;/usr/lib/crti.o;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtbeginS.o;/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1/crtendS.o;/usr/lib/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/13.2.1;/usr/lib;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:102 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_W4"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-9EUHF7"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-9EUHF7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_W4"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-9EUHF7'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0a435/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-9EUHF7'
+        /usr/bin/make  -f CMakeFiles/cmTC_0a435.dir/build.make CMakeFiles/cmTC_0a435.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-9EUHF7'
+        Building C object CMakeFiles/cmTC_0a435.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_W4  -fPIE   /W4 -o CMakeFiles/cmTC_0a435.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-9EUHF7/src.c
+        cc: warning: /W4: linker input file unused because linking not done
+        cc: error: /W4: linker input file not found: No such file or directory
+        make[5]: *** [CMakeFiles/cmTC_0a435.dir/build.make:78: CMakeFiles/cmTC_0a435.dir/src.c.o] Error 1
+        make[5]: *** Deleting file 'CMakeFiles/cmTC_0a435.dir/src.c.o'
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-9EUHF7'
+        make[4]: *** [Makefile:127: cmTC_0a435/fast] Error 2
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-9EUHF7'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:103 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_NO_UNUSED_PARAMETER_MSVC"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-vxCmSc"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-vxCmSc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_NO_UNUSED_PARAMETER_MSVC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-vxCmSc'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_da60c/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-vxCmSc'
+        /usr/bin/make  -f CMakeFiles/cmTC_da60c.dir/build.make CMakeFiles/cmTC_da60c.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-vxCmSc'
+        Building C object CMakeFiles/cmTC_da60c.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_NO_UNUSED_PARAMETER_MSVC  -fPIE   /wd4100 -o CMakeFiles/cmTC_da60c.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-vxCmSc/src.c
+        cc: warning: /wd4100: linker input file unused because linking not done
+        cc: error: /wd4100: linker input file not found: No such file or directory
+        make[5]: *** [CMakeFiles/cmTC_da60c.dir/build.make:78: CMakeFiles/cmTC_da60c.dir/src.c.o] Error 1
+        make[5]: *** Deleting file 'CMakeFiles/cmTC_da60c.dir/src.c.o'
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-vxCmSc'
+        make[4]: *** [Makefile:127: cmTC_da60c/fast] Error 2
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-vxCmSc'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:104 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_NO_CONDITIONAL_CONSTANT_MSVC"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-gHZ3gr"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-gHZ3gr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_NO_CONDITIONAL_CONSTANT_MSVC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-gHZ3gr'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f9abf/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-gHZ3gr'
+        /usr/bin/make  -f CMakeFiles/cmTC_f9abf.dir/build.make CMakeFiles/cmTC_f9abf.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-gHZ3gr'
+        Building C object CMakeFiles/cmTC_f9abf.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_NO_CONDITIONAL_CONSTANT_MSVC  -fPIE   /wd4127 -o CMakeFiles/cmTC_f9abf.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-gHZ3gr/src.c
+        cc: warning: /wd4127: linker input file unused because linking not done
+        cc: error: /wd4127: linker input file not found: No such file or directory
+        make[5]: *** [CMakeFiles/cmTC_f9abf.dir/build.make:78: CMakeFiles/cmTC_f9abf.dir/src.c.o] Error 1
+        make[5]: *** Deleting file 'CMakeFiles/cmTC_f9abf.dir/src.c.o'
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-gHZ3gr'
+        make[4]: *** [Makefile:127: cmTC_f9abf/fast] Error 2
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-gHZ3gr'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:105 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_NO_NONSTANDARD_MSVC"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-ZYmsIE"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-ZYmsIE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_NO_NONSTANDARD_MSVC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-ZYmsIE'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6c6f0/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-ZYmsIE'
+        /usr/bin/make  -f CMakeFiles/cmTC_6c6f0.dir/build.make CMakeFiles/cmTC_6c6f0.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-ZYmsIE'
+        Building C object CMakeFiles/cmTC_6c6f0.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_NO_NONSTANDARD_MSVC  -fPIE   /wd4201 -o CMakeFiles/cmTC_6c6f0.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-ZYmsIE/src.c
+        cc: warning: /wd4201: linker input file unused because linking not done
+        cc: error: /wd4201: linker input file not found: No such file or directory
+        make[5]: *** [CMakeFiles/cmTC_6c6f0.dir/build.make:78: CMakeFiles/cmTC_6c6f0.dir/src.c.o] Error 1
+        make[5]: *** Deleting file 'CMakeFiles/cmTC_6c6f0.dir/src.c.o'
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-ZYmsIE'
+        make[4]: *** [Makefile:127: cmTC_6c6f0/fast] Error 2
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-ZYmsIE'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:106 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-v5DKFZ"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-v5DKFZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-v5DKFZ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_43605/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-v5DKFZ'
+        /usr/bin/make  -f CMakeFiles/cmTC_43605.dir/build.make CMakeFiles/cmTC_43605.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-v5DKFZ'
+        Building C object CMakeFiles/cmTC_43605.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC  -fPIE   /wd4206 -o CMakeFiles/cmTC_43605.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-v5DKFZ/src.c
+        cc: warning: /wd4206: linker input file unused because linking not done
+        cc: error: /wd4206: linker input file not found: No such file or directory
+        make[5]: *** [CMakeFiles/cmTC_43605.dir/build.make:78: CMakeFiles/cmTC_43605.dir/src.c.o] Error 1
+        make[5]: *** Deleting file 'CMakeFiles/cmTC_43605.dir/src.c.o'
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-v5DKFZ'
+        make[4]: *** [Makefile:127: cmTC_43605/fast] Error 2
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-v5DKFZ'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:107 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Fumw61"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Fumw61"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Fumw61'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a1049/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Fumw61'
+        /usr/bin/make  -f CMakeFiles/cmTC_a1049.dir/build.make CMakeFiles/cmTC_a1049.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Fumw61'
+        Building C object CMakeFiles/cmTC_a1049.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC  -fPIE   /wd4210 -o CMakeFiles/cmTC_a1049.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Fumw61/src.c
+        cc: warning: /wd4210: linker input file unused because linking not done
+        cc: error: /wd4210: linker input file not found: No such file or directory
+        make[5]: *** [CMakeFiles/cmTC_a1049.dir/build.make:78: CMakeFiles/cmTC_a1049.dir/src.c.o] Error 1
+        make[5]: *** Deleting file 'CMakeFiles/cmTC_a1049.dir/src.c.o'
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Fumw61'
+        make[4]: *** [Makefile:127: cmTC_a1049/fast] Error 2
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Fumw61'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:108 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-KKr98Q"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-KKr98Q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-KKr98Q'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3faaf/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-KKr98Q'
+        /usr/bin/make  -f CMakeFiles/cmTC_3faaf.dir/build.make CMakeFiles/cmTC_3faaf.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-KKr98Q'
+        Building C object CMakeFiles/cmTC_3faaf.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC  -fPIE   /wd4232 -o CMakeFiles/cmTC_3faaf.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-KKr98Q/src.c
+        cc: warning: /wd4232: linker input file unused because linking not done
+        cc: error: /wd4232: linker input file not found: No such file or directory
+        make[5]: *** [CMakeFiles/cmTC_3faaf.dir/build.make:78: CMakeFiles/cmTC_3faaf.dir/src.c.o] Error 1
+        make[5]: *** Deleting file 'CMakeFiles/cmTC_3faaf.dir/src.c.o'
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-KKr98Q'
+        make[4]: *** [Makefile:127: cmTC_3faaf/fast] Error 2
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-KKr98Q'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:109 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_NO_HIDES_LOCAL"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AYzWaz"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AYzWaz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_NO_HIDES_LOCAL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AYzWaz'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f7546/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AYzWaz'
+        /usr/bin/make  -f CMakeFiles/cmTC_f7546.dir/build.make CMakeFiles/cmTC_f7546.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AYzWaz'
+        Building C object CMakeFiles/cmTC_f7546.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_NO_HIDES_LOCAL  -fPIE   /wd4456 -o CMakeFiles/cmTC_f7546.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AYzWaz/src.c
+        cc: warning: /wd4456: linker input file unused because linking not done
+        cc: error: /wd4456: linker input file not found: No such file or directory
+        make[5]: *** [CMakeFiles/cmTC_f7546.dir/build.make:78: CMakeFiles/cmTC_f7546.dir/src.c.o] Error 1
+        make[5]: *** Deleting file 'CMakeFiles/cmTC_f7546.dir/src.c.o'
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AYzWaz'
+        make[4]: *** [Makefile:127: cmTC_f7546/fast] Error 2
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AYzWaz'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:110 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_NO_HIDES_PARAM"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AJhc2O"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AJhc2O"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_NO_HIDES_PARAM"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AJhc2O'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bc28c/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AJhc2O'
+        /usr/bin/make  -f CMakeFiles/cmTC_bc28c.dir/build.make CMakeFiles/cmTC_bc28c.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AJhc2O'
+        Building C object CMakeFiles/cmTC_bc28c.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_NO_HIDES_PARAM  -fPIE   /wd4457 -o CMakeFiles/cmTC_bc28c.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AJhc2O/src.c
+        cc: warning: /wd4457: linker input file unused because linking not done
+        cc: error: /wd4457: linker input file not found: No such file or directory
+        make[5]: *** [CMakeFiles/cmTC_bc28c.dir/build.make:78: CMakeFiles/cmTC_bc28c.dir/src.c.o] Error 1
+        make[5]: *** Deleting file 'CMakeFiles/cmTC_bc28c.dir/src.c.o'
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AJhc2O'
+        make[4]: *** [Makefile:127: cmTC_bc28c/fast] Error 2
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-AJhc2O'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:111 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_NO_HIDES_GLOBAL"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-DXGkHS"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-DXGkHS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_NO_HIDES_GLOBAL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-DXGkHS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9f878/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-DXGkHS'
+        /usr/bin/make  -f CMakeFiles/cmTC_9f878.dir/build.make CMakeFiles/cmTC_9f878.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-DXGkHS'
+        Building C object CMakeFiles/cmTC_9f878.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_NO_HIDES_GLOBAL  -fPIE   /wd4459 -o CMakeFiles/cmTC_9f878.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-DXGkHS/src.c
+        cc: warning: /wd4459: linker input file unused because linking not done
+        cc: error: /wd4459: linker input file not found: No such file or directory
+        make[5]: *** [CMakeFiles/cmTC_9f878.dir/build.make:78: CMakeFiles/cmTC_9f878.dir/src.c.o] Error 1
+        make[5]: *** Deleting file 'CMakeFiles/cmTC_9f878.dir/src.c.o'
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-DXGkHS'
+        make[4]: *** [Makefile:127: cmTC_9f878/fast] Error 2
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-DXGkHS'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:112 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-epaPeN"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-epaPeN"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-epaPeN'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_51ff1/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-epaPeN'
+        /usr/bin/make  -f CMakeFiles/cmTC_51ff1.dir/build.make CMakeFiles/cmTC_51ff1.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-epaPeN'
+        Building C object CMakeFiles/cmTC_51ff1.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC  -fPIE   /wd4706 -o CMakeFiles/cmTC_51ff1.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-epaPeN/src.c
+        cc: warning: /wd4706: linker input file unused because linking not done
+        cc: error: /wd4706: linker input file not found: No such file or directory
+        make[5]: *** [CMakeFiles/cmTC_51ff1.dir/build.make:78: CMakeFiles/cmTC_51ff1.dir/src.c.o] Error 1
+        make[5]: *** Deleting file 'CMakeFiles/cmTC_51ff1.dir/src.c.o'
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-epaPeN'
+        make[4]: *** [Makefile:127: cmTC_51ff1/fast] Error 2
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-epaPeN'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:113 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_NO_UNSAFE_MSVC"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-S3b9uS"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-S3b9uS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_NO_UNSAFE_MSVC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-S3b9uS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_fe75f/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-S3b9uS'
+        /usr/bin/make  -f CMakeFiles/cmTC_fe75f.dir/build.make CMakeFiles/cmTC_fe75f.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-S3b9uS'
+        Building C object CMakeFiles/cmTC_fe75f.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_NO_UNSAFE_MSVC  -fPIE   /wd4996 -o CMakeFiles/cmTC_fe75f.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-S3b9uS/src.c
+        cc: warning: /wd4996: linker input file unused because linking not done
+        cc: error: /wd4996: linker input file not found: No such file or directory
+        make[5]: *** [CMakeFiles/cmTC_fe75f.dir/build.make:78: CMakeFiles/cmTC_fe75f.dir/src.c.o] Error 1
+        make[5]: *** Deleting file 'CMakeFiles/cmTC_fe75f.dir/src.c.o'
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-S3b9uS'
+        make[4]: *** [Makefile:127: cmTC_fe75f/fast] Error 2
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-S3b9uS'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:115 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_WALL"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-jkfKmO"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-jkfKmO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-jkfKmO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e0fe3/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-jkfKmO'
+        /usr/bin/make  -f CMakeFiles/cmTC_e0fe3.dir/build.make CMakeFiles/cmTC_e0fe3.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-jkfKmO'
+        Building C object CMakeFiles/cmTC_e0fe3.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_WALL  -fPIE   -Wall -o CMakeFiles/cmTC_e0fe3.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-jkfKmO/src.c
+        Linking C executable cmTC_e0fe3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0fe3.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_e0fe3.dir/src.c.o -o cmTC_e0fe3 
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-jkfKmO'
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-jkfKmO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:118 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_NO_UNUSED_PARAMETER"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-X9iVQt"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-X9iVQt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_NO_UNUSED_PARAMETER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-X9iVQt'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5a11b/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-X9iVQt'
+        /usr/bin/make  -f CMakeFiles/cmTC_5a11b.dir/build.make CMakeFiles/cmTC_5a11b.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-X9iVQt'
+        Building C object CMakeFiles/cmTC_5a11b.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_NO_UNUSED_PARAMETER  -fPIE   -Wno-unused-parameter -o CMakeFiles/cmTC_5a11b.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-X9iVQt/src.c
+        Linking C executable cmTC_5a11b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a11b.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_5a11b.dir/src.c.o -o cmTC_5a11b 
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-X9iVQt'
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-X9iVQt'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:119 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_STRICT_PROTOTYPES"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-rBk7es"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-rBk7es"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_STRICT_PROTOTYPES"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-rBk7es'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bb73f/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-rBk7es'
+        /usr/bin/make  -f CMakeFiles/cmTC_bb73f.dir/build.make CMakeFiles/cmTC_bb73f.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-rBk7es'
+        Building C object CMakeFiles/cmTC_bb73f.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_STRICT_PROTOTYPES  -fPIE   -Wstrict-prototypes -o CMakeFiles/cmTC_bb73f.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-rBk7es/src.c
+        Linking C executable cmTC_bb73f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb73f.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_bb73f.dir/src.c.o -o cmTC_bb73f 
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-rBk7es'
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-rBk7es'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:120 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_EXTRA"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Y6qbZ3"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Y6qbZ3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_EXTRA"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Y6qbZ3'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c157b/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Y6qbZ3'
+        /usr/bin/make  -f CMakeFiles/cmTC_c157b.dir/build.make CMakeFiles/cmTC_c157b.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Y6qbZ3'
+        Building C object CMakeFiles/cmTC_c157b.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_EXTRA  -fPIE   -Wextra -o CMakeFiles/cmTC_c157b.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Y6qbZ3/src.c
+        Linking C executable cmTC_c157b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c157b.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_c157b.dir/src.c.o -o cmTC_c157b 
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Y6qbZ3'
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-Y6qbZ3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:122 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_LINT_UTF8_MSVC"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-LHSuGE"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-LHSuGE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_LINT_UTF8_MSVC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-LHSuGE'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5e7a7/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-LHSuGE'
+        /usr/bin/make  -f CMakeFiles/cmTC_5e7a7.dir/build.make CMakeFiles/cmTC_5e7a7.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-LHSuGE'
+        Building C object CMakeFiles/cmTC_5e7a7.dir/src.c.o
+        /usr/bin/cc -DUV_LINT_UTF8_MSVC  -fPIE   /utf-8 -o CMakeFiles/cmTC_5e7a7.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-LHSuGE/src.c
+        cc: warning: /utf-8: linker input file unused because linking not done
+        cc: error: /utf-8: linker input file not found: No such file or directory
+        make[5]: *** [CMakeFiles/cmTC_5e7a7.dir/build.make:78: CMakeFiles/cmTC_5e7a7.dir/src.c.o] Error 1
+        make[5]: *** Deleting file 'CMakeFiles/cmTC_5e7a7.dir/src.c.o'
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-LHSuGE'
+        make[4]: *** [Makefile:127: cmTC_5e7a7/fast] Error 2
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-LHSuGE'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:161 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test UV_F_STRICT_ALIASING"
+    directories:
+      source: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-nK2LtC"
+      binary: "/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-nK2LtC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/nick/dl/neovim/.deps/build/src/libuv/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "UV_F_STRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-nK2LtC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d596b/fast
+        make[4]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-nK2LtC'
+        /usr/bin/make  -f CMakeFiles/cmTC_d596b.dir/build.make CMakeFiles/cmTC_d596b.dir/build
+        make[5]: Entering directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-nK2LtC'
+        Building C object CMakeFiles/cmTC_d596b.dir/src.c.o
+        /usr/bin/cc -DUV_F_STRICT_ALIASING  -fPIE   -fno-strict-aliasing -o CMakeFiles/cmTC_d596b.dir/src.c.o -c /home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-nK2LtC/src.c
+        Linking C executable cmTC_d596b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d596b.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_d596b.dir/src.c.o -o cmTC_d596b 
+        make[5]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-nK2LtC'
+        make[4]: Leaving directory '/home/nick/dl/neovim/.deps/build/src/libuv-build/CMakeFiles/CMakeScratch/TryCompile-nK2LtC'
+        
+      exitCode: 0
+...

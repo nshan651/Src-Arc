@@ -1,0 +1,1 @@
+/usr/bin/cc -O2 -g -Og -g "CMakeFiles/streams-test.dir/streams-test.c.o" -o ../../../bin/streams-test  /home/nick/dl/neovim/.deps/usr/lib/libuv.a -lpthread -ldl -lrt 

@@ -1,0 +1,13 @@
+# Target labels
+ treesitter-vimdoc
+# Source files and their labels
+/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-vimdoc
+/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-vimdoc.rule
+/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-vimdoc-complete.rule
+/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-stamp/treesitter-vimdoc-build.rule
+/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-stamp/treesitter-vimdoc-configure.rule
+/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-stamp/treesitter-vimdoc-download.rule
+/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-stamp/treesitter-vimdoc-install.rule
+/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-stamp/treesitter-vimdoc-mkdir.rule
+/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-stamp/treesitter-vimdoc-patch.rule
+/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-stamp/treesitter-vimdoc-update.rule

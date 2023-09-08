@@ -1,0 +1,1 @@
+/usr/bin/cc -O2 -g -DNDEBUG "CMakeFiles/vterm-dump.dir/bin/vterm-dump.c.o" -o vterm-dump  libvterm.a 

@@ -1,0 +1,1 @@
+/usr/bin/cc -O2 -g -Og -g "CMakeFiles/tty-test.dir/tty-test.c.o" -o ../../../bin/tty-test  /home/nick/dl/neovim/.deps/usr/lib/libuv.a -lpthread -ldl -lrt 

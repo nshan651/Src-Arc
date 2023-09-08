@@ -1,0 +1,21 @@
+#ifndef AUTO_VERSIONDEF_H
+#define AUTO_VERSIONDEF_H
+
+#define NVIM_VERSION_MAJOR 0
+#define NVIM_VERSION_MINOR 9
+#define NVIM_VERSION_PATCH 2
+#define NVIM_VERSION_PRERELEASE ""
+
+/* #undef NVIM_VERSION_MEDIUM */
+#ifndef NVIM_VERSION_MEDIUM
+# include "auto/versiondef_git.h"
+#endif
+
+#define NVIM_API_LEVEL 11
+#define NVIM_API_LEVEL_COMPAT 0
+#define NVIM_API_PRERELEASE false
+
+#define NVIM_VERSION_CFLAGS "/usr/bin/cc $<$<CONFIG:Debug>:-g>$<$<CONFIG:Release>:-O2 -DNDEBUG>$<$<CONFIG:RelWithDebInfo>:-O2 -g -Og -g>$<$<CONFIG:MinSizeRel>:-Os -DNDEBUG> $<JOIN:$<TARGET_PROPERTY:nvim,COMPILE_OPTIONS>, > -D$<JOIN:$<TARGET_PROPERTY:nvim,COMPILE_DEFINITIONS>, -D> -I$<JOIN:$<TARGET_PROPERTY:nvim,INCLUDE_DIRECTORIES>, -I>"
+#define NVIM_VERSION_BUILD_TYPE "$<CONFIG>"
+
+#endif  // AUTO_VERSIONDEF_H

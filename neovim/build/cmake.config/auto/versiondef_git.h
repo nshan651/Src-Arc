@@ -1,0 +1,1 @@
+#define NVIM_VERSION_MEDIUM "v0.9.2"

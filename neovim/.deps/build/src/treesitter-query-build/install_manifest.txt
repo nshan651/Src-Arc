@@ -1,0 +1,1 @@
+/home/nick/dl/neovim/.deps/usr/lib/nvim/parser/query.so

@@ -1,0 +1,13 @@
+# Target labels
+ libuv
+# Source files and their labels
+/home/nick/dl/neovim/.deps/CMakeFiles/libuv
+/home/nick/dl/neovim/.deps/CMakeFiles/libuv.rule
+/home/nick/dl/neovim/.deps/CMakeFiles/libuv-complete.rule
+/home/nick/dl/neovim/.deps/build/src/libuv-stamp/libuv-build.rule
+/home/nick/dl/neovim/.deps/build/src/libuv-stamp/libuv-configure.rule
+/home/nick/dl/neovim/.deps/build/src/libuv-stamp/libuv-download.rule
+/home/nick/dl/neovim/.deps/build/src/libuv-stamp/libuv-install.rule
+/home/nick/dl/neovim/.deps/build/src/libuv-stamp/libuv-mkdir.rule
+/home/nick/dl/neovim/.deps/build/src/libuv-stamp/libuv-patch.rule
+/home/nick/dl/neovim/.deps/build/src/libuv-stamp/libuv-update.rule

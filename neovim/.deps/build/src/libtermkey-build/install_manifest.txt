@@ -1,0 +1,2 @@
+/home/nick/dl/neovim/.deps/usr/lib/libtermkey.a
+/home/nick/dl/neovim/.deps/usr/include/termkey.h

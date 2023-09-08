@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/home/nick/dl/neovim/.deps/build/src/treesitter-lua-stamp/download-treesitter-lua.cmake;COMMAND;/usr/bin/cmake;-P;/home/nick/dl/neovim/.deps/build/src/treesitter-lua-stamp/verify-treesitter-lua.cmake;COMMAND;/usr/bin/cmake;-P;/home/nick/dl/neovim/.deps/build/src/treesitter-lua-stamp/extract-treesitter-lua.cmake
+source_dir=/home/nick/dl/neovim/.deps/build/src/treesitter-lua
+work_dir=/home/nick/dl/neovim/.deps/build/src
+url(s)=https://github.com/MunifTanjim/tree-sitter-lua/archive/v0.0.18.tar.gz
+hash=SHA256=659beef871a7fa1d9a02c23f5ebf55019aa3adce6d7f5441947781e128845256
+no_extract=
+

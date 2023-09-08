@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-query"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-query.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-query-complete.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-build.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-configure.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-download.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-install.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-mkdir.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-patch.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-query-stamp/treesitter-query-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"treesitter-query"
+		],
+		"name" : "treesitter-query"
+	}
+}

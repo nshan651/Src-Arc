@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-vimdoc"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-vimdoc.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/treesitter-vimdoc-complete.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-stamp/treesitter-vimdoc-build.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-stamp/treesitter-vimdoc-configure.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-stamp/treesitter-vimdoc-download.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-stamp/treesitter-vimdoc-install.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-stamp/treesitter-vimdoc-mkdir.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-stamp/treesitter-vimdoc-patch.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/treesitter-vimdoc-stamp/treesitter-vimdoc-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"treesitter-vimdoc"
+		],
+		"name" : "treesitter-vimdoc"
+	}
+}

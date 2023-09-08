@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/luv-static"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/luv-static.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/CMakeFiles/luv-static-complete.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-build.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-configure.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-download.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-install.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-mkdir.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-patch.rule"
+		},
+		{
+			"file" : "/home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"luv-static"
+		],
+		"name" : "luv-static"
+	}
+}

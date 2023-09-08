@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtermkey.a CMakeFiles/termkey.dir/termkey.c.o "CMakeFiles/termkey.dir/driver-csi.c.o" "CMakeFiles/termkey.dir/driver-ti.c.o"
+/usr/bin/ranlib libtermkey.a

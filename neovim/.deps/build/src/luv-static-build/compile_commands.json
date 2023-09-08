@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/nick/dl/neovim/.deps/build/src/luv-static-build",
+  "command": "/usr/bin/cc  -I/home/nick/dl/neovim/.deps/build/src/lua-compat-5.3/c-api -I/home/nick/dl/neovim/.deps/usr/include -I/home/nick/dl/neovim/.deps/usr/include/luajit-2.1 -O2 -g -DNDEBUG -std=gnu99 -fPIC -o CMakeFiles/libluv_a.dir/src/luv.c.o -c /home/nick/dl/neovim/.deps/build/src/luv/src/luv.c",
+  "file": "/home/nick/dl/neovim/.deps/build/src/luv/src/luv.c",
+  "output": "CMakeFiles/libluv_a.dir/src/luv.c.o"
+}
+]

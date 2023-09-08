@@ -1,0 +1,13 @@
+# Target labels
+ luv-static
+# Source files and their labels
+/home/nick/dl/neovim/.deps/CMakeFiles/luv-static
+/home/nick/dl/neovim/.deps/CMakeFiles/luv-static.rule
+/home/nick/dl/neovim/.deps/CMakeFiles/luv-static-complete.rule
+/home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-build.rule
+/home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-configure.rule
+/home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-download.rule
+/home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-install.rule
+/home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-mkdir.rule
+/home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-patch.rule
+/home/nick/dl/neovim/.deps/build/src/luv-static-stamp/luv-static-update.rule

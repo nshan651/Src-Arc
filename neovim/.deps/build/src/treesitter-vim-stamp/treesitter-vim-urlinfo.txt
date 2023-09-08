@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/home/nick/dl/neovim/.deps/build/src/treesitter-vim-stamp/download-treesitter-vim.cmake;COMMAND;/usr/bin/cmake;-P;/home/nick/dl/neovim/.deps/build/src/treesitter-vim-stamp/verify-treesitter-vim.cmake;COMMAND;/usr/bin/cmake;-P;/home/nick/dl/neovim/.deps/build/src/treesitter-vim-stamp/extract-treesitter-vim.cmake
+source_dir=/home/nick/dl/neovim/.deps/build/src/treesitter-vim
+work_dir=/home/nick/dl/neovim/.deps/build/src
+url(s)=https://github.com/neovim/tree-sitter-vim/archive/v0.3.0.tar.gz
+hash=SHA256=403acec3efb7cdb18ff3d68640fc823502a4ffcdfbb71cec3f98aa786c21cbe2
+no_extract=
+

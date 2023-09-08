@@ -1,0 +1,1 @@
+/usr/bin/cc -O2 -g -DNDEBUG "CMakeFiles/vterm-ctrl.dir/bin/vterm-ctrl.c.o" -o vterm-ctrl  libvterm.a 

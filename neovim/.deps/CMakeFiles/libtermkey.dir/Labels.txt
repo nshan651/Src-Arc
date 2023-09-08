@@ -1,0 +1,13 @@
+# Target labels
+ libtermkey
+# Source files and their labels
+/home/nick/dl/neovim/.deps/CMakeFiles/libtermkey
+/home/nick/dl/neovim/.deps/CMakeFiles/libtermkey.rule
+/home/nick/dl/neovim/.deps/CMakeFiles/libtermkey-complete.rule
+/home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-build.rule
+/home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-configure.rule
+/home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-download.rule
+/home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-install.rule
+/home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-mkdir.rule
+/home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-patch.rule
+/home/nick/dl/neovim/.deps/build/src/libtermkey-stamp/libtermkey-update.rule
